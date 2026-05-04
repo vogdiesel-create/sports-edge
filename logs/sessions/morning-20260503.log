@@ -1,0 +1,36 @@
+=== Sports Edge Analyst Session: morning ===
+=== 2026-05-03 12:00 UTC ===
+
+---
+
+## Morning Analysis Summary — May 3, 2026
+
+### System Status
+- **OddsTr Sim**: $6,002 bankroll (+$1,002 PnL). Active markets 97W-45L (68.3%, 15.2% ROI)
+- **TB within -160 cap**: 38W-12L (76.0%, ~30% ROI) — crown jewel
+- **Game Model**: 33W-32L, -$47. Break-even. Not contributing.
+- **K-Props**: DEAD. 51W-50L. Permanent shutdown confirmed.
+
+### Key Findings Today
+
+1. **HA line filter implemented** — u4½ bets: 8W-3L (73%, +$281). u5½+: 7W-7L (50%, -$126). Only taking u4½ or tighter going forward (EXP-012).
+
+2. **Dead zone RESOLVED** — The 15-25% EV problem only existed beyond the -160 juice cap. Within cap: 15W-7L (68.2%), +$419. No additional filter needed. H040 closed.
+
+3. **25%+ EV TB pattern identified** — All 14-0 wins are u1½/u2½ on light-hitting bottom-of-order players. The model's best edge is identifying when books misprice weak hitters' extra-base probability.
+
+4. **Game model OVER-only has regressed** — 8W-7L-2P OVERs, -$49 since the switch. Back to coin-flipping. Not worth optimizing. All energy goes to OddsTr.
+
+### Today's Picks (4 OddsTr)
+- Michael Busch TB (-135, 20.5% EV) 
+- Luis Rengifo TB (-160, 11.5% EV)
+- Michael Harris TB (-105, 10.5% EV, Coors)
+- Steven Matz HA u5½ (-160, 20.3% EV) — pre-filter, natural test case
+
+### Changes Made
+- `oddstrader_scraper.py`: HA line filter — u4½ only, u5½+ skipped
+- `state/core.json`, `next-actions.json`, `active-experiments.json`: updated
+- `analysis/insights.md`: new May 3 section
+- `analysis/journal/2026-05-03-morning.md`: full writeup
+
+=== Session Complete: 2026-05-03 12:09 UTC ===

@@ -1,0 +1,1009 @@
+{
+  "n": 3868,
+  "mae": 1.8503437397812366,
+  "rmse": 2.3254837760783205,
+  "bias": -0.08681122813575373,
+  "correlation": 0.3340586427074724,
+  "results": [
+    {
+      "pitcher": "Justin Steele",
+      "date": "2025-04-07",
+      "expected": 4.81,
+      "actual": 8,
+      "error": 3.191063536114414,
+      "abs_error": 3.191063536114414,
+      "prior_games": 3,
+      "prior_ip": 15.7
+    },
+    {
+      "pitcher": "Shota Imanaga",
+      "date": "2025-04-09",
+      "expected": 5.2,
+      "actual": 4,
+      "error": -1.2002212860121704,
+      "abs_error": 1.2002212860121704,
+      "prior_games": 3,
+      "prior_ip": 18.3
+    },
+    {
+      "pitcher": "Yoshinobu Yamamoto",
+      "date": "2025-04-11",
+      "expected": 5.31,
+      "actual": 9,
+      "error": 3.6900584795321647,
+      "abs_error": 3.6900584795321647,
+      "prior_games": 3,
+      "prior_ip": 16.0
+    },
+    {
+      "pitcher": "Roki Sasaki",
+      "date": "2025-04-12",
+      "expected": 3.83,
+      "actual": 3,
+      "error": -0.8250570360662106,
+      "abs_error": 0.8250570360662106,
+      "prior_games": 3,
+      "prior_ip": 8.7
+    },
+    {
+      "pitcher": "Zack Wheeler",
+      "date": "2025-04-13",
+      "expected": 6.37,
+      "actual": 3,
+      "error": -3.3702710753649088,
+      "abs_error": 3.3702710753649088,
+      "prior_games": 3,
+      "prior_ip": 18.3
+    },
+    {
+      "pitcher": "Freddy Peralta",
+      "date": "2025-04-13",
+      "expected": 6.05,
+      "actual": 6,
+      "error": -0.0512820512820511,
+      "abs_error": 0.0512820512820511,
+      "prior_games": 3,
+      "prior_ip": 18.0
+    },
+    {
+      "pitcher": "Chris Sale",
+      "date": "2025-04-13",
+      "expected": 4.82,
+      "actual": 7,
+      "error": 2.1757064416767102,
+      "abs_error": 2.1757064416767102,
+      "prior_games": 3,
+      "prior_ip": 14.7
+    },
+    {
+      "pitcher": "Kyle Freeland",
+      "date": "2025-04-13",
+      "expected": 5.75,
+      "actual": 2,
+      "error": -3.7454289732770754,
+      "abs_error": 3.7454289732770754,
+      "prior_games": 3,
+      "prior_ip": 19.0
+    },
+    {
+      "pitcher": "MacKenzie Gore",
+      "date": "2025-04-13",
+      "expected": 6.01,
+      "actual": 7,
+      "error": 0.9898989898989887,
+      "abs_error": 0.9898989898989887,
+      "prior_games": 3,
+      "prior_ip": 17.0
+    },
+    {
+      "pitcher": "Carlos Rod\u00f3n",
+      "date": "2025-04-13",
+      "expected": 5.73,
+      "actual": 8,
+      "error": 2.2728853255169055,
+      "abs_error": 2.2728853255169055,
+      "prior_games": 3,
+      "prior_ip": 17.3
+    },
+    {
+      "pitcher": "Nathan Eovaldi",
+      "date": "2025-04-13",
+      "expected": 6.39,
+      "actual": 3,
+      "error": -3.3917967170132357,
+      "abs_error": 3.3917967170132357,
+      "prior_games": 3,
+      "prior_ip": 19.7
+    },
+    {
+      "pitcher": "Hunter Greene",
+      "date": "2025-04-13",
+      "expected": 6.8,
+      "actual": 8,
+      "error": 1.1956943927936843,
+      "abs_error": 1.1956943927936843,
+      "prior_games": 3,
+      "prior_ip": 20.7
+    },
+    {
+      "pitcher": "Jos\u00e9 Berr\u00edos",
+      "date": "2025-04-13",
+      "expected": 5.43,
+      "actual": 6,
+      "error": 0.5652547100982792,
+      "abs_error": 0.5652547100982792,
+      "prior_games": 3,
+      "prior_ip": 17.7
+    },
+    {
+      "pitcher": "Michael King",
+      "date": "2025-04-13",
+      "expected": 4.41,
+      "actual": 8,
+      "error": 3.5941581068387727,
+      "abs_error": 3.5941581068387727,
+      "prior_games": 3,
+      "prior_ip": 13.3
+    },
+    {
+      "pitcher": "Logan Gilbert",
+      "date": "2025-04-13",
+      "expected": 6.19,
+      "actual": 7,
+      "error": 0.806918158018969,
+      "abs_error": 0.806918158018969,
+      "prior_games": 3,
+      "prior_ip": 17.7
+    },
+    {
+      "pitcher": "Luis Severino",
+      "date": "2025-04-13",
+      "expected": 5.75,
+      "actual": 6,
+      "error": 0.25457102672292464,
+      "abs_error": 0.25457102672292464,
+      "prior_games": 3,
+      "prior_ip": 19.0
+    },
+    {
+      "pitcher": "Zac Gallen",
+      "date": "2025-04-13",
+      "expected": 5.14,
+      "actual": 5,
+      "error": -0.13550423266377631,
+      "abs_error": 0.13550423266377631,
+      "prior_games": 3,
+      "prior_ip": 15.3
+    },
+    {
+      "pitcher": "Garrett Crochet",
+      "date": "2025-04-13",
+      "expected": 5.83,
+      "actual": 11,
+      "error": 5.172464443597024,
+      "abs_error": 5.172464443597024,
+      "prior_games": 3,
+      "prior_ip": 18.7
+    },
+    {
+      "pitcher": "Logan Webb",
+      "date": "2025-04-13",
+      "expected": 6.23,
+      "actual": 5,
+      "error": -1.2264416315049234,
+      "abs_error": 1.2264416315049234,
+      "prior_games": 3,
+      "prior_ip": 19.0
+    },
+    {
+      "pitcher": "Ben Lively",
+      "date": "2025-04-13",
+      "expected": 4.35,
+      "actual": 5,
+      "error": 0.6515389329865311,
+      "abs_error": 0.6515389329865311,
+      "prior_games": 3,
+      "prior_ip": 14.3
+    },
+    {
+      "pitcher": "Cole Ragans",
+      "date": "2025-04-13",
+      "expected": 5.66,
+      "actual": 10,
+      "error": 4.339181286549708,
+      "abs_error": 4.339181286549708,
+      "prior_games": 3,
+      "prior_ip": 16.0
+    },
+    {
+      "pitcher": "Sonny Gray",
+      "date": "2025-04-14",
+      "expected": 5.31,
+      "actual": 4,
+      "error": -1.3099415204678353,
+      "abs_error": 1.3099415204678353,
+      "prior_games": 3,
+      "prior_ip": 16.0
+    },
+    {
+      "pitcher": "Antonio Senzatela",
+      "date": "2025-04-14",
+      "expected": 3.95,
+      "actual": 1,
+      "error": -2.9496628673544474,
+      "abs_error": 2.9496628673544474,
+      "prior_games": 3,
+      "prior_ip": 14.0
+    },
+    {
+      "pitcher": "Jameson Taillon",
+      "date": "2025-04-14",
+      "expected": 5.04,
+      "actual": 4,
+      "error": -1.039463149773642,
+      "abs_error": 1.039463149773642,
+      "prior_games": 3,
+      "prior_ip": 16.3
+    },
+    {
+      "pitcher": "Dylan Cease",
+      "date": "2025-04-14",
+      "expected": 4.89,
+      "actual": 6,
+      "error": 1.1128969848498373,
+      "abs_error": 1.1128969848498373,
+      "prior_games": 3,
+      "prior_ip": 14.7
+    },
+    {
+      "pitcher": "Seth Lugo",
+      "date": "2025-04-14",
+      "expected": 4.98,
+      "actual": 4,
+      "error": -0.9766242047447218,
+      "abs_error": 0.9766242047447218,
+      "prior_games": 3,
+      "prior_ip": 16.7
+    },
+    {
+      "pitcher": "Paul Skenes",
+      "date": "2025-04-14",
+      "expected": 5.98,
+      "actual": 6,
+      "error": 0.019745521086004025,
+      "abs_error": 0.019745521086004025,
+      "prior_games": 3,
+      "prior_ip": 18.3
+    },
+    {
+      "pitcher": "Framber Valdez",
+      "date": "2025-04-14",
+      "expected": 5.97,
+      "actual": 3,
+      "error": -2.9743589743589745,
+      "abs_error": 2.9743589743589745,
+      "prior_games": 3,
+      "prior_ip": 18.0
+    },
+    {
+      "pitcher": "Clay Holmes",
+      "date": "2025-04-14",
+      "expected": 5.02,
+      "actual": 8,
+      "error": 2.979241998125084,
+      "abs_error": 2.979241998125084,
+      "prior_games": 3,
+      "prior_ip": 14.7
+    },
+    {
+      "pitcher": "Tanner Houck",
+      "date": "2025-04-14",
+      "expected": 4.76,
+      "actual": 1,
+      "error": -3.756498704625506,
+      "abs_error": 3.756498704625506,
+      "prior_games": 3,
+      "prior_ip": 16.3
+    },
+    {
+      "pitcher": "Tarik Skubal",
+      "date": "2025-04-14",
+      "expected": 5.27,
+      "actual": 9,
+      "error": 3.733475356143934,
+      "abs_error": 3.733475356143934,
+      "prior_games": 3,
+      "prior_ip": 16.7
+    },
+    {
+      "pitcher": "Joe Ryan",
+      "date": "2025-04-14",
+      "expected": 5.27,
+      "actual": 8,
+      "error": 2.725829725829726,
+      "abs_error": 2.725829725829726,
+      "prior_games": 3,
+      "prior_ip": 17.0
+    },
+    {
+      "pitcher": "Yusei Kikuchi",
+      "date": "2025-04-15",
+      "expected": 5.59,
+      "actual": 6,
+      "error": 0.4102564102564106,
+      "abs_error": 0.4102564102564106,
+      "prior_games": 3,
+      "prior_ip": 18.0
+    },
+    {
+      "pitcher": "Shota Imanaga",
+      "date": "2025-04-15",
+      "expected": 4.95,
+      "actual": 7,
+      "error": 2.0538421536861478,
+      "abs_error": 2.0538421536861478,
+      "prior_games": 4,
+      "prior_ip": 23.3
+    },
+    {
+      "pitcher": "Jack Flaherty",
+      "date": "2025-04-15",
+      "expected": 5.63,
+      "actual": 4,
+      "error": -1.6289001927452444,
+      "abs_error": 1.6289001927452444,
+      "prior_games": 3,
+      "prior_ip": 16.7
+    },
+    {
+      "pitcher": "Walker Buehler",
+      "date": "2025-04-15",
+      "expected": 4.88,
+      "actual": 3,
+      "error": -1.8754956383822359,
+      "abs_error": 1.8754956383822359,
+      "prior_games": 3,
+      "prior_ip": 15.7
+    },
+    {
+      "pitcher": "Luis Castillo",
+      "date": "2025-04-15",
+      "expected": 5.27,
+      "actual": 3,
+      "error": -2.274170274170274,
+      "abs_error": 2.274170274170274,
+      "prior_games": 3,
+      "prior_ip": 17.0
+    },
+    {
+      "pitcher": "Hunter Brown",
+      "date": "2025-04-15",
+      "expected": 5.74,
+      "actual": 4,
+      "error": -1.7435897435897427,
+      "abs_error": 1.7435897435897427,
+      "prior_games": 3,
+      "prior_ip": 18.0
+    },
+    {
+      "pitcher": "Max Fried",
+      "date": "2025-04-15",
+      "expected": 5.8,
+      "actual": 7,
+      "error": 1.1955865873631577,
+      "abs_error": 1.1955865873631577,
+      "prior_games": 3,
+      "prior_ip": 17.3
+    },
+    {
+      "pitcher": "Bailey Ober",
+      "date": "2025-04-15",
+      "expected": 3.99,
+      "actual": 5,
+      "error": 1.0093267892910114,
+      "abs_error": 1.0093267892910114,
+      "prior_games": 3,
+      "prior_ip": 12.7
+    },
+    {
+      "pitcher": "Merrill Kelly",
+      "date": "2025-04-15",
+      "expected": 4.24,
+      "actual": 9,
+      "error": 4.755555555555555,
+      "abs_error": 4.755555555555555,
+      "prior_games": 3,
+      "prior_ip": 15.0
+    },
+    {
+      "pitcher": "Mitch Keller",
+      "date": "2025-04-15",
+      "expected": 5.2,
+      "actual": 3,
+      "error": -2.200577200577201,
+      "abs_error": 2.200577200577201,
+      "prior_games": 3,
+      "prior_ip": 17.0
+    },
+    {
+      "pitcher": "Kevin Gausman",
+      "date": "2025-04-15",
+      "expected": 5.74,
+      "actual": 6,
+      "error": 0.2603190610249726,
+      "abs_error": 0.2603190610249726,
+      "prior_games": 3,
+      "prior_ip": 19.3
+    },
+    {
+      "pitcher": "Randy V\u00e1squez",
+      "date": "2025-04-15",
+      "expected": 4.33,
+      "actual": 2,
+      "error": -2.325741890959282,
+      "abs_error": 2.325741890959282,
+      "prior_games": 3,
+      "prior_ip": 15.7
+    },
+    {
+      "pitcher": "Nick Lodolo",
+      "date": "2025-04-15",
+      "expected": 5.12,
+      "actual": 6,
+      "error": 0.8844258011666177,
+      "abs_error": 0.8844258011666177,
+      "prior_games": 3,
+      "prior_ip": 18.7
+    },
+    {
+      "pitcher": "Ryan Feltner",
+      "date": "2025-04-15",
+      "expected": 5.1,
+      "actual": 1,
+      "error": -4.099415204678362,
+      "abs_error": 4.099415204678362,
+      "prior_games": 3,
+      "prior_ip": 16.0
+    },
+    {
+      "pitcher": "Connor Gillispie",
+      "date": "2025-04-15",
+      "expected": 4.33,
+      "actual": 6,
+      "error": 1.669669669669669,
+      "abs_error": 1.669669669669669,
+      "prior_games": 3,
+      "prior_ip": 14.0
+    },
+    {
+      "pitcher": "Erick Fedde",
+      "date": "2025-04-15",
+      "expected": 4.11,
+      "actual": 5,
+      "error": 0.8888888888888884,
+      "abs_error": 0.8888888888888884,
+      "prior_games": 3,
+      "prior_ip": 15.0
+    },
+    {
+      "pitcher": "Jake Irvin",
+      "date": "2025-04-15",
+      "expected": 4.82,
+      "actual": 6,
+      "error": 1.1812865497076022,
+      "abs_error": 1.1812865497076022,
+      "prior_games": 3,
+      "prior_ip": 16.0
+    },
+    {
+      "pitcher": "Sean Burke",
+      "date": "2025-04-15",
+      "expected": 3.92,
+      "actual": 2,
+      "error": -1.9183902298589333,
+      "abs_error": 1.9183902298589333,
+      "prior_games": 3,
+      "prior_ip": 13.3
+    },
+    {
+      "pitcher": "Spencer Schwellenbach",
+      "date": "2025-04-15",
+      "expected": 6.31,
+      "actual": 3,
+      "error": -3.3055555555555554,
+      "abs_error": 3.3055555555555554,
+      "prior_games": 3,
+      "prior_ip": 20.0
+    },
+    {
+      "pitcher": "Ryan Pepiot",
+      "date": "2025-04-15",
+      "expected": 5.1,
+      "actual": 8,
+      "error": 2.900584795321638,
+      "abs_error": 2.900584795321638,
+      "prior_games": 3,
+      "prior_ip": 16.0
+    },
+    {
+      "pitcher": "Michael Wacha",
+      "date": "2025-04-15",
+      "expected": 4.51,
+      "actual": 4,
+      "error": -0.511111111111112,
+      "abs_error": 0.511111111111112,
+      "prior_games": 3,
+      "prior_ip": 15.0
+    },
+    {
+      "pitcher": "Charlie Morton",
+      "date": "2025-04-15",
+      "expected": 4.46,
+      "actual": 2,
+      "error": -2.463733199993939,
+      "abs_error": 2.463733199993939,
+      "prior_games": 3,
+      "prior_ip": 13.3
+    },
+    {
+      "pitcher": "Tylor Megill",
+      "date": "2025-04-15",
+      "expected": 4.73,
+      "actual": 3,
+      "error": -1.7340388956156483,
+      "abs_error": 1.7340388956156483,
+      "prior_games": 3,
+      "prior_ip": 14.3
+    },
+    {
+      "pitcher": "Jes\u00fas Luzardo",
+      "date": "2025-04-15",
+      "expected": 6.28,
+      "actual": 4,
+      "error": -2.282051282051282,
+      "abs_error": 2.282051282051282,
+      "prior_games": 3,
+      "prior_ip": 18.0
+    },
+    {
+      "pitcher": "Tyler Mahle",
+      "date": "2025-04-15",
+      "expected": 4.25,
+      "actual": 9,
+      "error": 4.752801532359019,
+      "abs_error": 4.752801532359019,
+      "prior_games": 3,
+      "prior_ip": 13.7
+    },
+    {
+      "pitcher": "Justin Verlander",
+      "date": "2025-04-15",
+      "expected": 4.31,
+      "actual": 1,
+      "error": -3.313546423135464,
+      "abs_error": 3.313546423135464,
+      "prior_games": 3,
+      "prior_ip": 13.0
+    },
+    {
+      "pitcher": "Jeffrey Springs",
+      "date": "2025-04-15",
+      "expected": 4.84,
+      "actual": 4,
+      "error": -0.844444444444445,
+      "abs_error": 0.844444444444445,
+      "prior_games": 3,
+      "prior_ip": 15.0
+    },
+    {
+      "pitcher": "Bailey Falter",
+      "date": "2025-04-16",
+      "expected": 4.64,
+      "actual": 2,
+      "error": -2.6444444444444457,
+      "abs_error": 2.6444444444444457,
+      "prior_games": 3,
+      "prior_ip": 15.0
+    },
+    {
+      "pitcher": "Ronel Blanco",
+      "date": "2025-04-16",
+      "expected": 4.06,
+      "actual": 1,
+      "error": -3.0556253197525693,
+      "abs_error": 3.0556253197525693,
+      "prior_games": 3,
+      "prior_ip": 11.7
+    },
+    {
+      "pitcher": "Robbie Ray",
+      "date": "2025-04-16",
+      "expected": 4.73,
+      "actual": 8,
+      "error": 3.2741714235143142,
+      "abs_error": 3.2741714235143142,
+      "prior_games": 3,
+      "prior_ip": 15.3
+    },
+    {
+      "pitcher": "Mitchell Parker",
+      "date": "2025-04-16",
+      "expected": 5.2,
+      "actual": 6,
+      "error": 0.7997787139878296,
+      "abs_error": 0.7997787139878296,
+      "prior_games": 3,
+      "prior_ip": 18.3
+    },
+    {
+      "pitcher": "Germ\u00e1n M\u00e1rquez",
+      "date": "2025-04-16",
+      "expected": 4.6,
+      "actual": 1,
+      "error": -3.6018530754885987,
+      "abs_error": 3.6018530754885987,
+      "prior_games": 3,
+      "prior_ip": 15.7
+    },
+    {
+      "pitcher": "Zack Littell",
+      "date": "2025-04-16",
+      "expected": 5.2,
+      "actual": 5,
+      "error": -0.20057720057720108,
+      "abs_error": 0.20057720057720108,
+      "prior_games": 3,
+      "prior_ip": 17.0
+    },
+    {
+      "pitcher": "Gavin Williams",
+      "date": "2025-04-16",
+      "expected": 4.19,
+      "actual": 4,
+      "error": -0.19482496194824872,
+      "abs_error": 0.19482496194824872,
+      "prior_games": 3,
+      "prior_ip": 13.0
+    },
+    {
+      "pitcher": "Aaron Nola",
+      "date": "2025-04-16",
+      "expected": 5.25,
+      "actual": 8,
+      "error": 2.7465973768869096,
+      "abs_error": 2.7465973768869096,
+      "prior_games": 3,
+      "prior_ip": 16.3
+    },
+    {
+      "pitcher": "Sean Newcomb",
+      "date": "2025-04-16",
+      "expected": 4.17,
+      "actual": 4,
+      "error": -0.16502301117685736,
+      "abs_error": 0.16502301117685736,
+      "prior_games": 3,
+      "prior_ip": 12.7
+    },
+    {
+      "pitcher": "Jonathan Cannon",
+      "date": "2025-04-16",
+      "expected": 4.46,
+      "actual": 4,
+      "error": -0.4564564564564568,
+      "abs_error": 0.4564564564564568,
+      "prior_games": 3,
+      "prior_ip": 14.0
+    },
+    {
+      "pitcher": "Kris Bubic",
+      "date": "2025-04-16",
+      "expected": 6.14,
+      "actual": 6,
+      "error": -0.14396282643390812,
+      "abs_error": 0.14396282643390812,
+      "prior_games": 3,
+      "prior_ip": 18.7
+    },
+    {
+      "pitcher": "Jos\u00e9 Soriano",
+      "date": "2025-04-16",
+      "expected": 6.22,
+      "actual": 2,
+      "error": -4.222222222222223,
+      "abs_error": 4.222222222222223,
+      "prior_games": 3,
+      "prior_ip": 20.0
+    },
+    {
+      "pitcher": "Bryce Miller",
+      "date": "2025-04-16",
+      "expected": 4.89,
+      "actual": 8,
+      "error": 3.1111111111111116,
+      "abs_error": 3.1111111111111116,
+      "prior_games": 3,
+      "prior_ip": 16.0
+    },
+    {
+      "pitcher": "Max Meyer",
+      "date": "2025-04-16",
+      "expected": 5.82,
+      "actual": 8,
+      "error": 2.1794871794871806,
+      "abs_error": 2.1794871794871806,
+      "prior_games": 3,
+      "prior_ip": 18.0
+    },
+    {
+      "pitcher": "Dean Kremer",
+      "date": "2025-04-16",
+      "expected": 4.35,
+      "actual": 2,
+      "error": -2.348461067013469,
+      "abs_error": 2.348461067013469,
+      "prior_games": 3,
+      "prior_ip": 14.3
+    },
+    {
+      "pitcher": "Nick Martinez",
+      "date": "2025-04-16",
+      "expected": 5.11,
+      "actual": 4,
+      "error": -1.1132361074724182,
+      "abs_error": 1.1132361074724182,
+      "prior_games": 3,
+      "prior_ip": 16.3
+    },
+    {
+      "pitcher": "Osvaldo Bido",
+      "date": "2025-04-16",
+      "expected": 4.71,
+      "actual": 0,
+      "error": -4.711111111111111,
+      "abs_error": 4.711111111111111,
+      "prior_games": 3,
+      "prior_ip": 15.0
+    },
+    {
+      "pitcher": "Brandon Pfaadt",
+      "date": "2025-04-16",
+      "expected": 5.28,
+      "actual": 6,
+      "error": 0.7179487179487181,
+      "abs_error": 0.7179487179487181,
+      "prior_games": 3,
+      "prior_ip": 18.0
+    },
+    {
+      "pitcher": "Chris Bassitt",
+      "date": "2025-04-16",
+      "expected": 6.06,
+      "actual": 10,
+      "error": 3.9392108473037757,
+      "abs_error": 3.9392108473037757,
+      "prior_games": 3,
+      "prior_ip": 18.3
+    },
+    {
+      "pitcher": "Matthew Boyd",
+      "date": "2025-04-16",
+      "expected": 5.42,
+      "actual": 3,
+      "error": -2.421356421356421,
+      "abs_error": 2.421356421356421,
+      "prior_games": 3,
+      "prior_ip": 17.0
+    },
+    {
+      "pitcher": "Davis Martin",
+      "date": "2025-04-17",
+      "expected": 4.91,
+      "actual": 3,
+      "error": -1.9062049062049065,
+      "abs_error": 1.9062049062049065,
+      "prior_games": 3,
+      "prior_ip": 17.0
+    },
+    {
+      "pitcher": "Reese Olson",
+      "date": "2025-04-17",
+      "expected": 4.64,
+      "actual": 5,
+      "error": 0.3555555555555543,
+      "abs_error": 0.3555555555555543,
+      "prior_games": 3,
+      "prior_ip": 15.0
+    },
+    {
+      "pitcher": "Griffin Canning",
+      "date": "2025-04-17",
+      "expected": 4.64,
+      "actual": 8,
+      "error": 3.3555555555555543,
+      "abs_error": 3.3555555555555543,
+      "prior_games": 3,
+      "prior_ip": 15.0
+    },
+    {
+      "pitcher": "Tanner Bibee",
+      "date": "2025-04-17",
+      "expected": 4.29,
+      "actual": 5,
+      "error": 0.7133889337279173,
+      "abs_error": 0.7133889337279173,
+      "prior_games": 3,
+      "prior_ip": 14.3
+    },
+    {
+      "pitcher": "Will Warren",
+      "date": "2025-04-17",
+      "expected": 4.52,
+      "actual": 1,
+      "error": -3.5195195195195197,
+      "abs_error": 3.5195195195195197,
+      "prior_games": 3,
+      "prior_ip": 14.0
+    },
+    {
+      "pitcher": "Jordan Hicks",
+      "date": "2025-04-17",
+      "expected": 4.79,
+      "actual": 5,
+      "error": 0.2063365635647587,
+      "abs_error": 0.2063365635647587,
+      "prior_games": 3,
+      "prior_ip": 15.3
+    },
+    {
+      "pitcher": "Jack Kochanowicz",
+      "date": "2025-04-17",
+      "expected": 4.53,
+      "actual": 1,
+      "error": -3.5328252793562696,
+      "abs_error": 3.5328252793562696,
+      "prior_games": 3,
+      "prior_ip": 15.7
+    },
+    {
+      "pitcher": "Andre Pallante",
+      "date": "2025-04-17",
+      "expected": 4.97,
+      "actual": 2,
+      "error": -2.968149991993827,
+      "abs_error": 2.968149991993827,
+      "prior_games": 3,
+      "prior_ip": 16.3
+    },
+    {
+      "pitcher": "Michael Lorenzen",
+      "date": "2025-04-17",
+      "expected": 5.2,
+      "actual": 3,
+      "error": -2.200577200577201,
+      "abs_error": 2.200577200577201,
+      "prior_games": 3,
+      "prior_ip": 17.0
+    },
+    {
+      "pitcher": "Brady Singer",
+      "date": "2025-04-17",
+      "expected": 5.49,
+      "actual": 6,
+      "error": 0.5050505050505052,
+      "abs_error": 0.5050505050505052,
+      "prior_games": 3,
+      "prior_ip": 17.0
+    },
+    {
+      "pitcher": "Kumar Rocker",
+      "date": "2025-04-17",
+      "expected": 3.51,
+      "actual": 8,
+      "error": 4.485817094256742,
+      "abs_error": 4.485817094256742,
+      "prior_games": 3,
+      "prior_ip": 11.3
+    },
+    {
+      "pitcher": "JP Sears",
+      "date": "2025-04-17",
+      "expected": 5.35,
+      "actual": 2,
+      "error": -3.3477633477633484,
+      "abs_error": 3.3477633477633484,
+      "prior_games": 3,
+      "prior_ip": 17.0
+    },
+    {
+      "pitcher": "Trevor Williams",
+      "date": "2025-04-17",
+      "expected": 4.43,
+      "actual": 5,
+      "error": 0.5686353287799655,
+      "abs_error": 0.5686353287799655,
+      "prior_games": 3,
+      "prior_ip": 14.7
+    },
+    {
+      "pitcher": "Andrew Heaney",
+      "date": "2025-04-17",
+      "expected": 5.74,
+      "actual": 4,
+      "error": -1.7435897435897427,
+      "abs_error": 1.7435897435897427,
+      "prior_games": 3,
+      "prior_ip": 18.0
+    },
+    {
+      "pitcher": "Tomoyuki Sugano",
+      "date": "2025-04-17",
+      "expected": 3.89,
+      "actual": 3,
+      "error": -0.8888888888888888,
+      "abs_error": 0.8888888888888888,
+      "prior_games": 3,
+      "prior_ip": 14.0
+    },
+    {
+      "pitcher": "Eduardo Rodriguez",
+      "date": "2025-04-17",
+      "expected": 5.55,
+      "actual": 9,
+      "error": 3.446183726121112,
+      "abs_error": 3.446183726121112,
+      "prior_games": 3,
+      "prior_ip": 16.7
+    },
+    {
+      "pitcher": "Cristopher S\u00e1nchez",
+      "date": "2025-04-17",
+      "expected": 5.65,
+      "actual": 12,
+      "error": 6.347586821271032,
+      "abs_error": 6.347586821271032,
+      "prior_games": 3,
+      "prior_ip": 17.3
+    },
+    {
+      "pitcher": "Taj Bradley",
+      "date": "2025-04-17",
+      "expected": 5.72,
+      "actual": 3,
+      "error": -2.7157287157287167,
+      "abs_error": 2.7157287157287167,
+      "prior_games": 3,
+      "prior_ip": 17.0
+    },
+    {
+      "pitcher": "Zack Wheeler",
+      "date": "2025-04-18",
+      "expected": 6.11,
+      "actual": 13,
+      "error": 6.893217123206451,
+      "abs_error": 6.893217123206451,
+      "prior_games": 4,
+      "prior_ip": 24.3
+    },
+    {
+      "pitcher": "Freddy Peralta",
+      "date": "2025-04-18",
+      "expected": 5.93,
+      "actual": 5,
+      "error": -0.9260570422816912,
+      "abs_error": 0.9260570422816912,
+      "prior_games": 4,
+      "prior_ip": 23.3
+    },
+    {
+      "pitcher": "Yoshinobu Yamamoto",
+      "date": "2025-04-18",
+      "expected": 5.68,
+      "actual": 10,
+      "error": 4.321138211382113,
+      "abs_error": 4.321138211382113,
+      "prior_games": 4,
+      "prior_ip": 22.0
+    }
+  ]
+}

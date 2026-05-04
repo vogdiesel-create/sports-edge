@@ -1,0 +1,276 @@
+{
+  "timestamp": "2026-04-28T20:17:29.420670+00:00",
+  "version": "2.0",
+  "picks": [
+    {
+      "source": "game_line_v2",
+      "sport": "MLB",
+      "game": "CH Cubs @ San Diego",
+      "bet": "total over 9.5 @ unibet",
+      "odds": "+110",
+      "edge": "4.3%",
+      "ev": "9.0%",
+      "kelly": "2.0%",
+      "confidence": "HIGH",
+      "tier": "A"
+    },
+    {
+      "source": "game_line_v2",
+      "sport": "MLB",
+      "game": "L.A. Angels @ CH White Sox",
+      "bet": "total over 9 @ betonline",
+      "odds": "+110",
+      "edge": "3.8%",
+      "ev": "8.0%",
+      "kelly": "1.8%",
+      "confidence": "MEDIUM",
+      "tier": "C"
+    },
+    {
+      "source": "game_line_v2",
+      "sport": "NHL",
+      "game": "Boston Bruins @ Buffalo Sabres",
+      "bet": "total under 5.5 @ draftkings",
+      "odds": "+110",
+      "edge": "3.7%",
+      "ev": "7.7%",
+      "kelly": "1.8%",
+      "confidence": "MEDIUM",
+      "tier": "C"
+    },
+    {
+      "source": "oddstrader_ev",
+      "sport": "MLB",
+      "game": "SF @ PHI",
+      "player": "Brandon Marsh",
+      "bet": "Total Bases -165",
+      "ev": "+25.4%",
+      "edge": "+25.4%",
+      "fair_prob": "88%",
+      "kelly": "2.00%",
+      "confidence": "HIGH",
+      "tier": "A"
+    },
+    {
+      "source": "oddstrader_ev",
+      "sport": "MLB",
+      "game": "WSH @ NYM",
+      "player": "Ronny Mauricio",
+      "bet": "Total Bases -185",
+      "ev": "+24.8%",
+      "edge": "+24.8%",
+      "fair_prob": "90%",
+      "kelly": "2.00%",
+      "confidence": "HIGH",
+      "tier": "A"
+    },
+    {
+      "source": "oddstrader_ev",
+      "sport": "MLB",
+      "game": "SF @ PHI",
+      "player": "Tyler Mahle",
+      "bet": "Total Earned Runs -105",
+      "ev": "+23.2%",
+      "edge": "+23.2%",
+      "fair_prob": "74%",
+      "kelly": "2.00%",
+      "confidence": "HIGH",
+      "tier": "A"
+    },
+    {
+      "source": "oddstrader_ev",
+      "sport": "MLB",
+      "game": "COL @ CIN",
+      "player": "TJ Friedl",
+      "bet": "Total Bases -120",
+      "ev": "+21.9%",
+      "edge": "+21.9%",
+      "fair_prob": "76%",
+      "kelly": "2.00%",
+      "confidence": "HIGH",
+      "tier": "A"
+    },
+    {
+      "source": "oddstrader_ev",
+      "sport": "MLB",
+      "game": "COL @ CIN",
+      "player": "Rece Hinds",
+      "bet": "Total Bases -180",
+      "ev": "+20.3%",
+      "edge": "+20.3%",
+      "fair_prob": "85%",
+      "kelly": "2.00%",
+      "confidence": "HIGH",
+      "tier": "A"
+    },
+    {
+      "source": "oddstrader_ev",
+      "sport": "MLB",
+      "game": "STL @ PIT",
+      "player": "Kyle Leahy",
+      "bet": "Total Strikeouts +125",
+      "ev": "+20.3%",
+      "edge": "+20.3%",
+      "fair_prob": "65%",
+      "kelly": "2.00%",
+      "confidence": "HIGH",
+      "tier": "A"
+    },
+    {
+      "source": "oddstrader_ev",
+      "sport": "MLB",
+      "game": "KC @ ATH",
+      "player": "Bobby Witt",
+      "bet": "Total Bases +115",
+      "ev": "+17.1%",
+      "edge": "+17.1%",
+      "fair_prob": "64%",
+      "kelly": "2.00%",
+      "confidence": "HIGH",
+      "tier": "A"
+    },
+    {
+      "source": "oddstrader_ev",
+      "sport": "MLB",
+      "game": "STL @ PIT",
+      "player": "Marcell Ozuna",
+      "bet": "Total Bases -200",
+      "ev": "+16.1%",
+      "edge": "+16.1%",
+      "fair_prob": "83%",
+      "kelly": "2.00%",
+      "confidence": "HIGH",
+      "tier": "A"
+    },
+    {
+      "source": "oddstrader_ev",
+      "sport": "MLB",
+      "game": "COL @ CIN",
+      "player": "Spencer Steer",
+      "bet": "Total Bases -160",
+      "ev": "+14.7%",
+      "edge": "+14.7%",
+      "fair_prob": "76%",
+      "kelly": "2.00%",
+      "confidence": "HIGH",
+      "tier": "B"
+    },
+    {
+      "source": "oddstrader_ev",
+      "sport": "MLB",
+      "game": "CHC @ SD",
+      "player": "Fernando Tatis",
+      "bet": "Total Bases -145",
+      "ev": "+14.2%",
+      "edge": "+14.2%",
+      "fair_prob": "73%",
+      "kelly": "2.00%",
+      "confidence": "HIGH",
+      "tier": "B"
+    },
+    {
+      "source": "fd_correlation",
+      "sport": "NBA",
+      "game": "Orlando Magic @ Detroit Pistons",
+      "player": "Cade Cunningham Over",
+      "bet": "UNDER_PR 34.5",
+      "edge": "21.5 pts discrepancy",
+      "confidence": "HIGH"
+    },
+    {
+      "source": "fd_correlation",
+      "sport": "NBA",
+      "game": "Orlando Magic @ Detroit Pistons",
+      "player": "Cade Cunningham Under",
+      "bet": "UNDER_PR 34.5",
+      "edge": "21.5 pts discrepancy",
+      "confidence": "HIGH"
+    },
+    {
+      "source": "fd_correlation",
+      "sport": "NBA",
+      "game": "Orlando Magic @ Detroit Pistons",
+      "player": "Cade Cunningham Over",
+      "bet": "UNDER_PRA 43.5",
+      "edge": "21.0 pts discrepancy",
+      "confidence": "HIGH"
+    }
+  ],
+  "game_lines": {
+    "raw": 11,
+    "filtered": 3,
+    "rejected": {
+      "edge_too_high_stale": 3,
+      "edge_too_low": 5
+    },
+    "opportunities": 3,
+    "top_picks": [
+      {
+        "sport": "MLB",
+        "game": "CH Cubs @ San Diego",
+        "market": "total",
+        "side": "over",
+        "book": "unibet",
+        "odds": 110,
+        "line": 9.5,
+        "fair_prob": 0.5188,
+        "implied_prob": 0.4762,
+        "edge": 0.0427,
+        "ev": 0.0896,
+        "pinnacle_odds": -117,
+        "kelly_pct": 2.04,
+        "tier": "A",
+        "confidence": "HIGH"
+      },
+      {
+        "sport": "MLB",
+        "game": "L.A. Angels @ CH White Sox",
+        "market": "total",
+        "side": "over",
+        "book": "betonline",
+        "odds": 110,
+        "line": 9,
+        "fair_prob": 0.5144,
+        "implied_prob": 0.4762,
+        "edge": 0.0382,
+        "ev": 0.0802,
+        "pinnacle_odds": -115,
+        "kelly_pct": 1.82,
+        "tier": "C",
+        "confidence": "MEDIUM"
+      },
+      {
+        "sport": "NHL",
+        "game": "Boston Bruins @ Buffalo Sabres",
+        "market": "total",
+        "side": "under",
+        "book": "draftkings",
+        "odds": 110,
+        "line": 5.5,
+        "fair_prob": 0.513,
+        "implied_prob": 0.4762,
+        "edge": 0.0368,
+        "ev": 0.0773,
+        "pinnacle_odds": -116,
+        "kelly_pct": 1.76,
+        "tier": "C",
+        "confidence": "MEDIUM"
+      }
+    ]
+  },
+  "player_props": {
+    "props_count": 9782,
+    "line_moves": 20,
+    "correlation_alerts": 20
+  },
+  "backtest": {
+    "bets": 1,
+    "win_rate": 100.0,
+    "pnl": 12.31,
+    "roi": 125.1
+  },
+  "oddstrader_props": {
+    "total_scraped": 414,
+    "actionable": 23
+  }
+}

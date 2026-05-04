@@ -1,0 +1,233 @@
+  Continuous mode: every 30 minutes
+
+  === Cycle 1/16 (03:49 UTC) ===
+
+======================================================================
+  SPORTS EDGE - UNIFIED SCAN
+  2026-04-13 03:49 UTC
+======================================================================
+
+======================================================================
+  PHASE 1: GAME LINES (10+ books via SBR)
+======================================================================
+
+======================================================================
+  GAME LINE CROSS-BOOK SCANNER (Pinnacle Benchmark)
+  2026-04-13 03:49 UTC
+======================================================================
+
+  [NBA] Fetching...
+  [NBA] 19 games (4 upcoming)
+  [NBA] 186 lines tracked, 0 +EV opportunities
+
+  [MLB] Fetching...
+  [MLB] 27 games (12 upcoming)
+  [MLB] 582 lines tracked, 13 +EV opportunities
+
+  [NHL] Fetching...
+  [NHL] 17 games (11 upcoming)
+  [NHL] 444 lines tracked, 24 +EV opportunities
+
+======================================================================
+  RESULTS
+======================================================================
+  Total lines tracked: 1212
+  +EV opportunities: 37
+
+  TOP +EV PLAYS:
+
+  1. [MLB] Boston Red Sox @ Minnesota Twins
+     TOTAL under 7 @ sportsbetting
+     Odds: +105 | Fair: 53.8% | Edge: 5.0% | EV: 10.2% | Kelly: 2.4%
+     Pinnacle: -127
+
+  2. [MLB] N.Y. Mets @ L.A. Dodgers
+     TOTAL over 9 @ sportsbetting
+     Odds: +100 | Fair: 54.9% | Edge: 4.9% | EV: 9.7% | Kelly: 2.4%
+     Pinnacle: -133
+
+  3. [MLB] N.Y. Mets @ L.A. Dodgers
+     TOTAL over 9 @ bodog
+     Odds: -101 | Fair: 54.9% | Edge: 4.6% | EV: 9.2% | Kelly: 2.3%
+     Pinnacle: -133
+
+  4. [NHL] Detroit Red Wings @ Tampa Bay Lightning
+     TOTAL under 6 @ sportsbetting
+     Odds: +102 | Fair: 53.2% | Edge: 3.7% | EV: 7.6% | Kelly: 1.9%
+     Pinnacle: -125
+
+  5. [NHL] Detroit Red Wings @ Tampa Bay Lightning
+     TOTAL under 6 @ heritage
+     Odds: +102 | Fair: 53.2% | Edge: 3.7% | EV: 7.6% | Kelly: 1.9%
+     Pinnacle: -125
+
+  6. [NHL] Los Angeles Kings @ Seattle Kraken
+     TOTAL over 6 @ heritage
+     Odds: +102 | Fair: 53.2% | Edge: 3.7% | EV: 7.6% | Kelly: 1.9%
+     Pinnacle: -125
+
+  7. [NHL] Dallas Stars @ Toronto Maple Leafs
+     TOTAL over 6.5 @ draftkings
+     Odds: +110 | Fair: 51.1% | Edge: 3.5% | EV: 7.3% | Kelly: 1.6%
+     Pinnacle: -115
+
+  8. [NHL] Dallas Stars @ Toronto Maple Leafs
+     TOTAL over 6.5 @ fanatics
+     Odds: +110 | Fair: 51.1% | Edge: 3.5% | EV: 7.3% | Kelly: 1.6%
+     Pinnacle: -115
+
+  9. [NHL] Dallas Stars @ Toronto Maple Leafs
+     TOTAL over 6.5 @ unibet
+     Odds: +110 | Fair: 51.1% | Edge: 3.5% | EV: 7.3% | Kelly: 1.6%
+     Pinnacle: -115
+
+  10. [NHL] Winnipeg Jets @ Vegas Golden Knights
+     TOTAL under 5.5 @ draftkings
+     Odds: +110 | Fair: 51.1% | Edge: 3.5% | EV: 7.3% | Kelly: 1.6%
+     Pinnacle: -115
+
+  11. [NHL] Winnipeg Jets @ Vegas Golden Knights
+     TOTAL under 5.5 @ fanatics
+     Odds: +110 | Fair: 51.1% | Edge: 3.5% | EV: 7.3% | Kelly: 1.6%
+     Pinnacle: -115
+
+  12. [NHL] Winnipeg Jets @ Vegas Golden Knights
+     TOTAL under 5.5 @ unibet
+     Odds: +110 | Fair: 51.1% | Edge: 3.5% | EV: 7.3% | Kelly: 1.6%
+     Pinnacle: -115
+
+  13. [MLB] N.Y. Mets @ L.A. Dodgers
+     TOTAL over 9 @ betonline
+     Odds: -105 | Fair: 54.9% | Edge: 3.6% | EV: 7.1% | Kelly: 1.9%
+     Pinnacle: -133
+
+  14. [MLB] N.Y. Mets @ L.A. Dodgers
+     TOTAL over 9 @ heritage
+     Odds: -105 | Fair: 54.9% | Edge: 3.6% | EV: 7.1% | Kelly: 1.9%
+     Pinnacle: -133
+
+  15. [MLB] L.A. Angels @ N.Y. Yankees
+     TOTAL over 9.5 @ unibet
+     Odds: +110 | Fair: 51.0% | Edge: 3.4% | EV: 7.1% | Kelly: 1.6%
+     Pinnacle: -113
+
+  16. [NHL] Los Angeles Kings @ Seattle Kraken
+     TOTAL over 6 @ bodog
+     Odds: +101 | Fair: 53.2% | Edge: 3.5% | EV: 7.0% | Kelly: 1.7%
+     Pinnacle: -125
+
+  17. [NHL] Carolina Hurricanes @ Philadelphia Flyers
+     TOTAL under 5.5 @ draftkings
+     Odds: +114 | Fair: 50.0% | Edge: 3.3% | EV: 7.0% | Kelly: 1.5%
+     Pinnacle: -110
+
+  18. [NHL] Minnesota Wild @ St. Louis Blues
+     TOTAL over 6.5 @ draftkings
+     Odds: +114 | Fair: 50.0% | Edge: 3.3% | EV: 7.0% | Kelly: 1.5%
+     Pinnacle: -110
+
+  19. [NHL] Buffalo Sabres @ Chicago Blackhawks
+     TOTAL under 6 @ betmgm
+     Odds: +105 | Fair: 52.2% | Edge: 3.4% | EV: 7.0% | Kelly: 1.7%
+     Pinnacle: -120
+
+  20. [NHL] Detroit Red Wings @ Tampa Bay Lightning
+     TOTAL under 6 @ caesars
+     Odds: +100 | Fair: 53.2% | Edge: 3.2% | EV: 6.5% | Kelly: 1.6%
+     Pinnacle: -125
+
+  BY SPORT:
+    MLB: 13 opps, avg edge=3.2%, avg EV=6.5%
+    NHL: 24 opps, avg edge=3.1%, avg EV=6.4%
+
+  BY BOOK (most beatable):
+    bodog: 5 opps, avg EV=6.4%
+    fanatics: 5 opps, avg EV=5.8%
+    sportsbetting: 4 opps, avg EV=8.1%
+    draftkings: 4 opps, avg EV=7.1%
+    unibet: 4 opps, avg EV=7.0%
+    betmgm: 4 opps, avg EV=5.7%
+    heritage: 3 opps, avg EV=7.4%
+    caesars: 3 opps, avg EV=5.1%
+    betonline: 2 opps, avg EV=5.7%
+    fanduel: 2 opps, avg EV=5.4%
+    bet365: 1 opps, avg EV=4.8%
+
+  BY MARKET:
+    total: 37 opps, avg EV=6.4%
+
+  Results saved to /home/aiciv/sports-edge/data/game_line_scan.json
+
+======================================================================
+  PHASE 2: FANDUEL PLAYER PROPS
+======================================================================
+
+======================================================================
+  FANDUEL LINE TRACKER - Full Analysis
+  2026-04-13 03:49 UTC
+======================================================================
+  [FD] 8 games found
+  [FD] 3889 prop lines fetched
+  [Snapshot] 3889 lines stored at 2026-04-13T03:49:44.310243
+
+--- LINE MOVEMENTS ---
+  Comparing 2026-04-13T03:48:51.840204 -> 2026-04-13T03:49:44.310243
+  No significant line moves detected
+
+--- CORRELATION ARBITRAGE ---
+  ** Jrue Holiday Over: PTS=15.5 + REB=4.5 + AST=5.5 = 25.5 vs PRA=27.5
+     Discrepancy: -2.0 pts -> UNDER_PRA
+  ** Jrue Holiday Under: PTS=15.5 + REB=4.5 + AST=5.5 = 25.5 vs PRA=27.5
+     Discrepancy: -2.0 pts -> UNDER_PRA
+  ** Norman Powell Over: PTS=19.5 + REB=2.5 + AST=1.5 = 23.5 vs PRA=25.5
+     Discrepancy: -2.0 pts -> UNDER_PRA
+  ** Norman Powell Under: PTS=19.5 + REB=2.5 + AST=1.5 = 23.5 vs PRA=25.5
+     Discrepancy: -2.0 pts -> UNDER_PRA
+  ** Paolo Banchero Over: PTS=23.5 + REB=8.5 + AST=4.5 = 36.5 vs PRA=38.5
+     Discrepancy: -2.0 pts -> UNDER_PRA
+  ** Paolo Banchero Under: PTS=23.5 + REB=8.5 + AST=4.5 = 36.5 vs PRA=38.5
+     Discrepancy: -2.0 pts -> UNDER_PRA
+  ** Mark Williams Over: PTS=10.5 + REB=7.5 = 18.0 vs P+R=19.5
+     Discrepancy: -1.5 pts -> UNDER_PR
+  ** Mark Williams Under: PTS=10.5 + REB=7.5 = 18.0 vs P+R=19.5
+     Discrepancy: -1.5 pts -> UNDER_PR
+  ** Jrue Holiday Over: PTS=15.5 + AST=5.5 = 21.0 vs P+A=22.5
+     Discrepancy: -1.5 pts -> UNDER_PA
+  ** Jrue Holiday Under: PTS=15.5 + AST=5.5 = 21.0 vs P+A=22.5
+     Discrepancy: -1.5 pts -> UNDER_PA
+
+--- VIG OUTLIERS ---
+  High vig (>7%): 32 markets
+  Low vig (<2%): 0 markets
+    Cleveland Cavaliers Moneyline line=0.0: vig=268.4% odds=[-280, -280, -280, -280, -280]
+    Denver Nuggets Moneyline line=0.0: vig=248.5% odds=[-230, -230, -230, -230, -230]
+    Houston Rockets Moneyline line=0.0: vig=241.3% odds=[-215, -215, -215, -215, -215]
+    Charlotte Hornets Moneyline line=0.0: vig=238.7% odds=[-210, -210, -210, -210, -210]
+    New York Knicks Moneyline line=0.0: vig=232.2% odds=[-198, -198, -198, -198, -198]
+
+======================================================================
+  SUMMARY
+  Props tracked: 3889
+  Line moves: 0
+  Correlation alerts: 26
+  Vig outliers: 32
+======================================================================
+  Results saved to /home/aiciv/sports-edge/data/line_tracker_latest.json
+
+======================================================================
+  PHASE 3: BACKTEST (Today's Results)
+======================================================================
+
+  [NBA] Fetching games...
+  [NBA] 15 completed, 4 upcoming
+
+  [MLB] Fetching games...
+  [MLB] 15 completed, 12 upcoming
+
+  [NHL] Fetching games...
+  [NHL] 6 completed, 11 upcoming
+
+  Today's backtest: 6 bets, 50% WR, $+25.95 (+29.9% ROI)
+
+======================================================================
+  ACTIONABLE PICKS

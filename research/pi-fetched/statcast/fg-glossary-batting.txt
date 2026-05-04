@@ -1,0 +1,182 @@
+Offense | Sabermetrics Library
+<
+! -- END HEAD -->
+<! -- END HEADER -->
+Intro
+Features
+Offense
+Complete List (Offense)
+OBP
+OPS and OPS+
+wOBA
+wRC and wRC+
+wRAA
+Off
+BsR
+UBR
+wSB
+wGDP
+BABIP
+ISO
+HR/FB
+Spd
+Pull%/Cent%/Oppo%
+Soft%/Med%/Hard%
+GB%, LD%, FB%
+K% and BB%
+Plate Discipline (O-Swing%, Z-Swing%, etc.)
+Pitch Type Linear Weights
+Pace
+Defense
+Overview
+Def
+UZR
+DRS
+Defensive Runs Saved – 2020 Update
+Inside Edge Fielding
+Catcher Defense
+FSR
+RZR
+TZ / TZL
+Pitching
+Complete List (Pitching)
+PitchingBot Pitch Modeling Primer
+Stuff+, Location+, and Pitching+ Primer
+ERA
+WHIP
+FIP
+xFIP
+SIERA
+Strikeout and Walk Rates
+Pull%/Cent%/Oppo%
+Soft%/Med%/Hard%
+GB%, LD%, FB%
+BABIP
+HR/FB
+LOB%
+Pitch Type Linear Weights
+SD / MD
+ERA- / FIP- / xFIP-
+Plate Discipline (O-Swing%, Z-Swing%, etc.)
+Pace
+PITCHF/x
+What is PITCHF/x?
+Pitch Type Abbreviations & Classifications
+Heat Maps
+Common Mistakes
+PITCHf/x Resources
+WE/RE/LI
+RE24
+Win Expectancy
+WPA
+LI
+WPA/LI
+Clutch
+Principles
+DIPS
+Regression toward the Mean
+Replacement Level
+Sample Size
+Splits
+Projection Systems
+Linear Weights
+Counting vs. Rate Statistics
+Park Factors
+Park Factors – 5 Year Regressed
+Positional Adjustment
+Aging Curve
+League Equivalencies
+Pythagorean Win-Loss
+Luck
+WAR
+What is WAR?
+WAR for Position Players
+WAR for Pitchers
+FDP
+fWAR, rWAR, and WARP
+WAR Misconceptions
+Business
+Offense
+by
+Piper Slowinski
+February 15, 2010
+Traditional statistics have their place, but things like batting average and RBI largely function as descriptions of what occurred rather than any sort of measure of player value or performance. Batting average tells you how many hits a player had per at bat, but does that really tell you very much about that player’s season? Or better yet, does it really tell you what you want to know about that player’s season? In short, no.
+At FanGraphs, we host plenty of traditional statistics, but we focus on more useful measures of performance such
+wOBA
+,
+wRC+
+, and
+wRAA
+. Check out those statistics and read some of the links below if you want to get a better sense of how to measure offensive performance. And feel free to post comments and ask questions as well.
+Links for Further Reading:
+Complete List of Offensive Statistics – FanGraphs
+Sabermetrics 101: Offense – Lookout Landing
+How To Evaluate a Hitter, Sabermetrically -Beyond The Box Score
+wOBA as a Gateway Statistic – FanGraphs
+wRC+ and Lessons of Context – FanGraphs
+Learning to Speak Saber: Runs and Wins – FanGraphs
+An Early Look at HITf/x – Hardball Times
+Using HITf/x to Measure Skill – Hardball Times
+HitTracker: How Far It Really Went
+Defense
+Piper was the editor-in-chief of
+DRaysBay
+and the keeper of the
+FanGraphs Library
+.
+Login
+Please login to comment
+4
+Comments
+Oldest
+Newest
+Most Voted
+Inline Feedbacks
+View all comments
+Ken Patman
+14 years ago
+Thanks, I have been searching for information about this subject matter for ages and yours is the best I have found so far.
+1
+GeneH
+14 years ago
+While there is value in statistics that are not just cumulative, nevertheless a leader in an add-on stat over time is equally useful. In 10 years, RBI leaders are just as important in that compared with others who a put in a position to drive in RBIs, the leader indicates sustained ability over time.
+1
+ma
+13 years ago
+The manipulation of dry blue ice flame,
+Breitling Watches Sale
+want to handle|deal with|manage|take care of|cope with in one|1|a single|one particular|just one} fell swoop break|split two blue sword black bone, see this  scene, look|appear|search|seem|glance to white,
+Breitling Watches UK
+then head of injection be hardly|barely worthy|deserving of belief|perception|notion|opinion|idea.
+-7
+Fascist
+6 years ago
+Nice Feet.
+-1
+Insert
+You are going to send email to
+Send
+Move Comment
+Move
+Updated: Monday, April 13, 2026 11:35 PM ET
+Updated: 4/13/2026 11:35 PM ET
+@fangraphs
+-
+Contact Us
+-
+Advertise
+-
+Terms of Service
+-
+Privacy Policy
+All major league baseball data including pitch type, velocity, batted ball location,
+        and play-by-play data provided by Sports Info Solutions.
+Major League and Minor League Baseball data provided by Major League Baseball.
+Mitchel Lichtman
+All UZR (ultimate zone rating) calculations are provided courtesy of Mitchel Lichtman.
+TangoTiger.com
+All Win Expectancy, Leverage Index, Run Expectancy, and Fans Scouting Report data licenced from TangoTiger.com
+Retrosheet.org
+Play-by-play data prior to 2002 was obtained free of charge from and is copyrighted
+        by Retrosheet.
+<! -- END FOOTER -->

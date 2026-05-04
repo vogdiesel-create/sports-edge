@@ -1,0 +1,2421 @@
+{
+  "timestamp": "2026-04-29T11:22:34.115241",
+  "date": "2026-04-29",
+  "min_edge": 5.0,
+  "total_pitchers": 30,
+  "total_picks": 24,
+  "predictions": [
+    {
+      "pitcher": "Tyler Glasnow",
+      "pitcher_id": 607192,
+      "team": "Los Angeles Dodgers",
+      "opponent": "MIA",
+      "expected_ks": 5.14,
+      "raw_k9": 10.36,
+      "regressed_k9": 10.49,
+      "ip_projection": 5.78,
+      "matchup_adj": 0.887,
+      "total_ip_sample": 33.0,
+      "game_log_games": 5,
+      "edges": [
+        {
+          "threshold": 4,
+          "label": "4+ Ks",
+          "side": "over",
+          "fd_odds": -4000,
+          "fd_implied": 97.6,
+          "model_prob": 75.4,
+          "edge": -22.2
+        },
+        {
+          "threshold": 5,
+          "label": "5+ Ks",
+          "side": "over",
+          "fd_odds": -900,
+          "fd_implied": 90.0,
+          "model_prob": 58.3,
+          "edge": -31.7
+        },
+        {
+          "threshold": 6,
+          "label": "6+ Ks",
+          "side": "over",
+          "fd_odds": -330,
+          "fd_implied": 76.7,
+          "model_prob": 40.8,
+          "edge": -36.0
+        },
+        {
+          "threshold": 7,
+          "label": "7+ Ks",
+          "side": "over",
+          "fd_odds": -158,
+          "fd_implied": 61.2,
+          "model_prob": 25.8,
+          "edge": -35.4
+        },
+        {
+          "threshold": 8,
+          "label": "8+ Ks",
+          "side": "over",
+          "fd_odds": 130,
+          "fd_implied": 43.5,
+          "model_prob": 14.8,
+          "edge": -28.7
+        },
+        {
+          "threshold": 9,
+          "label": "9+ Ks",
+          "side": "over",
+          "fd_odds": 250,
+          "fd_implied": 28.6,
+          "model_prob": 7.7,
+          "edge": -20.8
+        },
+        {
+          "threshold": 10,
+          "label": "10+ Ks",
+          "side": "over",
+          "fd_odds": 450,
+          "fd_implied": 18.2,
+          "model_prob": 3.7,
+          "edge": -14.5
+        },
+        {
+          "threshold": 7,
+          "label": "Under 6.5 (main)",
+          "side": "under",
+          "fd_odds": 118,
+          "fd_implied": 45.9,
+          "model_prob": 74.2,
+          "edge": 28.3
+        }
+      ]
+    },
+    {
+      "pitcher": "Brayan Bello",
+      "pitcher_id": 678394,
+      "team": "Boston Red Sox",
+      "opponent": "TOR",
+      "expected_ks": 2.54,
+      "raw_k9": 6.14,
+      "regressed_k9": 6.55,
+      "ip_projection": 5.22,
+      "matchup_adj": 0.778,
+      "total_ip_sample": 22.0,
+      "game_log_games": 5,
+      "edges": [
+        {
+          "threshold": 3,
+          "label": "3+ Ks",
+          "side": "over",
+          "fd_odds": -440,
+          "fd_implied": 81.5,
+          "model_prob": 46.7,
+          "edge": -34.8
+        },
+        {
+          "threshold": 4,
+          "label": "4+ Ks",
+          "side": "over",
+          "fd_odds": -152,
+          "fd_implied": 60.3,
+          "model_prob": 25.2,
+          "edge": -35.1
+        },
+        {
+          "threshold": 5,
+          "label": "5+ Ks",
+          "side": "over",
+          "fd_odds": 164,
+          "fd_implied": 37.9,
+          "model_prob": 11.5,
+          "edge": -26.4
+        },
+        {
+          "threshold": 6,
+          "label": "6+ Ks",
+          "side": "over",
+          "fd_odds": 360,
+          "fd_implied": 21.7,
+          "model_prob": 4.5,
+          "edge": -17.2
+        },
+        {
+          "threshold": 7,
+          "label": "7+ Ks",
+          "side": "over",
+          "fd_odds": 750,
+          "fd_implied": 11.8,
+          "model_prob": 1.5,
+          "edge": -10.2
+        },
+        {
+          "threshold": 4,
+          "label": "Under 3.5 (main)",
+          "side": "under",
+          "fd_odds": 114,
+          "fd_implied": 46.7,
+          "model_prob": 74.8,
+          "edge": 28.1
+        }
+      ]
+    },
+    {
+      "pitcher": "David Peterson",
+      "pitcher_id": 656849,
+      "team": "New York Mets",
+      "opponent": "WSH",
+      "expected_ks": 3.5,
+      "raw_k9": 8.1,
+      "regressed_k9": 8.03,
+      "ip_projection": 5.2,
+      "matchup_adj": 0.877,
+      "total_ip_sample": 26.7,
+      "game_log_games": 6,
+      "edges": [
+        {
+          "threshold": 3,
+          "label": "3+ Ks",
+          "side": "over",
+          "fd_odds": -2500,
+          "fd_implied": 96.2,
+          "model_prob": 67.9,
+          "edge": -28.3
+        },
+        {
+          "threshold": 4,
+          "label": "4+ Ks",
+          "side": "over",
+          "fd_odds": -580,
+          "fd_implied": 85.3,
+          "model_prob": 46.3,
+          "edge": -39.0
+        },
+        {
+          "threshold": 5,
+          "label": "5+ Ks",
+          "side": "over",
+          "fd_odds": -225,
+          "fd_implied": 69.2,
+          "model_prob": 27.4,
+          "edge": -41.8
+        },
+        {
+          "threshold": 6,
+          "label": "Over 5.5 (main)",
+          "side": "over",
+          "fd_odds": 116,
+          "fd_implied": 46.3,
+          "model_prob": 14.2,
+          "edge": -32.1
+        },
+        {
+          "threshold": 7,
+          "label": "7+ Ks",
+          "side": "over",
+          "fd_odds": 225,
+          "fd_implied": 30.8,
+          "model_prob": 6.5,
+          "edge": -24.2
+        },
+        {
+          "threshold": 8,
+          "label": "8+ Ks",
+          "side": "over",
+          "fd_odds": 450,
+          "fd_implied": 18.2,
+          "model_prob": 2.7,
+          "edge": -15.5
+        },
+        {
+          "threshold": 6,
+          "label": "Under 5.5 (main)",
+          "side": "under",
+          "fd_odds": -154,
+          "fd_implied": 60.6,
+          "model_prob": 85.8,
+          "edge": 25.1
+        }
+      ]
+    },
+    {
+      "pitcher": "Gavin Williams",
+      "pitcher_id": 668909,
+      "team": "Cleveland Guardians",
+      "opponent": "TB",
+      "expected_ks": 4.2,
+      "raw_k9": 11.1,
+      "regressed_k9": 9.97,
+      "ip_projection": 5.63,
+      "matchup_adj": 0.784,
+      "total_ip_sample": 35.7,
+      "game_log_games": 6,
+      "edges": [
+        {
+          "threshold": 3,
+          "label": "3+ Ks",
+          "side": "over",
+          "fd_odds": -4000,
+          "fd_implied": 97.6,
+          "model_prob": 79.0,
+          "edge": -18.5
+        },
+        {
+          "threshold": 4,
+          "label": "4+ Ks",
+          "side": "over",
+          "fd_odds": -850,
+          "fd_implied": 89.5,
+          "model_prob": 60.5,
+          "edge": -28.9
+        },
+        {
+          "threshold": 5,
+          "label": "5+ Ks",
+          "side": "over",
+          "fd_odds": -290,
+          "fd_implied": 74.4,
+          "model_prob": 41.1,
+          "edge": -33.3
+        },
+        {
+          "threshold": 6,
+          "label": "Over 5.5 (main)",
+          "side": "over",
+          "fd_odds": -130,
+          "fd_implied": 56.5,
+          "model_prob": 24.8,
+          "edge": -31.8
+        },
+        {
+          "threshold": 7,
+          "label": "7+ Ks",
+          "side": "over",
+          "fd_odds": 168,
+          "fd_implied": 37.3,
+          "model_prob": 13.3,
+          "edge": -24.0
+        },
+        {
+          "threshold": 8,
+          "label": "8+ Ks",
+          "side": "over",
+          "fd_odds": 350,
+          "fd_implied": 22.2,
+          "model_prob": 6.4,
+          "edge": -15.8
+        },
+        {
+          "threshold": 9,
+          "label": "9+ Ks",
+          "side": "over",
+          "fd_odds": 640,
+          "fd_implied": 13.5,
+          "model_prob": 2.8,
+          "edge": -10.7
+        },
+        {
+          "threshold": 6,
+          "label": "Under 5.5 (main)",
+          "side": "under",
+          "fd_odds": -102,
+          "fd_implied": 50.5,
+          "model_prob": 75.2,
+          "edge": 24.7
+        }
+      ]
+    },
+    {
+      "pitcher": "Tarik Skubal",
+      "pitcher_id": 669373,
+      "team": "Detroit Tigers",
+      "opponent": "ATL",
+      "expected_ks": 4.83,
+      "raw_k9": 9.41,
+      "regressed_k9": 10.46,
+      "ip_projection": 5.66,
+      "matchup_adj": 0.853,
+      "total_ip_sample": 36.3,
+      "game_log_games": 6,
+      "edges": [
+        {
+          "threshold": 4,
+          "label": "4+ Ks",
+          "side": "over",
+          "fd_odds": -1600,
+          "fd_implied": 94.1,
+          "model_prob": 71.0,
+          "edge": -23.1
+        },
+        {
+          "threshold": 5,
+          "label": "5+ Ks",
+          "side": "over",
+          "fd_odds": -500,
+          "fd_implied": 83.3,
+          "model_prob": 52.8,
+          "edge": -30.5
+        },
+        {
+          "threshold": 6,
+          "label": "6+ Ks",
+          "side": "over",
+          "fd_odds": -225,
+          "fd_implied": 69.2,
+          "model_prob": 35.4,
+          "edge": -33.9
+        },
+        {
+          "threshold": 7,
+          "label": "7+ Ks",
+          "side": "over",
+          "fd_odds": -102,
+          "fd_implied": 50.5,
+          "model_prob": 21.3,
+          "edge": -29.2
+        },
+        {
+          "threshold": 8,
+          "label": "8+ Ks",
+          "side": "over",
+          "fd_odds": 194,
+          "fd_implied": 34.0,
+          "model_prob": 11.6,
+          "edge": -22.4
+        },
+        {
+          "threshold": 9,
+          "label": "9+ Ks",
+          "side": "over",
+          "fd_odds": 370,
+          "fd_implied": 21.3,
+          "model_prob": 5.7,
+          "edge": -15.5
+        },
+        {
+          "threshold": 10,
+          "label": "10+ Ks",
+          "side": "over",
+          "fd_odds": 680,
+          "fd_implied": 12.8,
+          "model_prob": 2.6,
+          "edge": -10.2
+        },
+        {
+          "threshold": 7,
+          "label": "Under 6.5 (main)",
+          "side": "under",
+          "fd_odds": -130,
+          "fd_implied": 56.5,
+          "model_prob": 78.7,
+          "edge": 22.2
+        }
+      ]
+    },
+    {
+      "pitcher": "Peter Lambert",
+      "pitcher_id": 663567,
+      "team": "Houston Astros",
+      "opponent": "BAL",
+      "expected_ks": 5.61,
+      "raw_k9": 13.09,
+      "regressed_k9": 9.21,
+      "ip_projection": 5.5,
+      "matchup_adj": 1.159,
+      "total_ip_sample": 11.0,
+      "game_log_games": 2,
+      "edges": [
+        {
+          "threshold": 3,
+          "label": "3+ Ks",
+          "side": "over",
+          "fd_odds": -580,
+          "fd_implied": 85.3,
+          "model_prob": 91.8,
+          "edge": 6.5
+        },
+        {
+          "threshold": 4,
+          "label": "4+ Ks",
+          "side": "over",
+          "fd_odds": -225,
+          "fd_implied": 69.2,
+          "model_prob": 81.0,
+          "edge": 11.8
+        },
+        {
+          "threshold": 5,
+          "label": "5+ Ks",
+          "side": "over",
+          "fd_odds": 108,
+          "fd_implied": 48.1,
+          "model_prob": 65.9,
+          "edge": 17.9
+        },
+        {
+          "threshold": 6,
+          "label": "6+ Ks",
+          "side": "over",
+          "fd_odds": 194,
+          "fd_implied": 34.0,
+          "model_prob": 49.0,
+          "edge": 15.0
+        },
+        {
+          "threshold": 7,
+          "label": "7+ Ks",
+          "side": "over",
+          "fd_odds": 320,
+          "fd_implied": 23.8,
+          "model_prob": 33.1,
+          "edge": 9.3
+        },
+        {
+          "threshold": 8,
+          "label": "8+ Ks",
+          "side": "over",
+          "fd_odds": 580,
+          "fd_implied": 14.7,
+          "model_prob": 20.4,
+          "edge": 5.7
+        },
+        {
+          "threshold": 5,
+          "label": "Under 4.5 (main)",
+          "side": "under",
+          "fd_odds": -144,
+          "fd_implied": 59.0,
+          "model_prob": 34.1,
+          "edge": -25.0
+        }
+      ]
+    },
+    {
+      "pitcher": "Sandy Alcantara",
+      "pitcher_id": 645261,
+      "team": "Miami Marlins",
+      "opponent": "LAD",
+      "expected_ks": 3.79,
+      "raw_k9": 5.88,
+      "regressed_k9": 6.73,
+      "ip_projection": 5.9,
+      "matchup_adj": 0.999,
+      "total_ip_sample": 41.3,
+      "game_log_games": 6,
+      "edges": [
+        {
+          "threshold": 3,
+          "label": "3+ Ks",
+          "side": "over",
+          "fd_odds": -1100,
+          "fd_implied": 91.7,
+          "model_prob": 73.0,
+          "edge": -18.7
+        },
+        {
+          "threshold": 4,
+          "label": "4+ Ks",
+          "side": "over",
+          "fd_odds": -340,
+          "fd_implied": 77.3,
+          "model_prob": 52.5,
+          "edge": -24.8
+        },
+        {
+          "threshold": 5,
+          "label": "Over 4.5 (main)",
+          "side": "over",
+          "fd_odds": -130,
+          "fd_implied": 56.5,
+          "model_prob": 33.1,
+          "edge": -23.5
+        },
+        {
+          "threshold": 6,
+          "label": "6+ Ks",
+          "side": "over",
+          "fd_odds": 178,
+          "fd_implied": 36.0,
+          "model_prob": 18.3,
+          "edge": -17.6
+        },
+        {
+          "threshold": 7,
+          "label": "7+ Ks",
+          "side": "over",
+          "fd_odds": 360,
+          "fd_implied": 21.7,
+          "model_prob": 9.0,
+          "edge": -12.7
+        },
+        {
+          "threshold": 8,
+          "label": "8+ Ks",
+          "side": "over",
+          "fd_odds": 750,
+          "fd_implied": 11.8,
+          "model_prob": 4.0,
+          "edge": -7.8
+        },
+        {
+          "threshold": 5,
+          "label": "Under 4.5 (main)",
+          "side": "under",
+          "fd_odds": -102,
+          "fd_implied": 50.5,
+          "model_prob": 66.9,
+          "edge": 16.4
+        }
+      ]
+    },
+    {
+      "pitcher": "Chris Bassitt",
+      "pitcher_id": 605135,
+      "team": "Baltimore Orioles",
+      "opponent": "HOU",
+      "expected_ks": 3.29,
+      "raw_k9": 4.22,
+      "regressed_k9": 7.58,
+      "ip_projection": 5.19,
+      "matchup_adj": 0.874,
+      "total_ip_sample": 21.3,
+      "game_log_games": 5,
+      "edges": [
+        {
+          "threshold": 3,
+          "label": "3+ Ks",
+          "side": "over",
+          "fd_odds": -700,
+          "fd_implied": 87.5,
+          "model_prob": 63.8,
+          "edge": -23.7
+        },
+        {
+          "threshold": 4,
+          "label": "4+ Ks",
+          "side": "over",
+          "fd_odds": -245,
+          "fd_implied": 71.0,
+          "model_prob": 41.6,
+          "edge": -29.4
+        },
+        {
+          "threshold": 5,
+          "label": "Over 4.5 (main)",
+          "side": "over",
+          "fd_odds": 114,
+          "fd_implied": 46.7,
+          "model_prob": 23.5,
+          "edge": -23.3
+        },
+        {
+          "threshold": 6,
+          "label": "6+ Ks",
+          "side": "over",
+          "fd_odds": 225,
+          "fd_implied": 30.8,
+          "model_prob": 11.5,
+          "edge": -19.2
+        },
+        {
+          "threshold": 7,
+          "label": "7+ Ks",
+          "side": "over",
+          "fd_odds": 490,
+          "fd_implied": 16.9,
+          "model_prob": 5.0,
+          "edge": -11.9
+        },
+        {
+          "threshold": 5,
+          "label": "Under 4.5 (main)",
+          "side": "under",
+          "fd_odds": -152,
+          "fd_implied": 60.3,
+          "model_prob": 76.5,
+          "edge": 16.2
+        }
+      ]
+    },
+    {
+      "pitcher": "Drew Rasmussen",
+      "pitcher_id": 656876,
+      "team": "Tampa Bay Rays",
+      "opponent": "CLE",
+      "expected_ks": 3.52,
+      "raw_k9": 9.12,
+      "regressed_k9": 8.07,
+      "ip_projection": 5.41,
+      "matchup_adj": 0.844,
+      "total_ip_sample": 25.7,
+      "game_log_games": 5,
+      "edges": [
+        {
+          "threshold": 3,
+          "label": "3+ Ks",
+          "side": "over",
+          "fd_odds": -850,
+          "fd_implied": 89.5,
+          "model_prob": 68.3,
+          "edge": -21.2
+        },
+        {
+          "threshold": 4,
+          "label": "4+ Ks",
+          "side": "over",
+          "fd_odds": -260,
+          "fd_implied": 72.2,
+          "model_prob": 46.8,
+          "edge": -25.4
+        },
+        {
+          "threshold": 5,
+          "label": "5+ Ks",
+          "side": "over",
+          "fd_odds": -102,
+          "fd_implied": 50.5,
+          "model_prob": 27.9,
+          "edge": -22.6
+        },
+        {
+          "threshold": 6,
+          "label": "6+ Ks",
+          "side": "over",
+          "fd_odds": 210,
+          "fd_implied": 32.3,
+          "model_prob": 14.5,
+          "edge": -17.7
+        },
+        {
+          "threshold": 7,
+          "label": "7+ Ks",
+          "side": "over",
+          "fd_odds": 450,
+          "fd_implied": 18.2,
+          "model_prob": 6.7,
+          "edge": -11.5
+        },
+        {
+          "threshold": 5,
+          "label": "Under 4.5 (main)",
+          "side": "under",
+          "fd_odds": -130,
+          "fd_implied": 56.5,
+          "model_prob": 72.1,
+          "edge": 15.6
+        }
+      ]
+    },
+    {
+      "pitcher": "Erick Fedde",
+      "pitcher_id": 607200,
+      "team": "Chicago White Sox",
+      "opponent": "LAA",
+      "expected_ks": 3.08,
+      "raw_k9": 5.47,
+      "regressed_k9": 5.35,
+      "ip_projection": 5.44,
+      "matchup_adj": 1.107,
+      "total_ip_sample": 26.3,
+      "game_log_games": 5,
+      "edges": [
+        {
+          "threshold": 3,
+          "label": "3+ Ks",
+          "side": "over",
+          "fd_odds": -400,
+          "fd_implied": 80.0,
+          "model_prob": 59.5,
+          "edge": -20.5
+        },
+        {
+          "threshold": 4,
+          "label": "4+ Ks",
+          "side": "over",
+          "fd_odds": -144,
+          "fd_implied": 59.0,
+          "model_prob": 37.1,
+          "edge": -21.9
+        },
+        {
+          "threshold": 5,
+          "label": "5+ Ks",
+          "side": "over",
+          "fd_odds": 162,
+          "fd_implied": 38.2,
+          "model_prob": 19.9,
+          "edge": -18.3
+        },
+        {
+          "threshold": 6,
+          "label": "6+ Ks",
+          "side": "over",
+          "fd_odds": 310,
+          "fd_implied": 24.4,
+          "model_prob": 9.2,
+          "edge": -15.1
+        },
+        {
+          "threshold": 7,
+          "label": "7+ Ks",
+          "side": "over",
+          "fd_odds": 580,
+          "fd_implied": 14.7,
+          "model_prob": 3.8,
+          "edge": -10.9
+        },
+        {
+          "threshold": 4,
+          "label": "Under 3.5 (main)",
+          "side": "under",
+          "fd_odds": 108,
+          "fd_implied": 48.1,
+          "model_prob": 62.9,
+          "edge": 14.8
+        }
+      ]
+    },
+    {
+      "pitcher": "Jameson Taillon",
+      "pitcher_id": 592791,
+      "team": "Chicago Cubs",
+      "opponent": "SD",
+      "expected_ks": 3.37,
+      "raw_k9": 8.13,
+      "regressed_k9": 7.22,
+      "ip_projection": 5.51,
+      "matchup_adj": 0.886,
+      "total_ip_sample": 27.7,
+      "game_log_games": 5,
+      "edges": [
+        {
+          "threshold": 3,
+          "label": "3+ Ks",
+          "side": "over",
+          "fd_odds": -670,
+          "fd_implied": 87.0,
+          "model_prob": 65.4,
+          "edge": -21.6
+        },
+        {
+          "threshold": 4,
+          "label": "4+ Ks",
+          "side": "over",
+          "fd_odds": -220,
+          "fd_implied": 68.8,
+          "model_prob": 43.4,
+          "edge": -25.3
+        },
+        {
+          "threshold": 5,
+          "label": "5+ Ks",
+          "side": "over",
+          "fd_odds": 116,
+          "fd_implied": 46.3,
+          "model_prob": 25.0,
+          "edge": -21.3
+        },
+        {
+          "threshold": 6,
+          "label": "6+ Ks",
+          "side": "over",
+          "fd_odds": 260,
+          "fd_implied": 27.8,
+          "model_prob": 12.5,
+          "edge": -15.3
+        },
+        {
+          "threshold": 7,
+          "label": "7+ Ks",
+          "side": "over",
+          "fd_odds": 550,
+          "fd_implied": 15.4,
+          "model_prob": 5.5,
+          "edge": -9.8
+        },
+        {
+          "threshold": 5,
+          "label": "Under 4.5 (main)",
+          "side": "under",
+          "fd_odds": -154,
+          "fd_implied": 60.6,
+          "model_prob": 75.0,
+          "edge": 14.4
+        }
+      ]
+    },
+    {
+      "pitcher": "Cade Cavalli",
+      "pitcher_id": 676917,
+      "team": "Washington Nationals",
+      "opponent": "NYM",
+      "expected_ks": 3.68,
+      "raw_k9": 10.21,
+      "regressed_k9": 8.22,
+      "ip_projection": 5.1,
+      "matchup_adj": 0.919,
+      "total_ip_sample": 24.7,
+      "game_log_games": 6,
+      "edges": [
+        {
+          "threshold": 3,
+          "label": "3+ Ks",
+          "side": "over",
+          "fd_odds": -750,
+          "fd_implied": 88.2,
+          "model_prob": 71.2,
+          "edge": -17.0
+        },
+        {
+          "threshold": 4,
+          "label": "4+ Ks",
+          "side": "over",
+          "fd_odds": -270,
+          "fd_implied": 73.0,
+          "model_prob": 50.3,
+          "edge": -22.7
+        },
+        {
+          "threshold": 5,
+          "label": "5+ Ks",
+          "side": "over",
+          "fd_odds": -110,
+          "fd_implied": 52.4,
+          "model_prob": 31.0,
+          "edge": -21.4
+        },
+        {
+          "threshold": 6,
+          "label": "6+ Ks",
+          "side": "over",
+          "fd_odds": 200,
+          "fd_implied": 33.3,
+          "model_prob": 16.8,
+          "edge": -16.6
+        },
+        {
+          "threshold": 7,
+          "label": "7+ Ks",
+          "side": "over",
+          "fd_odds": 430,
+          "fd_implied": 18.9,
+          "model_prob": 8.0,
+          "edge": -10.8
+        },
+        {
+          "threshold": 5,
+          "label": "Under 4.5 (main)",
+          "side": "under",
+          "fd_odds": -122,
+          "fd_implied": 55.0,
+          "model_prob": 69.0,
+          "edge": 14.1
+        }
+      ]
+    },
+    {
+      "pitcher": "Taj Bradley",
+      "pitcher_id": 671737,
+      "team": "Minnesota Twins",
+      "opponent": "SEA",
+      "expected_ks": 5.05,
+      "raw_k9": 9.8,
+      "regressed_k9": 8.66,
+      "ip_projection": 5.55,
+      "matchup_adj": 1.1,
+      "total_ip_sample": 34.0,
+      "game_log_games": 6,
+      "edges": [
+        {
+          "threshold": 3,
+          "label": "3+ Ks",
+          "side": "over",
+          "fd_odds": -4500,
+          "fd_implied": 97.8,
+          "model_prob": 88.0,
+          "edge": -9.9
+        },
+        {
+          "threshold": 4,
+          "label": "4+ Ks",
+          "side": "over",
+          "fd_odds": -1000,
+          "fd_implied": 90.9,
+          "model_prob": 74.2,
+          "edge": -16.7
+        },
+        {
+          "threshold": 5,
+          "label": "5+ Ks",
+          "side": "over",
+          "fd_odds": -340,
+          "fd_implied": 77.3,
+          "model_prob": 56.8,
+          "edge": -20.4
+        },
+        {
+          "threshold": 6,
+          "label": "6+ Ks",
+          "side": "over",
+          "fd_odds": -144,
+          "fd_implied": 59.0,
+          "model_prob": 39.3,
+          "edge": -19.7
+        },
+        {
+          "threshold": 7,
+          "label": "7+ Ks",
+          "side": "over",
+          "fd_odds": 146,
+          "fd_implied": 40.7,
+          "model_prob": 24.5,
+          "edge": -16.1
+        },
+        {
+          "threshold": 8,
+          "label": "8+ Ks",
+          "side": "over",
+          "fd_odds": 290,
+          "fd_implied": 25.6,
+          "model_prob": 13.9,
+          "edge": -11.8
+        },
+        {
+          "threshold": 9,
+          "label": "9+ Ks",
+          "side": "over",
+          "fd_odds": 580,
+          "fd_implied": 14.7,
+          "model_prob": 7.1,
+          "edge": -7.6
+        },
+        {
+          "threshold": 6,
+          "label": "Under 5.5 (main)",
+          "side": "under",
+          "fd_odds": 108,
+          "fd_implied": 48.1,
+          "model_prob": 60.7,
+          "edge": 12.6
+        }
+      ]
+    },
+    {
+      "pitcher": "Bubba Chandler",
+      "pitcher_id": 696149,
+      "team": "Pittsburgh Pirates",
+      "opponent": "STL",
+      "expected_ks": 4.02,
+      "raw_k9": 7.88,
+      "regressed_k9": 8.61,
+      "ip_projection": 5.33,
+      "matchup_adj": 0.917,
+      "total_ip_sample": 24.0,
+      "game_log_games": 5,
+      "edges": [
+        {
+          "threshold": 3,
+          "label": "3+ Ks",
+          "side": "over",
+          "fd_odds": -1100,
+          "fd_implied": 91.7,
+          "model_prob": 76.4,
+          "edge": -15.3
+        },
+        {
+          "threshold": 4,
+          "label": "4+ Ks",
+          "side": "over",
+          "fd_odds": -330,
+          "fd_implied": 76.7,
+          "model_prob": 57.0,
+          "edge": -19.8
+        },
+        {
+          "threshold": 5,
+          "label": "Over 4.5 (main)",
+          "side": "over",
+          "fd_odds": -132,
+          "fd_implied": 56.9,
+          "model_prob": 37.4,
+          "edge": -19.5
+        },
+        {
+          "threshold": 6,
+          "label": "6+ Ks",
+          "side": "over",
+          "fd_odds": 174,
+          "fd_implied": 36.5,
+          "model_prob": 21.7,
+          "edge": -14.8
+        },
+        {
+          "threshold": 7,
+          "label": "7+ Ks",
+          "side": "over",
+          "fd_odds": 360,
+          "fd_implied": 21.7,
+          "model_prob": 11.2,
+          "edge": -10.5
+        },
+        {
+          "threshold": 8,
+          "label": "8+ Ks",
+          "side": "over",
+          "fd_odds": 700,
+          "fd_implied": 12.5,
+          "model_prob": 5.2,
+          "edge": -7.3
+        },
+        {
+          "threshold": 5,
+          "label": "Under 4.5 (main)",
+          "side": "under",
+          "fd_odds": 100,
+          "fd_implied": 50.0,
+          "model_prob": 62.6,
+          "edge": 12.6
+        }
+      ]
+    },
+    {
+      "pitcher": "Tomoyuki Sugano",
+      "pitcher_id": 608372,
+      "team": "Colorado Rockies",
+      "opponent": "CIN",
+      "expected_ks": 3.35,
+      "raw_k9": 6.49,
+      "regressed_k9": 6.2,
+      "ip_projection": 5.44,
+      "matchup_adj": 1.037,
+      "total_ip_sample": 26.3,
+      "game_log_games": 5,
+      "edges": [
+        {
+          "threshold": 3,
+          "label": "3+ Ks",
+          "side": "over",
+          "fd_odds": -400,
+          "fd_implied": 80.0,
+          "model_prob": 65.0,
+          "edge": -15.0
+        },
+        {
+          "threshold": 4,
+          "label": "4+ Ks",
+          "side": "over",
+          "fd_odds": -148,
+          "fd_implied": 59.7,
+          "model_prob": 43.0,
+          "edge": -16.7
+        },
+        {
+          "threshold": 5,
+          "label": "5+ Ks",
+          "side": "over",
+          "fd_odds": 172,
+          "fd_implied": 36.8,
+          "model_prob": 24.6,
+          "edge": -12.2
+        },
+        {
+          "threshold": 6,
+          "label": "6+ Ks",
+          "side": "over",
+          "fd_odds": 390,
+          "fd_implied": 20.4,
+          "model_prob": 12.3,
+          "edge": -8.1
+        },
+        {
+          "threshold": 4,
+          "label": "Under 3.5 (main)",
+          "side": "under",
+          "fd_odds": 112,
+          "fd_implied": 47.2,
+          "model_prob": 57.0,
+          "edge": 9.9
+        }
+      ]
+    },
+    {
+      "pitcher": "Andre Pallante",
+      "pitcher_id": 669467,
+      "team": "St. Louis Cardinals",
+      "opponent": "PIT",
+      "expected_ks": 3.44,
+      "raw_k9": 7.11,
+      "regressed_k9": 6.43,
+      "ip_projection": 5.39,
+      "matchup_adj": 1.038,
+      "total_ip_sample": 25.3,
+      "game_log_games": 5,
+      "edges": [
+        {
+          "threshold": 3,
+          "label": "3+ Ks",
+          "side": "over",
+          "fd_odds": -470,
+          "fd_implied": 82.5,
+          "model_prob": 66.8,
+          "edge": -15.7
+        },
+        {
+          "threshold": 4,
+          "label": "4+ Ks",
+          "side": "over",
+          "fd_odds": -162,
+          "fd_implied": 61.8,
+          "model_prob": 45.0,
+          "edge": -16.8
+        },
+        {
+          "threshold": 5,
+          "label": "5+ Ks",
+          "side": "over",
+          "fd_odds": 154,
+          "fd_implied": 39.4,
+          "model_prob": 26.3,
+          "edge": -13.1
+        },
+        {
+          "threshold": 6,
+          "label": "6+ Ks",
+          "side": "over",
+          "fd_odds": 350,
+          "fd_implied": 22.2,
+          "model_prob": 13.4,
+          "edge": -8.8
+        },
+        {
+          "threshold": 7,
+          "label": "7+ Ks",
+          "side": "over",
+          "fd_odds": 750,
+          "fd_implied": 11.8,
+          "model_prob": 6.1,
+          "edge": -5.7
+        },
+        {
+          "threshold": 4,
+          "label": "Under 3.5 (main)",
+          "side": "under",
+          "fd_odds": 122,
+          "fd_implied": 45.0,
+          "model_prob": 55.0,
+          "edge": 9.9
+        }
+      ]
+    },
+    {
+      "pitcher": "Eduardo Rodriguez",
+      "pitcher_id": 593958,
+      "team": "Arizona Diamondbacks",
+      "opponent": "MIL",
+      "expected_ks": 3.89,
+      "raw_k9": 5.79,
+      "regressed_k9": 7.53,
+      "ip_projection": 5.53,
+      "matchup_adj": 0.978,
+      "total_ip_sample": 28.0,
+      "game_log_games": 5,
+      "edges": [
+        {
+          "threshold": 3,
+          "label": "3+ Ks",
+          "side": "over",
+          "fd_odds": -750,
+          "fd_implied": 88.2,
+          "model_prob": 74.5,
+          "edge": -13.7
+        },
+        {
+          "threshold": 4,
+          "label": "4+ Ks",
+          "side": "over",
+          "fd_odds": -245,
+          "fd_implied": 71.0,
+          "model_prob": 54.4,
+          "edge": -16.6
+        },
+        {
+          "threshold": 5,
+          "label": "Over 4.5 (main)",
+          "side": "over",
+          "fd_odds": 102,
+          "fd_implied": 49.5,
+          "model_prob": 34.9,
+          "edge": -14.6
+        },
+        {
+          "threshold": 6,
+          "label": "6+ Ks",
+          "side": "over",
+          "fd_odds": 225,
+          "fd_implied": 30.8,
+          "model_prob": 19.8,
+          "edge": -11.0
+        },
+        {
+          "threshold": 7,
+          "label": "7+ Ks",
+          "side": "over",
+          "fd_odds": 470,
+          "fd_implied": 17.5,
+          "model_prob": 9.9,
+          "edge": -7.6
+        },
+        {
+          "threshold": 5,
+          "label": "Under 4.5 (main)",
+          "side": "under",
+          "fd_odds": -136,
+          "fd_implied": 57.6,
+          "model_prob": 65.1,
+          "edge": 7.4
+        }
+      ]
+    },
+    {
+      "pitcher": "Logan Webb",
+      "pitcher_id": 657277,
+      "team": "San Francisco Giants",
+      "opponent": "PHI",
+      "expected_ks": 4.85,
+      "raw_k9": 7.78,
+      "regressed_k9": 8.99,
+      "ip_projection": 5.69,
+      "matchup_adj": 0.992,
+      "total_ip_sample": 37.0,
+      "game_log_games": 6,
+      "edges": [
+        {
+          "threshold": 3,
+          "label": "3+ Ks",
+          "side": "over",
+          "fd_odds": -3000,
+          "fd_implied": 96.8,
+          "model_prob": 86.2,
+          "edge": -10.6
+        },
+        {
+          "threshold": 4,
+          "label": "4+ Ks",
+          "side": "over",
+          "fd_odds": -700,
+          "fd_implied": 87.5,
+          "model_prob": 71.3,
+          "edge": -16.2
+        },
+        {
+          "threshold": 5,
+          "label": "5+ Ks",
+          "side": "over",
+          "fd_odds": -260,
+          "fd_implied": 72.2,
+          "model_prob": 53.3,
+          "edge": -19.0
+        },
+        {
+          "threshold": 6,
+          "label": "6+ Ks",
+          "side": "over",
+          "fd_odds": 100,
+          "fd_implied": 50.0,
+          "model_prob": 35.8,
+          "edge": -14.2
+        },
+        {
+          "threshold": 7,
+          "label": "7+ Ks",
+          "side": "over",
+          "fd_odds": 198,
+          "fd_implied": 33.6,
+          "model_prob": 21.6,
+          "edge": -11.9
+        },
+        {
+          "threshold": 8,
+          "label": "8+ Ks",
+          "side": "over",
+          "fd_odds": 400,
+          "fd_implied": 20.0,
+          "model_prob": 11.8,
+          "edge": -8.2
+        },
+        {
+          "threshold": 6,
+          "label": "Under 5.5 (main)",
+          "side": "under",
+          "fd_odds": -132,
+          "fd_implied": 56.9,
+          "model_prob": 64.2,
+          "edge": 7.3
+        }
+      ]
+    },
+    {
+      "pitcher": "Brandon Williamson",
+      "pitcher_id": 682227,
+      "team": "Cincinnati Reds",
+      "opponent": "COL",
+      "expected_ks": 4.66,
+      "raw_k9": 5.4,
+      "regressed_k9": 7.59,
+      "ip_projection": 5.38,
+      "matchup_adj": 1.195,
+      "total_ip_sample": 25.0,
+      "game_log_games": 5,
+      "edges": [
+        {
+          "threshold": 3,
+          "label": "3+ Ks",
+          "side": "over",
+          "fd_odds": -600,
+          "fd_implied": 85.7,
+          "model_prob": 84.3,
+          "edge": -1.4
+        },
+        {
+          "threshold": 4,
+          "label": "4+ Ks",
+          "side": "over",
+          "fd_odds": -194,
+          "fd_implied": 66.0,
+          "model_prob": 68.3,
+          "edge": 2.4
+        },
+        {
+          "threshold": 5,
+          "label": "Over 4.5 (main)",
+          "side": "over",
+          "fd_odds": 130,
+          "fd_implied": 43.5,
+          "model_prob": 49.7,
+          "edge": 6.3
+        },
+        {
+          "threshold": 6,
+          "label": "6+ Ks",
+          "side": "over",
+          "fd_odds": 270,
+          "fd_implied": 27.0,
+          "model_prob": 32.4,
+          "edge": 5.4
+        },
+        {
+          "threshold": 7,
+          "label": "7+ Ks",
+          "side": "over",
+          "fd_odds": 550,
+          "fd_implied": 15.4,
+          "model_prob": 19.0,
+          "edge": 3.6
+        },
+        {
+          "threshold": 5,
+          "label": "Under 4.5 (main)",
+          "side": "under",
+          "fd_odds": -174,
+          "fd_implied": 63.5,
+          "model_prob": 50.3,
+          "edge": -13.2
+        }
+      ]
+    },
+    {
+      "pitcher": "Matt Waldron",
+      "pitcher_id": 663362,
+      "team": "San Diego Padres",
+      "opponent": "CHC",
+      "expected_ks": 4.24,
+      "raw_k9": 7.27,
+      "regressed_k9": 8.34,
+      "ip_projection": 5.36,
+      "matchup_adj": 0.991,
+      "total_ip_sample": 8.7,
+      "game_log_games": 2,
+      "edges": [
+        {
+          "threshold": 3,
+          "label": "3+ Ks",
+          "side": "over",
+          "fd_odds": -380,
+          "fd_implied": 79.2,
+          "model_prob": 79.5,
+          "edge": 0.3
+        },
+        {
+          "threshold": 4,
+          "label": "Over 3.5 (main)",
+          "side": "over",
+          "fd_odds": -122,
+          "fd_implied": 55.0,
+          "model_prob": 61.2,
+          "edge": 6.2
+        },
+        {
+          "threshold": 5,
+          "label": "5+ Ks",
+          "side": "over",
+          "fd_odds": 182,
+          "fd_implied": 35.5,
+          "model_prob": 41.8,
+          "edge": 6.3
+        },
+        {
+          "threshold": 6,
+          "label": "6+ Ks",
+          "side": "over",
+          "fd_odds": 410,
+          "fd_implied": 19.6,
+          "model_prob": 25.3,
+          "edge": 5.7
+        },
+        {
+          "threshold": 4,
+          "label": "Under 3.5 (main)",
+          "side": "under",
+          "fd_odds": -108,
+          "fd_implied": 51.9,
+          "model_prob": 38.8,
+          "edge": -13.1
+        }
+      ]
+    },
+    {
+      "pitcher": "JR Ritchie",
+      "pitcher_id": 702275,
+      "team": "Atlanta Braves",
+      "opponent": "DET",
+      "expected_ks": 4.66,
+      "raw_k9": 9.0,
+      "regressed_k9": 8.55,
+      "ip_projection": 5.59,
+      "matchup_adj": 1.019,
+      "total_ip_sample": 7.0,
+      "game_log_games": 1,
+      "edges": [
+        {
+          "threshold": 3,
+          "label": "3+ Ks",
+          "side": "over",
+          "fd_odds": -1800,
+          "fd_implied": 94.7,
+          "model_prob": 84.4,
+          "edge": -10.4
+        },
+        {
+          "threshold": 4,
+          "label": "4+ Ks",
+          "side": "over",
+          "fd_odds": -450,
+          "fd_implied": 81.8,
+          "model_prob": 68.4,
+          "edge": -13.4
+        },
+        {
+          "threshold": 5,
+          "label": "Over 4.5 (main)",
+          "side": "over",
+          "fd_odds": -162,
+          "fd_implied": 61.8,
+          "model_prob": 49.8,
+          "edge": -12.1
+        },
+        {
+          "threshold": 6,
+          "label": "6+ Ks",
+          "side": "over",
+          "fd_odds": 134,
+          "fd_implied": 42.7,
+          "model_prob": 32.4,
+          "edge": -10.3
+        },
+        {
+          "threshold": 7,
+          "label": "7+ Ks",
+          "side": "over",
+          "fd_odds": 270,
+          "fd_implied": 27.0,
+          "model_prob": 19.0,
+          "edge": -8.0
+        },
+        {
+          "threshold": 8,
+          "label": "8+ Ks",
+          "side": "over",
+          "fd_odds": 550,
+          "fd_implied": 15.4,
+          "model_prob": 10.0,
+          "edge": -5.4
+        },
+        {
+          "threshold": 5,
+          "label": "Under 4.5 (main)",
+          "side": "under",
+          "fd_odds": 122,
+          "fd_implied": 45.0,
+          "model_prob": 50.2,
+          "edge": 5.2
+        }
+      ]
+    },
+    {
+      "pitcher": "Luis Severino",
+      "pitcher_id": 622663,
+      "team": "Athletics",
+      "opponent": "KC",
+      "expected_ks": 4.19,
+      "raw_k9": 9.19,
+      "regressed_k9": 7.66,
+      "ip_projection": 5.42,
+      "matchup_adj": 1.057,
+      "total_ip_sample": 31.3,
+      "game_log_games": 6,
+      "edges": [
+        {
+          "threshold": 3,
+          "label": "3+ Ks",
+          "side": "over",
+          "fd_odds": -1000,
+          "fd_implied": 90.9,
+          "model_prob": 78.9,
+          "edge": -12.0
+        },
+        {
+          "threshold": 4,
+          "label": "4+ Ks",
+          "side": "over",
+          "fd_odds": -300,
+          "fd_implied": 75.0,
+          "model_prob": 60.3,
+          "edge": -14.7
+        },
+        {
+          "threshold": 5,
+          "label": "Over 4.5 (main)",
+          "side": "over",
+          "fd_odds": -112,
+          "fd_implied": 52.8,
+          "model_prob": 40.9,
+          "edge": -12.0
+        },
+        {
+          "threshold": 6,
+          "label": "6+ Ks",
+          "side": "over",
+          "fd_odds": 182,
+          "fd_implied": 35.5,
+          "model_prob": 24.6,
+          "edge": -10.9
+        },
+        {
+          "threshold": 7,
+          "label": "7+ Ks",
+          "side": "over",
+          "fd_odds": 390,
+          "fd_implied": 20.4,
+          "model_prob": 13.2,
+          "edge": -7.2
+        },
+        {
+          "threshold": 5,
+          "label": "Under 4.5 (main)",
+          "side": "under",
+          "fd_odds": -118,
+          "fd_implied": 54.1,
+          "model_prob": 59.1,
+          "edge": 5.0
+        }
+      ]
+    },
+    {
+      "pitcher": "Eric Lauer",
+      "pitcher_id": 641778,
+      "team": "Toronto Blue Jays",
+      "opponent": "BOS",
+      "expected_ks": 4.34,
+      "raw_k9": 7.55,
+      "regressed_k9": 8.44,
+      "ip_projection": 5.26,
+      "matchup_adj": 1.024,
+      "total_ip_sample": 22.7,
+      "game_log_games": 5,
+      "edges": [
+        {
+          "threshold": 3,
+          "label": "3+ Ks",
+          "side": "over",
+          "fd_odds": -750,
+          "fd_implied": 88.2,
+          "model_prob": 80.7,
+          "edge": -7.5
+        },
+        {
+          "threshold": 4,
+          "label": "4+ Ks",
+          "side": "over",
+          "fd_odds": -270,
+          "fd_implied": 73.0,
+          "model_prob": 63.0,
+          "edge": -10.0
+        },
+        {
+          "threshold": 5,
+          "label": "Over 4.5 (main)",
+          "side": "over",
+          "fd_odds": -114,
+          "fd_implied": 53.3,
+          "model_prob": 43.7,
+          "edge": -9.6
+        },
+        {
+          "threshold": 6,
+          "label": "6+ Ks",
+          "side": "over",
+          "fd_odds": 178,
+          "fd_implied": 36.0,
+          "model_prob": 27.0,
+          "edge": -9.0
+        },
+        {
+          "threshold": 7,
+          "label": "7+ Ks",
+          "side": "over",
+          "fd_odds": 320,
+          "fd_implied": 23.8,
+          "model_prob": 14.9,
+          "edge": -8.9
+        },
+        {
+          "threshold": 8,
+          "label": "8+ Ks",
+          "side": "over",
+          "fd_odds": 630,
+          "fd_implied": 13.7,
+          "model_prob": 7.4,
+          "edge": -6.3
+        },
+        {
+          "threshold": 5,
+          "label": "Under 4.5 (main)",
+          "side": "under",
+          "fd_odds": -114,
+          "fd_implied": 53.3,
+          "model_prob": 56.3,
+          "edge": 3.0
+        }
+      ]
+    },
+    {
+      "pitcher": "Nathan Eovaldi",
+      "pitcher_id": 543135,
+      "team": "Texas Rangers",
+      "opponent": "NYY",
+      "expected_ks": 5.26,
+      "raw_k9": 8.82,
+      "regressed_k9": 8.89,
+      "ip_projection": 5.49,
+      "matchup_adj": 1.13,
+      "total_ip_sample": 32.7,
+      "game_log_games": 6,
+      "edges": [
+        {
+          "threshold": 3,
+          "label": "3+ Ks",
+          "side": "over",
+          "fd_odds": -3500,
+          "fd_implied": 97.2,
+          "model_prob": 89.6,
+          "edge": -7.6
+        },
+        {
+          "threshold": 4,
+          "label": "4+ Ks",
+          "side": "over",
+          "fd_odds": -670,
+          "fd_implied": 87.0,
+          "model_prob": 77.0,
+          "edge": -10.0
+        },
+        {
+          "threshold": 5,
+          "label": "5+ Ks",
+          "side": "over",
+          "fd_odds": -250,
+          "fd_implied": 71.4,
+          "model_prob": 60.5,
+          "edge": -11.0
+        },
+        {
+          "threshold": 6,
+          "label": "Over 5.5 (main)",
+          "side": "over",
+          "fd_odds": -112,
+          "fd_implied": 52.8,
+          "model_prob": 43.0,
+          "edge": -9.8
+        },
+        {
+          "threshold": 7,
+          "label": "7+ Ks",
+          "side": "over",
+          "fd_odds": 194,
+          "fd_implied": 34.0,
+          "model_prob": 27.7,
+          "edge": -6.3
+        },
+        {
+          "threshold": 8,
+          "label": "8+ Ks",
+          "side": "over",
+          "fd_odds": 390,
+          "fd_implied": 20.4,
+          "model_prob": 16.2,
+          "edge": -4.2
+        },
+        {
+          "threshold": 9,
+          "label": "9+ Ks",
+          "side": "over",
+          "fd_odds": 750,
+          "fd_implied": 11.8,
+          "model_prob": 8.7,
+          "edge": -3.1
+        },
+        {
+          "threshold": 6,
+          "label": "Under 5.5 (main)",
+          "side": "under",
+          "fd_odds": -118,
+          "fd_implied": 54.1,
+          "model_prob": 57.0,
+          "edge": 2.8
+        }
+      ]
+    },
+    {
+      "pitcher": "Yusei Kikuchi",
+      "pitcher_id": 579328,
+      "team": "Los Angeles Angels",
+      "opponent": "CWS",
+      "expected_ks": 5.61,
+      "raw_k9": 9.93,
+      "regressed_k9": 9.15,
+      "ip_projection": 5.31,
+      "matchup_adj": 1.209,
+      "total_ip_sample": 29.0,
+      "game_log_games": 6,
+      "edges": [
+        {
+          "threshold": 3,
+          "label": "3+ Ks",
+          "side": "over",
+          "fd_odds": -4000,
+          "fd_implied": 97.6,
+          "model_prob": 91.8,
+          "edge": -5.7
+        },
+        {
+          "threshold": 4,
+          "label": "4+ Ks",
+          "side": "over",
+          "fd_odds": -900,
+          "fd_implied": 90.0,
+          "model_prob": 81.1,
+          "edge": -8.9
+        },
+        {
+          "threshold": 5,
+          "label": "5+ Ks",
+          "side": "over",
+          "fd_odds": -320,
+          "fd_implied": 76.2,
+          "model_prob": 66.0,
+          "edge": -10.2
+        },
+        {
+          "threshold": 6,
+          "label": "6+ Ks",
+          "side": "over",
+          "fd_odds": -138,
+          "fd_implied": 58.0,
+          "model_prob": 49.0,
+          "edge": -8.9
+        },
+        {
+          "threshold": 7,
+          "label": "7+ Ks",
+          "side": "over",
+          "fd_odds": 162,
+          "fd_implied": 38.2,
+          "model_prob": 33.2,
+          "edge": -5.0
+        },
+        {
+          "threshold": 8,
+          "label": "8+ Ks",
+          "side": "over",
+          "fd_odds": 310,
+          "fd_implied": 24.4,
+          "model_prob": 20.5,
+          "edge": -3.9
+        },
+        {
+          "threshold": 9,
+          "label": "9+ Ks",
+          "side": "over",
+          "fd_odds": 630,
+          "fd_implied": 13.7,
+          "model_prob": 11.6,
+          "edge": -2.1
+        },
+        {
+          "threshold": 6,
+          "label": "Under 5.5 (main)",
+          "side": "under",
+          "fd_odds": 104,
+          "fd_implied": 49.0,
+          "model_prob": 51.0,
+          "edge": 1.9
+        }
+      ]
+    },
+    {
+      "pitcher": "Michael Wacha",
+      "pitcher_id": 608379,
+      "team": "Kansas City Royals",
+      "opponent": "OAK",
+      "expected_ks": 4.53,
+      "raw_k9": 7.79,
+      "regressed_k9": 7.0,
+      "ip_projection": 5.74,
+      "matchup_adj": 1.181,
+      "total_ip_sample": 32.3,
+      "game_log_games": 5,
+      "edges": [
+        {
+          "threshold": 3,
+          "label": "3+ Ks",
+          "side": "over",
+          "fd_odds": -750,
+          "fd_implied": 88.2,
+          "model_prob": 83.0,
+          "edge": -5.2
+        },
+        {
+          "threshold": 4,
+          "label": "4+ Ks",
+          "side": "over",
+          "fd_odds": -260,
+          "fd_implied": 72.2,
+          "model_prob": 66.3,
+          "edge": -5.9
+        },
+        {
+          "threshold": 5,
+          "label": "5+ Ks",
+          "side": "over",
+          "fd_odds": 106,
+          "fd_implied": 48.5,
+          "model_prob": 47.4,
+          "edge": -1.1
+        },
+        {
+          "threshold": 6,
+          "label": "6+ Ks",
+          "side": "over",
+          "fd_odds": 225,
+          "fd_implied": 30.8,
+          "model_prob": 30.3,
+          "edge": -0.5
+        },
+        {
+          "threshold": 7,
+          "label": "7+ Ks",
+          "side": "over",
+          "fd_odds": 490,
+          "fd_implied": 16.9,
+          "model_prob": 17.3,
+          "edge": 0.4
+        },
+        {
+          "threshold": 5,
+          "label": "Under 4.5 (main)",
+          "side": "under",
+          "fd_odds": -140,
+          "fd_implied": 58.3,
+          "model_prob": 52.6,
+          "edge": -5.7
+        }
+      ]
+    },
+    {
+      "pitcher": "Elmer Rodr\u00edguez",
+      "pitcher_id": 695684,
+      "team": "New York Yankees",
+      "opponent": "TEX",
+      "expected_ks": 5.13,
+      "raw_k9": 8.5,
+      "regressed_k9": 8.5,
+      "ip_projection": 5.5,
+      "matchup_adj": 1.149,
+      "total_ip_sample": 0,
+      "game_log_games": 0,
+      "edges": []
+    },
+    {
+      "pitcher": "Cristopher S\u00e1nchez",
+      "pitcher_id": 650911,
+      "team": "Philadelphia Phillies",
+      "opponent": "SF",
+      "expected_ks": 5.14,
+      "raw_k9": 11.5,
+      "regressed_k9": 10.19,
+      "ip_projection": 5.53,
+      "matchup_adj": 0.954,
+      "total_ip_sample": 33.7,
+      "game_log_games": 6,
+      "edges": []
+    },
+    {
+      "pitcher": "Brandon Sproat",
+      "pitcher_id": 687075,
+      "team": "Milwaukee Brewers",
+      "opponent": "ARI",
+      "expected_ks": 4.13,
+      "raw_k9": 8.06,
+      "regressed_k9": 8.38,
+      "ip_projection": 5.24,
+      "matchup_adj": 0.983,
+      "total_ip_sample": 22.3,
+      "game_log_games": 5,
+      "edges": [
+        {
+          "threshold": 3,
+          "label": "3+ Ks",
+          "side": "over",
+          "fd_odds": -490,
+          "fd_implied": 83.1,
+          "model_prob": 78.0,
+          "edge": -5.0
+        },
+        {
+          "threshold": 4,
+          "label": "4+ Ks",
+          "side": "over",
+          "fd_odds": -160,
+          "fd_implied": 61.5,
+          "model_prob": 59.1,
+          "edge": -2.4
+        },
+        {
+          "threshold": 5,
+          "label": "5+ Ks",
+          "side": "over",
+          "fd_odds": 142,
+          "fd_implied": 41.3,
+          "model_prob": 39.6,
+          "edge": -1.7
+        },
+        {
+          "threshold": 6,
+          "label": "6+ Ks",
+          "side": "over",
+          "fd_odds": 320,
+          "fd_implied": 23.8,
+          "model_prob": 23.5,
+          "edge": -0.3
+        },
+        {
+          "threshold": 7,
+          "label": "7+ Ks",
+          "side": "over",
+          "fd_odds": 680,
+          "fd_implied": 12.8,
+          "model_prob": 12.5,
+          "edge": -0.4
+        },
+        {
+          "threshold": 4,
+          "label": "Under 3.5 (main)",
+          "side": "under",
+          "fd_odds": 120,
+          "fd_implied": 45.5,
+          "model_prob": 40.9,
+          "edge": -4.6
+        }
+      ]
+    },
+    {
+      "pitcher": "George Kirby",
+      "pitcher_id": 669923,
+      "team": "Seattle Mariners",
+      "opponent": "MIN",
+      "expected_ks": 5.1,
+      "raw_k9": 6.63,
+      "regressed_k9": 8.54,
+      "ip_projection": 5.8,
+      "matchup_adj": 1.078,
+      "total_ip_sample": 39.3,
+      "game_log_games": 6,
+      "edges": [
+        {
+          "threshold": 3,
+          "label": "3+ Ks",
+          "side": "over",
+          "fd_odds": -2000,
+          "fd_implied": 95.2,
+          "model_prob": 88.4,
+          "edge": -6.9
+        },
+        {
+          "threshold": 4,
+          "label": "4+ Ks",
+          "side": "over",
+          "fd_odds": -470,
+          "fd_implied": 82.5,
+          "model_prob": 74.9,
+          "edge": -7.5
+        },
+        {
+          "threshold": 5,
+          "label": "5+ Ks",
+          "side": "over",
+          "fd_odds": -182,
+          "fd_implied": 64.5,
+          "model_prob": 57.7,
+          "edge": -6.8
+        },
+        {
+          "threshold": 6,
+          "label": "6+ Ks",
+          "side": "over",
+          "fd_odds": 126,
+          "fd_implied": 44.2,
+          "model_prob": 40.2,
+          "edge": -4.0
+        },
+        {
+          "threshold": 7,
+          "label": "7+ Ks",
+          "side": "over",
+          "fd_odds": 270,
+          "fd_implied": 27.0,
+          "model_prob": 25.3,
+          "edge": -1.7
+        },
+        {
+          "threshold": 8,
+          "label": "8+ Ks",
+          "side": "over",
+          "fd_odds": 550,
+          "fd_implied": 15.4,
+          "model_prob": 14.4,
+          "edge": -1.0
+        },
+        {
+          "threshold": 6,
+          "label": "Under 5.5 (main)",
+          "side": "under",
+          "fd_odds": -168,
+          "fd_implied": 62.7,
+          "model_prob": 59.8,
+          "edge": -2.9
+        }
+      ]
+    }
+  ],
+  "picks": [
+    {
+      "pitcher": "Peter Lambert",
+      "team": "Houston Astros",
+      "opponent": "BAL",
+      "pick": "3+ Ks",
+      "side": "over",
+      "odds": -580,
+      "model_prob": 91.8,
+      "fd_implied": 85.3,
+      "edge": 6.5,
+      "expected_ks": 5.61
+    },
+    {
+      "pitcher": "Peter Lambert",
+      "team": "Houston Astros",
+      "opponent": "BAL",
+      "pick": "4+ Ks",
+      "side": "over",
+      "odds": -225,
+      "model_prob": 81.0,
+      "fd_implied": 69.2,
+      "edge": 11.8,
+      "expected_ks": 5.61
+    },
+    {
+      "pitcher": "Peter Lambert",
+      "team": "Houston Astros",
+      "opponent": "BAL",
+      "pick": "6+ Ks",
+      "side": "over",
+      "odds": 194,
+      "model_prob": 49.0,
+      "fd_implied": 34.0,
+      "edge": 15.0,
+      "expected_ks": 5.61
+    },
+    {
+      "pitcher": "Peter Lambert",
+      "team": "Houston Astros",
+      "opponent": "BAL",
+      "pick": "7+ Ks",
+      "side": "over",
+      "odds": 320,
+      "model_prob": 33.1,
+      "fd_implied": 23.8,
+      "edge": 9.3,
+      "expected_ks": 5.61
+    },
+    {
+      "pitcher": "Peter Lambert",
+      "team": "Houston Astros",
+      "opponent": "BAL",
+      "pick": "8+ Ks",
+      "side": "over",
+      "odds": 580,
+      "model_prob": 20.4,
+      "fd_implied": 14.7,
+      "edge": 5.7,
+      "expected_ks": 5.61
+    },
+    {
+      "pitcher": "Sandy Alcantara",
+      "team": "Miami Marlins",
+      "opponent": "LAD",
+      "pick": "Under 4.5 (main)",
+      "side": "under",
+      "odds": -102,
+      "model_prob": 66.9,
+      "fd_implied": 50.5,
+      "edge": 16.4,
+      "expected_ks": 3.79
+    },
+    {
+      "pitcher": "Chris Bassitt",
+      "team": "Baltimore Orioles",
+      "opponent": "HOU",
+      "pick": "Under 4.5 (main)",
+      "side": "under",
+      "odds": -152,
+      "model_prob": 76.5,
+      "fd_implied": 60.3,
+      "edge": 16.2,
+      "expected_ks": 3.29
+    },
+    {
+      "pitcher": "Drew Rasmussen",
+      "team": "Tampa Bay Rays",
+      "opponent": "CLE",
+      "pick": "Under 4.5 (main)",
+      "side": "under",
+      "odds": -130,
+      "model_prob": 72.1,
+      "fd_implied": 56.5,
+      "edge": 15.6,
+      "expected_ks": 3.52
+    },
+    {
+      "pitcher": "Erick Fedde",
+      "team": "Chicago White Sox",
+      "opponent": "LAA",
+      "pick": "Under 3.5 (main)",
+      "side": "under",
+      "odds": 108,
+      "model_prob": 62.9,
+      "fd_implied": 48.1,
+      "edge": 14.8,
+      "expected_ks": 3.08
+    },
+    {
+      "pitcher": "Jameson Taillon",
+      "team": "Chicago Cubs",
+      "opponent": "SD",
+      "pick": "Under 4.5 (main)",
+      "side": "under",
+      "odds": -154,
+      "model_prob": 75.0,
+      "fd_implied": 60.6,
+      "edge": 14.4,
+      "expected_ks": 3.37
+    },
+    {
+      "pitcher": "Cade Cavalli",
+      "team": "Washington Nationals",
+      "opponent": "NYM",
+      "pick": "Under 4.5 (main)",
+      "side": "under",
+      "odds": -122,
+      "model_prob": 69.0,
+      "fd_implied": 55.0,
+      "edge": 14.1,
+      "expected_ks": 3.68
+    },
+    {
+      "pitcher": "Taj Bradley",
+      "team": "Minnesota Twins",
+      "opponent": "SEA",
+      "pick": "Under 5.5 (main)",
+      "side": "under",
+      "odds": 108,
+      "model_prob": 60.7,
+      "fd_implied": 48.1,
+      "edge": 12.6,
+      "expected_ks": 5.05
+    },
+    {
+      "pitcher": "Bubba Chandler",
+      "team": "Pittsburgh Pirates",
+      "opponent": "STL",
+      "pick": "Under 4.5 (main)",
+      "side": "under",
+      "odds": 100,
+      "model_prob": 62.6,
+      "fd_implied": 50.0,
+      "edge": 12.6,
+      "expected_ks": 4.02
+    },
+    {
+      "pitcher": "Tomoyuki Sugano",
+      "team": "Colorado Rockies",
+      "opponent": "CIN",
+      "pick": "Under 3.5 (main)",
+      "side": "under",
+      "odds": 112,
+      "model_prob": 57.0,
+      "fd_implied": 47.2,
+      "edge": 9.9,
+      "expected_ks": 3.35
+    },
+    {
+      "pitcher": "Andre Pallante",
+      "team": "St. Louis Cardinals",
+      "opponent": "PIT",
+      "pick": "Under 3.5 (main)",
+      "side": "under",
+      "odds": 122,
+      "model_prob": 55.0,
+      "fd_implied": 45.0,
+      "edge": 9.9,
+      "expected_ks": 3.44
+    },
+    {
+      "pitcher": "Eduardo Rodriguez",
+      "team": "Arizona Diamondbacks",
+      "opponent": "MIL",
+      "pick": "Under 4.5 (main)",
+      "side": "under",
+      "odds": -136,
+      "model_prob": 65.1,
+      "fd_implied": 57.6,
+      "edge": 7.4,
+      "expected_ks": 3.89
+    },
+    {
+      "pitcher": "Logan Webb",
+      "team": "San Francisco Giants",
+      "opponent": "PHI",
+      "pick": "Under 5.5 (main)",
+      "side": "under",
+      "odds": -132,
+      "model_prob": 64.2,
+      "fd_implied": 56.9,
+      "edge": 7.3,
+      "expected_ks": 4.85
+    },
+    {
+      "pitcher": "Brandon Williamson",
+      "team": "Cincinnati Reds",
+      "opponent": "COL",
+      "pick": "Over 4.5 (main)",
+      "side": "over",
+      "odds": 130,
+      "model_prob": 49.7,
+      "fd_implied": 43.5,
+      "edge": 6.3,
+      "expected_ks": 4.66
+    },
+    {
+      "pitcher": "Brandon Williamson",
+      "team": "Cincinnati Reds",
+      "opponent": "COL",
+      "pick": "6+ Ks",
+      "side": "over",
+      "odds": 270,
+      "model_prob": 32.4,
+      "fd_implied": 27.0,
+      "edge": 5.4,
+      "expected_ks": 4.66
+    },
+    {
+      "pitcher": "Matt Waldron",
+      "team": "San Diego Padres",
+      "opponent": "CHC",
+      "pick": "Over 3.5 (main)",
+      "side": "over",
+      "odds": -122,
+      "model_prob": 61.2,
+      "fd_implied": 55.0,
+      "edge": 6.2,
+      "expected_ks": 4.24
+    },
+    {
+      "pitcher": "Matt Waldron",
+      "team": "San Diego Padres",
+      "opponent": "CHC",
+      "pick": "5+ Ks",
+      "side": "over",
+      "odds": 182,
+      "model_prob": 41.8,
+      "fd_implied": 35.5,
+      "edge": 6.3,
+      "expected_ks": 4.24
+    },
+    {
+      "pitcher": "Matt Waldron",
+      "team": "San Diego Padres",
+      "opponent": "CHC",
+      "pick": "6+ Ks",
+      "side": "over",
+      "odds": 410,
+      "model_prob": 25.3,
+      "fd_implied": 19.6,
+      "edge": 5.7,
+      "expected_ks": 4.24
+    },
+    {
+      "pitcher": "JR Ritchie",
+      "team": "Atlanta Braves",
+      "opponent": "DET",
+      "pick": "Under 4.5 (main)",
+      "side": "under",
+      "odds": 122,
+      "model_prob": 50.2,
+      "fd_implied": 45.0,
+      "edge": 5.2,
+      "expected_ks": 4.66
+    },
+    {
+      "pitcher": "Eric Lauer",
+      "team": "Toronto Blue Jays",
+      "opponent": "BOS",
+      "pick": "Under 4.5 (main)",
+      "side": "under",
+      "odds": -114,
+      "model_prob": 56.3,
+      "fd_implied": 53.3,
+      "edge": 3.0,
+      "expected_ks": 4.34
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+# My attempt at a model to bet on NFL games
+
+[HamirTime | 8 pts | 14 comments]
+
+Hey guys, been lurking since this subreddit got created and knew I would be contributing to it once I got my model to an "acceptable" state to hopefully get further insight.
+
+Gonna try to keep this as short as possible because alot of explaining happens in the Jupyter notebook, but here goes.
+
+So basically I took a data mining course this last semester and the final project was to apply the concepts we learned in class to a real world scenario. While the NFL was in full swing, I was a frequent sports better and would really enjoy betting and watching the games. Data and modeling still seemed like such a complex topic to me, but I knew that eventually I would the subject either in class or on my own. After learning the data mining world, this in-class project was a perfect way to test what I had learned as well as try and use my skills to make some money.
+
+SO with all that out of the way, the summation of the actual data and models is that I took game data from Kaggle (mainly used to pull the scores) and added full team rosters for both away and home teams (rosters scraped from another site). My thought was that since each team is composed of 52 players, that at the end of the day their performances (with the leadership of the head coach) is what determined the outcomes of the game. So to summarize, each of my records contained the home and away teams, current W-L records, and most relevant positions for both teams. I also decided to filter the data to only be within this millennia.
+
+With this data I tried to use regression models to predict the score of the games. This score would then be compared with the vegas spread for that game so that the model could predict whether it should bet on the home team or the away team to cover the spread. This might not be a good practice, but I just decided to use every game from the 2000-2018 season to predict 2019 games as my model testing phase. I used the SVM Regressor algorithm (primarily because it was the only one that supported unbalanced data, which is obviously important since the more recent games should play a bigger factor) and an Artificial Neural Network because it's pretty easy to grasp and honestly doesn't require much thinking or work from me. Kinda also used it in case I was configuring the SVM wrong.
+
+In summary, my results were slightly worse than I was expecting.  Both my models average out to about 52% accuracy and a mean squared error of around 195 when compared to the actual point values. Hence the main reason I am posting here: to get some help from more experienced data scientists.
+
+I've decided to include my work here, both for more experienced people to critique and maybe for some less experienced people to learn. This project was, again, done as a school project so please excuse some of my markdown comments as they had to follow a format for the class. This is also done in Python primarily using scikit learn for all data modeling and pandas for pre-processing. I used VS Code as my IDE with the Microsoft Python plugin to view and edit Jupyter Notebooks.
+
+I want to keep developing this in the future, at this point not even to make money but just because I think it's a cool concept. The thought of math being able to better predict as complex a game as football more accurately than almost anyone is crazy. Other than this model, I recently also purchased a Raspberry Pi (also being used for other side projects) to eventually automatically pull new game data for the model to predict.
+
+Like I said above please feel free to critique, this was basically my first major python project and I had no experience with any of these libraries. Also don't usually post on Reddit so if my formatting sucks call me out on that too.
+
+Thanks guys, hope this is a helpful post to keep the subreddit going.
+
+Jupyter Notebook: http://www.filedropper.com/finalproject_2 (not sure how long the site will host the file TBH)
+
+---
+## Comments
+
+[KidMcC | 3 pts]
+Will respond more fully later, but one thing that jumps out at me is that you might want to explore using a GLM with Poisson distribution as opposed to something like SVMs for football scores. This allows you a better probability assignment to different outcomes. 
+
+Basic googling should land you more stats-focused details on that.
+
+As an aside, there are better ways to handle imbalanced data than using an SVM for assigning binary winner/loser status. SVMs rarely perform consistently better than some other such models, like Logistic Regression or Random Forest Classifiers. Looking into weighted logistic regression or sub-sampling to balance out data as opposed to picking a specific model family as a result.
+
+&amp;#x200B;
+
+Again, will respond more later, as it's an interesting problem. Also open to debate re: any of the above.
+
+  [15woodsjo | 4 pts]
+  To piggy back off this answer, I would also throw in a suggestion of using a neural network and turning this into a binary classification problem.
+
+In practicality this is a logistic regression model that you have more control over, and can potentially get a little bit better of a model out of the algorithm.
+
+&amp;#x200B;
+
+The reason I would suggest anything binary classification for this type of problem is you would want to be able to measure the % likelihood of one team vs. another covering the spread whilst the line moves. In essence, you can get more information by knowing that team A has a 60% likelihood of covering a (-9) line and team B has a 40% chance PLUS team A has a 55% likelihood of covering a (-10) line and team B has a 55% chance. Basically you want to be able to apply your model to a dynamic line to get what is hopefully a more accurate picture of a +EV game
+
+    [HamirTime | 2 pts]
+    I could be misunderstanding your suggestion, but I think I am currently already transforming this into a binary classification problem. After using regression to calculate the score, I compare it with the spread to calculate a 'class' variable (0 or 1). 0 meaning a bet should be placed on the away team and a 1 meaning a bet on the home team. I use these to also measure common metrics like accuracy, precision, and recall.
+
+ The likelihood percentages was also something I wanted to implement by using the difference between the predicted score and the spread, but wanted to focus on improving the model before then
+
+      [15woodsjo | 2 pts]
+      You are implementing a binary decision based on your model but not using an algorithm that is trained using binary classification. Slight difference
+
+        [KidMcC | 2 pts]
+        This is a very important distinction. "Binary classification" can be done at least two ways here.   
+1) Linear model (of sorts) fit to predict the point difference (homeScore - awayScore). Again, GLM approach with Poisson Distribution is the most common choice for football for a reason, given how scoring is not linear with each point-accumulating event. The sign of the endogenous variable would then be indicating the "win" the same way a 1/0 would in your example. Here you can use size of the difference to indicate probability, to some degree.   
+[https://www.sbo.net/strategy/football-prediction-model-poisson-distribution/](https://www.sbo.net/strategy/football-prediction-model-poisson-distribution/)
+
+[https://www.pinnacle.com/en/betting-articles/Soccer/how-to-calculate-poisson-distribution/MD62MLXUMKMXZ6A8](https://www.pinnacle.com/en/betting-articles/Soccer/how-to-calculate-poisson-distribution/MD62MLXUMKMXZ6A8)
+
+2) Ignore points and predict an actual binary variable indicating whether or not the home team won. What this modeling approach provides is a direct probability associated with each classification. This also requires a choice to be made of regularization, L1/L2 penalty if using Logistic Regression, etc.  
+
+
+Predicting scores via regression, and then daisy-chaining that back into a spread comparison to then take advantage of error profiling, like you said, is quite indirect and will certainly introduce more bias and/or volatility than what it returns in accuracy.
+
+        [HamirTime | 1 pts]
+        Totally understand the difference now, thanks. I think I was misunderstanding because I wasn’t seeing how I could generate a confidence probability of the bets without doing some calculation of a predicted score, so doing a direct binary classification didn’t make sense.
+
+In terms of the reasoning to use a GLM with Poisson, while I don’t have much experience with it, I do see your point why normal regression wouldn’t work since football has a weirder scoring system. I think I’ll probably go that route. Thanks for the input
+
+        [KidMcC | 1 pts]
+        No problem. There's a lot of published material about how good a choice Poisson is for a football-specific GLM implementation. Well worth reading if you're interested.
+
+        [anxiousalpaca | 1 pts]
+        &gt; Predicting scores via regression, and then daisy-chaining that back into a spread comparison to then take advantage of error profiling, like you said, is quite indirect and will certainly introduce more bias and/or volatility than what it returns in accuracy.
+
+Actually this works better than binary/multiclass classification directly for my case.
+
+        [KidMcC | 1 pts]
+        The OP said nothing of features describing the relative defensive capability of either side of the ball. Without such features, I'd still say daisy-chaining yhat values for score back into a comparison is risky, as it leaves nothing in the model reflecting the fact that for one team's offense to have the opportunity to score, it generally requires that the other team does not have the same opportunity at the same time (save for pick-6s). Volatility would be unstable when you begin to use this approach with games where disparity between defensive capability on each side is substantial. At least, this is what I have found. Curious to hear more if this is still at odds with your experience.
+
+        [anxiousalpaca | 1 pts]
+        You are right, i totally misread what is meant by daisy-chaining back (not an English native speaker)
+
+    [KidMcC | 2 pts]
+    If we are talking about predicting binary game outcome, then I'd be hesitant to go the route of neural network. By its very nature of scheduling and season construction, football doesn't offer a huge dataset of games to really draw from (compared to other sports). Especially if you aren't weighting games from the distant past fairly, one can find themselves with a high variance, over-parameterized model fit on too little an amount of data. All my opinion of course! 
+
+I do think a thoughtful feature selection process fit to an XGB or RandomForest model might be more manageable given that gameplay data gets old fast. Exponential weighting can be your friend here, though, if you need to go way back, just make sure your offense-profiling is dynamic!
+
+      [15woodsjo | 2 pts]
+      That's fair, my background is in basketball where I suppose there is a larger sample size.
+
+      [HamirTime | 1 pts]
+      Yeah I think for the SVM model since it innately supported weighting the data, I used an arbitrary exponential function to essentially make the most recent games ~5x as weighted as the least recent games. Like I said this was arbitrary, but I figured that since I’m also keeping track of all players, that a game from 2000 wouldn’t bear on a 2018 game since the entire player-base is different.
+
+  [HamirTime | 2 pts]
+  Thanks for the insight, I will definitely look into GLMs and their applications. I'm more familiar with logistic regression, so I would probably err towards looking into that to better handle imbalanced data

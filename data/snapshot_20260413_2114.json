@@ -1,0 +1,4923 @@
+{
+  "timestamp": "2026-04-13T21:14:55.981172+00:00",
+  "game_lines": {
+    "NBA": [
+      {
+        "date": "2026-04-14T23:30:00+00:00",
+        "status": "scheduled",
+        "home_team": "Charlotte",
+        "away_team": "Miami",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betonline": -225,
+          "sportsbetting": -225,
+          "pinnacle": -229,
+          "gtbets": -229,
+          "intertops": -225,
+          "lowvig": -225,
+          "unibet": -225,
+          "heritage": -222,
+          "bodog": -222,
+          "bovada": -225,
+          "consensus": -220
+        },
+        "away_ml": {
+          "betonline": 189,
+          "sportsbetting": 185,
+          "pinnacle": 188,
+          "gtbets": 188,
+          "intertops": 175,
+          "lowvig": 185,
+          "unibet": 175,
+          "heritage": 178,
+          "bodog": 178,
+          "bovada": 175,
+          "consensus": 180
+        },
+        "total": {
+          "betonline": 228.5,
+          "sportsbetting": 229,
+          "pinnacle": 228,
+          "gtbets": 228,
+          "intertops": 228.5,
+          "lowvig": 228.5,
+          "unibet": 229.5,
+          "heritage": 228.5,
+          "bodog": 228.5,
+          "bovada": 228.5,
+          "consensus": 228
+        },
+        "over_odds": {
+          "betonline": -110,
+          "sportsbetting": -110,
+          "pinnacle": -113,
+          "gtbets": -113,
+          "intertops": -120,
+          "lowvig": -110,
+          "unibet": -110,
+          "heritage": -108,
+          "bodog": -110,
+          "bovada": -110,
+          "consensus": -110
+        },
+        "under_odds": {
+          "betonline": -110,
+          "sportsbetting": -110,
+          "pinnacle": -107,
+          "gtbets": -107,
+          "intertops": -110,
+          "lowvig": -110,
+          "unibet": -125,
+          "heritage": -108,
+          "bodog": -110,
+          "bovada": -110,
+          "consensus": -110
+        },
+        "home_spread": {
+          "betonline": -5.5,
+          "sportsbetting": -5.5,
+          "pinnacle": -5.5,
+          "gtbets": -5.5,
+          "intertops": -5.5,
+          "lowvig": -5.5,
+          "unibet": -5.5,
+          "heritage": -5.5,
+          "bodog": -5.5,
+          "bovada": -5.5,
+          "consensus": -5.5
+        },
+        "home_spread_odds": {
+          "betonline": -107,
+          "sportsbetting": -110,
+          "pinnacle": -110,
+          "gtbets": -110,
+          "intertops": -110,
+          "lowvig": -110,
+          "unibet": -110,
+          "heritage": -106,
+          "bodog": -110,
+          "bovada": -110,
+          "consensus": -110
+        },
+        "away_spread": {
+          "betonline": 5.5,
+          "sportsbetting": 5.5,
+          "pinnacle": 5.5,
+          "gtbets": 5.5,
+          "intertops": 5.5,
+          "lowvig": 5.5,
+          "unibet": 5.5,
+          "heritage": 5.5,
+          "bodog": 5.5,
+          "bovada": 5.5,
+          "consensus": 5.5
+        },
+        "away_spread_odds": {
+          "betonline": -113,
+          "sportsbetting": -110,
+          "pinnacle": -110,
+          "gtbets": -110,
+          "intertops": -120,
+          "lowvig": -110,
+          "unibet": -110,
+          "heritage": -110,
+          "bodog": -110,
+          "bovada": -110,
+          "consensus": -110
+        }
+      },
+      {
+        "date": "2026-04-15T02:00:00+00:00",
+        "status": "scheduled",
+        "home_team": "Phoenix",
+        "away_team": "Portland",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betonline": -160,
+          "sportsbetting": -160,
+          "pinnacle": -160,
+          "gtbets": -160,
+          "intertops": -160,
+          "lowvig": -160,
+          "unibet": -163,
+          "heritage": -166,
+          "bodog": -162,
+          "bovada": -160,
+          "consensus": -160
+        },
+        "away_ml": {
+          "betonline": 140,
+          "sportsbetting": 135,
+          "pinnacle": 134,
+          "gtbets": 134,
+          "intertops": 120,
+          "lowvig": 140,
+          "unibet": 130,
+          "heritage": 136,
+          "bodog": 132,
+          "bovada": 134,
+          "consensus": 140
+        },
+        "total": {
+          "betonline": 217.5,
+          "sportsbetting": 217.5,
+          "pinnacle": 218,
+          "gtbets": 218,
+          "intertops": 217.5,
+          "lowvig": 218,
+          "unibet": 218.5,
+          "heritage": 217.5,
+          "bodog": 217.5,
+          "bovada": 217.5,
+          "consensus": 217.5
+        },
+        "over_odds": {
+          "betonline": -110,
+          "sportsbetting": -110,
+          "pinnacle": -104,
+          "gtbets": -104,
+          "intertops": -120,
+          "lowvig": -110,
+          "unibet": -110,
+          "heritage": -108,
+          "bodog": -110,
+          "bovada": -110,
+          "consensus": -110
+        },
+        "under_odds": {
+          "betonline": -110,
+          "sportsbetting": -110,
+          "pinnacle": -116,
+          "gtbets": -116,
+          "intertops": -110,
+          "lowvig": -110,
+          "unibet": -125,
+          "heritage": -108,
+          "bodog": -110,
+          "bovada": -110,
+          "consensus": -110
+        },
+        "home_spread": {
+          "betonline": -3.5,
+          "sportsbetting": -3.5,
+          "pinnacle": -3.5,
+          "gtbets": -3.5,
+          "intertops": -3.5,
+          "lowvig": -3.5,
+          "unibet": -3.5,
+          "heritage": -3.5,
+          "bodog": -3.5,
+          "bovada": -3.5,
+          "consensus": -3.5
+        },
+        "home_spread_odds": {
+          "betonline": -110,
+          "sportsbetting": -105,
+          "pinnacle": -110,
+          "gtbets": -110,
+          "intertops": -110,
+          "lowvig": -110,
+          "unibet": -110,
+          "heritage": -112,
+          "bodog": -110,
+          "bovada": -110,
+          "consensus": -110
+        },
+        "away_spread": {
+          "betonline": 3.5,
+          "sportsbetting": 3.5,
+          "pinnacle": 3.5,
+          "gtbets": 3.5,
+          "intertops": 3.5,
+          "lowvig": 3.5,
+          "unibet": 3.5,
+          "heritage": 3.5,
+          "bodog": 3.5,
+          "bovada": 3.5,
+          "consensus": 3.5
+        },
+        "away_spread_odds": {
+          "betonline": -110,
+          "sportsbetting": -115,
+          "pinnacle": -110,
+          "gtbets": -110,
+          "intertops": -120,
+          "lowvig": -110,
+          "unibet": -110,
+          "heritage": -104,
+          "bodog": -110,
+          "bovada": -110,
+          "consensus": -110
+        }
+      },
+      {
+        "date": "2026-04-15T23:30:00+00:00",
+        "status": "scheduled",
+        "home_team": "Philadelphia",
+        "away_team": "Orlando",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betonline": -130,
+          "sportsbetting": -125,
+          "pinnacle": -122,
+          "gtbets": -122,
+          "intertops": -130,
+          "lowvig": -130,
+          "unibet": -125,
+          "heritage": -123,
+          "bodog": -130,
+          "bovada": -130,
+          "consensus": -130
+        },
+        "away_ml": {
+          "betonline": 110,
+          "sportsbetting": 105,
+          "pinnacle": 103,
+          "gtbets": 103,
+          "intertops": -110,
+          "lowvig": 110,
+          "unibet": 100,
+          "heritage": 101,
+          "bodog": 106,
+          "bovada": 104,
+          "consensus": 110
+        },
+        "total": {
+          "betonline": 220.5,
+          "sportsbetting": 220,
+          "pinnacle": 220.5,
+          "gtbets": 220.5,
+          "intertops": 220.5,
+          "lowvig": 220.5,
+          "unibet": 221.5,
+          "heritage": 220.5,
+          "bodog": 220.5,
+          "bovada": 220.5,
+          "consensus": 220.5
+        },
+        "over_odds": {
+          "betonline": -112,
+          "sportsbetting": -110,
+          "pinnacle": -110,
+          "gtbets": -110,
+          "intertops": -120,
+          "lowvig": -110,
+          "unibet": 100,
+          "heritage": -108,
+          "bodog": -110,
+          "bovada": -110,
+          "consensus": -110
+        },
+        "under_odds": {
+          "betonline": -108,
+          "sportsbetting": -110,
+          "pinnacle": -110,
+          "gtbets": -110,
+          "intertops": -110,
+          "lowvig": -110,
+          "unibet": -138,
+          "heritage": -108,
+          "bodog": -110,
+          "bovada": -110,
+          "consensus": -110
+        },
+        "home_spread": {
+          "betonline": -2,
+          "sportsbetting": -2,
+          "pinnacle": -1.5,
+          "gtbets": -1.5,
+          "intertops": -2,
+          "lowvig": -2,
+          "unibet": -1.5,
+          "heritage": -1.5,
+          "bodog": -2,
+          "bovada": -2,
+          "consensus": -2
+        },
+        "home_spread_odds": {
+          "betonline": -110,
+          "sportsbetting": -105,
+          "pinnacle": -110,
+          "gtbets": -110,
+          "intertops": -110,
+          "lowvig": -110,
+          "unibet": -110,
+          "heritage": -106,
+          "bodog": -110,
+          "bovada": -110,
+          "consensus": -110
+        },
+        "away_spread": {
+          "betonline": 2,
+          "sportsbetting": 2,
+          "pinnacle": 1.5,
+          "gtbets": 1.5,
+          "intertops": 2,
+          "lowvig": 2,
+          "unibet": 1.5,
+          "heritage": 1.5,
+          "bodog": 2,
+          "bovada": 2,
+          "consensus": 2
+        },
+        "away_spread_odds": {
+          "betonline": -110,
+          "sportsbetting": -115,
+          "pinnacle": -110,
+          "gtbets": -110,
+          "intertops": -120,
+          "lowvig": -110,
+          "unibet": -110,
+          "heritage": -110,
+          "bodog": -110,
+          "bovada": -110,
+          "consensus": -110
+        }
+      },
+      {
+        "date": "2026-04-16T02:00:00+00:00",
+        "status": "scheduled",
+        "home_team": "L.A. Clippers",
+        "away_team": "Golden State",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betonline": -200,
+          "sportsbetting": -220,
+          "pinnacle": -207,
+          "gtbets": -207,
+          "intertops": -200,
+          "lowvig": -200,
+          "unibet": -200,
+          "heritage": -207,
+          "bodog": -200,
+          "bovada": -200,
+          "consensus": -200
+        },
+        "away_ml": {
+          "betonline": 174,
+          "sportsbetting": 180,
+          "pinnacle": 171,
+          "gtbets": 171,
+          "intertops": 160,
+          "lowvig": 170,
+          "unibet": 160,
+          "heritage": 167,
+          "bodog": 162,
+          "bovada": 170,
+          "consensus": 170
+        },
+        "total": {
+          "betonline": 220.5,
+          "sportsbetting": 220,
+          "pinnacle": 220.5,
+          "gtbets": 220.5,
+          "intertops": 220.5,
+          "lowvig": 220.5,
+          "unibet": 221.5,
+          "heritage": 220.5,
+          "bodog": 220.5,
+          "bovada": 220.5,
+          "consensus": 220.5
+        },
+        "over_odds": {
+          "betonline": -105,
+          "sportsbetting": -110,
+          "pinnacle": -107,
+          "gtbets": -107,
+          "intertops": -120,
+          "lowvig": -110,
+          "unibet": -110,
+          "heritage": -108,
+          "bodog": -110,
+          "bovada": -110,
+          "consensus": -110
+        },
+        "under_odds": {
+          "betonline": -115,
+          "sportsbetting": -110,
+          "pinnacle": -113,
+          "gtbets": -113,
+          "intertops": -110,
+          "lowvig": -110,
+          "unibet": -125,
+          "heritage": -108,
+          "bodog": -110,
+          "bovada": -110,
+          "consensus": -110
+        },
+        "home_spread": {
+          "betonline": -5,
+          "sportsbetting": -5.5,
+          "pinnacle": -5,
+          "gtbets": -5,
+          "intertops": -5,
+          "lowvig": -5,
+          "unibet": -5.5,
+          "heritage": -5,
+          "bodog": -5,
+          "bovada": -5,
+          "consensus": -5
+        },
+        "home_spread_odds": {
+          "betonline": -111,
+          "sportsbetting": -110,
+          "pinnacle": -111,
+          "gtbets": -111,
+          "intertops": -110,
+          "lowvig": -110,
+          "unibet": 100,
+          "heritage": -108,
+          "bodog": -110,
+          "bovada": -110,
+          "consensus": -110
+        },
+        "away_spread": {
+          "betonline": 5,
+          "sportsbetting": 5.5,
+          "pinnacle": 5,
+          "gtbets": 5,
+          "intertops": 5,
+          "lowvig": 5,
+          "unibet": 5.5,
+          "heritage": 5,
+          "bodog": 5,
+          "bovada": 5,
+          "consensus": 5
+        },
+        "away_spread_odds": {
+          "betonline": -109,
+          "sportsbetting": -110,
+          "pinnacle": -109,
+          "gtbets": -109,
+          "intertops": -120,
+          "lowvig": -110,
+          "unibet": -125,
+          "heritage": -108,
+          "bodog": -110,
+          "bovada": -110,
+          "consensus": -110
+        }
+      }
+    ],
+    "MLB": [
+      {
+        "date": "2026-04-13T20:10:00+00:00",
+        "status": "in-progress",
+        "home_team": "Seattle Mariners",
+        "away_team": "Houston Astros",
+        "home_score": 5,
+        "away_score": 0,
+        "home_ml": {
+          "betmgm": -175,
+          "fanduel": -178,
+          "caesars": -178,
+          "bet365": -170,
+          "draftkings": -181,
+          "fanatics": -175,
+          "betonline": -169,
+          "sportsbetting": -177,
+          "pinnacle": -170,
+          "gtbets": -182,
+          "intertops": -175,
+          "lowvig": -170,
+          "unibet": -175,
+          "heritage": -178,
+          "bodog": -167,
+          "bovada": -175,
+          "consensus": -168
+        },
+        "away_ml": {
+          "betmgm": 145,
+          "fanduel": 150,
+          "caesars": 150,
+          "bet365": 145,
+          "draftkings": 149,
+          "fanatics": 145,
+          "betonline": 153,
+          "sportsbetting": 145,
+          "pinnacle": 150,
+          "gtbets": 160,
+          "intertops": 151,
+          "lowvig": 155,
+          "unibet": 138,
+          "heritage": 152,
+          "bodog": 142,
+          "bovada": 156,
+          "consensus": 151
+        },
+        "total": {
+          "betmgm": 7.5,
+          "fanduel": 7.5,
+          "caesars": 7.5,
+          "bet365": 7.5,
+          "draftkings": 7.5,
+          "fanatics": 7.5,
+          "betonline": 7.5,
+          "sportsbetting": 7.5,
+          "pinnacle": 7.5,
+          "gtbets": 7.5,
+          "intertops": 7.5,
+          "lowvig": 7.5,
+          "unibet": 7.5,
+          "heritage": 7.5,
+          "bodog": 7.5,
+          "bovada": 7.5,
+          "consensus": 7.5
+        },
+        "over_odds": {
+          "betmgm": -120,
+          "fanduel": -120,
+          "caesars": -115,
+          "bet365": -115,
+          "draftkings": -112,
+          "fanatics": -115,
+          "betonline": -115,
+          "sportsbetting": -115,
+          "pinnacle": -111,
+          "gtbets": -113,
+          "intertops": -120,
+          "lowvig": -122,
+          "unibet": -125,
+          "heritage": -116,
+          "bodog": -112,
+          "bovada": -120,
+          "consensus": -115
+        },
+        "under_odds": {
+          "betmgm": 100,
+          "fanduel": -106,
+          "caesars": -105,
+          "bet365": -105,
+          "draftkings": -108,
+          "fanatics": -105,
+          "betonline": -105,
+          "sportsbetting": -105,
+          "pinnacle": -106,
+          "gtbets": -104,
+          "intertops": 100,
+          "lowvig": 102,
+          "unibet": 100,
+          "heritage": -106,
+          "bodog": -109,
+          "bovada": 100,
+          "consensus": -105
+        },
+        "home_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null,
+          "betonline": -1.5,
+          "sportsbetting": -1.5,
+          "pinnacle": -1.5,
+          "gtbets": -1.5,
+          "intertops": -1.5,
+          "lowvig": -1.5,
+          "unibet": -1.5,
+          "heritage": -1.5,
+          "bodog": -1.5,
+          "bovada": -1.5,
+          "consensus": -1.5
+        },
+        "home_spread_odds": {
+          "betmgm": -175,
+          "fanduel": -178,
+          "caesars": -178,
+          "bet365": -170,
+          "draftkings": -181,
+          "fanatics": -175,
+          "betonline": 120,
+          "sportsbetting": 125,
+          "pinnacle": 127,
+          "gtbets": 117,
+          "intertops": 120,
+          "lowvig": 120,
+          "unibet": 110,
+          "heritage": 119,
+          "bodog": 127,
+          "bovada": 120,
+          "consensus": 120
+        },
+        "away_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null,
+          "betonline": 1.5,
+          "sportsbetting": 1.5,
+          "pinnacle": 1.5,
+          "gtbets": 1.5,
+          "intertops": 1.5,
+          "lowvig": 1.5,
+          "unibet": 1.5,
+          "heritage": 1.5,
+          "bodog": 1.5,
+          "bovada": 1.5,
+          "consensus": 1.5
+        },
+        "away_spread_odds": {
+          "betmgm": 145,
+          "fanduel": 150,
+          "caesars": 150,
+          "bet365": 145,
+          "draftkings": 149,
+          "fanatics": 145,
+          "betonline": -140,
+          "sportsbetting": -145,
+          "pinnacle": -150,
+          "gtbets": -138,
+          "intertops": -140,
+          "lowvig": -140,
+          "unibet": -138,
+          "heritage": -145,
+          "bodog": -156,
+          "bovada": -140,
+          "consensus": -140
+        }
+      },
+      {
+        "date": "2026-04-13T22:35:00+00:00",
+        "status": "18:35 ET",
+        "home_team": "Baltimore Orioles",
+        "away_team": "Arizona Diamondbacks",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betmgm": -130,
+          "fanduel": -130,
+          "caesars": -130,
+          "bet365": -130,
+          "draftkings": -131,
+          "fanatics": -130,
+          "betonline": -123,
+          "sportsbetting": -130,
+          "pinnacle": -125,
+          "gtbets": -125,
+          "intertops": -123,
+          "lowvig": -125,
+          "unibet": -138,
+          "heritage": -131,
+          "bodog": -130,
+          "bovada": -123,
+          "consensus": -124
+        },
+        "away_ml": {
+          "betmgm": 110,
+          "fanduel": 110,
+          "caesars": 110,
+          "bet365": 110,
+          "draftkings": 109,
+          "fanatics": 110,
+          "betonline": 112,
+          "sportsbetting": 108,
+          "pinnacle": 111,
+          "gtbets": 111,
+          "intertops": 103,
+          "lowvig": 115,
+          "unibet": 110,
+          "heritage": 111,
+          "bodog": 111,
+          "bovada": 113,
+          "consensus": 113
+        },
+        "total": {
+          "betmgm": 9,
+          "fanduel": 9,
+          "caesars": 9,
+          "bet365": 8.5,
+          "draftkings": 9,
+          "fanatics": 9,
+          "betonline": 9,
+          "sportsbetting": 9,
+          "pinnacle": 9,
+          "gtbets": 9,
+          "intertops": 9,
+          "lowvig": 9,
+          "unibet": 8.5,
+          "heritage": 9,
+          "bodog": 9,
+          "bovada": 9,
+          "consensus": 9
+        },
+        "over_odds": {
+          "betmgm": 100,
+          "fanduel": -105,
+          "caesars": -105,
+          "bet365": -120,
+          "draftkings": -105,
+          "fanatics": -105,
+          "betonline": -104,
+          "sportsbetting": -110,
+          "pinnacle": -104,
+          "gtbets": -104,
+          "intertops": -104,
+          "lowvig": -105,
+          "unibet": -138,
+          "heritage": -106,
+          "bodog": -103,
+          "bovada": -104,
+          "consensus": -105
+        },
+        "under_odds": {
+          "betmgm": -120,
+          "fanduel": -115,
+          "caesars": -115,
+          "bet365": 100,
+          "draftkings": -115,
+          "fanatics": -115,
+          "betonline": -116,
+          "sportsbetting": -110,
+          "pinnacle": -113,
+          "gtbets": -113,
+          "intertops": -116,
+          "lowvig": -115,
+          "unibet": 110,
+          "heritage": -116,
+          "bodog": -118,
+          "bovada": -116,
+          "consensus": -115
+        },
+        "home_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null,
+          "betonline": -1.5,
+          "sportsbetting": -1.5,
+          "pinnacle": -1.5,
+          "gtbets": -1.5,
+          "intertops": -1.5,
+          "lowvig": -1.5,
+          "unibet": -1.5,
+          "heritage": -1.5,
+          "bodog": -1.5,
+          "bovada": -1.5,
+          "consensus": -1.5
+        },
+        "home_spread_odds": {
+          "betmgm": -130,
+          "fanduel": -130,
+          "caesars": -130,
+          "bet365": -130,
+          "draftkings": -131,
+          "fanatics": -125,
+          "betonline": 163,
+          "sportsbetting": 160,
+          "pinnacle": 163,
+          "gtbets": 163,
+          "intertops": 162,
+          "lowvig": 165,
+          "unibet": 138,
+          "heritage": 158,
+          "bodog": 151,
+          "bovada": 162,
+          "consensus": 155
+        },
+        "away_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null,
+          "betonline": 1.5,
+          "sportsbetting": 1.5,
+          "pinnacle": 1.5,
+          "gtbets": 1.5,
+          "intertops": 1.5,
+          "lowvig": 1.5,
+          "unibet": 1.5,
+          "heritage": 1.5,
+          "bodog": 1.5,
+          "bovada": 1.5,
+          "consensus": 1.5
+        },
+        "away_spread_odds": {
+          "betmgm": 110,
+          "fanduel": 110,
+          "caesars": 110,
+          "bet365": 110,
+          "draftkings": 109,
+          "fanatics": 105,
+          "betonline": -187,
+          "sportsbetting": -185,
+          "pinnacle": -194,
+          "gtbets": -194,
+          "intertops": -187,
+          "lowvig": -190,
+          "unibet": -175,
+          "heritage": -194,
+          "bodog": -188,
+          "bovada": -187,
+          "consensus": -185
+        }
+      },
+      {
+        "date": "2026-04-13T22:40:00+00:00",
+        "status": "18:40 ET",
+        "home_team": "Pittsburgh Pirates",
+        "away_team": "Washington Nationals",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betmgm": -220,
+          "fanduel": -225,
+          "caesars": -225,
+          "bet365": -225,
+          "draftkings": -232,
+          "fanatics": -220,
+          "betonline": -210,
+          "sportsbetting": -218,
+          "pinnacle": -199,
+          "gtbets": -199,
+          "intertops": -207,
+          "lowvig": -220,
+          "unibet": -250,
+          "heritage": -221,
+          "bodog": -222,
+          "bovada": -207,
+          "consensus": -220
+        },
+        "away_ml": {
+          "betmgm": 180,
+          "fanduel": 188,
+          "caesars": 185,
+          "bet365": 185,
+          "draftkings": 189,
+          "fanatics": 180,
+          "betonline": 189,
+          "sportsbetting": 178,
+          "pinnacle": 174,
+          "gtbets": 174,
+          "intertops": 172,
+          "lowvig": 190,
+          "unibet": 190,
+          "heritage": 186,
+          "bodog": 184,
+          "bovada": 172,
+          "consensus": 190
+        },
+        "total": {
+          "betmgm": 7.5,
+          "fanduel": 7.5,
+          "caesars": 7.5,
+          "bet365": 7.5,
+          "draftkings": 7.5,
+          "fanatics": 7.5,
+          "betonline": 7.5,
+          "sportsbetting": 7.5,
+          "pinnacle": 7.5,
+          "gtbets": 7.5,
+          "intertops": 7.5,
+          "lowvig": 7.5,
+          "unibet": 7.5,
+          "heritage": 7.5,
+          "bodog": 7.5,
+          "bovada": 7.5,
+          "consensus": 7.5
+        },
+        "over_odds": {
+          "betmgm": -115,
+          "fanduel": -115,
+          "caesars": -115,
+          "bet365": 100,
+          "draftkings": -102,
+          "fanatics": -115,
+          "betonline": -115,
+          "sportsbetting": -120,
+          "pinnacle": -116,
+          "gtbets": -116,
+          "intertops": -116,
+          "lowvig": -110,
+          "unibet": -110,
+          "heritage": -114,
+          "bodog": -116,
+          "bovada": -116,
+          "consensus": -115
+        },
+        "under_odds": {
+          "betmgm": -105,
+          "fanduel": -105,
+          "caesars": -105,
+          "bet365": -120,
+          "draftkings": -118,
+          "fanatics": -105,
+          "betonline": -105,
+          "sportsbetting": 100,
+          "pinnacle": -101,
+          "gtbets": -101,
+          "intertops": -104,
+          "lowvig": -110,
+          "unibet": -110,
+          "heritage": -106,
+          "bodog": -105,
+          "bovada": -104,
+          "consensus": -105
+        },
+        "home_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null,
+          "betonline": -1.5,
+          "sportsbetting": -1.5,
+          "pinnacle": -1.5,
+          "gtbets": -1.5,
+          "intertops": -1.5,
+          "lowvig": -1.5,
+          "unibet": -1.5,
+          "heritage": -1.5,
+          "bodog": -1.5,
+          "bovada": -1.5,
+          "consensus": -1.5
+        },
+        "home_spread_odds": {
+          "betmgm": -220,
+          "fanduel": -225,
+          "caesars": -225,
+          "bet365": -225,
+          "draftkings": -232,
+          "fanatics": -220,
+          "betonline": 100,
+          "sportsbetting": 105,
+          "pinnacle": 111,
+          "gtbets": 111,
+          "intertops": 102,
+          "lowvig": 100,
+          "unibet": -110,
+          "heritage": 101,
+          "bodog": 100,
+          "bovada": 102,
+          "consensus": 100
+        },
+        "away_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null,
+          "betonline": 1.5,
+          "sportsbetting": 1.5,
+          "pinnacle": 1.5,
+          "gtbets": 1.5,
+          "intertops": 1.5,
+          "lowvig": 1.5,
+          "unibet": 1.5,
+          "heritage": 1.5,
+          "bodog": 1.5,
+          "bovada": 1.5,
+          "consensus": 1.5
+        },
+        "away_spread_odds": {
+          "betmgm": 180,
+          "fanduel": 188,
+          "caesars": 185,
+          "bet365": 185,
+          "draftkings": 189,
+          "fanatics": 180,
+          "betonline": -120,
+          "sportsbetting": -125,
+          "pinnacle": -130,
+          "gtbets": -130,
+          "intertops": -122,
+          "lowvig": -120,
+          "unibet": -110,
+          "heritage": -123,
+          "bodog": -122,
+          "bovada": -122,
+          "consensus": -120
+        }
+      },
+      {
+        "date": "2026-04-13T22:40:00+00:00",
+        "status": "18:40 ET",
+        "home_team": "Philadelphia Phillies",
+        "away_team": "Chicago Cubs",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betmgm": -185,
+          "fanduel": -184,
+          "caesars": -178,
+          "bet365": -180,
+          "draftkings": -186,
+          "fanatics": -180
+        },
+        "away_ml": {
+          "betmgm": 154,
+          "fanduel": 154,
+          "caesars": 150,
+          "bet365": 150,
+          "draftkings": 153,
+          "fanatics": 150
+        },
+        "total": {
+          "betmgm": 8.5,
+          "fanduel": 8.5,
+          "caesars": 8.5,
+          "bet365": 8.5,
+          "draftkings": 8.5,
+          "fanatics": 8.5
+        },
+        "over_odds": {
+          "betmgm": -118,
+          "fanduel": -118,
+          "caesars": -120,
+          "bet365": -115,
+          "draftkings": -105,
+          "fanatics": -115
+        },
+        "under_odds": {
+          "betmgm": -102,
+          "fanduel": -108,
+          "caesars": 100,
+          "bet365": -125,
+          "draftkings": -115,
+          "fanatics": -105
+        },
+        "home_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null
+        },
+        "home_spread_odds": {
+          "betmgm": -185,
+          "fanduel": -184,
+          "caesars": -178,
+          "bet365": -180,
+          "draftkings": -186,
+          "fanatics": -180
+        },
+        "away_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null
+        },
+        "away_spread_odds": {
+          "betmgm": 154,
+          "fanduel": 154,
+          "caesars": 150,
+          "bet365": 150,
+          "draftkings": 153,
+          "fanatics": 150
+        }
+      },
+      {
+        "date": "2026-04-13T23:05:00+00:00",
+        "status": "19:05 ET",
+        "home_team": "New York Yankees",
+        "away_team": "Los Angeles Angels",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betmgm": -200,
+          "fanduel": -188,
+          "caesars": -190,
+          "bet365": -190,
+          "draftkings": -186,
+          "fanatics": -190
+        },
+        "away_ml": {
+          "betmgm": 165,
+          "fanduel": 158,
+          "caesars": 158,
+          "bet365": 160,
+          "draftkings": 153,
+          "fanatics": 155
+        },
+        "total": {
+          "betmgm": 9.5,
+          "fanduel": 9.5,
+          "caesars": 9.5,
+          "bet365": 9.5,
+          "draftkings": 9.5,
+          "fanatics": 9.5
+        },
+        "over_odds": {
+          "betmgm": -110,
+          "fanduel": -106,
+          "caesars": -110,
+          "bet365": -105,
+          "draftkings": -108,
+          "fanatics": -110
+        },
+        "under_odds": {
+          "betmgm": -110,
+          "fanduel": -120,
+          "caesars": -110,
+          "bet365": -115,
+          "draftkings": -112,
+          "fanatics": -110
+        },
+        "home_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null
+        },
+        "home_spread_odds": {
+          "betmgm": -200,
+          "fanduel": -188,
+          "caesars": -190,
+          "bet365": -190,
+          "draftkings": -186,
+          "fanatics": -190
+        },
+        "away_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null
+        },
+        "away_spread_odds": {
+          "betmgm": 165,
+          "fanduel": 158,
+          "caesars": 158,
+          "bet365": 160,
+          "draftkings": 153,
+          "fanatics": 155
+        }
+      },
+      {
+        "date": "2026-04-13T23:15:00+00:00",
+        "status": "19:15 ET",
+        "home_team": "Atlanta Braves",
+        "away_team": "Miami Marlins",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betmgm": -150,
+          "fanduel": -148,
+          "caesars": -155,
+          "bet365": -150,
+          "draftkings": -150,
+          "fanatics": -150,
+          "betonline": -146,
+          "sportsbetting": -153,
+          "pinnacle": -144,
+          "gtbets": -144,
+          "intertops": -146,
+          "lowvig": -145,
+          "unibet": -150,
+          "heritage": -148,
+          "bodog": -147,
+          "bovada": -146,
+          "consensus": -150
+        },
+        "away_ml": {
+          "betmgm": 125,
+          "fanduel": 126,
+          "caesars": 130,
+          "bet365": 125,
+          "draftkings": 124,
+          "fanatics": 125,
+          "betonline": 132,
+          "sportsbetting": 128,
+          "pinnacle": 127,
+          "gtbets": 127,
+          "intertops": 124,
+          "lowvig": 133,
+          "unibet": 120,
+          "heritage": 127,
+          "bodog": 126,
+          "bovada": 132,
+          "consensus": 135
+        },
+        "total": {
+          "betmgm": 8.5,
+          "fanduel": 8.5,
+          "caesars": 8.5,
+          "bet365": 8,
+          "draftkings": 8,
+          "fanatics": 8.5,
+          "betonline": 8.5,
+          "sportsbetting": 8,
+          "pinnacle": 8,
+          "gtbets": 8,
+          "intertops": 8.5,
+          "lowvig": 8.5,
+          "unibet": 8.5,
+          "heritage": 8,
+          "bodog": 8.5,
+          "bovada": 8.5,
+          "consensus": 8.5
+        },
+        "over_odds": {
+          "betmgm": 100,
+          "fanduel": 100,
+          "caesars": 105,
+          "bet365": -125,
+          "draftkings": -119,
+          "fanatics": 100,
+          "betonline": 100,
+          "sportsbetting": -115,
+          "pinnacle": -115,
+          "gtbets": -115,
+          "intertops": 105,
+          "lowvig": 100,
+          "unibet": 100,
+          "heritage": -116,
+          "bodog": -108,
+          "bovada": 105,
+          "consensus": 100
+        },
+        "under_odds": {
+          "betmgm": -120,
+          "fanduel": -122,
+          "caesars": -125,
+          "bet365": -115,
+          "draftkings": -101,
+          "fanatics": -120,
+          "betonline": -120,
+          "sportsbetting": -105,
+          "pinnacle": -102,
+          "gtbets": -102,
+          "intertops": -125,
+          "lowvig": -120,
+          "unibet": -125,
+          "heritage": -104,
+          "bodog": -114,
+          "bovada": -125,
+          "consensus": -120
+        },
+        "home_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null,
+          "betonline": -1.5,
+          "sportsbetting": -1.5,
+          "pinnacle": -1.5,
+          "gtbets": -1.5,
+          "intertops": -1.5,
+          "lowvig": -1.5,
+          "unibet": -1.5,
+          "heritage": -1.5,
+          "bodog": -1.5,
+          "bovada": -1.5,
+          "consensus": -1.5
+        },
+        "home_spread_odds": {
+          "betmgm": -150,
+          "fanduel": -148,
+          "caesars": -155,
+          "bet365": -150,
+          "draftkings": -150,
+          "fanatics": -150,
+          "betonline": 140,
+          "sportsbetting": 140,
+          "pinnacle": 150,
+          "gtbets": 150,
+          "intertops": 142,
+          "lowvig": 140,
+          "unibet": 138,
+          "heritage": 137,
+          "bodog": 135,
+          "bovada": 142,
+          "consensus": 135
+        },
+        "away_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null,
+          "betonline": 1.5,
+          "sportsbetting": 1.5,
+          "pinnacle": 1.5,
+          "gtbets": 1.5,
+          "intertops": 1.5,
+          "lowvig": 1.5,
+          "unibet": 1.5,
+          "heritage": 1.5,
+          "bodog": 1.5,
+          "bovada": 1.5,
+          "consensus": 1.5
+        },
+        "away_spread_odds": {
+          "betmgm": 125,
+          "fanduel": 126,
+          "caesars": 130,
+          "bet365": 125,
+          "draftkings": 124,
+          "fanatics": 125,
+          "betonline": -160,
+          "sportsbetting": -165,
+          "pinnacle": -178,
+          "gtbets": -178,
+          "intertops": -162,
+          "lowvig": -160,
+          "unibet": -175,
+          "heritage": -169,
+          "bodog": -167,
+          "bovada": -162,
+          "consensus": -155
+        }
+      },
+      {
+        "date": "2026-04-13T23:40:00+00:00",
+        "status": "19:40 ET",
+        "home_team": "Minnesota Twins",
+        "away_team": "Boston Red Sox",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betmgm": 135,
+          "fanduel": 144,
+          "caesars": 140,
+          "bet365": 140,
+          "draftkings": 139,
+          "fanatics": 140,
+          "betonline": 144,
+          "sportsbetting": 140,
+          "pinnacle": 138,
+          "gtbets": 138,
+          "intertops": 135,
+          "lowvig": 145,
+          "unibet": 138,
+          "heritage": 141,
+          "bodog": 142,
+          "bovada": 144,
+          "consensus": 144
+        },
+        "away_ml": {
+          "betmgm": -160,
+          "fanduel": -172,
+          "caesars": -165,
+          "bet365": -165,
+          "draftkings": -168,
+          "fanatics": -170,
+          "betonline": -159,
+          "sportsbetting": -168,
+          "pinnacle": -156,
+          "gtbets": -156,
+          "intertops": -159,
+          "lowvig": -160,
+          "unibet": -175,
+          "heritage": -165,
+          "bodog": -167,
+          "bovada": -159,
+          "consensus": -160
+        },
+        "total": {
+          "betmgm": 7.5,
+          "fanduel": 7.5,
+          "caesars": 7.5,
+          "bet365": 7,
+          "draftkings": 7.5,
+          "fanatics": 7.5,
+          "betonline": 7.5,
+          "sportsbetting": 7.5,
+          "pinnacle": 7.5,
+          "gtbets": 7.5,
+          "intertops": 7.5,
+          "lowvig": 7.5,
+          "unibet": 7.5,
+          "heritage": 7.5,
+          "bodog": 7.5,
+          "bovada": 7.5,
+          "consensus": 7.5
+        },
+        "over_odds": {
+          "betmgm": 100,
+          "fanduel": -102,
+          "caesars": -105,
+          "bet365": -125,
+          "draftkings": -108,
+          "fanatics": -115,
+          "betonline": -114,
+          "sportsbetting": -115,
+          "pinnacle": -113,
+          "gtbets": -113,
+          "intertops": -114,
+          "lowvig": -115,
+          "unibet": -110,
+          "heritage": -115,
+          "bodog": -115,
+          "bovada": -114,
+          "consensus": -115
+        },
+        "under_odds": {
+          "betmgm": -120,
+          "fanduel": -120,
+          "caesars": -115,
+          "bet365": -115,
+          "draftkings": -112,
+          "fanatics": -105,
+          "betonline": -106,
+          "sportsbetting": -105,
+          "pinnacle": -104,
+          "gtbets": -104,
+          "intertops": -106,
+          "lowvig": -105,
+          "unibet": -110,
+          "heritage": -105,
+          "bodog": -106,
+          "bovada": -106,
+          "consensus": -105
+        },
+        "home_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null,
+          "betonline": 1.5,
+          "sportsbetting": 1.5,
+          "pinnacle": 1.5,
+          "gtbets": 1.5,
+          "intertops": 1.5,
+          "lowvig": 1.5,
+          "unibet": 1.5,
+          "heritage": 1.5,
+          "bodog": 1.5,
+          "bovada": 1.5,
+          "consensus": 1.5
+        },
+        "home_spread_odds": {
+          "betmgm": 135,
+          "fanduel": 144,
+          "caesars": 140,
+          "bet365": 140,
+          "draftkings": 139,
+          "fanatics": 140,
+          "betonline": -128,
+          "sportsbetting": -125,
+          "pinnacle": -125,
+          "gtbets": -125,
+          "intertops": -128,
+          "lowvig": -130,
+          "unibet": -125,
+          "heritage": -128,
+          "bodog": -129,
+          "bovada": -128,
+          "consensus": -125
+        },
+        "away_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null,
+          "betonline": -1.5,
+          "sportsbetting": -1.5,
+          "pinnacle": -1.5,
+          "gtbets": -1.5,
+          "intertops": -1.5,
+          "lowvig": -1.5,
+          "unibet": -1.5,
+          "heritage": -1.5,
+          "bodog": -1.5,
+          "bovada": -1.5,
+          "consensus": -1.5
+        },
+        "away_spread_odds": {
+          "betmgm": -160,
+          "fanduel": -172,
+          "caesars": -165,
+          "bet365": -165,
+          "draftkings": -168,
+          "fanatics": -170,
+          "betonline": 108,
+          "sportsbetting": 105,
+          "pinnacle": 106,
+          "gtbets": 106,
+          "intertops": 108,
+          "lowvig": 110,
+          "unibet": 100,
+          "heritage": 104,
+          "bodog": 105,
+          "bovada": 108,
+          "consensus": 105
+        }
+      },
+      {
+        "date": "2026-04-13T23:45:00+00:00",
+        "status": "19:45 ET",
+        "home_team": "St. Louis Cardinals",
+        "away_team": "Cleveland Guardians",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betmgm": 100,
+          "fanduel": 100,
+          "caesars": 100,
+          "bet365": 100,
+          "draftkings": 100,
+          "fanatics": 100,
+          "betonline": 104,
+          "sportsbetting": 100,
+          "pinnacle": 106,
+          "gtbets": 106,
+          "intertops": -105,
+          "lowvig": 105,
+          "unibet": 100,
+          "heritage": -101,
+          "bodog": 101,
+          "bovada": 105,
+          "consensus": 105
+        },
+        "away_ml": {
+          "betmgm": -120,
+          "fanduel": -118,
+          "caesars": -120,
+          "bet365": -120,
+          "draftkings": -120,
+          "fanatics": -120,
+          "betonline": -115,
+          "sportsbetting": -120,
+          "pinnacle": -120,
+          "gtbets": -120,
+          "intertops": -115,
+          "lowvig": -115,
+          "unibet": -125,
+          "heritage": -119,
+          "bodog": -119,
+          "bovada": -115,
+          "consensus": -115
+        },
+        "total": {
+          "betmgm": 8,
+          "fanduel": 8,
+          "caesars": 8,
+          "bet365": 8,
+          "draftkings": 8,
+          "fanatics": 8,
+          "betonline": 8,
+          "sportsbetting": 8,
+          "pinnacle": 8,
+          "gtbets": 8,
+          "intertops": 8,
+          "lowvig": 8,
+          "unibet": 8.5,
+          "heritage": 8,
+          "bodog": 8,
+          "bovada": 8,
+          "consensus": 8
+        },
+        "over_odds": {
+          "betmgm": -105,
+          "fanduel": -115,
+          "caesars": -105,
+          "bet365": -110,
+          "draftkings": -105,
+          "fanatics": -105,
+          "betonline": -108,
+          "sportsbetting": -105,
+          "pinnacle": -102,
+          "gtbets": -102,
+          "intertops": -107,
+          "lowvig": -105,
+          "unibet": 100,
+          "heritage": -107,
+          "bodog": -109,
+          "bovada": -107,
+          "consensus": -105
+        },
+        "under_odds": {
+          "betmgm": -115,
+          "fanduel": -105,
+          "caesars": -115,
+          "bet365": -110,
+          "draftkings": -115,
+          "fanatics": -115,
+          "betonline": -112,
+          "sportsbetting": -115,
+          "pinnacle": -115,
+          "gtbets": -115,
+          "intertops": -113,
+          "lowvig": -115,
+          "unibet": -138,
+          "heritage": -115,
+          "bodog": -112,
+          "bovada": -113,
+          "consensus": -115
+        },
+        "home_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null,
+          "betonline": 1.5,
+          "sportsbetting": 1.5,
+          "pinnacle": 1.5,
+          "gtbets": 1.5,
+          "intertops": 1.5,
+          "lowvig": 1.5,
+          "unibet": 1.5,
+          "heritage": 1.5,
+          "bodog": 1.5,
+          "bovada": 1.5,
+          "consensus": 1.5
+        },
+        "home_spread_odds": {
+          "betmgm": 100,
+          "fanduel": 100,
+          "caesars": 100,
+          "bet365": 100,
+          "draftkings": 100,
+          "fanatics": 100,
+          "betonline": -160,
+          "sportsbetting": -170,
+          "pinnacle": -164,
+          "gtbets": -164,
+          "intertops": -160,
+          "lowvig": -160,
+          "unibet": -175,
+          "heritage": -173,
+          "bodog": -177,
+          "bovada": -160,
+          "consensus": -158
+        },
+        "away_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null,
+          "betonline": -1.5,
+          "sportsbetting": -1.5,
+          "pinnacle": -1.5,
+          "gtbets": -1.5,
+          "intertops": -1.5,
+          "lowvig": -1.5,
+          "unibet": -1.5,
+          "heritage": -1.5,
+          "bodog": -1.5,
+          "bovada": -1.5,
+          "consensus": -1.5
+        },
+        "away_spread_odds": {
+          "betmgm": -120,
+          "fanduel": -118,
+          "caesars": -120,
+          "bet365": -120,
+          "draftkings": -120,
+          "fanatics": -120,
+          "betonline": 140,
+          "sportsbetting": 145,
+          "pinnacle": 139,
+          "gtbets": 139,
+          "intertops": 140,
+          "lowvig": 140,
+          "unibet": 138,
+          "heritage": 141,
+          "bodog": 144,
+          "bovada": 140,
+          "consensus": 138
+        }
+      },
+      {
+        "date": "2026-04-14T01:40:00+00:00",
+        "status": "21:40 ET",
+        "home_team": "Athletics Athletics",
+        "away_team": "Texas Rangers",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betmgm": 110,
+          "fanduel": 110,
+          "caesars": 110,
+          "bet365": 105,
+          "draftkings": 109,
+          "fanatics": 105,
+          "betonline": 112,
+          "sportsbetting": 107,
+          "pinnacle": 115,
+          "gtbets": 115,
+          "intertops": 103,
+          "lowvig": 113,
+          "unibet": 100,
+          "heritage": 107,
+          "bodog": 110,
+          "bovada": 113,
+          "consensus": 112
+        },
+        "away_ml": {
+          "betmgm": -130,
+          "fanduel": -130,
+          "caesars": -130,
+          "bet365": -125,
+          "draftkings": -131,
+          "fanatics": -125,
+          "betonline": -123,
+          "sportsbetting": -128,
+          "pinnacle": -130,
+          "gtbets": -130,
+          "intertops": -123,
+          "lowvig": -123,
+          "unibet": -125,
+          "heritage": -127,
+          "bodog": -130,
+          "bovada": -123,
+          "consensus": -123
+        },
+        "total": {
+          "betmgm": 8.5,
+          "fanduel": 8.5,
+          "caesars": 8.5,
+          "bet365": 8.5,
+          "draftkings": 8.5,
+          "fanatics": 8.5,
+          "betonline": 8.5,
+          "sportsbetting": 8.5,
+          "pinnacle": 8.5,
+          "gtbets": 8.5,
+          "intertops": 8.5,
+          "lowvig": 8.5,
+          "unibet": 8.5,
+          "heritage": 8.5,
+          "bodog": 8.5,
+          "bovada": 8.5,
+          "consensus": 8.5
+        },
+        "over_odds": {
+          "betmgm": -118,
+          "fanduel": -113,
+          "caesars": -110,
+          "bet365": -110,
+          "draftkings": -112,
+          "fanatics": -110,
+          "betonline": -110,
+          "sportsbetting": -105,
+          "pinnacle": -108,
+          "gtbets": -108,
+          "intertops": -112,
+          "lowvig": -110,
+          "unibet": -110,
+          "heritage": -111,
+          "bodog": -115,
+          "bovada": -112,
+          "consensus": -115
+        },
+        "under_odds": {
+          "betmgm": -102,
+          "fanduel": -113,
+          "caesars": -110,
+          "bet365": -110,
+          "draftkings": -108,
+          "fanatics": -110,
+          "betonline": -110,
+          "sportsbetting": -115,
+          "pinnacle": -108,
+          "gtbets": -108,
+          "intertops": -108,
+          "lowvig": -110,
+          "unibet": -110,
+          "heritage": -109,
+          "bodog": -106,
+          "bovada": -108,
+          "consensus": -105
+        },
+        "home_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null,
+          "betonline": 1.5,
+          "sportsbetting": 1.5,
+          "pinnacle": 1.5,
+          "gtbets": 1.5,
+          "intertops": 1.5,
+          "lowvig": 1.5,
+          "unibet": 1.5,
+          "heritage": 1.5,
+          "bodog": 1.5,
+          "bovada": 1.5,
+          "consensus": 1.5
+        },
+        "home_spread_odds": {
+          "betmgm": 110,
+          "fanduel": 110,
+          "caesars": 110,
+          "bet365": 110,
+          "draftkings": 109,
+          "fanatics": 110,
+          "betonline": -153,
+          "sportsbetting": -150,
+          "pinnacle": -160,
+          "gtbets": -160,
+          "intertops": -153,
+          "lowvig": -150,
+          "unibet": -163,
+          "heritage": -157,
+          "bodog": -156,
+          "bovada": -153,
+          "consensus": -150
+        },
+        "away_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null,
+          "betonline": -1.5,
+          "sportsbetting": -1.5,
+          "pinnacle": -1.5,
+          "gtbets": -1.5,
+          "intertops": -1.5,
+          "lowvig": -1.5,
+          "unibet": -1.5,
+          "heritage": -1.5,
+          "bodog": -1.5,
+          "bovada": -1.5,
+          "consensus": -1.5
+        },
+        "away_spread_odds": {
+          "betmgm": -130,
+          "fanduel": -130,
+          "caesars": -130,
+          "bet365": -130,
+          "draftkings": -131,
+          "fanatics": -130,
+          "betonline": 133,
+          "sportsbetting": 130,
+          "pinnacle": 135,
+          "gtbets": 135,
+          "intertops": 133,
+          "lowvig": 130,
+          "unibet": 130,
+          "heritage": 127,
+          "bodog": 128,
+          "bovada": 133,
+          "consensus": 130
+        }
+      },
+      {
+        "date": "2026-04-14T02:10:00+00:00",
+        "status": "22:10 ET",
+        "home_team": "Los Angeles Dodgers",
+        "away_team": "New York Mets",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betmgm": -170,
+          "fanduel": -166,
+          "caesars": -165,
+          "bet365": -165,
+          "draftkings": -168,
+          "fanatics": -165
+        },
+        "away_ml": {
+          "betmgm": 140,
+          "fanduel": 140,
+          "caesars": 140,
+          "bet365": 140,
+          "draftkings": 139,
+          "fanatics": 135
+        },
+        "total": {
+          "betmgm": 8.5,
+          "fanduel": 8.5,
+          "caesars": 8.5,
+          "bet365": 8.5,
+          "draftkings": 8.5,
+          "fanatics": 8.5
+        },
+        "over_odds": {
+          "betmgm": -118,
+          "fanduel": -114,
+          "caesars": -115,
+          "bet365": -115,
+          "draftkings": -115,
+          "fanatics": -110
+        },
+        "under_odds": {
+          "betmgm": -102,
+          "fanduel": -106,
+          "caesars": -105,
+          "bet365": -105,
+          "draftkings": -105,
+          "fanatics": -110
+        },
+        "home_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null
+        },
+        "home_spread_odds": {
+          "betmgm": -170,
+          "fanduel": -166,
+          "caesars": -165,
+          "bet365": -165,
+          "draftkings": -163,
+          "fanatics": -165
+        },
+        "away_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null
+        },
+        "away_spread_odds": {
+          "betmgm": 140,
+          "fanduel": 140,
+          "caesars": 140,
+          "bet365": 140,
+          "draftkings": 135,
+          "fanatics": 135
+        }
+      },
+      {
+        "date": "2026-04-13T22:40:00+00:00",
+        "status": "scheduled",
+        "home_team": "Philadelphia",
+        "away_team": "CH Cubs",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betonline": -171,
+          "sportsbetting": -181,
+          "pinnacle": -178,
+          "gtbets": -178,
+          "intertops": -171,
+          "lowvig": -170,
+          "unibet": -200,
+          "heritage": -181,
+          "bodog": -182,
+          "bovada": -171,
+          "consensus": -172
+        },
+        "away_ml": {
+          "betonline": 154,
+          "sportsbetting": 149,
+          "pinnacle": 156,
+          "gtbets": 156,
+          "intertops": 147,
+          "lowvig": 155,
+          "unibet": 160,
+          "heritage": 154,
+          "bodog": 152,
+          "bovada": 152,
+          "consensus": 155
+        },
+        "total": {
+          "betonline": 8.5,
+          "sportsbetting": 8.5,
+          "pinnacle": 8.5,
+          "gtbets": 8.5,
+          "intertops": 8.5,
+          "lowvig": 8.5,
+          "unibet": 8.5,
+          "heritage": 8.5,
+          "bodog": 8.5,
+          "bovada": 8.5,
+          "consensus": 8.5
+        },
+        "over_odds": {
+          "betonline": -122,
+          "sportsbetting": -120,
+          "pinnacle": -113,
+          "gtbets": -113,
+          "intertops": -122,
+          "lowvig": -120,
+          "unibet": -110,
+          "heritage": -117,
+          "bodog": -108,
+          "bovada": -122,
+          "consensus": -118
+        },
+        "under_odds": {
+          "betonline": 102,
+          "sportsbetting": 100,
+          "pinnacle": -104,
+          "gtbets": -104,
+          "intertops": 102,
+          "lowvig": 100,
+          "unibet": -110,
+          "heritage": -105,
+          "bodog": -114,
+          "bovada": 102,
+          "consensus": -102
+        },
+        "home_spread": {
+          "betonline": -1.5,
+          "sportsbetting": -1.5,
+          "pinnacle": -1.5,
+          "gtbets": -1.5,
+          "intertops": -1.5,
+          "lowvig": -1.5,
+          "unibet": -1.5,
+          "heritage": -1.5,
+          "bodog": -1.5,
+          "bovada": -1.5,
+          "consensus": -1.5
+        },
+        "home_spread_odds": {
+          "betonline": 120,
+          "sportsbetting": 120,
+          "pinnacle": 117,
+          "gtbets": 117,
+          "intertops": 118,
+          "lowvig": 120,
+          "unibet": 110,
+          "heritage": 116,
+          "bodog": 114,
+          "bovada": 118,
+          "consensus": 117
+        },
+        "away_spread": {
+          "betonline": 1.5,
+          "sportsbetting": 1.5,
+          "pinnacle": 1.5,
+          "gtbets": 1.5,
+          "intertops": 1.5,
+          "lowvig": 1.5,
+          "unibet": 1.5,
+          "heritage": 1.5,
+          "bodog": 1.5,
+          "bovada": 1.5,
+          "consensus": 1.5
+        },
+        "away_spread_odds": {
+          "betonline": -140,
+          "sportsbetting": -140,
+          "pinnacle": -138,
+          "gtbets": -138,
+          "intertops": -138,
+          "lowvig": -140,
+          "unibet": -138,
+          "heritage": -142,
+          "bodog": -141,
+          "bovada": -138,
+          "consensus": -137
+        }
+      },
+      {
+        "date": "2026-04-13T23:05:00+00:00",
+        "status": "scheduled",
+        "home_team": "N.Y. Yankees",
+        "away_team": "L.A. Angels",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betonline": -180,
+          "sportsbetting": -184,
+          "pinnacle": -170,
+          "gtbets": -170,
+          "intertops": -182,
+          "lowvig": -185,
+          "unibet": -188,
+          "heritage": -186,
+          "bodog": -189,
+          "bovada": -181,
+          "consensus": -180
+        },
+        "away_ml": {
+          "betonline": 162,
+          "sportsbetting": 152,
+          "pinnacle": 150,
+          "gtbets": 150,
+          "intertops": 158,
+          "lowvig": 165,
+          "unibet": 150,
+          "heritage": 158,
+          "bodog": 159,
+          "bovada": 159,
+          "consensus": 160
+        },
+        "total": {
+          "betonline": 9.5,
+          "sportsbetting": 9.5,
+          "pinnacle": 9.5,
+          "gtbets": 9.5,
+          "intertops": 9.5,
+          "lowvig": 9.5,
+          "unibet": 9.5,
+          "heritage": 9.5,
+          "bodog": 9.5,
+          "bovada": 9.5,
+          "consensus": 9.5
+        },
+        "over_odds": {
+          "betonline": -108,
+          "sportsbetting": -120,
+          "pinnacle": -111,
+          "gtbets": -111,
+          "intertops": -115,
+          "lowvig": -105,
+          "unibet": 100,
+          "heritage": -110,
+          "bodog": -105,
+          "bovada": -115,
+          "consensus": -110
+        },
+        "under_odds": {
+          "betonline": -112,
+          "sportsbetting": 100,
+          "pinnacle": -106,
+          "gtbets": -106,
+          "intertops": -105,
+          "lowvig": -115,
+          "unibet": -125,
+          "heritage": -110,
+          "bodog": -116,
+          "bovada": -105,
+          "consensus": -110
+        },
+        "home_spread": {
+          "betonline": -1.5,
+          "sportsbetting": -1.5,
+          "pinnacle": -1,
+          "gtbets": -1,
+          "intertops": -1.5,
+          "lowvig": -1.5,
+          "unibet": -1.5,
+          "heritage": -1.5,
+          "bodog": -1.5,
+          "bovada": -1.5,
+          "consensus": -1.5
+        },
+        "home_spread_odds": {
+          "betonline": 103,
+          "sportsbetting": 105,
+          "pinnacle": -133,
+          "gtbets": -133,
+          "intertops": 104,
+          "lowvig": 105,
+          "unibet": 100,
+          "heritage": 103,
+          "bodog": 106,
+          "bovada": 104,
+          "consensus": 105
+        },
+        "away_spread": {
+          "betonline": 1.5,
+          "sportsbetting": 1.5,
+          "pinnacle": 1,
+          "gtbets": 1,
+          "intertops": 1.5,
+          "lowvig": 1.5,
+          "unibet": 1.5,
+          "heritage": 1.5,
+          "bodog": 1.5,
+          "bovada": 1.5,
+          "consensus": 1.5
+        },
+        "away_spread_odds": {
+          "betonline": -123,
+          "sportsbetting": -125,
+          "pinnacle": 113,
+          "gtbets": 113,
+          "intertops": -124,
+          "lowvig": -125,
+          "unibet": -125,
+          "heritage": -125,
+          "bodog": -130,
+          "bovada": -124,
+          "consensus": -125
+        }
+      },
+      {
+        "date": "2026-04-14T02:10:00+00:00",
+        "status": "scheduled",
+        "home_team": "L.A. Dodgers",
+        "away_team": "N.Y. Mets",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betonline": -154,
+          "sportsbetting": -162,
+          "pinnacle": -160,
+          "gtbets": -160,
+          "intertops": -156,
+          "lowvig": -160,
+          "unibet": -175,
+          "heritage": -162,
+          "bodog": -161,
+          "bovada": -155,
+          "consensus": -160
+        },
+        "away_ml": {
+          "betonline": 139,
+          "sportsbetting": 136,
+          "pinnacle": 141,
+          "gtbets": 141,
+          "intertops": 132,
+          "lowvig": 145,
+          "unibet": 138,
+          "heritage": 139,
+          "bodog": 137,
+          "bovada": 140,
+          "consensus": 144
+        },
+        "total": {
+          "betonline": 8.5,
+          "sportsbetting": 8.5,
+          "pinnacle": 8.5,
+          "gtbets": 8.5,
+          "intertops": 8.5,
+          "lowvig": 8.5,
+          "unibet": 8.5,
+          "heritage": 8.5,
+          "bodog": 8.5,
+          "bovada": 8.5,
+          "consensus": 8.5
+        },
+        "over_odds": {
+          "betonline": -112,
+          "sportsbetting": -110,
+          "pinnacle": -113,
+          "gtbets": -113,
+          "intertops": -112,
+          "lowvig": -115,
+          "unibet": -110,
+          "heritage": -113,
+          "bodog": -114,
+          "bovada": -112,
+          "consensus": -115
+        },
+        "under_odds": {
+          "betonline": -108,
+          "sportsbetting": -110,
+          "pinnacle": -104,
+          "gtbets": -104,
+          "intertops": -108,
+          "lowvig": -105,
+          "unibet": -110,
+          "heritage": -107,
+          "bodog": -108,
+          "bovada": -108,
+          "consensus": -105
+        },
+        "home_spread": {
+          "betonline": -1.5,
+          "sportsbetting": -1.5,
+          "pinnacle": -1.5,
+          "gtbets": -1.5,
+          "intertops": -1.5,
+          "lowvig": -1.5,
+          "unibet": -1.5,
+          "heritage": -1.5,
+          "bodog": -1.5,
+          "bovada": -1.5,
+          "consensus": -1.5
+        },
+        "home_spread_odds": {
+          "betonline": 122,
+          "sportsbetting": 120,
+          "pinnacle": 122,
+          "gtbets": 122,
+          "intertops": 123,
+          "lowvig": 120,
+          "unibet": 120,
+          "heritage": 120,
+          "bodog": 119,
+          "bovada": 123,
+          "consensus": 125
+        },
+        "away_spread": {
+          "betonline": 1.5,
+          "sportsbetting": 1.5,
+          "pinnacle": 1.5,
+          "gtbets": 1.5,
+          "intertops": 1.5,
+          "lowvig": 1.5,
+          "unibet": 1.5,
+          "heritage": 1.5,
+          "bodog": 1.5,
+          "bovada": 1.5,
+          "consensus": 1.5
+        },
+        "away_spread_odds": {
+          "betonline": -142,
+          "sportsbetting": -140,
+          "pinnacle": -144,
+          "gtbets": -144,
+          "intertops": -143,
+          "lowvig": -140,
+          "unibet": -150,
+          "heritage": -146,
+          "bodog": -146,
+          "bovada": -143,
+          "consensus": -145
+        }
+      },
+      {
+        "date": "2026-04-14T22:40:00+00:00",
+        "status": "scheduled",
+        "home_team": "Philadelphia",
+        "away_team": "CH Cubs",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betonline": -135,
+          "unibet": -150,
+          "heritage": -142
+        },
+        "away_ml": {
+          "betonline": 122,
+          "unibet": 120,
+          "heritage": 121
+        },
+        "total": {
+          "betonline": 9,
+          "unibet": 8.5,
+          "heritage": 9
+        },
+        "over_odds": {
+          "betonline": -115,
+          "unibet": -138,
+          "heritage": -109
+        },
+        "under_odds": {
+          "betonline": -105,
+          "unibet": 100,
+          "heritage": -111
+        },
+        "home_spread": {
+          "unibet": -1.5,
+          "heritage": -1.5
+        },
+        "home_spread_odds": {
+          "unibet": 130,
+          "heritage": 144
+        },
+        "away_spread": {
+          "unibet": 1.5,
+          "heritage": 1.5
+        },
+        "away_spread_odds": {
+          "unibet": -163,
+          "heritage": -176
+        }
+      },
+      {
+        "date": "2026-04-14T22:40:00+00:00",
+        "status": "scheduled",
+        "home_team": "Detroit",
+        "away_team": "Kansas City",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betonline": -120,
+          "unibet": -125,
+          "heritage": -122
+        },
+        "away_ml": {
+          "betonline": 109,
+          "unibet": 100,
+          "heritage": 102
+        },
+        "total": {
+          "betonline": 7.5,
+          "unibet": 7.5,
+          "heritage": 7.5
+        },
+        "over_odds": {
+          "betonline": -103,
+          "unibet": 100,
+          "heritage": -103
+        },
+        "under_odds": {
+          "betonline": -117,
+          "unibet": -125,
+          "heritage": -119
+        },
+        "home_spread": {
+          "unibet": -1.5,
+          "heritage": 1.5
+        },
+        "home_spread_odds": {
+          "unibet": 160,
+          "heritage": -219
+        },
+        "away_spread": {
+          "unibet": 1.5,
+          "heritage": -1.5
+        },
+        "away_spread_odds": {
+          "unibet": -200,
+          "heritage": 175
+        }
+      },
+      {
+        "date": "2026-04-14T22:40:00+00:00",
+        "status": "scheduled",
+        "home_team": "Cincinnati",
+        "away_team": "San Francisco",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betonline": -111,
+          "unibet": -125,
+          "heritage": -114
+        },
+        "away_ml": {
+          "betonline": 101,
+          "unibet": 100,
+          "heritage": -106
+        },
+        "total": {
+          "betonline": 9,
+          "unibet": 8.5,
+          "heritage": 9
+        },
+        "over_odds": {
+          "betonline": 105,
+          "unibet": -125,
+          "heritage": -101
+        },
+        "under_odds": {
+          "betonline": -125,
+          "unibet": 100,
+          "heritage": -121
+        },
+        "home_spread": {
+          "unibet": 1.5,
+          "heritage": 1.5
+        },
+        "home_spread_odds": {
+          "unibet": -188,
+          "heritage": -186
+        },
+        "away_spread": {
+          "unibet": -1.5,
+          "heritage": -1.5
+        },
+        "away_spread_odds": {
+          "unibet": 150,
+          "heritage": 150
+        }
+      },
+      {
+        "date": "2026-04-14T23:05:00+00:00",
+        "status": "scheduled",
+        "home_team": "N.Y. Yankees",
+        "away_team": "L.A. Angels",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betonline": -155,
+          "unibet": -175,
+          "heritage": -162
+        },
+        "away_ml": {
+          "betonline": 140,
+          "unibet": 138,
+          "heritage": 139
+        },
+        "total": {
+          "betonline": 8.5,
+          "unibet": 8.5,
+          "heritage": 8.5
+        },
+        "over_odds": {
+          "betonline": -115,
+          "unibet": -110,
+          "heritage": -113
+        },
+        "under_odds": {
+          "betonline": -105,
+          "unibet": -110,
+          "heritage": -107
+        },
+        "home_spread": {
+          "unibet": -1.5,
+          "heritage": -1.5
+        },
+        "home_spread_odds": {
+          "unibet": 120,
+          "heritage": 112
+        },
+        "away_spread": {
+          "unibet": 1.5,
+          "heritage": 1.5
+        },
+        "away_spread_odds": {
+          "unibet": -150,
+          "heritage": -136
+        }
+      },
+      {
+        "date": "2026-04-14T23:40:00+00:00",
+        "status": "scheduled",
+        "home_team": "CH White Sox",
+        "away_team": "Tampa Bay",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betonline": 118,
+          "unibet": 110,
+          "heritage": 116
+        },
+        "away_ml": {
+          "betonline": -130,
+          "unibet": -138,
+          "heritage": -136
+        },
+        "total": {
+          "betonline": 8,
+          "unibet": 7.5,
+          "heritage": 7.5
+        },
+        "over_odds": {
+          "betonline": 105,
+          "unibet": -110,
+          "heritage": -105
+        },
+        "under_odds": {
+          "betonline": -125,
+          "unibet": -110,
+          "heritage": -117
+        },
+        "home_spread": {
+          "unibet": 1.5,
+          "heritage": 1.5
+        },
+        "home_spread_odds": {
+          "unibet": -150,
+          "heritage": -150
+        },
+        "away_spread": {
+          "unibet": -1.5,
+          "heritage": -1.5
+        },
+        "away_spread_odds": {
+          "unibet": 120,
+          "heritage": 122
+        }
+      },
+      {
+        "date": "2026-04-14T23:40:00+00:00",
+        "status": "scheduled",
+        "home_team": "Milwaukee",
+        "away_team": "Toronto",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betonline": -118,
+          "unibet": -125,
+          "heritage": -122
+        },
+        "away_ml": {
+          "betonline": 107,
+          "unibet": 100,
+          "heritage": 102
+        },
+        "total": {
+          "betonline": 7,
+          "unibet": 6.5,
+          "heritage": 7
+        },
+        "over_odds": {
+          "betonline": -103,
+          "unibet": -138,
+          "heritage": -104
+        },
+        "under_odds": {
+          "betonline": -117,
+          "unibet": 110,
+          "heritage": -116
+        },
+        "home_spread": {
+          "unibet": 1.5,
+          "heritage": 1.5
+        },
+        "home_spread_odds": {
+          "unibet": -200,
+          "heritage": -217
+        },
+        "away_spread": {
+          "unibet": -1.5,
+          "heritage": -1.5
+        },
+        "away_spread_odds": {
+          "unibet": 160,
+          "heritage": 175
+        }
+      },
+      {
+        "date": "2026-04-15T01:40:00+00:00",
+        "status": "scheduled",
+        "home_team": "San Diego",
+        "away_team": "Seattle",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betonline": 102,
+          "unibet": 100,
+          "heritage": -101
+        },
+        "away_ml": {
+          "betonline": -112,
+          "unibet": -125,
+          "heritage": -119
+        },
+        "total": {
+          "betonline": 7,
+          "unibet": 7.5,
+          "heritage": 7
+        },
+        "over_odds": {
+          "betonline": -115,
+          "unibet": 110,
+          "heritage": -117
+        },
+        "under_odds": {
+          "betonline": -105,
+          "unibet": -138,
+          "heritage": -105
+        },
+        "home_spread": {
+          "unibet": 1.5,
+          "heritage": 1.5
+        },
+        "home_spread_odds": {
+          "unibet": -175,
+          "heritage": -177
+        },
+        "away_spread": {
+          "unibet": -1.5,
+          "heritage": -1.5
+        },
+        "away_spread_odds": {
+          "unibet": 138,
+          "heritage": 143
+        }
+      },
+      {
+        "date": "2026-04-15T02:10:00+00:00",
+        "status": "scheduled",
+        "home_team": "L.A. Dodgers",
+        "away_team": "N.Y. Mets",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betonline": -185,
+          "unibet": -200,
+          "heritage": -195
+        },
+        "away_ml": {
+          "betonline": 167,
+          "unibet": 160,
+          "heritage": 165
+        },
+        "total": {
+          "betonline": 8,
+          "unibet": 7.5,
+          "heritage": 7.5
+        },
+        "over_odds": {
+          "betonline": 110,
+          "unibet": -125,
+          "heritage": -116
+        },
+        "under_odds": {
+          "betonline": -130,
+          "unibet": 100,
+          "heritage": -106
+        },
+        "home_spread": {
+          "unibet": -1.5,
+          "heritage": -1.5
+        },
+        "home_spread_odds": {
+          "unibet": 100,
+          "heritage": 113
+        },
+        "away_spread": {
+          "unibet": 1.5,
+          "heritage": 1.5
+        },
+        "away_spread_odds": {
+          "unibet": -125,
+          "heritage": -137
+        }
+      },
+      {
+        "date": "2026-04-15T22:40:00+00:00",
+        "status": "scheduled",
+        "home_team": "Philadelphia",
+        "away_team": "CH Cubs",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "pinnacle": -138,
+          "gtbets": -138
+        },
+        "away_ml": {
+          "pinnacle": 122,
+          "gtbets": 122
+        },
+        "total": {
+          "pinnacle": 8.5,
+          "gtbets": 8.5
+        },
+        "over_odds": {
+          "pinnacle": -122,
+          "gtbets": -122
+        },
+        "under_odds": {
+          "pinnacle": 104,
+          "gtbets": 104
+        },
+        "home_spread": {
+          "pinnacle": -1.5,
+          "gtbets": -1.5
+        },
+        "home_spread_odds": {
+          "pinnacle": 147,
+          "gtbets": 147
+        },
+        "away_spread": {
+          "pinnacle": 1.5,
+          "gtbets": 1.5
+        },
+        "away_spread_odds": {
+          "pinnacle": -174,
+          "gtbets": -174
+        }
+      },
+      {
+        "date": "2026-04-15T22:40:00+00:00",
+        "status": "scheduled",
+        "home_team": "Detroit",
+        "away_team": "Kansas City",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "pinnacle": -122,
+          "gtbets": -122
+        },
+        "away_ml": {
+          "pinnacle": 108,
+          "gtbets": 108
+        },
+        "total": {
+          "pinnacle": 7.5,
+          "gtbets": 7.5
+        },
+        "over_odds": {
+          "pinnacle": 102,
+          "gtbets": 102
+        },
+        "under_odds": {
+          "pinnacle": -120,
+          "gtbets": -120
+        },
+        "home_spread": {
+          "pinnacle": -1.5,
+          "gtbets": -1.5
+        },
+        "home_spread_odds": {
+          "pinnacle": 182,
+          "gtbets": 182
+        },
+        "away_spread": {
+          "pinnacle": 1.5,
+          "gtbets": 1.5
+        },
+        "away_spread_odds": {
+          "pinnacle": -217,
+          "gtbets": -217
+        }
+      },
+      {
+        "date": "2026-04-15T22:40:00+00:00",
+        "status": "scheduled",
+        "home_team": "Cincinnati",
+        "away_team": "San Francisco",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "pinnacle": -117,
+          "gtbets": -117
+        },
+        "away_ml": {
+          "pinnacle": 104,
+          "gtbets": 104
+        },
+        "total": {
+          "pinnacle": 9,
+          "gtbets": 9
+        },
+        "over_odds": {
+          "pinnacle": -107,
+          "gtbets": -107
+        },
+        "under_odds": {
+          "pinnacle": -109,
+          "gtbets": -109
+        },
+        "home_spread": {
+          "pinnacle": -1.5,
+          "gtbets": -1.5
+        },
+        "home_spread_odds": {
+          "pinnacle": 174,
+          "gtbets": 174
+        },
+        "away_spread": {
+          "pinnacle": 1.5,
+          "gtbets": 1.5
+        },
+        "away_spread_odds": {
+          "pinnacle": -208,
+          "gtbets": -208
+        }
+      },
+      {
+        "date": "2026-04-15T23:05:00+00:00",
+        "status": "scheduled",
+        "home_team": "N.Y. Yankees",
+        "away_team": "L.A. Angels",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "pinnacle": -167,
+          "gtbets": -167
+        },
+        "away_ml": {
+          "pinnacle": 147,
+          "gtbets": 147
+        },
+        "total": {
+          "pinnacle": 9,
+          "gtbets": 9
+        },
+        "over_odds": {
+          "pinnacle": 117,
+          "gtbets": 117
+        },
+        "under_odds": {
+          "pinnacle": -138,
+          "gtbets": -138
+        },
+        "home_spread": {
+          "pinnacle": -1.5,
+          "gtbets": -1.5
+        },
+        "home_spread_odds": {
+          "pinnacle": 113,
+          "gtbets": 113
+        },
+        "away_spread": {
+          "pinnacle": 1.5,
+          "gtbets": 1.5
+        },
+        "away_spread_odds": {
+          "pinnacle": -133,
+          "gtbets": -133
+        }
+      },
+      {
+        "date": "2026-04-15T23:40:00+00:00",
+        "status": "scheduled",
+        "home_team": "CH White Sox",
+        "away_team": "Tampa Bay",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "pinnacle": 120,
+          "gtbets": 120
+        },
+        "away_ml": {
+          "pinnacle": -135,
+          "gtbets": -135
+        },
+        "total": {
+          "pinnacle": 7.5,
+          "gtbets": 7.5
+        },
+        "over_odds": {
+          "pinnacle": -104,
+          "gtbets": -104
+        },
+        "under_odds": {
+          "pinnacle": -113,
+          "gtbets": -113
+        },
+        "home_spread": {
+          "pinnacle": 1.5,
+          "gtbets": 1.5
+        },
+        "home_spread_odds": {
+          "pinnacle": -147,
+          "gtbets": -147
+        },
+        "away_spread": {
+          "pinnacle": -1.5,
+          "gtbets": -1.5
+        },
+        "away_spread_odds": {
+          "pinnacle": 125,
+          "gtbets": 125
+        }
+      },
+      {
+        "date": "2026-04-15T23:40:00+00:00",
+        "status": "scheduled",
+        "home_team": "Milwaukee",
+        "away_team": "Toronto",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "pinnacle": -117,
+          "gtbets": -117
+        },
+        "away_ml": {
+          "pinnacle": 104,
+          "gtbets": 104
+        },
+        "total": {
+          "pinnacle": 7,
+          "gtbets": 7
+        },
+        "over_odds": {
+          "pinnacle": -104,
+          "gtbets": -104
+        },
+        "under_odds": {
+          "pinnacle": -113,
+          "gtbets": -113
+        },
+        "home_spread": {
+          "pinnacle": -1.5,
+          "gtbets": -1.5
+        },
+        "home_spread_odds": {
+          "pinnacle": 194,
+          "gtbets": 194
+        },
+        "away_spread": {
+          "pinnacle": 1.5,
+          "gtbets": 1.5
+        },
+        "away_spread_odds": {
+          "pinnacle": -233,
+          "gtbets": -233
+        }
+      },
+      {
+        "date": "2026-04-16T00:10:00+00:00",
+        "status": "scheduled",
+        "home_team": "Houston",
+        "away_team": "Colorado",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "pinnacle": -178,
+          "gtbets": -178
+        },
+        "away_ml": {
+          "pinnacle": 156,
+          "gtbets": 156
+        },
+        "total": {},
+        "over_odds": {},
+        "under_odds": {},
+        "home_spread": {
+          "pinnacle": -1.5,
+          "gtbets": -1.5
+        },
+        "home_spread_odds": {
+          "pinnacle": 117,
+          "gtbets": 117
+        },
+        "away_spread": {
+          "pinnacle": 1.5,
+          "gtbets": 1.5
+        },
+        "away_spread_odds": {
+          "pinnacle": -138,
+          "gtbets": -138
+        }
+      },
+      {
+        "date": "2026-04-16T01:40:00+00:00",
+        "status": "scheduled",
+        "home_team": "San Diego",
+        "away_team": "Seattle",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "pinnacle": 108,
+          "gtbets": 108
+        },
+        "away_ml": {
+          "pinnacle": -122,
+          "gtbets": -122
+        },
+        "total": {
+          "pinnacle": 7,
+          "gtbets": 7
+        },
+        "over_odds": {
+          "pinnacle": -117,
+          "gtbets": -117
+        },
+        "under_odds": {
+          "pinnacle": 100,
+          "gtbets": 100
+        },
+        "home_spread": {
+          "pinnacle": 1.5,
+          "gtbets": 1.5
+        },
+        "home_spread_odds": {
+          "pinnacle": -160,
+          "gtbets": -160
+        },
+        "away_spread": {
+          "pinnacle": -1.5,
+          "gtbets": -1.5
+        },
+        "away_spread_odds": {
+          "pinnacle": 135,
+          "gtbets": 135
+        }
+      },
+      {
+        "date": "2026-04-16T02:10:00+00:00",
+        "status": "scheduled",
+        "home_team": "L.A. Dodgers",
+        "away_team": "N.Y. Mets",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "pinnacle": -186,
+          "gtbets": -186
+        },
+        "away_ml": {
+          "pinnacle": 163,
+          "gtbets": 163
+        },
+        "total": {
+          "pinnacle": 8,
+          "gtbets": 8
+        },
+        "over_odds": {
+          "pinnacle": 108,
+          "gtbets": 108
+        },
+        "under_odds": {
+          "pinnacle": -127,
+          "gtbets": -127
+        },
+        "home_spread": {
+          "pinnacle": -1.5,
+          "gtbets": -1.5
+        },
+        "home_spread_odds": {
+          "pinnacle": 115,
+          "gtbets": 115
+        },
+        "away_spread": {
+          "pinnacle": 1.5,
+          "gtbets": 1.5
+        },
+        "away_spread_odds": {
+          "pinnacle": -135,
+          "gtbets": -135
+        }
+      }
+    ],
+    "NHL": [
+      {
+        "date": "2026-04-13T23:00:00+00:00",
+        "status": "19:00 ET",
+        "home_team": "Tampa Bay Lightning",
+        "away_team": "Detroit Red Wings",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betmgm": -190,
+          "fanduel": -194,
+          "caesars": -195,
+          "bet365": -200,
+          "draftkings": -198,
+          "fanatics": -190,
+          "betonline": -187,
+          "sportsbetting": -198,
+          "pinnacle": -188,
+          "gtbets": -188,
+          "intertops": -185,
+          "lowvig": -190,
+          "unibet": -200,
+          "heritage": -189,
+          "bodog": -197,
+          "bovada": -185,
+          "consensus": -187
+        },
+        "away_ml": {
+          "betmgm": 155,
+          "fanduel": 160,
+          "caesars": 162,
+          "bet365": 165,
+          "draftkings": 164,
+          "fanatics": 160,
+          "betonline": 164,
+          "sportsbetting": 168,
+          "pinnacle": 161,
+          "gtbets": 161,
+          "intertops": 150,
+          "lowvig": 165,
+          "unibet": 160,
+          "heritage": 169,
+          "bodog": 159,
+          "bovada": 159,
+          "consensus": 162
+        },
+        "total": {
+          "betmgm": 6.5,
+          "fanduel": 6.5,
+          "caesars": 6,
+          "bet365": 6.5,
+          "draftkings": 6.5,
+          "fanatics": 6.5,
+          "betonline": 6.5,
+          "sportsbetting": 6.5,
+          "pinnacle": 6.5,
+          "gtbets": 6.5,
+          "intertops": 6.5,
+          "lowvig": 6.5,
+          "unibet": 6.5,
+          "heritage": 6.5,
+          "bodog": 6.5,
+          "bovada": 6.5,
+          "consensus": 6.5
+        },
+        "over_odds": {
+          "betmgm": 100,
+          "fanduel": 102,
+          "caesars": -125,
+          "bet365": 105,
+          "draftkings": 105,
+          "fanatics": 105,
+          "betonline": 110,
+          "sportsbetting": 102,
+          "pinnacle": 105,
+          "gtbets": 105,
+          "intertops": 105,
+          "lowvig": 105,
+          "unibet": 100,
+          "heritage": 104,
+          "bodog": 102,
+          "bovada": 105,
+          "consensus": 100
+        },
+        "under_odds": {
+          "betmgm": -120,
+          "fanduel": -124,
+          "caesars": -105,
+          "bet365": -125,
+          "draftkings": -125,
+          "fanatics": -125,
+          "betonline": -126,
+          "sportsbetting": -122,
+          "pinnacle": -125,
+          "gtbets": -125,
+          "intertops": -125,
+          "lowvig": -125,
+          "unibet": -125,
+          "heritage": -118,
+          "bodog": -125,
+          "bovada": -125,
+          "consensus": -120
+        },
+        "home_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null
+        },
+        "home_spread_odds": {
+          "betmgm": -190,
+          "fanduel": -194,
+          "caesars": -195,
+          "bet365": -200,
+          "draftkings": -198,
+          "fanatics": -190
+        },
+        "away_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null
+        },
+        "away_spread_odds": {
+          "betmgm": 155,
+          "fanduel": 160,
+          "caesars": 162,
+          "bet365": 165,
+          "draftkings": 164,
+          "fanatics": 160
+        }
+      },
+      {
+        "date": "2026-04-13T23:00:00+00:00",
+        "status": "19:00 ET",
+        "home_team": "Florida Panthers",
+        "away_team": "New York Rangers",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betmgm": 130,
+          "fanduel": 130,
+          "caesars": 135,
+          "bet365": 130,
+          "draftkings": 130,
+          "fanatics": 130
+        },
+        "away_ml": {
+          "betmgm": -155,
+          "fanduel": -156,
+          "caesars": -160,
+          "bet365": -155,
+          "draftkings": -155,
+          "fanatics": -160
+        },
+        "total": {
+          "betmgm": 6,
+          "fanduel": 6,
+          "caesars": 6.5,
+          "bet365": 6,
+          "draftkings": 6.5,
+          "fanatics": 6.5
+        },
+        "over_odds": {
+          "betmgm": -120,
+          "fanduel": -122,
+          "caesars": 100,
+          "bet365": -120,
+          "draftkings": 110,
+          "fanatics": 110
+        },
+        "under_odds": {
+          "betmgm": 100,
+          "fanduel": 100,
+          "caesars": -130,
+          "bet365": 100,
+          "draftkings": -130,
+          "fanatics": -130
+        },
+        "home_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null
+        },
+        "home_spread_odds": {
+          "betmgm": 130,
+          "fanduel": 130,
+          "caesars": 135,
+          "bet365": 130,
+          "draftkings": 130,
+          "fanatics": 130
+        },
+        "away_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null
+        },
+        "away_spread_odds": {
+          "betmgm": -155,
+          "fanduel": -156,
+          "caesars": -160,
+          "bet365": -155,
+          "draftkings": -155,
+          "fanatics": -160
+        }
+      },
+      {
+        "date": "2026-04-13T23:00:00+00:00",
+        "status": "19:00 ET",
+        "home_team": "Philadelphia Flyers",
+        "away_team": "Carolina Hurricanes",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betmgm": -160,
+          "fanduel": -164,
+          "caesars": -165,
+          "bet365": -160,
+          "draftkings": -162,
+          "fanatics": -160,
+          "betonline": -160,
+          "sportsbetting": -170,
+          "pinnacle": -160,
+          "gtbets": -160,
+          "intertops": -160,
+          "lowvig": -155,
+          "unibet": -163,
+          "heritage": -155,
+          "bodog": -165,
+          "bovada": -160,
+          "consensus": -160
+        },
+        "away_ml": {
+          "betmgm": 135,
+          "fanduel": 136,
+          "caesars": 140,
+          "bet365": 135,
+          "draftkings": 136,
+          "fanatics": 130,
+          "betonline": 141,
+          "sportsbetting": 145,
+          "pinnacle": 140,
+          "gtbets": 140,
+          "intertops": 134,
+          "lowvig": 135,
+          "unibet": 130,
+          "heritage": 139,
+          "bodog": 134,
+          "bovada": 134,
+          "consensus": 140
+        },
+        "total": {
+          "betmgm": 6,
+          "fanduel": 6,
+          "caesars": 6,
+          "bet365": 6,
+          "draftkings": 5.5,
+          "fanatics": 5.5,
+          "betonline": 6,
+          "sportsbetting": 6,
+          "pinnacle": 6,
+          "gtbets": 6,
+          "intertops": 6,
+          "lowvig": 6,
+          "unibet": 5.5,
+          "heritage": 6,
+          "bodog": 6,
+          "bovada": 6,
+          "consensus": 6
+        },
+        "over_odds": {
+          "betmgm": 100,
+          "fanduel": -102,
+          "caesars": 100,
+          "bet365": 100,
+          "draftkings": -130,
+          "fanatics": -125,
+          "betonline": 104,
+          "sportsbetting": -105,
+          "pinnacle": -106,
+          "gtbets": -106,
+          "intertops": 100,
+          "lowvig": 100,
+          "unibet": -138,
+          "heritage": 101,
+          "bodog": -103,
+          "bovada": 100,
+          "consensus": 100
+        },
+        "under_odds": {
+          "betmgm": -120,
+          "fanduel": -120,
+          "caesars": -120,
+          "bet365": -120,
+          "draftkings": 110,
+          "fanatics": 105,
+          "betonline": -120,
+          "sportsbetting": -115,
+          "pinnacle": -114,
+          "gtbets": -114,
+          "intertops": -120,
+          "lowvig": -120,
+          "unibet": 110,
+          "heritage": -115,
+          "bodog": -119,
+          "bovada": -120,
+          "consensus": -120
+        },
+        "home_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null
+        },
+        "home_spread_odds": {
+          "betmgm": -160,
+          "fanduel": -164,
+          "caesars": -165,
+          "bet365": -160,
+          "draftkings": -162,
+          "fanatics": -160
+        },
+        "away_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null
+        },
+        "away_spread_odds": {
+          "betmgm": 135,
+          "fanduel": 136,
+          "caesars": 140,
+          "bet365": 135,
+          "draftkings": 136,
+          "fanatics": 130
+        }
+      },
+      {
+        "date": "2026-04-13T23:30:00+00:00",
+        "status": "19:30 ET",
+        "home_team": "Toronto Maple Leafs",
+        "away_team": "Dallas Stars",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betmgm": 165,
+          "fanduel": 162,
+          "caesars": 162,
+          "bet365": 165,
+          "draftkings": 160,
+          "fanatics": 165,
+          "betonline": 169,
+          "sportsbetting": 163,
+          "pinnacle": 163,
+          "gtbets": 163,
+          "intertops": 155,
+          "lowvig": 165,
+          "unibet": 150,
+          "heritage": 164,
+          "bodog": 157,
+          "bovada": 169,
+          "consensus": 160
+        },
+        "away_ml": {
+          "betmgm": -200,
+          "fanduel": -196,
+          "caesars": -195,
+          "bet365": -200,
+          "draftkings": -192,
+          "fanatics": -200,
+          "betonline": -193,
+          "sportsbetting": -190,
+          "pinnacle": -190,
+          "gtbets": -190,
+          "intertops": -195,
+          "lowvig": -190,
+          "unibet": -188,
+          "heritage": -182,
+          "bodog": -195,
+          "bovada": -195,
+          "consensus": -185
+        },
+        "total": {
+          "betmgm": 6.5,
+          "fanduel": 6.5,
+          "caesars": 6.5,
+          "bet365": 6.5,
+          "draftkings": 6.5,
+          "fanatics": 6.5,
+          "betonline": 6.5,
+          "sportsbetting": 6.5,
+          "pinnacle": 6.5,
+          "gtbets": 6.5,
+          "intertops": 6.5,
+          "lowvig": 6.5,
+          "unibet": 6.5,
+          "heritage": 6.5,
+          "bodog": 6.5,
+          "bovada": 6.5,
+          "consensus": 6.5
+        },
+        "over_odds": {
+          "betmgm": -105,
+          "fanduel": -112,
+          "caesars": -105,
+          "bet365": -105,
+          "draftkings": -105,
+          "fanatics": -110,
+          "betonline": -102,
+          "sportsbetting": -105,
+          "pinnacle": -109,
+          "gtbets": -109,
+          "intertops": -105,
+          "lowvig": -105,
+          "unibet": -110,
+          "heritage": -106,
+          "bodog": -105,
+          "bovada": -105,
+          "consensus": -105
+        },
+        "under_odds": {
+          "betmgm": -115,
+          "fanduel": -112,
+          "caesars": -115,
+          "bet365": -115,
+          "draftkings": -115,
+          "fanatics": -110,
+          "betonline": -114,
+          "sportsbetting": -115,
+          "pinnacle": -111,
+          "gtbets": -111,
+          "intertops": -115,
+          "lowvig": -115,
+          "unibet": -110,
+          "heritage": -108,
+          "bodog": -116,
+          "bovada": -115,
+          "consensus": -115
+        },
+        "home_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null
+        },
+        "home_spread_odds": {
+          "betmgm": 165,
+          "fanduel": 162,
+          "caesars": 162,
+          "bet365": 165,
+          "draftkings": 160,
+          "fanatics": 165
+        },
+        "away_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null
+        },
+        "away_spread_odds": {
+          "betmgm": -200,
+          "fanduel": -196,
+          "caesars": -195,
+          "bet365": -200,
+          "draftkings": -192,
+          "fanatics": -200
+        }
+      },
+      {
+        "date": "2026-04-14T00:00:00+00:00",
+        "status": "20:00 ET",
+        "home_team": "St. Louis Blues",
+        "away_team": "Minnesota Wild",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betmgm": -185,
+          "fanduel": -184,
+          "caesars": -190,
+          "bet365": -185,
+          "draftkings": -185,
+          "fanatics": -180,
+          "betonline": -178,
+          "sportsbetting": -195,
+          "pinnacle": -181,
+          "gtbets": -181,
+          "intertops": -185,
+          "lowvig": -180,
+          "unibet": -200,
+          "heritage": -177,
+          "bodog": -185,
+          "bovada": -185,
+          "consensus": -185
+        },
+        "away_ml": {
+          "betmgm": 154,
+          "fanduel": 152,
+          "caesars": 158,
+          "bet365": 155,
+          "draftkings": 154,
+          "fanatics": 150,
+          "betonline": 156,
+          "sportsbetting": 165,
+          "pinnacle": 156,
+          "gtbets": 156,
+          "intertops": 150,
+          "lowvig": 160,
+          "unibet": 160,
+          "heritage": 159,
+          "bodog": 150,
+          "bovada": 159,
+          "consensus": 160
+        },
+        "total": {
+          "betmgm": 5.5,
+          "fanduel": 5.5,
+          "caesars": 5.5,
+          "bet365": 5.5,
+          "draftkings": 5.5,
+          "fanatics": 5.5,
+          "betonline": 5.5,
+          "sportsbetting": 5.5,
+          "pinnacle": 5.5,
+          "gtbets": 5.5,
+          "intertops": 5.5,
+          "lowvig": 5.5,
+          "unibet": 5.5,
+          "heritage": 5.5,
+          "bodog": 5.5,
+          "bovada": 5.5,
+          "consensus": 5.5
+        },
+        "over_odds": {
+          "betmgm": -115,
+          "fanduel": -118,
+          "caesars": -115,
+          "bet365": -115,
+          "draftkings": -112,
+          "fanatics": -115,
+          "betonline": -115,
+          "sportsbetting": -115,
+          "pinnacle": -115,
+          "gtbets": -115,
+          "intertops": -115,
+          "lowvig": -115,
+          "unibet": -125,
+          "heritage": -118,
+          "bodog": -116,
+          "bovada": -115,
+          "consensus": -115
+        },
+        "under_odds": {
+          "betmgm": -105,
+          "fanduel": -104,
+          "caesars": -105,
+          "bet365": -105,
+          "draftkings": -108,
+          "fanatics": -105,
+          "betonline": -101,
+          "sportsbetting": -105,
+          "pinnacle": -105,
+          "gtbets": -105,
+          "intertops": -105,
+          "lowvig": -105,
+          "unibet": 100,
+          "heritage": 102,
+          "bodog": -105,
+          "bovada": -105,
+          "consensus": -105
+        },
+        "home_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null
+        },
+        "home_spread_odds": {
+          "betmgm": -185,
+          "fanduel": -184,
+          "caesars": -190,
+          "bet365": -185,
+          "draftkings": -185,
+          "fanatics": -180
+        },
+        "away_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null
+        },
+        "away_spread_odds": {
+          "betmgm": 154,
+          "fanduel": 152,
+          "caesars": 158,
+          "bet365": 155,
+          "draftkings": 154,
+          "fanatics": 150
+        }
+      },
+      {
+        "date": "2026-04-14T00:00:00+00:00",
+        "status": "20:00 ET",
+        "home_team": "Nashville Predators",
+        "away_team": "San Jose Sharks",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betmgm": -150,
+          "fanduel": -160,
+          "caesars": -155,
+          "bet365": -150,
+          "draftkings": -155,
+          "fanatics": -160,
+          "betonline": -152,
+          "sportsbetting": -150,
+          "pinnacle": -152,
+          "gtbets": -152,
+          "intertops": -150,
+          "lowvig": -150,
+          "unibet": -150,
+          "heritage": -148,
+          "bodog": -152,
+          "bovada": -150,
+          "consensus": -150
+        },
+        "away_ml": {
+          "betmgm": 125,
+          "fanduel": 132,
+          "caesars": 130,
+          "bet365": 125,
+          "draftkings": 130,
+          "fanatics": 130,
+          "betonline": 134,
+          "sportsbetting": 130,
+          "pinnacle": 132,
+          "gtbets": 132,
+          "intertops": 110,
+          "lowvig": 130,
+          "unibet": 120,
+          "heritage": 134,
+          "bodog": 124,
+          "bovada": 124,
+          "consensus": 130
+        },
+        "total": {
+          "betmgm": 6.5,
+          "fanduel": 6.5,
+          "caesars": 6.5,
+          "bet365": 6.5,
+          "draftkings": 6.5,
+          "fanatics": 6.5,
+          "betonline": 6.5,
+          "sportsbetting": 6.5,
+          "pinnacle": 6.5,
+          "gtbets": 6.5,
+          "intertops": 6.5,
+          "lowvig": 6.5,
+          "unibet": 6.5,
+          "heritage": 6.5,
+          "bodog": 6.5,
+          "bovada": 6.5,
+          "consensus": 6.5
+        },
+        "over_odds": {
+          "betmgm": -110,
+          "fanduel": -110,
+          "caesars": -110,
+          "bet365": -110,
+          "draftkings": -112,
+          "fanatics": -110,
+          "betonline": -108,
+          "sportsbetting": -112,
+          "pinnacle": -116,
+          "gtbets": -116,
+          "intertops": -110,
+          "lowvig": -110,
+          "unibet": -110,
+          "heritage": -107,
+          "bodog": -113,
+          "bovada": -110,
+          "consensus": -110
+        },
+        "under_odds": {
+          "betmgm": -110,
+          "fanduel": -110,
+          "caesars": -110,
+          "bet365": -110,
+          "draftkings": -108,
+          "fanatics": -110,
+          "betonline": -108,
+          "sportsbetting": -108,
+          "pinnacle": -104,
+          "gtbets": -104,
+          "intertops": -110,
+          "lowvig": -110,
+          "unibet": -110,
+          "heritage": -107,
+          "bodog": -108,
+          "bovada": -110,
+          "consensus": -110
+        },
+        "home_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null
+        },
+        "home_spread_odds": {
+          "betmgm": -150,
+          "fanduel": -160,
+          "caesars": -155,
+          "bet365": -150,
+          "draftkings": -155,
+          "fanatics": -160
+        },
+        "away_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null
+        },
+        "away_spread_odds": {
+          "betmgm": 125,
+          "fanduel": 132,
+          "caesars": 130,
+          "bet365": 125,
+          "draftkings": 130,
+          "fanatics": 130
+        }
+      },
+      {
+        "date": "2026-04-14T00:30:00+00:00",
+        "status": "20:30 ET",
+        "home_team": "Chicago Blackhawks",
+        "away_team": "Buffalo Sabres",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betmgm": 165,
+          "fanduel": 168,
+          "caesars": 175,
+          "bet365": 170,
+          "draftkings": 170,
+          "fanatics": 165,
+          "betonline": 171,
+          "sportsbetting": 173,
+          "pinnacle": 172,
+          "gtbets": 173,
+          "intertops": 160,
+          "lowvig": 170,
+          "unibet": 160,
+          "heritage": 171,
+          "bodog": 168,
+          "bovada": 170,
+          "consensus": 170
+        },
+        "away_ml": {
+          "betmgm": -200,
+          "fanduel": -205,
+          "caesars": -210,
+          "bet365": -205,
+          "draftkings": -205,
+          "fanatics": -200,
+          "betonline": -195,
+          "sportsbetting": -205,
+          "pinnacle": -205,
+          "gtbets": -206,
+          "intertops": -200,
+          "lowvig": -200,
+          "unibet": -200,
+          "heritage": -191,
+          "bodog": -208,
+          "bovada": -200,
+          "consensus": -200
+        },
+        "total": {
+          "betmgm": 6.5,
+          "fanduel": 6.5,
+          "caesars": 6.5,
+          "bet365": 6.5,
+          "draftkings": 6.5,
+          "fanatics": 6.5,
+          "betonline": 6.5,
+          "sportsbetting": 6.5,
+          "pinnacle": 6.5,
+          "gtbets": 6.5,
+          "intertops": 6.5,
+          "lowvig": 6.5,
+          "unibet": 6.5,
+          "heritage": 6.5,
+          "bodog": 6.5,
+          "bovada": 6.5,
+          "consensus": 6.5
+        },
+        "over_odds": {
+          "betmgm": -105,
+          "fanduel": -108,
+          "caesars": 100,
+          "bet365": 100,
+          "draftkings": -102,
+          "fanatics": -105,
+          "betonline": 102,
+          "sportsbetting": -103,
+          "pinnacle": 100,
+          "gtbets": 100,
+          "intertops": -110,
+          "lowvig": 100,
+          "unibet": 100,
+          "heritage": 102,
+          "bodog": -104,
+          "bovada": 100,
+          "consensus": -105
+        },
+        "under_odds": {
+          "betmgm": -115,
+          "fanduel": -112,
+          "caesars": -120,
+          "bet365": -120,
+          "draftkings": -118,
+          "fanatics": -115,
+          "betonline": -118,
+          "sportsbetting": -117,
+          "pinnacle": -120,
+          "gtbets": -120,
+          "intertops": -120,
+          "lowvig": -120,
+          "unibet": -125,
+          "heritage": -116,
+          "bodog": -118,
+          "bovada": -120,
+          "consensus": -115
+        },
+        "home_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null
+        },
+        "home_spread_odds": {
+          "betmgm": 165,
+          "fanduel": 172,
+          "caesars": 175,
+          "bet365": 170,
+          "draftkings": 170,
+          "fanatics": 165
+        },
+        "away_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null
+        },
+        "away_spread_odds": {
+          "betmgm": -200,
+          "fanduel": -210,
+          "caesars": -210,
+          "bet365": -205,
+          "draftkings": -205,
+          "fanatics": -200
+        }
+      },
+      {
+        "date": "2026-04-14T01:30:00+00:00",
+        "status": "21:30 ET",
+        "home_team": "Edmonton Oilers",
+        "away_team": "Colorado Avalanche",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betmgm": 105,
+          "fanduel": 104,
+          "caesars": 105,
+          "bet365": 105,
+          "draftkings": 105,
+          "fanatics": 105,
+          "betonline": 105,
+          "sportsbetting": 102,
+          "pinnacle": 105,
+          "gtbets": 105,
+          "intertops": -101,
+          "lowvig": 100,
+          "unibet": 110,
+          "heritage": 108,
+          "bodog": 101,
+          "bovada": -101,
+          "consensus": 102
+        },
+        "away_ml": {
+          "betmgm": -125,
+          "fanduel": -125,
+          "caesars": -125,
+          "bet365": -125,
+          "draftkings": -125,
+          "fanatics": -125,
+          "betonline": -119,
+          "sportsbetting": -122,
+          "pinnacle": -126,
+          "gtbets": -126,
+          "intertops": -125,
+          "lowvig": -120,
+          "unibet": -138,
+          "heritage": -120,
+          "bodog": -123,
+          "bovada": -125,
+          "consensus": -122
+        },
+        "total": {
+          "betmgm": 6.5,
+          "fanduel": 6.5,
+          "caesars": 6.5,
+          "bet365": 6.5,
+          "draftkings": 6.5,
+          "fanatics": 6.5,
+          "betonline": 6.5,
+          "sportsbetting": 6.5,
+          "pinnacle": 6.5,
+          "gtbets": 6.5,
+          "intertops": 6.5,
+          "lowvig": 6.5,
+          "unibet": 6.5,
+          "heritage": 6.5,
+          "bodog": 6.5,
+          "bovada": 6.5,
+          "consensus": 6.5
+        },
+        "over_odds": {
+          "betmgm": -115,
+          "fanduel": -122,
+          "caesars": -120,
+          "bet365": -115,
+          "draftkings": -120,
+          "fanatics": -120,
+          "betonline": -118,
+          "sportsbetting": -122,
+          "pinnacle": -126,
+          "gtbets": -126,
+          "intertops": -115,
+          "lowvig": -115,
+          "unibet": -125,
+          "heritage": -115,
+          "bodog": -122,
+          "bovada": -115,
+          "consensus": -120
+        },
+        "under_odds": {
+          "betmgm": -105,
+          "fanduel": 100,
+          "caesars": 100,
+          "bet365": -105,
+          "draftkings": 100,
+          "fanatics": 100,
+          "betonline": 102,
+          "sportsbetting": 102,
+          "pinnacle": 106,
+          "gtbets": 106,
+          "intertops": -105,
+          "lowvig": -105,
+          "unibet": 100,
+          "heritage": 101,
+          "bodog": 100,
+          "bovada": -105,
+          "consensus": 100
+        },
+        "home_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null
+        },
+        "home_spread_odds": {
+          "betmgm": 105,
+          "fanduel": 104,
+          "caesars": 105,
+          "bet365": 105,
+          "draftkings": 105,
+          "fanatics": 105
+        },
+        "away_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null
+        },
+        "away_spread_odds": {
+          "betmgm": -125,
+          "fanduel": -125,
+          "caesars": -125,
+          "bet365": -125,
+          "draftkings": -125,
+          "fanatics": -125
+        }
+      },
+      {
+        "date": "2026-04-14T01:30:00+00:00",
+        "status": "21:30 ET",
+        "home_team": "Seattle Kraken",
+        "away_team": "Los Angeles Kings",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betmgm": 145,
+          "fanduel": 146,
+          "caesars": 148,
+          "bet365": 145,
+          "draftkings": 145,
+          "fanatics": 145
+        },
+        "away_ml": {
+          "betmgm": -175,
+          "fanduel": -178,
+          "caesars": -175,
+          "bet365": -170,
+          "draftkings": -175,
+          "fanatics": -175,
+          "betonline": -168,
+          "sportsbetting": -167,
+          "pinnacle": -170,
+          "gtbets": -170,
+          "intertops": -170,
+          "lowvig": -170,
+          "unibet": -163,
+          "heritage": -165,
+          "bodog": -167,
+          "bovada": -170,
+          "consensus": -165
+        },
+        "total": {
+          "betmgm": 6,
+          "fanduel": 6,
+          "caesars": 6,
+          "bet365": 5.5,
+          "draftkings": 5.5,
+          "fanatics": 5.5,
+          "betonline": 5.5,
+          "sportsbetting": 6,
+          "pinnacle": 6,
+          "gtbets": 6,
+          "intertops": 5.5,
+          "lowvig": 5.5,
+          "unibet": 5.5,
+          "heritage": 6,
+          "bodog": 6,
+          "bovada": 5.5,
+          "consensus": 6
+        },
+        "over_odds": {
+          "betmgm": 100,
+          "fanduel": -102,
+          "caesars": -105,
+          "bet365": -125,
+          "draftkings": -130,
+          "fanatics": -130,
+          "betonline": -130,
+          "sportsbetting": -105,
+          "pinnacle": -110,
+          "gtbets": -110,
+          "intertops": -125,
+          "lowvig": -125,
+          "unibet": -125,
+          "heritage": -103,
+          "bodog": -104,
+          "bovada": -125,
+          "consensus": -105
+        },
+        "under_odds": {
+          "betmgm": -120,
+          "fanduel": -120,
+          "caesars": -125,
+          "bet365": 105,
+          "draftkings": 110,
+          "fanatics": 110,
+          "betonline": 113,
+          "sportsbetting": -115,
+          "pinnacle": -110,
+          "gtbets": -110,
+          "intertops": -105,
+          "lowvig": 105,
+          "unibet": 100,
+          "heritage": -111,
+          "bodog": -117,
+          "bovada": 105,
+          "consensus": -115
+        },
+        "home_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null
+        },
+        "home_spread_odds": {
+          "betmgm": 145,
+          "fanduel": 146,
+          "caesars": 148,
+          "bet365": 145,
+          "draftkings": 145,
+          "fanatics": 145
+        },
+        "away_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null
+        },
+        "away_spread_odds": {
+          "betmgm": -175,
+          "fanduel": -178,
+          "caesars": -175,
+          "bet365": -170,
+          "draftkings": -175,
+          "fanatics": -175
+        }
+      },
+      {
+        "date": "2026-04-14T02:00:00+00:00",
+        "status": "22:00 ET",
+        "home_team": "Vegas Golden Knights",
+        "away_team": "Winnipeg Jets",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betmgm": -180,
+          "fanduel": -178,
+          "caesars": -190,
+          "bet365": -185,
+          "draftkings": -185,
+          "fanatics": -175
+        },
+        "away_ml": {
+          "betmgm": 145,
+          "fanduel": 146,
+          "caesars": 158,
+          "bet365": 155,
+          "draftkings": 154,
+          "fanatics": 145,
+          "betonline": 144,
+          "sportsbetting": 150,
+          "pinnacle": 149,
+          "gtbets": 149,
+          "intertops": 145,
+          "lowvig": 150,
+          "unibet": 138,
+          "heritage": 152,
+          "bodog": 144,
+          "bovada": 149,
+          "consensus": 150
+        },
+        "total": {
+          "betmgm": 6,
+          "fanduel": 6,
+          "caesars": 6,
+          "bet365": 6,
+          "draftkings": 5.5,
+          "fanatics": 5.5,
+          "betonline": 6,
+          "sportsbetting": 6,
+          "pinnacle": 6,
+          "gtbets": 6,
+          "intertops": 6,
+          "lowvig": 6,
+          "unibet": 5.5,
+          "heritage": 6,
+          "bodog": 6,
+          "bovada": 6,
+          "consensus": 6
+        },
+        "over_odds": {
+          "betmgm": 100,
+          "fanduel": 100,
+          "caesars": 100,
+          "bet365": 100,
+          "draftkings": -130,
+          "fanatics": -125,
+          "betonline": 102,
+          "sportsbetting": 100,
+          "pinnacle": -109,
+          "gtbets": -109,
+          "intertops": 100,
+          "lowvig": 100,
+          "unibet": -125,
+          "heritage": 100,
+          "bodog": 100,
+          "bovada": 100,
+          "consensus": 100
+        },
+        "under_odds": {
+          "betmgm": -120,
+          "fanduel": -122,
+          "caesars": -120,
+          "bet365": -120,
+          "draftkings": 110,
+          "fanatics": 105,
+          "betonline": -118,
+          "sportsbetting": -120,
+          "pinnacle": -111,
+          "gtbets": -111,
+          "intertops": -120,
+          "lowvig": -120,
+          "unibet": 100,
+          "heritage": -114,
+          "bodog": -122,
+          "bovada": -120,
+          "consensus": -120
+        },
+        "home_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null
+        },
+        "home_spread_odds": {
+          "betmgm": -180,
+          "fanduel": -178,
+          "caesars": -190,
+          "bet365": -185,
+          "draftkings": -185,
+          "fanatics": -175
+        },
+        "away_spread": {
+          "betmgm": null,
+          "fanduel": null,
+          "caesars": null,
+          "bet365": null,
+          "draftkings": null,
+          "fanatics": null
+        },
+        "away_spread_odds": {
+          "betmgm": 145,
+          "fanduel": 146,
+          "caesars": 158,
+          "bet365": 155,
+          "draftkings": 154,
+          "fanatics": 145
+        }
+      },
+      {
+        "date": "2026-04-13T23:00:00+00:00",
+        "status": "scheduled",
+        "home_team": "Florida",
+        "away_team": "N.Y. Rangers",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betonline": 132,
+          "sportsbetting": 133,
+          "pinnacle": 133,
+          "gtbets": 133,
+          "intertops": 124,
+          "lowvig": 135,
+          "unibet": 120,
+          "heritage": 130,
+          "bodog": 127,
+          "bovada": 124,
+          "consensus": 130
+        },
+        "away_ml": {
+          "betonline": -150,
+          "sportsbetting": -155,
+          "pinnacle": -153,
+          "gtbets": -153,
+          "intertops": -150,
+          "lowvig": -155,
+          "unibet": -150,
+          "heritage": -144,
+          "bodog": -155,
+          "bovada": -150,
+          "consensus": -150
+        },
+        "total": {
+          "betonline": 6,
+          "sportsbetting": 6,
+          "pinnacle": 6,
+          "gtbets": 6,
+          "intertops": 6,
+          "lowvig": 6,
+          "unibet": 6.5,
+          "heritage": 6,
+          "bodog": 6,
+          "bovada": 6,
+          "consensus": 6
+        },
+        "over_odds": {
+          "betonline": -118,
+          "sportsbetting": -117,
+          "pinnacle": -120,
+          "gtbets": -120,
+          "intertops": -120,
+          "lowvig": -115,
+          "unibet": 110,
+          "heritage": -114,
+          "bodog": -119,
+          "bovada": -120,
+          "consensus": -120
+        },
+        "under_odds": {
+          "betonline": 102,
+          "sportsbetting": -103,
+          "pinnacle": 100,
+          "gtbets": 100,
+          "intertops": -110,
+          "lowvig": -105,
+          "unibet": -138,
+          "heritage": 100,
+          "bodog": -103,
+          "bovada": 100,
+          "consensus": 100
+        },
+        "home_spread": {},
+        "home_spread_odds": {},
+        "away_spread": {},
+        "away_spread_odds": {}
+      },
+      {
+        "date": "2026-04-14T23:00:00+00:00",
+        "status": "scheduled",
+        "home_team": "N.Y. Islanders",
+        "away_team": "Carolina",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "sportsbetting": -110,
+          "unibet": -110,
+          "heritage": -104,
+          "bodog": -109
+        },
+        "away_ml": {
+          "sportsbetting": -110,
+          "unibet": -110,
+          "heritage": -106,
+          "bodog": -112
+        },
+        "total": {
+          "sportsbetting": 6.5,
+          "unibet": 6.5,
+          "heritage": 6,
+          "bodog": 6.5
+        },
+        "over_odds": {
+          "sportsbetting": 100,
+          "unibet": 100,
+          "heritage": -119,
+          "bodog": 101
+        },
+        "under_odds": {
+          "sportsbetting": -120,
+          "unibet": -125,
+          "heritage": 103,
+          "bodog": -123
+        },
+        "home_spread": {},
+        "home_spread_odds": {},
+        "away_spread": {},
+        "away_spread_odds": {}
+      },
+      {
+        "date": "2026-04-14T23:00:00+00:00",
+        "status": "scheduled",
+        "home_team": "Philadelphia",
+        "away_team": "Montreal",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "sportsbetting": 110,
+          "unibet": 100,
+          "heritage": 110,
+          "bodog": 103
+        },
+        "away_ml": {
+          "sportsbetting": -130,
+          "unibet": -125,
+          "heritage": -122,
+          "bodog": -125
+        },
+        "total": {
+          "sportsbetting": 6.5,
+          "unibet": 6.5,
+          "heritage": 6,
+          "bodog": 6
+        },
+        "over_odds": {
+          "sportsbetting": 110,
+          "unibet": 100,
+          "heritage": -117,
+          "bodog": -125
+        },
+        "under_odds": {
+          "sportsbetting": -130,
+          "unibet": -125,
+          "heritage": 103,
+          "bodog": 102
+        },
+        "home_spread": {},
+        "home_spread_odds": {},
+        "away_spread": {},
+        "away_spread_odds": {}
+      },
+      {
+        "date": "2026-04-14T23:00:00+00:00",
+        "status": "scheduled",
+        "home_team": "Boston",
+        "away_team": "New Jersey",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betonline": -125,
+          "sportsbetting": -130,
+          "pinnacle": -130,
+          "gtbets": -130,
+          "unibet": -138,
+          "heritage": -127,
+          "bodog": -134
+        },
+        "away_ml": {
+          "betonline": 110,
+          "sportsbetting": 110,
+          "pinnacle": 110,
+          "gtbets": 110,
+          "unibet": 110,
+          "heritage": 115,
+          "bodog": 110
+        },
+        "total": {
+          "betonline": 6,
+          "sportsbetting": 6.5,
+          "pinnacle": 6,
+          "gtbets": 6,
+          "unibet": 6.5,
+          "heritage": 6,
+          "bodog": 6
+        },
+        "over_odds": {
+          "betonline": -111,
+          "sportsbetting": 110,
+          "pinnacle": -110,
+          "gtbets": -110,
+          "unibet": 110,
+          "heritage": -111,
+          "bodog": -112
+        },
+        "under_odds": {
+          "betonline": -105,
+          "sportsbetting": -130,
+          "pinnacle": -110,
+          "gtbets": -110,
+          "unibet": -138,
+          "heritage": -103,
+          "bodog": -109
+        },
+        "home_spread": {},
+        "home_spread_odds": {},
+        "away_spread": {},
+        "away_spread_odds": {}
+      },
+      {
+        "date": "2026-04-14T23:00:00+00:00",
+        "status": "scheduled",
+        "home_team": "Columbus",
+        "away_team": "Washington",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "betonline": -115,
+          "sportsbetting": -120,
+          "pinnacle": -120,
+          "gtbets": -120,
+          "unibet": -125,
+          "heritage": -117,
+          "bodog": -124
+        },
+        "away_ml": {
+          "betonline": 101,
+          "sportsbetting": 100,
+          "pinnacle": 100,
+          "gtbets": 100,
+          "unibet": 100,
+          "heritage": 105,
+          "bodog": 101
+        },
+        "total": {
+          "betonline": 6,
+          "sportsbetting": 6.5,
+          "pinnacle": 6,
+          "gtbets": 6,
+          "unibet": 6.5,
+          "heritage": 6,
+          "bodog": 6
+        },
+        "over_odds": {
+          "betonline": -115,
+          "sportsbetting": 110,
+          "pinnacle": -115,
+          "gtbets": -115,
+          "unibet": 100,
+          "heritage": -117,
+          "bodog": -122
+        },
+        "under_odds": {
+          "betonline": -101,
+          "sportsbetting": -130,
+          "pinnacle": -105,
+          "gtbets": -105,
+          "unibet": -125,
+          "heritage": 103,
+          "bodog": 100
+        },
+        "home_spread": {},
+        "home_spread_odds": {},
+        "away_spread": {},
+        "away_spread_odds": {}
+      },
+      {
+        "date": "2026-04-15T00:00:00+00:00",
+        "status": "scheduled",
+        "home_team": "Minnesota",
+        "away_team": "Anaheim",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "sportsbetting": -115,
+          "unibet": -125,
+          "heritage": -115,
+          "bodog": -122
+        },
+        "away_ml": {
+          "sportsbetting": -105,
+          "unibet": 100,
+          "heritage": 105,
+          "bodog": 100
+        },
+        "total": {
+          "sportsbetting": 6.5,
+          "unibet": 6.5,
+          "heritage": 6.5,
+          "bodog": 6.5
+        },
+        "over_odds": {
+          "sportsbetting": -110,
+          "unibet": -125,
+          "heritage": -109,
+          "bodog": -112
+        },
+        "under_odds": {
+          "sportsbetting": -110,
+          "unibet": 100,
+          "heritage": -105,
+          "bodog": -109
+        },
+        "home_spread": {},
+        "home_spread_odds": {},
+        "away_spread": {},
+        "away_spread_odds": {}
+      },
+      {
+        "date": "2026-04-15T01:00:00+00:00",
+        "status": "scheduled",
+        "home_team": "Calgary",
+        "away_team": "Colorado",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "sportsbetting": 150,
+          "unibet": 138,
+          "heritage": 150,
+          "bodog": 137
+        },
+        "away_ml": {
+          "sportsbetting": -175,
+          "unibet": -175,
+          "heritage": -166,
+          "bodog": -169
+        },
+        "total": {
+          "sportsbetting": 6.5,
+          "unibet": 6.5,
+          "heritage": 6.5,
+          "bodog": 6
+        },
+        "over_odds": {
+          "sportsbetting": 100,
+          "unibet": 100,
+          "heritage": 102,
+          "bodog": -123
+        },
+        "under_odds": {
+          "sportsbetting": -120,
+          "unibet": -125,
+          "heritage": -116,
+          "bodog": 101
+        },
+        "home_spread": {},
+        "home_spread_odds": {},
+        "away_spread": {},
+        "away_spread_odds": {}
+      },
+      {
+        "date": "2026-04-15T01:00:00+00:00",
+        "status": "scheduled",
+        "home_team": "Utah",
+        "away_team": "Winnipeg",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {},
+        "away_ml": {
+          "betonline": 145,
+          "sportsbetting": 147,
+          "pinnacle": 144,
+          "gtbets": 144,
+          "unibet": 130,
+          "heritage": 144,
+          "bodog": 130
+        },
+        "total": {
+          "betonline": 6,
+          "sportsbetting": 5.5,
+          "pinnacle": 6,
+          "gtbets": 6,
+          "unibet": 5.5,
+          "heritage": 6,
+          "bodog": 6
+        },
+        "over_odds": {
+          "betonline": -106,
+          "sportsbetting": -135,
+          "pinnacle": -110,
+          "gtbets": -110,
+          "unibet": -138,
+          "heritage": -103,
+          "bodog": -104
+        },
+        "under_odds": {
+          "betonline": -110,
+          "sportsbetting": 115,
+          "pinnacle": -110,
+          "gtbets": -110,
+          "unibet": 110,
+          "heritage": -111,
+          "bodog": -117
+        },
+        "home_spread": {},
+        "home_spread_odds": {},
+        "away_spread": {},
+        "away_spread_odds": {}
+      },
+      {
+        "date": "2026-04-15T01:30:00+00:00",
+        "status": "scheduled",
+        "home_team": "St. Louis",
+        "away_team": "Pittsburgh",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "sportsbetting": -110,
+          "unibet": -110,
+          "heritage": -105,
+          "bodog": -105
+        },
+        "away_ml": {
+          "sportsbetting": -110,
+          "unibet": -110,
+          "heritage": -105,
+          "bodog": -116
+        },
+        "total": {
+          "sportsbetting": 6.5,
+          "unibet": 6.5,
+          "heritage": 6,
+          "bodog": 6.5
+        },
+        "over_odds": {
+          "sportsbetting": 110,
+          "unibet": 100,
+          "heritage": -117,
+          "bodog": 101
+        },
+        "under_odds": {
+          "sportsbetting": -130,
+          "unibet": -125,
+          "heritage": 103,
+          "bodog": -124
+        },
+        "home_spread": {},
+        "home_spread_odds": {},
+        "away_spread": {},
+        "away_spread_odds": {}
+      },
+      {
+        "date": "2026-04-15T02:00:00+00:00",
+        "status": "scheduled",
+        "home_team": "Vancouver",
+        "away_team": "Los Angeles",
+        "home_score": 0,
+        "away_score": 0,
+        "home_ml": {
+          "sportsbetting": 163,
+          "unibet": 150,
+          "heritage": 160,
+          "bodog": 150
+        },
+        "away_ml": {
+          "sportsbetting": -190,
+          "unibet": -188,
+          "heritage": -178,
+          "bodog": -186
+        },
+        "total": {
+          "sportsbetting": 5.5,
+          "unibet": 5.5,
+          "heritage": 6,
+          "bodog": 6
+        },
+        "over_odds": {
+          "sportsbetting": -135,
+          "unibet": -138,
+          "heritage": -107,
+          "bodog": -109
+        },
+        "under_odds": {
+          "sportsbetting": 115,
+          "unibet": 110,
+          "heritage": -107,
+          "bodog": -112
+        },
+        "home_spread": {},
+        "home_spread_odds": {},
+        "away_spread": {},
+        "away_spread_odds": {}
+      }
+    ]
+  }
+}

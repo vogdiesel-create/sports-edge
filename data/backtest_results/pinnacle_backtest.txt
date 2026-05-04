@@ -1,0 +1,6 @@
+NHL Backtest vs Real Pinnacle Closing Lines
+Run: 2026-04-16 12:31:50
+Games: 6354 | Bets: 2073
+Record: 969W-948L-156P (50.5%)
+ROI: -2.00% | Profit: $-3,835.50
+Avg CLV: +15.23% | Positive CLV: 2073/2073

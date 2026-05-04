@@ -1,0 +1,64 @@
+{
+  "date": "2026-04-27",
+  "graded_at": "2026-04-28T05:00:00Z",
+  "k_props": {
+    "record": "5W-2L",
+    "pnl": 167.46,
+    "bets": [
+      {"pitcher": "Dylan Cease", "side": "under", "line": 7.5, "expected_ks": 5.6, "actual_ks": 5, "result": "WIN", "pnl": 73.08},
+      {"pitcher": "Parker Messick", "side": "under", "line": 4.5, "expected_ks": 3.61, "actual_ks": 9, "result": "LOSS", "pnl": -95.00, "note": "BLOWOUT +5.39 over expected"},
+      {"pitcher": "Ranger Suarez", "side": "under", "line": 4.5, "expected_ks": 3.18, "actual_ks": 10, "result": "LOSS", "pnl": -95.00, "note": "BLOWOUT +6.82 over expected"},
+      {"pitcher": "Jack Leiter", "side": "under", "line": 5.5, "expected_ks": 5.26, "actual_ks": 4, "result": "WIN", "pnl": 104.50},
+      {"pitcher": "Steven Matz", "side": "under", "line": 4.5, "expected_ks": 3.76, "actual_ks": 2, "result": "WIN", "pnl": 64.19},
+      {"pitcher": "Max Fried", "side": "under", "line": 5.5, "expected_ks": 5.10, "actual_ks": 5, "result": "WIN", "pnl": 86.36},
+      {"pitcher": "Dustin May", "side": "under", "line": 4.5, "expected_ks": 4.33, "actual_ks": 2, "result": "WIN", "pnl": 29.33}
+    ],
+    "pending": ["Yoshinobu Yamamoto U6.5", "Jack Kochanowicz O3"]
+  },
+  "oddstrader_sim": {
+    "record": "3W-3L",
+    "pnl": -28.54,
+    "bets": [
+      {"player": "Steven Matz", "market": "Hits Allowed", "result": "WIN", "pnl": 115.79},
+      {"player": "Jake Mangum", "market": "Total Bases", "result": "LOSS", "pnl": -105.26},
+      {"player": "Marcell Ozuna", "market": "Total Bases", "result": "WIN", "pnl": 56.90},
+      {"player": "Trent Grisham", "market": "Total Bases", "result": "WIN", "pnl": 61.92},
+      {"player": "Kody Clemens", "market": "Total Bases", "result": "LOSS", "pnl": -105.26},
+      {"player": "Ryan Jeffers", "market": "Total Bases", "result": "LOSS", "pnl": -52.63}
+    ],
+    "pending": ["Travis d'Arnaud TB", "Yoshinobu Yamamoto HA"]
+  },
+  "game_model": {
+    "record": "0W-0L",
+    "pnl": 0,
+    "note": "No new graded bets"
+  },
+  "combined": {
+    "record": "8W-5L",
+    "pnl": 138.92
+  },
+  "cumulative": {
+    "k_props": {"record": "43W-27L", "pnl": 1078.09, "roi_pct": 17.5},
+    "oddstrader_sim": {"record": "66W-57L", "pnl": 234.47, "roi_pct": 3.7},
+    "game_model": {"record": "26W-25L-1P", "pnl": 109.06, "roi_pct": 1.7},
+    "total_graded": 245,
+    "combined_pnl": 1421.62,
+    "progress_to_300": "81.7%"
+  },
+  "extreme_misses": [
+    {
+      "pitcher": "Parker Messick",
+      "expected": 3.61,
+      "actual": 9,
+      "delta": 5.39,
+      "note": "CLE vs TB. Messick is young pitcher with limited track record. Career-high Ks?"
+    },
+    {
+      "pitcher": "Ranger Suarez",
+      "expected": 3.18,
+      "actual": 10,
+      "delta": 6.82,
+      "note": "BOS vs TOR. Model expected 3.18 but got 10. MASSIVE miss. Suarez had his best K game. Consider blacklist."
+    }
+  ]
+}

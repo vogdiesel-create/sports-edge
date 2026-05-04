@@ -1,0 +1,18 @@
+{
+  "date": "2026-05-04",
+  "timestamp": "2026-05-04T11:20:49.003691+00:00",
+  "bankroll": 4848.63,
+  "total_bets": 73,
+  "graded": 69,
+  "pending": 4,
+  "record": "33W-33L-3P",
+  "win_rate": 47.8,
+  "total_pnl": -151.37,
+  "roi": -1.7,
+  "clv_checks": 65,
+  "clv_avg": -0.48,
+  "clv_positive_rate": 38.5,
+  "target_bets": 200,
+  "progress": "69/200 (34%)",
+  "kill_triggered": false
+}

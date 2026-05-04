@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sports Edge - Odds Proxy Dashboard</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0a0e17;
+      color: #e0e6ed;
+      min-height: 100vh;
+    }
+
+    .header {
+      background: linear-gradient(135deg, #1a1f2e 0%, #0d1117 100%);
+      border-bottom: 1px solid #21262d;
+      padding: 20px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .header h1 {
+      font-size: 1.4em;
+      color: #58a6ff;
+      letter-spacing: 0.5px;
+    }
+
+    .header-meta {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      font-size: 0.85em;
+      color: #8b949e;
+    }
+
+    .status-dot {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      margin-right: 6px;
+    }
+
+    .status-dot.ok { background: #3fb950; }
+    .status-dot.error { background: #f85149; }
+    .status-dot.loading { background: #d29922; animation: pulse 1s infinite; }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+
+    .controls {
+      padding: 16px 30px;
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      border-bottom: 1px solid #21262d;
+      background: #0d1117;
+    }
+
+    button {
+      background: #21262d;
+      color: #c9d1d9;
+      border: 1px solid #30363d;
+      padding: 8px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.85em;
+      transition: all 0.15s;
+    }
+
+    button:hover { background: #30363d; border-color: #58a6ff; color: #58a6ff; }
+    button:disabled { opacity: 0.4; cursor: not-allowed; }
+    button.active { background: #1f6feb; border-color: #1f6feb; color: #fff; }
+
+    .book-status {
+      padding: 12px 30px;
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      background: #0d1117;
+      border-bottom: 1px solid #21262d;
+    }
+
+    .book-badge {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 12px;
+      background: #161b22;
+      border: 1px solid #21262d;
+      border-radius: 16px;
+      font-size: 0.8em;
+    }
+
+    .book-badge .count {
+      color: #8b949e;
+      font-size: 0.9em;
+    }
+
+    .container {
+      padding: 20px 30px;
+      max-width: 100%;
+      overflow-x: auto;
+    }
+
+    h2 {
+      font-size: 1.1em;
+      color: #58a6ff;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    h2 .count-badge {
+      background: #1f6feb;
+      color: #fff;
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-size: 0.75em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 30px;
+      font-size: 0.85em;
+    }
+
+    th {
+      background: #161b22;
+      color: #8b949e;
+      text-align: left;
+      padding: 10px 12px;
+      border-bottom: 1px solid #30363d;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 0.75em;
+      letter-spacing: 0.5px;
+      position: sticky;
+      top: 0;
+    }
+
+    td {
+      padding: 8px 12px;
+      border-bottom: 1px solid #21262d;
+      vertical-align: middle;
+    }
+
+    tr:hover { background: #161b22; }
+
+    .ev-positive {
+      background: rgba(63, 185, 80, 0.1);
+      border-left: 3px solid #3fb950;
+    }
+
+    .ev-value {
+      font-weight: 700;
+      font-size: 1.05em;
+    }
+
+    .ev-value.high { color: #3fb950; }
+    .ev-value.medium { color: #d29922; }
+    .ev-value.low { color: #8b949e; }
+
+    .odds-cell {
+      font-family: 'SF Mono', 'Fira Code', monospace;
+      font-weight: 600;
+    }
+
+    .odds-cell.positive { color: #3fb950; }
+    .odds-cell.negative { color: #f0883e; }
+
+    .over { color: #58a6ff; }
+    .under { color: #bc8cff; }
+
+    .loading-overlay {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 60px;
+      color: #8b949e;
+    }
+
+    .spinner {
+      width: 24px;
+      height: 24px;
+      border: 3px solid #21262d;
+      border-top-color: #58a6ff;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin-right: 12px;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .error-msg {
+      color: #f85149;
+      background: rgba(248, 81, 73, 0.1);
+      border: 1px solid rgba(248, 81, 73, 0.3);
+      border-radius: 6px;
+      padding: 12px 16px;
+      margin: 12px 0;
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 40px;
+      color: #484f58;
+    }
+
+    .auto-refresh-bar {
+      height: 3px;
+      background: #1f6feb;
+      transition: width 1s linear;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+    }
+
+    .proxy-url-form {
+      display: flex;
+      gap: 8px;
+      flex: 1;
+      max-width: 600px;
+    }
+
+    .proxy-url-form input {
+      flex: 1;
+      background: #0d1117;
+      border: 1px solid #30363d;
+      color: #c9d1d9;
+      padding: 8px 12px;
+      border-radius: 6px;
+      font-family: 'SF Mono', 'Fira Code', monospace;
+      font-size: 0.8em;
+    }
+
+    .proxy-url-form input:focus {
+      outline: none;
+      border-color: #58a6ff;
+    }
+
+    .tab-content { display: none; }
+    .tab-content.active { display: block; }
+
+    .raw-json {
+      background: #0d1117;
+      border: 1px solid #21262d;
+      border-radius: 6px;
+      padding: 16px;
+      font-family: 'SF Mono', 'Fira Code', monospace;
+      font-size: 0.75em;
+      max-height: 500px;
+      overflow: auto;
+      white-space: pre-wrap;
+      word-break: break-all;
+      color: #8b949e;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>SPORTS EDGE -- Odds Proxy</h1>
+    <div class="header-meta">
+      <span id="lastUpdated">--</span>
+      <span id="refreshCountdown">Next refresh: 5:00</span>
+    </div>
+  </div>
+
+  <div class="controls">
+    <button id="btnMultiBook" class="active" onclick="switchTab('multi-book')">Multi-Book +EV</button>
+    <button id="btnDkProps" onclick="switchTab('dk-props')">DK Props</button>
+    <button id="btnProxy" onclick="switchTab('proxy')">Raw Proxy</button>
+    <button id="btnRefresh" onclick="fetchAll()">Refresh Now</button>
+    <label style="color:#8b949e; font-size:0.85em; display:flex; align-items:center; gap:6px;">
+      <input type="checkbox" id="autoRefresh" checked> Auto-refresh (5m)
+    </label>
+  </div>
+
+  <div id="bookStatusBar" class="book-status" style="display:none;"></div>
+
+  <!-- Multi-Book Tab -->
+  <div id="tab-multi-book" class="tab-content active">
+    <div class="container">
+      <div id="multiBookLoading" class="loading-overlay" style="display:none;">
+        <div class="spinner"></div> Fetching from all sportsbooks...
+      </div>
+      <div id="multiBookError" class="error-msg" style="display:none;"></div>
+
+      <h2>+EV Opportunities <span id="evCount" class="count-badge">0</span></h2>
+      <table id="evTable">
+        <thead>
+          <tr>
+            <th>Player</th>
+            <th>Stat</th>
+            <th>Line</th>
+            <th>Side</th>
+            <th>Book</th>
+            <th>Book Odds</th>
+            <th>Fair Odds</th>
+            <th>Edge (EV%)</th>
+            <th>Books Compared</th>
+          </tr>
+        </thead>
+        <tbody id="evBody"></tbody>
+      </table>
+
+      <h2>All Consolidated Lines <span id="groupCount" class="count-badge">0</span></h2>
+      <table id="groupTable">
+        <thead>
+          <tr>
+            <th>Player</th>
+            <th>Stat</th>
+            <th>Line</th>
+            <th>Books</th>
+            <th>Fair Over</th>
+            <th>Fair Under</th>
+          </tr>
+        </thead>
+        <tbody id="groupBody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- DK Props Tab -->
+  <div id="tab-dk-props" class="tab-content">
+    <div class="container">
+      <div id="dkLoading" class="loading-overlay" style="display:none;">
+        <div class="spinner"></div> Fetching DraftKings player props...
+      </div>
+      <div id="dkError" class="error-msg" style="display:none;"></div>
+
+      <h2>DraftKings Player Props <span id="dkCount" class="count-badge">0</span></h2>
+      <table id="dkTable">
+        <thead>
+          <tr>
+            <th>Player</th>
+            <th>Stat</th>
+            <th>Category</th>
+            <th>Line</th>
+            <th>Side</th>
+            <th>Odds</th>
+          </tr>
+        </thead>
+        <tbody id="dkBody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Raw Proxy Tab -->
+  <div id="tab-proxy" class="tab-content">
+    <div class="container">
+      <h2>Raw Proxy Fetch</h2>
+      <p style="color:#8b949e; margin-bottom:12px; font-size:0.85em;">
+        Fetch any allowed sportsbook URL through the proxy. Only whitelisted domains work.
+      </p>
+      <div class="proxy-url-form">
+        <input type="text" id="proxyUrl" placeholder="https://sportsbook.draftkings.com/sites/US-SB/api/v5/eventgroups/42648" />
+        <button onclick="fetchProxy()">Fetch</button>
+      </div>
+      <div id="proxyLoading" class="loading-overlay" style="display:none;">
+        <div class="spinner"></div> Fetching...
+      </div>
+      <div id="proxyError" class="error-msg" style="display:none;"></div>
+      <pre id="proxyResult" class="raw-json" style="margin-top:16px;"></pre>
+    </div>
+  </div>
+
+  <div id="autoRefreshBar" class="auto-refresh-bar" style="width:100%;"></div>
+
+  <script>
+    // -----------------------------------------------------------------------
+    // Config -- update this to your deployed Netlify URL
+    // For local dev with `netlify dev`, use empty string (relative paths)
+    // -----------------------------------------------------------------------
+    const API_BASE = '';  // e.g. 'https://your-site.netlify.app' or '' for same-origin
+
+    let refreshTimer = null;
+    let countdownInterval = null;
+    const REFRESH_MS = 5 * 60 * 1000;
+
+    // -----------------------------------------------------------------------
+    // Tab switching
+    // -----------------------------------------------------------------------
+    function switchTab(tab) {
+      document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('.controls button').forEach(el => el.classList.remove('active'));
+      document.getElementById('tab-' + tab).classList.add('active');
+
+      const btnMap = { 'multi-book': 'btnMultiBook', 'dk-props': 'btnDkProps', 'proxy': 'btnProxy' };
+      document.getElementById(btnMap[tab]).classList.add('active');
+    }
+
+    // -----------------------------------------------------------------------
+    // Format helpers
+    // -----------------------------------------------------------------------
+    function fmtOdds(odds) {
+      if (odds == null) return '--';
+      const n = Number(odds);
+      if (n > 0) return '+' + n;
+      return String(n);
+    }
+
+    function oddsClass(odds) {
+      if (odds == null) return '';
+      return Number(odds) > 0 ? 'positive' : 'negative';
+    }
+
+    function evClass(ev) {
+      if (ev >= 5) return 'high';
+      if (ev >= 2) return 'medium';
+      return 'low';
+    }
+
+    // -----------------------------------------------------------------------
+    // Multi-Book fetch
+    // -----------------------------------------------------------------------
+    async function fetchMultiBook() {
+      const loading = document.getElementById('multiBookLoading');
+      const errorEl = document.getElementById('multiBookError');
+      loading.style.display = 'flex';
+      errorEl.style.display = 'none';
+
+      try {
+        const res = await fetch(API_BASE + '/api/multi-book?sport=nba');
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const data = await res.json();
+
+        // Update book status bar
+        renderBookStatus(data.bookStatus);
+
+        // Render +EV table
+        const evBody = document.getElementById('evBody');
+        const evItems = data.plusEV || [];
+        document.getElementById('evCount').textContent = evItems.length;
+
+        evBody.innerHTML = evItems.map(item => `
+          <tr class="ev-positive">
+            <td><strong>${esc(item.player)}</strong></td>
+            <td>${esc(item.stat)}</td>
+            <td>${item.line != null ? item.line : '--'}</td>
+            <td class="${item.over_under}">${item.over_under || '--'}</td>
+            <td>${esc(item.book)}</td>
+            <td class="odds-cell ${oddsClass(item.odds)}">${fmtOdds(item.odds)}</td>
+            <td class="odds-cell">${fmtOdds(item.fairOdds)}</td>
+            <td class="ev-value ${evClass(item.ev)}">+${item.ev}%</td>
+            <td>${item.booksCompared}</td>
+          </tr>
+        `).join('');
+
+        if (evItems.length === 0) {
+          evBody.innerHTML = '<tr><td colspan="9" class="empty-state">No +EV opportunities found. Books may be in sync or data unavailable.</td></tr>';
+        }
+
+        // Render consolidated groups
+        const groupBody = document.getElementById('groupBody');
+        const groups = data.allGroups || [];
+        document.getElementById('groupCount').textContent = groups.length;
+
+        groupBody.innerHTML = groups.slice(0, 200).map(g => `
+          <tr>
+            <td><strong>${esc(g.player)}</strong></td>
+            <td>${esc(g.stat)}</td>
+            <td>${g.line != null ? g.line : '--'}</td>
+            <td>${(g.books || []).map(b => b.book).join(', ')}</td>
+            <td class="odds-cell">${g.fairOverOdds != null ? fmtOdds(g.fairOverOdds) + ' (' + Math.round((g.fairOverProb||0)*100) + '%)' : '--'}</td>
+            <td class="odds-cell">${g.fairUnderOdds != null ? fmtOdds(g.fairUnderOdds) + ' (' + Math.round((g.fairUnderProb||0)*100) + '%)' : '--'}</td>
+          </tr>
+        `).join('');
+
+        document.getElementById('lastUpdated').textContent =
+          'Updated: ' + new Date(data.fetchedAt).toLocaleTimeString() +
+          ' (' + data.elapsedMs + 'ms)';
+
+      } catch (err) {
+        errorEl.textContent = 'Failed to fetch multi-book data: ' + err.message;
+        errorEl.style.display = 'block';
+      } finally {
+        loading.style.display = 'none';
+      }
+    }
+
+    // -----------------------------------------------------------------------
+    // Book status badges
+    // -----------------------------------------------------------------------
+    function renderBookStatus(status) {
+      const bar = document.getElementById('bookStatusBar');
+      if (!status) { bar.style.display = 'none'; return; }
+      bar.style.display = 'flex';
+
+      bar.innerHTML = Object.entries(status).map(([name, info]) => `
+        <div class="book-badge">
+          <span class="status-dot ${info.status === 'ok' ? 'ok' : 'error'}"></span>
+          ${esc(name)}
+          <span class="count">${info.propsFound} props</span>
+        </div>
+      `).join('');
+    }
+
+    // -----------------------------------------------------------------------
+    // DK Props fetch
+    // -----------------------------------------------------------------------
+    async function fetchDkProps() {
+      const loading = document.getElementById('dkLoading');
+      const errorEl = document.getElementById('dkError');
+      loading.style.display = 'flex';
+      errorEl.style.display = 'none';
+
+      try {
+        const res = await fetch(API_BASE + '/api/dk-props?sport=nba');
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const data = await res.json();
+
+        const body = document.getElementById('dkBody');
+        const props = data.props || [];
+        document.getElementById('dkCount').textContent = props.length;
+
+        body.innerHTML = props.slice(0, 500).map(p => `
+          <tr>
+            <td><strong>${esc(p.player)}</strong></td>
+            <td>${esc(p.stat)}</td>
+            <td>${esc(p.category || '')}</td>
+            <td>${p.line != null ? p.line : '--'}</td>
+            <td class="${p.over_under}">${p.over_under || '--'}</td>
+            <td class="odds-cell ${oddsClass(p.odds)}">${fmtOdds(p.odds)}</td>
+          </tr>
+        `).join('');
+
+        if (props.length === 0) {
+          body.innerHTML = '<tr><td colspan="6" class="empty-state">No DK props found. Events may not be live.</td></tr>';
+        }
+      } catch (err) {
+        errorEl.textContent = 'Failed to fetch DK props: ' + err.message;
+        errorEl.style.display = 'block';
+      } finally {
+        loading.style.display = 'none';
+      }
+    }
+
+    // -----------------------------------------------------------------------
+    // Raw proxy fetch
+    // -----------------------------------------------------------------------
+    async function fetchProxy() {
+      const url = document.getElementById('proxyUrl').value.trim();
+      if (!url) return;
+
+      const loading = document.getElementById('proxyLoading');
+      const errorEl = document.getElementById('proxyError');
+      const result = document.getElementById('proxyResult');
+      loading.style.display = 'flex';
+      errorEl.style.display = 'none';
+      result.textContent = '';
+
+      try {
+        const res = await fetch(API_BASE + '/api/fetch-odds?url=' + encodeURIComponent(url));
+        const data = await res.json();
+        result.textContent = JSON.stringify(data, null, 2);
+      } catch (err) {
+        errorEl.textContent = 'Proxy fetch failed: ' + err.message;
+        errorEl.style.display = 'block';
+      } finally {
+        loading.style.display = 'none';
+      }
+    }
+
+    // -----------------------------------------------------------------------
+    // Escape HTML
+    // -----------------------------------------------------------------------
+    function esc(str) {
+      if (!str) return '';
+      const div = document.createElement('div');
+      div.textContent = String(str);
+      return div.innerHTML;
+    }
+
+    // -----------------------------------------------------------------------
+    // Fetch all data
+    // -----------------------------------------------------------------------
+    async function fetchAll() {
+      document.getElementById('btnRefresh').disabled = true;
+      await Promise.all([fetchMultiBook(), fetchDkProps()]);
+      document.getElementById('btnRefresh').disabled = false;
+      startCountdown();
+    }
+
+    // -----------------------------------------------------------------------
+    // Auto-refresh countdown
+    // -----------------------------------------------------------------------
+    function startCountdown() {
+      if (refreshTimer) clearTimeout(refreshTimer);
+      if (countdownInterval) clearInterval(countdownInterval);
+
+      let remaining = REFRESH_MS;
+      const bar = document.getElementById('autoRefreshBar');
+      const span = document.getElementById('refreshCountdown');
+
+      countdownInterval = setInterval(() => {
+        remaining -= 1000;
+        if (remaining <= 0) {
+          clearInterval(countdownInterval);
+          return;
+        }
+        const min = Math.floor(remaining / 60000);
+        const sec = Math.floor((remaining % 60000) / 1000);
+        span.textContent = 'Next refresh: ' + min + ':' + String(sec).padStart(2, '0');
+        bar.style.width = ((remaining / REFRESH_MS) * 100) + '%';
+      }, 1000);
+
+      refreshTimer = setTimeout(() => {
+        if (document.getElementById('autoRefresh').checked) {
+          fetchAll();
+        }
+      }, REFRESH_MS);
+    }
+
+    // -----------------------------------------------------------------------
+    // Init
+    // -----------------------------------------------------------------------
+    document.addEventListener('DOMContentLoaded', () => {
+      fetchAll();
+    });
+
+    // Enter key on proxy input
+    document.getElementById('proxyUrl').addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') fetchProxy();
+    });
+  </script>
+</body>
+</html>

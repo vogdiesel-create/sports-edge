@@ -1,0 +1,201 @@
+# r/sportsbook search: model results
+# Query: model+results+profitable
+# Results: 18
+
+## [346 pts, 113 comments] Probabilities and Alt Lines and Why They Are Generally Unprofitable
+Author: iama_scientist123 | URL: /r/sportsbook/comments/1in8mbr/probabilities_and_alt_lines_and_why_they_are/
+Hey guys, I've received quite a few messages and DM's asking me about alt lines and I have a generally blanket response: **Don't do them.**
+
+I thought it would be helpful to explain why, using NBA player points props as an example below.
+
+Generally, a player's scoring distribution fits the following graph (here is a hypothetical distribution for a player scoring 20 points per game for the season, with a standard deviation of 8 points):
+
+https://preview.redd.it/by3cfbtwekie1.png?width=1274&amp;fo
+
+---
+
+## [231 pts, 142 comments] Why 95% of bettors lose money
+Author: comfycouch21 | URL: /r/sportsbook/comments/157i7o7/why_95_of_bettors_lose_money/
+All credit to /u/Mugen8YT for this post
+
+
+Basically, let's do a deep dive on...
+
+**WHY 95% OF SPORTS BETTORS LOSE MONEY**
+
+Note: as far as I'm aware there's no general consensus on what the exact figure is, but most sources indicate 90 to 95% of bettors lose money if they bet *long term*; that is, if they place enough bets that variance has a negligible impact compared to how they're actually betting.
+
+**INTRO**
+
+It's the classic sports bettor story. You're watching your favourite sports channel
+
+---
+
+## [108 pts, 74 comments] Simple Model Guide (Excel)
+Author: derekjohn | URL: /r/sportsbook/comments/2uhx7g/simple_model_guide_excel/
+To make any kind of data model for simple analysis, we are going to need the following sections:
+
+* 1. A way to get our data of the sport we want to play
+* 2. A way to update our data with every passing game in the sport so our analysis can be more and more accurate as the season goes on (This is really important because doing it manually can take a lot of time, we want this automated)
+* 3. We need to format our data to be readable and neat
+* 4. We need some kind of formula or basis for our anal
+
+---
+
+## [84 pts, 29 comments] Attempt to Prove the MLB Run Line Betting System Theory
+Author: djbayko | URL: /r/sportsbook/comments/6elgmp/attempt_to_prove_the_mlb_run_line_betting_system/
+#Attempt to Prove the MLB Run Line Betting System Theory
+
+[Link for reference](https://www.reddit.com/r/sportsbook/comments/6eeknj/mlb_run_line_betting_system_theory/)
+
+--------------------
+
+**Hypothesis #1**: One can maintain a profitable betting system by betting the -1.5 Run Line for the Favorite and the -1.5 Adjusted Run Line for the Underdog in any given game.
+
+**Hypothesis #2**: If not all games are profitable given the above system, then one should be able to at least identify those games
+
+---
+
+## [81 pts, 34 comments] NBA 1st Half Fading Away B2B Revisited (real spreads!)
+Author: sawyrs11 | URL: /r/sportsbook/comments/7ibw23/nba_1st_half_fading_away_b2b_revisited_real/
+This is in regards to /u/JTintheCity's proposed strategy of betting the 1st half home spread when playing a team on the second game of a back-to-back. In the previous analysis, people were unsatisfied with estimating lines. So thanks to /u/INFPlayer's recommendation of a website that posts historical 1st half spread lines, I have scraped the past 5 seasons (and up to yesterday for this season) of the lines posted on [sportsbookreview.com](https://www.sportsbookreview.com/betting-odds/nba-basketb
+
+---
+
+## [70 pts, 56 comments] Betting through a mathematical model (MLB) - not the most exciting (or profitable) but the most reliable way
+Author: jalen57 | URL: /r/sportsbook/comments/66sude/betting_through_a_mathematical_model_mlb_not_the/
+First off this will be on the longer side but time and effort is what it takes to win when betting on every game, all season long.
+
+I envy those who can look at a matchup between teams in any sport and know more or less how they will matchup. For NBA this means knowing how teams will build their lineups depending on their opponents and which players can counter stars on the other teams. For MLB this could mean taking into account variables like stadium, weather, batting order, and what not. Gene
+
+---
+
+## [52 pts, 24 comments] [In-depth] Betting Edges and How to Find Them
+Author: Mugen8YT | URL: /r/sportsbook/comments/15e6j4m/indepth_betting_edges_and_how_to_find_them/
+ *Apparently I can't crosspost to* r/sportsbook *so I'm copy-pastaing my post from* r/sportsbetting *just in case anyone here might find it useful.*
+
+I've ruffled a few feathers today, so it's time for my once-in-a-while karma-cleansing informative post. 😊 I was going to talk about the Kelly Criterion because it's topical, but using KC requires having an edge - and that's what people need in the first place.
+
+**BETTING EDGES AND HOW TO FIND THEM**
+
+I'm going to get this out of the way right off 
+
+---
+
+## [48 pts, 24 comments] Have you just been really unlucky, or does your betting strategy need some work? Methods to Estimate Prediction Error
+Author: cleatstreet | URL: /r/sportsbook/comments/gasygu/have_you_just_been_really_unlucky_or_does_your/
+ 
+
+Everyone has gotten unlucky on a seemingly sure bet that backfired. We hate losing that nail biter. It hurts a lot more than that blowout loss where you weren’t even close. **The question is: should each loss (and alternatively each win) be treated equally?**
+
+**Margin of Victory**
+
+If most of your wins are by a single point and you’re getting blown out in your losses, it might be a sign that your Win/Loss performance is due for a regression. Alternatively, if your only losses are of the nail
+
+---
+
+## [24 pts, 13 comments] I Backtested 640,000+ Outcomes to See Which Australian Bookmaker Prices Markets Best
+Author: Acidic92 | URL: /r/sportsbook/comments/1rkliyc/i_backtested_640000_outcomes_to_see_which/
+**TL;DR**
+
+* Naive edge betting vs sharp markets lost -5.8% overall.
+* Asian handicaps (1.5–2.5 odds, 3%+ edge) showed +10% ROI.
+* Match odds longshots were a disaster (-11.7% ROI).
+* BTTS markets are barely better than coin flips (Brier \~0.25).
+* Extreme totals are priced almost perfectly - no edge there.
+
+\---
+
+I backtested 8,500+ football matches comparing Australian soft bookmakers to sharp markets.
+
+A naive edge strategy lost -5.8% overall.  
+But filtering for Asian handicaps in the 1.5–2.
+
+---
+
+## [19 pts, 22 comments] PART 3 of I got messaged this question and thought I’d share the response:: ON BOOK-MAKER BEHAVIOR AND VEGAS CONSPIRACIES
+Author: TheeSage | URL: /r/sportsbook/comments/1vgqpu/part_3_of_i_got_messaged_this_question_and/
+I’ve been seeing a lot of debate and disagreement about how lines are set, who sets lines, what RLM’s are, do favorites get more juice, whether bookies takes sides, following sharp behavior and tons of other related topics. 
+
+It all boils down to one thing that I got asked about today (for about the 15th time since I started posting in the sub)…
+
+**WTF IS GOING ON WITH THESE LINES/HOW DO I READ THEM?**
+
+First of all, like everything I’ve written for the subr so far… I’m not writing this as gospe
+
+---
+
+## [16 pts, 19 comments] Leveraging Optionality: Applying financial theory in the sportsbetting markets
+Author: cleatstreet | URL: /r/sportsbook/comments/gd81av/leveraging_optionality_applying_financial_theory/
+**Option Pricing Theory**
+
+Stock options are equity derivatives that are frequently used for employee compensation or speculation within the finance realm. Anyone who spends more than 5 minutes on /r/wallstreetbets should know what I’m talking about. A typical plain vanilla call option provides the upside of capital appreciation with capped downside risk.
+
+The upside potential provided by options frequently holds considerable value. Stock option are frequently valued using the Black-Scholes opti
+
+---
+
+## [14 pts, 27 comments] Do sportsbooks double-dip on house edges for specifically SGP's just because you won't notice?
+Author: ThatOtherSwimmer | URL: /r/sportsbook/comments/1hlp8rr/do_sportsbooks_doubledip_on_house_edges_for/
+I aware that same game parlays and parlays in general are a bad idea for a statistical standpoint, but I suspect that there is some very non-statistical manipulation going on.
+
+Recently, I was looking into same game parlays (SGP's), specifically  for Mavs - Timberwolves. I had recently received a SGP boost, so I was looking for some good opportunities to use it. When I combined Timberwolves at +170 and O221.0 at -110, I get a parlay at +415. This makes sense for a statistical standpoint; if you 
+
+---
+
+## [10 pts, 5 comments] Superstart Batteries 400 - Kansas Speedway
+Author: hush108 | URL: /r/sportsbook/comments/hwa1md/superstart_batteries_400_kansas_speedway/
+With the lack of sports up this summer, I have had time to develop models for some sports that interest me including golf, NASCAR and the NBA. With that being said, I've never developed a sports betting model before so please keep that in mind. Over the last few weeks I have been using the NASCAR model and yielded enough of a sample size and trials to start posting my picks here. The model is focused on mainly H-2-H matchups, which I see as the most profitable way to bet NASCAR. This is honestly
+
+---
+
+## [3 pts, 4 comments] More College Basketball Line Movement Data
+Author: NSIPicks | URL: /r/sportsbook/comments/fwiqjj/more_college_basketball_line_movement_data/
+My previous post regarding line movement in NCAA Men's Basketball spreads received a lot of great feedback and started some really great conversation. As I continue looking into this type of data I will share all of my results here in order to keep those conversations going or, at the very least, continue providing some interesting information for everyone to explore while we don't have any sports to bet on.   
+The most recent numbers I've studied are college basketball totals. The overall takea
+
+---
+
+## [3 pts, 7 comments] Moving from flat stake to 1/4 Kelly
+Author: Upstairs_Alarm | URL: /r/sportsbook/comments/9023c1/moving_from_flat_stake_to_14_kelly/
+Hi
+
+I've recently started using a betting model which has yielded very positive results and I would like to increase my stake size based on Kelly criterion but I'm not sure if I'm just being very lucky.
+
+Right now, my stats are:
+
+ - 1x2 Market: 28 bets, 57,1% WR, -0,7% ROI
+ - BTTS: 30 bets, 86,7% WR, 37% ROI
+ - Over/Under 2.5: 30 bets, 83,3% WR, 24,3% ROI
+
+I will probably stop betting on 1x2 due to the negative ROI or maybe keep betting on the leagues that show profit.
+
+Only started doing this o
+
+---
+
+## [1 pts, 31 comments] NBA 1st Q/Half Away team on back-to-back data analysis
+Author: sawyrs11 | URL: /r/sportsbook/comments/7hms83/nba_1st_qhalf_away_team_on_backtoback_data/
+The other day, u/p_bio1 brought up a hypothesis that away teams on the second game of back-to-back in the NBA may be worth fading against the spread (ATS), especially in the first quarter or first half. Another user mentioned that betting this system, particularly for lines less than 4 points, has provided favorable results.  So, I decided to look into this using the cold hard data of the NBA over the past four seasons.
+
+First, the data I have only contains full game lines, not half and quarter 
+
+---
+
+## [2 pts, 8 comments] TheDirtyScreech NFL picks for week 1
+Author: thedirtyscreech | URL: /r/sportsbook/comments/za7z8/thedirtyscreech_nfl_picks_for_week_1/
+[The results discussion of my NCAAF picks](http://www.reddit.com/r/sportsbook/comments/z8gwa/results_of_my_picks_this_weekend_based_on/) garnered enough attention and people wanting to make sure picks were posted publicly ahead of time to make me do some NFL week 1 picks based on the same macro evaluations.  NFL Weeks 1-5 will be Money Lines using the Power Ratings model for any game with a 4% or higher rating.
+
+These are money line picks, so winning percentage can be low while the system is pro
+
+---
+
+## [1 pts, 35 comments] Severe dislocation between Prediction Model Odds and Betting Market Odds in the 2020 US Presidential Election
+Author: Annapurna__ | URL: /r/sportsbook/comments/jevvbb/severe_dislocation_between_prediction_model_odds/
+It’s been a while since I engaged in any type of betting, but something caught my eye over the weekend while doing my usual reading and perusing PredictIt.org, a website that allows American citizens to wager small amounts on US Politics outcomes.
+
+In PredictIt, unlike traditional betting websites, the odds of betting are shown in cents. That makes it easy to calculate percentages: For example Biden to win the election at 65 cents means PredictIt market is pricing a 65% chance of Biden winning.
+
+
+---
+

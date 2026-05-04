@@ -1,0 +1,282 @@
+# Can Large Language Models Discover Profitable Sports Betting Strategies?
+
+[Muted_Original | 24 pts | 53 comments]
+
+I am a current university student with an interest in betting markets, statistics, and machine learning. A few months ago, I had the question: How profitable could a large language model be in sports betting, assuming proper tuning, access to data, and a clear workflow?
+
+I wanted to model bettor behavior at scale. The goal was to simulate how humans make betting decisions, analyze emergent patterns, and identify strategies that consistently outperform or underperform. Over the past few months, I worked on a system that spins up swarms of LLM-based bots, each with unique preferences, biases, team allegiances, and behavioral tendencies. The objective is to test whether certain strategic archetypes lead to sustainable outcomes, and whether human bettors can use these findings to adjust their own decision-making.
+
+To maintain data integrity, I worked with the EQULS team to ensure full automation of bet selection, placement, tracking, and reporting. No manual prompts or handpicked outputs are involved. All statistics are generated directly from bot activity and posted, stored, and graded publicly, eliminating the possibility of post hoc filtering or selective reporting.
+
+After running the bots for five days, I’ve begun analyzing the early data from a pilot group of 25 bots (from a total of 99 that are being phased in).
+
+**Initial Snapshot**
+
+Out of the 25 bots currently under observation, 13 have begun placing bets. The remaining 12 are still in their initialization phase. Among the 13 active bots, 7 are currently profitable and 6 are posting losses. These early results reflect the variability one would expect from a broad range of betting styles.
+
+**Examples of Profitable Bots**
+
+1. **SportsFan6**
+
+\+13.04 units, 55.47% ROI over 9 bets. MLB-focused strategy with high value orientation (9/10). Strong preferences for home teams and factors such as recent form, rest, and injuries
+
+1. **Gambler5**
+
+\+11.07 units, 59.81% ROI over 7 bets. MLB-only strategy with high risk tolerance (8/10). Heavy underdog preference (10/10) and strong emphasis on public fade and line movement
+
+1. **OddsShark12**
+
+\+4.28 units, 35.67% ROI over 3 bets. MLB focus, with strong biases toward home teams and contrarian betting patterns.
+
+**Examples of Underperforming Bots**
+
+1. **BettingAce16**
+
+\-9.72 units, -22.09% ROI over 11 bets. Also MLB-focused, with high risk and value profiles. Larger default unit size (4.0) has magnified early losses
+
+1. **SportsBaron17**
+
+\-8.04 units, -67.00% ROI over 6 bets. Generalist strategy spanning MLB, NBA, and NHL. Poor early returns suggest difficulty in adapting across multiple sports
+
+**Early Observations**
+
+* The most profitable bots to date are all focused exclusively on MLB. Whether this is a reflection of model compatibility with MLB data structures or an artifact of early sample size is still unclear.
+* None of the 13 active bots have posted any recorded profit or loss from parlays. This could indicate that no parlays have yet been placed or settled, or that none have won.
+* High "risk tolerance" or "value orientation" is not inherently predictive of performance. While Gambler5 has succeeded with an aggressive strategy, BettingAce16 has performed poorly using a similar profile. This suggests that contextual edge matters more than stylistic aggression.
+* Several bots have posted extreme ROIs from single bets. For example, SportsWizard22 is currently showing +145% ROI based on a single win. These datapoints are not meaningful without a larger volume of bets and are being tracked accordingly.
+
+This data represents only the earliest phase of a much larger experiment. I am working to bring all 99 bots online and collect data over an extended period. The long-term goal is to assess which types of strategies produce consistent results, whether positive or negative, and to explore how LLM behavior can be directed to simulate human betting logic more effectively.
+
+All statistics, selections, and historical data are fully transparent and made available in the “Public Picks” club in the EQULS iOS app. The intention is to provide a reproducible foundation for future research in this space, without editorializing results or withholding methodology.
+
+---
+## Comments
+
+[FIRE_Enthusiast_7 | 11 pts]
+The sample size is much too small to say if anybody these bots are profitable or not. Are you able to back test by providing a test dataset of several thousand events and make predictions?
+
+  [Muted_Original | 2 pts]
+  Absolutely! These are VERY preliminary results. Currently live-testing completely in public for those interested, since everything is automated. Backtesting is annoying with LLMs because of the high cost associated with it.
+
+    [forthejungle | 3 pts]
+    They don’t matter at all.
+
+Sample is insignificant.
+
+[Freddy128 | 8 pts]
+Discover, no,  not yet.
+
+However I have noticed that the deep research functionalities for these models provide much better win rates than simply prompting
+
+  [Muted_Original | 3 pts]
+  Very interesting - I'll have to check out the deep research functionalities and see if I can A/B test them with the same prompting flow. Would definitely be an interesting side by side. Thanks for the idea!
+
+[whomstc | 6 pts]
+&gt; ROI over 9 bets
+
+&gt; ROI over 3 bets
+
+lmao cmon man. completely meaningless post
+
+  [Muted_Original | 0 pts]
+  Hi - as I've responded to others, I'm not trying to claim that this is a profitable strategy, especially with such little data. I'm more sharing some research I'm doing + some preliminary analysis, and inviting people to follow along the public testing as I continue to research this space. I'm planning on giving updates as the sample size grows, one way or the other. I'm completely expecting every one of these bots to be unprofitable long term, but I do have some hypotheses about identifying micro-inefficiencies using bettor archetypes, and am conducting t-tests as I collect more data to determine whether this might be genuinely statistically significant or just hot-hand fallacy.
+
+    [whomstc | 2 pts]
+    3 bets isn't even "preliminary analysis" lmao. as i said completely meaningless
+
+[Zestyclose-Gur-655 | 4 pts]
+This basically means nothing with such small sample sizes. 
+
+I think math based AI is much better then use an LLM. Like i know some people that have machine learning prediction models trained on large amount of data and these are pretty good. 
+
+What might give an edge tho is if you use LLM to search for games where there are player injuries that are not priced in with traditional bookmaker models.
+
+  [Muted_Original | 1 pts]
+  For sure - until we see a big change in how LLMs work fundamentally I think that DNN methods will consistently outperform LLMs. One of the applications I am most interested in is, as you pointed out, identifying potentially hard-to-quantify features that an LLM can identify easily, and using those as features within a more traditional NN-based model.
+
+[Villuska | 3 pts]
+With so many technical people and ML enthusiasts in here, I'd think that so many posts wouldn't feature sample sizes in the hundreds, yet alone in single digits.
+
+And to the actual question. Maybe? But not consistently as there isn't enough in-depth content/articles on niche markets and the more competitive ones are, well, too competitive.
+
+  [Muted_Original | 2 pts]
+  Absolutely - live testing is still going on, the results presented are VERY early and more meant to gather people's thoughts on such approaches. Also, to allow people to follow along so that the results, one way or another, so that there is a good level of transparency (an area I feel is particularly important).   
+  
+Completely agreed on the lack of good sources on this topic, it's actually one of the reasons I'm experimenting on things here and reporting back. To be completely honest, I think many people here have the misconception that I'm just prompting the bots and then writing down their signals. In reality, I am paying thousands for data and have a pretty complex stats pipeline that I use in several predictive models already. The data passed into the bots is much more important than the LLMs and probably more profitable when used in a predictive model anyways. However, I'm not necessarily trying to find the most profitable strategy with this research, rather if LLMs are able to generate any sort of statistically significant signals at all.
+
+    [Villuska | 1 pts]
+    Yeah I also think your idea is really interesting and I'm definitely keeping an idea out for future posts of yours.
+
+[Excellent_Newt7516 | 3 pts]
+I know some bettors who are already applying LLMs to their models and have managed to improve their results, but they already had working models. So, to achieve consistent results, you need to have a profitable model in place first — the LLM will only optimize your results.
+
+  [Muted_Original | 2 pts]
+  This is almost exactly what I am doing in other places - for this experiment I'm first validating LLMs by themselves to see if they're actually valuable signals or just introducing more noise and complexity. So far the results are encouraging though (since I did the analysis a few days ago, several of the bots are up over 20u on an avg 2u bet size). However, it's very likely that these revert back to a near break-even as more bets are placed. I'm hoping that one of the 99 bots I'm using has a profitable strategy by itself, and am planning on orchestrating the most profitable model at each time period into my larger ensemble strategy.
+
+    [Excellent_Newt7516 | 2 pts]
+    The ideal approach would be to run backtests on the bots you’ve created to quickly identify which ones are profitable and which are not, as the model will be truly validated with a thousand bets or more. So using backtesting would significantly shorten your path.
+
+      [Muted_Original | 3 pts]
+      Absolutely - I currently have second by second data going back for \~2.5 years, the only issue is that, with LLMs, backtesting is both more time consuming and costly. To backtest over a year or so to get to 1000 bets per bot, would take about 400 hours and would cost about $1.5k. Currently I'm trying to find an optimal way to do that, and in the meantime just continuing to run the live tests which are more cost effective.
+
+[dedalus05 | 2 pts]
+Without access to APIs to find the best value and use that as a computational component I don't see how LLMs can discover strategy on their own accord - and like you say, you're programming biases and "strategy archetypes" into each bot.  So they'll perform about as well as they're programmed.
+
+I built an LLM App as a learning project that would output picks based on the users starsign.  You told it your DOB, which game/sport you were interested in and it would output the best priced pick from a selection of books on one of the free odds APIs.  It also outputted a string of astrological mumbo jumbo as justification as to why Team X was your lucky pick for that night.  
+
+I could have (but didn't) trained up the LLM on star charts, celestial landscapes and all that gibberish cause it struck me that LLMs, Astrologers, and Sports Handicappers all share a real aptitude for bullshitting.
+
+My anecdote is not very helpful, so let me finish by saying properly developed AI/ machine-learning models will help with profitable strategies, but LLMs on their own? Absolutely not.
+
+  [Muted_Original | 5 pts]
+  Completely agreed. I am actually paying for such an API already and it is a component of what is passed in to the model. There's quite a bit of processed stats, thousands of rows of odds data, and other relevant data such as public betting splits, weather, etc which all are passed into the \~10 prompt flow or so which goes towards actually outputting the decision.  
+100% agreed again on that these will not be profitable on their own, but will be potentially valuable in being deployed in tandem alongside other strategies. It is one of the reasons I have made everything completely public as I continue to test and refine these systems.
+
+    [dedalus05 | 2 pts]
+    Having a record on EQUI might be valuable alright, and I admire your optimism about LLMs.  It's just I don't see how a system designed to predict the next word in a sentence will be valuable in a betting strategy.  Unless...
+
+If you're using an LLM model to analyse pre-game sentiment (from social media, commentary etc) you might be able to predict the flow of action and identity or predict line moves based on that sentiment.  In which case you might get value from lines that have overcompensated and/or arbitrage early vs late lines.
+
+Just a thought.
+
+      [Muted_Original | 5 pts]
+      Since I posted this 2 of the bots are now up over 20u. Still a very small sample size so the stats at this point are near useless, but it's definitely performing better than I anticipated!  
+  
+Sentiment analysis is definitely one part of it, it's one of 40-50 signals passed in. I wrote a library a while back for this that I'm plugging in, scraping from Reddit and Twitter (https://github.com/flancast90/AnnodeSA). Surprisingly, for my predictive models I've found sentiment to not be valuable as a signal, my hypothesis there being that those kinds of things are already highly priced in to the markets.
+
+[_McWater_ | 2 pts]
+Only problem is LLMs as I’m aware, they don’t actually understand maths or numbers which would potentially be a major part of a betting bot. One that can do maths would be very interesting.
+
+  [Muted_Original | 1 pts]
+  For sure, great points. One thing I’ve been working on in the bots since the beginning has been separating the quantitative and qualitative sides. Many features/signals are processed first and then passed in to the bot to make a decision from those. I’m sure there’s a ton of room for improvement on this side but so far this has largely been an experiment to see if such a thing is even viable.
+
+[hhaammzzaa2 | 2 pts]
+No
+
+[[deleted] | 1 pts]
+[deleted]
+
+  [Muted_Original | 5 pts]
+  Hey, I appreciate your response and criticism - I would love to hear more on your thoughts. I understand LLMs typically perform very poorly at these types of tasks (in the past I have worked on teams doing mainly predictive research, particularly transformer-based models and some gradient boosting stuff). The goal of this was mainly to see if LLMs may be viable for an ensemble type system in the future. By no means am I claiming them to be the end-all be-all or to perform better than a predictive model with the same sorts of data. The goal here moreso was to try and simulate a swarm type approach to intelligence and identify any patterns that emerged.
+
+  [Muted_Original | 3 pts]
+  Reading more into your response, I'm not sure if you actually read the post. I'm not asking if LLMs can do these types of tasks - I'm sharing research I already did on LLMs for these types of tasks, and sharing some extremely early results. Sorry for the 50 paragraphs, as you pointed out - maybe I should add a TL;DR at the top as the title maybe is a bit misleading at second glance :)
+
+    [[deleted] | 2 pts]
+    [deleted]
+
+      [Muted_Original | 0 pts]
+      Sorry, I'm not ensembling the LLM bots themselves - I am currently running tests to identify if they can identify some statistically-significant lines or data, which I then plan to use in a larger ensemble system, perhaps as using the LLM outputs as some features in a gradient boosting model or similar.
+
+[Optimal-Task-923 | 1 pts]
+How would you replicate the bot's trained activity when you're locked into the AI platform you're currently using? You cannot simply use other LLM models on another platform. How do you remove unwanted artifacts from bot environments? I was experimenting with different aspects of LLMs that would more likely act as supporting elements in rule creation or semantic data analysis, which is what LLM models do best.
+
+  [Muted_Original | 1 pts]
+  Currently, the data pipeline is the biggest part of this - last month I saved almost 4TB of odds/stats data alone which a lot of is used to give context to the bots. The prompting flow to make predictions themselves could go to OpenAI, Llama, Gemini, etc and, besides some tweaking in the prompts, should not perform too differently (at least that's what I would hypothesize, it would be interesting to side-by-side test and see which performed best though!).   
+I think there's a lot of value in using LLM signals as features in other, better, models, especially as you pointed out with semantic analysis. I'm very interested to see how research in the space progresses around reducing hallucinations to make that more viable.
+
+[FireWeb365 | 1 pts]
+All these people taking the reddit moral highground of "humans are irreplaceable, LLMs bad" I think are wrong
+
+monkeys and typewriters
+
+  [Muted_Original | 1 pts]
+  I think LLM has become synonymous with "low-quality" in here and other places due to trends of vibe-coding, wrappers, and other similar things. I may have not explained my process very well as I think many people here think I am doing something similar, when in reality I spent a pretty good amount of time just on odds and stats pipelines. The data is the real gold here - last month I stored &gt;4TB of odds/stats data alone, most of which is involved in some way in the LLM. That data is definitely more profitable when used in a predictive model, however, if the LLMs are able to generate any significant signal whatsoever with this data I believe it may help to progress research in the space and encourage others to try and replicate any results I collect, one way or the other.
+
+    [FireWeb365 | 3 pts]
+    Re-read your original post, and it seems your are trying to model bettor archetypes, which are all losing. And yet you repeat profitability again and again as if that was your goal. I formulate sports betting as a game of probability estimation, and placing bets as trading probability with some counterparty risk. The goal is to either bring new information or interpret existing information better than the market or find temporary inefficiencies in pricing.
+
+I don't really see how average bettor beats this, given you are trying to repeat already priced in information. You need new / better interpreted information, not old + noise to profit.
+
+Is your goal to profit or just write a paper on different ways people lose money and think they aren't losing?
+
+      [Muted_Original | 2 pts]
+      Very great summary of market efficiency, completely agreed. It reminded me of this paper from a few years back: [(PDF) Weak Form Efficiency in Sports Betting Markets](https://www.researchgate.net/publication/371069739_Weak_Form_Efficiency_in_Sports_Betting_Markets).  
+  
+Currently, while I am modelling bettor archetypes which typically aren't profitable, the thinking is that, since they are all different, and each strategy has a counterpart/opposite, that several of the bots at a time should be profitable. The exploitations of such micro-inefficiencies as part of a larger strategy could have some merit, I hypothesize.  
+  
+Now, the main thing I'm interested in here is identifying whether these are just luck (they probably are), or if they have genuine significance. To test this, I am conducting hypothesis sample t-tests in tandem with Benjamini-Hochberg correction on rolling windows.  
+It is absolutely likely that these "micro-inefficiencies" are just a version of the hot-hand fallacy though, and especially without a larger sample size I would hate to imply that LLMs are profitable bettors by themselves.
+
+I apologize if any part of my post made it seem as if these strategies are truly profitable, when in fact there is much too little data to make any conclusion so far. I'm more hoping to lay some groundwork here and invite people to follow the live results so far as I research the applicability of LLMs to betting markets.
+
+        [FireWeb365 | 1 pts]
+        You are clearly talented and have good ability to understand topics. Why do you not go the usual quant route, where you select a market you believe you can beat, generate features and attempt to find an edge? Why LLMs modelling losing bettors?
+
+  
+If I were to use LLMs to make a betting bot, I would personally approach it like this:
+
+1. Get 1000 matches worth of historical data, closing lines, opening lines, tweets, narratives, metadata, reddit comments etc...
+
+2. Split into 60/20/20 data splits.
+
+3. Create various prompts and features in style of "you are professional punter, predict win probability 0% - 100% of this matchup these are all the data, tweets ..." ...
+
+4. Fine tune prompt and features on those 600 matches
+
+5. Create a Logistic Regression ensemble of all those prompts and their predictions as features + market prediction, and target being the match outcome. Fit it on those next 200 matches.
+
+6. Test out of sample profitability on last 200 matches.
+
+  
+This way I would attempt to pretty much make an ensemble of different prompts and calibrate their probability estimates using a regularized Logistic Regression.
+
+        [Muted_Original | 0 pts]
+        I very much dislike the quant side of things - to me it feels a little meaningless in that the goal is to just find an edge to generate money, and outside of that it has no bearing on other people's lives. Personally, I don't think I could really enjoy doing such a thing. I'm one of those people that loves building something, and sports betting has just been the latest area to build things in for me.  
+I love the steps you outlined - ensembling the bots themselves together rather than whoever is doing well over a duration is an approach I hadn't really considered. I may work on doing such a thing next and report back on the findings. I'm actually planning on doing something similar in making a page to see bot splits and splits by profitability next, what you're doing seems like a more formalized way of doing it.  
+I really appreciate the advice, criticism, and help! Already this comment thread has got my wheels turning on the best ways to do these, of course after identifying if they actually generate any significant signals.
+
+        [FireWeb365 | 1 pts]
+        Ok, now I understand you better. I very much incline towards the quant side and quant approach, so thats why I did not see the meaning in your methods. I too dislike that the job is just moving meaningless numbers around which will disappear in milliseconds.
+
+        [FireWeb365 | 1 pts]
+        The paper is very shallow and doesn't state anything beyond "only using odds data as a feature is not profitable"
+
+  [[deleted] | 1 pts]
+  [deleted]
+
+    [Muted_Original | 0 pts]
+    \&gt; agentic LLM to place bets  
+This is sort of what I'm using EQULS for right now. I've hooked up my bots to their free API to auto-track my bets to their system so that I'm able to get live lines and similar. [https://equls.readme.io/](https://equls.readme.io/)
+
+[CIVIoney69 | 1 pts]
+Could we have a full list of the bot names to follow along? Very interesting!
+
+  [Muted_Original | 2 pts]
+  Of course - they're all tracked in public on the EQULS app. [EQULS on the App Store](https://apps.apple.com/us/app/equls/id6738887198?platform=iphone)
+
+If you go in the clubs tab there and join Public Picks club, you can see all the bots on the leaderboard/members tab there with little robots next to their name.
+
+I've been working pretty closely with the EQULS team the last few weeks to automate all the tracking and reporting of things through their Execution API, to ensure full transparency. [https://equls.readme.io/](https://equls.readme.io/)
+
+    [CIVIoney69 | 1 pts]
+    Cool, I found and will follow along!
+
+[bushrod | 1 pts]
+Have you considered getting historical data and backtesting this strategy?  Seems like the obvious way to go.
+
+  [Muted_Original | 1 pts]
+  I have second by second data going back about 2.5 years for this purpose. Currently just doing live testing as it's more economical, to backtest this strategy to 1000 bets per bot which cost in the range of $1.5k and take nearly 400 hours. I'm trying to bring down the total expenses for this to do a true backtest, and will update here when I do!
+
+[EsShayuki | 1 pts]
+No. The reason is simple. If it was, then the betting companies would simply use them, at which point they would stop being profitable. 
+
+As for the data you presented, the fact that you spent so much effort on showing data of completely meaningless sample sizes doesn't give me much confidence.
+
+  [Muted_Original | 1 pts]
+  Hey, I appreciate the feedback! I was more giving very preliminary results and a way to publicly follow along as I research this area, not make a claim on profitability. I definitely could have been more clear with that though as I think many people had the same misconception as you.
+
+[Key_Onion_8412 | 0 pts]
+Love everything about this. Thanks for sharing. I've been using Gemini Deep Research to provide analytical MLB game writeups and predictions. Very impressive all the data it can gather to help understand what's going into the lines and maybe find an edge.
+
+  [Muted_Original | 2 pts]
+  Thanks! I'll have to look into Gemini Deep Research. Currently I'm passing tons of data into the model, honestly passing the same data into a predictive model would probably prove to be more profitable. But I think it will be a valuable experiment if any of the signals generated from the LLMs prove to be profitable at all.
+
+    [Key_Onion_8412 | 1 pts]
+    So far I haven't seen anything Gemini is doing that wouldn't be done better by the same data in a true predictive model. However, I don't know how to build a true predictive model so I'll take the quality analysis and llm predictions in under 10 minutes I am getting here. And then every once in awhile it will say something like "a 10 mph wind blowing out in San Francisco may not actually be blowing out due to the weird swirling wind dynamics of the stadium" after it watched a YouTube video explaining the phenomenon. That seems potentially like a hidden gem. Maybe one of your personas can be a bit that's an expert on game day and stadium weather?
+
+      [Muted_Original | 2 pts]
+      That's very interesting - extracting novel insights that potentially aren't priced in could be valuable for sure. You may have identified my next time sink lol...
+
+        [Key_Onion_8412 | 1 pts]
+        Haha let me know how it goes!

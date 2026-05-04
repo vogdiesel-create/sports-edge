@@ -1,0 +1,36 @@
+=== Sports Edge Analyst Session: postmortem ===
+=== 2026-05-04 05:00 UTC ===
+
+Post-game review complete. Here's the summary:
+
+---
+
+## Post-Game Review: May 3, 2026
+
+**All bets graded. 0 pending.**
+
+### Tonight's Results
+| Model | Record | PnL |
+|-------|--------|-----|
+| OddsTr | 3W-1L | +$216.49 |
+| Game Model | 0W-1L | -$104.51 |
+| **Net** | **3W-2L** | **+$111.98** |
+
+### Milestone: Active Markets Hit 100 Wins
+- **TB**: 80W-33L (70.8%), +$2,103
+- **HA**: 18W-12L (60.0%), +$140
+- **ER**: 2W-1L, +$36
+- **Active total**: 100W-46L (68.5%), **+$2,279**
+
+### Issues Flagged
+1. **Matz HA u5.5 should have been filtered** by EXP-012 (u4.5 only). Won anyway but filter may not be active in scraper.
+2. **Game model is dead**: 33W-33L, exact coin flip over 70 bets. Kill decision needed.
+3. **No May 4 picks generated** — needs investigation in morning session.
+
+### Morning Session Priorities
+1. Verify HA line filter is implemented in oddstrader_scraper.py
+2. Investigate missing May 4 scan
+3. Game model kill decision
+4. Continue H044 (TB loss profiling)
+
+=== Session Complete: 2026-05-04 05:03 UTC ===

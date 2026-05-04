@@ -1,0 +1,65 @@
+{
+  "date": "2026-04-28",
+  "game_model": {
+    "record": "0W-1L-0P",
+    "pnl": -127.22,
+    "bets": [
+      {
+        "matchup": "MIA @ LAD",
+        "pick": "OVER 8.5",
+        "odds": -104,
+        "result": "loss",
+        "pnl": -127.22,
+        "clv": 3.97,
+        "note": "CLV +3.97% (line moved to -122). Positive CLV, still lost. Variance."
+      }
+    ],
+    "cumulative_record": "26W-26L-2P",
+    "cumulative_pnl": -18.16
+  },
+  "k_props": {
+    "record": "4W-7L",
+    "pnl": -429.02,
+    "bets": [
+      {"pitcher": "Shohei Ohtani", "side": "under", "threshold": 7, "expected_ks": 4.16, "actual_ks": 9, "edge_pct": 32.3, "result": "loss", "pnl": -95.00, "note": "MODEL FLAW: expected 4.16, got 9. Elite pitcher regression bug."},
+      {"pitcher": "Tanner Bibee", "side": "under", "threshold": 5, "expected_ks": 3.3, "actual_ks": 6, "edge_pct": 23.1, "result": "loss", "pnl": -95.00},
+      {"pitcher": "Shane Baz", "side": "under", "threshold": 5, "expected_ks": 3.8, "actual_ks": 6, "edge_pct": 19.5, "result": "loss", "pnl": -95.00},
+      {"pitcher": "Chase Burns", "side": "under", "threshold": 7, "expected_ks": 5.6, "actual_ks": 9, "edge_pct": 18.6, "result": "loss", "pnl": -95.00, "note": "9Ks on 7 threshold. Burns is elite."},
+      {"pitcher": "Jacob deGrom", "side": "under", "threshold": 8, "expected_ks": 5.6, "actual_ks": 5, "edge_pct": 17.8, "result": "win", "pnl": 59.38},
+      {"pitcher": "Payton Tolle", "side": "under", "threshold": 5, "expected_ks": 3.8, "actual_ks": 4, "edge_pct": 17.4, "result": "win", "pnl": 96.90},
+      {"pitcher": "Trey Yesavage", "side": "under", "threshold": 6, "expected_ks": 4.6, "actual_ks": 3, "edge_pct": 15.8, "result": "win", "pnl": 83.33},
+      {"pitcher": "Edward Cabrera", "side": "under", "threshold": 5, "expected_ks": 3.8, "actual_ks": 7, "edge_pct": 14.5, "result": "loss", "pnl": -95.00},
+      {"pitcher": "Casey Mize", "side": "under", "threshold": 5, "expected_ks": 4.1, "actual_ks": 3, "edge_pct": 13.3, "result": "win", "pnl": 34.21},
+      {"pitcher": "Clay Holmes", "side": "under", "threshold": 5, "expected_ks": 3.1, "actual_ks": 6, "edge_pct": 18.3, "result": "loss", "pnl": -122.34},
+      {"pitcher": "Nick Martinez", "side": "under", "threshold": 4, "expected_ks": 2.8, "actual_ks": 4, "edge_pct": 17.4, "result": "loss", "pnl": -105.50}
+    ],
+    "edge_cap_impact": {
+      "would_have_filtered": ["Ohtani (32.3%)", "Bibee (23.1%)"],
+      "savings_if_capped": 190.00,
+      "remaining_pnl": -239.02,
+      "note": "Cap would have saved $190 but Apr 28 was bad across all edges (4W-5L even on sub-20%)"
+    },
+    "cumulative_record": "49W-34L",
+    "cumulative_pnl": 730.62,
+    "cumulative_wr": 59.0
+  },
+  "oddstrader_sim": {
+    "record_real_money": "14W-6L (real wager only)",
+    "pnl": 240.48,
+    "note": "Strong TB day. 14 bets graded, 10 still ungraded from Apr 28.",
+    "cumulative_record_real": "29W-18L",
+    "cumulative_pnl_real": 425.09,
+    "cumulative_roi_real": 9.4
+  },
+  "combined": {
+    "daily_pnl": -315.76,
+    "cumulative_pnl": 1137.55,
+    "note": "Worst combined day since Apr 19. K-props gave back 40% of gains."
+  },
+  "edge_bucket_analysis_kprops": {
+    "sub_10pct": {"record": "5W-0L", "pnl": 309.38, "note": "Perfect. Too few bets."},
+    "10_15pct": {"record": "24W-14L", "pnl": 657.35, "wr": 63, "note": "CORE ALPHA."},
+    "15_20pct": {"record": "13W-10L", "pnl": 110.17, "wr": 57, "note": "Marginal. Getting worse."},
+    "20plus_pct": {"record": "7W-10L", "pnl": -346.28, "wr": 41, "note": "CONFIRMED LOSING. Cap validated."}
+  }
+}

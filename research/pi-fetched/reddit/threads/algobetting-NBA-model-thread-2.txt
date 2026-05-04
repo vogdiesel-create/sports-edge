@@ -1,0 +1,54 @@
+# NBA Historical Dataset: Box Scores, Player Stats, and Game Data (1949–Present) 🚀
+
+
+[Low-Assistance-325 | 42 pts | 6 comments]
+
+Hi everyone, 
+
+I’m excited to share a [dataset](https://www.kaggle.com/datasets/eoinamoore/historical-nba-data-and-player-box-scores/) I’ve been working on for a while, now available for free on Kaggle! This comprehensive [dataset](https://www.kaggle.com/datasets/eoinamoore/historical-nba-data-and-player-box-scores/) includes detailed historical NBA data, meticulously collected and ***updated daily***. Here’s [what it offers](https://www.kaggle.com/datasets/eoinamoore/historical-nba-data-and-player-box-scores/):
+
+* **Player Box Scores:** Statistics for every player in every game since 1949.
+* **Team Box Scores:** Complete team performance stats for every game.
+* **Game Details:** Information like home/away teams, winners, and even attendance and arena data (where available).
+* **Player Biographies:** Heights, weights, and positions for all players in NBA history.
+* **Team Histories:** Franchise movements, name changes, and more.
+* **Current Schedule:** Up-to-date game times and locations for the 2024-2025 season.
+
+I was inspired by Wyatt Walsh’s basketball dataset, which focuses on play-by-play data, but I wanted to create something focused on player-level box scores. This makes it perfect for:
+
+* **Fantasy Basketball Enthusiasts:** Analyze player trends and performance for better drafting and team-building strategies.
+* **Sports Analysts:** Gain insights into long-term player or team trends.
+* **Data Scientists &amp; ML Enthusiasts:** Use it for machine learning models, predictions, and visualizations.
+* **Casual NBA Fans:** Dive deep into the stats of your favorite players and teams.
+
+The dataset is packaged as a .sql file for database users, and .csv files for ease of access. It’s updated daily with the latest game results to keep everything current.
+
+If you’re interested, check it out here: [https://www.kaggle.com/datasets/eoinamoore/historical-nba-data-and-player-box-scores/](https://www.kaggle.com/datasets/eoinamoore/historical-nba-data-and-player-box-scores/)
+
+I’d love to hear your feedback, suggestions, or see any cool insights you derive from it! Let me know what you think, and feel free to share this with anyone who might find it useful.
+
+Cheers.
+
+---
+## Comments
+
+[Freddy128 | 5 pts]
+I’ve actually been using this for the last few weeks already. Definitely useful for me!
+
+  [Low-Assistance-325 | 1 pts]
+  Awesome!
+
+[Logwriting | 2 pts]
+This looks cool. Gonna go explore the dataset now. I may try modeling player height differential as a predictive feature.
+
+I’ll let you know what I end up doing with it.
+
+[CloudEnvoy | 1 pts]
+Looks like something I've been trying to create, but no advance stats?
+
+  [Low-Assistance-325 | 1 pts]
+  That's a good suggestion.  I might in the future, but not at the moment.  Will see. This project has me exhausted!
+
+[Difficult-Bison-8525 | 1 pts]
+Setting this up with my Simulation Algorithm Looks great so far!  
+\- will update, dope shit!. Thanks

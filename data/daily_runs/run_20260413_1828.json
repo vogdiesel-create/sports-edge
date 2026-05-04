@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-04-13T18:28:02.099730+00:00",
+  "total_elapsed_sec": 63.2,
+  "total_steps": 5,
+  "errors": 2,
+  "total_picks": 15,
+  "steps": [
+    {
+      "step": "NHL Data Pipeline",
+      "status": "error",
+      "error": "cannot import name 'run_pipeline' from 'nhl_data_pipeline' (/home/aiciv/sports-edge/nhl_data_pipeline.py)",
+      "elapsed_sec": 0.2
+    },
+    {
+      "step": "MLB Data Pipeline",
+      "status": "error",
+      "error": "cannot import name 'run_pipeline' from 'mlb_data_pipeline' (/home/aiciv/sports-edge/mlb_data_pipeline.py)",
+      "elapsed_sec": 0.3
+    },
+    {
+      "step": "Edge Detector",
+      "status": "ok",
+      "error": null,
+      "elapsed_sec": 13.0
+    },
+    {
+      "step": "Smart Scanner",
+      "status": "ok",
+      "error": null,
+      "elapsed_sec": 48.7
+    },
+    {
+      "step": "Paper Trading",
+      "status": "ok",
+      "error": null,
+      "elapsed_sec": 1.0
+    }
+  ]
+}

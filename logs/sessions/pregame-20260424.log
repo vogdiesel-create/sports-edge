@@ -1,0 +1,23 @@
+=== Sports Edge Analyst Session: pregame ===
+=== 2026-04-24 18:00 UTC ===
+
+Here's the pregame summary:
+
+**Apr 24, 2026 - Pre-Game Review**
+
+**Portfolio reality check**: 21W-23L, -$173.03 PnL ($4,826.97 bankroll). Core.json was stale since Apr 19 -- now updated.
+
+**Today's single pick**: MIN @ TB UNDER 7.5 (-111), $108.12 wager
+- 8.49% edge, tier B, 59.05% model probability
+- Sits in the only profitable edge bucket (8-12%: 9W-5L, +$491)
+- Lowest-exposure night since system started -- max loss is 2.2% of bankroll
+
+**Key findings this session**:
+1. **5-day dry spell (Apr 20-23)**: Pipeline ran correctly but found zero edges. Model was appropriately selective.
+2. **Edge bucket data is conclusive**: 8-12% is the only profitable range. 5-8% lost $265, 12%+ lost $399. The good news: the code already enforces 8% minimum and 12% cap for MLB totals.
+3. **Apr 19 was 0-4 (-$430)**: Worst single day. All UNDERs lost. But the UNDER strategy is still net positive (16W-15L-1P, +$196).
+4. **K-prop tracking gap**: 5 K-prop bets from Apr 19 are not in the paper ledger. Needs reconciliation.
+
+**Verdict**: Bet the pick. Single UNDER in the sweet spot, minimal risk, model earned trust by staying silent for 5 days rather than forcing bad bets.
+
+=== Session Complete: 2026-04-24 18:05 UTC ===

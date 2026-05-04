@@ -1,0 +1,362 @@
+# 2022 Comprehensive Las Vegas Sportsbook Review + Mobile App Considerations &amp; Locals Tips
+
+[NoSweatBetting | 107 pts | 59 comments]
+
+It's that time of year again - *no not NFL season* - 'tis the season of new bettors &amp; first-timers flooding the sub with questions about how &amp; where to place bets on their trip to Vegas.  These repetitive posts will continue incessantly throughout the MLB postseason, CFB Natty, Super Bowl, March Madness, &amp; will not stop until we hit baseball again.  So feel free to save this directory as a reference for future posts. 
+
+I've lived in Vegas for about 5 years, been to every book in town at least once, &amp; opened accounts with every mobile app.  While I'll acknowledge that much of the info listed will be skewed by my own personal opinion, I would also ask you to acknowledge that I am a degenerate of the highest order - so if your personal opinion happens to differ, I will ignore it with the same disregard I give to price sensitivity.
+
+This list will be broken down into 3 categories - respectable books, retail dressmakers, &amp; worthless books that aren't even worth visiting.  Misc general info will be at the bottom after the book reviews.  *Insider tips will be in italics.* 
+
+**RESPECTABLE BOOKS**
+
+**Circa** - owned by Derek Stevens (also owns The Golden Gate &amp; The D), Circa has quickly become the main market-maker in Vegas.  H/t to Matt Metcalf &amp; Jeffrey Benson as well, they're both really cool fellas.  Often first to market, offer the highest limits by far &amp; BAR NONE the best place in town to watch a game.  They don't necessarily have the cheapest lines per se, but their vig &amp; theoretical hold is so low that you will find the best lines here often enough.
+
+Mobile app is clean &amp; smooth, with no bet confirmation delay.  Very sparse on smaller markets &amp; near-zero live betting, but for preflop bets on major markets, Circa rules the roost.  
+
+Main sportsbook has the most beautiful screen you ever did see, &amp; Stadium Swim is worth the entry fee (varies between $20-$60 depending on demand), but free if you're staying at the Circa hotel.  Pricing gets pretty wacky for cabanas/food/drinks though.  [Regardless, mind the wind if you come in late fall/winter.](https://twitter.com/FOX5Vegas/status/1360770714933075968?t=kN-_fKudvm5Hs6bGumGbKg&amp;s=19)  **Overall Grade: A-**
+
+*Insider Tip #1:  don't miss the "VitalVegas-style" fried rice at 8East inside Circa.  Chef is the same dude from Le Thai, &amp; is the best goddamned fried rice I've ever had (don't tell mom).*
+
+*Insider Tip #2:  if you're staying on the Strip &amp; have no other reason to go downtown, Circa has a satellite book at Tuscany on Flamingo, couple blocks east of LV Blvd - free parking &amp; easier to get in &amp; out of.*
+
+**Westgate** - run by Jay Kornegay &amp; John Murray, this is one of the few non-smoking books in town.  Decent lines but many times will be 3-5 cents longer than the best available.  Kornegay is still the King of Props though.  Longstanding Vegas tradition is the Thursday 1.5 weeks prior to the SB when WGT releases their props schedule.  This is exactly when the pros make their moves.  If you're planning a SB trip &amp; looking at props, look into this as they're where you'll get the best early lines.  *Insider Tip: during this pre-SB props release extravaganza, you can only get 2 bets down at a time, then you have to go to the back of the line.  So prioritize your bets accordingly.*  Great screen with lots of seating &amp; a bar you can see the action from.  Mobile app uses the same software as CRC, &amp; runs just as smooth.  Low-to-medium on props, low-to-medium on InPlay availability.  **Overall Grade:  B+**
+
+*Insider Tip:  if you didn't know, this is an off-strip casino, &amp; if you're just visiting, probably a little further than comfortable walking distance.  If you catch a cab/rideshare, make sure to tell them to take you to the sportsbook entrance, on the backside of the property.  Slightly longer distance but much faster &amp; more convenient.  If you have your own car you can park here too (usually free but definitely not for football weekends).*
+
+**SouthPoint** - Vegas legends Jimmy Vaccaro &amp; Chris Andrews are in charge here.  Highly recommend Chris' book ["Then One Day..."](https://www.amazon.com/Then-One-Day-Bookmaking-Nevada/dp/1944877193)  Free seating even when it's busy (first-come, first-serve), but not the most comfortable chairs if you're gonna be there all day.  Decent lines though rarely the shortest, but they take big limits.  BIG.  Check [Vaccaro's twitter](https://twitter.com/JimmyVaccaro?t=PR3BEb8BooNZwvBBIcHhmQ&amp;s=09) for verification.  Mobile app uses the same software as CRC &amp; WGT, &amp; same M.O. - not a lot of small markets, &amp; near-zero live betting.  **Overall Grade: B-**
+
+*Insider Tip:  If you don't get at least a couple hot dogs here you're spitting on history.  Also don't miss $5 steak and eggs after midnight at Coronado Cafe.*
+
+**RETAIL DRESSMAKERS**
+
+*Note:  these are the books your momma warned you about.  Overly juiced lines, long bet confirmation timers, &amp; quick to limit/ban if you catch a few cents of CLV.  Doesn't mean you can't make money off the dirty bitches though.*
+
+**MGM** - multiple properties all on the Strip, but they don't all have sportsbooks.  Locations include MGM Grand, Park MGM, Bellagio, Aria, The Mirage, Excalibur, Luxor, &amp; Mandalay Bay.  Lines are okay but don't think I've ever seen them have the best available.  Lots of smaller sports &amp; live betting but not a lot in props.
+
+Mobile app is the worst in town, clunky AF with long screenloading times, long confirmation timers, &amp; random freezes necessitating a force close.  Also it's the worst hassle to get in &amp; out of if youre not staying at one of their properties.  I can't recommend anything about MGM as an out.  But if you want to bet there for whatever reason, you can park for free at Tropicana &amp; walk the pedestrian bridge over to MGM Grand.  It's just across the street but not a short walk. **Overall Grade:  C-**
+
+**Caesars** - also multiple properties on the Strip (Caesar's Palace, Planet Hollywood, Paris, Flamingo, Harrah's, The Linq, Bally's/the new Horseshoe).  But in Nevada, up until recently they didn't even have an app - they just steered you over to William Hill (which they own).  But that's [reportedly about to change soon](https://www.reviewjournal.com/business/casinos-gaming/new-caesars-sportsbook-app-coming-to-nevada-this-year-2621153/amp/).  Nice viewing area but parking &amp; walking around is a bigger hassle than at most places, &amp; just a personal aside here but fuck Caesars.  They did a lot of local employees dirty following the lockdowns/re-openings.  Just another mega-corporation that can't cum unless they screwed someone over.
+
+**William Hill** - even though it got bought by Caesars &amp; it's own executives have admitted to banning winners, WHL isn't the worst out to have.  Lots of smaller markets, medium availability on props, medium-to-high on InPlay.  Also highest convenience factor due to having the most locations around town.  WHL came from Europe to Vegas by buying up now-defunct Cantor Gaming, who used to lease space in casinos who didn't want to run their own book.  Thus, WHL has locations up and down the Strip (via Caesars), as well as a lot of smaller casinos around town (via CG).  One of the 3 apps that you can reload at a CVS or 7-11.  Bet confirmation timer can be a little punk sometimes but usually not the worst.  **Overall Grade:  C+**
+
+*Insider Tip: most WHL locations are small, with a few regular TVs &amp; limited seating - the best WHL location as far as viewing experience goes is at Arizona Charlie's on Decatur.  Comfortable seats, decently large screen, &amp; a bar within 30 yds.  Also, across the street &amp; just north is a shanty-looking barn called Pop's Philly Steaks - best in town &amp; with authentic CheezWhiz.  Venture a little further northwest to find Bagel Cafe on Buffalo - old school mob deli with the best cheesecake you can imagine.*
+
+**Boyd Gaming** - most first-timers probably haven't heard of them, as they're more of a locals favorite.  One location downtown at Sam Boyd's California, several locations slightly off-strip &amp; around town.  Closest to the Strip would be The Gold Coast or The Orleans.  They're smaller &amp; kinda dumpy, but have stuff like better pay tables &amp; odds for slots/table games, &amp; definitely not the worst option if you're looking to skimp on the room in your traveling budget.  2nd of 3 apps that you can reload via PayNearMe @ a CVS or 7-11.
+
+They get their numbers from FanDuel, so they're consistently juiced to the point of being the worst lines in town - *but* - they do have, by far, the *most* props availability &amp; InPlay in Vegas.  If you're a props player &amp; visiting Vegas, get your ass to a Boyd property &amp; make an acct for the mobile app.  Best in town for small markets too - KBO/NPB, ITF/UTR, fucking Scottish league soccer &amp; Lithuanian basketball, they got all that shit.  There's really no competition when it comes to props/InPlay/small markets.  Just know that they know that too - hence, everything is juiced to high hell.  **Overall Grade:  B-**
+
+**Stations** - another chain that caters to locals, but dont believe the hype.  Fuck the Fertitta's (except Tillman).  Some people like them because Red Rock &amp; Green Valley Ranch are nice, but I'm not a fan.  1 location downtown at El Cortez, closest to the Strip would be Palace Station on Sahara.  *Sometimes* has the best lines but not what I would call often, medium availability on props &amp; InPlay.  Small convenience factor as this is the last of the 3 apps you can reload at CVS or 7-11.  Biggest gripe would be they have the second-clunkiest app with their shitty Miomni software.  Can't even access the app if you're charging your phone - "please disconnect the USB."  No locations have great seating/viewing unless you go all the way out to Boulder Station, which is also not recommended, but for different reasons.   Poor ownership, poor viewing areas, poor app, longstanding dispute with the culinary union, &amp; they sold the Palms for less than they spent to renovate it.  Believe it or not but sometimes billion-dollar corporations are run by a bunch of idiots, this is the case here.  **Overall Grade:  C**
+
+*Insider Tip:  STN also runs the books at a smaller franchise called Wildfire, which has a few locations around Vegas.  At times, for some unknown reason, they are slow to update their lines.  So if you're tracking line movements &amp; STN already has a competitive price, might be worth it to stop by a Wildfire location to potentially get a super-stale line.*
+ 
+**BASICALLY WORTHLESS**
+
+**Wynn** - one caveat here being that they take big bets, even from known pros who live in town, so credit to them there.  *Extremely* rare to have the best line available though.  I've seen it happen, but I've also been in a threesome, &amp; both things have only happened once.  Smaller viewing area than you would expect for a fancier joint like the Wynn, limited seating but comfortable loungers if you can snag one.  Mobile app is the same weirdo software as STN, near-zero on props &amp; zero live betting whatsoever.  **Overall Grade: D-**
+
+**Treasure Island** - shit lines, shit viewing area, shit app, near-zero props, zero InPlay.  **Overall Grade:  F**
+
+**Golden Nugget** - shit lines, shit viewing area, shit app, near-zero props, zero InPlay.  **Overall Grade:  F**
+
+*Insider Tip:  not so much for sports, but if you're gonna play poker at all on your trip, the Nugget does get a nod here.  It's the only poker room remaining downtown, &amp; it's the only room anywhere where cash on the table plays ($100 bills only).  Oh, also there's no buyin max.  I had Huck Seed buyin to my 1/2 table for like $30k.  Cool guy but dick move.  If you like action, I've seen more literal *bricks* of cash in that room than I've ever seen in my life, not even on TV.  The 2/5 can quickly turn into a 10/20 &amp; gets absolutely unbelievable at times.  Mountains of chips with +$1 million in cash in play.*
+
+**Misc General Info:**
+
+Per NV regs, for any of the apps, you have to go to the book in person, fill out a paper application, &amp; make a deposit.  Some apps you can download before this step, some you can't (or can, but can't see anything until you login once you've made an acct).  Usual minimum deposit is $100.  
+
+"How do drink tickets work betting through the app?"  *That's the neat part - they don't.*  Over the counter, you might get a couple tickets if you're betting more than $100.  *Might* - try to get the female ticket-writer &amp; compliment her hair for best results.
+
+Re:  NFL Sundays &amp; booking tables - very few places will have free seating, most will charge &amp; it won't be cheap.  There may also be a minimum spend for food/drinks involved.  No stake-shaming here but IMHO, if you're gonna spend, *spend.*  Get the cabana at Stadium Swim and get the fucking $45 nachos.  Otherwise play it as cheap as possible &amp; find a bar with good food.  But there's no sense dropping +$500 on a mediocre experience.  IMHO. 
+
+Free parking can be had at Tropicana on the south end of the Strip, or ~~Treasure Island~~ **(this is no longer true unless you're a local &amp; can palm a fiver)** *The Venetian* on the north end.  Tough to find downtown, but the cheapest out I've found is parking at 4 Queens (garage entrance on Carson), &amp; buying your first beer at the bar.  Tip well &amp; ask for parking validation - *boom! value.*
+
+Best MNF party: Sapphire Gentleman's Club, $25 entry for 2 drink tickets &amp; free (pretty decent) buffet.  Plus, you know - dancing.
+
+Best dive bar, with **great** greasy-spoon-diner style food &amp; no cover for NFL Sundays:  Jackson's on Flamingo.
+
+Best off-strip attraction:  Area 15.  Take an edible, &amp; eat the whole thing.
+
+BOL!  And FFS don't ask again.  I'm only typing this shit once (until next year).
+
+---
+## Comments
+
+[SpinkSpankSpunk69 | 9 pts]
+Now I want to book a trip to Vegas
+
+  [fresh5447 | 5 pts]
+  Heading in 2 days! Boiiiiiii lfg
+
+[[deleted] | 7 pts]
+[removed]
+
+  [NoSweatBetting | -4 pts]
+  &gt;All the best sports books, the ones we talk about in this sub
+
+If you're talking about DK/FD/BS this is hilarious
+
+    [[deleted] | 8 pts]
+    [removed]
+
+      [NoSweatBetting | -3 pts]
+      I can't stop laughing
+
+        [[deleted] | 5 pts]
+        [removed]
+
+        [NoSweatBetting | -5 pts]
+        If they ever did get into Vegas, they would definitely fall in the retail dressmaker category, &amp; not high on the list.
+
+        [UD88 | 1 pts]
+        if that, would assume they would be pretty close to worthless
+
+    [rushsickbackfromdead | 3 pts]
+    DK/FD/BS are the worst books in any state.  Worst book ever is BarStool.
+
+[UtopianPablo | 5 pts]
+Great post, thanks buddy.  I agree that the MGM app is terrible, can’t connect in many MGM casinos and runs way too slow for in play.  Cost me some coin on UCL.
+
+  [NoSweatBetting | 5 pts]
+  Another problem with books on the Strip is simply cell connectivity.  When it's a crowded CFB/NFL weekend, there's just too many ppl around to not get your data throttled.  Some joints have free wifi but that honestly doesn't help much.  Not as bad downtown as on the Strip, but still. 
+
+Just another reason to signup for mobile accts &amp; make your bets from a dive bar like Jackson's or Bourbon Street.
+
+    [UtopianPablo | 3 pts]
+    No doubt.  You would think the sports books would put in good Wi-Fi so people could connect but no such luck.  
+
+I was there on weekdays during the spring so the casinos were not too crowded.  Still couldn’t connect consistently.
+
+      [NoSweatBetting | 3 pts]
+      Books making it easier for bettors to access information - HA!
+
+Good one, buddy - thanks for the chuckle
+
+[N1ghtseeker | 5 pts]
+How difficult is in-person betting? Do you have to register? Can you just bet across town, collect your winnings, and avoid limits?
+
+  [NoSweatBetting | 8 pts]
+  Technically yes, practically no.
+
+Finding the best line &amp; subsequently traveling to that book &amp; getting down would prove to be difficult.  Not just traffic, &amp; not just parking - but you have to realize how busy NFL Sundays get pretty much everywhere.  Liable to stand in line for the counter &gt;10 minutes, in which time the line you were hunting may move against you.  Same wait-time for cashing tickets.  
+
+Don't have to register for an acct if you're strictly betting over the counter, but if you're betting a dime or more, they will almost certainly want at least a players card, which will require a walk &amp; another ~5 mins.  
+
+No such thing as anonymous betting anymore, at least not without a few beards.  You can beat the book once or twice, but as soon as they want to know who you are, they can find out easily enough.  Players card, cell phone, license plate recognition, etc.  
+
+This is why true bookmakers like Circa, Westgate, &amp; SouthPoint are so respected, they do it they old school way - hang a line, take a bet, move the number.  The bookmaker &amp; the sharp work together for the purpose of efficient price discovery.  Retail joints just want to identify sharps asap &amp; limit them to reduce liability.
+
+    [N1ghtseeker | 1 pts]
+    Thanks for the reply. But how can they know who you are from a cell phone? Do you have to register a number? It's not like casinos have tracking devices, or do they?
+
+Do you think it would be a problem if I am betting to win $600 to win in MLB? They still want to know who I am?
+
+Also, for NFL bets, I was planning to bet earlier than Sunday, or are odds not set in-person then? 
+
+Thanks for all the help.
+
+      [NoSweatBetting | 1 pts]
+      Pretty sure since 9/11 every major venue &amp; tourist attraction logs cell phone activity.  Shit every NFL stadium has snipers in the rafters nowadays.  They might not know who you are right away, but they'll know that phone was there.  Pair that data with other data, buy some more data from amazon &amp; facebook, &amp; they can figure it out eventually.  
+
+&gt;problem if I am betting to win $600 to win in MLB
+
+Honestly I don't really know for sure, but I'd doubt it.  Do it 3 times in a week?  Yeah they'll wanna know.  *Pro-tip:* hit the kiosk, &amp; if you're making a big bet just split it into 3-4 smaller bets.  Maybe get a fake mustache too, just 'cause it'd be fun.
+
+NFL lookaheads are widely available any time of the week.  Openers usually come out while the afternoon games are wrapping up.  Lines may get frozen due to injury speculation, but for the most part you can bet NFL anytime.
+
+        [bkindroite | 1 pts]
+        Everyone has all your info. So The Casinos surely do. And I still love them all. hahah.
+
+[pleasedontbanmebro | 3 pts]
+I'll piggy back onto this post to give my takes(I've lived in Las Vegas twice, not currently living there but have lived there long enough to give good advice):
+
+CIRCA is very nice, but keep in mind you'll have to pay to park downtown unless you gamble enough at casino games to get validated. The garage attached to Circa is expensive(I think its $16 for 4 hours), and even the ones that used to be cheap like the garage attached to Binion's is no longer so(paid $6 for 2 hours last week when it used to be $3 for 2 hours)
+
+WESTGATE is probably the best run sportsbook in town, but the ease of access(it has its own entrance from outside) and off strip location bordering a not-so-great part of town(Maryland Parkway) means it attracts a ton of bums and degenerates. I've seen the same degenerate bum faces here for over a decade. The clientelle here can be very sketchy so if you don't want to be around a bunch of riff raff, unkempt degenerates and people who look like they are homeless dudes, go elsewhere. I think this place has the best atmosphere though, especially for big events like college football and March Madness. Also, you mentioned its non smoking, but the security guards never enforce it, there was a guy next to me smoking right infront of the security guard stand near the rear entrance and she did nothing.
+
+SOUTH POINT just installed some new chairs, not sure if the uncomfortable chairs you are referring to are the old ones they had that were not very good, but they just put in new ones that are much better. It means less seating, but its more comfortable.
+
+MGM - I actually like the horseshoe shape of the book. The screens are outdated(still using DLP projectors from 15 years ago for their biggest ones) but the horseshoe shape allows them to have a lot of screens anyway
+
+CAESARS and BELLAGIO are the most overrated books in town, everyone recommends them, but Bellagio is small and Caesar's is always crowded and packed even on non busy days, you can forget about sitting here for free without paying on a weekend.
+
+All WILLIAM HILL books are trash. What they did to the book at M is a travesty.
+
+RED ROCK and GREEN VALLEY RANCH are criminally underrated. I do all my college football Saturdays at Red Rock. Just get there early to make sure you get a seat. Palace Station is owned by the same company(Stations) but its a step below Red Rock/GVR.
+
+WYNN is very nice but extremely limited seating. It caters to high class clientelle who are willing to pay to sit. Not for the average person. Same can be said for ARIA. Nice, but limited seating, most of which is roped off.
+
+MIRAGE is underrated as well. It's a nice book and you can park next door at TI for free. I hope Hard Rock leaves it alone, unfortunately the old Hard Rock book was destroyed and turned into a joke by the new Virgin Hotel ownership.
+
+MANDALAY BAY, for as big as it is, should have more seating.
+
+TREASURE ISLAND, FLAMINGO, NYNY, COSMOPOLITAN are too small to consider. LUXOR is on the smaller side, but I'd say just big enough to not completely dismiss, but its a book that does the bare minimum. Same can be said for EXCALIBUR and PLANET HOLLYWOOD.
+
+RESORTS WORLD and VENETIAN books are not even books, just restaurants/bars.
+
+Haven't been to the new STRATOSPHERE book since they remodeled it.
+
+  [NoSweatBetting | 5 pts]
+  Downtown parking hack:  park at 4 Queens (garage entrance on Carson), &amp; buy your first beer at the bar.  Ask for parking validation &amp; *boom! value.*
+
+&gt;Westgate...sketchy
+
+I will not tolerate such disrespect to Boulder Highway &amp; Northtown
+
+Didn't know about SPT's new chairs.  Less seating isn't good though, was already crowded every weekend.
+
+Red Rock &amp; GVR are nice, but that's just b/c they're in the more affluent burbs.  Not the worst choice but also probably not the first choice for a new tourist.  Given the other options, I cannot in good conscience recommend a STN property to a first-timer.
+
+Just FYI but Hard Rock has already stated they're gonna make changes.  Killing the volcano soon &amp; will reportedly stay open for the renovations.  Damn shame about Virgin taking over the old Hard Rock - they set up a BetFred sportsbook area, but BF never could get their licensing in order, so it was just a dead area of space.  If I had to guess, the new Hard Rock will probably just have another WHL book.
+
+    [sincitybuckeye | 2 pts]
+    Yea, I mean a first timer shouldn't be going to Stations. You're likely going to be on the strip. Stations are as you said, catered to locals. They're too far off the strip outside of Palace Station to even bother going to. That being said, Sunset and Santa Fe have great viewing areas as well as $1 hot dogs or $3 street tacos and discounted buckets on Saturdays and Sundays.
+
+      [bkindroite | 1 pts]
+      Palace Station (is that one of the stations? lol) has a great Oyster Bar. Other than that, the old school arcade when I was a teenager was the best. 
+
+Can't wait to get to Circa, especially after reading this!
+
+[[deleted] | 3 pts]
+It's funny with MGM because their nationwide app used for state betting (At least the 3 I've played in all have the same) is pretty good and has pretty good live betting. Sometimes they'll give you a slight change in your favor if it's happening as you bet.
+
+Then I go to Las Vegas and as you said terrible app. Live betting is so bad with it and glitches out all the time. I now only do pre-game and betting when a game is on a break on their Vegas app. They almost never have the best ML odds on a game, but will from time to time have the best odds on over unders and prop bets which is what I bet almost exclusively
+
+[howsbusiness | 2 pts]
+Any bars that feature RedZone that you know of?
+
+  [NoSweatBetting | 1 pts]
+  Not off the top of my head, sorry.  I'm sure someone does though, you'd just have to call around.
+
+[obeseoprah32 | 2 pts]
+Personally I would say the M is a far better sportsbook than Arizona Charlies as far as William Hill goes, but agree with everything else. I want to try thar fried rice at Circa!
+
+  [NoSweatBetting | 2 pts]
+  M Resort is a little out of the way for a tourist, &amp; there's nothing else really around it.  When it was still Tony Marnell's place it garnered a lot more respect.  
+
+The fried rice is on the appetizer menu (not huge but not a small bowl either), &amp; they also have short ribs skewers &amp; chicken skewers.  Get all 3, ditch the skewers &amp; mix the meat in - "VV-style"
+
+[[deleted] | 2 pts]
+u/monday5
+
+[dlhades | 2 pts]
+Fantastic write up thanks for this. Quick question, do any of these books provide constant promos? Use DraftKings in a legal state and they have boosted odds daily on all sorts of stuff, if you stick to promo bets you can usually run +EV. Do any Vegas books offer promos like that? Any sort of boosted odds opportunities?
+
+  [NoSweatBetting | 2 pts]
+  Boosts &amp; promos are mostly used for customer acquisition in newly regulated states - as the scramble for getting new players dies down, so will the boosts &amp; promos.  Vegas doesn't really need to play that game so nobody in town offers anything like that.  
+
+Also for retail books like DK/FD/BS or any of the Vegas retail books that I listed, keep in mind that beating these types of markets will eventually &amp; inevitably get you limited.  Would suggest betting some parlays, NFL sides, or overly juiced lines to keep your acct from getting flagged.  BOL!
+
+[Erdabaker | 2 pts]
+Looks like we've got a serious Caesars app update in progress
+
+  [NoSweatBetting | 1 pts]
+  Will update for CZR, also I like Resorts World, who uses the same software as Boyd (from FanDuel), but tweaks the numbers, good independent book to have.  Still waiting for BetFred at Virgin to get app licensing.  Also TI &amp; Golden Nugget have closed altogether.
+
+    [Erdabaker | 1 pts]
+    I've always found the software overlaps hysterical. Creates strange pairings of casinos 
+
+Have you found the odds to be better at Resorts World vs Boyd?
+
+      [NoSweatBetting | 1 pts]
+      It depends, but usually Resorts World is better.  But they don't hang nearly as much small markets, props, &amp; InPlay as Boyd
+
+        [Erdabaker | 1 pts]
+        What do you think of the new CZR app? We've got boosts now looks like
+
+        [NoSweatBetting | 1 pts]
+        I try to not get caught up in boosts/promos/SGP's/etc simply b/c those types of offerings are simply for customer acquisition &amp; accumulating market share.  Once a market is saturated, those things tend to go away.  But also if you beat those markets consistently, at retail books, you're likely to get backed off.  You can definitely take advantage but I just don't want those red flags on my accts.
+
+As far as the app itself, WHL seems to consistently have better numbers, even though CZR owns them.  Also WHL still has way more locations, I think only a couple have switched to CZR storefronts.  
+
+And, as a general personal rule, the only time I'm willing to deal with the traffic, parking, &amp; walking hassle at Caesar's Palace itself is if I'm *for sure* getting laid that night.  Just as an opportunity cost stipulation.
+
+[bkindroite | 2 pts]
+This is great stuff. Knew a LITTLE bit of this but not nearly the content you gave us. Thank you!!!💯
+
+[Slygoat | 1 pts]
+Any opinion on bet365?
+
+  [NoSweatBetting | 2 pts]
+  They're not in Vegas &amp; I don't have any experience with offshores, honestly.  Although I think the prevailing wisdom is to steer more towards Bookmaker / Pinnacle / BetCris, as they are definitely well-respected in that space.
+
+[DeejHHSports | 1 pts]
+Aside from general feel in the Sportsbook and anything, do you have any opinions on which corporation gives the best rewards? I’ve been with MGM for a few years now and generally enjoy the perks. But I’ve never tried anything else and am open to seeing if there are better options
+
+  [NoSweatBetting | 2 pts]
+  I honestly don't pay super close attention but as far as I can tell pretty much all the casinos are pretty stingy with rewards when it comes to sportsbetting, especially through the apps.  You get very few points compared to slots/table games.  
+
+WHL does have a thing where you get cash back every winter/spring/summer/fall based on how much you bet, but it's still only like $1.00 back per $1,000 wagered. 
+
+I will say though, that if you have a higher tier status with MGM, a number of places do tier matching - like if you're "Gold" status or whatever at MGM, but never played at Caesars, they'll just bump you up automatically if you ask, to incentivize you to move over to their properties.  Not sure if Caesars actually does this but I know some companies do, you'd have to look into it to find out who specifically.  At the very least you can pick up small perks like free parking this way.
+
+  [Flashy-Spray28 | 1 pts]
+  If you don’t mind me asking what perks with MGM? I’ve been with them for a few years as well, no perks. I know they have the M life rewards associated, but other than that I haven’t heard anything about MGM perks in Nevada
+
+[Electricute | 1 pts]
+Wheres the best place to find the best lines available?
+
+  [NoSweatBetting | 1 pts]
+  Recommend Unabated.com
+
+[Flashy-Spray28 | 1 pts]
+Southpoint steak &amp; eggs now $6.45 btw 🫠
+
+[rushsickbackfromdead | 1 pts]
+I agree with most of those.  Stations is completely worthless.  Honestly, TI is one of the more interesting books out in vegas.  They don’t have an app.  Multiple times I’ve seen a number get steamed and every book has moved.  I got to TI and the old number is still up.  They are able to put up some great numbers, due to no fear of getting slammed by app bettors.
+
+  [NoSweatBetting | 1 pts]
+  TBF, betting stale lines @ TI is also a fast track to getting limited
+
+[[deleted] | 1 pts]
+[removed]
+
+  [NoSweatBetting | 1 pts]
+  &gt;Do I need a Nevada ID and/or proof of Nevada residency to register for online betting?
+
+No, any state ID or DL should be fine
+
+&gt;Which NV sportsbooks (if any) allow bank account/crypto deposits and withdrawals?
+
+Several places will allow you to link a bank acct, but dont think crypto is available.  Either way I would discourage these options for potential tax liability.  Cash is still king in Vegas.
+
+[BP626510 | 1 pts]
+Wow awesome post. Thanks for sharing this info. I'm new to Nevada, and have been using BetMGM, but it has been terrible to find live odds on the app. Based on your post it sounds like the William Hill app provides the easiest access to live odds? Or is there another sports book app you recommend that provides the best access to live odds?
+
+  [NoSweatBetting | 2 pts]
+  WHL runs smooth, not the best offerings or prices but definitely not the worst.  Won't crash or freeze like MGM does.  
+
+Again I have to stress shopping across multiple books.  It's the #1 thing you can do to increase your own longterm expected value.  
+
+When you need gas &amp; you see 4 different gas stations with 4 different prices, you take the best price.  If you went grocery shopping &amp; saw the exact same bag of chips for $0.99 on the shelf but $1.09 at the checkout counter you would get the cheaper one.  And over time, over years, over thousands of bets, those little edges add up &amp; can make the difference between winning seasons or losing seasons.
+
+Thus, the best &amp; only strategy is to open accts at every book that would be beneficial to you.  Maybe start with 3 different books.  Divide up your bankroll, open 3 different accts (for live betting would suggest choosing between Boyd, Stations, WillHill, Westgate, &amp; Resorts World).  Don't worry about which just go with your gut &amp; pick 3, you can add more later.  Then when you're looking at daily scores/odds you can familiarize yourself with each book &amp; how they work &amp; who has the best prices &amp; who has the worst bet confirmation timers, etc etc.
+
+Would also suggest finding some books, podcasts, YT channels, following GamblingTwitter, &amp; doing anything else you can to learn.  If you're gonna be betting money, you absolutely have to keep learning.
+
+Good luck!
+
+[Chcvols_95 | 1 pts]
+Going to Westgate with a group of 10 this football season…is it worth it to book one of the pods or will there be enough seating around the room?
+
+[w4rrenz | 1 pts]
+Coming back to this old post but it seems great for what I'm after. I'm coming from the UK where these type of places don't really exist - we just register online and good to go. 
+
+I however would like to bet at these books in vegas (generally a bit softer) particularly inplay. 
+
+Excusing my ignorance, as a non resident am I still able to go down to one of these sportsbook, open an account and download the app and work away on it? I deposit in person at the sportsbook is that right?
+
+Failing that being an option, is there any books with in play betting terminals at the seats?
+
+  [NoSweatBetting | 1 pts]
+  &gt;am I still able to go down to one of these sportsbook, open an account and download the app and work away on it? I deposit in person at the sportsbook is that right?
+
+Yep
+
+&gt;is there any books with in play betting terminals at the seats?
+
+Nope.
+
+    [w4rrenz | 1 pts]
+    Mega helpful thanks.
+
+Funny in the world of Sportsbooks gubbing everyone, I can in theory fly to Vegas and have a full list of them again 🤣

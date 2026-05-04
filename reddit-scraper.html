@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reddit Post Scraper - Sports Edge</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #1a1a2e; color: #e0e0e0; min-height: 100vh; padding: 40px 20px; }
+.container { max-width: 800px; margin: 0 auto; }
+h1 { font-size: 28px; margin-bottom: 8px; color: #fff; }
+.subtitle { color: #888; margin-bottom: 40px; font-size: 14px; }
+.card { background: #16213e; border: 1px solid #0f3460; border-radius: 12px; padding: 30px; margin-bottom: 24px; }
+.card h2 { font-size: 20px; margin-bottom: 16px; color: #e94560; }
+.card h3 { font-size: 16px; margin-bottom: 12px; color: #fff; }
+.step { display: flex; gap: 16px; margin-bottom: 20px; align-items: flex-start; }
+.step-num { background: #e94560; color: #fff; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; flex-shrink: 0; }
+.step-text { flex: 1; line-height: 1.6; }
+.step-text code { background: #0a0a1a; padding: 2px 8px; border-radius: 4px; font-size: 13px; color: #e94560; }
+
+.bookmarklet-zone { background: #0f3460; border: 2px dashed #e94560; border-radius: 8px; padding: 24px; text-align: center; margin: 20px 0; }
+.bookmarklet-link { display: inline-block; background: #e94560; color: #fff; padding: 14px 28px; border-radius: 8px; font-size: 16px; font-weight: bold; text-decoration: none; cursor: grab; transition: transform 0.2s; }
+.bookmarklet-link:hover { transform: scale(1.05); }
+.bookmarklet-link:active { cursor: grabbing; }
+.hint { color: #888; font-size: 13px; margin-top: 12px; }
+
+.manual-section { margin-top: 20px; }
+.url-input { width: 100%; padding: 12px 16px; background: #0a0a1a; border: 1px solid #0f3460; border-radius: 8px; color: #e0e0e0; font-size: 15px; margin-bottom: 12px; }
+.url-input:focus { outline: none; border-color: #e94560; }
+.btn { background: #e94560; color: #fff; border: none; padding: 12px 24px; border-radius: 8px; font-size: 15px; font-weight: bold; cursor: pointer; transition: background 0.2s; }
+.btn:hover { background: #c73550; }
+.btn:disabled { background: #555; cursor: not-allowed; }
+.btn-secondary { background: #0f3460; }
+.btn-secondary:hover { background: #1a4a8a; }
+
+.status { margin-top: 16px; padding: 12px 16px; border-radius: 8px; display: none; }
+.status.success { display: block; background: #0a3a0a; border: 1px solid #2d8a2d; color: #6fc66f; }
+.status.error { display: block; background: #3a0a0a; border: 1px solid #8a2d2d; color: #c66f6f; }
+.status.loading { display: block; background: #1a1a3a; border: 1px solid #4a4a8a; color: #8a8ac6; }
+
+.output { width: 100%; min-height: 200px; max-height: 400px; padding: 12px 16px; background: #0a0a1a; border: 1px solid #0f3460; border-radius: 8px; color: #e0e0e0; font-family: monospace; font-size: 13px; resize: vertical; margin-top: 12px; display: none; }
+
+.bulk-section { margin-top: 20px; }
+.url-list { width: 100%; min-height: 120px; padding: 12px 16px; background: #0a0a1a; border: 1px solid #0f3460; border-radius: 8px; color: #e0e0e0; font-size: 14px; resize: vertical; }
+
+.subreddit-section { margin-top: 20px; }
+
+.results-count { color: #e94560; font-weight: bold; margin-top: 8px; }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Reddit Post Scraper</h1>
+    <p class="subtitle">Extract posts + comments from r/algobetting for Sports Edge model research</p>
+
+    <!-- METHOD 1: BOOKMARKLET -->
+    <div class="card">
+        <h2>Method 1: Bookmarklet (Recommended)</h2>
+        <p style="margin-bottom: 20px; line-height: 1.6;">One-click extraction while browsing Reddit. Works on any Reddit post page.</p>
+
+        <div class="step">
+            <div class="step-num">1</div>
+            <div class="step-text">Drag the button below to your <strong>Bookmarks Bar</strong>. (If you don't see it, press <code>Ctrl+Shift+B</code>)</div>
+        </div>
+
+        <div class="bookmarklet-zone">
+            <a class="bookmarklet-link" href="javascript:void(function(){try{var t=document.title||'';var url=location.href;var post='';var comments=[];function getNewReddit(){var h=document.querySelector('h1');var title=h?h.textContent:'';var postBody=document.querySelector('[slot=text-body]');var bodyText=postBody?postBody.innerText:'';var authorEl=document.querySelector('shreddit-post');var author=authorEl?authorEl.getAttribute('author'):'';var score=authorEl?authorEl.getAttribute('score'):'';var cmts=document.querySelectorAll('shreddit-comment');var comments=[];cmts.forEach(function(c){var a2=c.getAttribute('author')||'';var depth=parseInt(c.getAttribute('depth'))||0;var cBody=c.querySelector('[slot=comment]');var cText=cBody?cBody.innerText:'';var indent='';for(var i=0;i<depth;i++)indent+='  ';if(cText)comments.push(indent+'['+a2+'] '+cText);});return{title:title,author:author,score:score,body:bodyText,comments:comments};}function getOldReddit(){var title=document.querySelector('.title a.title');var tText=title?title.textContent:'';var body=document.querySelector('.usertext-body .md');var bText=body?body.innerText:'';var authorEl=document.querySelector('.top-matter .author');var author=authorEl?authorEl.textContent:'';var comments=[];document.querySelectorAll('.comment').forEach(function(c){var a2El=c.querySelector('.author');var a2=a2El?a2El.textContent:'';var cBody=c.querySelector('.usertext-body .md');var cText=cBody?cBody.innerText:'';var depth=0;var p=c;while(p=p.parentElement){if(p.classList&&p.classList.contains('comment'))depth++;}var indent='';for(var i=0;i<depth;i++)indent+='  ';if(cText&&a2)comments.push(indent+'['+a2+'] '+cText);});return{title:tText,author:author,score:'',body:bText,comments:comments};}var data;if(document.querySelector('shreddit-post')){data=getNewReddit();}else{data=getOldReddit();}var out='URL: '+url+String.fromCharCode(10)+String.fromCharCode(10);out+='TITLE: '+data.title+String.fromCharCode(10);out+='AUTHOR: '+data.author+String.fromCharCode(10);out+='SCORE: '+data.score+String.fromCharCode(10);out+=String.fromCharCode(10)+'--- POST ---'+String.fromCharCode(10)+data.body+String.fromCharCode(10);out+=String.fromCharCode(10)+'--- COMMENTS ('+data.comments.length+') ---'+String.fromCharCode(10);data.comments.forEach(function(c){out+=String.fromCharCode(10)+c+String.fromCharCode(10);});var blob=new Blob([out],{type:'text/plain'});var a=document.createElement('a');var slug=data.title.toLowerCase().replace(/[^a-z0-9]+/g,'-').slice(0,50);a.href=URL.createObjectURL(blob);a.download='reddit-'+slug+'.txt';a.click();alert('Saved! '+data.comments.length+' comments extracted.');}catch(e){alert('Error: '+e.message);}})();">Scrape This Post</a>
+            <p class="hint">Drag this button to your bookmarks bar</p>
+        </div>
+
+        <div class="step">
+            <div class="step-num">2</div>
+            <div class="step-text">Go to any Reddit post (e.g., r/algobetting)</div>
+        </div>
+        <div class="step">
+            <div class="step-num">3</div>
+            <div class="step-text">Click <strong>"Scrape This Post"</strong> in your bookmarks bar</div>
+        </div>
+        <div class="step">
+            <div class="step-num">4</div>
+            <div class="step-text">A <code>.txt</code> file downloads with the post + all comments</div>
+        </div>
+        <div class="step">
+            <div class="step-num">5</div>
+            <div class="step-text">Upload the file to me through the portal</div>
+        </div>
+    </div>
+
+    <!-- METHOD 2: URL FETCH -->
+    <div class="card">
+        <h2>Method 2: Paste URL</h2>
+        <p style="margin-bottom: 20px; line-height: 1.6;">Paste a Reddit post URL and fetch it directly. Works from your browser since you're not IP-blocked.</p>
+
+        <div class="manual-section">
+            <input type="text" class="url-input" id="singleUrl" placeholder="https://www.reddit.com/r/algobetting/comments/..." />
+            <button class="btn" onclick="fetchSinglePost()">Fetch & Download</button>
+            <div id="singleStatus" class="status"></div>
+            <textarea id="singleOutput" class="output" readonly></textarea>
+        </div>
+    </div>
+
+    <!-- METHOD 3: BULK SUBREDDIT SCRAPE -->
+    <div class="card">
+        <h2>Method 3: Scrape Entire Subreddit</h2>
+        <p style="margin-bottom: 20px; line-height: 1.6;">Pull the top posts from r/algobetting automatically. Downloads all posts + comments as one big file.</p>
+
+        <div class="subreddit-section">
+            <div style="display: flex; gap: 12px; margin-bottom: 12px; flex-wrap: wrap;">
+                <input type="text" class="url-input" id="subredditName" placeholder="algobetting" style="flex: 1; min-width: 200px;" />
+                <select class="url-input" id="sortBy" style="flex: 0 0 auto; width: 140px;">
+                    <option value="top">Top (All Time)</option>
+                    <option value="hot">Hot</option>
+                    <option value="new">New</option>
+                </select>
+                <select class="url-input" id="postLimit" style="flex: 0 0 auto; width: 120px;">
+                    <option value="25">25 posts</option>
+                    <option value="50">50 posts</option>
+                    <option value="100">100 posts</option>
+                </select>
+            </div>
+            <button class="btn" onclick="scrapeSubreddit()">Scrape Subreddit</button>
+            <button class="btn btn-secondary" onclick="stopScraping()" id="stopBtn" style="display:none;">Stop</button>
+            <div id="subredditStatus" class="status"></div>
+            <p id="subredditCount" class="results-count"></p>
+        </div>
+    </div>
+
+    <!-- METHOD 4: BULK URLs -->
+    <div class="card">
+        <h2>Method 4: Bulk URL Fetch</h2>
+        <p style="margin-bottom: 20px; line-height: 1.6;">Paste multiple Reddit post URLs (one per line) to fetch them all at once.</p>
+
+        <div class="bulk-section">
+            <textarea class="url-list" id="bulkUrls" placeholder="https://www.reddit.com/r/algobetting/comments/...&#10;https://www.reddit.com/r/algobetting/comments/...&#10;https://www.reddit.com/r/algobetting/comments/..."></textarea>
+            <div style="margin-top: 12px;">
+                <button class="btn" onclick="fetchBulkPosts()">Fetch All & Download</button>
+            </div>
+            <div id="bulkStatus" class="status"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+// Fetch a single Reddit post via the .json endpoint
+async function fetchRedditPost(url) {
+    // Normalize URL and add .json
+    let jsonUrl = url.replace(/\/$/, '');
+    if (!jsonUrl.endsWith('.json')) {
+        jsonUrl += '.json';
+    }
+
+    const resp = await fetch(jsonUrl, {
+        headers: { 'Accept': 'application/json' }
+    });
+
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}: ${resp.statusText}`);
+
+    const data = await resp.json();
+    const post = data[0].data.children[0].data;
+
+    let out = `URL: ${url}\n\n`;
+    out += `TITLE: ${post.title}\n`;
+    out += `AUTHOR: u/${post.author}\n`;
+    out += `SCORE: ${post.score}\n`;
+    out += `COMMENTS: ${post.num_comments}\n`;
+    out += `SUBREDDIT: r/${post.subreddit}\n`;
+    out += `CREATED: ${new Date(post.created_utc * 1000).toISOString().slice(0, 10)}\n`;
+    out += `\n--- POST ---\n${post.selftext || '[link post, no text]'}\n`;
+
+    // Extract comments recursively
+    let commentCount = 0;
+    function extractComments(children, depth) {
+        if (!children) return '';
+        let result = '';
+        for (const child of children) {
+            if (child.kind !== 't1') continue;
+            const c = child.data;
+            const indent = '  '.repeat(depth);
+            result += `\n${indent}[u/${c.author}] (score: ${c.score})\n`;
+            result += `${indent}${(c.body || '').replace(/\n/g, '\n' + indent)}\n`;
+            commentCount++;
+            if (c.replies && c.replies.data) {
+                result += extractComments(c.replies.data.children, depth + 1);
+            }
+        }
+        return result;
+    }
+
+    const commentsText = extractComments(data[1].data.children, 0);
+    out += `\n--- COMMENTS (${commentCount}) ---\n${commentsText}`;
+
+    return { text: out, title: post.title, commentCount };
+}
+
+function downloadText(text, filename) {
+    const blob = new Blob([text], { type: 'text/plain' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = filename;
+    a.click();
+    URL.revokeObjectURL(a.href);
+}
+
+function setStatus(id, type, msg) {
+    const el = document.getElementById(id);
+    el.className = 'status ' + type;
+    el.textContent = msg;
+    el.style.display = 'block';
+}
+
+// Method 2: Single URL fetch
+async function fetchSinglePost() {
+    const url = document.getElementById('singleUrl').value.trim();
+    if (!url || !url.includes('reddit.com')) {
+        setStatus('singleStatus', 'error', 'Please enter a valid Reddit URL');
+        return;
+    }
+
+    setStatus('singleStatus', 'loading', 'Fetching post...');
+
+    try {
+        const result = await fetchRedditPost(url);
+        const slug = result.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').slice(0, 50);
+        downloadText(result.text, `reddit-${slug}.txt`);
+
+        document.getElementById('singleOutput').value = result.text;
+        document.getElementById('singleOutput').style.display = 'block';
+        setStatus('singleStatus', 'success', `Done! ${result.commentCount} comments extracted. File downloaded.`);
+    } catch (e) {
+        setStatus('singleStatus', 'error', `Error: ${e.message}. Try the bookmarklet method instead.`);
+    }
+}
+
+// Method 3: Subreddit scrape
+let scraping = false;
+
+async function scrapeSubreddit() {
+    const sub = document.getElementById('subredditName').value.trim() || 'algobetting';
+    const sort = document.getElementById('sortBy').value;
+    const limit = parseInt(document.getElementById('postLimit').value);
+    scraping = true;
+    document.getElementById('stopBtn').style.display = 'inline-block';
+
+    setStatus('subredditStatus', 'loading', `Starting scrape of r/${sub}...`);
+
+    let allText = `SUBREDDIT SCRAPE: r/${sub}\n`;
+    allText += `SORT: ${sort}\n`;
+    allText += `DATE: ${new Date().toISOString().slice(0, 10)}\n`;
+    allText += `${'='.repeat(60)}\n\n`;
+
+    let after = '';
+    let fetched = 0;
+    let postNum = 0;
+
+    try {
+        while (fetched < limit && scraping) {
+            // Fetch listing
+            let listUrl = `https://www.reddit.com/r/${sub}/${sort}.json?limit=25&t=all`;
+            if (after) listUrl += `&after=${after}`;
+
+            const listResp = await fetch(listUrl);
+            if (!listResp.ok) throw new Error(`Listing failed: ${listResp.status}`);
+            const listData = await listResp.json();
+
+            const posts = listData.data.children;
+            if (posts.length === 0) break;
+
+            for (const post of posts) {
+                if (fetched >= limit || !scraping) break;
+                const p = post.data;
+
+                postNum++;
+                setStatus('subredditStatus', 'loading',
+                    `Fetching post ${postNum}/${limit}: "${p.title.slice(0, 50)}..."`);
+                document.getElementById('subredditCount').textContent =
+                    `${postNum} posts processed...`;
+
+                // Fetch full post with comments
+                try {
+                    const fullUrl = `https://www.reddit.com${p.permalink}`;
+                    const result = await fetchRedditPost(fullUrl);
+                    allText += `\n${'#'.repeat(60)}\n`;
+                    allText += `POST ${postNum}\n`;
+                    allText += `${'#'.repeat(60)}\n`;
+                    allText += result.text;
+                    allText += `\n\n`;
+                    fetched++;
+                } catch (e) {
+                    allText += `\n[ERROR fetching post: ${p.title}]\n\n`;
+                }
+
+                // Rate limit: wait between requests
+                await new Promise(r => setTimeout(r, 2000));
+            }
+
+            after = listData.data.after;
+            if (!after) break;
+        }
+
+        // Download
+        downloadText(allText, `reddit-r-${sub}-${sort}-${fetched}posts.txt`);
+        setStatus('subredditStatus', 'success',
+            `Done! Scraped ${fetched} posts from r/${sub}. File downloaded.`);
+        document.getElementById('subredditCount').textContent =
+            `${fetched} posts scraped and downloaded.`;
+
+    } catch (e) {
+        setStatus('subredditStatus', 'error', `Error: ${e.message}`);
+    }
+
+    scraping = false;
+    document.getElementById('stopBtn').style.display = 'none';
+}
+
+function stopScraping() {
+    scraping = false;
+    setStatus('subredditStatus', 'loading', 'Stopping after current post...');
+}
+
+// Method 4: Bulk URL fetch
+async function fetchBulkPosts() {
+    const urls = document.getElementById('bulkUrls').value
+        .split('\n')
+        .map(u => u.trim())
+        .filter(u => u && u.includes('reddit.com'));
+
+    if (urls.length === 0) {
+        setStatus('bulkStatus', 'error', 'Please enter at least one Reddit URL');
+        return;
+    }
+
+    setStatus('bulkStatus', 'loading', `Fetching ${urls.length} posts...`);
+
+    let allText = `BULK FETCH: ${urls.length} posts\n`;
+    allText += `DATE: ${new Date().toISOString().slice(0, 10)}\n`;
+    allText += `${'='.repeat(60)}\n\n`;
+
+    let success = 0;
+    for (let i = 0; i < urls.length; i++) {
+        setStatus('bulkStatus', 'loading', `Fetching post ${i + 1}/${urls.length}...`);
+        try {
+            const result = await fetchRedditPost(urls[i]);
+            allText += `\n${'#'.repeat(60)}\n`;
+            allText += `POST ${i + 1}\n`;
+            allText += `${'#'.repeat(60)}\n`;
+            allText += result.text;
+            allText += `\n\n`;
+            success++;
+        } catch (e) {
+            allText += `\n[ERROR: ${urls[i]} - ${e.message}]\n\n`;
+        }
+        // Rate limit
+        await new Promise(r => setTimeout(r, 2000));
+    }
+
+    downloadText(allText, `reddit-bulk-${success}posts.txt`);
+    setStatus('bulkStatus', 'success', `Done! ${success}/${urls.length} posts fetched. File downloaded.`);
+}
+</script>
+</body>
+</html>

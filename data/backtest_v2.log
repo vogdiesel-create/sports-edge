@@ -1,0 +1,145 @@
+Loaded 3532 unique NHL games
+Date range: 2021-10-13 to 2025-06-18
+  Dixon-Coles: fit on 200 games, 32 teams, home_adv=0.160, rho=0.3500
+  Dixon-Coles: fit on 250 games, 32 teams, home_adv=0.171, rho=0.3500
+  Dixon-Coles: fit on 300 games, 32 teams, home_adv=0.141, rho=0.3500
+  Dixon-Coles: fit on 350 games, 32 teams, home_adv=0.143, rho=0.3500
+  Dixon-Coles: fit on 400 games, 32 teams, home_adv=0.115, rho=0.3500
+  Dixon-Coles: fit on 450 games, 32 teams, home_adv=0.100, rho=0.3500
+  500/3532 processed, 299 bets so far...
+  Dixon-Coles: fit on 500 games, 32 teams, home_adv=0.098, rho=0.3500
+  Dixon-Coles: fit on 550 games, 32 teams, home_adv=0.128, rho=0.3500
+  Dixon-Coles: fit on 600 games, 32 teams, home_adv=0.095, rho=0.3500
+  Dixon-Coles: fit on 650 games, 32 teams, home_adv=0.099, rho=0.3500
+  Dixon-Coles: fit on 700 games, 33 teams, home_adv=0.073, rho=-0.2258
+  Dixon-Coles: fit on 750 games, 33 teams, home_adv=-0.003, rho=-0.1849
+  Dixon-Coles: fit on 800 games, 33 teams, home_adv=0.347, rho=0.3500
+  Dixon-Coles: fit on 850 games, 33 teams, home_adv=0.047, rho=0.3500
+  Dixon-Coles: fit on 900 games, 33 teams, home_adv=0.046, rho=0.3500
+  Dixon-Coles: fit on 950 games, 33 teams, home_adv=0.035, rho=0.3500
+  1000/3532 processed, 799 bets so far...
+  Dixon-Coles: fit on 1000 games, 33 teams, home_adv=0.032, rho=0.3500
+  Dixon-Coles: fit on 1050 games, 33 teams, home_adv=0.042, rho=0.3500
+  Dixon-Coles: fit on 1100 games, 33 teams, home_adv=0.032, rho=0.3500
+  Dixon-Coles: fit on 1150 games, 33 teams, home_adv=0.054, rho=0.3500
+  Dixon-Coles: fit on 1200 games, 33 teams, home_adv=0.068, rho=0.3500
+  Dixon-Coles: fit on 1250 games, 33 teams, home_adv=0.068, rho=0.3500
+  Dixon-Coles: fit on 1300 games, 33 teams, home_adv=0.067, rho=0.3500
+  Dixon-Coles: fit on 1350 games, 33 teams, home_adv=0.045, rho=0.3500
+  Dixon-Coles: fit on 1400 games, 33 teams, home_adv=0.047, rho=0.3500
+  Dixon-Coles: fit on 1450 games, 33 teams, home_adv=0.061, rho=0.3500
+  1500/3532 processed, 1298 bets so far...
+  Dixon-Coles: fit on 1500 games, 33 teams, home_adv=0.055, rho=0.3500
+  Dixon-Coles: fit on 1550 games, 33 teams, home_adv=0.060, rho=0.3500
+  Dixon-Coles: fit on 1600 games, 33 teams, home_adv=0.048, rho=0.3500
+  Dixon-Coles: fit on 1650 games, 33 teams, home_adv=0.044, rho=0.3500
+  Dixon-Coles: fit on 1700 games, 33 teams, home_adv=0.048, rho=0.3500
+  Dixon-Coles: fit on 1750 games, 33 teams, home_adv=0.050, rho=0.3500
+  Dixon-Coles: fit on 1800 games, 33 teams, home_adv=0.070, rho=0.3500
+  Dixon-Coles: fit on 1850 games, 33 teams, home_adv=0.082, rho=0.3500
+  Dixon-Coles: fit on 1900 games, 33 teams, home_adv=0.085, rho=0.3500
+  Dixon-Coles: fit on 1950 games, 33 teams, home_adv=0.084, rho=0.3500
+  2000/3532 processed, 1797 bets so far...
+  Dixon-Coles: fit on 2000 games, 33 teams, home_adv=0.090, rho=0.3500
+  Dixon-Coles: fit on 2050 games, 33 teams, home_adv=0.085, rho=0.3500
+  Dixon-Coles: fit on 2100 games, 33 teams, home_adv=0.084, rho=0.3500
+  Dixon-Coles: fit on 2150 games, 33 teams, home_adv=0.078, rho=0.3500
+  Dixon-Coles: fit on 2200 games, 34 teams, home_adv=0.018, rho=0.3500
+  Dixon-Coles: fit on 2250 games, 34 teams, home_adv=0.030, rho=0.3500
+  Dixon-Coles: fit on 2300 games, 34 teams, home_adv=0.024, rho=0.3500
+  Dixon-Coles: fit on 2350 games, 34 teams, home_adv=0.062, rho=0.3500
+  Dixon-Coles: fit on 2400 games, 34 teams, home_adv=0.022, rho=0.3500
+  Dixon-Coles: fit on 2450 games, 34 teams, home_adv=0.049, rho=0.3500
+  2500/3532 processed, 2297 bets so far...
+  Dixon-Coles: fit on 2500 games, 34 teams, home_adv=0.064, rho=0.3500
+  Dixon-Coles: fit on 2550 games, 34 teams, home_adv=0.054, rho=0.3500
+  Dixon-Coles: fit on 2600 games, 34 teams, home_adv=0.061, rho=0.3500
+  Dixon-Coles: fit on 2650 games, 34 teams, home_adv=0.049, rho=0.3500
+  Dixon-Coles: fit on 2700 games, 34 teams, home_adv=0.054, rho=0.3500
+  Dixon-Coles: fit on 2750 games, 34 teams, home_adv=0.068, rho=0.3500
+  Dixon-Coles: fit on 2800 games, 34 teams, home_adv=0.057, rho=0.3500
+  Dixon-Coles: fit on 2850 games, 34 teams, home_adv=0.054, rho=0.3500
+  Dixon-Coles: fit on 2900 games, 34 teams, home_adv=0.062, rho=0.3500
+  Dixon-Coles: fit on 2950 games, 34 teams, home_adv=0.076, rho=0.3500
+  3000/3532 processed, 2796 bets so far...
+  Dixon-Coles: fit on 3000 games, 34 teams, home_adv=0.096, rho=0.3500
+  Dixon-Coles: fit on 3050 games, 34 teams, home_adv=0.096, rho=0.3500
+  Dixon-Coles: fit on 3100 games, 34 teams, home_adv=0.105, rho=0.3500
+  Dixon-Coles: fit on 3150 games, 34 teams, home_adv=0.096, rho=0.3500
+  Dixon-Coles: fit on 3200 games, 34 teams, home_adv=0.119, rho=0.3500
+  Dixon-Coles: fit on 3250 games, 34 teams, home_adv=0.121, rho=0.3500
+  Dixon-Coles: fit on 3300 games, 34 teams, home_adv=0.142, rho=0.3500
+  Dixon-Coles: fit on 3350 games, 34 teams, home_adv=0.137, rho=0.3500
+  Dixon-Coles: fit on 3400 games, 34 teams, home_adv=0.149, rho=0.3500
+  Dixon-Coles: fit on 3450 games, 34 teams, home_adv=0.132, rho=0.3500
+  3500/3532 processed, 3295 bets so far...
+  Dixon-Coles: fit on 3500 games, 34 teams, home_adv=0.146, rho=0.3500
+
+  Saved 3327 bets to /home/aiciv/sports-edge/data/backtest_results/all_bets.csv
+
+============================================================
+  NHL BACKTEST vs REAL PINNACLE CLOSING LINES
+============================================================
+  Games processed: 3332
+  No closing data: 0
+  No prediction: 0
+  No edge found: 5
+  Total bets with any edge: 3327
+
+   Thresh   Bets     W     L     WR     Profit      ROI     CLV
+  ----------------------------------------------------------
+       1%   3080  1493  1439  50.9% $    -3337   -1.14%   +9.6%
+       3%   2582  1247  1196  51.0% $    -2329   -0.95%  +11.1%
+       5%   2144  1027   996  50.8% $    -3123   -1.54%  +12.5%
+       7%   1720   829   786  51.3% $     -565   -0.35%  +14.2%
+      10%   1215   600   538  52.7% $    +2742   +2.41%  +16.5%
+      15%    576   286   253  53.1% $    +1639   +3.04%  +21.2%
+      20%    250   124   106  53.9% $    +1065   +4.63%  +26.6%
+
+  --- Detailed at 3% threshold ---
+  Record: 1247W-1196L-139P (51.0% WR)
+  Total wagered: $244,300
+  Total profit: $-2,329.00
+  ROI: -0.95%
+  Average CLV: +11.08%
+  OVER bets: 652 (313W, $-2669.20)
+  UNDER bets: 1930 (934W, $+340.20)
+
+  --- UNDER-only at various thresholds ---
+   Thresh   Bets     W     L     WR     Profit      ROI
+  --------------------------------------------------
+       1%   2203  1072  1002  51.7% $     +494   +0.24%
+       3%   1930   934   874  51.7% $     +340   +0.19%
+       5%   1656   789   758  51.0% $    -1745   -1.13%
+       7%   1383   662   625  51.4% $     -209   -0.16%
+      10%   1007   491   442  52.6% $    +2129   +2.28%
+      15%    507   254   218  53.8% $    +2171   +4.60%
+      20%    217   108    90  54.5% $    +1169   +5.90%
+
+  Monthly Breakdown (at 3%):
+    2021-11: 106B 60W (57%) $+1113 CLV +11.3%
+    2021-12: 131B 69W (53%) $+604 CLV +11.1%
+    2022-01: 161B 84W (52%) $+996 CLV +11.2%
+    2022-02: 28B 15W (54%) $+243 CLV +11.4%
+    2022-03: 2B 0W (0%) $-200 CLV +21.2%
+    2023-10: 127B 63W (50%) $+92 CLV +21.9%
+    2023-11: 178B 80W (45%) $-958 CLV +14.5%
+    2023-12: 178B 84W (47%) $-194 CLV +10.7%
+    2024-01: 172B 89W (52%) $+907 CLV +10.6%
+    2024-02: 127B 59W (46%) $-670 CLV +10.4%
+    2024-03: 178B 89W (50%) $+554 CLV +9.5%
+    2024-04: 115B 53W (46%) $-467 CLV +9.4%
+    2024-05: 36B 12W (33%) $-1153 CLV +7.6%
+    2024-06: 8B 4W (50%) $+7 CLV +7.6%
+    2024-10: 133B 58W (44%) $-1051 CLV +12.2%
+    2024-11: 168B 83W (49%) $+701 CLV +11.2%
+    2024-12: 166B 74W (45%) $-1099 CLV +10.0%
+    2025-01: 172B 97W (56%) $+2398 CLV +9.5%
+    2025-02: 85B 38W (45%) $-838 CLV +8.2%
+    2025-03: 162B 78W (48%) $-384 CLV +8.5%
+    2025-04: 121B 50W (41%) $-1798 CLV +8.9%
+    2025-05: 22B 8W (36%) $-634 CLV +10.1%
+    2025-06: 6B 0W (0%) $-500 CLV +14.9%
+
+  Results saved to /home/aiciv/sports-edge/data/backtest_results/
+============================================================

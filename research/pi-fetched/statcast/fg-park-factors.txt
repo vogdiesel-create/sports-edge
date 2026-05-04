@@ -1,0 +1,193 @@
+Park Factors | Sabermetrics Library
+<
+! -- END HEAD -->
+<! -- END HEADER -->
+Intro
+Features
+Offense
+Complete List (Offense)
+OBP
+OPS and OPS+
+wOBA
+wRC and wRC+
+wRAA
+Off
+BsR
+UBR
+wSB
+wGDP
+BABIP
+ISO
+HR/FB
+Spd
+Pull%/Cent%/Oppo%
+Soft%/Med%/Hard%
+GB%, LD%, FB%
+K% and BB%
+Plate Discipline (O-Swing%, Z-Swing%, etc.)
+Pitch Type Linear Weights
+Pace
+Defense
+Overview
+Def
+UZR
+DRS
+Defensive Runs Saved – 2020 Update
+Inside Edge Fielding
+Catcher Defense
+FSR
+RZR
+TZ / TZL
+Pitching
+Complete List (Pitching)
+PitchingBot Pitch Modeling Primer
+Stuff+, Location+, and Pitching+ Primer
+ERA
+WHIP
+FIP
+xFIP
+SIERA
+Strikeout and Walk Rates
+Pull%/Cent%/Oppo%
+Soft%/Med%/Hard%
+GB%, LD%, FB%
+BABIP
+HR/FB
+LOB%
+Pitch Type Linear Weights
+SD / MD
+ERA- / FIP- / xFIP-
+Plate Discipline (O-Swing%, Z-Swing%, etc.)
+Pace
+PITCHF/x
+What is PITCHF/x?
+Pitch Type Abbreviations & Classifications
+Heat Maps
+Common Mistakes
+PITCHf/x Resources
+WE/RE/LI
+RE24
+Win Expectancy
+WPA
+LI
+WPA/LI
+Clutch
+Principles
+DIPS
+Regression toward the Mean
+Replacement Level
+Sample Size
+Splits
+Projection Systems
+Linear Weights
+Counting vs. Rate Statistics
+Park Factors
+Park Factors – 5 Year Regressed
+Positional Adjustment
+Aging Curve
+League Equivalencies
+Pythagorean Win-Loss
+Luck
+WAR
+What is WAR?
+WAR for Position Players
+WAR for Pitchers
+FDP
+fWAR, rWAR, and WARP
+WAR Misconceptions
+Business
+Park Factors
+by
+Piper Slowinski
+February 27, 2010
+Click for an explanation of how FanGraphs calculates its
+Park Factors
+.
+One of the things that makes baseball interesting is that none of the playing fields are the same. In the NHL, NBA, and NFL there are certain things that might make certain stadiums feel different than one another, but the measurements of each are the same. In baseball, the bases are all 90 feet apart and the mound is at regulation length, but the fences vary by distance and height. You can travel to all 30 parks and never see the same same dimensions twice, but that also poses a problem when trying to evaluate the game because there’s an additional variable influencing the outcome of every plate appearance.
+If we want to properly evaluate players and teams we need to have some way of adjusting for the fact that every park is different. More specifically, each park plays differently for reasons beyond the outfield dimensions. If you pitch at Coors Field in an identical manner to identical hitters as you pitch to at AT&T Park, your results will be different due to the ballpark. We want to try to control for this when we create statistics, so we apply something called a park factor to even out the differences.
+These park factors are imperfect for a variety of reasons, but what they’re after is on the money. The parks influence the game and we want to strip that out of our evaluation of individuals.
+How Parks Vary
+It’s not just the dimensions. The dimensions matter, obviously, but deep fences don’t automatically make a pitcher’s park and short porches don’t always favor hitters. In addition to the dimensions, the weather matters, the air density/quality matters, and topology of the surrounding area matters. The ball tends to travel better in warm air and thin air, and the surrounding buildings and ballpark structures can influence how well the ball carries.
+Petco Park, for example, has a marine layer that doesn’t let the ball fly. You probably know that Denver is way above sea level, making the Coors Field air thin and ripe for plenty of carry. Beyond that, the arrangement of the stands can influence how well the ball flies and the average temperature certainly affects the game play.
+So while “big” and “pitcher’s park” are often used synonymously, there is more to it than that.
+The Noble Goal
+If you had the power to do so, you’d want to know how every single plate appearance would play out in all 30 MLB parks. If it turned into a single in the park of interest and then went for a single in 25 other parks, an out in three, and a double in one, you’d have a good sense of the way the parks played. The park that allowed the double would be a hitter’s park and the ones that created outs would be more pitcher friendly. But unfortunately, we don’t have that kind of data.
+We want to know how parks influence each moment of the game, but we simply don’t have granular enough data to really get there. A ball hit at 15 degrees directly over the shortstop while traveling at 93 miles per hour will travel how far and land where? That’s basically what we want to know for every possible angle and velocity, but we just don’t have the data and we don’t have it for every type of weather in every park.
+Instead, we have to settle for approximations.
+Park Factors, As They Are
+There are many different park factors out there. We have some. Baseball-Reference has different ones. Stat Corner has more. Individuals create some. It goes on and on. We use 5-year regressed park factors and you can dive into our method
+here
+.
+At the end of whatever process you choose, you wind up with a number that communicates how much more offense is produced in that park than you would expect to be produced in an average one, and when we display them on the site, we cut them in half so that you can more easily apply them to player statistics.
+A league average park factor is set to 100 and a 105 park factor means that park produces run scoring that is 10% higher than average (halved so 110 becomes 105 in 81 games). We also provide park factors for each type of hit and batted ball, and for handedness, although we use the general ones when making park corrections.
+For example, if a player has a .340 wOBA, but their home park is hitter friendly, they we need to adjust their wOBA down as a result. We don’t calculate a wOBA+, but some do. Instead, we jump over to
+wRC+
+for our park adjusted offensive metric. This stat, among other things, applies a park adjustment to the player’s batting line. Stats like ERA- do this as well, and pretty much any time you see a +/- stat, it’s park adjusted.
+And our park factors are applied with the additive method, meaning that we’re essentially adding or subtracting a little production based on how much offense is affected by the park in our estimate, but remember that we only apply half of the full park factor because a player only plays at home for half their games. We assume the rest are played in a pretty average setting.
+What Park Factors Get “Wrong”
+As I said before, park factors aren’t perfect for a variety of reasons. They do a nice job on average, but in specific cases they fail to properly capture the nuances of the game. For example, Target Field is actually a slightly above average park for hitters. It’s on par with Yankee Stadium in fact, despite the much different dimensions. However, if you’re talking specifically about left-handed home run power, Target Field is a desert and Yankee Stadium is an oasis.
+The problem with park factors as they stand right now is that while we’re trying to adjust for the run environment, the run environment is difficult to capture is a single number. Lefties and righties experience the world differently, but so do ground ball/fly ball guys and guys with speed and guys without.
+It’s safe to say that AT&T Park is a bad place to hit and Coors Field is a good place to hit, but parks don’t affect every player evenly and our park factors sort of assume that they do.
+In the future, you could imagine a world in which we could know what the average outcome of a batted ball might be (i.e. the average outcome across all 30 parks of that swing is .25 singles, .15 doubles and so on) so that we can compare the observed outcome to the expected outcome, but we aren’t there yet.
+Where That Leaves Us
+This isn’t to say you should ignore park factors. The park factors we have and use are much better than pretending all 30 parks play evenly, but you have to be aware that in some cases the numbers we use aren’t going to make the right corrections. For example, a right-handed hitter who spends 81 games at PNC Park is going to hit fewer HR than if he played at Great American Ballpark on average, but if it’s a righty who happens to have more power the other way that to his pull side, the PNC park factor is actually going to overcompensate.
+It’s a tricky business and one that requires caution. You really just need to be careful and to look closely if you think something looks funny. The parks play differently and we need to pay attention to that, but we also have a long way to go before our estimates are perfect and we can say for sure exactly how much of a boost or deduction is necessary.
+Further Reading
+5 Year Regressed Park Factors
+The Beginner’s Guide to Understanding Park Factors – FanGraphs
+Splits
+League Equivalencies
+Piper was the editor-in-chief of
+DRaysBay
+and the keeper of the
+FanGraphs Library
+.
+Login
+Please login to comment
+3
+Comments
+Oldest
+Newest
+Most Voted
+Inline Feedbacks
+View all comments
+Tom Tomsick
+15 years ago
+I think the historical impact of foul territory as a park factor affecting SO by increasing or decreasing foul balls caught on the field (and opportunities to continue an at-bat, and hit a groundball, or a flyout, or a hit, or a BB)  has been underestimated.  Certainly underquantified.  My post on facebook quantifies the effect from 1954-2000 and makes a strong point that it might have contributed to the SO peak of the 90’s.  Foul territory and not steroids, or both?!
+http://www.facebook.com/photo.php?fbid=191364250889624&set=a.187432391282810.54968.187430347949681#!/album.php?fbid=187432391282810&id=187430347949681&aid=54968
+0
+studes
+14 years ago
+Steve, is there any information regarding how Fangraphs derives its Park Factors?
+1
+studes
+14 years ago
+Steve, thanks for the extra info about how Fangraphs calculates its Park Factors.  Does this mean that Fangraphs updates its factors throughout the year, incorporating the current year’s data?  How does it factor in the shorter current season?  Does it use a different regression factor, based on how long the current season has been?
+0
+Insert
+You are going to send email to
+Send
+Move Comment
+Move
+Updated: Monday, April 13, 2026 11:35 PM ET
+Updated: 4/13/2026 11:35 PM ET
+@fangraphs
+-
+Contact Us
+-
+Advertise
+-
+Terms of Service
+-
+Privacy Policy
+All major league baseball data including pitch type, velocity, batted ball location,
+        and play-by-play data provided by Sports Info Solutions.
+Major League and Minor League Baseball data provided by Major League Baseball.
+Mitchel Lichtman
+All UZR (ultimate zone rating) calculations are provided courtesy of Mitchel Lichtman.
+TangoTiger.com
+All Win Expectancy, Leverage Index, Run Expectancy, and Fans Scouting Report data licenced from TangoTiger.com
+Retrosheet.org
+Play-by-play data prior to 2002 was obtained free of charge from and is copyrighted
+        by Retrosheet.
+<! -- END FOOTER -->

@@ -1,0 +1,33 @@
+=== Sports Edge Analyst Session: postmortem ===
+=== 2026-04-25 05:00 UTC ===
+
+Post-game review complete. Here's the summary:
+
+## Apr 24 Results
+
+**Game Model**: 0W-1L, -$144.81
+- MIN @ TB UNDER 7.5 lost (actual: 8 runs). 5th straight loss.
+
+**K-Props**: 7W-2L, +$369.55
+- Outstanding day. K-props continue to be the moneymaker.
+
+**Net**: +$224.74 on the day.
+
+## Cumulative Portfolio
+
+| Model | Record | PnL | ROI |
+|-------|--------|-----|-----|
+| Game Totals | 21W-24L-1P | -$317.84 | -5.9% |
+| K-Props | 27W-18L | +$503.24 | +12.7% |
+| **Combined** | **48W-42L-1P** | **+$185.40** | **+2.1%** |
+
+## Critical Finding
+
+**K-props are the entire alpha.** Game model is underwater with bad CLV (-0.37% avg, only 34% positive). We're systematically buying worse odds than closing.
+
+Morning priorities:
+1. Run Apr 25 scans (especially K-props)
+2. Diagnose the CLV problem on game totals
+3. Consider pausing or tightening game model until CLV improves
+
+=== Session Complete: 2026-04-25 05:03 UTC ===

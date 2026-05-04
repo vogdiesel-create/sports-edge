@@ -1,0 +1,26 @@
+# r/algobetting search: K prop strikeout
+# Query: strikeout+OR+K+prop+model
+# Results: 2
+
+## [10 pts, 11 comments] Sharing my Monte Carlo MLB prop model architecture + 2024 backtest calibration results (12,847 predictions)
+Author: gmoneycinco | URL: /r/algobetting/comments/1s2550e/sharing_my_monte_carlo_mlb_prop_model/
+Been lurking here for a while and saw the great discussion on PA-level K calibration recently. Figured I'd share what I've been building since it's directly relevant to this community.
+
+
+
+\*\*The model\*\*
+
+
+
+I built a Monte Carlo simulation engine for MLB player props. The core idea: simulate every plate appearance of every game 5,000 times using a LightGBM probability model trained on \~1M plate appearances. 8 outcome classes per PA (single, double, triple, HR, walk, HBP, strikeout, other out)
+
+---
+
+## [10 pts, 5 comments] Pitcher K Props, results
+Author: Bits_Bytes_Bucks | URL: /r/algobetting/comments/1702odw/pitcher_k_props_results/
+I just finished archiving off the results of the 2023 MLB season "pitcher K props" bets. I'm sharing some of my approach and the outcomes in the interests of the algo community, in case anyone feels like building off of this for next season.
+
+I used Random Forest regression to predict a target variable instead of using binary classification to predict the probability of winning the O/U bet. I'll very likely use a binary classification model next year, but I realized too late that I hadn't been t
+
+---
+

@@ -1,0 +1,70 @@
+============================================================
+  Pinnacle Historical Odds Downloader
+  2026-04-14 20:01:02
+  Filter: NHL only
+============================================================
+  API connection OK
+
+========================================
+  NHL
+========================================
+    2023-10-01 -> 2023-11-01: 304 raw, 140 real games
+    2023-11-01 -> 2023-12-01: 458 raw, 215 real games
+    2023-12-01 -> 2024-01-01: 498 raw, 234 real games
+    2024-01-01 -> 2024-02-01: 462 raw, 216 real games
+    2024-02-01 -> 2024-03-01: 377 raw, 177 real games
+    2024-03-01 -> 2024-04-01: 500 raw, 236 real games
+    2024-04-01 -> 2024-05-01: 371 raw, 171 real games
+    2024-05-01 -> 2024-06-01: 135 raw, 74 real games
+    2024-06-01 -> 2024-07-01: 21 raw, 12 real games
+    2024-10-01 -> 2024-11-01: 192 raw, 168 real games
+    2024-11-01 -> 2024-12-01: 261 raw, 231 real games
+    2024-12-01 -> 2025-01-01: 264 raw, 236 real games
+    2025-01-01 -> 2025-02-01: 268 raw, 236 real games
+    2025-02-01 -> 2025-03-01: 147 raw, 130 real games
+    2025-03-01 -> 2025-04-01: 269 raw, 238 real games
+    2025-04-01 -> 2025-05-01: 207 raw, 173 real games
+    2025-05-01 -> 2025-06-01: 64 raw, 49 real games
+    2025-06-01 -> 2025-07-01: 6 raw, 6 real games
+  NHL: 4804 raw fixtures -> 2942 real completed games
+
+  Downloading closing odds for 2942 NHL games...
+  747 games already in DB, will skip
+    100/2942 (3%) - 1466 stored, 0 skipped, 100 API calls
+    200/2942 (7%) - 2919 stored, 0 skipped, 200 API calls
+    300/2942 (10%) - 4382 stored, 0 skipped, 300 API calls
+    400/2942 (14%) - 5843 stored, 0 skipped, 400 API calls
+    500/2942 (17%) - 7303 stored, 0 skipped, 500 API calls
+    600/2942 (20%) - 8745 stored, 0 skipped, 600 API calls
+    700/2942 (24%) - 10173 stored, 0 skipped, 700 API calls
+    800/2942 (27%) - 11630 stored, 0 skipped, 800 API calls
+    900/2942 (31%) - 12883 stored, 0 skipped, 900 API calls
+    1000/2942 (34%) - 14097 stored, 0 skipped, 1000 API calls
+    Rate limited, waiting 12837s...
+    1100/2942 (37%) - 15288 stored, 0 skipped, 1100 API calls
+    1200/2942 (41%) - 16510 stored, 0 skipped, 1200 API calls
+    1300/2942 (44%) - 17722 stored, 0 skipped, 1300 API calls
+    1500/2942 (51%) - 19835 stored, 0 skipped, 1500 API calls
+    1600/2942 (54%) - 21071 stored, 0 skipped, 1600 API calls
+    1700/2942 (58%) - 22215 stored, 0 skipped, 1700 API calls
+    1800/2942 (61%) - 23454 stored, 0 skipped, 1800 API calls
+    1900/2942 (65%) - 24652 stored, 0 skipped, 1900 API calls
+    2000/2942 (68%) - 25851 stored, 0 skipped, 2000 API calls
+    2100/2942 (71%) - 27010 stored, 0 skipped, 2100 API calls
+    2200/2942 (75%) - 28251 stored, 0 skipped, 2200 API calls
+    2300/2942 (78%) - 29498 stored, 0 skipped, 2300 API calls
+    2400/2942 (82%) - 30730 stored, 0 skipped, 2400 API calls
+    2500/2942 (85%) - 31977 stored, 0 skipped, 2500 API calls
+    2600/2942 (88%) - 33216 stored, 0 skipped, 2600 API calls
+    2700/2942 (92%) - 34447 stored, 0 skipped, 2700 API calls
+    2800/2942 (95%) - 35672 stored, 0 skipped, 2800 API calls
+    2900/2942 (99%) - 36904 stored, 0 skipped, 2900 API calls
+  Done: 37311 records stored, 0 skipped, 2942 API calls used
+
+============================================================
+  NHL: 3534 games, 20342 total line records
+  MLB: 0 games, 0 total line records
+
+  37311 new records stored (2942 API calls)
+  Data in /home/aiciv/sports-edge/data/game_lines.db
+============================================================

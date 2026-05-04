@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-04-30T20:16:58.084738+00:00",
+  "bankroll": 4996.949999999998,
+  "total_picks": 1,
+  "tier_counts": {
+    "S": 0,
+    "A": 1,
+    "B": 0
+  },
+  "total_exposure": 149.91,
+  "picks": [
+    {
+      "source": "mlb_feature",
+      "sport": "MLB",
+      "game": "TOR @ MIN",
+      "home_team": "MIN",
+      "away_team": "TOR",
+      "side": "OVER",
+      "market_type": "totals",
+      "market_line": 7.5,
+      "odds": -117,
+      "our_prob": 0.6354,
+      "edge": 0.1166,
+      "model_confidence": 0.6354,
+      "tier": "A",
+      "level1_confirms": false,
+      "level1_detail": null,
+      "side_penalty": false,
+      "kelly_pct": 3.0,
+      "wager": 149.91
+    }
+  ]
+}

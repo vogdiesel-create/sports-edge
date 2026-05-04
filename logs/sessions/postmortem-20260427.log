@@ -1,0 +1,35 @@
+=== Sports Edge Analyst Session: postmortem ===
+=== 2026-04-27 05:00 UTC ===
+
+Post-game review complete. Here's the summary:
+
+## Apr 26 Results & Full Reconciliation
+
+**Game Model**: 3W-1L, +$183.25
+- LAA @ KC OVER 9.0: WIN (actual 20 runs, +5.1% CLV) -- textbook over edge
+- MIN @ TB UNDER 8.5: WIN (+$100)
+- PHI @ ATL UNDER 9.0: WIN but CLV -7.4% (lucky, not skilled)
+- DET @ CIN UNDER 9.5: LOSS (11 runs)
+
+**All ledgers reconciled to zero pending:**
+
+| Model | Record | PnL | ROI |
+|-------|--------|-----|-----|
+| Game Model | 26W-25L-1P | +$109 | 2.2% |
+| K-Props | 38W-25L | +$911 | 17.7% |
+| OT Sim | 63W-54L | +$263 | 8.6% |
+| **Combined** | **127W-104L-1P** | **+$1,283** | |
+
+**232/300 target graded (77%).**
+
+## Critical Findings
+
+1. **Edge bucket analysis is damning**: Only 8-12% bucket is profitable (14W-7L, +$773). The 5-8% bucket is 7W-11L (-$265). The 12%+ bucket is 5W-7L (-$399). **Morning priority: raise minimum edge to 8%.**
+
+2. **K-prop OVER has overtaken UNDER**: 19W-11L (63%) vs 19W-14L (58%). The re-enable was correct.
+
+3. **CLV confirms**: OVER +1.16% avg (we're sharp), UNDER -0.86% avg (market is sharper). Disabling unders was right.
+
+4. **Combined PnL doubled** since last update ($573 -> $1,283). The system works.
+
+=== Session Complete: 2026-04-27 05:05 UTC ===

@@ -1,0 +1,49 @@
+
+=== PROP GRADING ===
+  Logged 21 new prop picks (267 total)
+  Loading player stats...
+    NHL: 0 players
+    MLB: 0 players
+
+  PROP GRADING RESULTS
+  ==================================================
+  Graded: 0 | W: 0 L: 0
+
+  Running bankroll: $1000.00
+  Total prop bets: 0
+  No prop bets graded yet.
+
+=== GAME LINE GRADING ===
+
+Loading completed games...
+Found 1 completed games
+
+Grading 18 picks...
+============================================================
+  ? N.Y. Rangers @ Florida - total over 6.5 @ unibet: Game not found/incomplete
+  W Winnipeg @ Utah | total under 5.5 @ sportsbetting | $+23.00
+    Total: 4 vs line 5.5 (under)
+    Score: 0-4
+  ? Washington @ Columbus - total over 6.5 @ sportsbetting: Game not found/incomplete
+  ? Carolina Hurricanes @ Philadelphia Flyers - total under 5.5 @ unibet: Game not found/incomplete
+  ? Carolina Hurricanes @ Philadelphia Flyers - total under 5.5 @ draftkings: Game not found/incomplete
+  ? AZ @ BAL - Total Hits +120: Game not found/incomplete
+  ? AZ @ BAL - Total Hits +110: Game not found/incomplete
+  ? MIA @ ATL - Player to hit a RBI +175: Game not found/incomplete
+  ? HOU @ SEA - Total Hits -105: Game not found/incomplete
+  ? CHC @ PHI - Total Hits +135: Game not found/incomplete
+  ? BOS @ MIN - Player to hit a RBI +270: Game not found/incomplete
+  ? CHC @ PHI - Total Bases -185: Game not found/incomplete
+  ? WSH @ PIT - Player to hit a RBI +240: Game not found/incomplete
+  ? LAA @ NYY - Total Strikeouts +105: Game not found/incomplete
+  ? LAA @ NYY - Total Hits +115: Game not found/incomplete
+  ? Orlando Magic @ Philadelphia 76ers - UNDER_PRA 39.5: Game not found/incomplete
+  ? Orlando Magic @ Philadelphia 76ers - UNDER_PRA 39.5: Game not found/incomplete
+  ? Orlando Magic @ Philadelphia 76ers - UNDER_PR 33.5: Game not found/incomplete
+
+============================================================
+  GRADING SUMMARY
+  Graded: 1/18 | W: 1 L: 0
+  WR: 100% | P&L: $+23.00
+  Running bankroll: $1027.00
+  Total ledger bets: 5

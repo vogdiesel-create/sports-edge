@@ -1,0 +1,26 @@
+=== Sports Edge Analyst Session: postmortem ===
+=== 2026-04-18 05:00 UTC ===
+
+Game model bankroll is correct. Post-game review complete. Here's the summary:
+
+---
+
+## Apr 17 Post-Game Review
+
+**Game Model**: 1W-4L-1P, -$335.61 (worst day). Now 17-16-1, +$98.74.
+**K-Props**: 7W-2L, +$221.19 (best day). Now 13-5, +$369.74.
+**Combined PnL**: +$468.48 (down from $680 in stale core.json).
+
+**Critical finding**: Moneyline AWAY bets are 0-4 (-$452.41) despite backtest showing +4.1% ROI. Without moneylines, game model totals are 15-12, +$338.71 -- the model works on totals.
+
+**Core.json was severely stale** -- game model PnL was listed as +$531.90 when actual is +$98.74. Fixed.
+
+**Morning session priorities**:
+1. Disable moneyline scanning (focus on what's validated)
+2. Run Apr 18 scans
+3. Consider tightening K-prop OVER threshold (OVERs are 3-3 vs UNDERs 10-2)
+4. CLV deep-dive (avg CLV is -0.35%, only 39% positive)
+
+All state files updated. 52/200 bets graded (26%).
+
+=== Session Complete: 2026-04-18 05:04 UTC ===

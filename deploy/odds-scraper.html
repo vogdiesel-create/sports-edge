@@ -1,0 +1,1567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sports Edge - Multi-Book Odds Scraper</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: #0a0e17;
+  color: #e0e6ed;
+  min-height: 100vh;
+}
+.app { max-width: 1400px; margin: 0 auto; padding: 20px; }
+h1 { font-size: 24px; color: #00d4aa; margin-bottom: 4px; }
+.subtitle { color: #6b7b8d; font-size: 13px; margin-bottom: 24px; }
+h2 { font-size: 18px; color: #fff; margin-bottom: 12px; }
+h3 { font-size: 15px; color: #8b9ab0; margin-bottom: 8px; }
+
+/* Layout */
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+.grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+@media (max-width: 900px) { .grid-2, .grid-3 { grid-template-columns: 1fr; } }
+
+/* Cards */
+.card {
+  background: #111827;
+  border: 1px solid #1e2a3a;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+.card.highlight { border-color: #00d4aa33; }
+
+/* Buttons */
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.btn-dk { background: #1a8754; color: #fff; }
+.btn-dk:hover:not(:disabled) { background: #22a366; }
+.btn-mgm { background: #c4a032; color: #000; }
+.btn-mgm:hover:not(:disabled) { background: #d4b042; }
+.btn-espn { background: #cc2222; color: #fff; }
+.btn-espn:hover:not(:disabled) { background: #dd3333; }
+.btn-fd { background: #1478c8; color: #fff; }
+.btn-fd:hover:not(:disabled) { background: #1a8ae0; }
+.btn-primary { background: #00d4aa; color: #0a0e17; }
+.btn-primary:hover:not(:disabled) { background: #00e8bc; }
+.btn-secondary { background: #1e2a3a; color: #8b9ab0; }
+.btn-secondary:hover:not(:disabled) { background: #2a3a4e; color: #fff; }
+.btn-danger { background: #cc2222; color: #fff; }
+.btn-danger:hover:not(:disabled) { background: #dd3333; }
+.btn-sm { padding: 6px 12px; font-size: 12px; }
+
+/* Inputs */
+textarea, select, input[type="number"] {
+  width: 100%;
+  padding: 10px 14px;
+  background: #0a0e17;
+  border: 1px solid #1e2a3a;
+  border-radius: 6px;
+  color: #e0e6ed;
+  font-family: 'SF Mono', 'Fira Code', monospace;
+  font-size: 13px;
+  resize: vertical;
+}
+textarea:focus, select:focus, input:focus { outline: none; border-color: #00d4aa; }
+select { font-family: -apple-system, sans-serif; cursor: pointer; }
+label { display: block; font-size: 12px; color: #6b7b8d; margin-bottom: 4px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+
+/* Status/Log */
+.log {
+  background: #060a12;
+  border: 1px solid #1e2a3a;
+  border-radius: 6px;
+  padding: 12px;
+  font-family: 'SF Mono', monospace;
+  font-size: 12px;
+  max-height: 200px;
+  overflow-y: auto;
+  line-height: 1.6;
+}
+.log-entry { margin-bottom: 2px; }
+.log-info { color: #6b7b8d; }
+.log-success { color: #00d4aa; }
+.log-warn { color: #ffaa00; }
+.log-error { color: #ff4444; }
+.log-data { color: #66aaff; }
+
+/* Tables */
+.table-wrap { overflow-x: auto; margin-top: 12px; }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+th {
+  background: #1a2332;
+  color: #8b9ab0;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 8px 10px;
+  text-align: left;
+  position: sticky;
+  top: 0;
+}
+td {
+  padding: 7px 10px;
+  border-bottom: 1px solid #1e2a3a14;
+}
+tr:hover { background: #111827; }
+.odds-cell { font-family: 'SF Mono', monospace; font-weight: 600; }
+.pos { color: #00d4aa; }
+.neg { color: #ff6b6b; }
+.edge-high { background: #00d4aa18; }
+
+/* Stats bar */
+.stats-bar {
+  display: flex;
+  gap: 24px;
+  padding: 12px 16px;
+  background: #111827;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+.stat { text-align: center; }
+.stat-val { font-size: 22px; font-weight: 700; color: #00d4aa; }
+.stat-label { font-size: 11px; color: #6b7b8d; text-transform: uppercase; }
+
+/* Badges */
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 600;
+}
+.badge-dk { background: #1a875422; color: #1a8754; }
+.badge-mgm { background: #c4a03222; color: #c4a032; }
+.badge-espn { background: #cc222222; color: #cc4444; }
+.badge-fd { background: #1478c822; color: #1478c8; }
+.badge-ev { background: #00d4aa22; color: #00d4aa; }
+.badge-edge { background: #ffaa0022; color: #ffaa00; }
+
+/* Tabs */
+.tabs { display: flex; gap: 2px; background: #111827; border-radius: 8px; padding: 3px; margin-bottom: 16px; }
+.tab {
+  flex: 1; padding: 10px; text-align: center; cursor: pointer;
+  border-radius: 6px; font-size: 13px; font-weight: 600;
+  color: #6b7b8d; transition: all 0.2s;
+}
+.tab.active { background: #1a2332; color: #00d4aa; }
+
+/* Section visibility */
+.section { display: none; }
+.section.active { display: block; }
+
+/* Spinner */
+.spinner {
+  display: inline-block;
+  width: 14px; height: 14px;
+  border: 2px solid #ffffff44;
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin 0.6s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* Tooltip */
+.help {
+  display: inline-block;
+  width: 16px; height: 16px;
+  background: #1e2a3a;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 16px;
+  font-size: 10px;
+  color: #6b7b8d;
+  cursor: help;
+  margin-left: 4px;
+}
+
+/* Sortable header */
+th.sortable { cursor: pointer; user-select: none; }
+th.sortable:hover { color: #00d4aa; }
+th.sort-asc::after { content: ' ^'; }
+th.sort-desc::after { content: ' v'; }
+</style>
+</head>
+<body>
+<div class="app">
+
+<h1>Sports Edge -- Multi-Book Odds Scraper</h1>
+<p class="subtitle">Client-side prop odds scraping, devigging, and +EV detection. All data stays in your browser.</p>
+
+<!-- Stats Bar -->
+<div class="stats-bar">
+  <div class="stat"><div class="stat-val" id="stat-props">0</div><div class="stat-label">Props Loaded</div></div>
+  <div class="stat"><div class="stat-val" id="stat-books">0</div><div class="stat-label">Books</div></div>
+  <div class="stat"><div class="stat-val" id="stat-players">0</div><div class="stat-label">Players</div></div>
+  <div class="stat"><div class="stat-val" id="stat-ev">0</div><div class="stat-label">+EV Bets</div></div>
+</div>
+
+<!-- Tabs -->
+<div class="tabs">
+  <div class="tab active" data-tab="scrape">Scrape Odds</div>
+  <div class="tab" data-tab="compare">Compare Lines</div>
+  <div class="tab" data-tab="ev">+EV Detector</div>
+  <div class="tab" data-tab="export">Export / Import</div>
+</div>
+
+<!-- ==================== SCRAPE TAB ==================== -->
+<div class="section active" id="sec-scrape">
+
+  <div class="grid-3">
+    <!-- DraftKings -->
+    <div class="card">
+      <h3><span class="badge badge-dk">DK</span> DraftKings</h3>
+      <p style="font-size:12px;color:#6b7b8d;margin:8px 0;">Fetches NBA player props from DK's public API. Works from residential IPs.</p>
+      <button class="btn btn-dk" id="btn-dk" onclick="scrapeDraftKings()">Scrape DraftKings NBA Props</button>
+    </div>
+
+    <!-- FanDuel -->
+    <div class="card">
+      <h3><span class="badge badge-fd">FD</span> FanDuel</h3>
+      <p style="font-size:12px;color:#6b7b8d;margin:8px 0;">Fetches NBA player props from FanDuel's SB API.</p>
+      <button class="btn btn-fd" id="btn-fd" onclick="scrapeFanDuel()">Scrape FanDuel NBA Props</button>
+    </div>
+
+    <!-- ESPN BET -->
+    <div class="card">
+      <h3><span class="badge badge-espn">ESPN</span> ESPN BET</h3>
+      <p style="font-size:12px;color:#6b7b8d;margin:8px 0;">Fetches from ESPN BET / PENN Entertainment endpoints.</p>
+      <button class="btn btn-espn" id="btn-espn" onclick="scrapeESPNBet()">Scrape ESPN BET Props</button>
+    </div>
+  </div>
+
+  <!-- BetMGM -->
+  <div class="card">
+    <h3><span class="badge badge-mgm">MGM</span> BetMGM</h3>
+    <p style="font-size:12px;color:#6b7b8d;margin:8px 0;">BetMGM uses a complex GraphQL API that typically blocks cross-origin requests. Use the paste method below or the browser console approach.</p>
+    <button class="btn btn-mgm" id="btn-mgm" onclick="scrapeBetMGM()">Try BetMGM Fetch</button>
+    <button class="btn btn-secondary btn-sm" style="margin-left:8px;" onclick="showMGMInstructions()">Console Instructions</button>
+  </div>
+
+  <!-- Paste JSON -->
+  <div class="card">
+    <h3>Paste Raw JSON</h3>
+    <p style="font-size:12px;color:#6b7b8d;margin:8px 0;">Paste a raw API response from any sportsbook. Select the book and format, then parse.</p>
+    <div class="grid-2" style="margin-top:12px;">
+      <div>
+        <label>Sportsbook</label>
+        <select id="paste-book">
+          <option value="draftkings">DraftKings</option>
+          <option value="fanduel">FanDuel</option>
+          <option value="betmgm">BetMGM</option>
+          <option value="espnbet">ESPN BET</option>
+          <option value="caesars">Caesars</option>
+          <option value="pinnacle">Pinnacle</option>
+          <option value="other">Other (generic)</option>
+        </select>
+      </div>
+      <div>
+        <label>Format</label>
+        <select id="paste-format">
+          <option value="auto">Auto-detect</option>
+          <option value="dk-eventgroup">DK EventGroup Response</option>
+          <option value="dk-offers">DK Offers Response</option>
+          <option value="fd-tab">FanDuel Tab Response</option>
+          <option value="generic">Generic [{player, stat, line, over, under}]</option>
+        </select>
+      </div>
+    </div>
+    <textarea id="paste-json" rows="8" placeholder='Paste JSON here...' style="margin-top:8px;"></textarea>
+    <div style="margin-top:8px; display:flex; gap:8px;">
+      <button class="btn btn-primary btn-sm" onclick="parsePastedJSON()">Parse JSON</button>
+      <button class="btn btn-secondary btn-sm" onclick="document.getElementById('paste-json').value=''">Clear</button>
+    </div>
+  </div>
+
+  <!-- Log -->
+  <div class="card">
+    <h3>Activity Log</h3>
+    <div class="log" id="log"></div>
+    <button class="btn btn-secondary btn-sm" style="margin-top:8px;" onclick="document.getElementById('log').innerHTML=''">Clear Log</button>
+  </div>
+</div>
+
+<!-- ==================== COMPARE TAB ==================== -->
+<div class="section" id="sec-compare">
+  <div class="card">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+      <h2>Cross-Book Line Comparison</h2>
+      <div style="display:flex; gap:8px; align-items:center;">
+        <label style="margin:0;">Filter Stat:</label>
+        <select id="filter-stat" onchange="renderCompareTable()" style="width:auto;">
+          <option value="">All</option>
+        </select>
+        <label style="margin:0;">Search:</label>
+        <input type="text" id="filter-player" placeholder="Player name..." onkeyup="renderCompareTable()" style="width:180px; padding:6px 10px;">
+      </div>
+    </div>
+    <div class="table-wrap" style="max-height:600px; overflow-y:auto;">
+      <table id="compare-table">
+        <thead><tr><th>Player</th><th>Stat</th><th>Line</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p style="font-size:11px; color:#6b7b8d; margin-top:8px;" id="compare-count"></p>
+  </div>
+</div>
+
+<!-- ==================== +EV TAB ==================== -->
+<div class="section" id="sec-ev">
+  <div class="card highlight">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+      <h2>Auto-Detect +EV Opportunities</h2>
+      <button class="btn btn-primary" onclick="runEVDetection()">Run +EV Scan</button>
+    </div>
+    <div class="grid-3" style="margin-bottom:12px;">
+      <div>
+        <label>Min EV% <span class="help" title="Minimum expected value percentage to flag">?</span></label>
+        <input type="number" id="min-ev" value="2" step="0.5" min="0">
+      </div>
+      <div>
+        <label>Min Edge% <span class="help" title="Minimum probability edge over fair value">?</span></label>
+        <input type="number" id="min-edge" value="2" step="0.5" min="0">
+      </div>
+      <div>
+        <label>Devig Method</label>
+        <select id="devig-method">
+          <option value="multiplicative">Multiplicative (standard)</option>
+          <option value="shin">Shin (insider-adjusted)</option>
+          <option value="power">Power (aggressive)</option>
+        </select>
+      </div>
+    </div>
+    <div class="table-wrap" style="max-height:500px; overflow-y:auto;">
+      <table id="ev-table">
+        <thead>
+          <tr>
+            <th class="sortable" data-sort="player">Player</th>
+            <th class="sortable" data-sort="stat">Stat</th>
+            <th class="sortable" data-sort="line">Line</th>
+            <th>Side</th>
+            <th class="sortable" data-sort="book">Book</th>
+            <th class="sortable" data-sort="odds">Odds</th>
+            <th class="sortable" data-sort="fairProb">Fair Prob</th>
+            <th class="sortable" data-sort="impliedProb">Implied</th>
+            <th class="sortable" data-sort="edge">Edge%</th>
+            <th class="sortable" data-sort="ev">EV%</th>
+            <th class="sortable" data-sort="kelly">Kelly%</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p style="font-size:11px; color:#6b7b8d; margin-top:8px;" id="ev-count"></p>
+  </div>
+
+  <!-- EV Explanation -->
+  <div class="card" style="font-size:12px; color:#6b7b8d; line-height:1.7;">
+    <h3 style="margin-bottom:8px;">How It Works</h3>
+    <p><strong>1. Devig each book's line</strong> -- remove the vig (juice) to get fair probabilities. For a 2-way market (over/under), fair_prob = implied_prob / (implied_over + implied_under).</p>
+    <p><strong>2. Consensus fair probability</strong> -- average the devigged fair probs across all books offering this line. More books = more reliable consensus.</p>
+    <p><strong>3. Find +EV</strong> -- if any book's offered odds imply a probability LOWER than the consensus fair probability, that's a +EV bet. You're getting better odds than the market says is fair.</p>
+    <p><strong>4. Kelly sizing</strong> -- quarter-Kelly bankroll fraction for risk management.</p>
+    <p style="margin-top:8px;"><strong>Edge%</strong> = fair_prob - implied_prob (how much the book is off).<br>
+    <strong>EV%</strong> = (fair_prob * payout) - (1 - fair_prob) (expected return per dollar).</p>
+  </div>
+</div>
+
+<!-- ==================== EXPORT TAB ==================== -->
+<div class="section" id="sec-export">
+  <div class="grid-2">
+    <div class="card">
+      <h3>Download Data</h3>
+      <p style="font-size:12px;color:#6b7b8d;margin:8px 0;">Export all scraped odds as JSON for server-side analysis.</p>
+      <button class="btn btn-primary" onclick="downloadJSON()">Download All Odds (JSON)</button>
+      <button class="btn btn-secondary" style="margin-left:8px;" onclick="downloadEV()">Download +EV Only (JSON)</button>
+      <button class="btn btn-secondary" style="margin-left:8px;" onclick="downloadCSV()">Download CSV</button>
+    </div>
+    <div class="card">
+      <h3>Import Data</h3>
+      <p style="font-size:12px;color:#6b7b8d;margin:8px 0;">Load previously exported odds JSON to resume analysis.</p>
+      <input type="file" id="import-file" accept=".json" onchange="importJSON(event)" style="margin-top:8px;">
+    </div>
+  </div>
+  <div class="card">
+    <h3>Clear All Data</h3>
+    <p style="font-size:12px;color:#6b7b8d;margin:8px 0;">Reset all scraped odds. This cannot be undone.</p>
+    <button class="btn btn-danger btn-sm" onclick="if(confirm('Clear all scraped data?')){clearAllData();}">Clear All Data</button>
+  </div>
+</div>
+
+</div><!-- .app -->
+
+<script>
+// ================================================================
+// DATA STORE
+// ================================================================
+
+// Master odds store: keyed by "player|stat|line" -> { book -> {over, under, overAmerican, underAmerican} }
+const oddsStore = {};
+// Metadata
+const metadata = { books: new Set(), players: new Set(), stats: new Set(), lastUpdate: null };
+// EV results cache
+let evResults = [];
+let evSortCol = 'ev';
+let evSortDir = 'desc';
+
+// ================================================================
+// UTILITY FUNCTIONS
+// ================================================================
+
+function americanToDecimal(american) {
+  american = Number(american);
+  if (american > 0) return 1 + american / 100;
+  if (american < 0) return 1 + 100 / Math.abs(american);
+  return 1;
+}
+
+function decimalToImplied(dec) {
+  return dec > 0 ? 1 / dec : 0;
+}
+
+function decimalToAmerican(dec) {
+  if (dec >= 2) return '+' + Math.round((dec - 1) * 100);
+  if (dec > 1) return '-' + Math.round(100 / (dec - 1));
+  return '+100';
+}
+
+function formatAmerican(american) {
+  american = Number(american);
+  if (american > 0) return '+' + american;
+  return String(american);
+}
+
+function devigMultiplicative(impOver, impUnder) {
+  const total = impOver + impUnder;
+  if (total <= 0) return [0.5, 0.5];
+  return [impOver / total, impUnder / total];
+}
+
+function devigShin(impOver, impUnder) {
+  const total = impOver + impUnder;
+  if (total <= 1.0) return [impOver, impUnder];
+  const z = total - 1.0;
+  const fairOver = (Math.sqrt(z * z + 4 * (1 - z) * impOver * impOver / total) - z) / (2 * (1 - z));
+  return [fairOver, 1.0 - fairOver];
+}
+
+function devigPower(impOver, impUnder) {
+  // Power method: find k such that p_over^k + p_under^k = 1
+  // Binary search for k
+  const total = impOver + impUnder;
+  if (total <= 1.0) return [impOver, impUnder];
+  let lo = 0.5, hi = 2.0;
+  for (let i = 0; i < 50; i++) {
+    const mid = (lo + hi) / 2;
+    const sum = Math.pow(impOver, mid) + Math.pow(impUnder, mid);
+    if (sum > 1) lo = mid; else hi = mid;
+  }
+  const k = (lo + hi) / 2;
+  return [Math.pow(impOver, k), Math.pow(impUnder, k)];
+}
+
+function devig(impOver, impUnder, method = 'multiplicative') {
+  if (method === 'shin') return devigShin(impOver, impUnder);
+  if (method === 'power') return devigPower(impOver, impUnder);
+  return devigMultiplicative(impOver, impUnder);
+}
+
+function calcEV(fairProb, decimalOdds) {
+  return fairProb * (decimalOdds - 1) - (1 - fairProb);
+}
+
+function kellyFraction(prob, decimalOdds, fraction = 0.25) {
+  const b = decimalOdds - 1;
+  if (b <= 0) return 0;
+  const f = (b * prob - (1 - prob)) / b;
+  return Math.max(0, f * fraction);
+}
+
+function makeKey(player, stat, line) {
+  return `${player.trim().toLowerCase()}|${stat.trim().toLowerCase()}|${Number(line)}`;
+}
+
+function parseKey(key) {
+  const [player, stat, line] = key.split('|');
+  return { player, stat, line: Number(line) };
+}
+
+function normalizeStat(raw) {
+  const s = raw.toLowerCase().replace(/[^a-z0-9+]/g, ' ').trim();
+  const map = {
+    'points': 'Points',
+    'pts': 'Points',
+    'rebounds': 'Rebounds',
+    'reb': 'Rebounds',
+    'rebs': 'Rebounds',
+    'assists': 'Assists',
+    'ast': 'Assists',
+    'asts': 'Assists',
+    'threes': '3-Pointers',
+    'three pointers': '3-Pointers',
+    'three point field goals': '3-Pointers',
+    '3 pointers': '3-Pointers',
+    '3 pointers made': '3-Pointers',
+    '3 pt field goals': '3-Pointers',
+    'threes made': '3-Pointers',
+    'blocks': 'Blocks',
+    'blk': 'Blocks',
+    'blks': 'Blocks',
+    'steals': 'Steals',
+    'stl': 'Steals',
+    'stls': 'Steals',
+    'turnovers': 'Turnovers',
+    'to': 'Turnovers',
+    'pts + reb + ast': 'Pts+Reb+Ast',
+    'points rebounds assists': 'Pts+Reb+Ast',
+    'points + rebounds + assists': 'Pts+Reb+Ast',
+    'pts + reb': 'Pts+Reb',
+    'points rebounds': 'Pts+Reb',
+    'points + rebounds': 'Pts+Reb',
+    'pts + ast': 'Pts+Ast',
+    'points assists': 'Pts+Ast',
+    'points + assists': 'Pts+Ast',
+    'reb + ast': 'Reb+Ast',
+    'rebounds assists': 'Reb+Ast',
+    'rebounds + assists': 'Reb+Ast',
+    'double double': 'Double-Double',
+    'triple double': 'Triple-Double',
+  };
+  for (const [pattern, normalized] of Object.entries(map)) {
+    if (s === pattern || s.includes(pattern)) return normalized;
+  }
+  // Capitalize first letter of each word
+  return raw.trim().split(/\s+/).map(w => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase()).join(' ');
+}
+
+function normalizePlayerName(name) {
+  // "LeBron James" -> "LeBron James", "james, lebron" -> "LeBron James"
+  name = name.trim();
+  if (name.includes(',')) {
+    const parts = name.split(',').map(p => p.trim());
+    name = parts[1] + ' ' + parts[0];
+  }
+  return name.split(/\s+/).map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+}
+
+// ================================================================
+// ODDS STORE MANAGEMENT
+// ================================================================
+
+function addProp(book, player, stat, line, overAmerican, underAmerican) {
+  player = normalizePlayerName(player);
+  stat = normalizeStat(stat);
+  line = Number(line);
+  const key = makeKey(player, stat, line);
+
+  if (!oddsStore[key]) {
+    oddsStore[key] = { player, stat, line, books: {} };
+  }
+
+  const overDec = overAmerican != null ? americanToDecimal(overAmerican) : null;
+  const underDec = underAmerican != null ? americanToDecimal(underAmerican) : null;
+
+  oddsStore[key].books[book] = {
+    overAmerican: overAmerican != null ? Number(overAmerican) : null,
+    underAmerican: underAmerican != null ? Number(underAmerican) : null,
+    overDecimal: overDec,
+    underDecimal: underDec,
+    overImplied: overDec ? decimalToImplied(overDec) : null,
+    underImplied: underDec ? decimalToImplied(underDec) : null,
+    timestamp: Date.now()
+  };
+
+  metadata.books.add(book);
+  metadata.players.add(player);
+  metadata.stats.add(stat);
+  metadata.lastUpdate = new Date();
+  return key;
+}
+
+function clearAllData() {
+  Object.keys(oddsStore).forEach(k => delete oddsStore[k]);
+  metadata.books.clear();
+  metadata.players.clear();
+  metadata.stats.clear();
+  metadata.lastUpdate = null;
+  evResults = [];
+  updateStats();
+  renderCompareTable();
+  renderEVTable();
+  log('All data cleared', 'warn');
+}
+
+function updateStats() {
+  document.getElementById('stat-props').textContent = Object.keys(oddsStore).length;
+  document.getElementById('stat-books').textContent = metadata.books.size;
+  document.getElementById('stat-players').textContent = metadata.players.size;
+  document.getElementById('stat-ev').textContent = evResults.length;
+
+  // Update stat filter
+  const sel = document.getElementById('filter-stat');
+  const cur = sel.value;
+  sel.innerHTML = '<option value="">All</option>';
+  [...metadata.stats].sort().forEach(s => {
+    sel.innerHTML += `<option value="${s}" ${s === cur ? 'selected' : ''}>${s}</option>`;
+  });
+}
+
+// ================================================================
+// LOGGING
+// ================================================================
+
+function log(msg, level = 'info') {
+  const el = document.getElementById('log');
+  const time = new Date().toLocaleTimeString();
+  el.innerHTML += `<div class="log-entry log-${level}">[${time}] ${msg}</div>`;
+  el.scrollTop = el.scrollHeight;
+}
+
+// ================================================================
+// DRAFTKINGS SCRAPER
+// ================================================================
+
+async function scrapeDraftKings() {
+  const btn = document.getElementById('btn-dk');
+  btn.disabled = true;
+  btn.innerHTML = '<span class="spinner"></span> Scraping...';
+  log('Starting DraftKings NBA props scrape...', 'info');
+
+  try {
+    // Step 1: Get NBA eventgroup
+    const egUrl = 'https://sportsbook.draftkings.com/sites/US-SB/api/v5/eventgroups/42648?format=json';
+    log('Fetching DK eventgroup 42648 (NBA)...', 'info');
+
+    let egData;
+    try {
+      const resp = await fetch(egUrl);
+      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+      egData = await resp.json();
+    } catch (e) {
+      log(`DK eventgroup fetch failed: ${e.message}. Try from DraftKings.com domain or use paste method.`, 'error');
+      throw e;
+    }
+
+    // Parse the eventgroup response
+    let propCount = 0;
+
+    // DK structure: eventGroup.offerCategories[] -> offerSubcategoryDescriptors[] -> offerSubcategory.offers[][]
+    const eg = egData.eventGroup;
+    if (!eg) {
+      log('No eventGroup in response. Trying alternate structure...', 'warn');
+      // Maybe it's directly the offers
+      if (egData.offers || egData.events) {
+        propCount = parseDKOffers(egData, 'draftkings');
+      } else {
+        throw new Error('Unrecognized DK response format');
+      }
+    } else {
+      log(`Found eventGroup: ${eg.name || 'NBA'}`, 'success');
+
+      // Find player prop categories
+      const categories = eg.offerCategories || [];
+      log(`Found ${categories.length} offer categories`, 'info');
+
+      for (const cat of categories) {
+        const catName = cat.name || '';
+        // Player props categories typically have names like "Player Points", "Player Rebounds", etc.
+        // Or they have subcategories that contain player props
+        const subcats = cat.offerSubcategoryDescriptors || [];
+
+        for (const subcat of subcats) {
+          const subcatName = subcat.name || '';
+          const isPlayerProp = /player|pts|reb|ast|points|rebounds|assists|three|block|steal|turnover|combo|double/i.test(subcatName) ||
+                               /player|pts|reb|ast|points|rebounds|assists|three|block|steal|turnover|combo|double/i.test(catName);
+
+          if (!isPlayerProp && subcats.length > 5) continue; // Skip non-player-prop subcats if there are many
+
+          // Check if this subcat has offers inline
+          if (subcat.offerSubcategory && subcat.offerSubcategory.offers) {
+            const offers = subcat.offerSubcategory.offers;
+            for (const offerGroup of offers) {
+              for (const offer of (Array.isArray(offerGroup) ? offerGroup : [offerGroup])) {
+                const parsed = parseDKOffer(offer, subcatName || catName);
+                if (parsed) { propCount++; }
+              }
+            }
+          }
+
+          // If offers not inline, we may need to fetch the subcategory
+          if (!subcat.offerSubcategory && subcat.subcategoryId) {
+            try {
+              log(`Fetching DK subcategory: ${subcatName} (${subcat.subcategoryId})...`, 'data');
+              const subUrl = `https://sportsbook.draftkings.com/sites/US-SB/api/v5/eventgroups/42648/categories/${cat.offerCategoryId}/subcategories/${subcat.subcategoryId}?format=json`;
+              const subResp = await fetch(subUrl);
+              if (subResp.ok) {
+                const subData = await subResp.json();
+                const subOffers = subData.eventGroup?.offerCategories?.[0]?.offerSubcategoryDescriptors?.[0]?.offerSubcategory?.offers || [];
+                for (const offerGroup of subOffers) {
+                  for (const offer of (Array.isArray(offerGroup) ? offerGroup : [offerGroup])) {
+                    const parsed = parseDKOffer(offer, subcatName || catName);
+                    if (parsed) { propCount++; }
+                  }
+                }
+              }
+              // Brief pause to be respectful
+              await new Promise(r => setTimeout(r, 200));
+            } catch (e) {
+              log(`  Failed to fetch subcategory ${subcatName}: ${e.message}`, 'warn');
+            }
+          }
+        }
+      }
+    }
+
+    log(`DraftKings scrape complete: ${propCount} player props found`, 'success');
+    updateStats();
+    renderCompareTable();
+
+  } catch (e) {
+    log(`DraftKings scrape failed: ${e.message}`, 'error');
+  } finally {
+    btn.disabled = false;
+    btn.innerHTML = 'Scrape DraftKings NBA Props';
+  }
+}
+
+function parseDKOffer(offer, categoryHint) {
+  // DK offer structure:
+  // { label: "LeBron James Over/Under 25.5 Points", outcomes: [{label: "Over", oddsAmerican: "-110"}, {label: "Under", ...}] }
+  if (!offer || !offer.outcomes || offer.outcomes.length < 2) return null;
+
+  let player = offer.outcomes[0]?.participant || '';
+  let line = offer.outcomes[0]?.line;
+  let label = offer.label || categoryHint || '';
+
+  // Try to extract player name from outcomes
+  if (!player) {
+    // Sometimes player is in the label: "LeBron James Over/Under 25.5 Points"
+    const labelMatch = label.match(/^(.+?)\s+(Over|Under|O\/U)/i);
+    if (labelMatch) player = labelMatch[1];
+  }
+
+  if (!player || line == null) return null;
+
+  // Determine stat from label or category
+  let stat = categoryHint || label;
+  // Clean up stat
+  stat = stat.replace(/^(.*?)(Over\/Under|O\/U|Alt\.?)\s*/i, '').trim();
+  if (!stat || stat === player) stat = categoryHint;
+
+  let overOdds = null, underOdds = null;
+  for (const oc of offer.outcomes) {
+    const lbl = (oc.label || '').toLowerCase();
+    const odds = oc.oddsAmerican || oc.odds;
+    if (lbl.includes('over') || lbl === 'yes') overOdds = Number(odds);
+    else if (lbl.includes('under') || lbl === 'no') underOdds = Number(odds);
+  }
+
+  if (overOdds == null && underOdds == null) return null;
+
+  addProp('DraftKings', player, stat, line, overOdds, underOdds);
+  return true;
+}
+
+function parseDKOffers(data) {
+  let count = 0;
+  const events = data.events || [];
+  for (const evt of events) {
+    const offers = evt.offers || evt.displayGroups || [];
+    for (const og of offers) {
+      const markets = og.markets || og.offers || [og];
+      for (const mkt of (Array.isArray(markets) ? markets : [markets])) {
+        if (parseDKOffer(mkt, mkt.label || '')) count++;
+      }
+    }
+  }
+  return count;
+}
+
+// ================================================================
+// FANDUEL SCRAPER
+// ================================================================
+
+async function scrapeFanDuel() {
+  const btn = document.getElementById('btn-fd');
+  btn.disabled = true;
+  btn.innerHTML = '<span class="spinner"></span> Scraping...';
+  log('Starting FanDuel NBA props scrape...', 'info');
+
+  const FD_BASE = 'https://sbapi.mi.sportsbook.fanduel.com/api';
+  const FD_AK = 'FhMFpcPWXMeyZxOx';
+
+  try {
+    // Step 1: Get NBA event IDs
+    log('Fetching FanDuel NBA events...', 'info');
+    const evResp = await fetch(`${FD_BASE}/content-managed-page?page=CUSTOM&customPageId=nba&_ak=${FD_AK}&timezone=America%2FNew_York`);
+
+    if (!evResp.ok) throw new Error(`HTTP ${evResp.status}`);
+    const evData = await evResp.json();
+
+    // Extract event IDs from attachments
+    const eventIds = [];
+    const attachments = evData.attachments || {};
+    const events = attachments.events || {};
+    for (const [id, evt] of Object.entries(events)) {
+      if (evt.competitionId === '42' || evt.competitionName?.includes('NBA')) {
+        eventIds.push(id);
+      }
+    }
+
+    // Fallback: get from layout
+    if (eventIds.length === 0) {
+      const layouts = evData.layout?.attachments?.events || {};
+      Object.keys(layouts).forEach(id => eventIds.push(id));
+    }
+
+    if (eventIds.length === 0) {
+      // Try alternate endpoint
+      const altResp = await fetch(`${FD_BASE}/competition/42/events?_ak=${FD_AK}&timezone=America%2FNew_York`);
+      if (altResp.ok) {
+        const altData = await altResp.json();
+        (altData.events || []).forEach(e => eventIds.push(e.eventId || e.id));
+      }
+    }
+
+    log(`Found ${eventIds.length} FanDuel NBA events`, eventIds.length > 0 ? 'success' : 'warn');
+
+    // Step 2: Fetch player prop tabs for each event
+    const propTabs = { 168: 'Points', 169: 'Assists', 170: 'Rebounds', 171: 'Pts+Reb+Ast', 172: '3-Pointers', 174: 'Blocks', 175: 'Steals' };
+    let propCount = 0;
+
+    for (const eventId of eventIds) {
+      for (const [tabId, tabName] of Object.entries(propTabs)) {
+        try {
+          const tabResp = await fetch(`${FD_BASE}/event/${eventId}/markets?tab=${tabId}&_ak=${FD_AK}&timezone=America%2FNew_York`);
+          if (!tabResp.ok) continue;
+          const tabData = await tabResp.json();
+
+          const markets = tabData.markets || tabData.attachments?.markets || {};
+          const runners = tabData.attachments?.runners || {};
+
+          for (const [mktId, mkt] of Object.entries(typeof markets === 'object' && !Array.isArray(markets) ? markets : {})) {
+            const mktName = mkt.marketName || mkt.name || '';
+            if (!mkt.runners || mkt.runners.length < 2) continue;
+
+            // Extract player name from market name: "Player Points - LeBron James"
+            let player = '';
+            const nameMatch = mktName.match(/(?:Player\s+\w+\s*-\s*|Alt\s+\w+\s*-\s*)(.+)/i);
+            if (nameMatch) {
+              player = nameMatch[1].trim();
+            }
+
+            let line = mkt.line;
+            let overOdds = null, underOdds = null;
+
+            for (const runner of mkt.runners) {
+              const rData = runners[runner.id || runner] || runner;
+              const rName = (rData.runnerName || rData.name || '').toLowerCase();
+              const handicap = rData.handicap || runner.handicap || line;
+              const winProb = rData.winRunnerOdds?.americanOdds || rData.odds;
+
+              if (!player && rData.runnerName) {
+                const pMatch = rData.runnerName.match(/(.+?)\s+(over|under)/i);
+                if (pMatch) player = pMatch[1];
+              }
+
+              if (handicap) line = Number(handicap);
+
+              if (rName.includes('over') || rName.includes('yes')) {
+                overOdds = winProb ? Number(winProb) : null;
+              } else if (rName.includes('under') || rName.includes('no')) {
+                underOdds = winProb ? Number(winProb) : null;
+              }
+            }
+
+            if (player && line != null && (overOdds != null || underOdds != null)) {
+              addProp('FanDuel', player, tabName, line, overOdds, underOdds);
+              propCount++;
+            }
+          }
+
+          // Handle array format
+          if (Array.isArray(tabData.markets)) {
+            for (const mkt of tabData.markets) {
+              // Similar parsing for array format
+              if (mkt.runners && mkt.runners.length >= 2) {
+                let player = '', line = mkt.line, overOdds = null, underOdds = null;
+                const nameMatch = (mkt.marketName || '').match(/(?:Player\s+\w+\s*-\s*)(.+)/i);
+                if (nameMatch) player = nameMatch[1];
+
+                for (const r of mkt.runners) {
+                  const rn = (r.runnerName || '').toLowerCase();
+                  if (rn.includes('over')) { overOdds = r.winRunnerOdds?.americanOdds; if (r.handicap) line = r.handicap; if (!player) { const m = r.runnerName.match(/(.+?)\s+over/i); if (m) player = m[1]; } }
+                  else if (rn.includes('under')) { underOdds = r.winRunnerOdds?.americanOdds; }
+                }
+
+                if (player && line != null && (overOdds || underOdds)) {
+                  addProp('FanDuel', player, tabName, Number(line), overOdds ? Number(overOdds) : null, underOdds ? Number(underOdds) : null);
+                  propCount++;
+                }
+              }
+            }
+          }
+
+        } catch (e) {
+          // Silently skip failed tabs
+        }
+        await new Promise(r => setTimeout(r, 150));
+      }
+    }
+
+    log(`FanDuel scrape complete: ${propCount} player props found`, 'success');
+    updateStats();
+    renderCompareTable();
+
+  } catch (e) {
+    log(`FanDuel scrape failed: ${e.message}`, 'error');
+  } finally {
+    btn.disabled = false;
+    btn.innerHTML = 'Scrape FanDuel NBA Props';
+  }
+}
+
+// ================================================================
+// ESPN BET SCRAPER
+// ================================================================
+
+async function scrapeESPNBet() {
+  const btn = document.getElementById('btn-espn');
+  btn.disabled = true;
+  btn.innerHTML = '<span class="spinner"></span> Scraping...';
+  log('Starting ESPN BET NBA props scrape...', 'info');
+
+  try {
+    // ESPN BET uses PENN Entertainment's API
+    // Try the public odds endpoint
+    const baseUrl = 'https://espnbet.com/api/odds';
+    const altUrl = 'https://sports.espnbet.com/api/v1/sports/basketball/nba/events';
+    const pennUrl = 'https://api.espnbet.com/apis/offering/v2024/espnbet/us/mi/events?sport=basketball&league=nba&format=json';
+
+    let propCount = 0;
+    let fetched = false;
+
+    // Try multiple endpoints
+    const endpoints = [
+      { url: 'https://espnbet.com/api/v1/sports/basketball-nba/events/live', name: 'ESPN BET events' },
+      { url: 'https://sports.espnbet.com/api/odds/v1/sports/basketball/leagues/nba/events', name: 'ESPN odds' },
+      { url: pennUrl, name: 'PENN offering' },
+    ];
+
+    for (const ep of endpoints) {
+      if (fetched) break;
+      try {
+        log(`Trying ${ep.name}...`, 'data');
+        const resp = await fetch(ep.url, { headers: { 'Accept': 'application/json' } });
+        if (resp.ok) {
+          const data = await resp.json();
+          log(`Got response from ${ep.name}, parsing...`, 'info');
+          propCount = parseESPNData(data);
+          fetched = true;
+        }
+      } catch (e) {
+        log(`${ep.name}: ${e.message}`, 'warn');
+      }
+    }
+
+    if (!fetched) {
+      log('ESPN BET endpoints blocked or changed. Use the Paste JSON method instead.', 'error');
+      log('Tip: Open ESPN BET in another tab, open DevTools Network tab, filter by "api" or "odds", copy a response.', 'info');
+    } else {
+      log(`ESPN BET scrape complete: ${propCount} player props found`, 'success');
+    }
+
+    updateStats();
+    renderCompareTable();
+
+  } catch (e) {
+    log(`ESPN BET scrape failed: ${e.message}`, 'error');
+  } finally {
+    btn.disabled = false;
+    btn.innerHTML = 'Scrape ESPN BET Props';
+  }
+}
+
+function parseESPNData(data) {
+  let count = 0;
+  // ESPN BET / PENN structure varies, handle common formats
+  const events = data.events || data.data?.events || data.competitions || [];
+
+  for (const evt of (Array.isArray(events) ? events : Object.values(events))) {
+    const markets = evt.markets || evt.displayGroups || evt.playerProps || [];
+    for (const mkt of (Array.isArray(markets) ? markets : [markets])) {
+      const outcomes = mkt.outcomes || mkt.selections || mkt.runners || [];
+      if (outcomes.length < 2) continue;
+
+      const mktName = mkt.name || mkt.marketName || mkt.description || '';
+      const isPlayerProp = /player|points|rebounds|assists|threes|blocks|steals/i.test(mktName);
+      if (!isPlayerProp) continue;
+
+      let player = '', stat = mktName, line = mkt.line || mkt.handicap;
+      let overOdds = null, underOdds = null;
+
+      for (const oc of outcomes) {
+        const name = (oc.name || oc.label || oc.runnerName || '').toLowerCase();
+        const odds = oc.americanOdds || oc.odds || oc.price;
+        if (!player) {
+          const pm = (oc.name || oc.label || '').match(/(.+?)\s+(over|under)/i);
+          if (pm) player = pm[1];
+        }
+        if (oc.handicap || oc.line) line = oc.handicap || oc.line;
+        if (name.includes('over')) overOdds = Number(odds);
+        else if (name.includes('under')) underOdds = Number(odds);
+      }
+
+      if (player && line != null && (overOdds || underOdds)) {
+        addProp('ESPN BET', player, stat, Number(line), overOdds, underOdds);
+        count++;
+      }
+    }
+  }
+  return count;
+}
+
+// ================================================================
+// BETMGM SCRAPER
+// ================================================================
+
+async function scrapeBetMGM() {
+  const btn = document.getElementById('btn-mgm');
+  btn.disabled = true;
+  btn.innerHTML = '<span class="spinner"></span> Trying...';
+  log('Attempting BetMGM fetch (may be blocked by CORS)...', 'info');
+
+  try {
+    const endpoints = [
+      { url: 'https://sports.mi.betmgm.com/cds-api/bettingoffer/fixtures?x-bwin-accessid=NmFjOTMxYTYtNjk5ZC00NmFkLTg0NjctNDQzN2JkYjlhZWFj&lang=en-us&country=US&userCountry=US&state=MI&offerMapping=All&sportIds=7&competitionIds=75', name: 'BetMGM CDS API' },
+      { url: 'https://sports.mi.betmgm.com/en/sports/api/widget/availableMarkets?sportId=7&competitionId=75', name: 'BetMGM widget API' },
+    ];
+
+    let fetched = false;
+    let propCount = 0;
+
+    for (const ep of endpoints) {
+      if (fetched) break;
+      try {
+        log(`Trying ${ep.name}...`, 'data');
+        const resp = await fetch(ep.url, {
+          headers: { 'Accept': 'application/json' }
+        });
+        if (resp.ok) {
+          const data = await resp.json();
+          propCount = parseBetMGMData(data);
+          fetched = true;
+          log(`BetMGM: parsed ${propCount} props`, 'success');
+        }
+      } catch (e) {
+        log(`${ep.name}: ${e.message}`, 'warn');
+      }
+    }
+
+    if (!fetched) {
+      log('BetMGM blocked cross-origin requests. Use paste method or console approach.', 'error');
+      showMGMInstructions();
+    }
+
+    updateStats();
+    renderCompareTable();
+
+  } catch (e) {
+    log(`BetMGM fetch failed: ${e.message}`, 'error');
+  } finally {
+    btn.disabled = false;
+    btn.innerHTML = 'Try BetMGM Fetch';
+  }
+}
+
+function parseBetMGMData(data) {
+  let count = 0;
+  const fixtures = data.fixtures || data.events || data.data || [];
+
+  for (const fix of (Array.isArray(fixtures) ? fixtures : [fixtures])) {
+    const games = fix.games || fix.markets || fix.optionMarkets || [];
+    for (const game of (Array.isArray(games) ? games : [games])) {
+      const gameName = game.name || game.marketName || '';
+      const isPlayerProp = /player|points|rebounds|assists|threes|blocks|steals|over\/under/i.test(gameName);
+      if (!isPlayerProp && games.length > 10) continue;
+
+      const results = game.results || game.outcomes || game.selections || [];
+      if (results.length < 2) continue;
+
+      let player = '', stat = gameName, line = game.attr || game.line || game.handicap;
+      let overOdds = null, underOdds = null;
+
+      for (const r of results) {
+        const name = (r.name || r.label || '').toLowerCase();
+        const odds = r.americanOdds || r.odds || r.price;
+
+        if (!player) {
+          const pm = (r.name || '').match(/(.+?)\s+(over|under)/i);
+          if (pm) player = pm[1];
+        }
+        if (r.attr) line = r.attr;
+
+        if (name.includes('over')) overOdds = Number(odds);
+        else if (name.includes('under')) underOdds = Number(odds);
+      }
+
+      if (player && line != null && (overOdds || underOdds)) {
+        addProp('BetMGM', player, stat, Number(line), overOdds, underOdds);
+        count++;
+      }
+    }
+  }
+  return count;
+}
+
+function showMGMInstructions() {
+  const msg = `BetMGM Console Scraping Instructions:
+
+1. Open https://sports.mi.betmgm.com in a new tab
+2. Navigate to NBA > Player Props
+3. Open DevTools (F12) > Console
+4. Paste this script:
+
+// Copy all visible player prop odds
+const data = [];
+document.querySelectorAll('[class*="option-group"]').forEach(g => {
+  const name = g.querySelector('[class*="participant"]')?.textContent;
+  const outcomes = g.querySelectorAll('[class*="option"]');
+  if (name && outcomes.length >= 2) {
+    data.push({
+      player: name,
+      over: outcomes[0]?.textContent,
+      under: outcomes[1]?.textContent
+    });
+  }
+});
+copy(JSON.stringify(data));
+alert('Copied ' + data.length + ' props to clipboard');
+
+5. Come back here and paste in the "Paste JSON" section`;
+
+  log(msg.replace(/\n/g, '<br>'), 'info');
+}
+
+// ================================================================
+// PASTE JSON PARSER
+// ================================================================
+
+function parsePastedJSON() {
+  const raw = document.getElementById('paste-json').value.trim();
+  const book = document.getElementById('paste-book').value;
+  const format = document.getElementById('paste-format').value;
+
+  if (!raw) { log('Nothing to parse -- paste JSON first', 'warn'); return; }
+
+  let data;
+  try {
+    data = JSON.parse(raw);
+  } catch (e) {
+    log(`Invalid JSON: ${e.message}`, 'error');
+    return;
+  }
+
+  const bookName = {
+    'draftkings': 'DraftKings',
+    'fanduel': 'FanDuel',
+    'betmgm': 'BetMGM',
+    'espnbet': 'ESPN BET',
+    'caesars': 'Caesars',
+    'pinnacle': 'Pinnacle',
+    'other': 'Other'
+  }[book] || book;
+
+  let count = 0;
+
+  // Auto-detect format or use specified
+  const effectiveFormat = format === 'auto' ? detectFormat(data) : format;
+  log(`Parsing as ${effectiveFormat} for ${bookName}...`, 'info');
+
+  switch (effectiveFormat) {
+    case 'dk-eventgroup':
+      if (data.eventGroup) {
+        const cats = data.eventGroup.offerCategories || [];
+        for (const cat of cats) {
+          for (const subcat of (cat.offerSubcategoryDescriptors || [])) {
+            const offers = subcat.offerSubcategory?.offers || [];
+            for (const og of offers) {
+              for (const o of (Array.isArray(og) ? og : [og])) {
+                if (parseDKOffer(o, subcat.name || cat.name)) count++;
+              }
+            }
+          }
+        }
+      }
+      break;
+
+    case 'dk-offers':
+      count = parseDKOffers(data);
+      break;
+
+    case 'fd-tab':
+      // FanDuel tab format
+      const markets = data.markets || data.attachments?.markets || {};
+      const runners = data.attachments?.runners || {};
+      for (const [, mkt] of Object.entries(typeof markets === 'object' && !Array.isArray(markets) ? markets : {})) {
+        let player = '', line = mkt.line, overOdds = null, underOdds = null;
+        const nm = (mkt.marketName || '').match(/(?:Player\s+\w+\s*-\s*)(.+)/i);
+        if (nm) player = nm[1];
+        for (const r of (mkt.runners || [])) {
+          const rd = runners[r.id || r] || r;
+          const rn = (rd.runnerName || '').toLowerCase();
+          if (rn.includes('over')) overOdds = rd.winRunnerOdds?.americanOdds;
+          else if (rn.includes('under')) underOdds = rd.winRunnerOdds?.americanOdds;
+          if (rd.handicap) line = rd.handicap;
+          if (!player) { const pm = (rd.runnerName||'').match(/(.+?)\s+(over|under)/i); if(pm) player=pm[1]; }
+        }
+        if (player && line != null) {
+          addProp(bookName, player, mkt.marketName || 'Unknown', Number(line), overOdds ? Number(overOdds) : null, underOdds ? Number(underOdds) : null);
+          count++;
+        }
+      }
+      break;
+
+    case 'generic':
+    default:
+      // Expect array of {player, stat, line, over, under} or similar
+      const items = Array.isArray(data) ? data : (data.props || data.odds || data.data || []);
+      for (const item of items) {
+        const player = item.player || item.playerName || item.name || '';
+        const stat = item.stat || item.market || item.prop || item.type || 'Unknown';
+        const line = item.line || item.handicap || item.total || item.point;
+        const over = item.over || item.overOdds || item.overAmerican;
+        const under = item.under || item.underOdds || item.underAmerican;
+        if (player && line != null) {
+          addProp(bookName, player, stat, Number(line), over != null ? Number(over) : null, under != null ? Number(under) : null);
+          count++;
+        }
+      }
+      break;
+  }
+
+  log(`Parsed ${count} props from pasted ${bookName} JSON`, count > 0 ? 'success' : 'warn');
+  updateStats();
+  renderCompareTable();
+}
+
+function detectFormat(data) {
+  if (data.eventGroup?.offerCategories) return 'dk-eventgroup';
+  if (data.events && data.offers) return 'dk-offers';
+  if (data.attachments?.markets) return 'fd-tab';
+  if (Array.isArray(data)) return 'generic';
+  return 'generic';
+}
+
+// ================================================================
+// COMPARE TABLE
+// ================================================================
+
+function renderCompareTable() {
+  const filterStat = document.getElementById('filter-stat').value;
+  const filterPlayer = (document.getElementById('filter-player').value || '').toLowerCase();
+  const books = [...metadata.books].sort();
+
+  // Build header
+  const thead = document.querySelector('#compare-table thead tr');
+  thead.innerHTML = '<th>Player</th><th>Stat</th><th>Line</th>';
+  for (const book of books) {
+    thead.innerHTML += `<th colspan="2" style="text-align:center;">${book}<br><span style="font-size:9px;font-weight:400;">Over / Under</span></th>`;
+  }
+
+  // Build rows
+  const tbody = document.querySelector('#compare-table tbody');
+  tbody.innerHTML = '';
+
+  const entries = Object.values(oddsStore)
+    .filter(e => {
+      if (filterStat && e.stat !== filterStat) return false;
+      if (filterPlayer && !e.player.toLowerCase().includes(filterPlayer)) return false;
+      return true;
+    })
+    .sort((a, b) => a.player.localeCompare(b.player) || a.stat.localeCompare(b.stat) || a.line - b.line);
+
+  for (const entry of entries) {
+    const tr = document.createElement('tr');
+    let html = `<td>${entry.player}</td><td>${entry.stat}</td><td style="font-family:monospace;font-weight:600;">${entry.line}</td>`;
+
+    for (const book of books) {
+      const bd = entry.books[book];
+      if (bd) {
+        const overStr = bd.overAmerican != null ? formatAmerican(bd.overAmerican) : '--';
+        const underStr = bd.underAmerican != null ? formatAmerican(bd.underAmerican) : '--';
+        const overClass = bd.overAmerican > 0 ? 'pos' : 'neg';
+        const underClass = bd.underAmerican > 0 ? 'pos' : 'neg';
+        html += `<td class="odds-cell ${overClass}">${overStr}</td><td class="odds-cell ${underClass}">${underStr}</td>`;
+      } else {
+        html += '<td style="color:#333;">--</td><td style="color:#333;">--</td>';
+      }
+    }
+
+    tr.innerHTML = html;
+    tbody.appendChild(tr);
+  }
+
+  document.getElementById('compare-count').textContent = `${entries.length} props across ${books.length} books`;
+}
+
+// ================================================================
+// +EV DETECTION
+// ================================================================
+
+function runEVDetection() {
+  const minEV = Number(document.getElementById('min-ev').value) / 100;
+  const minEdge = Number(document.getElementById('min-edge').value) / 100;
+  const method = document.getElementById('devig-method').value;
+
+  evResults = [];
+  log('Running +EV scan...', 'info');
+
+  for (const entry of Object.values(oddsStore)) {
+    const bookEntries = Object.entries(entry.books);
+    if (bookEntries.length < 2) continue; // Need at least 2 books
+
+    // Step 1: Devig each book's line to get fair probabilities
+    const fairProbs = { over: [], under: [] };
+
+    for (const [bookName, bd] of bookEntries) {
+      if (bd.overImplied != null && bd.underImplied != null) {
+        const [fairOver, fairUnder] = devig(bd.overImplied, bd.underImplied, method);
+        fairProbs.over.push({ book: bookName, fairProb: fairOver, implied: bd.overImplied, decimal: bd.overDecimal, american: bd.overAmerican });
+        fairProbs.under.push({ book: bookName, fairProb: fairUnder, implied: bd.underImplied, decimal: bd.underDecimal, american: bd.underAmerican });
+      }
+    }
+
+    if (fairProbs.over.length < 2) continue;
+
+    // Step 2: Calculate consensus fair probability (average across books)
+    const consensusOver = fairProbs.over.reduce((s, x) => s + x.fairProb, 0) / fairProbs.over.length;
+    const consensusUnder = fairProbs.under.reduce((s, x) => s + x.fairProb, 0) / fairProbs.under.length;
+
+    // Step 3: Check each book for +EV
+    for (const side of ['over', 'under']) {
+      const consensus = side === 'over' ? consensusOver : consensusUnder;
+      const entries = fairProbs[side];
+
+      for (const be of entries) {
+        const edge = consensus - be.implied;
+        const ev = calcEV(consensus, be.decimal);
+        const kelly = kellyFraction(consensus, be.decimal);
+
+        if (ev >= minEV && edge >= minEdge) {
+          evResults.push({
+            player: entry.player,
+            stat: entry.stat,
+            line: entry.line,
+            side: side.charAt(0).toUpperCase() + side.slice(1),
+            book: be.book,
+            american: be.american,
+            decimal: be.decimal,
+            fairProb: consensus,
+            impliedProb: be.implied,
+            edge: edge,
+            ev: ev,
+            kelly: kelly,
+            numBooks: entries.length,
+          });
+        }
+      }
+    }
+  }
+
+  // Sort by EV descending
+  evResults.sort((a, b) => b.ev - a.ev);
+  log(`+EV scan complete: found ${evResults.length} opportunities (min EV: ${(minEV*100).toFixed(1)}%, min edge: ${(minEdge*100).toFixed(1)}%)`, evResults.length > 0 ? 'success' : 'warn');
+
+  updateStats();
+  renderEVTable();
+}
+
+function renderEVTable() {
+  const tbody = document.querySelector('#ev-table tbody');
+  tbody.innerHTML = '';
+
+  // Sort
+  const sorted = [...evResults].sort((a, b) => {
+    let va = a[evSortCol], vb = b[evSortCol];
+    if (typeof va === 'string') {
+      return evSortDir === 'asc' ? va.localeCompare(vb) : vb.localeCompare(va);
+    }
+    return evSortDir === 'asc' ? va - vb : vb - va;
+  });
+
+  for (const r of sorted) {
+    const isHighEdge = r.edge >= 0.05;
+    const tr = document.createElement('tr');
+    if (isHighEdge) tr.classList.add('edge-high');
+
+    tr.innerHTML = `
+      <td>${r.player}</td>
+      <td>${r.stat}</td>
+      <td style="font-family:monospace;font-weight:600;">${r.line}</td>
+      <td><span class="badge ${r.side === 'Over' ? 'badge-ev' : 'badge-edge'}">${r.side}</span></td>
+      <td>${r.book}</td>
+      <td class="odds-cell ${r.american > 0 ? 'pos' : 'neg'}">${formatAmerican(r.american)}</td>
+      <td style="font-family:monospace;">${(r.fairProb * 100).toFixed(1)}%</td>
+      <td style="font-family:monospace;">${(r.impliedProb * 100).toFixed(1)}%</td>
+      <td class="pos" style="font-family:monospace;font-weight:600;">${(r.edge * 100).toFixed(1)}%</td>
+      <td class="pos" style="font-family:monospace;font-weight:700;">${(r.ev * 100).toFixed(1)}%</td>
+      <td style="font-family:monospace;">${(r.kelly * 100).toFixed(1)}%</td>
+    `;
+    tbody.appendChild(tr);
+  }
+
+  document.getElementById('ev-count').textContent = `${evResults.length} +EV opportunities found across ${metadata.books.size} books`;
+
+  // Update sort indicators
+  document.querySelectorAll('#ev-table th.sortable').forEach(th => {
+    th.classList.remove('sort-asc', 'sort-desc');
+    if (th.dataset.sort === evSortCol) {
+      th.classList.add(evSortDir === 'asc' ? 'sort-asc' : 'sort-desc');
+    }
+  });
+}
+
+// ================================================================
+// EXPORT / IMPORT
+// ================================================================
+
+function downloadJSON() {
+  const data = {
+    exportedAt: new Date().toISOString(),
+    stats: {
+      totalProps: Object.keys(oddsStore).length,
+      books: [...metadata.books],
+      players: [...metadata.players].length,
+    },
+    odds: Object.values(oddsStore),
+    evResults: evResults,
+  };
+
+  downloadFile(JSON.stringify(data, null, 2), `odds-export-${dateStamp()}.json`, 'application/json');
+  log('Downloaded full odds JSON', 'success');
+}
+
+function downloadEV() {
+  if (evResults.length === 0) { log('No +EV results to export. Run the scan first.', 'warn'); return; }
+  const data = {
+    exportedAt: new Date().toISOString(),
+    count: evResults.length,
+    results: evResults,
+  };
+  downloadFile(JSON.stringify(data, null, 2), `ev-export-${dateStamp()}.json`, 'application/json');
+  log('Downloaded +EV results JSON', 'success');
+}
+
+function downloadCSV() {
+  const rows = [['Player', 'Stat', 'Line', 'Book', 'Over', 'Under', 'Over Implied', 'Under Implied']];
+  for (const entry of Object.values(oddsStore)) {
+    for (const [book, bd] of Object.entries(entry.books)) {
+      rows.push([
+        entry.player, entry.stat, entry.line, book,
+        bd.overAmerican || '', bd.underAmerican || '',
+        bd.overImplied ? (bd.overImplied * 100).toFixed(1) + '%' : '',
+        bd.underImplied ? (bd.underImplied * 100).toFixed(1) + '%' : '',
+      ]);
+    }
+  }
+  const csv = rows.map(r => r.map(c => `"${c}"`).join(',')).join('\n');
+  downloadFile(csv, `odds-export-${dateStamp()}.csv`, 'text/csv');
+  log('Downloaded CSV', 'success');
+}
+
+function importJSON(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = (e) => {
+    try {
+      const data = JSON.parse(e.target.result);
+      let count = 0;
+      const odds = data.odds || [];
+      for (const entry of odds) {
+        for (const [book, bd] of Object.entries(entry.books || {})) {
+          addProp(book, entry.player, entry.stat, entry.line, bd.overAmerican, bd.underAmerican);
+          count++;
+        }
+      }
+      log(`Imported ${count} prop entries from ${file.name}`, 'success');
+      updateStats();
+      renderCompareTable();
+    } catch (e) {
+      log(`Import failed: ${e.message}`, 'error');
+    }
+  };
+  reader.readAsText(file);
+}
+
+function downloadFile(content, filename, type) {
+  const blob = new Blob([content], { type });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = filename;
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+function dateStamp() {
+  const d = new Date();
+  return `${d.getFullYear()}${String(d.getMonth()+1).padStart(2,'0')}${String(d.getDate()).padStart(2,'0')}-${String(d.getHours()).padStart(2,'0')}${String(d.getMinutes()).padStart(2,'0')}`;
+}
+
+// ================================================================
+// TAB NAVIGATION
+// ================================================================
+
+document.querySelectorAll('.tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+    tab.classList.add('active');
+    document.getElementById('sec-' + tab.dataset.tab).classList.add('active');
+  });
+});
+
+// EV table sortable headers
+document.querySelectorAll('#ev-table th.sortable').forEach(th => {
+  th.addEventListener('click', () => {
+    const col = th.dataset.sort;
+    if (evSortCol === col) {
+      evSortDir = evSortDir === 'desc' ? 'asc' : 'desc';
+    } else {
+      evSortCol = col;
+      evSortDir = 'desc';
+    }
+    renderEVTable();
+  });
+});
+
+// ================================================================
+// INIT
+// ================================================================
+
+log('Sports Edge Odds Scraper loaded. Ready to scrape.', 'success');
+log('Note: API fetches run from YOUR browser. If a sportsbook blocks the request, use the Paste JSON method.', 'info');
+updateStats();
+
+</script>
+</body>
+</html>

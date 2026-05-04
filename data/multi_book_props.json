@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-04-19T01:23:51.103313+00:00",
+  "version": "1.0",
+  "sports": {
+    "nhl": {
+      "bovada_props": 57,
+      "fanduel_props": 150,
+      "matches": 0,
+      "edges": 0
+    },
+    "mlb": {
+      "bovada_props": 420,
+      "fanduel_props": 563,
+      "matches": 13,
+      "edges": 0
+    }
+  },
+  "all_opportunities": []
+}

@@ -1,0 +1,130 @@
+# Deterministic NBA Props, Spreads, Over-Under, Moneyline Model (2025-26 Season): 950+ Game Sample, 60-65% Win Rate, 10-25% ROI Depending on Market
+
+[Simple-Leading-1393 | 37 pts | 20 comments]
+
+I’ve been building a purely deterministic NBA framework for the 2025-26 season. I don’t use Monte Carlo simulations, LLMs, or any "black box" neural nets. Curious what people's thoughts are about using models like this one, and about predicting basketball in particular. I've found its momentum-based play in both the game length, the streaks, and shifts in tempo to be very fun to both watch and predict as it provides a little more noise and unpredictability than baseball or even football.  
+
+Here is a breakdown of the inputs, the projection generation, and the edge thresholds. I’m curious to hear where you guys think this approach might have structural blind spots.
+
+My philosophy with this model is "addition by subtraction." I found that feeding the model too many variables created toxic variance.
+
+* **Rolling Windows**: I mostly use a 10–20 game rolling window. I found going with season performance was usually too stale. The 10-20 game window isolates current rotational realities without overreacting to single-game outliers.
+* **Positional Defensive Splits**: I break opponent defensive metrics down into a binary: Guards vs. Forwards. I also split these by Starters vs. Bench units.
+* **Excluded**: "Vacancy Inflation": When a star sits, retail bettors assume a drop in overall team performance. My backtesting showed that modern NBA backups can fill the vacant starter's void a lot better than they used to do 20+ years ago. Applying a mathematical "bump" for a vacant starter created inconsistencies more than it helped the few teams with a "top-5" player like Jokic or SGA. 
+* **Days Rest**: In the load management era, I found that "1 day of rest" vs. "2 days of rest" has lost almost all statistical significance. It was introducing noise, so it’s gone.
+* **NBA Cup Games**: I completely scrubbed the in-season tournament games from my dataset. The intensity and rotational minutes were too anomalous and distorted the rolling averages for standard regular-season games.
+
+Because I don't run thousands of randomized simulations, the projection pipeline relies on strict percentile bounding. What I do have that most other models don't is very aggressive corrections to recent ATS and Over-Under performance rather than ride teams that have been performing well or poorly against the mark. 
+
+* **The Anchor**: The recent mean (over the 10-20 game window) acts as the primary driver.
+* **Percentile Bounding**: I map the 20th and 80th percentiles for every player’s stat category on top of recent average, and apply a recent min-max for boundaries. 
+* **Player Data**: I normalize past results based on opponent, convert to per/minute, and assume a linear change based on recency. Then I bake in home/away shooting, expected points changes back to the players based on the team's recent ATS and the Over/Under line.
+
+Running this strict deterministic approach across the 2025-26 season so far (75-150 team/game wagers on an over 950+ game sample, 424 player props chosen out of a sample of 20,000), the output has been:
+
+**Player Props**: 65.0% WinRate (23.0% ROI)
+
+**Spreads**: 67.2% Win Rate (28.6% ROI)
+
+**Totals (O/U)**: 63.2% Win Rate (20.7% ROI)
+
+**Moneyline**: 46.6% Win Rate (23.8% ROI)
+
+After several attempts to flatten the months as best I could with more sampled bets I found that applying multiple layers of standard deviation, more rules related to lines as filters rather than outliers to consider, and extremely strict +EV passes resulted in a very favorable win rate for all that while reducing the sample size kept the markets diverse enough to have it be a psychologically-favorable model that doesn't turn a bettor's stomach every third day. While I'm obviously floored to have reached such an impressive start, I do anticipate a drop off toward the end of the season as game outcomes become harder to predict due to tanking, injuries, etc. 
+
+For those building deterministic models, have you found the same roadblocks (opportunities) for the NBA? How about similar or different approaches to different sports? 
+
+Appreciate any technical feedback on the architecture.
+
+---
+## Comments
+
+[Delicious_Pipe_1326 | 10 pts]
+Good to see this posted here. A few thoughts on the methodology.
+
+The rolling window approach and scrubbing NBA Cup games are sensible choices. Removing days rest as a variable also tracks with what I've found in my own testing.
+
+The results are where I'd push back. 67.2% ATS over \~150 bets is deep into territory where variance alone can explain it. Break even on spreads at standard juice is 52.4%, and elite professional bettors sustain 55 to 56% at volume. When I was building my own models I would hit 70% on spreads too, and every time it turned out I had the calculation wrong somewhere. Worth double checking the evaluation logic before trusting the number.
+
+Same story on the props. 65% at 23% ROI across 424 selections is well above what published research on large prop datasets supports. The general finding is that books systematically degrade odds on bets that models flag as high edge, which caps real world ROI well below what backtests suggest.
+
+The single most useful thing you could do right now is start tracking closing line value. Record what odds you take and what the line closes at. If you're consistently beating closing lines, the process is real and the results will follow. If you're not, then the win rate is variance and it will correct. CLV is the only way to know which one you're looking at on a sample this small.
+
+  [EddyBarker91 | 5 pts]
+  How do you determine the CLV on player props? most player props are not found on Pinnacle/other exchanges?
+
+    [Delicious_Pipe_1326 | 3 pts]
+    My approach is to record the odds at the time I place the bet, then pull the closing odds at the same book (or across multiple books) as close to game time as possible. If you’re consistently getting better odds than close, that’s a positive signal. If the line is moving away from you between bet placement and close, that’s the market telling you you’re on the wrong side.
+It’s noisier than spread CLV because prop markets are thinner and close less efficiently, but it’s the best process validation I’ve found for props.
+
+  [Simple-Leading-1393 | 2 pts]
+  Yes, that spread number in particular was very hard to attain. I used a lot of aggressive contrarian logic to overcome the "bounce factor" of teams and players on average sharply declining or improving following recent extreme performances relative to a normal mean regression. The binary win/loss ATS and OU definitely mattered which in my opinion is very volatile because you are adding "casino variables" to overcome how they take advantage of pricing the mean, rather than strictly taking player performance. It definitely isn't the case for all situations but it consistently added 1-2% no matter how hard I tried to take it out and rely strictly on "safer" numbers. I found the Spreads and O/Us this year to be fiendishly difficult (I blame the NBA Cup). It was like fitting a very tight rubber band around a nuclear bomb. My guess and hope is that it levels out to high 50% as the end of the season becomes harder to predict. 
+
+I agree on CLV, was curious about testing my opinion of the CLV being the closest "true market" price and definitely wanted that number as close to pregame as possible, and opted to pull the odds in arrears with a 4PM timestamp (couldn't simply take the game time less x mins because the API was a little clunky and didn't always return matches when it should have). 
+
+    [Delicious_Pipe_1326 | 3 pts]
+    The CLV timestamp is the thing I’d fix first. 4PM for games tipping at 7 to 10PM means you’re missing hours of line movement. The whole point of CLV is measuring where the market settles once all the information is priced in. If you can get odds within 5 to 10 minutes of tip that’s ideal, even if the API makes it awkward. Without that you have no way to validate whether the model is finding real edge or riding variance.
+
+On the spread number, I’d genuinely encourage you to go back through the evaluation logic line by line. 67% ATS is the kind of number that in my experience always turned out to be a calculation error somewhere in the pipeline. If any of the code was LLM generated, be especially careful. LLMs will happily produce evaluation logic with a subtle bug and never flag it unless you specifically ask. They’re great at generating plausible code, terrible at auditing their own work. You mentioned hitting 58% last year on a simpler build and that’s a much more plausible starting point. If you’re betting real money based on the 67% number and it’s wrong, that’s where the damage happens.
+
+The contrarian ATS corrections are also worth stress testing properly. That kind of pattern tends to look strong in sample because you’re fitting to recent noise. Walk forward it on data the model hasn’t seen and see if the 1 to 2% holds up. If it doesn’t, you’re adding complexity that will cost you.
+
+      [Simple-Leading-1393 | 1 pts]
+      Cool, I'll definitely go back and try to do a morning and gametime timestamp for each wager, using the CLV as the final number. I think using the prior game (or x games) movement for a particular team would be fascinating to look at. 
+
+I used some LLM help to contribute code (MS Copilot was my "coding buddy" of choice as I was working directly in Power BI for most of this). Nothing to where it was a black box, copy paste assumption but rather particular syntax that I can never remember. As far as what could go wrong to add so much favorable ROI to ATS, the first thing that came to mind would be not backing up the date so the projection has data it can't know at the time of the game. When applying this in practice to begin placing bets, I checked before and after refreshing the model the prior day's projection numbers to ensure lookback dates were properly backed up at least -1 and it passed. But yes, not quite ready to stake the Bermuda retirement fund on this until I've had a few weeks under my belt ;)
+
+[TREXGaming1 | 3 pts]
+The 10-20 game rolling window is most predictive usually in my experience as well…were those results actually betting the system or is it an out-of-sample backtest on the current season?
+
+  [Simple-Leading-1393 | 1 pts]
+  I've backtested it, and have just begun betting with it. Would have preferred putting it to use a month ago so I could prove the system with a clean public capper record and a solid sampling of season performance, but the development took much longer on this than I anticipated.
+
+    [TREXGaming1 | 3 pts]
+    Thanks, just wasn’t sure from the wording! I would be a little cautious with those amazing results as one of the other comments said, in general though I like the look of the project, best of luck!
+
+    [canyonero7 | 3 pts]
+    What's your threshold for a bet being playable? Consider lowering that threshold to get a higher bet count. Very hard to validate anything with this low of a bet count. 
+
+      [Simple-Leading-1393 | 1 pts]
+      The threshold was a very conditional sliding scale in all cases. I would first test each market to see what the high and low bars of each EV would do, then decide on how I wanted to conditionally apply filters for or against making a wager, and in some cases, changing my position based on the delta between the line and what I had for a projection. I didn't simply cherry pick the top EVs because in many cases those would perform much poorer than expected due to the "bounce factor" I mentioned. Basically working my model toward what I believe the sportsbooks do to offset sharps doing the same thing with "pick of the day" and "locks". As I'm sure many here who have tried simply taking the best EV each day as your "Mortal Lock" almost always does not work as well as you'd advertise. My bet policy was always add as much as possible to bet volume while not making too much trade off in ROI%. 
+
+[oriental_GOSLING90 | 2 pts]
+This is neat. I’m working on mine as well and I’ve been having trouble figuring out why my backtest ATS win rate was in the 20’s percentile (I know terrible). So thank you all for the input of dropping rest days and instead of a 5-10 rolling window. Move it to 10-20 days. I honestly think I have way too much noise in mine. My totals back test is in the “professional” range. I use python and have spread features and total features. Kinda just go from what I’ve learned from on YouTube and AI on co-pilot for python. Along with what I’ve learned in my quantitative methods class and other statistic course I’ve taken under my accounting degree lol. Pretty much my model is multi regression. Sorry should’ve started with that. Good luck! Cheers! 
+
+  [Simple-Leading-1393 | 2 pts]
+  Nice! That makes a lot of sense that you do so well in totals if you focus on multi regression. With that you are much more reliant on the game pace and which team's offense/defense style wins out, then if you have a close game or a blowout, etc. Not that easy if you are simply bouncing two numbers against each other. I feel that ATS is a completely different type of rules, so I wouldn't feel too bad about not being able to match your totals model and getting the same results for ATS win rate. Not sure how much you are separating the two, but I found that starting with two entirely different game scores (rolling up from players), one focusing on the totals and another more momentum-based model to focus on the ATS margin helped immensely and was a huge relief for me not worrying about sacrificing my OU rate for a needed change to an ATS assumption. 
+
+    [oriental_GOSLING90 | 2 pts]
+    This is exactly where I’ve been stumped and scratched my ATS model or stepped away from it for a while. I do have them separated, but I just can’t get the right variables to stick. Here’s a the most recent photo I have of it. Don’t let it fool you. It wasn’t really doing well predicting at the time… , but it’s a work in progress. I want to say this was a time in my late night drunk phase, where I thought 2025 was this season lol. So I had to scrub this season (manually- I’m not that nice on python yet lol) and that’s when I saw a huge decline in my ATS and knew something was wrong and have been researching and creeping in this forum for ideas lol.
+
+https://preview.redd.it/yd4gv7e2mzog1.jpeg?width=3024&amp;format=pjpg&amp;auto=webp&amp;s=f7624ed8f5fbbf5732d2d0b1d02e9fdc4f3d36c7
+
+      [Simple-Leading-1393 | 2 pts]
+      Is there a particular team or month(s) where the model was doing particularly worse than expected? For ATS this year it took me awhile trying to flatten the months because I was getting one month doing really well then dropping off and doing basically the inverse the subsequent month. Also, did you include the NBA Cup games this year? I found those games to be more trouble than they were worth including in the historical trend data. 
+
+        [oriental_GOSLING90 | 2 pts]
+        The farthest I’ve willing dissected it was per season. My success % was a minor red flag as well, so I went back scrubbed through my data and noticed columns or rows were off or I pasted something over wrong. As far as cup games. I grabbed what I could grab online that had scores, open/closing spread, opening/closing totals. I can’t recall. So yeah that’s another thing. I have full seasons and some seasons. Not consistent (what is it like) 1200 games or full seasons 
+
+[drwazirri | 2 pts]
+Wait!....
+How did I get here... 
+
+
+Lost!!! 
+
+
+SOS 🆘🆘🆘....
+Can some one share a perfected work with me.. I jz want some winnings to pay off my debt and start a good life.. .. 
+Anyone.. someone?!
+Pls?
+
+  [Simple-Leading-1393 | 1 pts]
+  Sorry to hear you've been having financial troubles. Wish I could help with a "lock play" like some of the touts on here. But there's no such thing as a sure pick. What I'd recommend is a system where you pick across multiple outcomes, using strict Kelly staking, and focusing on long term ROI growth if you are indeed serious about consistent winnings. 
+
+[https://www.dicebreakerbooks.com/ballerwatch](https://www.dicebreakerbooks.com/ballerwatch)
+
+I'm posting for free our value picks for spread, over-under, moneyline, and player props. If you like our picks and want to upgrade to our paid plans, you can use the discount code PRIMETIME50 to get 50% off your order. 
+
+[Epator | 1 pts]
+Not bad 

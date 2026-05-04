@@ -1,0 +1,108 @@
+# How do you actually build a betting strategy that works?
+
+[Low_Succotash_8903 | 57 pts | 40 comments]
+
+Not talking pro level models just like, how did you get past the “betting vibes” stage? Here's what kinda helped me figure mine out:
+
+• Track everything – Wins, losses, types of bets, sports, units even the dumb parlays. Patterns pop up real quick when it’s all in front of you.  
+• Stick to what you know – Once I stopped betting random MAC games I don’t even watch, my win rate actually improved.  
+• Test different styles – Tried spreads, props, live bets, etc. Turns out I’m way better at picking player props than game winners.  
+• Set a budget + units – Having a consistent unit size keeps things from going full chaos mode after a bad beat.  
+• Fade trends sometimes – If it feels like everyone is on the same side, I at least double check before I follow.  
+• Bet against people, not the house – Started doing p2p bets on bet openly and it made me way more dialed in.
+
+That’s what’s helped me figure my lane. What’d you do to dial yours in? Or are you still just straight-vibing your picks?
+
+---
+## Comments
+
+[[deleted] | 15 pts]
+[removed]
+
+  [moderate99 | 1 pts]
+  Bro do you have any evidence of your results apart from just words?
+
+    [raZZormortem | 1 pts]
+    \+EV still lacks constitency. The "estimated value" is still a PERSONAL perception, NOT a real estimated thing. 
+
+Models cannot capture intangible, subjective, or unexpected factors (last-minute injuries, locker room conflicts, extra motivation, officiating errors).
+
+EV tools are just a market analyzer with a bot that simulates a lot of games.
+
+If you have a good amount of bankroll, I still think +EV this is the way to go. But it's not magical.
+
+[neverfucks | 14 pts]
+if by "working" you mean "makes a profit" you skipped the most important step which is "develop an edge that is explainable and measurable". your edge could be weather modeling, injury info timing, in-game pricing inefficiencies, market making on exchanges, modeling market/s bottom up, or picking off bad prices top down. but you gotta have one and it can't be vibes based, it has to be "the correct price for this line is x, based on reason reason reason, but i can get it at a discounted price at so and so book". it can't be "i like the clippers tonight because they're playing well lately and the other team is load managing a good player".
+
+  [Any-Maize-6951 | 1 pts]
+  +1
+
+  [Low_Succotash_8903 | 1 pts]
+  Having an actual edge instead of just vibes is definitely where the long term wins come from. Took me a while to learn that part.
+
+[Aggravating-Pin-4772 | 11 pts]
+Tracking everything really is the cheat code. Once you see your patterns on paper it’s way easier to cut the dumb stuff out
+
+  [neverfucks | 6 pts]
+  if you don't have an edge there is no cheat code. you will lose over time at the rate the vig implies. you will have good months and bad months, but the end result is pre-determined. if you just want to lose more slowly, you need to avoid any multis, live lines, props, etc that either compound or charge higher vig. wish it were more nuanced than that!
+
+    [Public-Tooth8917 | 1 pts]
+    i have an edge hmu
+
+      [neverfucks | 1 pts]
+      u can just post it here no one will see
+
+  [Low_Succotash_8903 | 1 pts]
+  For real tracking everything exposed so many bad habits I didn’t even know I had
+
+[MagicitePower | 5 pts]
+Tracking is essential but only if your picks have a real edge behind them. I use Pikkit for tracking and Optimal Bet for finding plays. Combined they are holy grail if you take 4% EV minimum and track your CLV.
+
+IMO this is most beginner friendly approach that is actually profitable long-term
+
+[wornwhisky | 4 pts]
+Sticking to what you actually watch is huge. My win rate doubled the second I stopped betting random leagues just because they were on.
+
+  [Low_Succotash_8903 | 1 pts]
+  The second I stopped forcing plays on leagues I never watch my results got way cleaner. Familiarity really does go a long way.
+
+[Noobatronistic | 3 pts]
+I agree on everything except "stick to what you know" in terms of games. You should have expertise, but do not limit yourself.
+
+Also, the real solution to yoir question, imo, js point 1. Track EVERYTHING. Document it, analyse results and re-iterate. I am a bit biased as a Data Analyst, but that's what worled for me in practice as well.
+
+  [[deleted] | 2 pts]
+  [deleted]
+
+    [Noobatronistic | 2 pts]
+    I agree, my mistake in not explaining myself better. I meant more league-wise or tournament wise. For example if you bet on ATP the leap to WTA or Challenger is doable woth some tweaks, even if you do not know the players. I always say that sport knowledge is key.
+
+    [Public-Tooth8917 | 1 pts]
+    i do courtsiding dm me
+
+      [Particular-Bowl-1544 | 1 pts]
+      I wrote to you
+
+  [iDoNotHaveAnIQ | 1 pts]
+  Where do you get your data from?
+
+    [Noobatronistic | 1 pts]
+    For modelling both paid API and scraping, for analysis putposes I have my own data pipeline built on my own database
+
+      [Public-Tooth8917 | 1 pts]
+      cheap courtsiding calls
+
+    [Public-Tooth8917 | 1 pts]
+    cheap courtsiding calls
+
+[[deleted] | 2 pts]
+[removed]
+
+  [Michell_Davis | 1 pts]
+  lmao imagine flexing that u literally dont watch the sport. betting on spreadsheets sounds miserable af bro. gl factoring in locker room drama, bad weather, or momentum into ur little code. hf grinding  2% roi while the rest of us actually enjoy the games. ur missing the whole point
+
+    [ElMarraquetaBoli | 1 pts]
+    Y si le sirve aunque lo vea el reporte, por algo apustas no? Para ganar si no quema tu dinero si no te importa ganar de verdad 
+
+[[deleted] | 1 pts]
+[removed]

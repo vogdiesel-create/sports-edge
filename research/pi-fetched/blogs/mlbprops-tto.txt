@@ -1,0 +1,136 @@
+Times Through the Order Penalty: Batters Surge 28% | MLBProps
+Original Research
+The Third Time Through the Order Penalty: Why Batters Surge 28% and What It Means for Your Props
+We examined MLB plate appearance data and found that hitter OPS+ explodes from 91 to 117 the third time they face a pitcher. ERA balloons from 4.08 to 4.57. Here's why this hidden penalty is silently reshaping every prop you bet.
+March 14, 2026
+16 min read
+mlbprops.com
+Every MLB game hides a ticking clock that most prop bettors never see. It's not the pitch count. It's not the bullpen phone ringing. It's the number of times a batter has already faced the same pitcher in that game. And by the third trip to the plate, the entire balance of power shifts so dramatically that it rewrites the math behind every strikeout, hits, and total bases prop on the board.
+Baseball analytics has a name for this phenomenon: the times through the order penalty MLB teams and front offices have been quietly exploiting for years, often shortened to TTOP. It's the measurable decline in a starting pitcher's effectiveness each time they cycle through the opposing lineup. The first time through, the pitcher has the advantage, surprise, unfamiliarity, the full arsenal deployed fresh. By the third time through, hitters have seen every pitch, timed every delivery, catalogued every movement. And the data shows they punish pitchers for it at a staggering rate.
+We pulled together league-wide data across multiple MLB seasons to quantify exactly how severe this penalty is, and then mapped it directly onto the prop markets that millions of bettors engage with every single day. This is MLB prop betting research grounded in real plate appearance data, and what we found should change the way you think about every pitcher and hitter prop you bet.
+Section 1
+Third Time Through Order MLB Stats: OPS+ Jumps 28%
+Using 2018 MLB league-wide data encompassing over 60,000 plate appearances, the offensive surge by the third time through the order is not subtle. It's violent.
+91
+OPS+ First Time Through
+101
+OPS+ Second Time Through
+117
+OPS+ Third Time Through
+Let that sink in. The first time through the order, hitters produce below-average offense, an OPS+ of 91. That's roughly equivalent to a league full of number-eight hitters. The pitcher has the advantage. His fastball location is unpredictable. His changeup hasn't been timed. His slider's break is still a mystery.
+By the second trip, things even out. An OPS+ of 101, right at league average. Hitters have filed away their first plate appearance. They know what the breaking ball looks like. They've seen the arm angle, the tempo, the sequencing patterns.
++28.6%
+The increase in OPS+ from the first time through the order (91) to the third time through (117). That's the difference between a replacement-level hitter and an All-Star caliber bat.
+But it's the third time through where things fall apart for the pitcher. An OPS+ of 117 means hitters are performing at All-Star levels. They've cracked the code. They know what's coming, when it's coming, and how to time it. The pitcher's entire repertoire has been scouted in real time over the previous two at-bats. There are no more surprises.
+Section 2
+ERA Tells the Same Story: From 4.08 to 4.57
+The OPS+ numbers paint the picture from the batter's perspective. But the ERA data tells it from the pitcher's side, and it's equally damning.
+Pitcher ERA by Times Through the Order (2018 MLB)
+1st Time
+4.08
+2nd Time
+4.20
+3rd Time
+4.57
+A 4.08 ERA the first time through the order is solid, roughly what you'd expect from a mid-rotation starter having a decent outing. By the second pass, it nudges up to 4.20. But the third time through, it balloons to 4.57, a 12% increase from the opening exposure. That's the difference between a respectable 3.90 ERA pitcher and a guy you'd consider pulling before he implodes.
+And here's what makes this so relevant for prop bettors: most sportsbooks set pitcher lines based on season-long averages. A pitcher with a 3.50 ERA gets his strikeout line set accordingly. But that 3.50 ERA is a blended number that includes dominant first-time-through-the-order performance mixed with disastrous third-time-through at-bats. The composite average hides the extremes.
+A pitcher's ERA the third time through the order is 12% worse than his first time through. But sportsbooks set props based on the blended average. That gap is where edges live.
+Section 3
+The Plate Appearance Gap: 15,333 Missing At-Bats
+Here's the number that should terrify any pitcher prop bettor who isn't paying attention to this data.
+In the 2018 season, there were 37,803 plate appearances the first time through the order. But by the third time through, that number dropped to just 22,470, a difference of 15,333 plate appearances. That's not random variance. That's managers pulling starters before the damage gets worse.
+15,333
+Fewer plate appearances the third time through the order compared to the first time. Managers know the penalty exists, and they're actively managing around it by pulling starters earlier.
+Think about what this means in practice. In 2024, MLB starting pitchers averaged just 5.24 innings per start on roughly 86 pitches. That means most starters face the batting order about two and a half times before being removed. The third time through is where the penalty hits hardest, and it's also where most modern starters get pulled.
+But not all of them. Some managers still ride their starters deep into games, particularly aces who have earned long leashes. And that's where the prop betting implications get really interesting.
+Section 4
+Pitcher Strikeout Props Strategy: How the TTOP Changes Everything
+Here's the uncomfortable truth for anyone who plays strikeout overs: a pitcher's ability to miss bats deteriorates meaningfully each time through the order. Research spanning over a decade shows that each subsequent exposure reduces a pitcher's ability to generate swings and misses at pitches outside the zone and increases hitters' ability to lay off strikes they can't hit.
+The wOBA penalty, which increases by roughly 8 to 10 points each time through the order, directly translates to fewer strikeouts. When hitters know what's coming, they foul off more pitches, put more balls in play, and swing at fewer pitcher's pitches outside the strike zone. The strikeout becomes harder to earn.
+Prop Strategy: Strikeout Props
+When a pitcher is expected to go deep (6+ innings):
+His strikeout rate in innings 5-7 will be significantly lower than in innings 1-3. If his line is set at 6.5 K's, understand that the majority of those strikeouts need to come early. If he doesn't have 4+ K's through the first 4 innings, the over becomes increasingly unlikely because the third-time-through penalty is about to kick in.
+When a pitcher has a short leash (5 innings or fewer):
+He may never face the order a third time. This can actually help the K over, because his per-inning strikeout rate stays elevated. Short starts with high K/9 rates are your friend for strikeout overs.
+This is counterintuitive but critical: a pitcher who goes 5 innings and gets pulled might actually have a higher strikeout rate per batter faced than one who goes 7 innings. The extra two innings are diluted by the penalty. The sportsbook's line doesn't always account for whether a manager runs a tight ship or lets his starter get deep.
+Section 5
+Hitter Props and the Third Plate Appearance Advantage
+If the TTOP is bad news for pitcher props, it's a goldmine for hitter props. When you look at hitter props and the third plate appearance, the data is striking: 38% of batters post their best OPS the third time through the order, compared to just 31% the first time and 31% the second time. That means more than one in three hitters is at his most dangerous in his third at-bat against the same pitcher.
+Percentage of Batters with Best OPS by Times Through Order (2015-2017, 294 Batting Seasons)
+1st Time
+31%
+2nd Time
+31%
+3rd Time
+38%
+For hits props and total bases props, this creates a clear framework. If a hitter is going to get four plate appearances in a game, which is the standard expectation for most lineup spots, his third and fourth at-bats are statistically his most productive. The first at-bat is the most likely to result in an out or weak contact.
+Prop Strategy: Hits & Total Bases
+Target hitters facing pitchers with long leash:
+When a starting pitcher is likely to go 6-7 innings, the hitters in the 1-5 spots will face him three times. Their third plate appearance is where hits, extra-base hits, and total bases are most likely to accumulate. This is particularly valuable for total bases overs on power hitters.
+Be cautious when a starter gets pulled early:
+If a hitter only faces the starter twice before the bullpen arrives, he loses his highest-leverage plate appearance. Bullpen arms essentially reset the TTOP clock. Fresh reliever, unfamiliar arm angle, new pitch mix. The hitter is back to first-time-through dynamics.
+This is why savvy prop bettors pay close attention to expected pitcher depth. A game where both starters are projected for 100+ pitches and 6+ innings is a fundamentally different prop environment than a game where both starters are on short rest or coming back from injury with limited pitch counts.
+Section 6
+MLB Pitcher Fatigue Analytics: It's Not Just Familiarity
+The TTOP isn't purely a familiarity effect. MLB pitcher fatigue analytics tell a deeper story. Pitchers also physically degrade as the game progresses. A comprehensive study of 129 MLB starting pitchers across 1.5 million pitches thrown from 2008 to 2014 revealed a clear pattern of physical decline that compounds the familiarity penalty.
+The proportion of hard pitches (fastballs) thrown decreases significantly by the 5th inning compared to the 1st inning, while off-speed and breaking pitch usage increases
+Pitch velocity drops measurably beginning no later than the 5th inning, meaning a pitcher's 95 mph fastball in the first becomes a 93 mph fastball in the sixth
+Release height changes as fatigue sets in, subtly altering the hitter's eye level reference point and making the pitcher more predictable
+Pitchers were most effective during the 2nd inning and showed significant performance declines in innings 4 and 6
+So the third time through the order isn't just a matter of hitters learning the pitcher's tendencies. The pitcher is also throwing slower, with less movement, from a slightly different release point, while relying more on off-speed stuff that hitters have already catalogued. The familiarity advantage and the physical decline stack on top of each other. It's a double penalty.
+By the 5th inning, pitchers throw slower, rely more on off-speed pitches, and release from a lower arm slot. Hitters have also timed their arsenal. The penalty is physical and mental. It stacks.
+Section 7
+Historical Context: This Penalty Didn't Always Exist
+Here's where the data gets fascinating from a historical perspective. The times through the order penalty is largely a modern phenomenon. Research examining data as far back as 1912 shows that in the dead-ball era, pitchers were actually
+better
+the third time through the order than the first time.
+Era
+TTOP Effect
+Context
+1912
+Pitchers improved 3rd time through
+Dead-ball era, pitchers threw complete games routinely
+1927
+Negligible difference
+Live-ball era begins, slight shifts appearing
+1932
+OPS actually decreased 3rd time
+Pitchers still benefited from familiarity advantage
+1955
+Slight uptick in OPS 3rd time
+Modern offense beginning to change dynamics
+1970
+Noticeable increase in OPS/SLG
+852 complete games that year (22% of starts)
+2018
+OPS+ surges from 91 to 117
+Modern analytics era, TTOP fully manifested
+This historical perspective is critical for understanding why the penalty exists today. In earlier eras, pitchers threw more innings, threw more complete games, and had physical stamina that modern pitchers don't develop. The 1970 season saw 852 complete games, roughly 22% of all starts. In 2024, complete games are practically extinct. Modern pitchers simply aren't built to maintain their stuff the third time through.
+The other factor is information asymmetry. Modern hitters have access to video, analytics, and scouting reports that amplify the familiarity effect. A 1932 hitter facing a pitcher for the third time had only his memory and instincts. A 2026 hitter has already reviewed pitch sequencing data on the dugout iPad between at-bats. The information gap compounds the physical decline.
+Section 8
+The Prop Bettor's Playbook: How to Use This Data
+The TTOP gives prop bettors a systematic framework for evaluating nearly every player prop on the board. Whether you're building a pitcher strikeout props strategy or targeting hitter overs, here's how to apply it.
+Pitcher Strikeout Over/Under
+Favor the under on strikeout props when a pitcher is expected to go deep into games (6.2+ innings). His K rate will decline in the later innings as the TTOP kicks in. Favor the over when a pitcher is on a short leash (sub-5 innings) because he'll exit before the penalty fully manifests, keeping his per-batter strikeout rate elevated.
+Hitter Hits and Total Bases Over/Under
+Favor the over when the opposing starter is projected for 6+ innings. The hitter will get a third crack at someone whose stuff is declining. Favor the under when the opposing starter is expected to exit early and hand the game to a parade of fresh relievers, each of whom resets the TTOP clock.
+Pitcher Hits Allowed Over/Under
+This is the inverse of the strikeout prop. If a pitcher is going to face the order three times, expect more hits allowed later in his outing. Hits allowed overs become more attractive for deep starters, particularly those who managers are reluctant to pull.
+Game Totals and First Five Innings
+The TTOP data also feeds into your F5 vs. full-game analysis. First five innings unders are partially supported by the TTOP, because most of those innings occur during the first and second time through the order when pitchers are at their best. Full-game overs get a boost from the third time through, when both starters are at their most hittable.
+Quick Reference Guide
+Pitcher going deep (6+ IP):
+K under, Hits allowed over, Hitter props over
+Pitcher on short leash (<5 IP):
+K over (per-batter rate stays high), Hitter props under (bullpen resets TTOP)
+Both starters going deep:
+Full-game over has TTOP wind at its back
+Early bullpen game:
+F5 under supported, but full-game total is less predictable
+The Invisible Clock Is Ticking
+Every MLB game has a hidden timer that most bettors ignore. The third time through the order is where pitchers crumble, hitters feast, and the prop market's blended averages mask the extremes. The OPS+ surge from 91 to 117 isn't a footnote. It's a 28% offensive explosion that reshapes every prop on the board from the fifth inning onward. If you're betting pitcher and hitter props without accounting for the TTOP, you're leaving edge on the table. Start tracking how deep starters go. Start thinking in terms of first time through versus third time through. The data doesn't lie.
+Back to mlbprops.com
+·
+Strikeout Props Guide
+·
+Hits Props Guide

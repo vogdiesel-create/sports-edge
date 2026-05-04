@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-04-18T20:17:11.904937+00:00",
+  "bankroll": 5098.74,
+  "total_picks": 1,
+  "tier_counts": {
+    "S": 0,
+    "A": 0,
+    "B": 1
+  },
+  "total_exposure": 113.19,
+  "picks": [
+    {
+      "source": "mlb_model",
+      "sport": "MLB",
+      "market_type": "totals",
+      "game": "CIN @ MIN",
+      "side": "UNDER",
+      "market_line": 8.5,
+      "odds": -111,
+      "model_total": 8.52,
+      "our_prob": 0.5897,
+      "edge": 0.0842,
+      "poisson_total": 8.07,
+      "xgboost_total": 9.24,
+      "market_total_implied": 8.0,
+      "weather_impact": "-0.1 runs (45F, wind out 18mph)",
+      "home_pitcher": "Taj Bradley",
+      "away_pitcher": "Andrew Abbott",
+      "model_confidence": 0.5897,
+      "tier": "B",
+      "level1_confirms": false,
+      "level1_detail": null,
+      "side_penalty": false,
+      "kelly_pct": 2.22,
+      "wager": 113.19
+    }
+  ]
+}

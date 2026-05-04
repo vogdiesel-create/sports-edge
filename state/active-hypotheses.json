@@ -1,0 +1,169 @@
+{
+  "hypotheses": [
+    {
+      "id": "H-EDGE-CAP",
+      "statement": "Edges above 12% are model errors, not real edges",
+      "status": "confirmed",
+      "evidence_for": [
+        "5-12% range: 16W-12L +$631 (live)",
+        "12%+ range: 5W-6L -$237 (live)"
+      ],
+      "evidence_against": [],
+      "action_taken": "MAX_EDGE capped at 12%",
+      "next_check": "N/A - confirmed"
+    },
+    {
+      "id": "H006",
+      "statement": "Moneyline AWAY backtest is overfit",
+      "status": "confirmed",
+      "evidence_for": ["Live: 0-6 AWAY despite +4.1% backtest ROI"],
+      "evidence_against": [],
+      "action_taken": "MONEYLINE_DISABLED=True",
+      "next_check": "N/A - permanently disabled"
+    },
+    {
+      "id": "H009",
+      "statement": "K-prop model overestimates Ks systematically",
+      "status": "confirmed - model dead",
+      "evidence_for": [
+        "UNDER prediction bias: -0.84 Ks",
+        "OVER prediction bias: +0.96 Ks",
+        "Final record: 51W-50L, 8 straight losses to end"
+      ],
+      "evidence_against": [],
+      "action_taken": "K-props permanently shut down.",
+      "next_check": "Only if SwStr% model rebuild attempted"
+    },
+    {
+      "id": "H034",
+      "statement": "OT sim without RBI/Ks yields 15%+ ROI going forward",
+      "status": "CONFIRMED",
+      "evidence_for": [
+        "97W-45L (68.3%, 15.2% ROI) on active markets (TB+HA+ER)",
+        "RBI was 11W-28L (-$956). Ks was 12W-13L (-$279). Pure leaks."
+      ],
+      "evidence_against": [],
+      "action_taken": "RBI + Ks disabled in DISABLED_MARKETS.",
+      "next_check": "N/A - confirmed. Forward tracking continues."
+    },
+    {
+      "id": "H038",
+      "statement": "TB juice cap at -160 improves forward ROI to 20%+",
+      "status": "ACTIVE - strong evidence",
+      "evidence_for": [
+        "Within cap: 38W-12L (76.0%, ~30% ROI)",
+        "Beyond cap: 40W-21L (65.6%, 3.8% ROI)",
+        "Forward since May 1: 6W-2L (75%). Small sample but tracking."
+      ],
+      "evidence_against": [
+        "Forward sample only 8 bets. Need 30."
+      ],
+      "action_taken": "TB_JUICE_CAP = -160 in oddstrader_scraper.py",
+      "next_check": "After 30 forward TB bets within cap (~2 weeks)"
+    },
+    {
+      "id": "H041",
+      "statement": "25%+ EV TB bets have 80%+ true win rate (not just variance)",
+      "status": "ACTIVE - extraordinary evidence",
+      "evidence_for": [
+        "14-0 is p<0.001 against 50% null",
+        "Mostly u1.5 TB on low-output hitters vs tough pitching",
+        "Spread across 6+ dates, multiple players",
+        "+$1,073 profit on 14 bets"
+      ],
+      "evidence_against": [
+        "14 bets is still small. True WR could be 70-85%."
+      ],
+      "action_taken": "No filter - let these through.",
+      "next_check": "After 25 total 25%+ EV bets"
+    },
+    {
+      "id": "H043",
+      "statement": "HA u4.5 line filter improves HA ROI to 15%+",
+      "status": "ACTIVE - retroactive evidence strong",
+      "evidence_for": [
+        "u4.5: 8W-3L (73%, +$281)",
+        "u5.5+: 9W-8L (53%, -$209)",
+        "Cecconi blowup (10 HA on u6.5) is the exemplar of why loose lines fail"
+      ],
+      "evidence_against": [
+        "No forward data yet (filter implemented May 3)"
+      ],
+      "action_taken": "HA line filter in oddstrader_scraper.py",
+      "next_check": "After 20 forward HA bets under filter"
+    },
+    {
+      "id": "H031",
+      "statement": "Game model is worth keeping (OVER-only)",
+      "status": "DECLINING - trial period",
+      "evidence_for": [
+        "Since OVER-only (Apr 26): 9W-5L-4P, +$331, 64.3% WR",
+        "Early OVERs were 5W-0L (p=0.017)"
+      ],
+      "evidence_against": [
+        "Overall: 33W-32L, -$47. Not contributing.",
+        "CLV: -0.33% avg, 37% positive. Buying stale lines.",
+        "May 2: 1W-3L worst day (-$304)"
+      ],
+      "action_taken": "OVER-only mode since Apr 26.",
+      "next_check": "Kill decision at 100 total game model bets (31 more needed)"
+    },
+    {
+      "id": "H044",
+      "statement": "TB losses cluster around specific player/pitcher/park profiles",
+      "status": "NEW - untested",
+      "evidence_for": [
+        "24% loss rate means specific conditions trigger losses",
+        "Heavy juice losses already filtered by cap",
+        "Remaining losses may share player-type or park characteristics"
+      ],
+      "evidence_against": [],
+      "action_taken": "None yet - research queued for W19",
+      "next_check": "Profile all 12 within-cap TB losses"
+    },
+    {
+      "id": "H045",
+      "statement": "HA OVER (pitcher gives up many hits) is a viable market",
+      "status": "NEW - untested",
+      "evidence_for": [
+        "1 bet: Ohtani o4.5 HA, won +$129",
+        "Inverse logic: bad pitchers give up hits. Model could identify these."
+      ],
+      "evidence_against": [
+        "Only 1 data point",
+        "Books may price these more efficiently than unders"
+      ],
+      "action_taken": "None yet",
+      "next_check": "After 10 HA OVER bets (if model generates them)"
+    },
+    {
+      "id": "H046",
+      "statement": "Line movement timing correlates with TB win rate",
+      "status": "NEW - untested",
+      "evidence_for": [
+        "Theory: bets placed on lines that haven't moved post-lineup are stale captures",
+        "15-25% EV dead zone was explained by stale lines",
+        "If we could timestamp line movement, we'd know which edges are real vs stale"
+      ],
+      "evidence_against": [
+        "No line movement data currently captured"
+      ],
+      "action_taken": "None yet - requires new data capture",
+      "next_check": "After implementing line movement tracking"
+    },
+    {
+      "id": "H015",
+      "statement": "MLB_OVERDISPERSION should be 2.1, not 1.8",
+      "status": "strong_evidence_from_research",
+      "evidence_for": [
+        "FanGraphs community research: AL var/mean=2.22, NL=2.15"
+      ],
+      "evidence_against": [
+        "Our 1.8 was tuned via Pinnacle backtest",
+        "Game model is break-even regardless - this may not matter"
+      ],
+      "action_taken": "None yet - low priority given game model status",
+      "next_check": "Only if game model survives to 100 bets"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+=== Sports Edge Analyst Session: postmortem ===
+=== 2026-05-02 05:00 UTC ===
+
+## Post-Game Review Complete: May 1, 2026
+
+### Tonight: 6W-2L, +$350.60
+
+**OddStrader** (4W-1L, +$286.40): All TB plays, all within juice cap except Duran at -145. Only loss was Duran who went 2-for-4 with a double.
+
+**Game Model** (2W-1L, +$64.20): BAL@NYY and ATL@COL won, MIL@WSH lost.
+
+### Bug Fixes
+- **Accent matching bug** in `grade_oddstrader.py` - added `unicodedata` NFD normalization so "Ureña" matches "urena"
+- **3 stuck bets graded**: Ureña (loss), Senga (win, +$92), Marsh (voided - game postponed)
+
+### Updated Totals
+
+| Model | Record | PnL |
+|-------|--------|-----|
+| OT Active (TB+HA+ER) | **94W-43L (68.6%)** | **+$2,037** |
+| TB within -160 cap | **36W-12L (75.0%)** | **+$1,542 (30.3% ROI)** |
+| Game Model | 32W-29L-4P | +$257 |
+| K-Props | 51W-47L | -$363 (DEAD) |
+| **Active-only PnL** | | **+$2,294** |
+
+### Morning Priorities
+1. Grade Kwan bet when game finishes
+2. Pregame scan for May 2
+3. Recommend permanently killing K-Props (-$363, 5 straight losses, no edges)
+
+=== Session Complete: 2026-05-02 05:09 UTC ===

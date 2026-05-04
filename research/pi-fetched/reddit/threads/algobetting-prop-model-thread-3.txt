@@ -1,0 +1,161 @@
+# I just can’t find an edge. 
+
+[knavishly_vibrant38 | 38 pts | 26 comments]
+
+This area is my speciality, passion, and entire life — using data science and concepts of expected value to succeed in a given market (options, futures, player prop bets).
+
+Not long ago, I got additional financing that I wanted to use to “go for it” — I would come up with a few sound methodologies, rigorously backtest them, and then finally deploy some sizable capital. I would learn more along the way, and after some time compounding returns, I would open up a proprietary shop with offices and become a legit name.  
+
+However, as I’ve gotten better at backtesting and getting a deeper fundamental knowledge of the given market/approach/models, I’m just… not really finding anything I can confidently deploy capital to. 
+
+Believe me, I’m not being naive and just brute-force testing strategies that have no reasonable basis nor am I taking a casual approach — I have been coding experiments for 8-12 hrs a day for awhile now. 
+
+I’m mainly talking about finance markets, but it applies here too since there’s an overlap and I split my time between the two.
+
+I actually am intrinsically motivated so I do enjoy the pursuit, but above all I have to be pragmatic and eventually start generating cash flow.
+
+So, I just feel kind of weird. Doing all this work has given me insane domain knowledge that seems to be growing with every test, but it seems that the more I learn, the more I get the thought that I should probably do something else, literally anything else. 
+
+I can’t keep waking up everyday, reviewing the prior days’ failures, hitting up the code terminal again to build on or test new ideas, and then repeating that cycle over and over. I had the romantic idea that this dedication is what it takes, but surely there’s a point where it just becomes delusion. How do I know that this is actually even possible and I’m not just wasting my life? 
+
+So, just give it to me straight. Do I need to put this on the back burner for a bit and learn a new area?  Am I ever going to have an “a-ha! moment?  
+
+Have you been in my shoes? If so, what did you end up doing? Do I need to stay the course? 
+
+I actually will take your advice seriously, I really need some external input. 
+
+
+---
+## Comments
+
+[Open_Ad5498 | 36 pts]
+It might sound obvious, but unfortunately, true insights(edge) often come unexpectedly in brief moments of brilliance. And most of them lie in the realm of cleverness and simplicity, rather than pure intellectual achievement.
+
+[[deleted] | 11 pts]
+[deleted]
+
+  [knavishly_vibrant38 | 4 pts]
+  "Stay with it man, I think you have the right overlap of degeneracy, nerd and absolute chad vibes to be successful in this space"
+
+Thanks man, I really needed the encouragement. Also, I did read and enjoy your blog post(s), I just kept procrastinating on letting you know.
+
+[BeigePerson | 10 pts]
+Imho sports betting isn't a data science problem.  Data science some useful tools, but there is a lot more to it.
+
+Interesting example of data science naively playing markets:
+https://www.theguardian.com/business/2021/nov/04/zillow-homes-buying-selling-flip-flop
+
+  [[deleted] | 3 pts]
+  [removed]
+
+    [BeigePerson | 1 pts]
+    Ok, lets go with this....
+
+Take the zillow example.  Lets say a data scientist was worried about adverse selection... what would they do?  A/B testing could get expensive...
+
+[FIRE_Enthusiast_7 | 8 pts]
+Keep going! It took me around four years (as a hobby, on and off) before I managed to develop a model that was profitable.
+
+  [573banking702 | 3 pts]
+  Any suggestions on where to look or any tips you have that can help one avoid a 4yr dilemma lol
+
+  [salviamo | 2 pts]
+  Same here
+
+[GoldenPants13 | 7 pts]
+What is your goal?
+
+I think that people who come into betting from pure data science backgrounds often get stuck in situations like this. For me, I came from a trading/poker background and learned data science for the specific reason of extracting more money from the betting markets.
+
+Your goal should be to make money (if you want to achieve outsized success in betting). If making money means you just do the most braindead top-down strategy over and over until it breaks - great do that. If it means measuring correlation to take advantage of an SGP engine that you think has a problem - then do that.
+
+Ask yourself this though - if you had a button you could smash each day and it gave you a 4% return, would you keep smashing it or get bored and want to create models for fun in vscode?
+
+To each their own - but im smashing that button until my wrist breaks. And then im using data science for the sole purpose of finding more buttons.
+
+Goal is win first - then use data science to sustain/improve your results. Try flipping this whole situation on it's head and say "what would you do if you had a gun to your head and had to win betting this month?" Do that - then use your technical skills to improve that, then rinse and repeat.
+
+  [knavishly_vibrant38 | 2 pts]
+  "what would you do if you had a gun to your head and had to win betting this month?"
+
+This is \*exactly\* what I've been doing (like, that's literally an exact quote I said to myself), just finding some baseline approach to generate some cash flow that I can optimize on later. Nothing works (I always test over multiple historical seasons). 
+
+When I focus on strategies using the actual sport fundamentals, the given market line tends to be right about what I'd expect (eg, model odds of -120 vs market odds of -125) – can't beat the vig. The vig makes it so that any sustained betting is essentially just a downward trend as the margin just compounds. 
+
+When I focus on odds-based approaches (eg, positive EV cross-book scalping, correlated bets), everything tends to be pretty tight. For instance, something like the winning margin bet (team a to win by 1-6 points) – if the matchup tends to historically have 1 team winning by say 10 points, you can take both sides of the bet (1-6 @ +1000, 7-12 @ +500, both sides) and come up with a profit. Most of the time, you'll make a profit, but of course, sometimes one team will win by a larger than expected margin and you experience a loss n-times greater than your prior profits. That just has to happen a few times in a row (which it always will) and you go bankrupt. It's just sliding around the risk/reward slider but no actual edge. 
+
+To be fair, I have had some prior success with the +EV approach where I monitored dislocations in prop bets across multiple books, but I feel that approach isn't systematic or robust enough to put into a methodology and get an expected idea of what the PnL of a given period would be. Plus, I was really just staring at the screen all day waiting for opportunities to just add on these random bets with no other rational being that it's different than a sharp book.
+
+    [GoldenPants13 | 6 pts]
+    "...but I feel that approach isn't systematic or robust enough to put into a methodology and get an expected idea of what the PnL of a given period would be."
+
+I don't think any approach actually fits this criteria. Edges die or get much worse as time goes on. Some great edges last a season, some last one day. You should be poised to take advantage of these.
+
+It seems like you're possibly chasing some certainty that doesn't exist in markets?   
+  
+Also, if you have a strategy that mirrors the market based on non-market data (aka data from within the sport) THAT'S GREAT! What you need to be doing in that circumstance is trying to figure out which soft books open first and betting into them. Models are tools to make money.   
+  
+A great trader can take a mediocre model and make money. A bad trader can lose money with tomorrow's newspaper.
+
+    [EducatorHot9015 | 2 pts]
+    What you’ve mentioned here is just basic arbitrage betting. Real edge comes from fundamental models, that requires a significant amount of data and applying the right statistical techniques towards the factors you are analysing. Simply feeding what’s publicly available into ML is what most people are doing. If you lack deep understanding in statistics and data science, then it’s important to build your knowledge by reading papers first. Those who are extremely good at statistics and data science at the same time may not understand the nature of the sport as a regular gambler who enjoys the sport itself. 
+
+If you believe you’re doing it right and can’t find an edge then you’re basically doing what everyone else is doing, hence your odds reflect the market value. There is no ‘quick’ success and focusing on the money is never the way to go. Diving into papers you’ll realise how much “smarter” people were just a decade ago. Most the algorithms we use today were developed 30-40 years ago. It’s the hardware that allows us to employ the algorithms today. Focus on what you know you’re lacking on with positivity, instead of being frustrated in disbelief. I would like to believe I am intelligent, but the deeper I research into mathematical theories and papers the dumber it makes me feel.
+
+    [[deleted] | 1 pts]
+    I cannot be sure of a solution without knowing the ins and outs of your models, but the problems you’re describing are very unique. A more common problem would be that when you go live your model is predicting MLs much different from the books but these predictions are inaccurate and the model doesn’t generalize at all.
+
+The fact that your predictions are almost always dead on with the books suggests to me that you might be suffering from “analysis paralysis” the books adjust their odds over time when bets come in from generally successful betters. Because of this you can look at bookmaker odds as the amalgamation of the predictions of all the best betters, with all the best models. If you’re just matching this it might be because you’re using too much data. Simplify your approach and use less columns, analyze groups of columns and see their relevance, train models on smaller groups of fields, then combine the most effective ones. The books are a supercombination of all possible data, you can’t beat them doing the exact same thing.
+
+      [[deleted] | 1 pts]
+      Also it seems like you, like me, are much more of a data scientist than a trader and have not been at this for long. I am not positive that this purely analytical way of thinking will yield success, because at the end of the day we are gambling and that takes some fuck it. Find someone to work with and that might help you make the models more creatively.
+
+[extrajordonary | 7 pts]
+1. Take some time to step away. 
+2. Find some one to collaborate with. 
+
+Finding an edge requires out of the box approach so just change your routine
+
+[tsgiannis | 6 pts]
+Well I am on the same boat so I can tell is difficult.  
+Everything in data science more or less is prediction against solid cases where the past (train) has some affiliation with the future, but sports are hard ,way too hard  
+I am mainly dealing with ebasket and I can tell there are just too many factors, starting from each player "skill","luck" and ending around the case of fixed games , and I am talking for just 2 players, so go to the real games and multiply it by the number of players each game utilizes, regardless of what skill each player holds there are a gazillion of factors that affect the outcome of a game, so prediction is just too hard, for every feature you insert into your model there are 1000s other that affect more or less.
+
+[NeedleworkerNo4835 | 4 pts]
+Yah these are the toughest markets in the world, both sports and financials. Extremely competitive.
+
+  
+Might I suggest giving poker a try? Instead of trying to beat the lines that the best traders in the world are betting into, you can select games with much weaker opponents.
+
+And there's alot of overlap with the concepts as well.
+
+It's no surprise a ton of top trading desks force their new traders to take up poker and see if they can win at it, to see if they have the skills to be a top trader. (Source: recent podcast with Ronnie Bardah and a professional trade whose name is escaping me at the moment, but you can find it easily searching)
+
+[UnsealedMilk92 | 3 pts]
+can you elaborate on what you're trying to do apart from make money (aka what models and bets)
+
+[tigerfan4 | 2 pts]
+which sport are you looking at? and which markets?
+
+[azteccobra | 2 pts]
+I'm in a similar spot where the longer you try, and the more you learn about the markets, the more you realize just how difficult a game it is, and how good you have to be to make a profit.
+
+Sounds like you need some balance. I'd stay the course but don't burn yourself out, it's too easy to neglect other parts of your life.
+
+[NotoriousStevieG | 2 pts]
+Do you have access to Betfair Exchange? If you do it may be easier for you to develop profitable strategies based on price movements within markets instead of outright betting strategies.
+
+[sheltie17 | 1 pts]
+Building a successful model is more of a domanin knowledge and data engineering challenge than a data science task. The RAPTOR model that 538 used to publish was more accurate in predicting NBA games than the local bookmaker of mine so it can be done. However, I'd estimate that building the data gathering and processing pipeline for such model takes maybe a week or so, but modelling can be replicated to some success within a day when a known blueprint for a suitable model exists.
+
+[BowTiedBettor | 1 pts]
+you dont find the best edges. they find you.
+
+  [knavishly_vibrant38 | 1 pts]
+  Got any examples?
+
+[sixf0ur | -2 pts]
+Sounds like a creative writing experiment
+
+[Aggravating-Set1013 | -4 pts]
+touch grass

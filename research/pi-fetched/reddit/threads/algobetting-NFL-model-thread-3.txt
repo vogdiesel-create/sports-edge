@@ -1,0 +1,41 @@
+# Sourcing Game Data
+
+[ell0bo | 4 pts | 11 comments]
+
+So how are people pulling their data together?  Any APIs people recommend, or is everyone scraping it from ESPN or the like?
+
+I used to write crawlers years ago to pull data together, but only recently got back into trying out algo betting.  I found a site that was free and had a simple CSV of all the football games (individual player stats, weather, betting line) and I used that along with their historical data to build a model.  Went to pull down this year's NFL data, site is closed.  Are people scraping their own data primarily or are there good APIs out there people are utilizing and would recommend?
+
+---
+## Comments
+
+[PropsDailycom | 7 pts]
+Have you tried the [espn api](https://gist.github.com/akeaswaran/b48b02f1c94f873c6655e7129910fc3b)
+
+  [ell0bo | 1 pts]
+  I will today, thank you.
+
+[Bits_Bytes_Bucks | 3 pts]
+There's also the college football database API. I've just started tinkering with that one, looks like it has a TON of information in it, from team stats to player stats to (limited) sportsbook odds, and even some pre-calculated model stuff.
+
+https://pypi.org/project/cfbd/
+
+  [ell0bo | 1 pts]
+  thank you
+
+    [Bits_Bytes_Bucks | 1 pts]
+    I should add, though, that in general I prefer to do my own scraping than to rely on someone else's API. I've had too many "oh shit" moments over the years when someone else's API suddenly stops working, and in situations like that I'd rather have control over my own source code.
+
+[fraac | 2 pts]
+Dunno about NFL but in general: was scraping for twenty years but now find it's a better use of my time to let domain experts do that and use their APIs where possible, or otherwise hire someone cheap and much better than me from Fiverr.
+
+  [ell0bo | 2 pts]
+  do you have any APIs to recommend?
+
+[Ender_Locke | 2 pts]
+i’ve been working on a python client for the espn api
+
+https://github.com/EnderLocke/pyespn
+
+  [ell0bo | 1 pts]
+  love the name, I ended up rolling my own node one

@@ -1,0 +1,18 @@
+{
+  "date": "2026-04-16",
+  "timestamp": "2026-04-16T22:43:02.281357+00:00",
+  "bankroll": 5222.09,
+  "total_bets": 28,
+  "graded": 25,
+  "pending": 3,
+  "record": "14W-11L-0P",
+  "win_rate": 56.0,
+  "total_pnl": 222.09,
+  "roi": 5.7,
+  "clv_checks": 24,
+  "clv_avg": -0.19,
+  "clv_positive_rate": 41.7,
+  "target_bets": 200,
+  "progress": "25/200 (12%)",
+  "kill_triggered": false
+}

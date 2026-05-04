@@ -1,0 +1,115 @@
+# CLV vs Win Rate. What actually matters when evaluating a betting model?
+
+[Overall-Violinist872 | 8 pts | 25 comments]
+
+After tracking a few hundred bets, something interesting showed up in my data. My win rate moves around a lot but the bets where I consistently beat the closing line tend to perform better over time. It made me start thinking that CLV might be a better signal that your model has an edge, while short term win rate is mostly variance. It also made me realize how much price matters. If your edge is small, laying -115 instead of something closer to -105 or -103 eats a big chunk of the expected value. I have been focusing more on line shopping and testing lower juice books like Bracco that run -103 lines on some markets, since mathematically it just lowers the house edge a bit.
+
+
+
+I want to know how people here evaluate their models. Do you prioritize CLV, expected value from the model or actual ROI?
+
+---
+## Comments
+
+[sleepystork | 7 pts]
+Been doing this for 40 years. Don’t care about CLV. Don’t care about short term win rate. Depending on what you are betting, “a few hundred bets” is not enough to say your model has any value. It’s all variance at this point. 
+
+  [TwistLow1558 | 1 pts]
+  For NBA player props specifically, how many bets until one can distinguish variance from an edge?
+
+    [[deleted] | 1 pts]
+    Don't get caught up in specific markets like, "This for NFL Sides, that for NHL MLs, this for NBA player props". 
+
+Just backtest and track as much as possible -- the numbers will ultimately do the work. High liquidity markets give you a better information space. If you're on an American book betting into, say, a foreign basketball league, you could see a 9-point swing multiple times a week with little effort. That's not necessarily telling you much other than there isn't a lot of money in the pot. 
+
+Generally: CLV is indicative of beating the market's most efficient price, but that doesn't *necessarily* mean anything. The basic idea behind CLV is that if you're beating the market's most efficient price consistently you should be winning the math war but again, that doesn't *necessarily* mean anything. It matters a lot more how you construct what you do. I track CLV, but a small negative CLV is not going to necessarily change my recipe if there aren't other indicators. 
+
+There is no hard number you cross where it's like, "I have hit X number of bets. My information is now no longer variance" People can/will give you rough approximations of where their confidence ticks up -- but it's all rough -- 1,000 bets is better than 100, 10,000 is better than 1,000, and so on.
+
+      [Delicious_Pipe_1326 | 2 pts]
+      The liquidity point is spot on. A big line swing in a thin market is just noise, not signal.
+
+I’d push back gently on the sample size thing though. It’s not quite as open ended as “more is better.” If you’re betting spreads at -110 and your true edge is 54%, you can calculate exactly how many bets you need to distinguish that from a coin flip at a given confidence level. It’s a standard binomial test and it comes out around 1,000 bets. Not a rough guess, just the math.
+Doesn’t mean 1,000 is a magic number for every market and bet type, but the idea that there’s “no hard number” sells people short. The tools to answer that question exist.
+
+        [[deleted] | 1 pts]
+        &gt; Doesn’t mean 1,000 is a magic number for every market and bet type, but the idea that there’s “no hard number” sells people short. The tools to answer that question exist.
+
+Fair enough. We could split hairs on the semantics of 'rough' (where what I'm trying to get at is input quality necessarily influences output quality) but I think I was pretty loose in my language there and what you're saying is more-or-less what I mean, specifically in the context of someone NBA player props and then the worry is applying that same condition to other markets where the math is different.
+
+And in fairness to my own case: I am probably considerably less math-oriented in how I do what I do than what I observe on this sub-reddit; I came-of-age in this space before "modeling", "CLV", "Edge", etc. were household words even among serious punters, so I'm happy to concede that what I do is most probably not "better" and very likely more leaky; but the general concepts apply and many ways to skin a cat, etc. etc. 
+
+I remember, way, way, back in the day, hearing stories of guys in the pre-internet world who would pay airport runners to try to pull newspapers from around the country off airplanes for information before it hit the wire. It has been quite a ride. I'm just happy to find a forum that is not incessant posting of 37-leg parlays and actually has some qualified discussion. Very rare these days.
+
+Complete aside: "Delicious Pipe", an unfortunate handle the randomizer gave you. Or fortunate, I suppose, depending on your perspective? Funny in either case :)
+
+        [Delicious_Pipe_1326 | 1 pts]
+        
+:-), the handle was Reddit’s randomizer and I’ve learned to just own it at this point.
+
+Great story about the airport runners. That’s basically CLV hunting before anyone had a name for it. Get the information before the market prices it in, by any means necessary.
+
+And agreed on this sub. It’s one of the few places left where you can have an actual conversation about this stuff without wading through parlay screenshots.
+
+  [Overall-Violinist872 | 1 pts]
+  That’s kinda why I want to know how people measure things early on, because a few hundred bets definitely feels like noise. Do you just wait for a few thousand before you start trusting anything or is there another signal you look for?
+
+[Delicious_Pipe_1326 | 5 pts]
+Good discussion. Something worth adding that a few people are touching on: CLV's usefulness really depends on how efficient the market is that you're betting into.
+
+For liquid markets like NBA spreads and totals, CLV against Pinnacle's close is probably the single best signal you can track. If you're consistently beating the close, the market is basically confirming you had information it hadn't fully priced in. Win rate at a few hundred bets is mostly noise. You need roughly 1,000 bets to separate a 54% win rate from a coin flip, which is a longer runway than most people expect.
+
+Where it gets trickier is in illiquid markets like player props or niche leagues. The closing line itself might not be very efficient, so beating it doesn't necessarily mean what you think it means. I've leaned more toward ROI in those spots, but even then the sample size trap is real. And even when CLV is less useful as a metric, price sensitivity still matters just as much. A high win rate doesn't help if you're consistently laying worse juice on your best picks.
+
+OP's point about line shopping and lower juice books resonates with me. If your edge is thin, the gap between -115 and -105 can easily be the whole margin.
+
+  [[deleted] | 2 pts]
+  &gt; If your edge is thin, the gap between -115 and -105 can easily be the whole margin.
+
+Back in the offshore-only days (for Americans), the "Reduced juice" books where the standard line was -105 was among the sharpest things any novice bettor could do without really knowing much else. A far cry from that world we live in today.
+
+  [Overall-Violinist872 | 1 pts]
+  Market efficiency probably matters more than people admit when using CLV as a signal. I mostly look at it in the bigger, liquid markets for that reason but the juice part still feels universal too. Laying -115 instead of something closer to -105 can quietly eat the whole edge if you are not careful.
+
+[ICanAlmostSeeYou | 2 pts]
+Closing line is more useful in liquid/efficient markets. In illiquid markets I'd worry less about CLV and focus on ROI (not win-rate).
+
+  [Overall-Violinist872 | 1 pts]
+  In really liquid markets the close probably tells you a lot more but in softer or niche markets ROI over time feels like the better signal. Different tools depending on the market you are betting into.
+
+[Automatic-Eye-8283 | 1 pts]
+The closing line is basically the most efficient number the market lands on, so beating it consistently suggests your model has an edge. Win rate can look great or terrible over a few hundred bets just because of variance.
+
+[OldIsland4901 | 1 pts]
+Win rate is useful but its heavily influenced by the type of odds youre playing and short term variance. If your bets consistently beat the closing line, thats usually a strong signal the model is doing something right.
+
+[Remarkable-Bowler-60 | 1 pts]
+Where do you get your opening and closing line odds?
+
+[Sarkonix | 0 pts]
+Been doing this for a few years now as well. Positive results and I don't really care about CLV either. Long term ROI is all that matters.
+
+  [Soggy_Transition_389 | 2 pts]
+  Positive ROIs on recreational bookmakers do not make you a skilled bettor, quite the contrary.
+
+
+
+    [Sarkonix | 1 pts]
+    Over a few years...clearly doing something right (my model is at least). This is all on the prop market as well, probably 90% on 2 leg slips.
+
+  [Overall-Violinist872 | 1 pts]
+  I think CLV is just one of those signals people use along the way but at the end of the day profit over a big enough sample is what actually matters.
+
+    [MoonBet-1998 | 1 pts]
+    Ahahahahaha nice one 
+
+  [MoonBet-1998 | 2 pts]
+  Even if you don’t care, long term ROI and CLV are correlated
+
+    [Sarkonix | 1 pts]
+    I'm not saying CLV is bad or not useful, just stating I have had great success without focusing on it. Also no, they are not necessarily directly correlated. CLV can be a useful signal, but ROI is the actual outcome. You can have good CLV and bad realized ROI or poor CLV and still be profitable.
+
+edit: just realized both comments under my post are from dudes trying to sell subs to their site lol
+
+[OwnTheLines | 1 pts]
+I like CLV.  it’s a good sign you are ahead (predictive vs reactive).

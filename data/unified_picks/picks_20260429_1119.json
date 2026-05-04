@@ -1,0 +1,73 @@
+{
+  "timestamp": "2026-04-29T11:19:15.013620+00:00",
+  "bankroll": 4981.839999999998,
+  "total_picks": 3,
+  "tier_counts": {
+    "S": 0,
+    "A": 1,
+    "B": 2
+  },
+  "total_exposure": 385.6,
+  "picks": [
+    {
+      "source": "mlb_feature",
+      "sport": "MLB",
+      "game": "SEA @ MIN",
+      "home_team": "MIN",
+      "away_team": "SEA",
+      "side": "OVER",
+      "market_type": "totals",
+      "market_line": 8.0,
+      "odds": 100,
+      "our_prob": 0.5957,
+      "edge": 0.1146,
+      "model_confidence": 0.5957,
+      "tier": "A",
+      "level1_confirms": false,
+      "level1_detail": null,
+      "side_penalty": false,
+      "kelly_pct": 3.0,
+      "wager": 149.46
+    },
+    {
+      "source": "mlb_feature",
+      "sport": "MLB",
+      "game": "BOS @ TOR",
+      "home_team": "TOR",
+      "away_team": "BOS",
+      "side": "OVER",
+      "market_type": "totals",
+      "market_line": 8.0,
+      "odds": -102,
+      "our_prob": 0.5805,
+      "edge": 0.0948,
+      "model_confidence": 0.5805,
+      "tier": "B",
+      "level1_confirms": false,
+      "level1_detail": null,
+      "side_penalty": false,
+      "kelly_pct": 2.39,
+      "wager": 119.07
+    },
+    {
+      "source": "mlb_feature",
+      "sport": "MLB",
+      "game": "ARI @ MIL",
+      "home_team": "MIL",
+      "away_team": "ARI",
+      "side": "OVER",
+      "market_type": "totals",
+      "market_line": 8.0,
+      "odds": -115,
+      "our_prob": 0.6017,
+      "edge": 0.0873,
+      "model_confidence": 0.6017,
+      "tier": "B",
+      "level1_confirms": false,
+      "level1_detail": null,
+      "side_penalty": false,
+      "kelly_pct": 2.35,
+      "wager": 117.07
+    }
+  ]
+}

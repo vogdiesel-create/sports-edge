@@ -1,0 +1,128 @@
+# I Compared 6 MLB Models (PECOTA, FanGraphs, ESPN, etc.) and Built My Own to Beat Vegas Win Totals
+
+[ProjectingPotential | 47 pts | 24 comments]
+
+Sharing a side project while we wait for baseball to return!
+
+I ran a multi-season evaluation (2022–2024) of six MLB projection models for season wins — FanGraphs, ESPN, Baseball Prospectus (PECOTA), The Athletic (Keith Law), Clay Davenport, and my own system, **HOBIE** (Holistic Outcomes Baseball Insight Engine).
+
+I tested each model on:
+
+* MAE and RMSE vs actual wins (precision)
+* Correlation with actual wins (pattern)
+* Betting performance vs Vegas win totals
+
+Then, having identified the best model, I developed a **betting strategy** based on where model projections diverged from the Vegas line. Accuracy increased sharply as the gap widened (see image):
+
+* **2.5–5.5 win difference:** 72% win rate
+* **6.5+ win difference:** 91% win rate (smaller N, but highly predictive)
+
+**HOBIE consistently outperformed** all major models except Keith Law’s, and the statistical differences were significant in most cases.
+
+Last year I went 14-3 in the season-long win total bets for a 64% ROI, and if you project the current season's win totals using current win percentage, I'd go 13-6. Lots of baseball left to play, but it's been pretty solid over the last few seasons and is looking good so far this year.
+
+[Full writeup + charts here](https://medium.com/@brian.burkhard/the-most-accurate-model-to-predict-mlb-season-win-totals-and-beat-vegas-64ee42529b64).
+
+Open if anyone has thoughts on how to improve or ideas for other models to compare.
+
+---
+## Comments
+
+[Delicious-Ad-6185 | 3 pts]
+Well done and thanks for sharing. I’m curious to learn more about how potential transactions and injuries are captured. 
+ie. Historical moves by GM, players returning from injuries or suspensions, likelihood of missed games by key players (HBP% - Tatis).
+
+  [ProjectingPotential | 1 pts]
+  Thank you, and great questions. Individual player performance is somewhat baked in -- if they are injury prone or suspended and likely to miss games, then their projections for the season will be adjusted accordingly, which then impacts the team projections.
+
+Regarding the other ideas, I'd been brainstorming some kind of volatility index to mitigate risk based on team-level features. For example, in the write-up one thing I found was that projections for teams projected in the middle band of wins (75-87 wins) were consistently more accurate than ones above or below that band. 
+
+I wonder if things like GM trade history, likelihood to shed payroll, expectations to promote a lot of prospects, etc. have any predictive power for this or other applications. Those aren't exactly objective measures, but seem worth investigating!
+
+[CentArbitrage | 3 pts]
+This is excellent. Great work. Looking forward to following along. Also eager to hear about model construction you mentioned! Good to hear from a fellow PhD lending their skills to sports betting! Keep it up, happy to connect.
+
+  [ProjectingPotential | 2 pts]
+  PhDs unite! I have a daily model I've been working on for the last year too using the season-long one as a template but swapping out daily lineups. That's my next big project now that this one is in a pretty good place.
+
+[Velhoconhecido | 2 pts]
+This is really awesome
+
+  [ProjectingPotential | 1 pts]
+  Appreciate it! Now that I have the data set and syntax, will be fun (and much easier) to keep tabs on all the public projection models going forward as I keep refining my own.
+
+[Cliff7676 | 2 pts]
+Do you do any in season middles given the opportunity if your initial wager is on track to clear?
+
+  [ProjectingPotential | 1 pts]
+  That's an interesting idea. I haven't done middles for season wins before -- any thoughts as to how far the line would have to move to make it worth it (or any other considerations)? Doing a quick scan for candidates, I had the Cardinals at over 75.5 and they are on track for 85 (line is 84.5 now) so that's a pretty big band.  
+  
+Got Rangers at under 86.5 and they're 80.5 now, Dodgers under 105.5 now at 100.5, Diamondbacks under 86.5 now at 79.5, Blue Jays at over 78.5 and they are at 88.5.  
+  
+I suppose I can re-run my model using updated player stats to project season wins from this point onward, and if that projection is near a middle band that is sufficiently wide enough then it might be a move to make. 
+
+Actually, would be cool to re-run everything right after the trade deadline anyway to see how projections change once rosters are locked.
+
+Will have to think more about it; really appreciate the suggestion.
+
+    [Cliff7676 | 2 pts]
+    im not too good with the math side of things. but if you truly have an edge in season long then there has to be some middle ground where you can pull the trigger on it.
+
+[New-Locksmith5886 | 2 pts]
+Would love to buy your picks lol
+
+  [ProjectingPotential | 1 pts]
+  Been hearing that a lot! Think a yearly almanac before the season would be useful? Picks, line shopping, etc.
+
+[Technical_Command551 | 1 pts]
+This is pretty amazing! i really like what youve done although i dont fully understand all of the acronyms etc. I understood the gyst of it. Im active duty military and have been for 18 years and just these past few months ive been trying to capture data and create models that is different from all the others. I love that yours is season long. however i wonder what a daily or series style model would look. I have been racking my brain trying to find the outliers in stats, that correlates to wins etc. my biggest setback that i feel could increase that percentage a bit more would be the human factor. something that we know very little about aside from injury. Example we know he was hurt. Now hes back how does he perform. Is he favoring that ankle which lowers his exit velo. lowers his speed on the bases. That is just an example, but even further what if he got sad news over the phone and now his psyche is messed up and hes not 100% in his prime. All of these things have got me scrambling on how to find a way to beat the lines without breaking the bank to do so. I love what youve done and look forward to seeing what else comes from this! keep up the good work!
+
+  [ProjectingPotential | 2 pts]
+  Thank you for the kind words and for your service!
+
+Bad form on my part to use so many technical acronyms -- if you go to the link at the bottom of the post, the full write-up does briefly explain what they each mean if you're interested. 
+
+I've been developing a daily model which basically swaps out the season long rosters and those players' contributions to team wins and instead heavily weights the contributions of the daily line-up and starting pitcher and bullpen. Then when you calculate expected wins for a team made up of those players you can pit that against the same for the rival squad and come to an expected win percentage at the game-level (instead of season). So far it's been pretty hard to find much value, and I just haven't had the time for consistent EV+ betting on daily games, plus I'm not that great of a coder (I'm better at stats) so getting all the data together takes a while for me.
+
+I'm a psychologist so totally agree with you about the human factor. It's tricky to say how those various factors might impact different individuals, as well as how to even gather that type of data at any scale or with any reliability, but it's certainly worth brainstorming for potential edges. One recent example: I have Bryan Reynolds on my fantasy team and when he went on paternity leave in June I checked to see what his stats looked like the previous two times he had kids, so there's another one for your list!
+
+    [Technical_Command551 | 1 pts]
+    Psychology is one of the most interesting things on planet earth due to its variance. Everyone’s mental toughness, competitive drive etc. it goes on and on and on. Which is why I think if there was a way to consistently track or compute that data onto paper it would be truly game changing for the sports betting world. 
+Ive considered pursuing psych after the military as I’m a hospital corpsman( field medical service tech) and have always enjoyed the inner workings of psychology. 
+For that daily would you consider using WAR? ( wins above replacement?) The metric itself would be a small piece to the puzzle without overfitting and noise correct? Or would that not work? Just thinking outside the box.
+
+      [ProjectingPotential | 2 pts]
+      Great intuition, I use WAR quite a bit! It's a great "all in" stat as a baseline. For the daily I'm investigating using rolling statistics (e.g. seven day rolling OBP instead of season OBP), plus incorporating things like travel distance as I know some ELO-based models do that.
+
+[BigRonG49 | 1 pts]
+Please don’t delete this post i beed as a reference for my model. Great work and analysis
+
+  [ProjectingPotential | 1 pts]
+  Thanks! The Medium write-up linked at the end has all the details, I hope it's helpful. Let me know if you have any questions and good luck with your model. (edit: typo)
+
+[Technical_Command551 | 1 pts]
+I was playing around with rolling, what I came to notice 7 day rolling was ok, 10 was a bit better. So I’m currently working on trying to find a way to truly look at the last 5/10/15/30 days. And incorporating that into one script. Very interesting on distance traveled I didn’t think of that! That could be something that could give a boost to a specific home team if the data suggests that after travel of X amount of miles etc. they perform ≈2% worse. Would this data prove useful? I like the concept but how does it differ from home vs away stats?
+
+  [ProjectingPotential | 1 pts]
+  That idea came from reading about all the adjustments 538 incorporated into its ELO model back when they were running it: [https://fivethirtyeight.com/methodology/how-our-mlb-predictions-work/](https://fivethirtyeight.com/methodology/how-our-mlb-predictions-work/)
+
+[jordan_be | 1 pts]
+What is the projected ROI percent of the model ?
+
+  [ProjectingPotential | 2 pts]
+  Last season (2024) the model went 14-3 for a 64% ROI. I don't imagine it'll be that good every season, but the current season (2025) is projected at 13-6 if the current winning percentages hold, which would be a 37% ROI based on the way that I bet according to the strategy in my article linked above (higher amounts for greater divergence from Vegas).
+
+[ProjectingPotential | 1 pts]
+**Quick update for anyone who’s followed this thread or bookmarked it:**
+
+I’ve kept this project going and consolidated everything (public scoreboard, model notes, future projections, and a public contest) on a new site: [https://sandlotanalytics.com](https://sandlotanalytics.com)
+
+I’ll be posting future updates from a new handle going forward: u/SandlotStats
+
+Still very much a research-first project. I really appreciate all the feedback in this thread as it genuinely shaped where this ended up.
+
+[kylemaaske | 1 pts]
+Are you planning on running it this year?
+
+  [SandlotStats | 1 pts]
+  Yep and I've added a risk model for bet sizing. I'll drop all the projections and write up in the channel soon.

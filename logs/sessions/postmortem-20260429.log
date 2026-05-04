@@ -1,0 +1,23 @@
+=== Sports Edge Analyst Session: postmortem ===
+=== 2026-04-29 05:00 UTC ===
+
+Post-game review complete. Here's the damage report:
+
+**Apr 28 Results: -$315.76 combined**
+
+| Model | Day Record | Day PnL | Cumulative |
+|-------|-----------|---------|------------|
+| Game Model | 0W-1L | -$127 | 26W-26L-2P (-$18) |
+| K-Props | 4W-7L | -$429 | 49W-34L (+$731) |
+| OT Sim (real $) | ~14W-6L | +$240 | 29W-18L (+$425) |
+| **Combined** | | **-$316** | **+$1,138** |
+
+**Three critical findings:**
+
+1. **K-props got destroyed.** Worst single day ever. Ohtani expected 4.16 Ks, got 9. Burns expected 5.6, got 9. The prior-season K/9 regression fix is now the #1 urgent priority -- the model systematically underestimates elite pitchers.
+
+2. **Edge bucket clarity is now perfect.** K-prop <10%: 5W-0L. 10-15%: 24W-14L (63%). 15-20%: 13W-10L (57%). 20%+: 7W-10L (41%). The alpha lives in 10-15%. Everything above is degrading. Consider tightening cap from 20% to 15%.
+
+3. **OddsTrader TB is the best signal by far.** 21W-6L on real money (78% WR, 30.7% ROI). Game model at 26W-26L is breakeven and may not be worth continuing.
+
+=== Session Complete: 2026-04-29 05:06 UTC ===

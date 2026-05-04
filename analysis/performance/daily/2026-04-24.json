@@ -1,0 +1,58 @@
+{
+  "date": "2026-04-24",
+  "game_model": {
+    "record": "0W-1L",
+    "pnl": -144.81,
+    "bets": [
+      {
+        "game": "MIN @ TB",
+        "market": "total under",
+        "line": 7.5,
+        "odds": -102,
+        "edge": 0.1133,
+        "wager": 144.81,
+        "result": "loss",
+        "actual_total": 8,
+        "pnl": -144.81,
+        "clv": 0.0,
+        "source": "level2_model",
+        "note": "Closing line unchanged at -102. Game went 8 runs, just over the 7.5 line."
+      }
+    ]
+  },
+  "k_props": {
+    "record": "7W-2L",
+    "pnl": 369.55,
+    "note": "Outstanding K-prop day. 78% win rate."
+  },
+  "combined": {
+    "record": "7W-3L",
+    "pnl": 224.74,
+    "note": "K-props carried the day, offsetting game model loss."
+  },
+  "cumulative": {
+    "game_model": {
+      "record": "21W-24L-1P",
+      "bankroll": 4682.16,
+      "pnl": -317.84,
+      "roi": -5.9
+    },
+    "k_props": {
+      "record": "27W-18L",
+      "pnl": 503.24,
+      "roi": 12.7
+    },
+    "combined_pnl": 185.40
+  },
+  "clv": {
+    "avg": -0.37,
+    "positive_rate": 34.0,
+    "sample": 38,
+    "verdict": "Losing to the closing line consistently. Need to get odds earlier or improve accuracy."
+  },
+  "edge_buckets": {
+    "5_to_8_pct": {"record": "6W-7L", "pnl": 43.03, "wr": 46},
+    "8_to_12_pct": {"record": "8W-5L", "pnl": 344.15, "wr": 62},
+    "12_plus_pct": {"record": "5W-6L", "pnl": -237.14, "wr": 45}
+  }
+}

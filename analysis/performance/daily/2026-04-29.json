@@ -1,0 +1,59 @@
+{
+  "date": "2026-04-29",
+  "game_model": {
+    "record": "1W-1L-2P",
+    "pnl": 15.11,
+    "bets": [
+      {"game": "SEA @ MIN", "market": "total over", "edge": "11.5%", "result": "push"},
+      {"game": "BOS @ TOR", "market": "total over", "edge": "9.5%", "result": "win", "pnl": 116.74},
+      {"game": "ARI @ MIL", "market": "total over", "edge": "8.7%", "result": "push"},
+      {"game": "DET @ ATL", "market": "total over", "edge": "8.2%", "result": "loss", "pnl": -101.63}
+    ],
+    "cumulative": {
+      "record": "27W-27L-4P",
+      "pnl": -3.05,
+      "note": "Essentially breakeven. All 4 bets were OVERs per policy."
+    }
+  },
+  "k_props": {
+    "record": "2W-7L",
+    "pnl": -574.41,
+    "bets": [
+      {"pitcher": "Sandy Alcantara", "pick": "Under 4.5", "actual_ks": 4, "edge": "16.4%", "result": "win", "pnl": 119.94},
+      {"pitcher": "Chris Bassitt", "pick": "Under 4.5", "actual_ks": 0, "edge": "16.2%", "result": "win", "pnl": 80.49},
+      {"pitcher": "Drew Rasmussen", "pick": "Under 4.5", "actual_ks": 6, "edge": "15.6%", "result": "loss", "pnl": -122.34},
+      {"pitcher": "Peter Lambert", "pick": "6+ Ks", "actual_ks": 0, "edge": "15.0%", "result": "loss", "pnl": -122.34},
+      {"pitcher": "Erick Fedde", "pick": "Under 3.5", "actual_ks": 6, "edge": "14.8%", "result": "loss", "pnl": -122.34},
+      {"pitcher": "Jameson Taillon", "pick": "Under 4.5", "actual_ks": 6, "edge": "14.4%", "result": "loss", "pnl": -122.34},
+      {"pitcher": "Cade Cavalli", "pick": "Under 4.5", "actual_ks": 10, "edge": "14.1%", "result": "loss", "pnl": -122.34},
+      {"pitcher": "Taj Bradley", "pick": "Under 5.5", "actual_ks": 7, "edge": "12.6%", "result": "loss", "pnl": -122.34},
+      {"pitcher": "Bubba Chandler", "pick": "Under 4.5", "actual_ks": 6, "edge": "12.6%", "result": "loss", "pnl": -40.80}
+    ],
+    "cumulative": {
+      "record": "51W-41L",
+      "win_rate": 55.4,
+      "pnl": 156.21,
+      "note": "Catastrophic 2-day drawdown: 6W-14L (-$1003). UNDERs confirmed losing."
+    }
+  },
+  "oddstrader": {
+    "record": "17W-8L (real $)",
+    "pnl": 304.83,
+    "by_market": {
+      "Total Bases": "13W-6L (+$220.62)",
+      "Total Pitching Hits Allowed": "4W-1L (+$117.60)",
+      "Total Strikeouts": "2W-3L (-$33.39)"
+    },
+    "note": "Best day in a while. TB continues to dominate."
+  },
+  "combined_pnl_today": -254.47,
+  "critical_findings": [
+    "K-PROP UNDERs ARE LOSING: 31W-29L (51.7%), -$330 all-time. Not profitable after vig.",
+    "K-PROP OVERs ARE STRONG: 20W-12L (62.5%), +$486 all-time. This is the real signal.",
+    "EDGE BUCKETS DEGRADED: 10-15% dropped from 63% to 55.8% WR. 15-20% at 55.6%.",
+    "2-DAY DRAWDOWN: 6W-14L (-$1003) on K-props. Worst stretch ever.",
+    "7 of 9 losing K-prop bets had pitchers throwing 6+ Ks on under bets. Model systematically underestimates K upside.",
+    "OT Total Bases remains strongest signal: 13W-6L today, consistently best market.",
+    "Lambert OVER 6+ Ks got 0 Ks despite 5.61 expected. Model also bad at predicting K overperformance on bad pitchers."
+  ]
+}

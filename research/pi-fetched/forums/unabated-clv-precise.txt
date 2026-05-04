@@ -1,0 +1,137 @@
+Getting Precise About Closing Line Value
+Getting Precise About Closing Line Value
+Jason Scavone
+Betting Terms
+May 9, 2025
+You got down early when it was -2.5 (-115) and the game had a closing price of -3 (-110). You did it. You found the Holy Grail. You caught the white whale. You got positive closing line value. Your work here is done, partner. You locked up the most important thing in sports betting.
+Maybe.
+If you’re working under the belief that beating the closing line is the be-all, end-all of sports betting, we get it. If you spend any time in sports betting spaces on social media, you’ve heard it over and over again. Plenty preach closing line value as the true test of a sports bettor’s savvy day in, day out.
+They’re not even entirely wrong. Closing line value is absolutely one of the important
+ways to win at sports betting
+. But there’s nuance to it.
+The Reality of CLV in Sports Betting
+“Closing line value is something that bettors feel they need to attain but it’s not so much gospel as it is a guidepost,” Captain Jack Andrews said. “When you have closing line value you’re basically saying the market moved after you made your bet, and it moved in agreement with your bet.”
+Take our -2.5 game. Is that good CLV? It depends. Did you get the Browns at -2.5 before a line movement to -3 minutes before kickoff? If so, you found yourself a good bet. You can reasonably trust your closing line value.
+But did you get -2.5 on Temple basketball in November in a non-conference matchup?
+Maybe you beat the closing line, but you’ll never know with certainty if it’s a good CLV because early season college hoops is an inefficient market.
+Understand Which Sportsbook Lines are Efficiently Sharpened
+The efficient market hypothesis says that markets eventually reveal the true price of an asset by accounting for all relevant information. This holds true in sports betting markets, too.
+As sharp bettors pour money into markets, books adjust the price of a bet based on the best information they have available to them. New information arrives in the form of sharp bets, and books move their lines. Eventually the market settles into an equilibrium. This is why NFL lines on a Sunday morning that most recreational bettors play are largely settled, but the ones posted after
+Sunday Night Football
+might not exist by Monday afternoon.
+But not all markets are efficient. Largely this comes down to liquidity. A sport like the WNBA is an illiquid market. Sharp bettors may not be able to get down more than $500 on a WNBA game. Low limits keep sharps away, and in turn, the market is deprived of information. When the true price of the bet isn’t actually being discovered, any CLV you see is, at best, an informed guess.
+Beyond Sides and Totals
+Props, such as
+NBA player props
+, have the same problem. Traditionally, low limits on prop bets have meant inefficient markets on those plays.
+“People trip themselves up on props,” Andrews said. “(CLV) doesn’t mean anything in props. There are very few market-making books when it comes to props. There are very few market signals. There’s not a lot of sharp money to the point where there’s enough liquidity in the market. Sharp money is going to move the market more than it should, and that makes it less efficient.”
+In our college basketball example, the quality of the information coming into the market matters, too. Early in the season it’s hard for even sharp bettors to get a good feel for just who these teams are until they start playing meaningful games and against conference opponents later in the season.
+How You Calculate Closing Line Value Matters
+There are also different ways of figuring out if your CLV bet is a
+great positive EV wager
+. One simple way is to take the difference between the implied probability of your bet compared to the implied probability of the closing line.
+Say we bet the Lightning at -195 odds to beat the Kraken. Plug that into our
+Odds Converter Calculator
+and we get a 66.1% implied probability.
+Right before puck drop, what’s our CLV if the line shifts to Tampa Bay -220?
+If we use this method, the implied win probability at -220 is 68.8%. So we have 2.7% closing line value.
+The way we calculate CLV at Unabated is as a percentage. You’d take the difference between the two probabilities, and divide by the probability of your bet. In this case, 2.7% divided by 66.1% is 4%.
+There’s one more step: Dealing with the vig.
+The best way to do this is using a vig-free closing line. In our example, taking the juice out of -220 gives us a fair price of -199.4.
+We end up with CLV of less than 1%, but this also represents our expected value on the play.
+If you’re not using a vig-free closing line, you’re also misrepresenting your CLV, which complicates your ability to use closing line value as a guide if you’re reading the signs wrong. If you don’t compare your bet against a vig-free closing line, you should be subtracting the vig from the CLV result (around 4.5%, but that can vary based on the type of bet you made).
+Use CLV Judiciously
+Regardless of which way you calculate, your closing line value will only go so far as the market will take you. It’s a useful tool in your box to help judge the quality of your bets when you’re dealing with an inherently small sample size like a single NFL season.
+We know historically that NFL closing line value lines up closely with implied probability over the last 15-20 years, and if we’re beating the market consistently we’ll eventually profit in the long run. But treating CLV as your ultimate destination with every bet in every market is a trap. It’s another tool, not the whole box.
+“CLV is a comfort, not a crutch,” Andrews said. “CLV, if you’re losing, can be your silver lining. People look at CLV and say, ‘OK, I have a negative ROI but I have a positive CLV, therefore I’m on the right track. And that is true if you’re betting into an efficient sport. It is not true if you’re betting into an inefficient market. You can’t just constantly think in terms of CLV. You have to think in terms of: Am I making the right bet?”
+On
+(
+UTC
+)
+, we will be live on
+YouTube
+.
+Duration :
+hours
+Learn From The Pros
+BEGIN MY MEMBERSHIP
+Latest Articles
+Gambling Taxes FAQ
+Mistakes to Avoid When Betting on The Masters
+How to Bet Golf: Analyzing the Course
+MLB Betting Is Three Seasons
+The Last Word on Problem Gambling and Sports Betting
+March Madness Betting Strategies: -103 Odds & Other Approaches
+Building NCAA Basketball Power Rankings And A Bracket Simulator
+Solving March Madness Prop Bets
+Latest Videos
+Learn About The Props Simulator
+Learn About The Partial Game Derivative Calculator
+Learn about the CLV Calculator
+Learn about the Derivatives Calculator
+Learn about the Hold Calculator
+Betting Tools
+NFL Season Simulator
+NFL Props Simulator
+NBA Props Simulator
+NFL Teaser Calculator
+NFL Pick'em Edge Tool
+MLB DFS Pick'em Tool
+NFL DFS Pick'em Tool
+College Football Injury Updates
+College Football Depth Charts
+Betting Odds
+NFL Odds
+NBA Odds
+MLB Odds
+NHL Odds
+WNBA Odds
+College Football Odds
+College Basketball Odds
+NFL Player Props
+NBA Player Props
+WNBA Player Props
+College Football Player Props
+Betting Calculators
+Closing Line Value
+Compare Lines
+Hold Calculator
+Odds Converter
+No-Vig Fair Odds Calculator
+Hedge Betting Calculator
+Derivatives - Alternate Lines
+Derivatives - Partial Game
+Betting Education
+How can I find positive-EV wagers?
+Ten ways to win at sports betting
+Is arbitrage betting worth it?
+How should I bet Super Bowl props?
+How can I win betting NBA props?
+What's the best way to approach betting on the NFL?
+How to bet NFL futures and season-win totals
+Should I hedge my bet?
+How do I become a professional sports bettor?
+How can I avoid getting limited at sportsbooks?
+What is a risk-free bet and how do I get the most from it?
+Who sets sports betting lines?
+Building a sports betting model
+Bankroll management for sports betting
+Best sports betting books
+Unabated
+Privacy
+Terms of Use
+Sports Betting API
+Follow Us on X
+Subscribe to Us on YouTube
+Follow Us on Instagram
+Follow Us on TikTok
+Listen to the Unabated Podcast
+Email support@unabated.com
+Join the Unabated Discord
+Subscribe to Our Newsletter
+Get the Unabated Newsletter
+Copyright
+2026
+© Unabated Sports, Inc. All Rights Reserved.
+DISCLAIMER:
+This site is strictly for educational and informational purposes only and does not involve any real-money betting. If you or someone you know has a gambling problem and wants help, call 1-800-GAMBLER. This service is intended for adults aged 18 and over only.

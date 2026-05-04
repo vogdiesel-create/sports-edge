@@ -1,0 +1,102 @@
+{
+  "experiments": [
+    {
+      "id": "EXP-001",
+      "name": "12% Edge Cap Impact",
+      "started": "2026-04-16",
+      "status": "validated",
+      "next_step": "No further action. 8% floor + 12% cap is optimal."
+    },
+    {
+      "id": "EXP-002",
+      "name": "K-Prop Split Thresholds",
+      "started": "2026-04-16",
+      "status": "validated",
+      "next_step": "Moot -- UNDERs disabled."
+    },
+    {
+      "id": "EXP-003",
+      "name": "Moneyline Disabled",
+      "started": "2026-04-18",
+      "status": "validated - permanent",
+      "next_step": "No further action"
+    },
+    {
+      "id": "EXP-004",
+      "name": "1-Bet-Per-Pitcher Cap",
+      "started": "2026-04-19",
+      "status": "validated",
+      "next_step": "Keep. No further action."
+    },
+    {
+      "id": "EXP-005",
+      "name": "MLB OVER Picks Enabled",
+      "started": "2026-04-25",
+      "status": "validated",
+      "next_step": "OVERs confirmed superior. UNDERs disabled."
+    },
+    {
+      "id": "EXP-006",
+      "name": "Disable Game Model UNDERs",
+      "started": "2026-04-26",
+      "hypothesis": "H023",
+      "what_changed": "PREFERRED_SIDE['MLB']='OVER' in edge_detector.py",
+      "success_criteria": "Combined ROI improves by 1%+ over next 30 game model bets",
+      "results_so_far": "7W-4L-2P since OVER-only. Last 7 days 9W-5L (+$366).",
+      "status": "active",
+      "next_step": "Track game model ROI over next 30 bets."
+    },
+    {
+      "id": "EXP-008",
+      "name": "K-Prop 15% Edge Cap",
+      "started": "2026-04-29",
+      "status": "moot",
+      "results_so_far": "Zero OVER picks generated. Cap is irrelevant.",
+      "next_step": "Academic until K-prop model overhauled."
+    },
+    {
+      "id": "EXP-009",
+      "name": "OT RBI + Strikeouts Disabled",
+      "started": "2026-04-30",
+      "hypothesis": "H034",
+      "what_changed": "DISABLED_MARKETS in oddstrader_scraper.py.",
+      "success_criteria": "OT sim ROI improves to 10%+ over next 50 bets.",
+      "results_so_far": "Retroactive: 84W-38L, 15.4% ROI. Forward: too early (0 bets since change).",
+      "status": "active",
+      "next_step": "Track next 50 OT bets."
+    },
+    {
+      "id": "EXP-010",
+      "name": "TB EV Dead Zone Monitor",
+      "started": "2026-04-30",
+      "hypothesis": "H039",
+      "what_changed": "Monitoring only.",
+      "success_criteria": "N/A - resolved.",
+      "results_so_far": "19W-15L (55.9%), -9.6% ROI. Root cause: stale lines, NOT juice. Juice cap blocks 56% of dead zone bets. Remaining within-cap dead zone: 9W-6L, -0.0% ROI (tolerable).",
+      "status": "CONCLUDED - resolved by juice cap",
+      "next_step": "No filter needed. H040 (stale line theory) tracks the WHY."
+    },
+    {
+      "id": "EXP-011",
+      "name": "TB Juice Cap at -160",
+      "started": "2026-05-01",
+      "hypothesis": "H038",
+      "what_changed": "TB_JUICE_CAP = -160 in oddstrader_scraper.py. Rejects TB bets with odds worse than -160.",
+      "success_criteria": "Forward ROI above 15% over next 30 TB bets.",
+      "results_so_far": "Retroactive: within-cap 38W-12L (76.0%, ~30% ROI). Cut: 40W-21L (65.6%, 3.8% ROI). Also resolves EV dead zone (15-25% within cap: 68.2% WR, +$419).",
+      "status": "active",
+      "next_step": "Track forward performance. Dead zone confirmed resolved by cap."
+    },
+    {
+      "id": "EXP-012",
+      "name": "HA Line Filter (u4½ only)",
+      "started": "2026-05-03",
+      "hypothesis": "H043",
+      "what_changed": "HA line filter in oddstrader_scraper.py. Only u4½ or tighter unders. u5½+ skipped.",
+      "success_criteria": "HA forward ROI above 10% over next 20 HA bets.",
+      "results_so_far": "Retroactive: u4½ 8W-3L (73%, +$281). u5½+ 7W-7L (50%, -$126). u6½ 1W-1L (50%, -$83).",
+      "status": "active",
+      "next_step": "Track next 20 HA bets under new filter."
+    }
+  ]
+}

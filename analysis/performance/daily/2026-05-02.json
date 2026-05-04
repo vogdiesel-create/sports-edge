@@ -1,0 +1,70 @@
+{
+  "date": "2026-05-02",
+  "game_model": {
+    "record": "1W-3L-0P",
+    "pnl": -304.00,
+    "picks": [
+      {"game": "BAL @ NYY", "side": "OVER", "line": 8.5, "result": "win", "pnl": 143.37},
+      {"game": "LAD @ STL", "side": "OVER", "line": 8.5, "result": "loss", "pnl": -157.71},
+      {"game": "ATL @ COL", "side": "OVER", "line": 10.5, "result": "loss", "pnl": -157.71},
+      {"game": "MIL @ WSH", "side": "OVER", "line": 8.0, "result": "loss", "pnl": -131.95}
+    ],
+    "cumulative": {
+      "record": "33W-32L-4P",
+      "pnl": -46.86,
+      "bankroll": 4953.14
+    }
+  },
+  "oddstrader_sim": {
+    "record": "3W-1L (1 pending)",
+    "pnl": 199.77,
+    "picks": [
+      {"player": "Steven Kwan", "market": "Total Bases", "line": "u1.5", "result": "win", "pnl": 108.75, "actual": 1},
+      {"player": "Fernando Tatis", "market": "Total Bases", "line": "u1.5", "result": "win", "pnl": 120.03, "actual": 0},
+      {"player": "Chris Sale", "market": "Hits Allowed", "line": "u5.5", "result": "win", "pnl": 145.04, "actual": 3},
+      {"player": "Slade Cecconi", "market": "Hits Allowed", "line": "u6.5", "result": "loss", "pnl": -174.05, "actual": 10},
+      {"player": "Nolan McLean", "market": "Hits Allowed", "line": "u4.5", "result": "pending", "pnl": 0}
+    ],
+    "cumulative": {
+      "record": "120W-86L (1 pending)",
+      "pnl": 1001.52,
+      "bankroll": 6001.52,
+      "active_markets": {
+        "record": "97W-45L",
+        "wr": 68.3,
+        "pnl": 2236.46,
+        "roi": 15.2
+      }
+    }
+  },
+  "k_props": {
+    "record": "0W-3L",
+    "pnl": -235.64,
+    "picks": [
+      {"pitcher": "Kyle Bradish", "pick": "9+ Ks", "result": "loss", "pnl": -79.11, "actual": 4},
+      {"pitcher": "Slade Cecconi", "pick": "5+ Ks", "result": "loss", "pnl": -79.11, "actual": 3},
+      {"pitcher": "Dylan Cease", "pick": "8+ Ks", "result": "loss", "pnl": -77.42, "actual": 5}
+    ],
+    "cumulative": {
+      "record": "51W-50L",
+      "pnl": -598.75,
+      "bankroll": 2401.25,
+      "note": "8 straight losses. Model is dead."
+    }
+  },
+  "combined": {
+    "day_pnl": -339.87,
+    "day_record": "4W-7L",
+    "combined_pnl": 355.91,
+    "active_only_pnl": 2189.60
+  },
+  "notes": [
+    "Game model worst day since Apr 28. 3 straight OVER losses.",
+    "ATL @ COL over 10.5 missed - already a high total, market was right.",
+    "MIL @ WSH over 8.0 lost 2 days in a row - same matchup, same result.",
+    "K-Props: 8 straight losses now. Bradish got only 4 Ks, Cecconi 3, Cease 5. Model consistently overestimates.",
+    "OddsTr sim saved the day - TB unders continue to dominate.",
+    "Cecconi gave up 10 HA (loss on HA under 6.5) - extreme blowup.",
+    "TB within-cap now 38W-12L (76.0%) - still the crown jewel."
+  ]
+}

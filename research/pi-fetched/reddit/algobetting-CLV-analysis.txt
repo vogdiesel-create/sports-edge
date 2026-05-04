@@ -1,0 +1,98 @@
+# r/algobetting search: CLV analysis
+# Query: CLV+OR+closing+line+value
+# Results: 8
+
+## [100 pts, 17 comments] a dumb manifesto - what i've learned so far modeling the nfl
+Author: neverfucks | URL: /r/algobetting/comments/1i65n8a/a_dumb_manifesto_what_ive_learned_so_far_modeling/
+first off, this is really beginner to intermediate level stuff. if you're a sharp or a grizzled vet, no need to come in here and shit on this. i'm no wise guy, and i've got a long way to go before i will be able to compound my profits in to anything meaningful. but i've been iterating and improving, and the results are getting much more consistent after working though a lot of mistakes. i think i'm on the right path, so i'm writing some stuff here i wish i didn't have to figure out for myself.
+
+
+
+---
+
+## [16 pts, 56 comments] Looking for Sports Betting Data Scientists for Research &amp; Development
+Author: 2Point2Media | URL: /r/algobetting/comments/1g6qvvj/looking_for_sports_betting_data_scientists_for/
+We’re a professional sports betting group with over five years of pro experience. We’ve built a strong network and have the ability to place large sums on games across various markets. Now, we’re looking to expand our team by hiring talented data scientists with expertise in modeling major sports, especially college football (CFB) and college basketball (CBB).
+
+**What we’re looking for:**
+
+* Proven track record in developing sports models.
+* Ability to demonstrate and discuss past model performa
+
+---
+
+## [7 pts, 25 comments] CLV vs Win Rate. What actually matters when evaluating a betting model?
+Author: Overall-Violinist872 | URL: /r/algobetting/comments/1rp54ks/clv_vs_win_rate_what_actually_matters_when/
+After tracking a few hundred bets, something interesting showed up in my data. My win rate moves around a lot but the bets where I consistently beat the closing line tend to perform better over time. It made me start thinking that CLV might be a better signal that your model has an edge, while short term win rate is mostly variance. It also made me realize how much price matters. If your edge is small, laying -115 instead of something closer to -105 or -103 eats a big chunk of the expected value
+
+---
+
+## [5 pts, 29 comments] Beyond ROI: What are your "North Star" metrics for model validation?
+Author: Ok-Ordinary-1062 | URL: /r/algobetting/comments/1qx9363/beyond_roi_what_are_your_north_star_metrics_for/
+Hey everyone,
+
+I’ve been refining the dashboard for my football prediction model and digging deeper into the specific KPIs that signal long-term edge versus short-term variance.
+
+Obviously, we all look at Total PnL and ROI, but I'm finding that secondary metrics are often better predictors of future performance. I’m currently tracking:
+
+* Beat CLV %: How often the model actually beats the closing line (specifically vs. sharp books like Pinnacle).
+* Avg CLV vs. Realized Yield: Checking the correl
+
+---
+
+## [4 pts, 19 comments] Looking for a sports betting backtesting tool (Dropping Odds &amp; EV strategies)
+Author: Agile_Branch_3676 | URL: /r/algobetting/comments/1mpt5dm/looking_for_a_sports_betting_backtesting_tool/
+Hey everyone,
+
+I'm looking for a sports betting backtesting tool that would allow me to test strategies based on dropping odds and value bets (expected value / EV).
+
+Ideally, it should support:
+
+* A reference bookmaker (e.g., Pinnacle)
+* A target bookmaker for bet placement (e.g., Bet365)
+* The ability to simulate bets like:Place a bet when Pinnacle’s odds have dropped by 10% in the hour before kickoff, but Bet365 is still offering the pre-drop price
+* The ability to test value betting strategie
+
+---
+
+## [5 pts, 5 comments] Aggiornamento n. 3: Cosa ci hanno insegnato 26.000 partite sull'andamento del mercato delle scommesse (dati relativi a 11 stagioni)
+Author: Zestyclose-Goat1057 | URL: /r/algobetting/comments/1ruhti0/aggiornamento_n_3_cosa_ci_hanno_insegnato_26000/
+Over the past months we've been analyzing football betting markets to understand how odds actually move.
+
+Instead of focusing on picks, we wanted to study the structure of the market itself.
+
+So we collected a dataset of:
+
+• 26,000+ matches  
+• 3.1M odds snapshots  
+• 7 major leagues  
+• ~117 snapshots per match  
+• 11 seasons of data
+
+Previous posts:
+
+Part 1 → https://www.reddit.com/r/algobetting/comments/1rjs2xj/tracking_pinnacle_sharp_movements_before_the/
+
+Part 2 → https://www.reddit.com/r/a
+
+---
+
+## [1 pts, 21 comments] How to deal with limitations?
+Author: KMFDM_ | URL: /r/algobetting/comments/1obnpby/how_to_deal_with_limitations/
+I am making bets focusing heavily on discrepancies, odds shopping, and closing line value, but I am being limited quickly, sometimes in a matter of days. I would like to know, if you have been through this, how did you deal with this situation?
+Should I try to change my profile and make other types of bets along with the ones I already make?Should I try to create a  model that is not based on closing line value or on easily detectable repetitive patterns (even if there is no CLV)?
+
+How did you g
+
+---
+
+## [2 pts, 3 comments] Anyone else feel like MLB and NBA props have been off lately?
+Author: cronparser | URL: /r/algobetting/comments/1kyos3l/anyone_else_feel_like_mlb_and_nba_props_have_been/
+Not trying to vent — just genuinely curious if others are seeing the same thing. We’ve been running a structured edge-first system (value filters, CLV tracking, matchup validation) and still can’t seem to catch a break this past week.
+
+MLB hit props that usually print are ghosting. NBA alt lines with solid volume signals are bricking. Even with solid ROI filters and good pre-close line value, variance feels extra cruel.
+
+Wondering if this is just a cold run or if others are noticing something of
+
+---
+

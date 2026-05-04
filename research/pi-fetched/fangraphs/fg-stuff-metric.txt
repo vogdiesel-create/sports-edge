@@ -1,0 +1,111 @@
+Revisiting the “Stuff” Metric | Community Blog
+<
+! -- END HEAD -->
+<! -- END HEADER -->
+Revisiting the “Stuff” Metric
+by
+Mike Sonne
+December 18, 2015
+This article was co-authored by Daanish Mulla – @DanMMulla
+Last month, we wrote an article on calculating a pitcher’s “stuff”. We were quite pleased with how our equation performed with respect to predicting a pitcher’s strikeout rate and his xFIP. Part of the discussion surrounding the equation was what exactly is stuff? Well, in our case, stuff can be thought of as a three-dimensional shape, where the three axes of the shape represent a pitcher’s peak velocity, a pitcher’s change in velocity between their fastest and slowest pitch, and the amount of distance that their pitches can break. In other words, it aims to represent the range in pitch velocity and movement batters must account for during any given at-bat against a particular pitcher.
+However, there was still some room for improvement, and with help from the FanGraphs community, we’ve slightly modified our equation to improve various performance predictions. The first major change came from comparing faster breaking balls versus slower breaking pitches with greater movement. In our original stuff metric, pitchers with a slow, looping breaking ball received more benefit than pitchers throwing a fast breaking ball. I queried the PitchF/x database to see how swinging strike rates and batting average changed against curveballs with respect to pitch speed during the 2014 season. Pitches that were thrown for at least 1% of all pitches were included in this analysis. As you can see in the figure, swinging-strike percentage increases exponentially after 75mph, and is nearly 15% higher at 85mph than at 75mph. This encouraged us to find a better way to account for faster breaking balls.
+View post on imgur.com
+Secondly, the original metric did not account for pitch frequency. The Pitch Arsenal metric was improved from it’s original state by accounting for this, and realistically – a pitcher should be given more credit for a great pitch that they throw frequently, as opposed to a great pitch that they rarely throw. To account for this, pitches were classified as either off-speed/breaking or fastballs. The sum of pitch uses for each of these classifications was then used to modify the values in the equation. With that in mind, here’s how we have proposed to modify the stuff equation.
+For a pitch to be included in the analysis, it had to be thrown by the pitcher 100 times. Just like the original stuff equation, z-scores were determined for the fastest pitch the pitcher threw, and for the amount of movement that could be seen with respect to that fastball, from the remaining pitches.  For further analysis, only qualified starters were used (those who threw 162 innings in the 2015 season).
+Furthermore, z-scores were also determined for the % change in speed between the pitcher’s fastest and slowest pitch. Another z-score was determined for the velocity of the fastest pitch, between curveball, slider, or knuckle-curve. Frequencies were determined for the proportion of fastballs thrown by a pitcher, and the remaining non-fastball pitches. The z-score for velocity was multiplied by the fastball percentage, and the remaining z-scores were multiplied by the non-fastball frequency. The z-scores for peak velocity of breaking pitch and change in velocity were used to determine “pitch strategy” – either, power breaking ball, or change in speed. Whichever z-score was greater, was used in the final stuff equation.
+So, the final “stuff” equation is as follows:
+View post on imgur.com
+To begin validation of the equation, the stuff value was then correlated with K/9 for all qualifying starters. This resulted in a predicted R value of 0.53 (figure 2), compared to the value of 0.42 from the original stuff equation.
+View post on imgur.com
+We’ve since applied the stuff equation to all pitchers from 2007 to 2015 to try and get an idea of the range of the metric. Here’s what we found. For interpretation of this figure, if a pitcher has a stuff value of 0.90, his stuff is better than 75% of all pitchers since 2007. If the value is 2.0, they have stuff that is better than approximately 99% of all pitchers since 2007. To put that in perspective, that means their stuff is better than nearly 4000 other starting pitchers. You’ll notice that in our list of the top 30 pitchers from 2015 – all of these pitchers fall within the top 15% range of stuff. These are elite pitchers with respect to this metric.
+View post on imgur.com
+These data have a wealth of applications, such as how a pitcher returns from injury or has even changed his repertoire between years. For example, the jump Chris Bassitt made from 2014 to 2015 – going from someone in the bottom half of the metric to the 99
+th
+%ile. Similar to the Arsenal score, there is an application of these data in determining a pitcher on the verge of a breakout (perhaps the Joe Kelly of the second half of 2015 is the real Joe Kelly).
+However, we felt that it would be in our best interest to let the community decide just how useful the metric was, so we’re making our evaluation data from 2007 to 2015 available in the form of a Google sheet. Simply select the pitcher you’d like to evaluate, and their stuff scores and xFIPs will be graphed for you. We’ve also posted the entirety of stuff scores from the 2015 season.
+2015 Season
+https://docs.google.com/spreadsheets/d/1picxCRD1OWpaeDq2H8uxC7jyR6fH7fpj5gOZjQGWsu4/pubhtml
+Stuff worksheet
+https://docs.google.com/spreadsheets/d/1PU3u3sJpr_jv70VAJIlyXnvOh4pq56l7eXuo70Py81Y/edit?usp=sharing
+Philosophically, we feel that the stuff metric has a great benefit for advanced scouting, because it relies on measures that are solely dependent on the pitcher, and not an interaction of the pitcher and the hitter. Thanks to the FanGraphs community, r/baseball, and Eno Sarris for all of the support with this project.
+Finding a Suitor for Jose Fernandez
+Cashman Strikes Again
+Ergonomist (CCPE) and Injury Prevention researcher. I like science and baseball - the order depends on the day.
+
+Twitter: @DrMikeSonne
+6
+Comments
+Oldest
+Newest
+Most Voted
+Inline Feedbacks
+View all comments
+Eric
+10 years ago
+I would say you are still missing some things in regards to your STUFF equation.  Namely, pitch variety, repertoire if you will, plus pitcher deception.  Some things that fall underneath pitcher deception would be a pitchers mechanics and how odd or off the beaten path they are, such as Clayton Kershaw’s and Masahiro Tanaka’s hesitation/pause move they do with their feet, or a pitcher’s stride.  I know the typical pitcher strides 80% of their height or thereabouts.  Mine? 5′ 10″- to 5′ 11″, but my height is 5′ 8″.  I am quick, but long back and long forward in my motion, this creates a perceived velocity of way faster than you are in terms of mph.  It doesn’t hurt to throw the ball where you actually intend to in terms of the catchers glove.
+1
+brentdaily
+10 years ago
+Reply to
+Eric
+To Eric’s final point, using Bill Petti/Jeff Zimmerman’s Edge% could provide a ton of signal. Is Edge% still a thing? Last I saw it was in 2013ish. Great concept though.
+0
+tz
+10 years ago
+Reply to
+brentdaily
+This might be creeping into items better classified as command than stuff.  If we were to break apart a pitcher’s performance, it might come in layers like this:
+– Stuff
+– Command (impact to above if you add edge% etc.)
+– Deception (impact to above two if you add “tunneling”, optimum difference in velocity/movement between specific pairs of pitches, etc.)
+– Other (impact of sequencing plus noise/luck)
+So overall, what they’ve done is a super job of isolating what most would call “stuff” with the available information.  It would be awesome to build on command and other layers on top of their framework.
+2
+Mike Sonne
+Member since 2020
+10 years ago
+Reply to
+tz
+Couldn’t have said it better myself. Exactly what we’re thinking – stuff is a part of the equation, but definitely not the whole thing. I think for future work, aiming to build a model that accounts for stuff, control, deception – that is going to give us a more complete picture of what makes a pitcher great.
+I’ve done a bit of looking into combining the arsenal scores with stuff, and then comparing those values against ERA and WAR, and stuff+contact management definitely improves the predictions. At the end of the day, it’s just confirming that there are a lot of different ways to get hitters out.
+1
+brentdaily
+10 years ago
+This stuff is really fantastic. Impressive work guys.
+Do you think adding a “tunneling” coefficient would improve the model? That is, a guy’s stuff plays up if all pitches are released from the same spot.
+At the unrealistic extreme, imagine a pitcher with a huge fastball and tremendously bendy breaker. Unfortunately he has to throw the fastball overhand and the breaking ball sidearm. The calculated stuff may be great but the hitter will know what’s coming every time and the pitch result will be atrocious.
+0
+Mike Sonne
+Member since 2020
+10 years ago
+Reply to
+brentdaily
+Great point – something to look into for sure. Running through the stuff equation over the years, Roy Halladay had a really low value. I think that’s because he managed to release the ball from the exact same point every time, with completely different movement on the ball. That’s just as effective as having great stuff, I’d have to estimate.
+0
+Insert
+You are going to send email to
+Send
+Move Comment
+Move
+Updated: Monday, April 13, 2026 11:35 PM ET
+Updated: 4/13/2026 11:35 PM ET
+@fangraphs
+-
+Contact Us
+-
+Advertise
+-
+Terms of Service
+-
+Privacy Policy
+All major league baseball data including pitch type, velocity, batted ball location,
+        and play-by-play data provided by Sports Info Solutions.
+Major League and Minor League Baseball data provided by Major League Baseball.
+Mitchel Lichtman
+All UZR (ultimate zone rating) calculations are provided courtesy of Mitchel Lichtman.
+TangoTiger.com
+All Win Expectancy, Leverage Index, Run Expectancy, and Fans Scouting Report data licenced from TangoTiger.com
+Retrosheet.org
+Play-by-play data prior to 2002 was obtained free of charge from and is copyrighted
+        by Retrosheet.
+<! -- END FOOTER -->

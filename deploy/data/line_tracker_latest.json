@@ -1,0 +1,509 @@
+{
+  "timestamp": "2026-04-13 03:49 UTC",
+  "props_count": 3889,
+  "line_moves": [],
+  "correlation_alerts": [
+    {
+      "player": "Jrue Holiday Over",
+      "game": "Portland Trail Blazers @ Phoenix Suns",
+      "individual_sum": 25.5,
+      "combo_line": 27.5,
+      "discrepancy": -2.0,
+      "signal": "UNDER_PRA",
+      "details": "PTS=15.5 + REB=4.5 + AST=5.5 = 25.5 vs PRA=27.5"
+    },
+    {
+      "player": "Jrue Holiday Under",
+      "game": "Portland Trail Blazers @ Phoenix Suns",
+      "individual_sum": 25.5,
+      "combo_line": 27.5,
+      "discrepancy": -2.0,
+      "signal": "UNDER_PRA",
+      "details": "PTS=15.5 + REB=4.5 + AST=5.5 = 25.5 vs PRA=27.5"
+    },
+    {
+      "player": "Norman Powell Over",
+      "game": "Miami Heat @ Charlotte Hornets",
+      "individual_sum": 23.5,
+      "combo_line": 25.5,
+      "discrepancy": -2.0,
+      "signal": "UNDER_PRA",
+      "details": "PTS=19.5 + REB=2.5 + AST=1.5 = 23.5 vs PRA=25.5"
+    },
+    {
+      "player": "Norman Powell Under",
+      "game": "Miami Heat @ Charlotte Hornets",
+      "individual_sum": 23.5,
+      "combo_line": 25.5,
+      "discrepancy": -2.0,
+      "signal": "UNDER_PRA",
+      "details": "PTS=19.5 + REB=2.5 + AST=1.5 = 23.5 vs PRA=25.5"
+    },
+    {
+      "player": "Paolo Banchero Over",
+      "game": "Orlando Magic @ Philadelphia 76ers",
+      "individual_sum": 36.5,
+      "combo_line": 38.5,
+      "discrepancy": -2.0,
+      "signal": "UNDER_PRA",
+      "details": "PTS=23.5 + REB=8.5 + AST=4.5 = 36.5 vs PRA=38.5"
+    },
+    {
+      "player": "Paolo Banchero Under",
+      "game": "Orlando Magic @ Philadelphia 76ers",
+      "individual_sum": 36.5,
+      "combo_line": 38.5,
+      "discrepancy": -2.0,
+      "signal": "UNDER_PRA",
+      "details": "PTS=23.5 + REB=8.5 + AST=4.5 = 36.5 vs PRA=38.5"
+    },
+    {
+      "player": "Mark Williams Over",
+      "game": "Portland Trail Blazers @ Phoenix Suns",
+      "individual_sum": 18.0,
+      "combo_line": 19.5,
+      "discrepancy": -1.5,
+      "signal": "UNDER_PR",
+      "details": "PTS=10.5 + REB=7.5 = 18.0 vs P+R=19.5"
+    },
+    {
+      "player": "Mark Williams Under",
+      "game": "Portland Trail Blazers @ Phoenix Suns",
+      "individual_sum": 18.0,
+      "combo_line": 19.5,
+      "discrepancy": -1.5,
+      "signal": "UNDER_PR",
+      "details": "PTS=10.5 + REB=7.5 = 18.0 vs P+R=19.5"
+    },
+    {
+      "player": "Jrue Holiday Over",
+      "game": "Portland Trail Blazers @ Phoenix Suns",
+      "individual_sum": 21.0,
+      "combo_line": 22.5,
+      "discrepancy": -1.5,
+      "signal": "UNDER_PA",
+      "details": "PTS=15.5 + AST=5.5 = 21.0 vs P+A=22.5"
+    },
+    {
+      "player": "Jrue Holiday Under",
+      "game": "Portland Trail Blazers @ Phoenix Suns",
+      "individual_sum": 21.0,
+      "combo_line": 22.5,
+      "discrepancy": -1.5,
+      "signal": "UNDER_PA",
+      "details": "PTS=15.5 + AST=5.5 = 21.0 vs P+A=22.5"
+    },
+    {
+      "player": "Deni Avdija Over",
+      "game": "Portland Trail Blazers @ Phoenix Suns",
+      "individual_sum": 30.0,
+      "combo_line": 31.5,
+      "discrepancy": -1.5,
+      "signal": "UNDER_PR",
+      "details": "PTS=23.5 + REB=6.5 = 30.0 vs P+R=31.5"
+    },
+    {
+      "player": "Deni Avdija Under",
+      "game": "Portland Trail Blazers @ Phoenix Suns",
+      "individual_sum": 30.0,
+      "combo_line": 31.5,
+      "discrepancy": -1.5,
+      "signal": "UNDER_PR",
+      "details": "PTS=23.5 + REB=6.5 = 30.0 vs P+R=31.5"
+    },
+    {
+      "player": "LaMelo Ball Over",
+      "game": "Miami Heat @ Charlotte Hornets",
+      "individual_sum": 26.0,
+      "combo_line": 27.5,
+      "discrepancy": -1.5,
+      "signal": "UNDER_PR",
+      "details": "PTS=21.5 + REB=4.5 = 26.0 vs P+R=27.5"
+    },
+    {
+      "player": "LaMelo Ball Under",
+      "game": "Miami Heat @ Charlotte Hornets",
+      "individual_sum": 26.0,
+      "combo_line": 27.5,
+      "discrepancy": -1.5,
+      "signal": "UNDER_PR",
+      "details": "PTS=21.5 + REB=4.5 = 26.0 vs P+R=27.5"
+    },
+    {
+      "player": "Norman Powell Over",
+      "game": "Miami Heat @ Charlotte Hornets",
+      "individual_sum": 22.0,
+      "combo_line": 23.5,
+      "discrepancy": -1.5,
+      "signal": "UNDER_PR",
+      "details": "PTS=19.5 + REB=2.5 = 22.0 vs P+R=23.5"
+    },
+    {
+      "player": "Norman Powell Over",
+      "game": "Miami Heat @ Charlotte Hornets",
+      "individual_sum": 21.0,
+      "combo_line": 22.5,
+      "discrepancy": -1.5,
+      "signal": "UNDER_PA",
+      "details": "PTS=19.5 + AST=1.5 = 21.0 vs P+A=22.5"
+    },
+    {
+      "player": "Norman Powell Under",
+      "game": "Miami Heat @ Charlotte Hornets",
+      "individual_sum": 22.0,
+      "combo_line": 23.5,
+      "discrepancy": -1.5,
+      "signal": "UNDER_PR",
+      "details": "PTS=19.5 + REB=2.5 = 22.0 vs P+R=23.5"
+    },
+    {
+      "player": "Norman Powell Under",
+      "game": "Miami Heat @ Charlotte Hornets",
+      "individual_sum": 21.0,
+      "combo_line": 22.5,
+      "discrepancy": -1.5,
+      "signal": "UNDER_PA",
+      "details": "PTS=19.5 + AST=1.5 = 21.0 vs P+A=22.5"
+    },
+    {
+      "player": "Paul George Over",
+      "game": "Orlando Magic @ Philadelphia 76ers",
+      "individual_sum": 24.0,
+      "combo_line": 25.5,
+      "discrepancy": -1.5,
+      "signal": "UNDER_PA",
+      "details": "PTS=20.5 + AST=3.5 = 24.0 vs P+A=25.5"
+    },
+    {
+      "player": "Paul George Under",
+      "game": "Orlando Magic @ Philadelphia 76ers",
+      "individual_sum": 24.0,
+      "combo_line": 25.5,
+      "discrepancy": -1.5,
+      "signal": "UNDER_PA",
+      "details": "PTS=20.5 + AST=3.5 = 24.0 vs P+A=25.5"
+    }
+  ],
+  "vig_outliers": [
+    {
+      "player": "Cleveland Cavaliers",
+      "market_name": "Moneyline",
+      "line": 0.0,
+      "vig_pct": 268.4,
+      "total_implied": 3.6842,
+      "type": "HIGH_VIG",
+      "odds": [
+        -280,
+        -280,
+        -280,
+        -280,
+        -280
+      ],
+      "game": "Toronto Raptors @ Cleveland Cavaliers"
+    },
+    {
+      "player": "Denver Nuggets",
+      "market_name": "Moneyline",
+      "line": 0.0,
+      "vig_pct": 248.5,
+      "total_implied": 3.4848,
+      "type": "HIGH_VIG",
+      "odds": [
+        -230,
+        -230,
+        -230,
+        -230,
+        -230
+      ],
+      "game": "Minnesota Timberwolves @ Denver Nuggets"
+    },
+    {
+      "player": "Houston Rockets",
+      "market_name": "Moneyline",
+      "line": 0.0,
+      "vig_pct": 241.3,
+      "total_implied": 3.4127,
+      "type": "HIGH_VIG",
+      "odds": [
+        -215,
+        -215,
+        -215,
+        -215,
+        -215
+      ],
+      "game": "Houston Rockets @ Los Angeles Lakers"
+    },
+    {
+      "player": "Charlotte Hornets",
+      "market_name": "Moneyline",
+      "line": 0.0,
+      "vig_pct": 238.7,
+      "total_implied": 3.3871,
+      "type": "HIGH_VIG",
+      "odds": [
+        -210,
+        -210,
+        -210,
+        -210,
+        -210
+      ],
+      "game": "Miami Heat @ Charlotte Hornets"
+    },
+    {
+      "player": "New York Knicks",
+      "market_name": "Moneyline",
+      "line": 0.0,
+      "vig_pct": 232.2,
+      "total_implied": 3.3221,
+      "type": "HIGH_VIG",
+      "odds": [
+        -198,
+        -198,
+        -198,
+        -198,
+        -198
+      ],
+      "game": "Atlanta Hawks @ New York Knicks"
+    },
+    {
+      "player": "Phoenix Suns",
+      "market_name": "Moneyline",
+      "line": 0.0,
+      "vig_pct": 221.4,
+      "total_implied": 3.2143,
+      "type": "HIGH_VIG",
+      "odds": [
+        -180,
+        -180,
+        -180,
+        -180,
+        -180
+      ],
+      "game": "Portland Trail Blazers @ Phoenix Suns"
+    },
+    {
+      "player": "Los Angeles Clippers",
+      "market_name": "Moneyline",
+      "line": 0.0,
+      "vig_pct": 212.0,
+      "total_implied": 3.1203,
+      "type": "HIGH_VIG",
+      "odds": [
+        -166,
+        -166,
+        -166,
+        -166,
+        -166
+      ],
+      "game": "Golden State Warriors @ Los Angeles Clippers"
+    },
+    {
+      "player": "Philadelphia 76ers",
+      "market_name": "Moneyline",
+      "line": 0.0,
+      "vig_pct": 170.6,
+      "total_implied": 2.7064,
+      "type": "HIGH_VIG",
+      "odds": [
+        -118,
+        -118,
+        -118,
+        -118,
+        -118
+      ],
+      "game": "Orlando Magic @ Philadelphia 76ers"
+    },
+    {
+      "player": "Toronto Raptors",
+      "market_name": "Spread Betting",
+      "line": 7.5,
+      "vig_pct": 167.4,
+      "total_implied": 2.6744,
+      "type": "HIGH_VIG",
+      "odds": [
+        -115,
+        -115,
+        -115,
+        -115,
+        -115
+      ],
+      "game": "Toronto Raptors @ Cleveland Cavaliers"
+    },
+    {
+      "player": "Los Angeles Clippers",
+      "market_name": "Spread Betting",
+      "line": -3.5,
+      "vig_pct": 164.2,
+      "total_implied": 2.6415,
+      "type": "HIGH_VIG",
+      "odds": [
+        -112,
+        -112,
+        -112,
+        -112,
+        -112
+      ],
+      "game": "Golden State Warriors @ Los Angeles Clippers"
+    },
+    {
+      "player": "Minnesota Timberwolves",
+      "market_name": "Spread Betting",
+      "line": 6.0,
+      "vig_pct": 164.2,
+      "total_implied": 2.6415,
+      "type": "HIGH_VIG",
+      "odds": [
+        -112,
+        -112,
+        -112,
+        -112,
+        -112
+      ],
+      "game": "Minnesota Timberwolves @ Denver Nuggets"
+    },
+    {
+      "player": "Portland Trail Blazers",
+      "market_name": "Spread Betting",
+      "line": 4.5,
+      "vig_pct": 161.9,
+      "total_implied": 2.619,
+      "type": "HIGH_VIG",
+      "odds": [
+        -110,
+        -110,
+        -110,
+        -110,
+        -110
+      ],
+      "game": "Portland Trail Blazers @ Phoenix Suns"
+    },
+    {
+      "player": "Phoenix Suns",
+      "market_name": "Spread Betting",
+      "line": -4.5,
+      "vig_pct": 161.9,
+      "total_implied": 2.619,
+      "type": "HIGH_VIG",
+      "odds": [
+        -110,
+        -110,
+        -110,
+        -110,
+        -110
+      ],
+      "game": "Portland Trail Blazers @ Phoenix Suns"
+    },
+    {
+      "player": "Miami Heat",
+      "market_name": "Spread Betting",
+      "line": 5.5,
+      "vig_pct": 161.9,
+      "total_implied": 2.619,
+      "type": "HIGH_VIG",
+      "odds": [
+        -110,
+        -110,
+        -110,
+        -110,
+        -110
+      ],
+      "game": "Miami Heat @ Charlotte Hornets"
+    },
+    {
+      "player": "Charlotte Hornets",
+      "market_name": "Spread Betting",
+      "line": -5.5,
+      "vig_pct": 161.9,
+      "total_implied": 2.619,
+      "type": "HIGH_VIG",
+      "odds": [
+        -110,
+        -110,
+        -110,
+        -110,
+        -110
+      ],
+      "game": "Miami Heat @ Charlotte Hornets"
+    },
+    {
+      "player": "Orlando Magic",
+      "market_name": "Spread Betting",
+      "line": 1.0,
+      "vig_pct": 161.9,
+      "total_implied": 2.619,
+      "type": "HIGH_VIG",
+      "odds": [
+        -110,
+        -110,
+        -110,
+        -110,
+        -110
+      ],
+      "game": "Orlando Magic @ Philadelphia 76ers"
+    },
+    {
+      "player": "Philadelphia 76ers",
+      "market_name": "Spread Betting",
+      "line": -1.0,
+      "vig_pct": 161.9,
+      "total_implied": 2.619,
+      "type": "HIGH_VIG",
+      "odds": [
+        -110,
+        -110,
+        -110,
+        -110,
+        -110
+      ],
+      "game": "Orlando Magic @ Philadelphia 76ers"
+    },
+    {
+      "player": "Atlanta Hawks",
+      "market_name": "Spread Betting",
+      "line": 5.0,
+      "vig_pct": 161.9,
+      "total_implied": 2.619,
+      "type": "HIGH_VIG",
+      "odds": [
+        -110,
+        -110,
+        -110,
+        -110,
+        -110
+      ],
+      "game": "Atlanta Hawks @ New York Knicks"
+    },
+    {
+      "player": "New York Knicks",
+      "market_name": "Spread Betting",
+      "line": -5.0,
+      "vig_pct": 161.9,
+      "total_implied": 2.619,
+      "type": "HIGH_VIG",
+      "odds": [
+        -110,
+        -110,
+        -110,
+        -110,
+        -110
+      ],
+      "game": "Atlanta Hawks @ New York Knicks"
+    },
+    {
+      "player": "Houston Rockets",
+      "market_name": "Spread Betting",
+      "line": -5.5,
+      "vig_pct": 161.9,
+      "total_implied": 2.619,
+      "type": "HIGH_VIG",
+      "odds": [
+        -110,
+        -110,
+        -110,
+        -110,
+        -110
+      ],
+      "game": "Houston Rockets @ Los Angeles Lakers"
+    }
+  ]
+}

@@ -1,0 +1,823 @@
+# New Yorkers: How to make $7K guaranteed from these signup offers
+
+[DarkHorseOdds | 264 pts | 472 comments]
+
+Mobile sports betting just launched on Jan 8th in NY.  The first four sportsbooks to launch are DraftKings (DK), FanDuel (FD), Caesars (CZR), and BetRivers (BR).  Each has sign-up offers that can be hedged in a way to guarantee profit.  There’s a certain way you need to hedge each promotion, and there’s a certain order you need to follow to max out your winnings and guarantee $7K.
+
+Depending on how the bets play out, you’ll need anywhere from $9,250 - $15,750 to do this.  The size of the winnings scale with the size of the bets.  If you don’t have that much to commit, you just won’t make as much. You don’t need to rush on this.  Most of these sign-up offers are good until the end of January.  Take time to understand the approach before rushing in.
+
+This technique of promotion hedging is called Matched Betting.  It not only works for the sign-up offers, but also for most of the follow-up promotions.
+
+**Offers Overview**
+
+* CZR - $300 Site Credit for signing up and 100% deposit match in Site Credit up to $3,000.  Be sure to use the promo code listed on the app/website.
+* FD - $1,000 Risk Free Bet.  This is automatically applied to your first wager.
+* BR - $250 Site Credit deposit match.  Be sure to use the promo code listed on the app/website.
+* DK - 3 offers.  The first two are based on your deposit.
+
+1. 20% deposit match, up to $1,000 in Site Credit on a $5,000 deposit.
+2. A Risk Free Bet, equal to the amount you deposit, up to $5,000.  The Risk Free Bet is only available if your first deposit is at least $1,000.  Unlike FD, the DK Risk Free Bet must be opted-in before you can place it.  Do not opt-in until you are ready to place the Risk Free Bet (more on this later).
+3. Make your first bet a $5 bet.  If it wins, you get $200 in free bets.
+
+Risk Free Bet: wagering cash from your bankroll, but if it loses you get a refund of either Site Credit or a Free Bet
+
+Free Bet: only winnings returned, not the bet amount.
+
+Site Credit: bet amount and winnings returned.  \*Site Credit can not be withdrawn until the playthrough requirement is met.
+
+**How much to deposit and where**
+
+In order to maximize your returns you need to make the following deposits.  All of these deposits can be scaled down and you do not need to do them all at once.  You can start with just two.
+
+Deposits for the sign up offers:
+
+* CZR $3,000 deposit (approx $3,000 profit)
+* FD $1,000 deposit (approx $700 profit)
+* DK $5,000 deposit (approx $3,450 profit)
+* BR $250 deposit (approx $250 profit)
+
+Additional deposit to maximize the DK $5,000 Risk Free Bet.  Deposit can be made later.  This is outlined below.
+
+* Up to CZR $6,500 additional.  Exact amount varies.
+
+**Getting Started**
+
+First, know that if sportsbooks suspect that you are taking advantage of them, they can and will limit you.  This includes promotion banning and limiting your maximum bet size.  Avoiding sportsbook limits is a big topic and worth a whole other post on it’s own.  For now:
+
+* Stick to the main lines:  Moneyline, Spread, and Total.  Avoid player props and alternate lines.
+* Avoid small markets like Tennis.
+* Round your bets so that it’s less obvious that you are calculating a specific hedge bet.  Instead of betting $23.74, bet $25.  Instead of betting $2,356.22, bet $2,350.
+* Don’t withdraw immediately after depositing for a promotion.  That is a clear sign you are just chasing promotions.  Wait a week or more.
+* Never hedge a promotion on the same book.
+
+**Phase A - BR &amp; DK**
+
+$250 deposit into BR and $5,000 deposit into DK.
+
+1. On BR: Activate the $250 bonus.  This might take 48 hours to appear after your deposit.
+2. On DK: Place the $5 to win $200 in Free Bets.  Do NOT opt in to the $5,000 Risk Free Bet on DK yet.  This bet must be a moneyline bet and only applies until Jan 10th (this will likely be extended–check the Terms and Conditions to be sure).  Place the hedge bet with BR.  Keep the BR hedge to -200 odds or longer so that it counts towards Site Credit playthrough.  For example, -175 and +150 qualifies, but -350 and -250 do not.
+3. If the DK bet loses and you do not get the $200 Free Bet move to step 4. If you receive the $200 Free Bet, hedge it with BR to continue the BR Site Credit playthrough requirement. BR odds must be -200 or longer for BR Site Credit playthrough. **Profit \~$150**
+4. On BR: Place a Site Credit Bet for the remainder of the $250 hedging with DK. BR bet must be -200 or longer.  DK odds must be -300 or longer for DK Site Credit playthrough.  **Profit \~$250 on BR.  Running profit \~$400.**
+
+**Phase B - FD &amp; DK**
+
+$1,000 Deposit into FD
+
+5. Place the FD $1,000 Risk Free Bet and hedge it on DK.  DK odds must be -300 or longer.  Do NOT use bonus funds on FD and do NOT opt in to the $5,000 Risk Free Bet on DK.
+
+6. If your FD bets wins, skip to step 6.  If the FD bet loses you will get a Site Credit refund of $1,000.  This may take up to 72 hours to receive.  Hedge the $1,000 of FD Site Credit vs DK, again DK odds must be -300 or longer.  Hedging both of these bets on DK continues the required playthrough of the DK’s $1,000 Site Credit.  **Profit \~$700 from FD and \~$100 on DK.  Running profit \~1,200**.
+
+**Phase C - DK Risk Free Bet &amp; CZR**
+
+$3,000 Deposit into CZR
+
+Note: the Risk Free Bet from DK depends on your deposit (see above).  And is maxed at $5,000.
+
+7. Opt-in to the DK $5,000 Risk Free Bet and hedge it on CZR.  Depending on the odds available at the time you bet, this hedge bet amount will be in the $5,000 - $12,500 range.  This is where you may need to deposit more into CZR.   Keep the CZR hedge to -300 odds or longer so that it counts towards Site Credit playthrough.  For example, -275 and +150 qualifies, but -450 and -350 do not.  The hedge on CZR will likely complete the entire CZR rollover requirement.
+
+8. If your DK bets wins skip to step 8.  If the DK bet loses you will get a Free Bet refund of $5,000.  This may take up to 72 hours to receive, and only last for 7 days.  Hedge on CZR again.  **\~$2,000 profit from the DK Risk Free Bet and \~$3,000 from the CZR deposit match.  Running profit \~$6,200.**
+
+**Phase D - Finishing DK**
+
+9. DK Site Credit (“DK Dollars”) has a different playthrough requirement than the other books.  To convert all of the Site Credit from their sign-up promotion, you need to make $25,000 worth of bets with DK.  This can take a while.  The best way to do is #1) place hedge bets with DK when matched betting the other sportsbooks’ follow up promotions (e.g. profit boosts), and #2) opt-in on DK’s follow up promotions, hedging them on other books.  There is a deposit match tracker in DK that you can use.  **\~$1,000 profit from the DK deposit match for a running total of \~7,200.**
+
+Click [here](https://www.reddit.com/r/sportsbook/comments/s5v8kf/sportsbookpromosbonuses_daily_questions_11722/ht01ium/?utm_source=share&amp;utm_medium=web2x&amp;context=3) for a comment in the daily promos thread with a detailed breakdown on MGM, and how to make $1,000 off the sign-up offer.
+
+**Continuing Past Sign-up Offers**
+
+Sign-up offers are some of the most profitable available.  However, it is easy to continue profiting after that.  This includes profit boosts, double your winnings, bet and gets, loss insurance, and many more.
+
+**FAQ**
+
+**How do I know how much to bet?** There are a number of calculators and other resources out there if you want to go the manual route. [DarkHorse Odds](https://www.dhodds.com) provides tools called Bet Finders that find the best conversions and tell you exactly how much to bet.
+
+**Why do sportsbooks do this?** (This sounds too good to be true.) Sportsbooks offer promotions to get new customers and retain existing ones. They know that in the long term, they will make money off on the average gambler. It’s not that different from bank and credit card sign-up offers, except there’s a lot more money to be made.
+
+How much money can I make doing Matched Betting? You won’t be able to quit your day job, but it can be a sizable side-hustle. A lot depends on how much money you can commit to Matched Betting to start with and what sportsbooks are available in your state. Many can make $1,000 or more a month even after sign up offers.
+
+**What’s the catch? Is there any risk?** There’s no catch. The biggest risk to be aware of is human error. For example, placing a bet on the wrong team or for the wrong amount. So, don’t rush, take the time to understand the promotions, read over the terms and conditions, and double check your bets.
+
+TLDR; Matched Betting is a way to guarantee profit from sportsbook promotions. Reach out with any questions and I can help.
+
+If you want more detail on hedging a Risk Free Bet, see this post:
+
+[https://www.reddit.com/r/sportsbook/comments/rxwlyv/new\_yorkers\_you\_have\_one\_chance\_to\_get\_these\_sign/?utm\_source=share&amp;utm\_medium=web2x&amp;context=3](https://www.reddit.com/r/sportsbook/comments/rxwlyv/new_yorkers_you_have_one_chance_to_get_these_sign/?utm_source=share&amp;utm_medium=web2x&amp;context=3)
+
+
+Reach directly out with any questions and I can help.
+
+---
+## Comments
+
+[SearchingForCP | 38 pts]
+Done this before. This process is legit if you follow it and stick to the script. It’s free money. 
+
+However, if you have degenerate tendencies, don’t even bother. You’ll end up blowing it all.
+
+For those that move forward with this, DO NOT USE PAYPAL for withdrawals. You can use PayPal to deposit, just don’t use PayPal to withdraw. PayPal causes unnecessary taxman headaches if you receive sport-book withdrawals there.
+
+  [im____new____here | 7 pts]
+  &gt; For those that move forward with this, DO NOT USE PAYPAL for withdrawals. You can use PayPal to deposit, just don’t use PayPal to withdraw
+
+a lot of books will only let you withdraw with the method that you used to deposit, i think to prevent money laundering.
+
+[Burst_LoL | 9 pts]
+Canadian here so this is completely useless to me but super cool of you to write this all out for any American who lives in or might be in NY!
+
+[AnywhereThese5664 | 8 pts]
+Does anybody have the updated version of this?
+
+[Upper_Ad_3549 | 7 pts]
+Can someone please create an updated version of this. Unlimited karma coming your way if do. 🙏🙏
+
+  [copemarb323 | 2 pts]
+  Please
+
+  [Typical_Reality2 | 1 pts]
+  I know this is 3 years late but I just finished my full 20 page guide walking people through this exact process. Dm me if you want
+
+[eater658891 | 4 pts]
+Would like to point out that in Phase C it is either a ~2k or a ~3k profit, not both. You must lose DK to get the $5,000 credit, and that's the only way to get both the DK and CZR free bet and deposit match. 
+
+If you win DK you only are able to enjoy the CZR deposit match.
+
+  [eater658891 | 2 pts]
+  That is, you can't be sure you'll lose your DK bet to get the 5k back. If you win the CZR bet, (regardless of whether you're hedging with CZR or DK on the first bet) sure. If you win on DK with your first wager, then you cannot collect the 5k.
+
+    [DarkHorseOdds | 5 pts]
+    You can adjust the hedge to compensate for this.  Guaranteeing the same amount of profit either way.
+
+      [eater658891 | 2 pts]
+      thank you, could you explain with an example? I don't understand
+
+[[deleted] | 4 pts]
+[deleted]
+
+  [DarkHorseOdds | 5 pts]
+  8 x $25 Free Bets = $200 total.  This can be converted at 70% for $140.  When hedging use that as the assumed value and hedge accordingly.
+
+    [Physical-Pipe | 2 pts]
+    How do you guarantee 70% on a free bet? Free bet you don’t get the stake. I have a 1K free bet. I find a +100 line. 1K to win 1K. Now I hedge it with a +100 line- 500 to win $500.. so if my free play losses, I make $500 but I lost a 1K free bet. 
+
+If my free bet wins, I DONT get the stake back. So 1K is back but I had to hedge $500. Either way; with a perfect +100 scenario (better scenarios with +300/-325 lines) would yield 50%! How can you say 70% when you don’t get the stake back. 
+
+Where am I wrong?
+
+      [DarkHorseOdds | 2 pts]
+      Old lines but here is an example.
+
+$100 Free Bet on CZR on Lions -8.5 ML @ +525.  
+  
+$441 Hedge on PB on Eagles +8.5 @ -526  
+  
+If your Free Bet wins...  
+  
+You profit $525 from the Free Bet.  
+  
+You lose your Hedge Bet wager, $441.  
+  
+Your net profit is $84.  
+  
+If your Hedge Bet wins...  
+  
+You profit $84 from your Hedge Bet.  
+  
+You lose your Free Bet. You did not risk any of your money, so you lose $0.  
+  
+Your net profit is $84.  
+  
+Reach out if you need helping understanding this or finding the best lines for conversions.
+
+[sbpotdbot | 1 pts]
+
+
+|Sportsbook|Promos|Accepted States|Reviews|
+|:-|:-|:-|:-|
+|[**Fanduel**](https://sportsbook.link/fanduel)| [**Click for Promo**](https://sportsbook.link/fanduel) [No Sweat First Bet up to $1000 in Bonus Bets](https://sportsbook.link/fanduel) |**AZ, CO, CT, IA, IL, IN, KS, LA, MD, MI, NY, NJ, OH, PA, TN, VA, WV**|[Reviews](https://www.reddit.com/r/sportsbookreview/comments/rybpvv/fanduel_reviewsdiscussion/)|
+|[**Draftkings**](https://sportsbook.link/draftkings)| [**Click for Promo**](https://sportsbook.link/draftkings) [Bet $5 get $200 in Bonus Bets](https://sportsbook.link/draftkings) | **AZ, CO, CT, IL, IA, IN, KS, LA, MD, MI, NY, NJ, OH, ON, PA, TN, VA, WV**|[Reviews](https://www.reddit.com/r/sportsbookreview/comments/rybpp5/draftkings_reviewsdiscussion/)|
+|[**Betrivers**](https://sportsbook.link/betrivers)| [**Click for Promo**](https://sportsbook.link/betrivers) [2nd Chance Bonus Bet Up to $500](https://sportsbook.link/betrivers)|**AZ, CO, CT, IA, IL, IN, LA, MD, MI, NJ, NY, OH, PA, VA, WV**|[Reviews](https://www.reddit.com/r/sportsbookreview/comments/rybqff/betrivers_reviewsdiscussion/)|
+|[**Caesars**](https://sportsbook.link/caesars)| [**Click for Promo**](https://sportsbook.link/caesars) [Place a first-time wager of up to $1,250, get it back in the form of a Free Bet if you lose.](https://sportsbook.link/caesars)|**AZ, CO, IA, IL, IN, KS, LA, MD, MI, NY, NJ, OH, ON, PA, TN, VA, WV, DC**|[Reviews](https://www.reddit.com/r/sportsbookreview/comments/rybqxm/caesars_reviewsdiscussion/)|
+|[**Pointsbet**](https://sportsbook.link/pointsbet)|  [**Click for Promo**](https://sportsbook.link/pointsbet) [5x Second Chance Bets up to $50 each](https://sportsbook.link/pointsbet)|**CO, IA, IL, IN, KS, MD, NY, NJ, OH, ON, VA, WV**|[Reviews](https://www.reddit.com/r/sportsbookreview/comments/rybqrm/pointsbet_reviewsdiscussion/)|
+|[**BetMGM**](https://sportsbook.link/betmgm)| [**Click for Promo**](https://sportsbook.link/betmgm) [Up to $1000 paid back in Bonus Bets if you don't win](https://sportsbook.link/betmgm)|**AZ, CO, DC, IA, IL, IN, KS, LA, MD, MI, MS, NJ, NY, OH, ON, PA, TN, VA, WV, WY, DC**|[Reviews](https://www.reddit.com/r/sportsbookreview/comments/rybq2k/betmgm_reviewsdiscussion/)|
+|[**Betfred**](https://www.sportsbook.link/betfred)| [**Click for Promo**](https://sportsbook.link/betfred) [$500 First Bet Refund](https://www.sportsbook.link/betfred)|**AZ, CO, IA, LA, MD, OH, PA, VA**|[Reviews](https://www.reddit.com/r/sportsbookreview/comments/s2dyfs/betfred_reviewsdiscussion/)|
+|[**Superbook**](https://sportsbook.link/superbook)| [**Click for Promo**](https://www.sportsbook.link/superbook) [$250 Every First Bet Wins](https://www.sportsbook.link/superbook)|**AZ, CO, IA, MD, NV, NJ, OH, TN, VA, WV**|[Reviews](https://www.reddit.com/r/sportsbookreview/comments/safm1p/superbook_reviewsdiscussion/)|
+|[**WynnBet**](https://sportsbook.link/wynnbet)| [**Click for Promo**](https://www.sportsbook.link/wynnbet) [Bet $100 Get $100](https://www.sportsbook.link/wynnbet)|**AZ, CO, IN, LA, MI, NJ, NY, TN, VA**|[Reviews](https://www.reddit.com/r/sportsbookreview/comments/rybw38/wynnbet_reviewsdiscussion/)|
+|[**Unibet**](https://sportsbook.link/unibet)| **[Click for Promo](https://sportsbook.link/unibet)** [Up to $250 or $500 risk-free first bet with bonus cash back](https://sportsbook.link/unibet)|**AZ, IA, IN, NJ, ON, PA, VA**|[Reviews](https://www.reddit.com/r/sportsbookreview/comments/rybpcy/unibet_reviewsdiscussion/)|
+|[**Tipico**](https://www.sportsbook.link/tipico)| [**Click for Promo**](https://sportsbook.link/tipico) [Deposit Match up to $250](https://www.sportsbook.link/tipico)|**CO, IA, OH, NJ**|[Reviews](https://www.reddit.com/r/sportsbookreview/comments/saflnh/tipico_reviewsdiscussion/)|
+
+
+^(21+ only. If you or someone you know has a gambling problem and wants help, call 1-800-GAMBLER and visit) /r/problemgambling
+
+[RonFrankMD | 3 pts]
+Draft Kings seems to have a 25x play through on there deposit match (make 25000 in bets to get the 1000 deposit match)?  Am I understanding this wrong?
+
+Also the draft kings 5k free bet seems to not include NY in any link I can find - do you have one?
+
+[hchan221 | 3 pts]
+For the first DK deposit (bet $5 to win $200), is it okay if I only deposit $5 the very first time and then follow by $5000 on the second deposit? Just want to confirm that this is not only applicable to the first deposits only and everything else afterward is voided.
+
+  [Fates75 | 3 pts]
+  I can confirm after much back and forth with DK customer service. First deposit ONLY (so I lost out on bugger 20% natch and 5k risk free bet).  They would not budge (my mistake after all). 
+
+Before I found this thread I made an initial $100 deposit Saturday....and then a $5000 deposit Sunday. I did hit the $5 for $200 promo at least. Live and learn...
+
+  [yeshaya86 | 2 pts]
+  Same question, following
+
+[whatevskisbruh | 3 pts]
+I get lost at step 4 and beyond.  If someone can walk through this with real odds and examples ill be forever at your service haha.  How do you guarantee profit with a risk free bet?
+
+[Dtc246 | 3 pts]
+I want to take advantage of the CZR 3k match, and I want to make sure the multi book arbitrage i’ve thought of make sense with the promo rules. If someone who have wagered through the bonus can shine a light on this it would be greatly appreciated. 
+
+https://imgur.com/a/8Hdwjw8
+
+[yungsilt | 3 pts]
+Can someone tell me if this is still profitable to do if I’m not itemizing? If I’m making about 15k revenue and 7k profit am I correct in assuming that I am taxed on the 15k?
+
+  [AspiringLawyer94 | 4 pts]
+  It definitely seems so based on what I've been reading. [https://turbotax.intuit.com/tax-tips/jobs-and-career/how-to-pay-taxes-on-gambling-winnings-and-losses/L7JNH7mjn](https://turbotax.intuit.com/tax-tips/jobs-and-career/how-to-pay-taxes-on-gambling-winnings-and-losses/L7JNH7mjn)
+
+[https://www.irs.gov/taxtopics/tc419](https://www.irs.gov/taxtopics/tc419)
+
+This would also mean that if you then go ahead and lose all of it, you'd still have a huge tax bill to pay at the end of the year even though you have nothing to show for it.
+
+Would love to be be corrected if I'm wrong.
+
+[brokenearth10 | 3 pts]
+kind of concerned about taxes. nyc has high income taxes. since the sport books dont share with each other. if i put in 5k in DK and 3k in caesar... turn 5k in DK to zero. and CK 3k to 10k , so for a net gain of 2k. however will IRS see the 10k on CK as 7k earning, and i get taxed on 7k??? I dont think if you made zero on a sportbook (like DK), they dont report that do they?
+
+  [brokenearth10 | 2 pts]
+  Assuming a 50% tax rate total in NYC, I am paying 3500$ taxes on 2k  net earnings because they are across different sportbook? And i come out a net loss of 1500?
+
+    [PortaPottie88 | 2 pts]
+    No, just like gaming win/losses you get a statement from each provider at the years end. In your scenario you should receive a -5K win/loss statement from DK and a +7K win/loss statement from CZR. You pay taxes on the +2K. Just make sure you bring both your statements to accountant.
+
+      [brokenearth10 | 3 pts]
+      Accountant says not true if you take standard deduction. If married that's like 25k. If you itemize then you only pay in net winning. If you take standard deduction u can not deduct ur losses.
+
+  [Ridik911 | 2 pts]
+  Yea, I'm starting to get concerned about taxes now too.
+
+The wagers/losses don't add up to more than the standard deduction, so it wouldn't make sense to itemize the losses unless you have other itemizations that will push your total over the standard deduction.
+
+If that's the case, we get taxed on like \~$17k of winnings when profit is \~$5k? If you're in the 32% federal tax bracket does it get taxed 32% plus maybe state taxes \~6%? That's roughly \~$6.4k which is more than the profit?
+
+[SingleBet2868 | 2 pts]
+I live in Australia if I took a trip to America can I take advantage of these offers?
+
+  [XanthanGumWOW | 9 pts]
+  When you sign up for these sportsbook you have to enter the last four digits of a social security number to verify your identity.
+
+    [SingleBet2868 | 5 pts]
+    Damn thats a shame I thought I might an all expenses paid trip over seas. A man can dream..
+
+  [thesander7 | 2 pts]
+  Think you should be an American citizen. Not sure tho
+
+  [Soft_Artichoke_4024 | 2 pts]
+  Need SSN to sign up for all legal books.
+
+[BartopSat | 2 pts]
+What's the tax hit (just rough math it, no big explanation needed) on this 7k if you don't do anything else all year?
+
+[MLSHomeBets | 2 pts]
+Can you sign up for CZR out of state and deposit before travel? Otherwise, how could you get the money fast enough in order to complete the deposit, bet, withdrawal on a short trip?
+
+[LurkertoThrowaway | 2 pts]
+My understanding of the draftkings risk free bet is that is is not technically a risk free bet. You only receive the profits of the bet. So if you were to wager 5k at +150 you would receive 7.5k rather than 12.5k. Just looking at the terms and conditions and my chat with a rep from the site. So just trying to make sure that people stay careful:
+
+&amp;#x200B;
+
+New Users: $5k Risk Free Bet (min. $1,000 deposit)
+
+• Promotion valid from 1/3/2022 at 8:00 am ET to 2/13/2022 at 11:59 pm ET
+
+• Must be physically located in AZ, CO, CT, IA, IL, IN, MI, NJ, NY, PA, TN, VA, WY or WV. (“each an “Eligible State” or, collectively, the “Eligible States”).
+
+• Must be 21+ years of age or older (18+ if in WY).
+
+• Only available to first time DraftKings customers who have never previously made a deposit into their DraftKings Sportsbook accounts
+
+• Players that have an existing DraftKings daily fantasy sports or casino account are not eligible
+
+• Make a deposit of $1000+ into your Sportsbook account and Opt-In to the promotion
+
+• Following Opt-In, place a qualifying wager during the offer period. Your first placed wager after Opt-In will be your qualifying wager.
+
+• Wager must settle by end of promotion on 2/13/2022.
+
+• If your bet loses, you will receive a free bet for the same amount, up to $5,000
+
+**• Free Bets valid for seven (7) days. Failure to use the Free Bets will void the award**
+
+**• Free Bet amount is not included in any returns or winnings**
+
+• Free Bet also not redeemable for cash, non-transferable, and non-refundable
+
+• One (1) qualifying bet per customer
+
+• Excludes odds boosts, free bets, cash out bets, and voided bets
+
+&amp;#x200B;
+
+&amp;#x200B;
+
+Shoutout to u/madmax727 for their succinct and straight forward answer on the subject a year a go. 
+
+&amp;#x200B;
+
+https://www.reddit.com/r/sportsbook/comments/hvh9lb/comment/fytnbh3/?utm\_source=share&amp;utm\_medium=web2x&amp;context=3
+
+  [DarkHorseOdds | 2 pts]
+  It is still a Risk Free Bet.  If you win the original wager you return the stake and profit.  If you lose the original wager you get a Free Bet as a refund.  That Free Bet you only return the profit.  Assuming you can convert a Free Bet at 70% of its value a Risk Free Bet returned as a Free Bet is worth 70% x 70% = 49% of it's value.  In this case $2,450.
+
+[[deleted] | 2 pts]
+Is this legal? I am in a fight with my brother and he believes this can come back to get you. I disagree and think even with the few doing this, the majority are losing their initial investment so it is worth it for the books. Thoughts?
+
+[[deleted] | 2 pts]
+[deleted]
+
+[ElectoralCollegeGrad | 2 pts]
+This might be a dumb question, but how does one know how much to hedge?
+
+  [Wasian_Nation | 2 pts]
+  google ‘free bet calculator’ and click the first result
+
+[[deleted] | 2 pts]
+[deleted]
+
+[AwareBrain | 2 pts]
+Are most of these still available till the end of Jan?
+
+  [DarkHorseOdds | 1 pts]
+  Yes.
+
+[freekayyy | 2 pts]
+So I'm not even sure how many times i read the guide. I'm really looking to do it and would like to do it soon before the promotions are up. I'm just a little confused on a couple of things...
+
+
+I seen a conversion rate of 70% was mentioned. How do i know if I'm getting the best percentage on the conversions of free bets to cash? Is there any odds I should be going for specifically? I was messing around with the free bets calculators with different odds of games and I'm not too sure what I should be looking for. Any tips on this? 
+
+
+I'm also confused the last phase, kinda confused about that 25k bet thing. Would my money be stuck in there until I do that 25k in bets? Also I would be hedging each of those bets as well for the 25k or am I not understanding it correctly? 
+
+
+Now for the last question, I would pretty much just be betting/hedging until I'm done with the site credits/free bets/bonuses I received from each sportsbook correct?
+
+[poprox23 | 2 pts]
+Can anyone still find the $5k risk-free bet from DK?
+
+  [DarkHorseOdds | 2 pts]
+  I still see it.
+
+    [Article-Lumpy | 2 pts]
+    Can you send me a link where to find the $5k free bet promotion?
+
+  [pickstocksandnoses | 2 pts]
+  Did you find this?
+
+I haven't signed up for DK yet, but want to make sure there's not a special link or promo code I need to use to get both the 1k match and the 5k freebet
+
+[Life_of_Gary | 2 pts]
+You are extremely responsive to this thread! Are all these offers still available and is $7k max profit still possible?
+
+  [DarkHorseOdds | 2 pts]
+  With MGM now its worth $8,000
+
+[pickstocksandnoses | 2 pts]
+Is the risk free bet up to 5k still a thing on draft king's? I haven't set it up yet but I haven't seen that promoted elsewhere.
+
+  [DarkHorseOdds | 3 pts]
+  Yes it is still active.
+
+    [Liquid_Factor | 2 pts]
+    If you were to simplify things and just hedge the CZR $6300 bet (I set this up last week) with one of the other site bonuses (I don’t have another site account yet), what you would recommend? Thank you for writing all of this up!
+
+      [DarkHorseOdds | 1 pts]
+      Sent you a message.
+
+[Block_Artistic | 2 pts]
+Does anyone know if the DK $5000 free bet promo will still be available after doing the $5 money line bet for $280 in NY?
+
+[musicman3321 | 2 pts]
+I heard CZR cut the deposit match down to $1,500. Any other changes since this was posted or still good?
+
+[madking8 | 2 pts]
+PUBLIC SERVICE ANNOUNCEMENT - DO NOT BET THE $5 TO WIN $280 ON DRAFTKINGS FIRST. YOU WILL NOT BE ABLE TO OPT IN FOR THE $5K FREE BET. OP IS WRONG. I FOUND OUT THE HARD WAY.
+
+  [Current-Ad6301 | 3 pts]
+  I bet the $5 and I’m still able to opt in to the 5k bet.  Unless it denies you when you click opt in?  Please elaborate.
+
+  [sanfranguy06 | 2 pts]
+  Not true. I ddi the $5 for $280 first and a few other bets before the $5k free bet. You have to physically click "opt-in" on that promo for it to be in play and it counts on the first bet after opt-in.
+
+I actually put together a hedge calculator that can help determine and track the best bets, the optimal hedge to bet with, and payouts. Spent a week on it. Once I incorporate API's with live odds and it's able to recommend the bets, I'm thinking about charging a subscription for access.
+
+It'd definitely clarify a lot of the steps and how these bets work. As the OP said, this can continue indefinitely so long as you're smart about how you bet at each sportsbook so as not to get limited.
+
+  [DarkHorseOdds | 1 pts]
+  Yes you can.  You might not have been able to for a different reason such as DFS or initial deposit amount.
+
+[Liquid_Factor | 2 pts]
+Is it best to find as close to even odds as possible, e.g., -105 vs +105, or can you do it with lines like Bucs -140 vs rams +120 as long as you adjust the amount bet appropriately? Sorry for the confusion.
+
+  [DarkHorseOdds | 1 pts]
+  You always want them as close as possible, and for Risk Free Bets/Free Bets you also want long odds.
+
+[[deleted] | 2 pts]
+I did a free bet for 2350$ and lost , they gave me the $$ back , then I placed a live bet . And they only gave me 67$ and I put up 2350$. Where is my other 2350$ that I put up ? Will they send it back
+
+  [DarkHorseOdds | 6 pts]
+  What book was this on and what were the odds on the live bet.  My guess is you got a Free Bet refund and bet it on a line that was -3,500
+
+[schnarfdogg | 2 pts]
+My man can you do this for Louisiana? Haha I’m trying to figure it out but you are much smarter than me
+
+  [DarkHorseOdds | 2 pts]
+  Concept is same.  Reaching out with more info.
+
+[Physical-Pipe | 2 pts]
+Man, am I pissed. I had fanduel and DraftKings from a different state. I was able to get about $3,800 in promos including Betmgm. If you are interested, sign up for Betmgm; don’t deposit and they will email you with a 500 match bonus you can stake with a 1K risk free bet! 
+
+So you’re saying DK will give you all those 3? They give you 1K in site credit, a 5K risk free bet AND first $5 bet could win $200? 
+
+1k in site credit, isn’t that free bets? If so, that’s only about $475 guaranteed. 
+
+A 5K risk free bet (also paid in free bets if lost) can only guarantee about about 25%-35%, but let’s say 2K for this example. 
+
+And the $200 call it $100. I don’t see how you get $3500 guaranteed from this. Is the site credit on DraftKings not a free play balance? If so, that’s crazy. I didn’t get that a few years ago. 
+
+You get that risk free bets are paid in free plays so 5K (let’s say 2 +100 bets). Would be 5K to win 5K and on another site, you do $3750 to win $3750. If the 3750 wins, you win $3750 but lost 5K- BUT you get back $2500 in free plays = $1250.. 
+
+If it goes the other way, 5K wins 5K less the 3750. 
+
+So the risk free bet should usually guarantee 25% if no work is done. The 1K in site credit is 1K if it’s site credit and NOT free plays. So that’s 2,250. I don’t see more than $2,500 on DraftKings. Let me know where I’m wrong because I may help a friend do this. 
+
+All in all though, love the work. Did CZR, BR, Betmgm, working on PointsBet, and DK and FD gave me like $100 each when coming to NY lol. I’m right around 4K but I thought DraftKings was free plays and FD was site credit.
+
+I also think that 1K risk free in FD will guarantee you more like $800 with some work. If you find line errors and get 2 bets at +100. You could actually guarantee the whole 1K since FD is basically cash back, with 1X play through. If it losses, do the same thing again. Find a line error, +100. How does fan duel guarantee only 70% but DraftKings is the same with free plays? I still think 6,500 guaranteed from those 4. Add PointsBet, probably another $500 and Betmgm (wait for email), add another $750. Could be close to 8K. 
+
+Let me know your thoughts. Happy promoting!
+
+  [DarkHorseOdds | 2 pts]
+  The DK $5k risk free can be converted at 45%+ easily with proper lines.  The $1,000 is Site Credit and therefore worth \~100%.    
+
+
+The FD offer can be worth $800 but that's very rare on mainlines.  Also the +100/+100 example is only worth $500.
+
+    [Physical-Pipe | 2 pts]
+    The 1K is like cash. So you have to make 2 bets. 1K to win 1K on fanduel. And 1K to win 1K elsewhere. if you lose on FD, You lost the bonus. But you bet 1K to win 1K on another site and now you have 1K profit (on top of 1K you risked) Exactly what you had on fanduel but not can withdraw the cash.
+
+[drl2017 | 2 pts]
+How do we feel about PointsBet? I have seen mixed reviews on other subs. Also, does anyone know how the $2k in risk free bets work? Seems like you make a $500 bet and then $1,500 but not sure I understand difference between fixed odds and general wager.
+
+[[deleted] | 2 pts]
+For bet rivers you could also play a slot game called blood suckers( 2% house edge). Bet 1.25 a spin and in 30 min you’ve met your requirement. Theoretical win is 245. Will make anywhere from 175-350 profit.
+
+[Mathew_Berrys_Cock | 1 pts]
+If i do this for myself, then wire transfer 10-15k to my girlfriends bank account to do the same, will that raise any red flags or tax obligations?
+
+[[deleted] | 1 pts]
+[deleted]
+
+  [DarkHorseOdds | 1 pts]
+  That is normal.
+
+[[deleted] | 1 pts]
+[removed]
+
+  [sportsbook-ModTeam | 1 pts]
+  Be a part of the community first by contributing to discussion and be a shill for your twitter/discord/website last.
+
+[m_katz13 | 1 pts]
+anyone know if the above still holds? any updates on this
+
+[[deleted] | 0 pts]
+I placed a $5 lotto bet on BR for the World Series and now when I try to withdraw it says I have “Pending Bonus Bets”. This was before I read this post and how to do it right. Does this mean all my funds are locked up until that bet clears?
+
+[gimmedawz | 1 pts]
+Fuck I completely avoided DK because I thought only your first bet would qualify as the 5k risk free bet. Are you sure that I could do the $5 to $200 and then still do the 5k risk free bet afterwards?
+
+[lambomrclago | 0 pts]
+If anyone is doing this, please add me and PM me progress - going to do it myself but want to see how people find the books in terms of giving the credits etc.
+
+[pat3002 | 1 pts]
+This is extremely useful thanks! What did everyone use for deposit on CZR? I've tried bank transfer, check and PayPal but "something went wrong" on their end. Not sure how to deposit 3k without it getting declined.
+
+[[deleted] | 0 pts]
+[deleted]
+
+[Rishard101 | 1 pts]
+Will this work if you already have accounts setup with DK, FD, and BR in other states?
+
+  [DarkHorseOdds | 1 pts]
+  BR NY is a separate account so you can most likely repeat.  FD and DK you cannot.
+
+[JankyJig | 1 pts]
+Thinking about taking a flight to New York for the weekend with some who hasn’t signed up to these Sportsbooks. Thanks for the info.
+
+[[deleted] | 1 pts]
+[deleted]
+
+  [DarkHorseOdds | 2 pts]
+  \-300 or longer means -301, -350, -400 does not work and -250, -150, +150 does.  
+
+
+You just need to bet through all $6,300.  Spreads are normally -110 on both sides resulting in a 10% loss in value when it converts.  $100 Site Credit becomes $90 cash.  You want to find lines with no loss like a -145/+145.  This way you convert the Site Credit at 100%.
+
+    [hersheyboy2 | 3 pts]
+    If you deposit $3000 and get $3300 in bonus money, you only need to bet through the $3300 bonus money
+
+      [DarkHorseOdds | 1 pts]
+      Even better.
+
+[[deleted] | 1 pts]
+[deleted]
+
+  [DarkHorseOdds | 2 pts]
+  No.  Must be physically located in NY.
+
+  [white015 | 2 pts]
+  I don’t think so
+
+[Sidehustlemom | 1 pts]
+https://www.youtube.com/watch?v=kH61SpQiELQ
+
+This is the video that helped me use my bonuses and free bets.
+
+[hcheese | 1 pts]
+anyone having issue seeing czr's match? deposited 3k just now but not seeing the match nor the 300
+
+[netwreck94 | 1 pts]
+Looking to use the FD$1000 vs CZ, any thoughts?
+
+  [DarkHorseOdds | 1 pts]
+  That works well also.
+
+[International_Eye794 | 1 pts]
+If I put in 2.5K what’s that come out to doing these steps
+
+  [DarkHorseOdds | 1 pts]
+  Reach out directly and I can help
+
+[International_Eye794 | 1 pts]
+Can there be possibilities where one bet is not allowed on another site ?
+
+  [DarkHorseOdds | 1 pts]
+  Possible but very unlikely if you stick to main lines.
+
+[hchan221 | 1 pts]
+Can you please do another example for this weekend for Phase B and onward, similar to what you did last week with Broncos/Chiefs and Eagles/Cowboys. it would really help clarify some of the steps for those of us who are new in sports betting. 
+
+Thanks in advanced
+
+  [theodorant | 2 pts]
+  Anyone mind forwarding the message along? Thanks!
+
+  [DarkHorseOdds | 1 pts]
+  Sent you a message.
+
+[theodorant | 1 pts]
+It looks like the dk 5k bet is gone now. What's the max profit we can make now? I'm going to do the czr deposit and fd. Not sure how to optimize those with dk. Thanks!
+
+  [DarkHorseOdds | 2 pts]
+  I still see it.  Terms and conditions say until 2/13.
+
+[derrick33333 | 1 pts]
+If you already have a DraftKings account in NJ, I'm assuming the promo for the $5k risk free is gone? In that case, how do you hedge against your $3k bet on CZR?
+
+[islanders11040 | 1 pts]
+i already used my draftkings first deposit a week ago on the 5$ for 200$ before i ever saw this thread. hopefully i can pull off this method later this month. i know BetMGM is opening their book in NY on jan 17th. maybe it can replace draft kings. we shall see.
+
+[MLSHomeBets | 1 pts]
+Where is this DK $5000 promo? All I see is a 20% bonus on a DEPOSIT up to $5000. Not a $5000 free bet or site credit.
+
+[[deleted] | 1 pts]
+[deleted]
+
+  [DarkHorseOdds | 1 pts]
+  Just sent you a message.
+
+[derrick33333 | 1 pts]
+What are y'all betting now for the CZR $3k?
+
+[DeeprrrrFuckingValue | 1 pts]
+Do you need a proof-of-residence of some sort? 
+
+Ie: Can I visit NY for 3 days as a foreigner and pick up the bonus from there, or are there restrictions that will block such a thing from working out?
+
+  [DarkHorseOdds | 1 pts]
+  You need a SSN.
+
+    [[deleted] | 2 pts]
+    [deleted]
+
+      [DarkHorseOdds | 1 pts]
+      yes.
+
+[Last-Recognition-738 | 1 pts]
+Is anyone else having trouble getting promotions from DK?  I put in a 5k initial deposit, and didnt get the 20% match.  I also won an NFL $5 money line bet last night, and didn't receive the $280
+
+  [DarkHorseOdds | 1 pts]
+  Give it 72 hours for the $280 in Free Bets.  Also the 1k match is released as you wager.  Not all at once like CZR.  You check the progress in your profile.
+
+[[deleted] | 1 pts]
+Hello, 
+I signed up for DK yesterday for the first time deposit risk free bet and placed my losing wager before opting in. I opted in before the game started, but not until after the wager was placed. I didn’t get the site credit back yet. What do I do?
+
+  [DarkHorseOdds | 2 pts]
+  Your best bet is to reach out to customer service.  If they do not honor that you can hedge the next one to recover some of the losses.
+
+[Electrical-Top6956 | 1 pts]
+I have already used DK credits in other states. What do you recommend if only have BR, CZR, and FD bonuses at my disposal? Thank you for all your help. Really amazing!
+
+[GucciFlipFlopsYuh | 1 pts]
+Is it worth depositing the $5,000 into DK due to the $25,000 playthrough? I don't know how I will be able to bet that amount in 90 days and not lose a lot of it to juice from hedging. Thoughts OP? I'm considering only doing FD, CZR, and BetRivers for the convenience factor
+
+  [DarkHorseOdds | 1 pts]
+  You do not need to play through all 25k if you do not want to.  The way DK releases the Site Credit does not tie up any funds or restrict cash from withdraw.  The $5k Risk Free Bet alone is worth over $2,000 and meets 20% of the rollover requirement.
+
+    [GucciFlipFlopsYuh | 2 pts]
+    Makes sense, thanks for the reply! I was wondering if you had any insight on how to deposit money into these NY books. I only have a chase bank account and debit card, which is not being approved on DK, FD, and CZR. Even when using PayPal, these all requite a linked bank/debit card and the relation to Chase is making it fail it seems. Do you know of other banks or methods to get money into these books?
+
+      [DarkHorseOdds | 2 pts]
+      PayPal linked to a bank account is normally easiest for deposits, and then just straight to the bank through online banking for withdraws.
+
+[FartButt11 | 1 pts]
+Can I sign up with DK, BR, and FD in NY and use their bonused if I've already made accounts and used their bonuses in PA?
+
+  [DarkHorseOdds | 1 pts]
+  BR yes.  FD and DK no.
+
+[lionateme | 1 pts]
+Is it mathematically possible to guarantee a $700 profit from the FD$1K if your hedge line needs to be longer than -300?
+
+  [DarkHorseOdds | 1 pts]
+  300/-300 is $750.
+
+[ak11214 | 1 pts]
+Couldn’t I just hedge -110 basketball over and under with two Sportsbook (FanDuel and mgm) for $1000 each?
+
+  [DarkHorseOdds | 2 pts]
+  You are wasting a lot of money doing that.
+
+[[deleted] | 1 pts]
+I’d you bet Caesars 3000 and 3000 on DK. How do you win?
+
+[Truwu10304 | 1 pts]
+I did the 300 bonus on Caesers and the match. Just withdrew fairly decent winnings. Im trying to read the fine print but my question is if there are 3 adults in our household can each of us sign up and get the $300 bonus amd match? I don't see where it says you can or can't do that.
+
+[theshanelizard3000 | 1 pts]
+For the Caesar's deposit match, do you have to enter the "CZRNEW" promo code when making the deposit? Or is it already applied and will take effect once I submit the deposit? Just making sure because when I try to enter the "CZRNEW" code it says invalid. Thanks!
+
+  [Whamalammajamma | 2 pts]
+  Yea it worked for me, even though it said invalid. Matched the exact amount
+
+[synthebunny | 1 pts]
+Would it be possible to be able to do this with only BR/CZR? Obviously not the same payout but the same system? Already did DK/FD in another state.
+
+  [DarkHorseOdds | 1 pts]
+  Yes.  Sending a message.
+
+[fire4travel | 1 pts]
+Any chance you can do a modified version for just maxing out the CZR $3K match?  I just funded and got the max match bonus so have $3K + $3.3k in Bonus Cash in CZR.  I understand I’m supposed to hedge my bets on a different book.  If I’m only interested in cashing out the $3.3k and go on with my life which sports book do you recommend me to hedge my bets on?  Am I ok with sticking to to Total Points Spreads that are -115 on each side?
+
+[[deleted] | 1 pts]
+[deleted]
+
+  [DarkHorseOdds | 1 pts]
+  Thanks.  Makes it even easier.  Would you like some help with matched betting.
+
+[brokenearth10 | 1 pts]
+I'm seeing FanDuel 50 dollar bonus? Is their 1000 risk free bet over?
+
+  [Phantomatic2 | 2 pts]
+  still shows 1k risk free
+
+[NerdyKid1996 | 1 pts]
+I placed the $5 for $280 free bets and now I am not eligible for the $5k risk free bet even though I haven't opt-in to that.
+
+Has anyone experienced this issue? I still haven't clicked opt-in on the promos page and wanted to confirm with support, and they said since I did the $5 bet I am no longer eligible for risk free bet.
+
+This stinks.
+
+  [Material_Spinach | 2 pts]
+  I reached out to support to confirm I could use both and their response was “After reviewing this promotion concern, I have confirmed that you will only be eligible to choose one promotion bonus offer. This is due to the different promotions’ first bet requirements.” Please spread the word.
+
+  [DarkHorseOdds | 2 pts]
+  That is unusual.  Many people have done both.  For DK it is the first bet after opt in not after signing up.  I would reach back out to customer service.
+
+[pickstocksandnoses | 1 pts]
+Can we opt in to the nbastore giftcard promo on CZR after the fact? I forgot to do it but reading the terms and conditions it seems like to be eligible you need to have opted in during the promotion period, and you need to have done an NBA bet of 100 bucks during the period. Doesn't say it has to be before....
+
+If no one knows I'll update here if it works out
+
+[Downeasteralexa1550 | 1 pts]
+Wish I knew about this beforehand… oh well
+
+[erbmaddux | 1 pts]
+For BR do you need to make $500 in bets to satisfy the playthrough requirement? Confused by step A 4 where it says you just have to finish off $250 "Site Credit Bet", since I didn't think you could distinguish which dollars you are utilizing in a bet?
+
+[moondogg200 | 1 pts]
+I keep reading this over and over and super confused.
+
+I also think the promo has changed for DK and CZR. I googled DK, the promo comes up in the search and when I made and account (have yet to make a deposit) it doesnt show the under the promos.
+
+With CZR, looks like the match us up to 1500
+
+  [DarkHorseOdds | 1 pts]
+  DK changed the $5 bet slightly.  The rest of DK is the same.  CZR changed significantly.
+
+[[deleted] | 1 pts]
+[deleted]
+
+  [DarkHorseOdds | 1 pts]
+  Sent you a message.
+
+[glamham | 1 pts]
+I think the CZR promo for $3k ended yesterday. I used friend's referral yesterday and it still said $3k risk free bet so I registered, but I deposited today and have not gotten the bonus 3k just the $300. I sent them an email to see what's up. The same referral link now gives the bet $20 and get $300. Did people get the bonus 3k right away in their account?
+
+  [DarkHorseOdds | 1 pts]
+  It varies.  Seems like they took the offer down yesterday afternoon and people were able to get it to work last night but not very successful today.
+
+[funksoledadbrother | 1 pts]
+For Phase C, I'm having a hard time finding a hedge that works for the CZR playthrough (-300 or greater) and gives a 70% ish return. The book at CZRs just seems super limited compared to DK and doesn't offer alternate lines and things like that. Any thoughts on what to do when that happens? Or am I just stuck with taking less money?
+
+  [DarkHorseOdds | 1 pts]
+  Sent you a message.
+
+[montanafat | 1 pts]
+Really appreciate this, but can someone make an updated version of this? Seems like some of this is old.
+
+  [DarkHorseOdds | 1 pts]
+  Sent you a message.  Lines are always moving so even if I updated every line in the post it would likely be inaccurate within an hour.
+
+[sparkspark34 | 1 pts]
+Would you mind breaking down phase C a little for me? I’m not quite following how you’re getting your profit numbers there. How are you balancing knowing how much money to put in as a hedge for your DK to ensure profit?
+
+  [DarkHorseOdds | 1 pts]
+  Sent you a message.
+
+[giveuptheghost1 | 1 pts]
+I haven’t created an account with DK, BR, or betmgm yet. Is there a way to make this work with those 3 books?
+
+[Aroldis211 | 1 pts]
+Need some help on the Phase B portion of this. Looking to take advantage of FD risk free bet using DK as the hedge. Like when you say long odds what do you mean? And for the bet on FD what should I be looking at?
+
+Thanks.
+
+  [DarkHorseOdds | 1 pts]
+  Send me a DM and I can help.
+
+[tmh2d | 1 pts]
+does the caeser still works at 3k? heard someone say it's only 1.5k now. the 3k code is saying invalid
+
+  [DarkHorseOdds | 1 pts]
+  1.5k Free Bet deposit match now.
+
+[erbmaddux | 1 pts]
+How would you hedge the 5K DK risk free bet if CZR wasn't in the picture? Just BR, FD, MGM?
+
+[PortaPottie88 | 1 pts]
+I tried OPT-IN to the DraftKings 5K Risk free bet but it just takes me to the betting page. I contacted support and they said I was Opted in. I place the bet and I ended up winning(hedge bet.) However, I still see the promotion and OPT-IN button in my promos. Can anyone who have successfully used DK's risk free bet promo confirm that they received the risk free bets for losing, and that the Promo disappeared from their dashboard afterwards?
+
+[Current-Ad6301 | 1 pts]
+Anyone have issues wiring money to DraftKings?  For some reason, the other funding options wouldn’t work, so I had to send a wire.  I couldn’t believe it when DraftKings, after going back and forth with them for days, finally confirmed the wire but is withholding it until I send them proof of where the actual funds for the wire came from (ie how I obtained the funds and deposited them into my bank account in the first place).  I know they are trying to prevent money laundering but this just seems way too personal.  Anyone have any other experiences?
+
+  [DarkHorseOdds | 1 pts]
+  That is normal for a wire.
+
+[Wilhelm38 | 1 pts]
+Any way to participate in this if I already have a DK account? Made one a long time ago when traveling out of state and made a few small bets. Now it's looking like all DK promotions are for first-time customers only and every step described above involves hedging through DK.
+
+I already looked into opening a new DK account - not allowed. So my question is, how can i take advantage of the rest of the offers without the main hedging device?
+
+  [DarkHorseOdds | 1 pts]
+  In the example above the promotions are stacked.  They do not have to be stacked.  Most matched betting is done with a promotion on one side and cash on the other.  The profit per promotion is the same just above you are converting two at a time.
+
+[[deleted] | 1 pts]
+Sportsbook were just approved in Ontario to launch on April 4th. You should do this for here too 😀
+
+[HolyGuacermole | 1 pts]
+I'd previously made an account with FD (not FD sportsbook) in another state and made a few extremely small bets. Is it still possible for me to use the 1k risk-free bet (considering I am a new customer for FD sportsbook)?
+
+Edit: Found the answer here for any others interested: https://www.reddit.com/r/sportsbook/comments/rxwlyv/new_yorkers_you_have_one_chance_to_get_these_sign/hrxm2a2/
+
+[Courage1611 | 1 pts]
+Hi! My friend showed me your reddit post about the NYC state guide. Sounds awesome and thank you again for publishing that. Was curious if I could have the updated version? (I saw on your site that its coming soon there also.) Thank you! Ill probably be trying your service soon to make some extra income!
+
+[hoopsandpoops | 1 pts]
+is it too late to do this in new york?
+
+  [DarkHorseOdds | 1 pts]
+  Absolutely not.
+
+[JCMiller23 | 1 pts]
+How would one go about doing this in Ohio?  Pm me?
+
+  [DarkHorseOdds | 1 pts]
+  Ohio is set to legalize sports betting later this year.  Until then you need to travel to a legal state.
+
+[hydrew | 1 pts]
+Does anyone know if Fanduel first wager risk-free bet is ONLY the first deposit amount? I deposited $30 first to check if works. Just worried if $30 is the maxed amount that is risk-free lol.

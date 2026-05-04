@@ -1,0 +1,38 @@
+=== Sports Edge Analyst Session: morning ===
+=== 2026-04-19 12:00 UTC ===
+
+Morning analysis complete. Here's the summary:
+
+## Sports Edge Morning Report - Apr 19
+
+**Portfolio: +$498 combined PnL across all models**
+
+### What happened overnight
+- 6 game model bets graded from Apr 18: 3W-3L (includes 2 pre-disable ML losses)
+- 9 K-prop bets graded: 4W-5L (-$102). Severino double exposure + unknown pitcher hurt.
+- 4 bets still pending from late games
+
+### Fix applied
+- **MAX_BETS_PER_PITCHER: 2 -> 1** in prop_model.py. Double exposure cost us $91 net over 3 instances. Fixed for future runs.
+
+### Biggest finding: CLV predicts winners
+- Bets that beat the closing line: **77% win rate**
+- Bets that don't: **45% win rate**
+- 32 percentage point spread. If we can predict CLV pre-game, it's a massive filter.
+
+### Optimal filter discovered
+- UNDER + 5-12% edge = **23.9% ROI** vs 4.8% for all bets
+- The 22 bets outside this filter LOST $306 combined
+- Game model totals (no ML) remains the engine: 19W-13L-1P, **16.1% ROI**
+
+### K-prop model bias
+- Overestimates Ks by +0.58 on average
+- UNDER: 6W-2L, +$331 (75% WR) -- the real edge
+- OVER: 11W-8L, -$164 (58% WR) -- bias-inflated
+
+### Today
+- 5 K-prop picks already logged (Sasaki, Weathers, Ragans)
+- 33 batter prop picks awaiting grading (first live batch)
+- 4 pending game model bets from last night
+
+=== Session Complete: 2026-04-19 12:09 UTC ===

@@ -1,0 +1,300 @@
+Pitching | Sabermetrics Library
+<
+! -- END HEAD -->
+<! -- END HEADER -->
+Intro
+Features
+Offense
+Complete List (Offense)
+OBP
+OPS and OPS+
+wOBA
+wRC and wRC+
+wRAA
+Off
+BsR
+UBR
+wSB
+wGDP
+BABIP
+ISO
+HR/FB
+Spd
+Pull%/Cent%/Oppo%
+Soft%/Med%/Hard%
+GB%, LD%, FB%
+K% and BB%
+Plate Discipline (O-Swing%, Z-Swing%, etc.)
+Pitch Type Linear Weights
+Pace
+Defense
+Overview
+Def
+UZR
+DRS
+Defensive Runs Saved – 2020 Update
+Inside Edge Fielding
+Catcher Defense
+FSR
+RZR
+TZ / TZL
+Pitching
+Complete List (Pitching)
+PitchingBot Pitch Modeling Primer
+Stuff+, Location+, and Pitching+ Primer
+ERA
+WHIP
+FIP
+xFIP
+SIERA
+Strikeout and Walk Rates
+Pull%/Cent%/Oppo%
+Soft%/Med%/Hard%
+GB%, LD%, FB%
+BABIP
+HR/FB
+LOB%
+Pitch Type Linear Weights
+SD / MD
+ERA- / FIP- / xFIP-
+Plate Discipline (O-Swing%, Z-Swing%, etc.)
+Pace
+PITCHF/x
+What is PITCHF/x?
+Pitch Type Abbreviations & Classifications
+Heat Maps
+Common Mistakes
+PITCHf/x Resources
+WE/RE/LI
+RE24
+Win Expectancy
+WPA
+LI
+WPA/LI
+Clutch
+Principles
+DIPS
+Regression toward the Mean
+Replacement Level
+Sample Size
+Splits
+Projection Systems
+Linear Weights
+Counting vs. Rate Statistics
+Park Factors
+Park Factors – 5 Year Regressed
+Positional Adjustment
+Aging Curve
+League Equivalencies
+Pythagorean Win-Loss
+Luck
+WAR
+What is WAR?
+WAR for Position Players
+WAR for Pitchers
+FDP
+fWAR, rWAR, and WARP
+WAR Misconceptions
+Business
+Pitching
+by
+Piper Slowinski
+February 15, 2010
+Pitching is a ridiculous thing when you stop and think about it. It quite literally taxes the human arm to its biological limits, yet demands incredible precision and relentless repetition. As a result, pitchers can be quite fickle commodities and prone to injuries and irregular career paths. Some pitchers don’t figure everything out until they’re past 30 (e.g. Randy Johnson) while others achieve dominance at an early age but are unable to maintain that level (think Scott Kazmir). All these factors makes evaluating pitchers tricky, but there is plenty of exciting work being done these days in this area, especially with Pitch f/x data.
+When evaluating a pitcher, rely mostly on the golden trifecta of
+FIP
+/
+xFIP
+/
+tERA
+.
+Batted ball data
+,
+BABIP
+,
+homerun rates
+,
+LOB%
+, and
+rate statistics
+are all very important too, though, and can shed light on individual players. Scouting data is invaluable as well, although unfortunately we have very little of this publicly available for use.
+Links for Further Reading:
+Voros McCracken’s Groundbreaking DIPS Theory – Baseball Prospectus
+How Can we Tell if a Pitcher is Any Good? – The Book Blog
+Sabermetrics 101: Pitching – Lookout Landing
+Evaluating Pitcher Talent – U.S.S. Mariner
+The Injury Zone – Hardball Times/Josh Kalk
+Defense
+wOBA
+Piper was the editor-in-chief of
+DRaysBay
+and the keeper of the
+FanGraphs Library
+.
+Login
+Please login to comment
+20
+Comments
+Oldest
+Newest
+Most Voted
+Inline Feedbacks
+View all comments
+Sean Severns
+14 years ago
+I am trying to find out what PFR, and ERC are in sabermetric stats.
+-1
+Friedman
+14 years ago
+Reply to
+Sean Severns
+PFR (Power/finesse ratio) = (K + BB)/IP
+ERC = Component ERA. Too lazy to type it all but:
+http://en.wikipedia.org/wiki/Component_ERA
+0
+sportsfreak0217
+13 years ago
+what does E F stand for
+1
+Mark
+13 years ago
+When I click on Glossary, I get this page.  It doesn’t look like a Glossary.  Where is it hiding really?
+18
+Dave
+13 years ago
+Reply to
+Mark
+I agree. I don’t understand why there is no centralized repository of stat definitions/abbreviations used on this site. Its insane.
+32
+THOMAS H
+4 years ago
+Reply to
+Dave
+Bump
+4
+Neb
+13 years ago
+Where can I find “PitchFxType” abreviation meanings?
+TIA
+2
+Gallo
+13 years ago
+Reply to
+Neb
+http://www.fangraphs.com/library/index.php/misc/pitch-fx/
+FA = fastball
+FF = four-seam fastball
+FT = two-seam fastball
+FC = fastball (cutter)
+FS / SI / SF = fastball (sinker, split-fingered)
+SL = slider
+CH = changeup
+CB / CU = curveball
+KC = knuckle-curve
+KN = knuckleball
+EP = eephus
+10
+nichove
+13 years ago
+Does anybody know where to get 2010 siera projections?
+0
+John Hancock
+5 years ago
+What do the stats “Starting” and “Relieving” measure?
+0
+alemunger
+5 years ago
+Reply to
+John Hancock
+They are Runs Above Replacement (RAR) splits depending on whether the pitcher was starting or relieving.
+For example:
+https://www.fangraphs.com/leaders.aspx?pos=all&stats=pit&lg=all&qual=0&type=c%2c54%2c55%2c56%2c57%2c58%2c59&season=2020&month=0&season1=2020&ind=0&team=0&rost=0&age=0&filter=&players=19361%2c16502&startdate=2020-01-01&enddate=2020-12-31
+Corbin Burnes was a much better starter than reliever this year, while  Ryan Yarbrough accumulated almost 40% of his value in only 9 innings of relief (~15% of his total IP).
+0
+bruceroe
+Member since 2024
+5 years ago
+how d\o I find spin rates?
+0
+bruceroe
+Member since 2024
+5 years ago
+Reply to
+bruceroe
+I FOUND THEM AT sTATCAST
+0
+bruceroe
+Member since 2024
+5 years ago
+How do  I find swinging strike rates?
+0
+bruceroe
+Member since 2024
+5 years ago
+Reply to
+bruceroe
+FOUND AT STATCOST SITE
+0
+betlabs
+Member since 2026
+5 years ago
+Hello, i would like to ask you if there is range od ratings for new statcats stats?
+I mean
+Awful
+Poor
+Below Average
+Average
+Above Average
+Great
+Excellent
+?
+And if exist, also for batting.
+Thanks and have a nice day
+0
+serra
+4 years ago
+Hello, what is ‘Qualified’ in the pitchers filter? (It comes associated with the number of innings pitched). Thanks.
+0
+Ken
+Member since 2017
+4 years ago
+What is the ‘-‘ for in ERA- ?  Is it park or league adjusted?  or something else?
+0
+Ken
+Member since 2017
+4 years ago
+Reply to
+Ken
+or is it just the ERA scaled where the mean is 100?
+0
+wiitytily
+4 years ago
+What is the differences between SI-X(cs) and SI-X(pi)? I know they are indicating pitch movement, but I don’t know differences between them
+0
+Insert
+You are going to send email to
+Send
+Move Comment
+Move
+Updated: Monday, April 13, 2026 11:35 PM ET
+Updated: 4/13/2026 11:35 PM ET
+@fangraphs
+-
+Contact Us
+-
+Advertise
+-
+Terms of Service
+-
+Privacy Policy
+All major league baseball data including pitch type, velocity, batted ball location,
+        and play-by-play data provided by Sports Info Solutions.
+Major League and Minor League Baseball data provided by Major League Baseball.
+Mitchel Lichtman
+All UZR (ultimate zone rating) calculations are provided courtesy of Mitchel Lichtman.
+TangoTiger.com
+All Win Expectancy, Leverage Index, Run Expectancy, and Fans Scouting Report data licenced from TangoTiger.com
+Retrosheet.org
+Play-by-play data prior to 2002 was obtained free of charge from and is copyrighted
+        by Retrosheet.
+<! -- END FOOTER -->

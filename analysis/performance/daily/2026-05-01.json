@@ -1,0 +1,38 @@
+{
+  "date": "2026-05-01",
+  "oddstrader": {
+    "record": "4W-1L",
+    "pnl": 286.40,
+    "bets": [
+      {"player": "Jorge Mateo", "market": "Total Bases", "odds": -160, "ev_pct": 26.1, "result": "win", "pnl": 103.38},
+      {"player": "Jonah Heim", "market": "Total Bases", "odds": -135, "ev_pct": 18.0, "result": "win", "pnl": 122.52},
+      {"player": "Will Smith", "market": "Total Bases", "odds": -135, "ev_pct": 17.5, "result": "win", "pnl": 122.52},
+      {"player": "Jarren Duran", "market": "Total Bases", "odds": -145, "ev_pct": 17.4, "result": "loss", "pnl": -165.40},
+      {"player": "Luis Rengifo", "market": "Total Bases", "odds": -160, "ev_pct": 13.1, "result": "win", "pnl": 103.38}
+    ],
+    "notes": "All TB plays tonight. 4 of 5 within juice cap. Strong night."
+  },
+  "game_model": {
+    "record": "2W-1L",
+    "pnl": 64.20,
+    "bets": [
+      {"matchup": "BAL @ NYY", "result": "win", "pnl": 118.96},
+      {"matchup": "ATL @ COL", "result": "win", "pnl": 101.03},
+      {"matchup": "MIL @ WSH", "result": "loss", "pnl": -155.79}
+    ]
+  },
+  "k_props": {
+    "record": "0W-0L",
+    "pnl": 0,
+    "notes": "No bets generated. Model effectively dead."
+  },
+  "combined_pnl": 350.60,
+  "cumulative": {
+    "oddstrader_total": {"record": "117W-84L", "pnl": 801.75, "bankroll": 5801.75},
+    "oddstrader_active": {"record": "94W-43L", "pnl": 2036.69, "roi_pct": 14.7},
+    "game_model": {"record": "32W-29L-4P", "pnl": 257.14},
+    "k_props": {"record": "51W-47L", "pnl": -363.11},
+    "all_models_pnl": 695.78,
+    "active_only_pnl": 2293.83
+  }
+}

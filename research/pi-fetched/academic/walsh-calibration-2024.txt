@@ -1,0 +1,182 @@
+[2303.06021] Machine learning for sports betting: should model selection be based on accuracy or calibration?
+Computer Science > Machine Learning
+arXiv:2303.06021
+(cs)
+[Submitted on 10 Mar 2023 (
+v1
+), last revised 1 Feb 2024 (this version, v4)]
+Title:
+Machine learning for sports betting: should model selection be based on accuracy or calibration?
+Authors:
+Conor Walsh
+,
+Alok Joshi
+View a PDF of the paper titled Machine learning for sports betting: should model selection be based on accuracy or calibration?, by Conor Walsh and 1 other authors
+View PDF
+Abstract:
+Sports betting's recent federal legalisation in the USA coincides with the golden age of machine learning. If bettors can leverage data to reliably predict the probability of an outcome, they can recognise when the bookmaker's odds are in their favour. As sports betting is a multi-billion dollar industry in the USA alone, identifying such opportunities could be extremely lucrative. Many researchers have applied machine learning to the sports outcome prediction problem, generally using accuracy to evaluate the performance of predictive models. We hypothesise that for the sports betting problem, model calibration is more important than accuracy. To test this hypothesis, we train models on NBA data over several seasons and run betting experiments on a single season, using published odds. We show that using calibration, rather than accuracy, as the basis for model selection leads to greater returns, on average (return on investment of $+34.69\%$ versus $-35.17\%$) and in the best case ($+36.93\%$ versus $+5.56\%$). These findings suggest that for sports betting (or any probabilistic decision-making problem), calibration is a more important metric than accuracy. Sports bettors who wish to increase profits should therefore select their predictive model based on calibration, rather than accuracy.
+Comments:
+15 pages, 5 Figures. Paper submitted to Elsevier's Machine Learning with Applications
+Subjects:
+Machine Learning (cs.LG)
+Cite as:
+arXiv:2303.06021
+[cs.LG]
+(or
+arXiv:2303.06021v4
+[cs.LG]
+for this version)
+https://doi.org/10.48550/arXiv.2303.06021
+Focus to learn more
+arXiv-issued DOI via DataCite
+Submission history
+From: Conor Walsh [
+view email
+]
+[v1]
+Fri, 10 Mar 2023 16:22:38 UTC (1,497 KB)
+[v2]
+Mon, 13 Mar 2023 20:36:31 UTC (1,501 KB)
+[v3]
+Thu, 29 Jun 2023 21:16:47 UTC (344 KB)
+[v4]
+Thu, 1 Feb 2024 16:45:42 UTC (1,265 KB)
+Full-text links:
+Access Paper:
+View a PDF of the paper titled Machine learning for sports betting: should model selection be based on accuracy or calibration?, by Conor Walsh and 1 other authors
+View PDF
+TeX Source
+view license
+Current browse context:
+cs.LG
+< prev
+|
+next >
+new
+|
+recent
+|
+2023-03
+Change to browse by:
+cs
+References & Citations
+NASA ADS
+Google Scholar
+Semantic Scholar
+export BibTeX citation
+Loading...
+BibTeX formatted citation
+×
+loading...
+Data provided by:
+Bookmark
+Bibliographic Tools
+Bibliographic and Citation Tools
+Bibliographic Explorer Toggle
+Bibliographic Explorer
+(
+What is the Explorer?
+)
+Connected Papers Toggle
+Connected Papers
+(
+What is Connected Papers?
+)
+Litmaps Toggle
+Litmaps
+(
+What is Litmaps?
+)
+scite.ai Toggle
+scite Smart Citations
+(
+What are Smart Citations?
+)
+Code, Data, Media
+Code, Data and Media Associated with this Article
+alphaXiv Toggle
+alphaXiv
+(
+What is alphaXiv?
+)
+Links to Code Toggle
+CatalyzeX Code Finder for Papers
+(
+What is CatalyzeX?
+)
+DagsHub Toggle
+DagsHub
+(
+What is DagsHub?
+)
+GotitPub Toggle
+Gotit.pub
+(
+What is GotitPub?
+)
+Huggingface Toggle
+Hugging Face
+(
+What is Huggingface?
+)
+Links to Code Toggle
+Papers with Code
+(
+What is Papers with Code?
+)
+ScienceCast Toggle
+ScienceCast
+(
+What is ScienceCast?
+)
+Demos
+Demos
+Replicate Toggle
+Replicate
+(
+What is Replicate?
+)
+Spaces Toggle
+Hugging Face Spaces
+(
+What is Spaces?
+)
+Spaces Toggle
+TXYZ.AI
+(
+What is TXYZ.AI?
+)
+Related Papers
+Recommenders and Search Tools
+Link to Influence Flower
+Influence Flower
+(
+What are Influence Flowers?
+)
+Core recommender toggle
+CORE Recommender
+(
+What is CORE?
+)
+IArxiv recommender toggle
+IArxiv Recommender
+(
+What is IArxiv?
+)
+Author
+Venue
+Institution
+Topic
+About arXivLabs
+arXivLabs: experimental projects with community collaborators
+arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.
+Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
+Have an idea for a project that will add value for arXiv's community?
+Learn more about arXivLabs
+.
+Which authors of this paper are endorsers?
+|
+Disable MathJax
+(
+What is MathJax?
+)

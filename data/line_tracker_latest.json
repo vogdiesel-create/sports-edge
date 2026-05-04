@@ -1,0 +1,429 @@
+{
+  "timestamp": "2026-05-04 11:19 UTC",
+  "props_count": 6672,
+  "line_moves": [
+    {
+      "player": "Jalen Brunson",
+      "market": "Threes",
+      "line": 0.0,
+      "old_odds": 2500,
+      "new_odds": -3000,
+      "odds_change": -5500,
+      "implied_change": 0.9293,
+      "direction": "shortened",
+      "game": "Philadelphia 76ers @ New York Knicks",
+      "signal": "STEAM"
+    },
+    {
+      "player": "Paul George",
+      "market": "Threes",
+      "line": 0.0,
+      "old_odds": 3500,
+      "new_odds": -2000,
+      "odds_change": -5500,
+      "implied_change": 0.9246,
+      "direction": "shortened",
+      "game": "Philadelphia 76ers @ New York Knicks",
+      "signal": "STEAM"
+    },
+    {
+      "player": "OG Anunoby",
+      "market": "Threes",
+      "line": 0.0,
+      "old_odds": 3500,
+      "new_odds": -1800,
+      "odds_change": -5300,
+      "implied_change": 0.9196,
+      "direction": "shortened",
+      "game": "Philadelphia 76ers @ New York Knicks",
+      "signal": "STEAM"
+    },
+    {
+      "player": "Tyrese Maxey",
+      "market": "Threes",
+      "line": 0.0,
+      "old_odds": 1500,
+      "new_odds": -4500,
+      "odds_change": -6000,
+      "implied_change": 0.9158,
+      "direction": "shortened",
+      "game": "Philadelphia 76ers @ New York Knicks",
+      "signal": "STEAM"
+    },
+    {
+      "player": "Cade Cunningham",
+      "market": "Points",
+      "line": 0.0,
+      "old_odds": 4000,
+      "new_odds": -1200,
+      "odds_change": -5200,
+      "implied_change": 0.8987,
+      "direction": "shortened",
+      "game": "Cleveland Cavaliers @ Detroit Pistons",
+      "signal": "STEAM"
+    },
+    {
+      "player": "OG Anunoby",
+      "market": "Combos",
+      "line": 0.0,
+      "old_odds": -2500,
+      "new_odds": 750,
+      "odds_change": 3250,
+      "implied_change": -0.8439,
+      "direction": "lengthened",
+      "game": "Philadelphia 76ers @ New York Knicks",
+      "signal": "VALUE_OTHER_SIDE"
+    },
+    {
+      "player": "Austin Reaves",
+      "market": "Points",
+      "line": 0.0,
+      "old_odds": 5000,
+      "new_odds": -520,
+      "odds_change": -5520,
+      "implied_change": 0.8191,
+      "direction": "shortened",
+      "game": "Los Angeles Lakers @ Oklahoma City Thunder",
+      "signal": "STEAM"
+    },
+    {
+      "player": "Josh Hart",
+      "market": "Combos",
+      "line": 0.0,
+      "old_odds": -520,
+      "new_odds": 1800,
+      "odds_change": 2320,
+      "implied_change": -0.7861,
+      "direction": "lengthened",
+      "game": "Philadelphia 76ers @ New York Knicks",
+      "signal": "VALUE_OTHER_SIDE"
+    },
+    {
+      "player": "Paul George",
+      "market": "Combos",
+      "line": 0.0,
+      "old_odds": -520,
+      "new_odds": 1700,
+      "odds_change": 2220,
+      "implied_change": -0.7832,
+      "direction": "lengthened",
+      "game": "Philadelphia 76ers @ New York Knicks",
+      "signal": "VALUE_OTHER_SIDE"
+    },
+    {
+      "player": "Austin Reaves",
+      "market": "Assists",
+      "line": 0.0,
+      "old_odds": -370,
+      "new_odds": 3000,
+      "odds_change": 3370,
+      "implied_change": -0.755,
+      "direction": "lengthened",
+      "game": "Los Angeles Lakers @ Oklahoma City Thunder",
+      "signal": "VALUE_OTHER_SIDE"
+    },
+    {
+      "player": "VJ Edgecombe",
+      "market": "Rebounds",
+      "line": 0.0,
+      "old_odds": -620,
+      "new_odds": 750,
+      "odds_change": 1370,
+      "implied_change": -0.7435,
+      "direction": "lengthened",
+      "game": "Philadelphia 76ers @ New York Knicks",
+      "signal": "VALUE_OTHER_SIDE"
+    },
+    {
+      "player": "Kelly Oubre Jr.",
+      "market": "Rebounds",
+      "line": 0.0,
+      "old_odds": -500,
+      "new_odds": 900,
+      "odds_change": 1400,
+      "implied_change": -0.7333,
+      "direction": "lengthened",
+      "game": "Philadelphia 76ers @ New York Knicks",
+      "signal": "VALUE_OTHER_SIDE"
+    },
+    {
+      "player": "Paul George",
+      "market": "Rebounds",
+      "line": 0.0,
+      "old_odds": -430,
+      "new_odds": 1100,
+      "odds_change": 1530,
+      "implied_change": -0.728,
+      "direction": "lengthened",
+      "game": "Philadelphia 76ers @ New York Knicks",
+      "signal": "VALUE_OTHER_SIDE"
+    },
+    {
+      "player": "OG Anunoby",
+      "market": "Rebounds",
+      "line": 0.0,
+      "old_odds": -1800,
+      "new_odds": 340,
+      "odds_change": 2140,
+      "implied_change": -0.7201,
+      "direction": "lengthened",
+      "game": "Philadelphia 76ers @ New York Knicks",
+      "signal": "VALUE_OTHER_SIDE"
+    },
+    {
+      "player": "VJ Edgecombe",
+      "market": "Combos",
+      "line": 0.0,
+      "old_odds": -280,
+      "new_odds": 3000,
+      "odds_change": 3280,
+      "implied_change": -0.7046,
+      "direction": "lengthened",
+      "game": "Philadelphia 76ers @ New York Knicks",
+      "signal": "VALUE_OTHER_SIDE"
+    },
+    {
+      "player": "Jalen Duren",
+      "market": "Combos",
+      "line": 0.0,
+      "old_odds": 920,
+      "new_odds": -320,
+      "odds_change": -1240,
+      "implied_change": 0.6639,
+      "direction": "shortened",
+      "game": "Cleveland Cavaliers @ Detroit Pistons",
+      "signal": "STEAM"
+    },
+    {
+      "player": "James Harden",
+      "market": "Combos",
+      "line": 0.0,
+      "old_odds": 4000,
+      "new_odds": -220,
+      "odds_change": -4220,
+      "implied_change": 0.6631,
+      "direction": "shortened",
+      "game": "Cleveland Cavaliers @ Detroit Pistons",
+      "signal": "STEAM"
+    },
+    {
+      "player": "Max Strus",
+      "market": "Combos",
+      "line": 0.0,
+      "old_odds": 1400,
+      "new_odds": -265,
+      "odds_change": -1665,
+      "implied_change": 0.6594,
+      "direction": "shortened",
+      "game": "Cleveland Cavaliers @ Detroit Pistons",
+      "signal": "STEAM"
+    },
+    {
+      "player": "Tyrese Maxey",
+      "market": "Combos",
+      "line": 0.0,
+      "old_odds": -1400,
+      "new_odds": 240,
+      "odds_change": 1640,
+      "implied_change": -0.6392,
+      "direction": "lengthened",
+      "game": "Philadelphia 76ers @ New York Knicks",
+      "signal": "VALUE_OTHER_SIDE"
+    },
+    {
+      "player": "Jalen Brunson",
+      "market": "Combos",
+      "line": 0.0,
+      "old_odds": -3000,
+      "new_odds": 200,
+      "odds_change": 3200,
+      "implied_change": -0.6344,
+      "direction": "lengthened",
+      "game": "Philadelphia 76ers @ New York Knicks",
+      "signal": "VALUE_OTHER_SIDE"
+    }
+  ],
+  "correlation_alerts": [
+    {
+      "player": "Victor Wembanyama Over",
+      "game": "Minnesota Timberwolves @ San Antonio Spurs",
+      "individual_sum": 18.0,
+      "combo_line": 39.5,
+      "discrepancy": -21.5,
+      "signal": "UNDER_PR",
+      "details": "PTS=6.5 + REB=11.5 = 18.0 vs P+R=39.5"
+    },
+    {
+      "player": "Victor Wembanyama Under",
+      "game": "Minnesota Timberwolves @ San Antonio Spurs",
+      "individual_sum": 18.0,
+      "combo_line": 39.5,
+      "discrepancy": -21.5,
+      "signal": "UNDER_PR",
+      "details": "PTS=6.5 + REB=11.5 = 18.0 vs P+R=39.5"
+    },
+    {
+      "player": "Victor Wembanyama Over",
+      "game": "Minnesota Timberwolves @ San Antonio Spurs",
+      "individual_sum": 21.5,
+      "combo_line": 42.5,
+      "discrepancy": -21.0,
+      "signal": "UNDER_PRA",
+      "details": "PTS=6.5 + REB=11.5 + AST=3.5 = 21.5 vs PRA=42.5"
+    },
+    {
+      "player": "Victor Wembanyama Under",
+      "game": "Minnesota Timberwolves @ San Antonio Spurs",
+      "individual_sum": 21.5,
+      "combo_line": 42.5,
+      "discrepancy": -21.0,
+      "signal": "UNDER_PRA",
+      "details": "PTS=6.5 + REB=11.5 + AST=3.5 = 21.5 vs PRA=42.5"
+    },
+    {
+      "player": "Joel Embiid Over",
+      "game": "Philadelphia 76ers @ New York Knicks",
+      "individual_sum": 19.5,
+      "combo_line": 40.5,
+      "discrepancy": -21.0,
+      "signal": "UNDER_PRA",
+      "details": "PTS=6.5 + REB=8.5 + AST=4.5 = 19.5 vs PRA=40.5"
+    },
+    {
+      "player": "Joel Embiid Under",
+      "game": "Philadelphia 76ers @ New York Knicks",
+      "individual_sum": 19.5,
+      "combo_line": 40.5,
+      "discrepancy": -21.0,
+      "signal": "UNDER_PRA",
+      "details": "PTS=6.5 + REB=8.5 + AST=4.5 = 19.5 vs PRA=40.5"
+    },
+    {
+      "player": "Victor Wembanyama Over",
+      "game": "Minnesota Timberwolves @ San Antonio Spurs",
+      "individual_sum": 10.0,
+      "combo_line": 30.5,
+      "discrepancy": -20.5,
+      "signal": "UNDER_PA",
+      "details": "PTS=6.5 + AST=3.5 = 10.0 vs P+A=30.5"
+    },
+    {
+      "player": "Victor Wembanyama Under",
+      "game": "Minnesota Timberwolves @ San Antonio Spurs",
+      "individual_sum": 10.0,
+      "combo_line": 30.5,
+      "discrepancy": -20.5,
+      "signal": "UNDER_PA",
+      "details": "PTS=6.5 + AST=3.5 = 10.0 vs P+A=30.5"
+    },
+    {
+      "player": "Joel Embiid Over",
+      "game": "Philadelphia 76ers @ New York Knicks",
+      "individual_sum": 15.0,
+      "combo_line": 35.5,
+      "discrepancy": -20.5,
+      "signal": "UNDER_PR",
+      "details": "PTS=6.5 + REB=8.5 = 15.0 vs P+R=35.5"
+    },
+    {
+      "player": "Joel Embiid Over",
+      "game": "Philadelphia 76ers @ New York Knicks",
+      "individual_sum": 11.0,
+      "combo_line": 31.5,
+      "discrepancy": -20.5,
+      "signal": "UNDER_PA",
+      "details": "PTS=6.5 + AST=4.5 = 11.0 vs P+A=31.5"
+    },
+    {
+      "player": "Joel Embiid Under",
+      "game": "Philadelphia 76ers @ New York Knicks",
+      "individual_sum": 15.0,
+      "combo_line": 35.5,
+      "discrepancy": -20.5,
+      "signal": "UNDER_PR",
+      "details": "PTS=6.5 + REB=8.5 = 15.0 vs P+R=35.5"
+    },
+    {
+      "player": "Joel Embiid Under",
+      "game": "Philadelphia 76ers @ New York Knicks",
+      "individual_sum": 11.0,
+      "combo_line": 31.5,
+      "discrepancy": -20.5,
+      "signal": "UNDER_PA",
+      "details": "PTS=6.5 + AST=4.5 = 11.0 vs P+A=31.5"
+    },
+    {
+      "player": "Jalen Brunson Over",
+      "game": "Philadelphia 76ers @ New York Knicks",
+      "individual_sum": 17.5,
+      "combo_line": 37.5,
+      "discrepancy": -20.0,
+      "signal": "UNDER_PRA",
+      "details": "PTS=8.5 + REB=2.5 + AST=6.5 = 17.5 vs PRA=37.5"
+    },
+    {
+      "player": "Jalen Brunson Under",
+      "game": "Philadelphia 76ers @ New York Knicks",
+      "individual_sum": 17.5,
+      "combo_line": 37.5,
+      "discrepancy": -20.0,
+      "signal": "UNDER_PRA",
+      "details": "PTS=8.5 + REB=2.5 + AST=6.5 = 17.5 vs PRA=37.5"
+    },
+    {
+      "player": "Jalen Brunson Over",
+      "game": "Philadelphia 76ers @ New York Knicks",
+      "individual_sum": 11.0,
+      "combo_line": 30.5,
+      "discrepancy": -19.5,
+      "signal": "UNDER_PR",
+      "details": "PTS=8.5 + REB=2.5 = 11.0 vs P+R=30.5"
+    },
+    {
+      "player": "Jalen Brunson Over",
+      "game": "Philadelphia 76ers @ New York Knicks",
+      "individual_sum": 15.0,
+      "combo_line": 34.5,
+      "discrepancy": -19.5,
+      "signal": "UNDER_PA",
+      "details": "PTS=8.5 + AST=6.5 = 15.0 vs P+A=34.5"
+    },
+    {
+      "player": "Jalen Brunson Under",
+      "game": "Philadelphia 76ers @ New York Knicks",
+      "individual_sum": 11.0,
+      "combo_line": 30.5,
+      "discrepancy": -19.5,
+      "signal": "UNDER_PR",
+      "details": "PTS=8.5 + REB=2.5 = 11.0 vs P+R=30.5"
+    },
+    {
+      "player": "Jalen Brunson Under",
+      "game": "Philadelphia 76ers @ New York Knicks",
+      "individual_sum": 15.0,
+      "combo_line": 34.5,
+      "discrepancy": -19.5,
+      "signal": "UNDER_PA",
+      "details": "PTS=8.5 + AST=6.5 = 15.0 vs P+A=34.5"
+    },
+    {
+      "player": "Tyrese Maxey Over",
+      "game": "Philadelphia 76ers @ New York Knicks",
+      "individual_sum": 11.0,
+      "combo_line": 29.5,
+      "discrepancy": -18.5,
+      "signal": "UNDER_PR",
+      "details": "PTS=7.5 + REB=3.5 = 11.0 vs P+R=29.5"
+    },
+    {
+      "player": "Tyrese Maxey Under",
+      "game": "Philadelphia 76ers @ New York Knicks",
+      "individual_sum": 11.0,
+      "combo_line": 29.5,
+      "discrepancy": -18.5,
+      "signal": "UNDER_PR",
+      "details": "PTS=7.5 + REB=3.5 = 11.0 vs P+R=29.5"
+    }
+  ],
+  "vig_outliers": []
+}

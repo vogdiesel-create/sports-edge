@@ -1,0 +1,25 @@
+=== Sports Edge Analyst Session: postmortem ===
+=== 2026-04-28 05:00 UTC ===
+
+Post-game review complete. Here's the summary:
+
+**Apr 27 Results: 8W-5L, +$138.92**
+
+| Model | Day | Cumulative | PnL |
+|-------|-----|------------|-----|
+| K-Props | 5W-2L (+$167) | 43W-27L | **$1,078** |
+| OT Sim | 3W-3L (-$29) | 66W-57L | $234 |
+| Game Model | -- | 26W-25L-1P | $109 |
+| **Combined** | **8W-5L** | **135W-109L** | **$1,422** |
+
+**Milestone: K-Props now statistically significant** (p~0.04, 61.4% WR on 70 bets).
+
+**Two extreme misses to investigate:**
+- Ranger Suarez: expected 3.18 Ks, actual 10 (-$95). Biggest model miss ever.
+- Parker Messick: expected 3.61 Ks, actual 9 (-$95).
+
+**245/300 bets graded (81.7%).** 55 more to the formal significance report.
+
+**Morning priorities:** Fix VGK @ UTA grading bug, investigate Suarez for blacklist, generate Apr 28 picks.
+
+=== Session Complete: 2026-04-28 05:05 UTC ===

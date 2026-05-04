@@ -1,0 +1,57 @@
+{
+  "date": "2026-04-17",
+  "game_model": {
+    "bets": 6,
+    "wins": 1,
+    "losses": 4,
+    "pushes": 1,
+    "pnl": -335.61,
+    "details": [
+      {"game": "TOR @ ARI", "market": "total under", "side": "UNDER", "line": 9.0, "result": "push", "pnl": 0.00},
+      {"game": "BAL @ CLE", "market": "total under", "side": "UNDER", "line": 8.0, "result": "win", "pnl": 97.55},
+      {"game": "TB @ PIT", "market": "moneyline away", "side": "AWAY", "result": "loss", "pnl": -83.52},
+      {"game": "MIL @ MIA", "market": "total under", "side": "UNDER", "line": 8.5, "result": "loss", "pnl": -94.62},
+      {"game": "BAL @ CLE", "market": "moneyline away", "side": "AWAY", "result": "loss", "pnl": -122.81},
+      {"game": "MIL @ MIA", "market": "total under", "side": "UNDER", "line": 8.0, "result": "loss", "pnl": -132.21}
+    ],
+    "by_market": {
+      "totals": {"record": "1W-2L-1P", "pnl": -129.28},
+      "moneyline": {"record": "0W-2L", "pnl": -206.33}
+    }
+  },
+  "k_props": {
+    "bets": 9,
+    "wins": 7,
+    "losses": 2,
+    "pnl": 221.19,
+    "details": [
+      {"pitcher": "Joe Ryan", "pick": "Under 6.5", "actual_ks": 6, "result": "win", "pnl": 117.13},
+      {"pitcher": "Edward Cabrera", "pick": "Under 5.5", "actual_ks": 4, "result": "win", "pnl": 90.83},
+      {"pitcher": "Logan Gilbert", "pick": "Under 7.5", "actual_ks": 7, "result": "win", "pnl": 77.43},
+      {"pitcher": "Brandon Williamson", "pick": "7+ Ks", "actual_ks": 2, "result": "loss", "pnl": -94.46},
+      {"pitcher": "Eric Lauer", "pick": "6+ Ks", "actual_ks": 4, "result": "loss", "pnl": -94.46},
+      {"pitcher": "Tomoyuki Sugano", "pick": "3+ Ks", "actual_ks": 3, "result": "win", "pnl": 34.99},
+      {"pitcher": "Davis Martin", "pick": "4+ Ks", "actual_ks": 4, "result": "win", "pnl": 37.78},
+      {"pitcher": "Aaron Civale", "pick": "4+ Ks", "actual_ks": 4, "result": "win", "pnl": 38.56},
+      {"pitcher": "Zack Littell", "pick": "3+ Ks", "actual_ks": 4, "result": "win", "pnl": 13.39}
+    ]
+  },
+  "combined": {
+    "bets": 15,
+    "wins": 8,
+    "losses": 6,
+    "pushes": 1,
+    "pnl": -114.42
+  },
+  "cumulative": {
+    "game_model": {"record": "17W-16L-1P", "pnl": 98.74, "bankroll": 5098.74},
+    "k_props": {"record": "13W-5L", "pnl": 369.74, "bankroll": 3369.74},
+    "combined_pnl": 468.48
+  },
+  "flags": [
+    "MONEYLINE_AWAY_0_FOR_4: -$452.41 total, dragging entire game model down",
+    "K-PROPS_HOT: 13-5, +$369.74, 72% win rate",
+    "GAME_MODEL_TOTALS_PROFITABLE: 15W-12L, +$338.71 without moneylines",
+    "AVG_CLV_NEGATIVE: -0.35% average CLV is concerning"
+  ]
+}

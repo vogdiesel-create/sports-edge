@@ -1,0 +1,143 @@
+Better Match-Up Data: Forecasting Strikeout Rate | FanGraphs Baseball
+<
+! -- END HEAD -->
+<! -- END HEADER -->
+Better Match-Up Data: Forecasting Strikeout Rate
+by
+Steve Staude
+June 12, 2013
+“Riddle me this,” wrote editor Dave Cameron to me some time ago, “what happens when an unstoppable force meets an immovable object?”  OK, that’s not exactly how it went down.  What he actually did was to present me with the challenge of research, with the goal being to develop a model that would forecast the expected odds of an outcome of each match-up between a specific batter and a specific pitcher.  Rather than talking about how players have done in small samples, can we use our understanding of player skillsets to develop an expected outcome matrix for each at-bat?
+For example, such a tool might tell you that
+Adam Dunn
+has a 40% chance of striking out against
+Stephen Strasburg
+, a 10% chance of drawing a walk, a 5% chance of hitting a ground ball, etc… Forget I said those particular numbers — I completely made them up in my head just now.  You may be thinking “well, why should I care about that?  Rather than just being inundated with match-up data that is little more than
+randomness
+, such a tool might give you some idea of how much of a gain in expected strikeout rate a team would get by switching relief pitchers with a man on third base and less than two out.  Or what the probability of getting a ground ball is in a double play situation, which might influence the decision of whether or not to bunt.  Knowing the odds of potential outcomes could be quite beneficial in understanding the risks and rewards of various in-game decisions.
+This project has been — and will continue to be — a major undertaking, as you can imagine.  This isn’t the kind of thing that can just be thrown together, but I really think the results could be great.  Today, I’ll be sharing with you the findings of my research into perhaps the most important aspect of these matchups — K%, or strikeouts per plate appearance.  This will introduce the sort of process that will be involved in figuring out all of the other elements of the matchup tool.
+Now, I think it’s common sense that when you match up a batter who strikes out a lot against a pitcher who whiffs a lot of batters, the batter will probably strike out at a very high rate.  Conversely, a batter who rarely strikes out will likely strike out even less against a “pitch to contact” hurler.  But what happens when a high-K batter faces an equally low-K pitcher?  The unstoppably-swinging bat against the barely-moving pitch, you might say.  Is the resulting K% average, above average, or below average?  Does the batter or the pitcher exert more influence on the results?  And can the results even be predicted?  There’s only one way to be sure — look at a ton of data.
+And a ton of data I did look at — over 1.5 million plate appearances, all told.  Alright, my computer did most of the looking for me, to give credit where it’s due.   The data set was play-by-play data from 2002 through 2012.  Originally, there were close to 2 million PAs, but many were thrown out because they involved a non-qualifying pitcher or batter.
+What made a player “qualify” for consideration here?  Well, first of all, the analysis does take into account the handedness of both the batter and pitcher in each PA.  If a particular PA involved a left-handed batter (LHB) against a right-handed pitcher (RHP), then what I did was to analyze the results of the PA through the lenses of the batter’s historical K% against RHP and the pitcher’s historical K% against LHB.  By “historical,” I mean their average over the entirety of 2002-2012.
+You Aren't a FanGraphs Member
+It looks like you aren't yet a FanGraphs Member (or aren't logged in). We aren't mad, just disappointed.
+We get it. You want to read this article. But before we let you get back to it, we'd like to point out a few of the good reasons why you should become a Member.
+1. Ad Free viewing! We won't bug you with this ad, or any other.
+2. Unlimited articles! Non-Members only get to read 10 free articles a month. Members never get cut off.
+3. Dark mode and Classic mode!
+4. Custom player page dashboards! Choose the player cards you want, in the order you want them.
+5. One-click data exports! Export our projections and leaderboards for your personal projects.
+6. Remove the photos on the home page! (Honestly, this doesn't sound so great to us, but some people wanted it, and we like to give our Members what they want.)
+7. Even more Steamer projections! We have handedness, percentile, and context neutral projections available for Members only.
+8. Get FanGraphs Walk-Off, a customized year end review! Find out exactly how you used FanGraphs this year, and how that compares to other Members. Don't be a victim of FOMO.
+9. A weekly mailbag column, exclusively for Members.
+10. Help support FanGraphs and our entire staff! Our Members provide us with critical resources to improve the site and deliver new features!
+We hope you'll consider a Membership today, for yourself or as a gift! And we realize this has been an awfully long sales pitch, so we've also removed all the other ads in this article. We didn't want to overdo it.
+Click Here To Become a Member
+Now, I’ll understand if some of you take issue with that, because players don’t necessarily stay the same player for [up to] 11 seasons, but hopefully you’ll understand what I mean when I say that a big part of why I did that was to keep things from getting too incestuous.  There’s some circularity going on here, when you think about it, as the PA makes up part of the history I’m drawing from; better to make that PA a very small part of the history, I say.
+Anyway, to qualify for consideration, a pitcher needed at least 600 PA against the handedness of the batter in question, and a batter needed at least 300 PA against the handedness of pitcher in question.  Admittedly, they’re mainly arbitrary cutoffs, but the reasoning behind them has to do
+with
+stability
+, as well as the
+rarity of LHP relative to LHB
+(especially when you include switch-hitters).
+Since looking at every possible combination of K% down to two decimal places (e.g. 7.64% K batters vs. 21.39% K pitchers) would make things very unwieldy, what I did was to round every player’s historical numbers off to the nearest percent.  I then looked at all the different pitcher-batter combinations in range, now that they were manageable.  I found, for example, 9,536 plate appearances that involved a batter with around a 15% K rate and a pitcher with an approximate 13% K rate.  Out of these PAs, 998 of them resulted in a K, which means
+the observed K% for a 15% vs. 13% matchup was about 10.5%
+.
+“But wait,” you might be thinking, “why would the resulting K% be lower than either of the individual rates?”  Well, for one thing, the league average K% over the period was 17.5%.  That means that the batters in this scenario have established their 15% K rates against pitchers who are, on average, better at striking batters out than these 13% K pitchers.  It also means that these 13% K pitchers are used to seeing batters who are a little bit easier to strike out.  The net result is that this group of pitchers has a harder time, while the hitters have an easier time than usual, hence the particularly low resulting K% for this matchup.
+Here’s a chart to give you an idea of how well-represented the different K% levels were in the sample:
+As you can see, it’s not quite a bell curve (a.k.a. normal distribution), but is skewed a bit, such that there are more PAs to the right of the peaks than to the left (“positive skew”).  That’s to be expected, seeing as how 0% is as low as you can possibly go.
+Results
+Now, here’s a little sample of some of the K% rates I found for the different matchups:
+Pitcher’s K%
+10%
+15%
+20%
+25%
+Batter’s K%
+10%
+5.3%
+7.8%
+12.0%
+14.6%
+15%
+8.1%
+11.4%
+16.0%
+20.8%
+20%
+11.8%
+15.6%
+20.6%
+26.9%
+25%
+13.6%
+21.0%
+24.6%
+34.9%
+That 25-25 matchup result is a bit of an outlier, by the way (31% would be more in-line with what surrounds it).  It’s based on only 759 PAs, compared with 10,704 PAs for the 15-15 matchup, for example, though.  There just are fewer batters and pitchers who strike out or get struck out 25% of the time.  The results towards the extremes are therefore going to be less reliable.  That’s why for the next chart, I only considered matchups with at least 1200 PAs to represent them.  309 matchup types made that cut, by the way.
+So, it might take you a few seconds to understand what you’re seeing in this chart, if you’ve never seen one of these before.  Just imagine you’re seeing a 3D object, with the “8%” you see at the very bottom being at the nearest corner to you of the “box” that contains the shape.  The height represents the observed K% for each matchup, and the different color slices each representing a 5% interval of the observed K%.  The graph treats non-existent data points as having zero height, so don’t make anything of the blue “floor” there other than that there weren’t enough plate appearances for those types of matchups to make the cut here.  Here you go:
+It’s not perfectly smooth, probably mainly due to random variation, but there’s a pretty clear trend here.  It’s forming basically a flat surface on top.  Hopefully this isn’t too confusing, but if you were to tilt the box that contains this shape so that this side edge was pointing straight at you, it would look like this:
+So, that’s looking at it so that the Batter’s K% axis and Pitcher’s K% axis are both angled 45 degrees from facing directly towards you, which mean you’re seeing a balanced view of the two of them.  And what do we see?  It’s pretty danged close to a straight line that the top surface is making here.  It bulges out a bit towards the top (in the high K% areas), but that’s to be expected due to the relatively fewer PAs being represented there.  The peaks are higher, but the valleys are lower in the high K% areas due to more randomness, is what I’m saying.
+Just for fun, here’s what happens to the chart before the last one when the PA requirement for inclusion for a point is lowered to 100 PA (there are now 634 unique matchup combinations represented here):
+It looks more random, as expected, but I’d say the pattern still holds up very well.
+What Does this All Mean?
+To me, the findings suggest that there is a very strong trend at work here, and probably a good amount of predictability, at least in the overall sense.  When it comes to particular players, sure, there might be some batters with a particular weakness against a filthy curve, or a blazing fastball.  Making those sorts of adjustments might come in a later incarnation of the matchup tool, but for now, I think this gives us a pretty solid baseline to work off of.
+As for whether the pitcher or batter exerts more influence on the outcome, I’d have to say, in the overall sense, it’s pretty much a tie.  Maybe eyeballing a graph of the data isn’t enough proof of that for you.  Well, if you know my work, you had to know I’d give you a regression formula or two.  As it turns out, there’s a very simple formula I derived that explains a remarkable amount of what we see here in the data (besides the randomness, of course), and it will help to prove that point:
+Expected Matchup K% = B x P / (0.84 x B x P + 0.16)
+Where
+B
+= the batter’s historical K% against the handedness of the pitcher; and
+P
+= the pitcher’s historical K% against the handedness of the batter
+As you can see, the batter and pitcher contribute equally to the outcome in this formula.
+In the next installment, I’ll show you that the formula (and a slightly more fine-tuned variation of it) does a pretty good job of explaining the trends in the data.  One of these formulas (or something like them) will probably be the basis of the K% aspect of the matchup tool.  I’ll also provide you with a better look at the data, for those interested, as well as an expected matchup K% calculator.  We’ll even see how well we can predict the results of 2013 matchups based on past data.
+The Fringe Five: Baseball’s Most Compelling Fringe Prospects
+FanGraphs Chat – 6/12/13
+Steve is a robot created for the purpose of writing about baseball statistics.  One day, he may become self-aware, and...attempt to make money or something?
+46
+Comments
+Oldest
+Newest
+Most Voted
+Inline Feedbacks
+View all comments
+Neil
+12 years ago
+I’ve often thought about matchups this way (type of hitter vs type of pitcher), so I’m happy to see someone taking this project on. My one complaint is that I would have liked to see the ratios built from 2002-2011 and tested on 2012. I know you plan to do it with 2013, but it’s a little better practice to show something like this working when you present it.
+That’s probably the academic in me talking, but I love where this is going.
+3
+Steve Staude
+12 years ago
+Reply to
+Neil
+Thanks everybody!
+Neil — yeah, I’m also wishing I’d done that, but the 2013 results look good regardless.  And you’ll probably be seeing those in a day or two.
+2
+Load Rest of Comments
+Insert
+You are going to send email to
+Send
+Move Comment
+Move
+Updated: Monday, April 13, 2026 11:35 PM ET
+Updated: 4/13/2026 11:35 PM ET
+@fangraphs
+-
+Contact Us
+-
+Advertise
+-
+Terms of Service
+-
+Privacy Policy
+All major league baseball data including pitch type, velocity, batted ball location,
+        and play-by-play data provided by Sports Info Solutions.
+Major League and Minor League Baseball data provided by Major League Baseball.
+Mitchel Lichtman
+All UZR (ultimate zone rating) calculations are provided courtesy of Mitchel Lichtman.
+TangoTiger.com
+All Win Expectancy, Leverage Index, Run Expectancy, and Fans Scouting Report data licenced from TangoTiger.com
+Retrosheet.org
+Play-by-play data prior to 2002 was obtained free of charge from and is copyrighted
+        by Retrosheet.
+<! -- END FOOTER -->

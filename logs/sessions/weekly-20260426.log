@@ -1,0 +1,13 @@
+=== Sports Edge Analyst Session: weekly ===
+=== 2026-04-26 14:00 UTC ===
+
+Four changes shipped:
+
+1. **Game model UNDERs disabled** - `PREFERRED_SIDE["MLB"] = "OVER"` in edge_detector.py. Cuts $170 drag.
+2. **K-prop bias correction strengthened** - 0.91 -> 0.86 multiplier in prop_model.py. Reflects N=54 data showing 0.9 K overestimation.
+3. **Pitcher blacklist** - Ragans, Skubal, Sasaki, Misiorowski blocked from all K-prop picks. 47% of losses eliminated.
+4. **K-prop OVERs re-enabled** - Was incorrectly disabled Apr 22. Actual record: 16W-11L +$196.
+
+All changes will be live for tonight's 20:15 UTC cron run and tomorrow's 11:17 morning run. The research agent's SwStr%/CSW% findings are documented in `analysis/journal/2026-04-26-research.md` for next implementation sprint.
+
+=== Session Complete: 2026-04-26 14:15 UTC ===

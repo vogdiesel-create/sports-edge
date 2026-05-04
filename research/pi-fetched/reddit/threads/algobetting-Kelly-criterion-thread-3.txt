@@ -1,0 +1,72 @@
+# Yesterdays Performance
+
+[Relevant_Horse2066 | 12 pts | 16 comments]
+
+The model I built hit 61% of player props, for the betting site I use the odds are equally 1.85 1.85 with ocasional 1.95 1.7. The model predicts amount of points a player will have and then if it is over or under I assing it over/under and place bets accordinlgy distributed evenly. With a 100$ bankroll I placed around 4.3$ on every prop and got 12$ in profit. I want to increase the profit, if lets say my model predicted a player to score 40 points and his threshold is 23 points would that be a signal of how "confident" the model is? Also I heard about the Kelly Criterion but am unsure how to apply it to this scenerio since the odds are similar, any tips?
+
+---
+## Comments
+
+[[deleted] | 8 pts]
+I'm in a hurry, so I'll make sure to be concise.
+
+Firstly, ensure to correctly backtest your model before drawing any conclusions from a small sample size. I would advise running a backtest along with a Student's t-test to properly evaluate your model's performance.
+
+Accuracy isn't the best metric for your purpose; in your case, Log Loss is more suitable as it takes into account the probability estimates of your predictions. Most importantly, if you aim to make money, you need to accurately know how to calibrate your model.
+
+Look into Platt Scaling and Isotonic Regression for methods to adjust your model's predictions to better reflect the true outcome probabilities(or something like that). Regarding the Kelly Criterion, it's essential to understand that while the odds might be similar across bets, the certainty (or confidence) of your model in its predictions isn't uniform. The Kelly Criterion can help you determine the optimal amount of your bankroll to wager based on your model's confidence level and the odds offered. Remember, the Kelly Criterion aims to maximize bankroll growth while minimizing the risk of ruin, but it requires accurate probability estimates. Therefore, calibrating your model is crucial for the successful application of this strategy.
+
+Saving for elaborating later: roi, fractional kelly betting is king, sharpe ratio, brier score?, cross-validation or correctly using train-test split (temporal?), correctly evaluating risk and profitability, confidence interval, line shopping (like the user below mentioned).
+
+
+edit: formatting and inb4 someone says: "Student's t-test isn't the best test for this occasion" fuck you
+
+  [Relevant_Horse2066 | 1 pts]
+  Thanks for the detailed response! So I built two models a regression one and a classification one, for classification I use logloss and have output of probabilities however the issue is that I don't have historical thresholds so I took the season average per player and it has good results (https://www.reddit.com/u/Relevant_Horse2066/s/2W9orOZfsb) but the thresholds are sometimes different on betting sites and I don't know how to fix this issue so I built a regression model It has a MAE of 4.3 and I use a combination of both to place bets when the thresholds align and when regression threshold delta is larger I take it as a good signal. I have been using t-test to determine statistical significance of the live tests I ran and it is not statistically significant yet :/I use accuracy to measure because the odds are usually the same so it's easy to calculate profit (and the sets are naturally balanced since it's theoretical 0.5 chance of both outcomes). I will look into things you mentioned that I am unfamiliar with, thanks a lot!
+
+    [This_Yam_1285 | 1 pts]
+    i know there are a couple sites with API’s which have historical betting odds, but they all require a subscription to access
+
+otherwise, you could scrape odds and save them on a daily basis (emphasis on saving them). this way, as you continue to build your model, you would also be building out a dataset of historical odds which could be used for evaluating performance
+
+      [Relevant_Horse2066 | 1 pts]
+      Yeah I saw one, and honestly I would pay but it only had for 2019 2020 2021, the average per season threshold is honestly very close. Also different betting places have different thresholds and some even have high/low points so I think I want regression model to be accurate and classification to be a sanity check. I save the model performance for each day which has odds as well as the actual results
+
+[PurplePango | 4 pts]
+Good stuff, keep us updated!
+
+  [Relevant_Horse2066 | 2 pts]
+  Hey, thank you for the comment. Will do!
+
+  [[deleted] | 1 pts]
+  [deleted]
+
+    [PurplePango | 2 pts]
+    For what it’s worth I’ve found just fixed betting to work better for me than Kelly
+
+      [Relevant_Horse2066 | 1 pts]
+      Yeah when I think about it it makes more sense to do foxed betting for this use case, it's just annoying to fill every game seperatly.. i am thinking about doing a reinforcement learning model and have it decide the bets
+
+[DevHeav | 2 pts]
+Any chance you want to share some insight to where and how you collected the point threshold or point line for the player? I’ve got a model for games and winner just want to replicate for points and other props.
+
+  [Relevant_Horse2066 | 1 pts]
+  Yeah sure, I scrapped a local betting site using BS4 and Selenium (to accept cookies on page launch). I couldn't figure out how to scrape bigger sites like Bet365 since they use cloudfare(i might be butchering the name) to prevent scraping. To train the classification model I used the average points for the season per player with the first 10 games cut off, this gives a relatively close threshold +-1 point but sometimes it's a 3-4 point different and makes the classification model not very useful. So I just built a regression model as well which gives a number of points as an output so it's robust to multiple betting sites and their odds
+
+    [DevHeav | 2 pts]
+    Do you have a set list of people you look towards or only based off of how far from the threshold the player is? Also do you consider any external factors, you don’t have to name them, other than just points? Let’s say matchups injuries or game totals etc. I’m also looking at adding in all stats but that could be a cluster so starting with only points would be a good baseline imo. I have a pretty advanced model with a neural network for game outcomes but don’t know if it will translate to player props so looking at other approaches
+
+      [Relevant_Horse2066 | 1 pts]
+      No, I predict for every player for that match and then merge it with the scraped data from the betting site and remove NaN. Basicailly I take only the player the betting site has props for that night. My model has 100+ features but I am still trying to remove useless ones. I use a model that only has points features as a baseline so I would recommend that, I think it has a MAE od 4.7 for regression so anything under is good. I try to do tests with LGBM since it's fast and you can easily see the feature importance but will definetly train a neural net as well once I have a set of features I like. My way of thinking for player vs team props is that team props have higher variance and are correlated with player performance and also lower training size (since you have like 8 players on each team scoring points) thats 16x larger training and test size. I didn't want to do outcomes because I think it's mostly built into the odds. For example building a model that predicts 90% of 1.01 odds is kinda useless, I didn't spend any time on teams due to these reasons so I could be wrong about it
+
+        [DevHeav | 1 pts]
+        I like your outlook and I agree with the last statement you made, I only try and look at games where there isn’t a significant favorite and see if my model gives an edge, also try an lower the variance by fine tuning my network, which hasn’t been too bad. I like your approach to the player props too I might do something similar starting with just regression and I saw some of your other comments and insight too. Working a neural net will be tricky but could be beneficial, getting the data for teams took a while and I’d imagine each player will be worse, do you just scrape the data for season averages or do you do it by a per game basis? If I were to do it, I feel like per game would be more work but could potentially show a player playing better or streaking or some other feature that could help give an edge. But yeah any advice on gathering the data?
+
+        [Relevant_Horse2066 | 1 pts]
+        Oh yeah scrapping was a bitch, there are some stats that are cumulative do I had to go date by date for each player and it took about a day per season. Look into the nba-api for the data. Yeah that's why I want to try NN only when I'm certain I maxed out other approaches. Good luck!
+
+[[deleted] | 1 pts]
+what program are you using for this? i have been doing a similar process in R for soccer pass betting
+
+  [Relevant_Horse2066 | 1 pts]
+  I used python for everything

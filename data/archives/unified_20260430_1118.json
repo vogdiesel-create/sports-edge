@@ -1,0 +1,247 @@
+{
+  "timestamp": "2026-04-30T11:18:55.540143+00:00",
+  "version": "2.0",
+  "picks": [
+    {
+      "source": "game_line_v2",
+      "sport": "NHL",
+      "game": "Edmonton Oilers @ Anaheim Ducks",
+      "bet": "total under 6.5 @ unibet",
+      "odds": "+120",
+      "edge": "5.6%",
+      "ev": "12.4%",
+      "kelly": "2.6%",
+      "confidence": "HIGH",
+      "tier": "A"
+    },
+    {
+      "source": "game_line_v2",
+      "sport": "MLB",
+      "game": "Houston Astros @ Baltimore Orioles",
+      "bet": "total over 9.5 @ unibet",
+      "odds": "+110",
+      "edge": "3.8%",
+      "ev": "8.0%",
+      "kelly": "1.8%",
+      "confidence": "HIGH",
+      "tier": "A"
+    },
+    {
+      "source": "oddstrader_ev",
+      "sport": "MLB",
+      "game": "HOU @ BAL",
+      "player": "Peter Lambert",
+      "bet": "Total Strikeouts -110",
+      "ev": "+28.3%",
+      "edge": "+28.3%",
+      "fair_prob": "81%",
+      "kelly": "3.00%",
+      "confidence": "HIGH",
+      "tier": "A"
+    },
+    {
+      "source": "oddstrader_ev",
+      "sport": "MLB",
+      "game": "HOU @ BAL",
+      "player": "Dustin Harris",
+      "bet": "Total Bases -200",
+      "ev": "+25.1%",
+      "edge": "+25.1%",
+      "fair_prob": "92%",
+      "kelly": "3.00%",
+      "confidence": "HIGH",
+      "tier": "A"
+    },
+    {
+      "source": "oddstrader_ev",
+      "sport": "MLB",
+      "game": "KC @ ATH",
+      "player": "Salvador Perez",
+      "bet": "Total Bases -130",
+      "ev": "+24.0%",
+      "edge": "+24.0%",
+      "fair_prob": "81%",
+      "kelly": "3.00%",
+      "confidence": "HIGH",
+      "tier": "A"
+    },
+    {
+      "source": "oddstrader_ev",
+      "sport": "MLB",
+      "game": "SF @ PHI",
+      "player": "Brandon Marsh",
+      "bet": "Total Bases -210",
+      "ev": "+21.4%",
+      "edge": "+21.4%",
+      "fair_prob": "89%",
+      "kelly": "3.00%",
+      "confidence": "HIGH",
+      "tier": "A"
+    },
+    {
+      "source": "oddstrader_ev",
+      "sport": "MLB",
+      "game": "SF @ PHI",
+      "player": "Brandon Marsh",
+      "bet": "Total Bases -210",
+      "ev": "+21.4%",
+      "edge": "+21.4%",
+      "fair_prob": "89%",
+      "kelly": "3.00%",
+      "confidence": "HIGH",
+      "tier": "A"
+    },
+    {
+      "source": "oddstrader_ev",
+      "sport": "MLB",
+      "game": "WSH @ NYM",
+      "player": "Francisco Alvarez",
+      "bet": "Total Bases -150",
+      "ev": "+17.3%",
+      "edge": "+17.3%",
+      "fair_prob": "77%",
+      "kelly": "3.00%",
+      "confidence": "HIGH",
+      "tier": "A"
+    },
+    {
+      "source": "oddstrader_ev",
+      "sport": "MLB",
+      "game": "STL @ PIT",
+      "player": "Marcell Ozuna",
+      "bet": "Total Bases -180",
+      "ev": "+16.9%",
+      "edge": "+16.9%",
+      "fair_prob": "81%",
+      "kelly": "3.00%",
+      "confidence": "HIGH",
+      "tier": "A"
+    },
+    {
+      "source": "oddstrader_ev",
+      "sport": "MLB",
+      "game": "KC @ ATH",
+      "player": "Colby Thomas",
+      "bet": "Total Bases -180",
+      "ev": "+15.9%",
+      "edge": "+15.9%",
+      "fair_prob": "80%",
+      "kelly": "3.00%",
+      "confidence": "HIGH",
+      "tier": "A"
+    },
+    {
+      "source": "oddstrader_ev",
+      "sport": "MLB",
+      "game": "WSH @ NYM",
+      "player": "Brett Baty",
+      "bet": "Total Bases -190",
+      "ev": "+15.4%",
+      "edge": "+15.4%",
+      "fair_prob": "81%",
+      "kelly": "3.00%",
+      "confidence": "HIGH",
+      "tier": "A"
+    },
+    {
+      "source": "oddstrader_ev",
+      "sport": "MLB",
+      "game": "COL @ CIN",
+      "player": "Matt McLain",
+      "bet": "Total Bases -180",
+      "ev": "+13.6%",
+      "edge": "+13.6%",
+      "fair_prob": "78%",
+      "kelly": "3.00%",
+      "confidence": "HIGH",
+      "tier": "B"
+    },
+    {
+      "source": "fd_correlation",
+      "sport": "NBA",
+      "game": "Boston Celtics @ Philadelphia 76ers",
+      "player": "Joel Embiid Over",
+      "bet": "UNDER_PRA 41.5",
+      "edge": "21.0 pts discrepancy",
+      "confidence": "HIGH"
+    },
+    {
+      "source": "fd_correlation",
+      "sport": "NBA",
+      "game": "Boston Celtics @ Philadelphia 76ers",
+      "player": "Joel Embiid Under",
+      "bet": "UNDER_PRA 41.5",
+      "edge": "21.0 pts discrepancy",
+      "confidence": "HIGH"
+    },
+    {
+      "source": "fd_correlation",
+      "sport": "NBA",
+      "game": "Boston Celtics @ Philadelphia 76ers",
+      "player": "Joel Embiid Over",
+      "bet": "UNDER_PR 36.5",
+      "edge": "20.5 pts discrepancy",
+      "confidence": "HIGH"
+    }
+  ],
+  "game_lines": {
+    "raw": 9,
+    "filtered": 2,
+    "rejected": {
+      "edge_too_high_stale": 5,
+      "edge_too_low": 2
+    },
+    "opportunities": 2,
+    "top_picks": [
+      {
+        "sport": "NHL",
+        "game": "Edmonton Oilers @ Anaheim Ducks",
+        "market": "total",
+        "side": "under",
+        "book": "unibet",
+        "odds": 120,
+        "line": 6.5,
+        "fair_prob": 0.5108,
+        "implied_prob": 0.4545,
+        "edge": 0.0563,
+        "ev": 0.1238,
+        "pinnacle_odds": -115,
+        "kelly_pct": 2.58,
+        "tier": "A",
+        "confidence": "HIGH"
+      },
+      {
+        "sport": "MLB",
+        "game": "Houston Astros @ Baltimore Orioles",
+        "market": "total",
+        "side": "over",
+        "book": "unibet",
+        "odds": 110,
+        "line": 9.5,
+        "fair_prob": 0.5144,
+        "implied_prob": 0.4762,
+        "edge": 0.0382,
+        "ev": 0.0802,
+        "pinnacle_odds": -115,
+        "kelly_pct": 1.82,
+        "tier": "A",
+        "confidence": "HIGH"
+      }
+    ]
+  },
+  "player_props": {
+    "props_count": 8181,
+    "line_moves": 20,
+    "correlation_alerts": 20
+  },
+  "backtest": {
+    "bets": 12,
+    "win_rate": 50.0,
+    "pnl": 101.19,
+    "roi": 43.8
+  },
+  "oddstrader_props": {
+    "total_scraped": 133,
+    "actionable": 12
+  }
+}

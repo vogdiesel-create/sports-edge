@@ -1,0 +1,6 @@
+MLB Backtest vs Real Pinnacle Closing Lines
+Run: 2026-04-16 12:32:52
+Games: 4114 | Bets (10%+): 1673
+Record: 831W-764L-78P (52.1%)
+ROI: +1.14% | Profit: $1,815.50
+Avg CLV: +17.26%

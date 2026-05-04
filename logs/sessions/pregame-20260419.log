@@ -1,0 +1,28 @@
+=== Sports Edge Analyst Session: pregame ===
+=== 2026-04-19 18:00 UTC ===
+
+Pre-game review complete. Here's the summary:
+
+**Tonight's slate: 9 bets, $905 total exposure**
+
+**Game Model (4 bets, $430):**
+- CIN@MIN U8.0 -- **HIGH confidence**, A-tier, 10.8% edge, weather-assisted
+- TOR@ARI U9.0 -- MEDIUM, B-tier, level 1 cross-book confirmation
+- MIL@MIA U7.5 -- MEDIUM, B-tier, juiced at -116
+- LAD@COL U10.5 -- LOW, B-tier, Coors UNDER is always scary
+
+**K-Props (5 bets, $475):**
+- Ragans U6.5 Ks -- **HIGH confidence**, aligns with our dominant UNDER category (6W-2L, 75% WR)
+- Sasaki O4.5 / 8+ Ks -- DOUBLE EXPOSED, $190 correlated risk
+- Weathers 6+ / 7+ Ks -- DOUBLE EXPOSED, $190 correlated risk
+
+**Key concerns:**
+1. Double exposure on Sasaki and Weathers ($380 correlated) - fix is in code but these were pre-fix
+2. 4 of 5 K-prop bets are OVER, which is our bleeding category (11W-8L, -$164)
+3. Max loss scenario (-$905) would wipe out all cumulative profit and then some
+
+**Watchpoints:** Sasaki's pitch count at Coors, CIN@MIN weather hold, Weathers swing-and-miss rate early.
+
+Written to `analysis/journal/2026-04-19-pregame.md`.
+
+=== Session Complete: 2026-04-19 18:02 UTC ===

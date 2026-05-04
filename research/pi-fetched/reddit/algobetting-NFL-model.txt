@@ -1,0 +1,56 @@
+# r/algobetting search: NFL model
+# Query: NFL+model+OR+football
+# Results: 5
+
+## [113 pts, 95 comments] I made a profit of 30000 € algobetting in 2022 - FAQ and AMA
+Author: Hurthaba | URL: /r/algobetting/comments/10dqn0y/i_made_a_profit_of_30000_algobetting_in_2022_faq/
+***Quick edit:*** *Sorry for the gentleman asking for tips to not get limited in DM-chat, I accidentally clicked "ignore". Please contact me again if the answer I give in the comments is not satisfactory.*
+
+&amp;#x200B;
+
+I started my project 2 years ago, of which have been algo-betting with big bucks for almost a year, constantly improving my methods. My total income for betting for 2022 was 30000 euros, and with the recent improvements I have set 50k as my target for the next year. I am obvious
+
+---
+
+## [10 pts, 14 comments] My attempt at a model to bet on NFL games
+Author: HamirTime | URL: /r/algobetting/comments/ggaz71/my_attempt_at_a_model_to_bet_on_nfl_games/
+Hey guys, been lurking since this subreddit got created and knew I would be contributing to it once I got my model to an "acceptable" state to hopefully get further insight.
+
+Gonna try to keep this as short as possible because alot of explaining happens in the Jupyter notebook, but here goes.
+
+So basically I took a data mining course this last semester and the final project was to apply the concepts we learned in class to a real world scenario. While the NFL was in full swing, I was a frequent s
+
+---
+
+## [5 pts, 11 comments] Sourcing Game Data
+Author: ell0bo | URL: /r/algobetting/comments/17njo7j/sourcing_game_data/
+So how are people pulling their data together?  Any APIs people recommend, or is everyone scraping it from ESPN or the like?
+
+I used to write crawlers years ago to pull data together, but only recently got back into trying out algo betting.  I found a site that was free and had a simple CSV of all the football games (individual player stats, weather, betting line) and I used that along with their historical data to build a model.  Went to pull down this year's NFL data, site is closed.  Are peop
+
+---
+
+## [2 pts, 2 comments] 🚀 Player Prop &amp; DFS API – Now Open for Early Testers
+Author: Apprehensive_Ice8314 | URL: /r/algobetting/comments/1nyxerv/player_prop_dfs_api_now_open_for_early_testers/
+Hey everyone,
+
+I’ve built a **normalized API** for player props and DFS data — clean, fast, and finally consistent across books. It now includes **scores, stats, and 10+ sportsbooks** (Underdog, PrizePicks, Rebet, Bovada, Novig, Fliff, etc.).
+
+Covers **NBA, NFL, MLB, WNBA, UFC, tennis, college football, and major esports**.
+
+If you’re a **bettor, model builder, or data dev**, you can start testing instantly — just **send me your email** and you’ll get access right away.
+
+---
+
+## [2 pts, 5 comments] Building an NFL Betting Insights Model - Tips &amp; Starting Points?
+Author: Strict-Repeat-1370 | URL: /r/algobetting/comments/1q91ssm/building_an_nfl_betting_insights_model_tips/
+I’m a diving deep into NFL stats and betting analytics as a hobby while crushing my corporate job. I’ve got some Python chops from past projects (made an NBA dashboard before) and want to build a solid model for NFL betting insights—think player props, spreads, totals, maybe even handicap predictions. Loving this phase of independence, so late nights grinding data fits perfect lol.
+
+What worked for you guys?
+
+•	Best free data sources? (Pro-Football-Reference, NFL API, or something else?)
+
+•	Key 
+
+---
+

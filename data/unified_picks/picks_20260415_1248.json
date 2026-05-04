@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-04-15T12:48:13.424910+00:00",
+  "bankroll": 5198.309999999999,
+  "total_picks": 1,
+  "tier_counts": {
+    "S": 0,
+    "A": 1,
+    "B": 0
+  },
+  "total_exposure": 155.95,
+  "picks": [
+    {
+      "source": "nhl_model",
+      "sport": "NHL",
+      "game": "DAL @ BUF",
+      "home_team": "BUF",
+      "away_team": "DAL",
+      "side": "UNDER",
+      "market_line": 6.0,
+      "odds": -105,
+      "model_total": 6.39,
+      "our_prob": 0.6471,
+      "edge": 0.1579,
+      "dixon_coles_total": 5.99,
+      "xgboost_total": 7.1,
+      "market_total_implied": 6.01,
+      "model_confidence": 0.61,
+      "kelly_pct_raw": 6.9,
+      "recommendation": "UNDER 6.0 @ -105",
+      "tier": "A",
+      "level1_confirms": false,
+      "level1_detail": null,
+      "side_penalty": false,
+      "kelly_pct": 3.0,
+      "wager": 155.95
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "timestamp": "2026-04-13T03:48:01.180953+00:00",
+  "bets": [
+    {
+      "game": "Chicago @ Dallas",
+      "market": "moneyline",
+      "side": "away (Chicago)",
+      "book": "bodog",
+      "odds": 202,
+      "edge": 0.0349,
+      "ev": 0.1055,
+      "won": false,
+      "stake": 13.05,
+      "pnl": -13.05,
+      "bankroll": 986.95,
+      "score": "128-149"
+    },
+    {
+      "game": "New Orleans @ Minnesota",
+      "market": "moneyline",
+      "side": "away (New Orleans)",
+      "book": "bodog",
+      "odds": 176,
+      "edge": 0.0227,
+      "ev": 0.0625,
+      "won": false,
+      "stake": 8.77,
+      "pnl": -8.77,
+      "bankroll": 978.18,
+      "score": "126-132"
+    },
+    {
+      "game": "Phoenix @ Oklahoma City",
+      "market": "moneyline",
+      "side": "away (Phoenix)",
+      "book": "unibet",
+      "odds": 300,
+      "edge": 0.0371,
+      "ev": 0.1482,
+      "won": true,
+      "stake": 12.08,
+      "pnl": 36.25,
+      "bankroll": 1014.43,
+      "score": "135-103"
+    },
+    {
+      "game": "CH White Sox @ Kansas City",
+      "market": "spread",
+      "side": "away +1.5",
+      "book": "unibet",
+      "odds": -125,
+      "edge": 0.0239,
+      "ev": 0.0429,
+      "won": true,
+      "stake": 13.42,
+      "pnl": 10.74,
+      "bankroll": 1010.74,
+      "score": "6-5"
+    },
+    {
+      "game": "Boston @ Columbus",
+      "market": "moneyline",
+      "side": "home (Columbus)",
+      "book": "bodog",
+      "odds": -153,
+      "edge": 0.0406,
+      "ev": 0.0671,
+      "won": false,
+      "stake": 20.0,
+      "pnl": -20.0,
+      "bankroll": 980.0,
+      "score": "3-2"
+    },
+    {
+      "game": "Ottawa @ New Jersey",
+      "market": "moneyline",
+      "side": "home (New Jersey)",
+      "book": "bodog",
+      "odds": 106,
+      "edge": 0.047,
+      "ev": 0.0969,
+      "won": true,
+      "stake": 19.6,
+      "pnl": 20.78,
+      "bankroll": 1000.78,
+      "score": "3-4"
+    }
+  ],
+  "summary": {
+    "total_bets": 6,
+    "win_rate": 0.5,
+    "roi": 29.855039116428905,
+    "pnl": 25.950000000000003
+  }
+}

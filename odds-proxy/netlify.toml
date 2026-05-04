@@ -1,0 +1,29 @@
+[build]
+  functions = "functions"
+  publish = "public"
+
+[functions]
+  node_bundler = "esbuild"
+
+[[headers]]
+  for = "/.netlify/functions/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, POST, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type"
+    Cache-Control = "public, max-age=30"
+
+[[redirects]]
+  from = "/api/fetch-odds"
+  to = "/.netlify/functions/fetch-odds"
+  status = 200
+
+[[redirects]]
+  from = "/api/dk-props"
+  to = "/.netlify/functions/dk-props"
+  status = 200
+
+[[redirects]]
+  from = "/api/multi-book"
+  to = "/.netlify/functions/multi-book"
+  status = 200

@@ -1,0 +1,93 @@
+# a dumb manifesto - what i've learned so far modeling the nfl
+
+[neverfucks | 97 pts | 17 comments]
+
+first off, this is really beginner to intermediate level stuff. if you're a sharp or a grizzled vet, no need to come in here and shit on this. i'm no wise guy, and i've got a long way to go before i will be able to compound my profits in to anything meaningful. but i've been iterating and improving, and the results are getting much more consistent after working though a lot of mistakes. i think i'm on the right path, so i'm writing some stuff here i wish i didn't have to figure out for myself.
+
+1. always be looking for new data sources. getting access to feeds that are still being updated and feeds that go back far enough for training data has been the hardest part of all this, for sure. and i'm constantly in fear that they'll disappear or stop being updated. 
+2. pay for data when you can. it's worth it. don't pay for picks, but pay for apis / feeds / other models.
+3. archive and clean/organize everything you find whether you use it or not. it may be useful eventually, once you have a long enough history of it. many data sources don't provide past states, you need to save them yourself.
+4. don't try to predict outcomes, just try to predict the market. games are extremely chaotic, trying to model something that can completely change depending on one pass interference penalty being called or not called is just going to end up spitting out pure noise. 
+5. iterate on one model, focusing on one market, constantly. keep sharpening it up bit by bit, try new stuff, new configurations, really go nuts on it before building a bunch of others to try to scale up. you don't want to make the same mistakes multiple times, once you know what is working and not working you can try to fan out.
+6. don't try to beat the market, try to be early. it's honestly not so crazy hard to originate lines that are sharper than open, even in big efficient markets. but at some point between then and close that market starts to have much, much more information priced in to it than you can possibly model. that doesn't mean closing lines are perfect, they can be pricing in bad information (look at https://www.statmuse.com/nfl/ask/titans-ats-2024), but it's really hard to differentiate those from just noise/information loss. you may be able to consistently beat closing lines in small/inefficient markets, but those limits are going to be lower and beating those kinds of markets is more likely to get attention from sportsbook traders, which is bad 100% of the time.
+7. don't make a meta model that ingests other models' outputs, but definitely use them top down. those outputs are already high fidelity compared to raw inputs and will end up over-weighted in your regression. have your model independently predict the same target, and then blend your model's output with the others afterwards. i even found that blending together 2 versions of my own model, based on very similar data, in this way was much better statistically than either of them independently. basically, if elo or whatever has a 78% win probability, and i have 86%, i need to discount my 86% at least a little bit. that doesn't mean the elo number is better, or even good, it just means that it's \* more likely \* my model's error on that number is on the high side vs low side.
+8. track and evaluate your results religiously. not just clv, but your actual edge when it comes to wins and losses. don't fall too in love with your model that you assume it must be right and if you're not getting good results it must be variance or something else.
+9. don't p-hack, you'll end up overfitting to some weird shit that won't actually work in practice. you can take any back test result set and find a massive edge with a small p-value if you're willing to fiddle with the strategy parameters enough. like "oh shit, if i only bet dogs who have a t in their name between +4 and +9 i'm gonna be rich". nah. you're looking for clear and obvious results that have an obvious explanation.
+10. once you're confident in your model, entry timing, and results, just suck it up and bet in to a sharp book that doesn't care if you're a winner. use your draftkings and other shitty retail accounts only when they're off market or dealing the best price on something. and make sure to use them for other stuff too so that when a trader inevitably looks at your account they see stuff that looks to them like you are probably gonna lose the money back. they may even give you some bonus bets :p
+
+---
+## Comments
+
+[GoldenPants13 | 19 pts]
+Maybe you know this - but you're underselling yourself and the usefulness of this post. Useful to bettors of all skill levels imo.
+
+5 and 6 are probably the most important pieces of advice you could give a first-time modeler. There is a lot of money to be made in being able to predict the close. If people spent half as much time trying to predict the close as they did trying to predict how many times a player will do x,y,z - they would make money sooner imo.
+
+Once you can predict the close well, not making money on it is a skill issue. Speed and access to a lot of books will take a model that can predict the close very far.
+
+Just pointing out 5 &amp; 6 because I think they are under-discussed but every point on this list is spot on - thanks for sharing.
+
+  [neverfucks | 4 pts]
+  that's really nice, thank you
+
+  [statsfc | 3 pts]
+  Thanks to OP for sharing your insights ! 
+
+I have a somewhat practical question for you both if you may. When you talk about don’t predict the outcome, predict the market…and trying to model the “close”. 
+
+Let’s use the example of the total points line. Does that mean that your target variable is the closing line itself, rather than generation of an opinion on Team A and team B offense/defence and then come to your line?
+
+I do a lot of player prop stuff, and have gathered a fair bit of data, it’s just the next stage of modelling where I need to figure the best way to approach it
+
+    [GoldenPants13 | 6 pts]
+    I can answer from my opinion. Actually a big part of the model will be your team ratings - but you should be concerned with what the market thinks the team ratings should be at close.
+
+Just some background- there is one sport we model that we do try to predict outcomes and would bet into the close. That has been a multi-year project. But in tackling a new sport, something that got us most of the way there quickly was trying to figure out what the market thought the team ratings were and then based on that game trying to update them to what the market will think tomorrow. I don’t want to get much more detailed than that cause betting still pays the bills - but in general that’s how I would conceptualize it
+
+    [neverfucks | 3 pts]
+    \&gt; Does that mean that your target variable is the closing line itself,
+
+something like that, yeah. for instance if i was modeling atts props, i could try targeting
+
+\* percent chance of scoring at least 1 td with a classification model (targeting did score/didn't score classes)  
+\* doing a regression to predict number of actual touchdowns scored and backing in to a fair price  
+\* regression to predict devigged odds for atts props.  
+  
+i'm saying the latter is probably going to perform the best
+
+      [statsfc | 1 pts]
+      Appreciate the reply! Much food for thought. I play generally in player prop markets like passing &amp; receiving so looking forward to applying some of your learnings 🙏
+
+    [You_Sick_Duck | 2 pts]
+    I specialize in NBA and MLB player props, starting by modeling the game total using team stats, recent form, head-to-head matchups, rest days, and home vs. away splits. If my projected line is way off from the books, I'll confidently place a unit on it.
+
+Once I’ve mapped out the game script from the total, I focus on player props, analyzing defense vs. position data, recent form, and efficiency stats to zero in on the best plays. My process always starts with the game total and Vegas spread to see what the books expect, then I drill down into individual player analysis.
+
+Everyone has their own style, but this is mine. Hopefully, it helps and doesn’t overcomplicate things—LOL.
+
+[quarterkelly | 6 pts]
+This is an amazing rundown, honestly better than half the shit Circles Off puts out anymore. Extremely helpful and thank you for putting this altogether
+
+  [neverfucks | 2 pts]
+  appreciate that, very kind. i like the circles off crew, i trust that they're legit and i don't expect anyone to talk about the nitty gritty of their own model builds and edges. but i learn a lot about operating as a bettor and market participant from them and i think a lot of that is just as important as having an edge in the first place.
+
+[annaj | 2 pts]
+Gold.
+
+[FantasticAnus | 2 pts]
+Speaking as somebody with experience, this is a great post and there is some great advice here. I don't agree with it all, coming from the perspective of the NBA, where there is enough data (and games per season) to model outcomes first, and the market only in meta-analysis, but by and large this is an excellent post.
+
+  [neverfucks | 6 pts]
+  thanks fantastic anus
+
+    [FantasticAnus | 4 pts]
+    You are welcome, neverfucks
+
+      [buckeye25osu | 1 pts]
+      Holy shit that's amazing
+
+        [[deleted] | 1 pts]
+        Is holy shit what comes out of fantastic anus, so long as he never fucks?
+
+[EducationalTeaching | 1 pts]
+Great stuff.  Do you mostly model in excel or another program?

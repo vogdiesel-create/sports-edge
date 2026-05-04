@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DraftKings Odds Extractor</title>
+<style>
+body { font-family: -apple-system, sans-serif; background: #0a0e17; color: #e0e6ed; padding: 20px; max-width: 900px; margin: 0 auto; }
+h1 { color: #00d4aa; margin-bottom: 8px; }
+.subtitle { color: #6b7b8d; margin-bottom: 24px; }
+.card { background: #111827; border: 1px solid #1e2a3a; border-radius: 10px; padding: 20px; margin-bottom: 16px; }
+.step { display: flex; gap: 12px; margin-bottom: 16px; }
+.step-num { background: #00d4aa; color: #000; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0; }
+.step-text { flex: 1; }
+.bookmarklet-link { display: inline-block; padding: 12px 24px; background: #1a8754; color: #fff; text-decoration: none; border-radius: 8px; font-weight: 700; font-size: 16px; cursor: grab; margin: 8px 0; }
+.bookmarklet-link:hover { background: #22a366; }
+textarea { width: 100%; height: 300px; background: #0d1117; color: #e0e6ed; border: 1px solid #1e2a3a; border-radius: 6px; padding: 12px; font-family: monospace; font-size: 12px; resize: vertical; }
+.btn { padding: 10px 20px; border: none; border-radius: 6px; font-size: 14px; font-weight: 600; cursor: pointer; background: #00d4aa; color: #000; margin: 4px; }
+.btn:hover { background: #00e6b8; }
+.btn-blue { background: #3b82f6; color: #fff; }
+#status { margin-top: 12px; padding: 12px; border-radius: 6px; display: none; }
+#results { margin-top: 16px; }
+.stat { display: inline-block; background: #1e2a3a; padding: 4px 12px; border-radius: 4px; margin: 2px; }
+code { background: #1e2a3a; padding: 2px 6px; border-radius: 3px; font-size: 13px; }
+</style>
+</head>
+<body>
+<h1>DraftKings Player Props Extractor</h1>
+<p class="subtitle">Get DK odds into Sports Edge for cross-book comparison</p>
+
+<div class="card">
+<h2>Method 1: Bookmarklet (Recommended)</h2>
+<p style="margin-bottom:12px">Drag this button to your bookmarks bar:</p>
+
+<a class="bookmarklet-link" href="javascript:void(function(){var s=document.createElement('script');s.textContent=`(async()=>{const log=m=>{console.log('[DK Extract]',m)};log('Starting DraftKings extraction...');const BASE='https://sportsbook.draftkings.com/sites/US-SB/api/v5';const props=[];try{log('Fetching NBA eventgroup...');const egResp=await fetch(BASE+'/eventgroups/42648?format=json');const egData=await egResp.json();const eg=egData.eventGroup;if(!eg){log('No eventGroup found');return}const cats=eg.offerCategories||[];log('Found '+cats.length+' categories');for(const cat of cats){const catName=cat.name||'';if(!catName.toLowerCase().includes('player'))continue;log('Processing: '+catName);const subs=cat.offerSubcategoryDescriptors||[];for(const sub of subs){const subName=sub.name||'';const subId=sub.subcategoryId;try{const subResp=await fetch(BASE+'/eventgroups/42648/categories/'+cat.offerCategoryId+'/subcategories/'+subId+'?format=json');const subData=await subResp.json();const offers=subData.eventGroup?.offerCategories?.[0]?.offerSubcategoryDescriptors?.[0]?.offerSubcategory?.offers||[];for(const group of offers){const arr=Array.isArray(group)?group:[group];for(const offer of arr){const outcomes=offer.outcomes||[];const label=offer.label||'';for(const oc of outcomes){const player=oc.participant||oc.label||'';const line=oc.line;const odds=oc.oddsAmerican;const side=(oc.label||'').toLowerCase().includes('under')?'under':'over';if(player&&odds){props.push({book:'draftkings',player,stat:subName||catName,line:line||0,side,odds_american:parseInt(odds),odds_decimal:parseInt(odds)>0?1+parseInt(odds)/100:1+100/Math.abs(parseInt(odds)),game:label||'',market_name:subName||catName})}}}}await new Promise(r=>setTimeout(r,200))}catch(e){log('Error on sub '+subName+': '+e.message)}}}log('Done! Found '+props.length+' props');const blob=new Blob([JSON.stringify({exportedAt:new Date().toISOString(),source:'draftkings-bookmarklet',props},null,2)],{type:'application/json'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='dk_props_'+new Date().toISOString().slice(0,10)+'.json';a.click();log('File downloaded!')}catch(e){log('Error: '+e.message);alert('DK Extract error: '+e.message)}})()`;document.body.appendChild(s);}())">
+  Drag me to bookmarks bar: Extract DK Props
+</a>
+
+<div style="margin-top:16px">
+<div class="step">
+<div class="step-num">1</div>
+<div class="step-text">Drag the green button above to your bookmarks bar</div>
+</div>
+<div class="step">
+<div class="step-num">2</div>
+<div class="step-text">Go to <a href="https://sportsbook.draftkings.com" style="color:#3b82f6" target="_blank">sportsbook.draftkings.com</a> (any NBA page)</div>
+</div>
+<div class="step">
+<div class="step-num">3</div>
+<div class="step-text">Click the bookmarklet in your bookmarks bar</div>
+</div>
+<div class="step">
+<div class="step-num">4</div>
+<div class="step-text">A JSON file downloads automatically. Upload it below or to the portal.</div>
+</div>
+</div>
+</div>
+
+<div class="card">
+<h2>Method 2: Console Script</h2>
+<p style="margin-bottom:8px">If bookmarklet doesn't work, open DevTools (F12) on DraftKings.com and paste this:</p>
+<textarea id="consoleScript" readonly>// DraftKings Player Props Extractor - paste in console on DraftKings.com
+(async () => {
+  const BASE = 'https://sportsbook.draftkings.com/sites/US-SB/api/v5';
+  const props = [];
+  console.log('[DK] Starting extraction...');
+
+  const egResp = await fetch(BASE + '/eventgroups/42648?format=json');
+  const egData = await egResp.json();
+  const cats = egData.eventGroup?.offerCategories || [];
+  console.log(`[DK] Found ${cats.length} categories`);
+
+  for (const cat of cats) {
+    if (!cat.name?.toLowerCase().includes('player')) continue;
+    console.log(`[DK] Processing: ${cat.name}`);
+
+    for (const sub of (cat.offerSubcategoryDescriptors || [])) {
+      try {
+        const url = `${BASE}/eventgroups/42648/categories/${cat.offerCategoryId}/subcategories/${sub.subcategoryId}?format=json`;
+        const resp = await fetch(url);
+        const data = await resp.json();
+        const offers = data.eventGroup?.offerCategories?.[0]?.offerSubcategoryDescriptors?.[0]?.offerSubcategory?.offers || [];
+
+        for (const group of offers) {
+          for (const offer of (Array.isArray(group) ? group : [group])) {
+            for (const oc of (offer.outcomes || [])) {
+              const player = oc.participant || oc.label || '';
+              if (player && oc.oddsAmerican) {
+                const odds = parseInt(oc.oddsAmerican);
+                props.push({
+                  book: 'draftkings',
+                  player: player,
+                  stat: sub.name || cat.name,
+                  line: oc.line || 0,
+                  side: (oc.label || '').toLowerCase().includes('under') ? 'under' : 'over',
+                  odds_american: odds,
+                  odds_decimal: odds > 0 ? 1 + odds/100 : 1 + 100/Math.abs(odds),
+                  game: offer.label || ''
+                });
+              }
+            }
+          }
+        }
+        await new Promise(r => setTimeout(r, 200));
+      } catch (e) { console.log(`[DK] Error: ${e.message}`); }
+    }
+  }
+
+  console.log(`[DK] Done! ${props.length} props found`);
+  const blob = new Blob([JSON.stringify({exportedAt: new Date().toISOString(), source: 'draftkings-console', props}, null, 2)], {type: 'application/json'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a'); a.href = url;
+  a.download = 'dk_props_' + new Date().toISOString().slice(0,10) + '.json';
+  a.click();
+  console.log('[DK] File downloaded!');
+})();
+</textarea>
+<button class="btn" onclick="navigator.clipboard.writeText(document.getElementById('consoleScript').value)">Copy to Clipboard</button>
+</div>
+
+<div class="card">
+<h2>Upload DK Data for Analysis</h2>
+<p style="margin-bottom:8px">Paste the DK JSON here or upload the downloaded file:</p>
+<input type="file" id="fileInput" accept=".json" style="margin-bottom:8px">
+<textarea id="pasteArea" placeholder="Or paste DK JSON here..."></textarea>
+<br>
+<button class="btn" onclick="analyzeData()">Analyze + Compare with FanDuel</button>
+<button class="btn btn-blue" onclick="downloadForServer()">Download for Server Import</button>
+<div id="status"></div>
+<div id="results"></div>
+</div>
+
+<script>
+document.getElementById('fileInput').addEventListener('change', e => {
+  const file = e.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = ev => { document.getElementById('pasteArea').value = ev.target.result; };
+  reader.readAsText(file);
+});
+
+function americanToDecimal(odds) {
+  if (odds > 0) return 1 + odds / 100;
+  return 1 + 100 / Math.abs(odds);
+}
+
+function decimalToImplied(dec) { return 1 / dec; }
+
+function devig(impA, impB) {
+  const total = impA + impB;
+  return [impA / total, impB / total];
+}
+
+async function analyzeData() {
+  const status = document.getElementById('status');
+  const results = document.getElementById('results');
+  status.style.display = 'block';
+  status.style.background = '#1e2a3a';
+  status.innerHTML = 'Loading DK data...';
+
+  let dkData;
+  try {
+    dkData = JSON.parse(document.getElementById('pasteArea').value);
+  } catch (e) {
+    status.style.background = '#4a1111';
+    status.innerHTML = 'Error parsing JSON: ' + e.message;
+    return;
+  }
+
+  const dkProps = dkData.props || dkData.odds || dkData;
+  if (!Array.isArray(dkProps)) {
+    status.innerHTML = 'No props array found in data';
+    return;
+  }
+  status.innerHTML = `DK: ${dkProps.length} props loaded. Fetching FanDuel via proxy...`;
+
+  // Fetch FanDuel from proxy
+  let fdProps = [];
+  try {
+    const resp = await fetch('https://sports-edge-proxy.netlify.app/api/multi-book');
+    const data = await resp.json();
+    const allGroups = data.allGroups || {};
+    if (typeof allGroups === 'object' && !Array.isArray(allGroups)) {
+      for (const [key, group] of Object.entries(allGroups)) {
+        const fd = (group.books || {}).FanDuel;
+        if (fd) {
+          fdProps.push({
+            book: 'fanduel', player: group.player || '', stat: group.stat || '',
+            line: group.line || 0, side: fd.over_under || 'over',
+            odds_american: fd.odds || 0, odds_decimal: fd.oddsDecimal || 0
+          });
+        }
+      }
+    }
+  } catch (e) {
+    status.innerHTML += '<br>FanDuel proxy error: ' + e.message + '. Continuing with DK only.';
+  }
+
+  status.innerHTML = `DK: ${dkProps.length} props | FD: ${fdProps.length} props. Comparing...`;
+
+  // Combine and group by (player, stat, line, side)
+  const allProps = [...dkProps.map(p => ({...p, book: 'draftkings'})), ...fdProps];
+  const groups = {};
+  for (const p of allProps) {
+    const player = (p.player || '').toLowerCase().trim();
+    const stat = (p.stat || '').toLowerCase().replace('player ', '').replace('points', 'pts').replace('rebounds', 'reb').replace('assists', 'ast').replace('threes', 'fg3m').replace('3-pointers', 'fg3m').trim();
+    const key = `${player}|${stat}|${p.line || 0}|${p.side || 'over'}`;
+    if (!groups[key]) groups[key] = [];
+    groups[key].push(p);
+  }
+
+  // Find cross-book matches with +EV
+  const evOpps = [];
+  let crossMatches = 0;
+  for (const [key, bookProps] of Object.entries(groups)) {
+    const books = new Set(bookProps.map(p => p.book));
+    if (books.size < 2) continue;
+    crossMatches++;
+
+    const implieds = bookProps.map(p => ({
+      book: p.book, odds: p.odds_american, dec: p.odds_decimal || americanToDecimal(p.odds_american),
+      imp: decimalToImplied(p.odds_decimal || americanToDecimal(p.odds_american))
+    }));
+
+    const avgImp = implieds.reduce((s, i) => s + i.imp, 0) / implieds.length;
+    for (const i of implieds) {
+      const edge = avgImp - i.imp;
+      const ev = avgImp * (i.dec - 1) - (1 - avgImp);
+      if (edge > 0.03 && ev > 0.02) {
+        const [player, stat, line, side] = key.split('|');
+        evOpps.push({ player, stat, line, side, book: i.book, odds: i.odds, edge, ev, fair: avgImp, nBooks: books.size });
+      }
+    }
+  }
+
+  evOpps.sort((a, b) => b.ev - a.ev);
+
+  let html = `<div class="card"><h2>Results</h2>`;
+  html += `<p>Cross-book matches: <span class="stat">${crossMatches}</span></p>`;
+  html += `<p>+EV opportunities: <span class="stat" style="background:${evOpps.length > 0 ? '#1a4731' : '#1e2a3a'}">${evOpps.length}</span></p>`;
+
+  if (evOpps.length > 0) {
+    html += `<table style="width:100%;border-collapse:collapse;margin-top:12px"><tr style="border-bottom:1px solid #1e2a3a">
+      <th style="text-align:left;padding:8px">Player</th><th>Stat</th><th>Line</th><th>Side</th>
+      <th>Book</th><th>Odds</th><th>Fair</th><th>Edge</th><th>EV</th></tr>`;
+    for (const o of evOpps.slice(0, 30)) {
+      html += `<tr style="border-bottom:1px solid #1e2a3a20">
+        <td style="padding:6px">${o.player}</td><td>${o.stat}</td><td>${o.line}</td><td>${o.side}</td>
+        <td>${o.book}</td><td>${o.odds > 0 ? '+' : ''}${o.odds}</td>
+        <td>${(o.fair*100).toFixed(1)}%</td>
+        <td style="color:#00d4aa">${(o.edge*100).toFixed(1)}%</td>
+        <td style="color:#00d4aa">${(o.ev*100).toFixed(1)}%</td></tr>`;
+    }
+    html += `</table>`;
+  }
+  html += `</div>`;
+  results.innerHTML = html;
+  status.style.background = '#0d2818';
+  status.innerHTML = `Analysis complete. ${crossMatches} cross-book matches, ${evOpps.length} +EV opportunities.`;
+}
+
+function downloadForServer() {
+  let data;
+  try {
+    data = JSON.parse(document.getElementById('pasteArea').value);
+  } catch (e) {
+    alert('No valid JSON to export');
+    return;
+  }
+  const blob = new Blob([JSON.stringify(data, null, 2)], {type: 'application/json'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a'); a.href = url;
+  a.download = 'dk_import.json'; a.click();
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+The Definitive Pitcher Expected K% Formula | RotoGraphs Fantasy Baseball
+<
+! -- END HEAD -->
+<! -- END HEADER -->
+The Definitive Pitcher Expected K% Formula
+by
+Mike Podhorzer
+May 28, 2013
+There have been many attempts to develop an expected pitcher strikeout percentage (xK%) formula, usually involving one of my favorite metrics SwStk%, perhaps average fastball velocity, and maybe another statistic or two. All of the regression equations did a fairly decent job, but there were always outliers, and I was beginning to see a commonality between them.
+A couple of years ago,
+StatCorner
+included a pitcher’s called and foul strike rate. For some reason, those metrics are no longer displayed on the player pages. However, when they were, they seemed to explain a lot of the discrepancies between the old xK% and actual K%. For example,
+Hiroki Kuroda
+and
+Jaime Garcia
+would consistently appear to be unlucky given their high SwStk% marks, but when digging further, you learn that they had gotten fewer called strikes than the average pitcher.
+After this data disappeared, I vowed to find a new source. That source was eventually found, as
+Baseball-Reference
+displays the trio of “L/Str” (Looking Strike Rate), “S/Str” (Swinging Strike Rate) and “F/Str” (Foul Strike Rate) under the “More Stats” tab in the “Pitch Summary — Pitching” section. Initially, I was unable to find a leaderboard for these metrics, making it impossible to develop a regression equation. But then I realized that I should go directly to the founder himself. So I emailed Sean Forman and asked if a leaderboard existed for these stats, and
+sure enough, they do
+! The data isn’t nearly as easy to manipulate as the exported stats from FanGraphs, but after much effort, my data set was clean and ready for analysis.
+But first, why these metrics? Well, to record a strikeout, a pitcher needs to throw at least three pitches that result in a strike. Generating each of the three types of possible strikes are the underlying skills that directly lead to the ultimate result of the at-bat, the strikeout. While velocity is certainly important when predicting strikeouts, technically that should just lead to a higher swinging strike rate. So instead of including various metrics that merely predict the direct underlying metrics that feed into strikeout rate, it would be best to just use the direct underlying metrics to begin with.
+I initially began my data set with all pitchers (starters and relievers, as there was no simple way to filter for only starters, and besides, I am not sure that would have even been necessary) from 2008-2012. While I would have liked to include as many seasons as possible, the work involved in cleaning each year just made it too time consuming. I felt like five years was good enough. I then narrowed down the data set to only those pitchers who threw at least 50 innings in a season. This left me with 1,629 pitcher seasons to analyze. Before we get to the results, the following table details the correlations between the three metrics and a pitcher’s K%.
+You Aren't a FanGraphs Member
+It looks like you aren't yet a FanGraphs Member (or aren't logged in). We aren't mad, just disappointed.
+We get it. You want to read this article. But before we let you get back to it, we'd like to point out a few of the good reasons why you should become a Member.
+1. Ad Free viewing! We won't bug you with this ad, or any other.
+2. Unlimited articles! Non-Members only get to read 10 free articles a month. Members never get cut off.
+3. Dark mode and Classic mode!
+4. Custom player page dashboards! Choose the player cards you want, in the order you want them.
+5. One-click data exports! Export our projections and leaderboards for your personal projects.
+6. Remove the photos on the home page! (Honestly, this doesn't sound so great to us, but some people wanted it, and we like to give our Members what they want.)
+7. Even more Steamer projections! We have handedness, percentile, and context neutral projections available for Members only.
+8. Get FanGraphs Walk-Off, a customized year end review! Find out exactly how you used FanGraphs this year, and how that compares to other Members. Don't be a victim of FOMO.
+9. A weekly mailbag column, exclusively for Members.
+10. Help support FanGraphs and our entire staff! Our Members provide us with critical resources to improve the site and deliver new features!
+We hope you'll consider a Membership today, for yourself or as a gift! And we realize this has been an awfully long sales pitch, so we've also removed all the other ads in this article. We didn't want to overdo it.
+Click Here To Become a Member
+L/Str
+S/Str
+F/Str
+0.01
+0.81
+0.20
+It shouldn’t surprise anyone that swinging strike percentage has such a high correlation. Heck, we could have only used that metric to predict K% and it would yield pretty decent results. I am, however, surprised that looking strike rate has essentially no correlation. This is especially true compared to foul strike rate, because a hitter obviously cannot strike out on a foul ball, but he could on a called strike.
+Now let’s get to the regression formula and graph.
+xK% = -0.61 + (L/Str * 1.1538) + (S/Str * 1.4696) + (F/Str * 0.9417)
+No, that was not a misprint on the graph. This equation, using the data I described above, produced an R-squared of 0.892. I would suggest that the remainder of the variation is just due to strike sequencing, which is essentially the luck component.
+Interestingly, despite an essentially zero correlation, L/Str has a higher coefficient than F/Str in the regression. This makes much more sense as, once again, a pitcher cannot record a strikeout by inducing a foul ball.
+In addition to developing an xK% formula, I was also interested in determining how repeatable these skills are. I was fairly confident that inducing swinging strikes was highly repeatable, but wasn’t so sure about the other two strike types. So once again, I went back to my data set and narrowed the group to only those pitchers who had pitched in consecutive seasons, with at least 50 innings in both. That left me with n = 886. The following table represents the year-to-year correlations of each strike type rate.
+L/Str
+S/Str
+F/Str
+0.64
+0.73
+0.57
+Again, it’s no surprise that S/Str reigns supreme, but I did not expect the other two to rate so highly. If anything, these numbers suggest that pitchers are relatively consistent from year to year and do possess a high degree of control over these rates. So if you find a pitcher whose L/Str has suddenly spiked over a small sample of innings, it might not necessarily be such a fluke, but perhaps a true skills surge.
+Clay Buchholz
+is a perfect example of this scenario. Check out his L/Str rates over his career:
+This season is the clear outlier, which may normally be chalked up to a small sample fluke. But given that L/Str rates do have a reasonable degree of consistency, it’s very possible that Buchholz has taken this skill up a notch.
+Next week, I’ll put the 2013 data to work and report on the pitchers whose strikeout percentages are due for a surge or decline after consulting their respective xK% marks.
+Roto Riteup: May 28, 2013
+ottoneu Hot Right Now: Cody Allen and John Lackey
+Mike Podhorzer is the founder of
+ProjectingX IQ
+, an advanced fantasy baseball analytics platform that transforms projection data and in-season performance signals into actionable intelligence. He is the 2015 Fantasy Sports Writers Association Baseball Writer of the Year and three-time Tout Wars champion. He is the author of the eBook
+Projecting X 2.0: How to Forecast Baseball Player Performance
+, which teaches you how to project players yourself. Follow Mike on X
+@MikePodhorzer
+and contact him via
+email
+.
+31
+Comments
+Oldest
+Newest
+Most Voted
+Inline Feedbacks
+View all comments
+MustBunique
+12 years ago
+Fantastic stuff Mike.  I would have guessed that L/Str would have been less controllable than the numbers show.  It is nice to be able to put some stock in an increase in that number.
+Thanks for posting the link, too.  I immediately sorted by S/Str and was not shocked that Yu is leading but WAS shocked by how much he is leading.  26% and the next in line is 22%.
+0
+Load Rest of Comments
+Insert
+You are going to send email to
+Send
+Move Comment
+Move
+Updated: Monday, April 13, 2026 11:35 PM ET
+Updated: 4/13/2026 11:35 PM ET
+@fangraphs
+-
+Contact Us
+-
+Advertise
+-
+Terms of Service
+-
+Privacy Policy
+All major league baseball data including pitch type, velocity, batted ball location,
+        and play-by-play data provided by Sports Info Solutions.
+Major League and Minor League Baseball data provided by Major League Baseball.
+Mitchel Lichtman
+All UZR (ultimate zone rating) calculations are provided courtesy of Mitchel Lichtman.
+TangoTiger.com
+All Win Expectancy, Leverage Index, Run Expectancy, and Fans Scouting Report data licenced from TangoTiger.com
+Retrosheet.org
+Play-by-play data prior to 2002 was obtained free of charge from and is copyrighted
+        by Retrosheet.
+<! -- END FOOTER -->

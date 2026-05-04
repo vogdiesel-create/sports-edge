@@ -1,0 +1,175 @@
+# Where do I go from here? (tennis betting model)
+
+[Remarkable-Bowler-60 | 20 pts | 24 comments]
+
+Hey all - long time reader, first time poster in this sub.
+
+I've built a tennis model and I'm curious your take on my approach, output, and next steps.
+
+Setup
+
+* Backtest period: 2023–2026 (walk-forward, out-of-sample)
+* Stakes: 5% of bankroll
+
+Results
+
+* 4,583 bets over \~3 years (from 2023 to current)
+* 82.1% win rate
+* \+106.3 units (flat 1u per bet)
+* \+2.32% ROI
+* Bankroll: $1,000→$49,434 final (peak \~$51k)
+* Max drawdown: 75% (peak to trough using 5% stakes, much less drawdown using 4% or 3%, but also lower ending bankroll)
+
+Consistency
+
+* Profitable in all 4 test years (2023–2026)
+* 20 of 31 months profitable
+* Longest losing streak: 4 bets
+* Longest winning streak: 37 bets
+
+My model is basically very good at confirming favorites, but it is only directionally accurate.
+
+If I bet with an edge filter, it actually loses money (it is very conservative compared to the market). So, instead I just layer on filters where I am most profitable (surface, tours, market odds, model confidence).
+
+Since I don't bet where I have edge, I can't use Kelly criterion stake sizing.
+
+I haven't backtested winning in straight sets specifically yet - but I am pretty sure the results are much stronger if I take my pick to win 2-0 instead of just moneyline. It adds losses which impact the compounding, but the odds are WAY better.
+
+I believe these stats are all using opening line odds (whatever is posted on tennisexplorer, which I assume is opening lines since they have them before the matches start and likely don't update).
+
+Overall impressions or next steps? One thing I am very curious about is measuring my CLV, but I don't know how to get opening and closing line odds for tennis (in particular Challenger level matches).
+
+---
+## Comments
+
+[Delicious_Pipe_1326 | 6 pts]
+Great starting point, and the CLV instinct at the end of your post is exactly the right question to be asking.
+
+Before going further though, worth sanity checking the numbers internally. The $1k to $49k growth doesn't reconcile cleanly with 2.32% ROI at 5% staking over 4,583 bets, and a longest losing streak of 4 at 82% win rate is lower than variance alone would predict over that sample. My guess is the compounding wasn't simulated bet by bet but applied to the flat stake results after the fact, which inflates the bankroll figure significantly.
+
+Also worth clarifying whether the profitability filters were chosen before or after seeing the full backtest. If they were selected because they worked in the data, the walk forward label doesn't really hold.
+
+None of this means the underlying model is worthless. But getting the accounting clean first will tell you a lot more than optimising stake sizing or adding straight sets markets on top of results that don't yet add up.
+
+  [Remarkable-Bowler-60 | 0 pts]
+  Sounds good, I'll look into the math on the backtest.
+
+To clarify on the filters - they are fairly basic things like like:  
+\- don't bet on grass (low data)  
+\- don't bet odds &gt;1.5 (the model is bad at predicting close matches)  
+\- don't bet when the pick lost their previous match as the favorite (could be injury, bad form, etc.)  
+\- don't bet when the opponent wins &gt;50% of the time as an underdog (based on only data known at the time of the match)
+
+[FIRE_Enthusiast_7 | 3 pts]
+Your model is overfit. You are *post-hoc* selecting subsets of matches where the model gives a profit (surface, tours etc.). This is not a legitimate strategy. You can achieve the same thing by subsetting on features that are clearly not predictive e.g. players wearing Nike branded shorts, matches occurring on Monday/Tuesday/Thursday only, excluding players with double barrelled surnames etc.
+
+You need to hold back a second set of test data in order to test your choice of filter, which you don't appear to be doing. Your model is going to lose money when you start betting with it.
+
+  [Remarkable-Bowler-60 | 1 pts]
+  Here's more detail into current back test set up -   
+\- Train 2022, test 2023  
+\- Train 2022, 2023, test 2024  
+\- Train 2022, 2023, 2024, test 2025  
+\- Train 2022, 2023, 2024, 2025, test 2026
+
+How would I do a holdout? I thought my test ranges are holdouts.
+
+    [FIRE_Enthusiast_7 | 1 pts]
+    You cant create a test dataset because you have selected the filters you use based on your whole dataset. There is no holdout data left.
+
+What you’ve done is the equivalent of designing a dart throwing machine that throws darts in a deterministic fashion (so that the same dart follows the same path each time it’s fired). You then fire 100 darts at circle on a wall. 
+
+After inspecting the thrown darts you notice that, by chance, a lot of the darts that have landed outside the circle are green, or have “ATP 1000” on them. You then remove those darts and celebrate that your machine is really accurate at throwing darts because most of the remaining darts are inside the circle.
+
+
+
+
+
+      [Remarkable-Bowler-60 | 1 pts]
+      Isn’t it more like looking at the darts that are outside the circle, noticing the fins are bent and couldn’t fly straight, and not throwing bent darts in the future?
+
+If I had “dart shape” as a feature in the model, maybe sometimes they hit and the model learns a pattern - but I would rather just filter them out and not throw any bent darts for simplicity.
+
+        [FIRE_Enthusiast_7 | 4 pts]
+        Probabilistically there are vastly more non-informative features that identify darts outside the circle, than causative ones. You're not identifying "bent fins" here - that can and should be done prior to throwing the darts - you're just removing the darts that missed because they missed.
+
+I guarantee you that you will lose money with your model. All you've done is remove the darts that missed the circle. You can't *post-hoc* remove the losing results, as you've done, and hope that will make your model profitable. It doesn't work that way.
+
+        [Delicious_Pipe_1326 | 1 pts]
+        FIRE is right. Your test years are valid holdouts for the model predictions, but the filters were chosen by looking across all of those years combined. If "no grass" was selected because it lost money somewhere in 2023 to 2026, the filter already saw the test data. A clean holdout for the filters would be: pick them using only 2022 to 2023, then never touch them again and see if they hold up in 2024 onward. Make sense?
+
+        [Remarkable-Bowler-60 | 1 pts]
+        So for example, if I verify all my filter decisions could have been made on 2023 data alone (instead of 2023-2026), I'm fine?
+
+        [Delicious_Pipe_1326 | 1 pts]
+        Sort of!
+Use 2023 to identify the winning filters - then test against 2024, 2025 etc to see if they hold.
+If they do, that’s a good start.
+Just be careful that 2023 might be to thin a sample, so maybe use 2023/24 to identify the filters and then verify going forwards.
+
+What you shouldn’t do is apply your filters you have now to 2023 to see if they hold, that’s circular
+
+[TechTasteTinker | 2 pts]
+It is likely these markets will have very low liquidity, so you would hardly ever be able to bet full 5% of the bankroll in real environment
+
+  [MagicMarkets | 1 pts]
+  I'm hoping to fix that. But yes, placement is going to be a challenge here.
+
+[sleepystork | 1 pts]
+When you say you did walk forward, did you do that with the filters too?  I think you will be very disappointed running this live. I can’t really tell from your post, but it looks like you have essentially over fit your model. 
+
+  [Remarkable-Bowler-60 | 2 pts]
+  The filters are the same for the entire backtest, but they aren’t very complicated. Things like:
+1. Don’t bet on grass
+2. Don’t bet on ATP 1000
+3. Only bet on heavy favorites within a certain odds band
+
+[quant_boy123 | 1 pts]
+you should have a look at the data you are scraping - TE actually reports line changes even that you can fetch. Hover over the odds of a specific bookmaker on the match view (not the overall view, there you will only see average odds for ML).  
+As for your model, I agree with others who pointed out that you very likely introduced overfitting with your filtering approach and this would be the first thing I'd check
+
+  [Remarkable-Bowler-60 | 1 pts]
+  Oof, good call. I started simple and just pulled the number that they display on the main /matches/ page that lists out all the matches for the day. I think they are taking an average of the odds.
+
+[ddul001 | 1 pts]
+Very interesting project. Thanks for sharing the numbers. This is not common in betting posts.
+
+One thing that I noticed fast is the difference between the win rate and the drawdown. An 82% win rate is very high for sports betting, but a 75% drawdown with 5% stakes looks a bit worrying. It feels like a strategy where you win many small bets, but when bad variance comes, a few losses can take away a big part of the profit. If the average odds are around 1.24, then 4 or 5 losses in a short time can delete many weeks of gains.
+
+Because of this, I think the main problem may be staking, not prediction. A 5% bankroll stake looks too aggressive for only 2.3% ROI. Maybe 1–1.5% flat stakes, or a small fractional Kelly, could lower the drawdown a lot.
+
+I also like the idea of betting on 2–0 sets. If your model is good at finding strong favorites, these markets can give better odds, maybe 1.60–1.80 instead of 1.20–1.30. But variance will also be higher, mainly in Challenger events where favorites often lose one set.
+
+I would also check CLV. If your bets at 1.25 close at 1.18–1.20 often, that is strong proof of edge. If they move to 1.35 or more, maybe the model misses things like injuries or motivation.
+
+I am also curious about the model:
+
+	•	What features do you use? Elo, serve/return stats, surface, recent form?
+	•	How do you define model confidence?
+	•	Did you compare it with a simple baseline, like betting all favorites in the same odds range?
+
+With 4.5k bets, the sample is already good. A deeper look at odds distribution and CLV could be the best next step.
+
+  [Remarkable-Bowler-60 | 1 pts]
+  Good call. I am thinking 5% is too much and may drop to 3 or 4. I was able to make some changes that drop the drawdown to 61% at 5% stakes.
+
+Model looks at all you mention and more. Confidence is just the models probability the player wins. Yep, compared to baseline of just going with the market and picking the favorite.
+
+[Thenumbersguy777 | 0 pts]
+Doesnt seem worth pursuing with that low of an ROI. You planning to wager $100k to win $2k? Betting on heavy favorites are probably typically negative EV plays too bc of how much punters blindly back them
+
+  [Remarkable-Bowler-60 | 6 pts]
+  Isn't 2%+ ROI considered pretty sharp for this volume of bets? The real value is in the compounding and not using a flat stake.
+
+    [Thenumbersguy777 | -1 pts]
+    I don’t mean to be discouraging, i just don’t think 2% roi taking heavy favorites is an edge, especially with a 75% drawdown. I tend to think of edges being very minimal drawdowns, compounding over time, profitable almost every year (which you have) 5% absolute minimum roi, 8%+ ideal. I could find a ton of back tested outcomes (various sports) with 2% roi over that volume of bets, once you get to 5-10% roi is where it is very difficult at high volumes
+
+      [Remarkable-Bowler-60 | 2 pts]
+      It's all good. I am just trying to understand what "good" looks like.
+
+I was under the impression that breakeven (0% ROI) was actually better than most retail bettors due to vig.
+
+Regarding the strat being most profitable on heavy favorites, if I said I had 2% ROI betting on underdogs you would think it was better? It's 2% regardless, so who cares?
+
+        [Thenumbersguy777 | 1 pts]
+        Agreed that positive roi at any metric is better than retail bettors. Your strategy clearly isolates the better heavy favorites to take so it reduces my point on dogs being better plays than favorites. I’m more of saying without any strategy implied dogs are inherently higher EV than favorites are in a significant amount of situations, because retail typically leans on favorites. That’s why im saying the 2% roi didnt seem like a huge margin to work with if pricing erodes by 2% to your favorite plays because the retail bettors are taking them more in the future, the edge is gone

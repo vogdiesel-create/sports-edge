@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-04-18T11:17:01.107595+00:00",
+  "total_elapsed_sec": 201.8,
+  "total_steps": 5,
+  "errors": 0,
+  "total_picks": 5,
+  "steps": [
+    {
+      "step": "NHL Data Pipeline",
+      "status": "ok",
+      "error": null,
+      "elapsed_sec": 7.5
+    },
+    {
+      "step": "MLB Data Pipeline",
+      "status": "ok",
+      "error": null,
+      "elapsed_sec": 13.2
+    },
+    {
+      "step": "Edge Detector",
+      "status": "ok",
+      "error": null,
+      "elapsed_sec": 39.3
+    },
+    {
+      "step": "Smart Scanner",
+      "status": "ok",
+      "error": null,
+      "elapsed_sec": 140.5
+    },
+    {
+      "step": "Paper Trading",
+      "status": "ok",
+      "error": null,
+      "elapsed_sec": 1.3
+    }
+  ]
+}

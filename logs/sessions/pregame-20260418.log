@@ -1,0 +1,15 @@
+=== Sports Edge Analyst Session: pregame ===
+=== 2026-04-18 18:00 UTC ===
+
+Pre-game review written. Key findings:
+
+**CRITICAL:** 2 moneyline picks (OTT@CAR, LAD@COL) are still in today's pick file despite ML being disabled. These are zombie picks from a pre-fix pipeline run. Do not bet them.
+
+**Of the 3 valid totals picks:**
+- **BAL @ CLE U8.0** - Medium-high confidence. Cold weather helps. Won this same bet yesterday. Watch for line movement.
+- **MIL @ MIA U8.0** - Recommend SKIP. We've lost this exact bet twice already this series (combined -$227). Chasing the same under in game 3 is the repeat matchup bias the morning analysis identified.
+- **CIN @ MIN U8.5** - Medium confidence. Fresh series, cold weather, but marginal 6.91% edge and sub-model disagreement.
+
+**Bottom line:** 2 bets for ~$223 exposure rather than 5 bets for $547. The pipeline needs a clean re-run to purge the moneyline zombies from `latest.json`.
+
+=== Session Complete: 2026-04-18 18:01 UTC ===

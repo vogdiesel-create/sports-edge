@@ -1,0 +1,19 @@
+=== Sports Edge Analyst Session: pregame ===
+=== 2026-04-30 18:00 UTC ===
+
+Pre-game review complete. Here's the summary:
+
+**Today's Action:**
+- **9 OT Total Bases unders** (HIGH confidence) - our real alpha, 70.5% WR, statistically significant
+- **1 Hits Allowed under** (MODERATE) - Peralta u4.5 HA
+- **3 Game Model OVERs** (LOW confidence) - model is 27W-27L breakeven overall
+
+**Key flags:**
+- DET @ ATL OVER 8.5 is the weakest game model pick - massive sub-model disagreement (Poisson 10.05 vs XGBoost 7.46), Framber Valdez pitching, wind in
+- Peter Lambert Strikeouts correctly filtered out by the disabled markets list
+- OT TB picks are the bread and butter - Dustin Harris, Salvador Perez, Brandon Marsh are top 3
+- Need to verify the evening cron properly sizes the TB picks (morning run logged 0 OT picks sized)
+
+Written to `analysis/journal/2026-04-30-pregame.md`.
+
+=== Session Complete: 2026-04-30 18:02 UTC ===

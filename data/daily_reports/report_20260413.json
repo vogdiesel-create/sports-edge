@@ -1,0 +1,17 @@
+{
+  "date": "2026-04-13",
+  "timestamp": "2026-04-13T18:29:05.195233+00:00",
+  "bankroll": 5000,
+  "total_bets": 31,
+  "graded": 0,
+  "pending": 31,
+  "record": "0W-0L-0P",
+  "win_rate": 0,
+  "total_pnl": 0,
+  "roi": 0,
+  "clv_checks": 0,
+  "clv_avg": 0,
+  "clv_positive_rate": 0,
+  "target_bets": 200,
+  "progress": "0/200 (0%)"
+}

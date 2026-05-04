@@ -1,0 +1,173 @@
+[2409.17129] Bayesian Bivariate Conway-Maxwell-Poisson Regression Model for Correlated Count Data in Sports
+Statistics > Methodology
+arXiv:2409.17129
+(stat)
+COVID-19 e-print
+Important:
+e-prints posted on arXiv are not peer-reviewed by arXiv; they should not be relied upon without context to guide clinical practice or health-related behavior and should not be reported in news media as established information without consulting multiple experts in the field.
+[Submitted on 25 Sep 2024]
+Title:
+Bayesian Bivariate Conway-Maxwell-Poisson Regression Model for Correlated Count Data in Sports
+Authors:
+Mauro Florez
+,
+Michele Guindani
+,
+Marina Vannucci
+View a PDF of the paper titled Bayesian Bivariate Conway-Maxwell-Poisson Regression Model for Correlated Count Data in Sports, by Mauro Florez and 2 other authors
+View PDF
+HTML (experimental)
+Abstract:
+Count data play a crucial role in sports analytics, providing valuable insights into various aspects of the game. Models that accurately capture the characteristics of count data are essential for making reliable inferences. In this paper, we propose the use of the Conway-Maxwell-Poisson (CMP) model for analyzing count data in sports. The CMP model offers flexibility in modeling data with different levels of dispersion. Here we consider a bivariate CMP model that models the potential correlation between home and away scores by incorporating a random effect specification. We illustrate the advantages of the CMP model through simulations. We then analyze data from baseball and soccer games before, during, and after the COVID-19 pandemic. The performance of our proposed CMP model matches or outperforms standard Poisson and Negative Binomial models, providing a good fit and an accurate estimation of the observed effects in count data with any level of dispersion. The results highlight the robustness and flexibility of the CMP model in analyzing count data in sports, making it a suitable default choice for modeling a diverse range of count data types in sports, where the data dispersion may vary.
+Comments:
+Journal of Quantitative Analysis in Sports (in press)
+Subjects:
+Methodology (stat.ME)
+; Applications (stat.AP)
+Cite as:
+arXiv:2409.17129
+[stat.ME]
+(or
+arXiv:2409.17129v1
+[stat.ME]
+for this version)
+https://doi.org/10.48550/arXiv.2409.17129
+Focus to learn more
+arXiv-issued DOI via DataCite
+Submission history
+From: Marina Vannucci [
+view email
+]
+[v1]
+Wed, 25 Sep 2024 17:48:03 UTC (6,965 KB)
+Full-text links:
+Access Paper:
+View a PDF of the paper titled Bayesian Bivariate Conway-Maxwell-Poisson Regression Model for Correlated Count Data in Sports, by Mauro Florez and 2 other authors
+View PDF
+HTML (experimental)
+TeX Source
+view license
+Current browse context:
+stat.ME
+< prev
+|
+next >
+new
+|
+recent
+|
+2024-09
+Change to browse by:
+stat
+stat.AP
+References & Citations
+NASA ADS
+Google Scholar
+Semantic Scholar
+export BibTeX citation
+Loading...
+BibTeX formatted citation
+×
+loading...
+Data provided by:
+Bookmark
+Bibliographic Tools
+Bibliographic and Citation Tools
+Bibliographic Explorer Toggle
+Bibliographic Explorer
+(
+What is the Explorer?
+)
+Connected Papers Toggle
+Connected Papers
+(
+What is Connected Papers?
+)
+Litmaps Toggle
+Litmaps
+(
+What is Litmaps?
+)
+scite.ai Toggle
+scite Smart Citations
+(
+What are Smart Citations?
+)
+Code, Data, Media
+Code, Data and Media Associated with this Article
+alphaXiv Toggle
+alphaXiv
+(
+What is alphaXiv?
+)
+Links to Code Toggle
+CatalyzeX Code Finder for Papers
+(
+What is CatalyzeX?
+)
+DagsHub Toggle
+DagsHub
+(
+What is DagsHub?
+)
+GotitPub Toggle
+Gotit.pub
+(
+What is GotitPub?
+)
+Huggingface Toggle
+Hugging Face
+(
+What is Huggingface?
+)
+ScienceCast Toggle
+ScienceCast
+(
+What is ScienceCast?
+)
+Demos
+Demos
+Replicate Toggle
+Replicate
+(
+What is Replicate?
+)
+Spaces Toggle
+Hugging Face Spaces
+(
+What is Spaces?
+)
+Spaces Toggle
+TXYZ.AI
+(
+What is TXYZ.AI?
+)
+Related Papers
+Recommenders and Search Tools
+Link to Influence Flower
+Influence Flower
+(
+What are Influence Flowers?
+)
+Core recommender toggle
+CORE Recommender
+(
+What is CORE?
+)
+Author
+Venue
+Institution
+Topic
+About arXivLabs
+arXivLabs: experimental projects with community collaborators
+arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.
+Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
+Have an idea for a project that will add value for arXiv's community?
+Learn more about arXivLabs
+.
+Which authors of this paper are endorsers?
+|
+Disable MathJax
+(
+What is MathJax?
+)

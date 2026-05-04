@@ -1,0 +1,67 @@
+{
+  "week": "W17",
+  "period": "2026-04-20 to 2026-04-26",
+  "summary": {
+    "total_graded": 199,
+    "target": 200,
+    "combined_pnl": 573.03,
+    "week_pnl_estimate": 388,
+    "note": "Best week yet. K-props + game model overs drove profits."
+  },
+  "by_model": {
+    "game_model": {
+      "cumulative": {"record": "23W-24L-1P", "pnl": -74.19, "roi": -1.5},
+      "week_graded": {"record": "2W-1L", "pnl": 98.84},
+      "pending": 5
+    },
+    "k_props": {
+      "cumulative": {"record": "33W-21L", "pnl": 647.22, "roi": 12.6},
+      "week_graded": {"record": "13W-5L", "pnl": 513.53},
+      "pending": 9
+    },
+    "oddstrader_sim": {
+      "cumulative": {"record": "51W-46L", "pnl": 246.54, "roi": 10.9},
+      "week_graded": {"record": "26W-12L", "pnl": 419.31},
+      "pending": 2
+    }
+  },
+  "by_market": {
+    "mlb_total_over": {"record": "5W-0L", "pnl": 642.34, "wr": 100.0, "stat_sig": true},
+    "mlb_total_under": {"record": "10W-12L-1P", "pnl": -169.82, "wr": 45.5},
+    "nhl_total_under": {"record": "6W-4L", "pnl": 221.17, "wr": 60.0},
+    "nhl_total_over": {"record": "0W-2L", "pnl": -300.00, "wr": 0.0},
+    "moneyline_all": {"record": "2W-6L", "pnl": -467.88, "status": "DISABLED"},
+    "k_prop_under": {"record": "17W-10L", "pnl": 450.88, "wr": 63.0},
+    "k_prop_over": {"record": "16W-11L", "pnl": 196.34, "wr": 59.3},
+    "oddstrader_tb": {"record": "27W-10L", "pnl": 615.81, "wr": 73.0, "stat_sig": true}
+  },
+  "edge_buckets_totals": {
+    "5_to_8_pct": {"record": "6W-7L", "pnl": 43.03, "wr": 46},
+    "8_to_12_pct": {"record": "10W-5L-1P", "pnl": 587.80, "wr": 67},
+    "12_plus_pct": {"record": "5W-6L", "pnl": -237.14, "wr": 45}
+  },
+  "clv": {
+    "all": {"avg": -0.33, "positive_rate": 35, "sample": 40},
+    "under": {"avg": -0.49, "positive_rate": 30, "sample": 33},
+    "over": {"avg": 0.44, "positive_rate": 57, "sample": 7}
+  },
+  "statistical_significance": {
+    "combined_all": {"z": 0.47, "p": 0.32, "significant": false},
+    "k_props_all": {"z": 1.28, "p": 0.10, "significant": "marginal"},
+    "game_model_over": {"z": 2.13, "p": 0.017, "significant": true, "note": "5W-0L but tiny sample"},
+    "oddstrader_tb": {"z": 2.51, "p": 0.006, "significant": true, "note": "STRONGEST signal in the system"}
+  },
+  "pitcher_misrates": [
+    {"pitcher": "Cole Ragans", "dates": ["04-25"], "expected": 5.1, "actual": 11, "error": -5.9, "pattern": "high-K arm, model underestimates ceiling"},
+    {"pitcher": "Tarik Skubal", "dates": ["04-18"], "expected": 5.4, "actual": 10, "error": -4.6, "pattern": "elite K arm, same issue"},
+    {"pitcher": "Roki Sasaki", "dates": ["04-19"], "expected": 6.2, "actual": 2, "error": 4.2, "pattern": "model overestimates, 2 bets both lost"},
+    {"pitcher": "Jacob Misiorowski", "dates": ["04-19", "04-25"], "expected": 5.4, "actual": 9.0, "error": -3.6, "pattern": "rookie fireballer, model underestimates"}
+  ],
+  "experiments_status": {
+    "EXP-001_edge_cap": "VALIDATED - 8-12% is 67% WR, 12%+ is 45% WR",
+    "EXP-002_k_split": "VALIDATED - UNDER 63% WR vs OVER 59% WR",
+    "EXP-003_ml_disabled": "VALIDATED - ML was 2W-6L, good riddance",
+    "EXP-004_1_bet_per_pitcher": "RUNNING - no double-exposure issues this week",
+    "EXP-005_mlb_overs_enabled": "EARLY SUCCESS - 2 OVER picks on Apr 25 both won"
+  }
+}

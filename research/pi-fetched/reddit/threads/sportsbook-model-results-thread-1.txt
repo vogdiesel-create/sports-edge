@@ -1,0 +1,444 @@
+# Probabilities and Alt Lines and Why They Are Generally Unprofitable
+
+[iama_scientist123 | 348 pts | 113 comments]
+
+Hey guys, I've received quite a few messages and DM's asking me about alt lines and I have a generally blanket response: **Don't do them.**
+
+I thought it would be helpful to explain why, using NBA player points props as an example below.
+
+Generally, a player's scoring distribution fits the following graph (here is a hypothetical distribution for a player scoring 20 points per game for the season, with a standard deviation of 8 points):
+
+https://preview.redd.it/by3cfbtwekie1.png?width=1274&amp;format=png&amp;auto=webp&amp;s=6b555ed52f8bbfbf770f0b211a9669800fc5ad96
+
+A great real life example would be Paolo Banchero from last season:
+
+[Paolo Banchero scoring distribution 2023-2024 season](https://preview.redd.it/2v44f6bmckie1.png?width=924&amp;format=png&amp;auto=webp&amp;s=f65389bb531d5b85cbdbde16831f42c312003941)
+
+Most of his performances occur near his season average of 22.6 points per game, with the probability of lower and higher scoring games dropping off as you move up or down away from this mean.
+
+So what does this have to do with alt lines? Well, if you tease a prop down, you can see that the probability that a player goes over that alternate line goes up. That's pretty straightforward.
+
+**Now the part they don't tell you:** That increase in probability of hitting your bet will **almost never** result in a coinciding proper payout from the books.
+
+Let me illustrate...
+
+So let's say a sportsbook is offering you a traditional line of 20 points for a given player on the night with odds of -110:
+
+https://preview.redd.it/sfm417syfkie1.png?width=1372&amp;format=png&amp;auto=webp&amp;s=a1742716f8688c26779be2255e5097e745d99745
+
+It's a 50/50 bet and you're getting just slightly below even odds, this results in an implied probability of 52.4%, ie., you need to be right on this bet 52.4% of the time to breakeven on this bet.
+
+In terms of EV, again if we assume the sportsbooks have settled to the most efficient/sharpest line, the probability of over is 50% with payout of +0.91 if you're correct for an EV of 0.955. In other words, for every $100 you risk on this type of bet, you are expected to win back $95.50 (i.e., -$4.50 expected net loss).
+
+Now let's say I were to tease the line down by 4 points to 16. What is my probability of hitting the over on this bet?
+
+https://preview.redd.it/tkzdrloigkie1.png?width=1531&amp;format=png&amp;auto=webp&amp;s=896e7a1c9d0e6962a724e932f05c1db4a27b47d0
+
+My probability just went up to 69.1%! Great!! Right...?
+
+Well, it depends on what the sportsbooks are offering on this payout. If they wanted to maintain the 2.4% vig on the traditional line, the sportsbooks *should be* offering you -251 on this alternate line (69.1% chance to hit, implied probability of 71.5% for 2.4% vig).
+
+But you'll almost never be offered these odds. Instead, you'll be offered a **much, much lower payout.**
+
+Here is an example from today. The over on Desmond Bane points is currently being offered at 19.5 for -105 odds. Implied odds of 51.2%, i.e., we have to be right on this bet 52 or more times out of 100 in order to be profitable:
+
+https://preview.redd.it/1s1i1onxikie1.png?width=1217&amp;format=png&amp;auto=webp&amp;s=c9274c8c690db2781c686d59c2baa0568ea5d336
+
+What are our odds if we tease this down 4 points to 15+?
+
+[Desmond Bane alternate points prop of 15+](https://preview.redd.it/zog9qn90jkie1.png?width=1248&amp;format=png&amp;auto=webp&amp;s=619c8511f166f1c8eb06291e6ed05820303ea17f)
+
+Best odds are -360 on 15+. As we illustrated above, the probability of going over is 69.1%, we need -224 or better odds in order to profit on this bet. But what are we getting? -360 odds, which is an implied probability of 78.3%. Even if you were right 78 out of 100 times on this bet, you would still be unprofitable.
+
+To further illustrate the point, if we were to take this bet (15+ (-360), i.e., win 0.28 for every 1.0 unit risked,  with 69.1% chance of being correct), we would get an EV of 0.885. In other words, for every $100 you bet you win back $88.50 (net loss -$11.50). This is nearly **triple the vig** of the traditional bet.
+
+TL;DR: Don't take alternate lines. The oddsmakers make sure you will never win back enough to justify the higher hit rate
+
+EDIT: The Desmond Bane example above is a purely hypothetical situation, DO NOT smash his over 25+ today. My model has him scoring 17.4-18.9 points today (lower end if Ja plays today), and he has a tighter standard deviation than most players, so in layman's terms his probability of going above his average is lower for him than most players. In other words, if you want to bet Bane 25+ points today, he's going to need at least +456 odds just to breakeven
+
+---
+## Comments
+
+[[deleted] | 32 pts]
+[deleted]
+
+  [iama_scientist123 | 9 pts]
+  Hahah hey I have to try!
+
+[Different_Boot762 | 23 pts]
+Amazing post thank you
+
+[gameboicarti1 | 20 pts]
+Great post with easy to understand statistics. 
+
+You should post it on r sportsbetting and see the reaction to it, the guys over there are at war with probability/statistics.
+
+  [iama_scientist123 | 16 pts]
+  I tried to share there and it got taken down really quicky lol
+
+[san_solares | 15 pts]
+W post. Stats are king.
+
+[TitanCubes | 16 pts]
+You’re obviously right about the general rule here, but 15+ for Bane is not 4 points down from 19.5. If the line was actually 15.5 it would probably be more like -300 or -280 then -360.
+
+[YYqs0C6oFH | 14 pts]
+But what about the fact that player stats don't fall into a normal distribution curve? The book's line will be at the center, but the upper and lower sides of the curve vary quite a bit depending on the player, stat, matchup, etc. And the high end of the curve isn't necessarily congruent with the low end.  
+
+I don't necessarily disagree with your conclusion, I think alt lines are generally one way markets (can only take the over) which allows them to juice them a lot more and worse than the 2 way main lines because of that. But proving that fact by fitting a hypothetical player to a normal distribution curve doesn't make sense to me.
+
+  [iama_scientist123 | 11 pts]
+  Yup! I didn’t want to get into that nuance here, but a player’s season distribution will be a merger of multiple distributions so it gets messier. For example, one distribution for home games, one for away. Or some may separate based on days of rest, others by opponent or on/off (Ja Morant plays or doesn’t play). But that’s a much bigger topic and I didn’t want to go down the multivariate linear regression rabbit hole for this post.
+
+What you should be doing is lining up a sportsbook’s offered line and odds against the distribution your model has generated for your given situation (eg, no Morant, home game, 3 days rest), not the season distribution
+
+    [YYqs0C6oFH | 7 pts]
+    Fair enough. I absolutely agree with your conclusions so hopefully people use this info to bet smarter.
+
+      [iama_scientist123 | 2 pts]
+      Same here and thank you for the discourse!
+
+[Kollekt2 | 13 pts]
+Very well written. Agree in most cases. If you’re taking an alternate you have to do so with the understanding you will not be getting fair odds
+
+  [Kollekt2 | 2 pts]
+  I’ll usually only take an alternate when it’s higher and that’s usually ladder
+
+  [iama_scientist123 | 1 pts]
+  Yup, absolutely! I think the default assumption is vig stays the same, but as others have noted its easier to hide the vig on these one way bets
+
+[echOSC | 13 pts]
+Another very important thing to realize. If you do consistently find mispriced alt-lines, you will get shut down faster than regular lines.
+
+[TripleDoubleFart | 13 pts]
+Now post this on r/sportsbetting.
+
+[Civil-Seaweed-5223 | 9 pts]
+Parleezyyyyy 🤌🏽
+
+[bledblu | 8 pts]
+I think you’ve made a math mistake
+
+  [iama_scientist123 | 2 pts]
+  Ooh sure, happy to fix if I mixed up numbers! Was doing the calcs in my head and may have missed something
+
+    [The_Capt_is_right | 4 pts]
+    You teased bane down 5 points not 4
+
+      [IceLTerp47 | 2 pts]
+      Yea. 15+ vs over 19.5 is 5 point difference. Right?
+
+[Specialist_Dream3570 | 6 pts]
+Really nice information. I do love using the alt props with boost. Otherwise I tend to stay way.
+
+  [iama_scientist123 | 3 pts]
+  Agreed, with the boost it helps a bit to improve the EV if you absolutely hate the traditional line and you just need anything to pair your bet with, example being if you're doing a Prize Picks type slip where you need a minimum of 2 players in a parlay to submit
+
+[KabsTheKaboom1 | 7 pts]
+Very good analysis thanks for this. I think the appeal is when you have that gut feeling that a player will pop off, teasing the line materially higher has a strong appeal. For example, I’m sure tons of ppl hit big on props like Eagles -10 on Sunday night
+
+Generally speaking, if a line is one sided, don’t bet it. If it’s two sided and you want to bet it, quickly just test the vig in a calculator and don’t overpay!
+
+  [iama_scientist123 | 4 pts]
+  Thanks! Agreed, but if you’re that confident, then the traditional prop should suffice, it’s a much better payout relative to odds
+
+[TheCookingSho | 7 pts]
+Very nice presentation.
+
+  [iama_scientist123 | 2 pts]
+  Thank you!
+
+[Any-Maize-6951 | 5 pts]
+Only reason I like alt lines is for alt spreads. And that’s for bonus bet converting
+
+[Evansvillain | 5 pts]
+Very good post! Thank you!!  One of my favorite bets is catching an NBA team that is down by 10, maybe around halftime, and going to Fanduel and hitting the +11 on the margin tab.  That line is ALWAYS higher than the -10.5 alt spread.  Sounds like I've foolishly thought , because of this, I was getting a good deal.  However, I believe I'm overall ahead in doing this. Have hit several +4000 - +5000 momentum swings.  I will rethink this strategy with your info in mind.
+
+   Question...I've also had this belief that when there are huge momentum swings in games, that you can sometimes find value in being quick on the draw, as prices are changing rapidly.  I've watched moneylines go from +200 to +1400 back to +300 in less than a minute, but then again I haven't tried to actually play some of these, so I don't know if they would have even gone through (before price changed)...I guess my question is, your info applies no matter what in the sense that, you probably aren't going to get better alt lines just because a game got turned upside down in a hurry, right?  I guess I think "I will be quicker than Vegas!" and that never happens LOL
+
+  It truly amazes me, going to NBA games and every once in a while (especially free throws) watching how quick everything is updated.  Obviously the only way that live betting really works.   I'm so used to using fanduel or draftkings to keep track of a game (even when watching) that I've tricked myself into thinking that fanduel is still ahead of me, at a real game. lol
+
+  [Triple66ix | 2 pts]
+  What’s your method for hitting those wild swings
+
+    [Evansvillain | 1 pts]
+    Wild hunches…and I’m pretty sure i don’t have any real gains from it. But i will say that if you have a game, lets say Cleveland and Portland and lets say Portland is up by 15 in the second quarter, and they finally get to a point where they are favored, i will start quickly looking at Fanduels margins, like +11 and +26 cleveland. Might throw 5 on each. Its really just looking at Clevelands games and how they just dominant teams, consistently. 
+   Have i gained an edge doing this? Probably not, but have you ever seen those graphics on fb where the top half shows a line score from tv like Portland 47 Cleveland 31, 8:03 2nd quartet then the bottom is final like Portland 101 Cleveland 132. I’ve hit a few of those, but of course i’ve lost a lot more 😂
+
+    [Evansvillain | 1 pts]
+    TLDR - I think the ones i hit, are what you would have expected to start the game. (cleveland winning by 20 or 30)
+
+    [Evansvillain | 1 pts]
+    Last year my buddy had a nice run where he was doing Warriors +11 at home, when they were trailing at half or 3rd quarter. There were a few weeks they were every game he did this it seemed like he won.
+
+      [Triple66ix | 2 pts]
+      Smart going to add this to the playbook
+
+        [Evansvillain | 1 pts]
+        Just seems like , for whatever reason, +11 on the margin tab is always10-20% higher than alt spread -10.5…but that really just confirms that both are overpriced
+
+        [Triple66ix | 1 pts]
+        Need a good run trying to turn 200 in 1k
+
+[67Sweetfield | 6 pts]
+If the book is offering it, it likely is not good for the bettor.
+
+  [[deleted] | 3 pts]
+  Then don’t bet. everything they offered is not good for u.
+
+    [67Sweetfield | 2 pts]
+    You damn well knew what I meant.
+
+[No-Knowledge-3872 | 4 pts]
+What about if you were to take an alternate line like 25+ points? could you breakdown the math that way? I often will sell a few points in order to get to plus odds. Your thoughts?
+
+  [iama_scientist123 | 6 pts]
+  Thats is an excellent question. So if I'm understanding correctly, let's say the traditional prop on Bane is 19.5 and you think he goes off (maybe Ja, JJJ are both out and the head coach says something like "we gotta get Bane 10 more shots this game"), so you want to take 25+? So generally, for every point you take or give up, you change your odds by \~4%. So in the case of Bane, if you're moving the line by 5 points, you should get an improved payout whose implied odds are about -20% lower than the traditional bet in order for it to be "fair". If you can get a bigger boost than that, it's a decent bet.
+
+Example: Bane o19.5 is -105 (implied odds of 51.2%), if you were to take 24.5+ you would want to get odds of +223 or better (implied odds of 31%).
+
+    [No-Knowledge-3872 | 1 pts]
+    Okay great, so I should go smash Bane 25+ on DK at +290? Seems like I'm getting a massive edge on that bet.
+
+      [iama_scientist123 | 1 pts]
+      Let me run the numbers, one sec
+
+        [iama_scientist123 | 2 pts]
+        Don’t smash, you need +456 to breakeven. My model actually has Bane at 17.4-18.9 today and given a tighter standard deviation, the alt line of 25+ is 17% to go over.
+
+      [iama_scientist123 | 1 pts]
+      Don’t smash, you need +456 to breakeven. My model actually has Bane at 17.4-18.9 today and given a tighter standard deviation, the alt line of 25+ is 17% to go over.
+
+        [No-Knowledge-3872 | 4 pts]
+        Too late I have 1u on it lmfao. great write up bro GL tonight
+
+        [iama_scientist123 | 3 pts]
+        GL! Let’s go Bane!
+
+        [iama_scientist123 | 1 pts]
+        Don’t smash, you need +456 to breakeven. My model actually has Bane at 17.4-18.9 today and given a tighter standard deviation, the alt line of 25+ is 17% to go over.
+
+        [TheSharpSurgeon | 1 pts]
+        How did you arrive at +456 (18%) to breakeven?
+
+  [No-Knowledge-3872 | 1 pts]
+  Could be wrong, but the implied probability of say the 24 points in the normal distribution you showed will yield 30.9% implied probability necassary. With the 2.4% vig, the book should offer 28.5% and thus +251 correct? Desmond Bane 25+ points is offered at +290 at DK. I'm not sure the implied probability of 24 points vs 25 points, but I would have positive ev betting +290 at implied odds of +251. Please, correct me if I am wrong!
+
+[beaverboys2020 | 3 pts]
+I think it might make sense if you’re betting alt lines in parlays. that’s what I do anyway - cause no way am I throwing down on a -256 for single player prop.
+
+  [iama_scientist123 | 20 pts]
+  But you indirectly are.. let’s say you have three alt lines of -256 each.. each line is risk $10 to win $3.90…
+
+Now if you parlay all three, you’re going to be offered +169 odds… risk $10 to win $16.90 ($26.90 total)
+
+Looks better, right? Not so fast…
+
+What you’re actually doing is a sequence of bets:
+
+Risk $10 to win $3.90 ($13.90 total) on leg 1
+
+Then roll that over to risk $13.90 to win $5.42 ($19.32 total) on leg 2
+
+Then roll that over to risk $19.32 to win $7.53 ($26.86 total) on leg 3
+
+It’s the same bet, the parlay hides the bad odds
+
+    [[deleted] | 0 pts]
+    No it isn’t bad odds you are ignoring the correlations between players. For example in a high scoring game everyone could hit alt line but there is minimal chance that everyone hit their straight line.
+
+https://preview.redd.it/ouikwzym6pie1.jpeg?width=1290&amp;format=pjpg&amp;auto=webp&amp;s=ca490456bd78bdfd9c5aa3cd08bea4ffa5303475
+
+[Rydag | 4 pts]
+I enjoying trying to hunt blowout games and bet an alternate spread for increased odds. Sometimes taking a ladder of sorts on the alt line, staking less as the odds increase but the base alt will still profit overall if the others do not hit. It's more something I do for fun, just like using watered down lines on parlays. 
+
+I try to stick to a 75/25 split between bets based on data, continuously grinding out smaller wins. On the fun side I will put together over/under lines for parlays, hit two 6 leg over/under parlays yesterday on fun bets. With good bankroll management I'm seeing fairly good results so far.
+
+  [iama_scientist123 | 2 pts]
+  Very nice approach! Yeah I love the ladder approach when the alt lines give you as good (sometimes better) EV! Let’s you realize that positive EV more easily w proper bet sizing (I use quarter Kelly personally)
+
+    [Rydag | 1 pts]
+    Sticking to the fractional Kelly system has really helped, especially on days where I'm just not hitting. Makes it a lot easier to bounce back, and avoid busting your bankroll for sure. Not as flashy as the long tickets, but it's much better long term planning.
+
+      [iama_scientist123 | 2 pts]
+      Absolutely! Gotta avoid losing -11 unit days to make the +10 unit days worthwhile
+
+[blumnblam | 4 pts]
+Great post, great examples. It could be more explanatory if your Bane example used different Std deviation to reflect his actual averages and how it relates to alt lines odds EV/implied value
+Thx for sharing !
+
+  [iama_scientist123 | 1 pts]
+  Thank you! Agreed on Bane but I didn’t want to confuse anyone by switching up the std deviation ranges but then had to make the edit because I realized people may take the hypothetical example literally haha
+
+[HPM2009 | 3 pts]
+Sexy post mayne
+
+  [iama_scientist123 | 3 pts]
+  Cheers!
+
+    [HPM2009 | 2 pts]
+    I only have one legal book where I’m at so they juice the hell out of everything and allow 1 way markets on a lot of props that other major books allow both sides  (only overs). But it just baffles me how you can have a players line at 1.5 three pointers for for -150 then have alt line of 1 three at -700 or point line at 21 for -125 but then have 15 points at -1500 . Shits insulting
+
+      [iama_scientist123 | 3 pts]
+      Yup! When its one-way they can pay whatever they want because there’s no pressure to have a “fair” bet on the other side since you then can’t easily calculate vig
+
+[eozje | 3 pts]
+One of my “specialty style” bets that I do that no one I know does is say a team like Blazers are -1 against kings then Cavs -2 against Celtics for example. I’ll take +8.5 on both sides at like -450ish (around that range of late 300s to early 500s) to make a nice solid -180 or lower play. How is the EV on that? I used to hit them at a high clip but getting burnt by NBA recently. I thought these were guaranteed money as my thought process is “I expect this team to not get blown out and it’s highly unlikely they lose by this much, especially when most of these I expect them to outright win! I’m going on the opposite side of the spread and combining these 2 are so guaranteed and this bet is fire” but not so sure anymore. Seems like this may be in the same ballpark? Basically just like taking teasers and combining alternate spreads, making my own teasers kinda
+Would love your insight on this because this post makes a lot of sense
+
+  [iama_scientist123 | 7 pts]
+  I haven’t done an analysis of spreads (especially real margin of victory relative to where the books had the spread at close), so hard for me to comment on what the EV might be. With that being said, you need to be right &gt;82% of the time on these bets to make a profit.. in other words, if you bet this type of bet 5x and you’re wrong just once, you’re unprofitable for that set of 5 games.
+
+  [Jones3787 | 0 pts]
+  It sounds good on paper because it's very "doable"/realistic but I can say without doing any math that's almost certainly -EV and you shouldn't bet those. Has probably gotten worse in recent NBA seasons with all the blowouts though. 
+
+[bl0oc | 5 pts]
+Taking alt lines at -odds is always a bad play. Take the straight line or +odds is the only way.
+
+[Steeeeeve_DePirate | 3 pts]
+what about taking the alt line of 1 point less where the vig is -130 rather than -108 or something
+
+  [iama_scientist123 | 4 pts]
+  Good question! So generally speaking, what you first want to do is figure out what the difference between -130 and -108 are in terms of implied odds. In this case, -130 implied odds is 56.5%, -108 is 51.9% (4.6% difference).
+
+If you assume the prop at -108 is the sharpest line, and the player’s standard distribution is 8 points, a 1 point shift means you should be increasing your probability of hitting the alt line by ~4-5%. As long as the implied probability difference calculated above is in line with the increased probability, it may be okay to take the bet (or take both lines as a ladder strat)
+
+[Billy_Madison69 | 4 pts]
+I agree that alt prop lines are most often a bad idea, but there can be times that they end up being +EV. Usually it’s teasing upwards for increased payout though, and you’re not gonna find them by just picking a player you have a good “feel” for like most cappers in here will do.
+
+  [iama_scientist123 | 5 pts]
+  Yup! If you think a player is mispriced to the low side, you can tease up and only give up a few percentage points in probability because you’re traveling closer to the tail of the distribution curve but the books may be paying you as if you’re traveling across the “fatter” portion of the curve
+
+[rshacklef0rd | 2 pts]
+What about Hockey? the normal spread is 1.5, but I sometimes take an alt spread of 2.5 and parlay 2 or 3 together.
+
+  [iama_scientist123 | 3 pts]
+  Oh that’s one sport I don’t follow, sorry!
+
+  [yaboytomsta | 2 pts]
+  Same rules probably apply. Alt lines probably just have more vig and parlaying them hides that
+
+  [67Sweetfield | 1 pts]
+  Track it, either going forward or if you can, in retrospect. See the difference.
+
+[Saymanymoney | 2 pts]
+Like the post and information.
+
+For Bane however, in his last 15 gamea he has been over 15 points 100%, averaging 20.9. Last 30 games over 27 times, averaging 19.5.
+
+For alt lines like that, do you have a different way of evaluating?
+
+  [iama_scientist123 | 3 pts]
+  Yup, I will take into account recent form if there is a statistically significant shift in performance over last month of games (usually threshold is &gt;10 games played). With that being said, I’m generally of the mindset to be overly conservative, I will apply the most conservative model (in this case season avg rather than past month) and see if the bet I’m leaning toward is still viable with more modest assumptions. I tell others that a lot of the time I’m looking for reasons not to take a bet, and I can’t find a reasonable one then I take it, not the other way around.
+
+[ohwhenthesaints | 2 pts]
+This was a good read and a pretty good generalization of how to use certain distribution curves to price alts.
+
+Just one correction, in your Desmond Bane example, teasing from o19.5 to 15+ (aka o14.5) is a 5 point tester, not 4.
+
+  [iama_scientist123 | 2 pts]
+  Thank you! Very much correct on the shift, also perhaps a poor example as Bane doesn’t actually fit the example of an 8 pt std deviation player (he’s closer to 6, helped with the u31.5 live bet yesterday 😂)
+
+[so_amason | 1 pts]
+My inner autistic AP stats from some time ago loved this post
+
+  [iama_scientist123 | 1 pts]
+  Hahah that is one of the nicest compliments I’ve gotten in awhile! Cheers!
+
+    [so_amason | 2 pts]
+    For sure man, as someone who often will take lower alt lines since I can only bet parlays with PrizePicks (in Texas) just to get a parlay to hit, it really helped seeing the numbers and math behind it. Love seeing props hit regardless, but it’s bittersweet to bet an alt prop just to watch the player double that projection lol
+
+Love all the post btw! You give me an impression of a Vegas numbers insider who had a morality check and put his 2 weeks in to come help the people 😂
+
+[yungsilt | 1 pts]
+Is the vig as bad for alternate spreads / totals? Or is it mainly player props where they scam you
+
+  [iama_scientist123 | 4 pts]
+  For player props it's mainly terrible. For alternate spreads/totals, I've had some success but for a very specific case where I was modeling NFL sides. I think for teasers you needed \~80% win rate to breakeven but the spots I was finding had \~85-90% hit rate. Unfortunately, it was usually 0-2 games per week that fit this mold.
+
+[warmike_1 | 1 pts]
+This is not necessarily true for all lines, to check it for a particular game just switch to European odds and calculate the vig yourself. I played around with some basketball lines and the vig on alternative lines is indeed higher. But for soccer the alt line can have a vig that's even lower than the default! For example, for Everton vs Liverpool tomorrow the default spread on one book is Everton +1.5 @ 1.68 (-147) vs Liverpool -1.5 @ 2.2 (+120), which makes for a 5% vig. If you shift the line, though, you can get Everton +2.5 @ 1.25 (-400) vs Liverpool -2.5 @ 4.05 (+305), which makes for a lower 4.7% vig.
+
+  [liftingnstuff | 4 pts]
+  He's talking about alt lines for player props. Alt lines on player props are usually a one way market, which the sportsbooks juice relative to a normal distribution because it protects them from the downside risk of sharp players correctly identifying usage increases/decreases that aren't obvious.
+
+  [iama_scientist123 | 1 pts]
+  Yup, always good to check. I comment elsewhere that for sides you can actually sometimes find as good if not better odds than the straight bet. This was meant moreso for prop bets where I almost never see one mispriced (where the straight bet wasn’t similarly mispriced)
+
+[Triple66ix | 1 pts]
+I noticed sometimes at the half on a particular prop per se has extremely low odds like literally the player needs like one more rebound or point and has already surpassed over their per game average. Do you believe these are live traps , why would a book inherit this risk?
+
+  [iama_scientist123 | 1 pts]
+  It can sometimes happen if there’s a blowout so the books are unsure on whether a player will get enough playing time to maintain 1H production in the 2H, setting it too high could become an exploitable under bet in those situations
+
+    [Triple66ix | 1 pts]
+    Yeah they been harder to find but I’m trying to slam these
+
+      [Any-Maize-6951 | 1 pts]
+      I saw crazy discrepancies in live prop odds during this years nba playoffs. Their algos broke when all of the large leads and starters were getting benched nearly every game lol
+
+[Any-Maize-6951 | 1 pts]
+I really enjoyed this post. I’m trying to figure out the true vigfree odds of Player A and Player B combine for over 40 points. Or yards, or whatever. 
+If each line is set to 1/2 of the total combined prop, any idea. Or two players combine for 4+ bases. Etc etc
+
+[0hioHotPocket | -2 pts]
+Who’s DMing you about this?
+
+  [0hioHotPocket | -4 pts]
+  https://preview.redd.it/yjgucobzilie1.png?width=824&amp;format=png&amp;auto=webp&amp;s=6a110315f52329eeb68a1e004fb99e273d4186db
+
+    [iama_scientist123 | 1 pts]
+    Heads up, so on this slip you have a 5 player parlay that is paying +121, so risk $5 to win $6.05.
+
+The implied probability of each individual leg is 85% which means you need to have teased down each line by the player’s standard deviation just to breakeven (ie, each prop needs at least 8 pt discount from their standard line).
+
+[Mace_Windhorst | -7 pts]
+Great post! Easy to understand with the examples you provided. 
+
+One caveat I see with this is in parlays. The increase in probability makes teasing down the points worth it if you’re more likely to win the bet at the aggregate odds.
+
+I forgot what LeBron’s base assist total on DK was last night , I think 8.5 and I teased down to 7.5 which won one leg in a player prop parlay with his 8 assists. I would have lost that leg and won $0 had I not done that. I’m not providing the same excellent analysis you did , but gut tells me you can tease in a parlay because you have more flexibility with the combined odds and the increase in probability of winning the leg makes up for it
+
+  [iama_scientist123 | 11 pts]
+  It’s a false sense of security unfortunately. You won’t win enough to justify the better odds even with parlays. A parlay is essentially you winning the first leg, taking the single bet odds payout and then letting that ride onto the next leg of your bet, again at the odds being offered for that single bet.
+
+    [cupcakes234 | -5 pts]
+    You forgot one thing, parlays are fun. It's completely fine to bet if you go in expecting a loss and that you'll never profit long run on parlays.
+
+      [Brunell4070 | 7 pts]
+      sure but thats not what poster said, which he replied to
+
+      [iama_scientist123 | 3 pts]
+      True, I think if you go into it with the right expectations and bankroll management then its totally fine
+
+      [YorockPaperScissors | 1 pts]
+      This entire post is about profitability, not fun bets that disregard profitability.
+
+  [Brunell4070 | 3 pts]
+  its all relative, my friend
+
+[[deleted] | -10 pts]
+You are an idiot to assume a normal distribution for every player. There are players who are very stable and always hit the alt line. Take Bane for example he hits 15+ for all the previous 20 games. -360 is not a bad odds at all.
+
+  [mr-greyeagle | 12 pts]
+  If you think -360 is good odds I have a boat outside for sale.
+
+  [iama_scientist123 | 7 pts]
+  Please see this conversation, same question from another Redditor, but better stated, which actually allowed discourse to occur. Cheers
+
+[https://www.reddit.com/r/sportsbook/s/BVr6XdUh6r](https://www.reddit.com/r/sportsbook/s/BVr6XdUh6r)
+
+https://preview.redd.it/16fhlve2tpie1.jpeg?width=1284&amp;format=pjpg&amp;auto=webp&amp;s=4a1a0f98929ff492c3de5091e5ca91ba9959268b
+
+And no, I don’t make that assumption when I actually make bets, this is a general rule of thumb and I state Bane is for illustrative purposes. As you state, Bane is a “stable” player, I agree and comment elsewhere that Bane has a tighter than usual standard deviation relative to most players (but this does not mean his stats do not follow a normal distribution). Every player projection is modeled using different parameters, with the most relevant factors for that player being weighted appropriately for a blended projection. I also use a more conservative approach, with the assumption that some regression to season long mean occurs, unless there is a clear change in a player’s usage (eg, Maxey’s usage significantly jumped starting in January). But you can’t always take a player’s above average performance and assume that’s the norm (like taking Kobe’s 40 point streak and saying “I guess he’s a 40 ppg guy now”).
+
+    [[deleted] | -7 pts]
+    General rule of thumb is find ways to make money. Not claim something is bullshit based on some bullshit analysis.
+
+      [iama_scientist123 | 6 pts]
+      “Not claim something is bullshit based on some bullshit analysis”.
+
+The lack of self awareness is astounding. Have a nice day, this will be my last response to you.
+
+      [Billy_Madison69 | 2 pts]
+      A great first step in finding a way to make money is finding ways to stop losing money, like this.

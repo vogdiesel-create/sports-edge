@@ -1,0 +1,179 @@
+# Sharing my Monte Carlo MLB prop model architecture + 2024 backtest calibration results (12,847 predictions)
+
+[gmoneycinco | 12 pts | 11 comments]
+
+Been lurking here for a while and saw the great discussion on PA-level K calibration recently. Figured I'd share what I've been building since it's directly relevant to this community.
+
+
+
+\*\*The model\*\*
+
+
+
+I built a Monte Carlo simulation engine for MLB player props. The core idea: simulate every plate appearance of every game 5,000 times using a LightGBM probability model trained on \~1M plate appearances. 8 outcome classes per PA (single, double, triple, HR, walk, HBP, strikeout, other out).
+
+
+
+41 engineered features per matchup including:
+
+\- Pitcher-batter matchup K/contact rates
+
+\- Park factors (K, HR, H adjusted)
+
+\- Catcher pitch framing impact
+
+\- Umpire strike zone tendencies
+
+\- Pitch mix mismatch (how well hitter handles pitcher's primary pitch types)
+
+\- Platoon splits
+
+\- Recent form vs. season baseline
+
+\- Weather (wind, temp for HR probability)
+
+
+
+The simulation runs PA-by-PA with full game state (innings, outs, runners, pitch count) rather than just applying aggregate rates.
+
+
+
+\*\*2024 backtest results (Apr 1 - Sep 30)\*\*
+
+
+
+\- 12,847 graded predictions across K, H, TB, HR props
+
+\- 53.1% overall accuracy
+
+\- 3.1% calibration error (ECE) - when the model says 60%, it hits \~60%
+
+\- 152 game days tested
+
+
+
+Breakdown by prop type:
+
+\- Strikeouts: 54.0% accuracy, 4,804 predictions
+
+\- Total Bases: 53.0%, 3,200 predictions 
+
+\- Hits: 52.0%, 2,100 predictions
+
+
+
+ROI was +2.1% on flat $1 bets at -110 across all tiers. The top confidence tier (Tier A, roughly top 20% by edge size) hit +6.1% ROI.
+
+
+
+\*\*What I learned\*\*
+
+
+
+1. Catcher framing is wildly underrated as a feature. Most prop models ignore it. A +2 framing runs catcher can shift K probability by 1-2pp per PA which compounds to meaningful edge on game totals.
+
+
+
+2. Isotonic regression for post-hoc calibration helped enormously in the tails. Platt scaling was too rigid.
+
+
+
+3. Park factors matter more than most people think for Ks specifically. Coors suppresses Ks not just because of altitude but because of the psychological effect on pitcher approach.
+
+
+
+4. The biggest source of edge isn't the model being smart - it's the model catching situations where the book hasn't fully priced in a matchup-specific factor (e.g., a high-K pitcher facing a lineup with unusual pitch-type vulnerability to his primary offering).
+
+
+
+\*\*What's next\*\*
+
+
+
+Going live for the 2026 season starting Opening Day (Wednesday). Will be publicly grading every prediction on an accuracy dashboard so there's full accountability.
+
+
+
+Happy to discuss methodology, calibration approaches, or anything else. Especially interested if anyone has worked on integrating automatic ball-strike calling effects into their K models for this season.
+
+---
+## Comments
+
+[Delicious_Pipe_1326 | 5 pts]
+Really like point 4 and I think it’s the most important insight in your whole post. The edge isn’t about being calibrated against outcomes, it’s about catching spots where the book is wrong on a specific matchup factor. That’s genuinely the right way to think about it.
+
+Curious whether your backtest tracks CLV on the selections. If the model is catching mispriced matchups the way you describe, that should show up as consistently beating the closing line. That’s the most direct validation of the mechanism you’re describing in point 4, and it’ll tell you more about live viability than accuracy or ECE will.
+
+Note that 53.1% at standard juice over 12,847 bets puts you around a 1.6 z score, so variance can still explain the ROI. CLV would give you a much earlier read on whether the process is sound.
+
+Good luck with the live season. Interested to see how the results pan out.
+
+  [gmoneycinco | 2 pts]
+  Great point on CLV -- you're absolutely right that it's the better signal for process validation. We do track it and the results are encouraging: the model beats the closing line on \~58% of flagged edges, which is a much stronger indicator than raw accuracy alone.
+
+
+
+The 1.6 z-score observation is fair. At standard juice, variance can absolutely explain that over one season. That's part of why we're focused on making the methodology transparent -- so users can evaluate the process independently rather than just trusting a P&amp;L screenshot.
+
+
+
+We're planning to publish CLV distributions alongside the accuracy page once the 2026 live season data starts flowing. Should give a much clearer picture of whether the edge detection mechanism is actually working or if we got lucky. Appreciate the thoughtful feedback.
+
+[cherry-pick-crew | 2 pts]
+The matchup-specific mispricing angle (point 4) is exactly where the real edge lives -- been seeing the same thing building execution automation around prop models. Manual execution kills you because by the time you've confirmed the line is still up, the book's already moved. Automating bet placement based on model output basically solved that for me.
+
+
+
+Curious if anyone here is running automated execution on top of their models with no-code tools, or still doing it by hand? And what's your go-to for backtesting execution latency / line movement impact without building a full custom stack?
+
+  [gmoneycinco | 2 pts]
+  100% agree on execution latency being the silent killer. We've seen edges evaporate within 15-20 minutes of lineup confirmation on the sharpest books. We're not doing automated placement yet -- right now we surface the edges with real-time alerts and let users execute manually. But we do timestamp every projection at lineup lock vs. closing line to measure CLV decay. The data so far suggests the first 30 min window after lineup confirmation is where most of the edge lives. For backtesting execution impact, we've been using opening line vs. closing line snapshots from DraftKings and comparing the model's flagged edge at each timestamp. Automated execution is definitely on the roadmap -- the model already outputs via API, so the plumbing is mostly there. Would be interested to hear what tools you're using for placement automation.
+
+[cherry-pick-crew | 2 pts]
+Catcher framing being that impactful is something I kept dismissing until I actually ran the numbers -- you're right that most retail models ignore it entirely. The isotonic regression point for tail calibration is also key; ran into the same issue where Platt scaling was too aggressive in the tails on low-frequency outcomes. One question on the automatic ball-strike calling adjustment for this season -- are you treating it as a static feature shift or trying to model pitcher-specific behavioral adaptation to the new zone?
+
+  [gmoneycinco | 1 pts]
+  Great question on ABS. We're treating it as a hybrid approach for 2026. Starting with a static zone adjustment based on the 2025 challenge system data -- the robo-ump expanded the effective zone by roughly 1.5 inches on the outside corner and tightened the bottom by about half an inch, which shifted called strike rates by 2-3% league-wide.
+
+
+
+But you're right that the static approach misses pitcher-specific adaptation. Pitchers who relied heavily on borderline calls (think guys with high called strike rates on low breaking balls) should see bigger K rate drops than power pitchers who live in the zone. We're building pitcher cluster features based on their 2025 called strike profile to capture that.
+
+
+
+Honestly it's the biggest open question for early-season modeling. The first 2-3 weeks of data should tell us whether pitchers are genuinely adapting their approach or if the K rate shift is mostly uniform. Planning to publish the findings once we have enough live data.
+
+[GMOs_are_tasty | 1 pts]
+I'd be careful with the catcher framing feature given the new ABS review system. Gut instinct is that framing would matter less for strikeouts since actual location matters more than ump's perception.
+
+Haven't run any models in spring training or minors (AAA employed the ABS last year) to verify the claim tho.
+
+  [gmoneycinco | 1 pts]
+  fair point and worth watching closely. the ABS challenge zone still leaves a meaningful gray area on borderline pitches though -- the system doesn't override every call, it flags for review. so framing still matters on the pitches that fall in that buffer zone.
+
+
+
+that said you're right that the effect size will likely shrink as ABS rolls out more broadly. we're treating it as a feature that gets reweighted each season based on how much called strike variance actually correlates with catcher identity. if ABS kills the signal, the model should naturally downweight it.
+
+
+
+the AAA data from last year would be really interesting to test against. haven't dug into it yet but it's on the list.
+
+[josh123asdf | 1 pts]
+OOC where do you get the mlb data from?  I’m assuming you have pitch by pitch fidelity, 1M PA sounds like 5+ seasons….
+
+[jamesrav_uk | 1 pts]
+certainly deserve kudos to gather the important data needed here.  Wind speed and temp? Catcher framing ability?  My jaw kept dropping the more I read.  Just amazing.  But does the ROI justify the effort for someone with this much talent?  Lets say 3% overall.  You then have to churn $1 million in bets to profit $30,000.  Not that $30,000 is chump change, but people working at Jane Street would laugh at that.  A desktop tech makes $100K.  Your talent could probably land you a job anywhere.  
+
+If you can churn $3 million in bets, then 3% profit is $90K.  But is that feasible on prop bets?  That would take 10,000 $300 bets.  That's a lot of bets.  Especially once you start winning and get limited.  Maybe the new prediction markets have the types of bets you want at the values you need?  Or you can be a Market Maker and actually be the bookie? 
+
+[cherry-pick-crew | 1 pts]
+Catcher framing being underrated is 100% correct and most retail prop bettors haven't even heard of it. That's exactly the kind of structural signal that survives longer because it doesn't show up in the stats that casual bettors look at.
+
+
+
+The isotonic regression point is good — Platt scaling falls apart at the tails where the real edge often lives.
+
+
+
+Question: are you doing any automated execution or still placing manually? At 5k sims per match the signal generation sounds like it could run as a fully automated alert system. Would be curious whether you've explored that direction.

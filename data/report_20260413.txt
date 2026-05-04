@@ -1,0 +1,54 @@
+SPORTS EDGE DAILY REPORT
+2026-04-13 04:13 UTC
+==================================================
+
+YESTERDAY'S RESULTS
+  Bets: 6 | WR: 50.0% | P&L: $+25.95 | ROI: +29.9%
+
+GAME LINE OPPORTUNITIES (19 after filters)
+  Rejected: {'unprofitable_book': 3, 'edge_too_low': 15}
+
+TOP PICKS
+
+  1. [A][HIGH] MLB - Boston Red Sox @ Minnesota Twins
+     total under 7 @ sportsbetting
+     Odds: +105 | Edge: 5.0% | EV: 10.2%
+
+  2. [A][HIGH] MLB - N.Y. Mets @ L.A. Dodgers
+     total over 9 @ sportsbetting
+     Odds: +100 | Edge: 4.9% | EV: 9.7%
+
+  3. [A][HIGH] NHL - Dallas Stars @ Toronto Maple Leafs
+     total over 6.5 @ unibet
+     Odds: +110 | Edge: 3.5% | EV: 7.3%
+
+  4. [A][HIGH] NHL - Winnipeg Jets @ Vegas Golden Knights
+     total under 5.5 @ unibet
+     Odds: +110 | Edge: 3.5% | EV: 7.3%
+
+  5. [A][HIGH] MLB - L.A. Angels @ N.Y. Yankees
+     total over 9.5 @ unibet
+     Odds: +110 | Edge: 3.4% | EV: 7.1%
+
+  6. [MEDIUM] NBA - Portland Trail Blazers @ Phoenix Suns
+     Player: Jrue Holiday Over
+     UNDER_PRA 27.5
+     Edge: 2.0 pts discrepancy
+
+  7. [MEDIUM] NBA - Portland Trail Blazers @ Phoenix Suns
+     Player: Jrue Holiday Under
+     UNDER_PRA 27.5
+     Edge: 2.0 pts discrepancy
+
+  8. [MEDIUM] NBA - Miami Heat @ Charlotte Hornets
+     Player: Norman Powell Over
+     UNDER_PRA 25.5
+     Edge: 2.0 pts discrepancy
+
+FANDUEL PROPS: 3968 tracked | 6 arb alerts
+
+STRATEGY RULES (from backtest)
+  Game Lines: 3-6% edge, exclude bodog, prefer unibet/sportsbetting
+  Props: Rebounds market strongest (+42.7% ROI)
+  Props: 8+ confirming books = 69% WR, +47.6% ROI
+  Sizing: Quarter Kelly, max 2% bankroll

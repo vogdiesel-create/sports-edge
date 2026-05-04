@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+
+# Data files (large, regenerable)
+data/daily_runs/*.log
+data/oddstrader_*.json
+nfl/data/historical/*.csv
+*.db
+*.sqlite
+
+# OS
+.DS_Store
+*.swp
+
+# Credentials
+config/credentials*.json

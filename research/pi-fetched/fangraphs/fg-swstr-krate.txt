@@ -1,0 +1,319 @@
+Adventures in Swinging Strike Rate vs. K Rate | FanGraphs Baseball
+<
+! -- END HEAD -->
+<! -- END HEADER -->
+Adventures in Swinging Strike Rate vs. K Rate
+by
+Albert Lyu
+January 31, 2011
+A few weeks ago,
+Eno Sarris took a look at a few batters
+with high swinging-strike rates and average strikeout rates, showing that a batter with a penchant for (or weakness in) whiffing on pitches doesn’t necessarily post as a high number of strikeouts as you would expect.
+Josh Hamilton
+,
+Delmon Young
+, and
+Vladimir Guerrero
+were identified as players who combine decent strikeout rates with high swinging-strike rates. These batters are characterized by their below-average walk rates while being known as free-swingers. Their aggressive approach presents both fewer strikeout opportunities and fewer walk opportunities as they try to put the ball in play early in the count.
+This got me thinking: Since there are batters who can avoid strikeouts who presumably swing early, are there batters who get too many strikeouts because they don’t swing enough? I mean, clearly swinging strikes are not the only way to strike out a batter, and a batter who leaves his bat on the shoulder too often will get lots of called strikes. A conservative approach with few swings at anything in the hopes of drawing a walk could backfire. Such batters do exist — it’s just about identifying who they are.
+I plotted 2010 batters with 200+ PA and their K/PA against SwStr%. Take a look below:
+Please
+click here for an adjusted and embiggenzified image
+if you want to see the names. It may be more useful to
+right click
+and open the link and view it in a new window or tab.
+There are plenty of outliers worth looking at. Based on their SwStr%, other batters with lower K rates than you would expect (a la Vlad) include
+Jake Fox
+,
+Juan Uribe
+,
+A.J. Pierzynski
+, and
+Pedro Feliz
+. On the other side, batters with higher K rates than expected include
+Brett Gardner
+,
+Eric Patterson
+, and
+Wes Helms
+.
+You Aren't a FanGraphs Member
+It looks like you aren't yet a FanGraphs Member (or aren't logged in). We aren't mad, just disappointed.
+We get it. You want to read this article. But before we let you get back to it, we'd like to point out a few of the good reasons why you should become a Member.
+1. Ad Free viewing! We won't bug you with this ad, or any other.
+2. Unlimited articles! Non-Members only get to read 10 free articles a month. Members never get cut off.
+3. Dark mode and Classic mode!
+4. Custom player page dashboards! Choose the player cards you want, in the order you want them.
+5. One-click data exports! Export our projections and leaderboards for your personal projects.
+6. Remove the photos on the home page! (Honestly, this doesn't sound so great to us, but some people wanted it, and we like to give our Members what they want.)
+7. Even more Steamer projections! We have handedness, percentile, and context neutral projections available for Members only.
+8. Get FanGraphs Walk-Off, a customized year end review! Find out exactly how you used FanGraphs this year, and how that compares to other Members. Don't be a victim of FOMO.
+9. A weekly mailbag column, exclusively for Members.
+10. Help support FanGraphs and our entire staff! Our Members provide us with critical resources to improve the site and deliver new features!
+We hope you'll consider a Membership today, for yourself or as a gift! And we realize this has been an awfully long sales pitch, so we've also removed all the other ads in this article. We didn't want to overdo it.
+Click Here To Become a Member
+Just eyeballing this scatter plot tells us that there is indeed a decent positive relationship between SwStr% and K rate for batters (and why not?). Note also that if we ignore outliers such as
+Mark Reynolds
+(chuckle),
+Rick Ankiel
+,
+Miguel Olivo
+, Fox, Guerrero, and Patterson, the variance in K/PA for any particular value of SwStr% appears to be consistent (that is, as SwStr% increases, the variance in K/PA is approximately the same). In the statistics world, data behaving as described is known to exhibit
+homoscedasticity
+as opposed to
+heteroscedasticity
+, where the variance dramatically differs with the
+x
+value.
+A regression on this relationship shows a positive trend between the two stats with a decent correlation coefficient of 61.6%. Using the regression model to predict K/PA, I found the “expected K rate” or expected K/PA based on SwStr%.
+Here are the top batters with 500+ PA who struck out “less” than expected, sorted by the difference between expected K rate and actual K rate. K/PA is actual K/PA while xK/PA is expected K/PA:
+Name
+PA
+Swing%
+Contact%
+SwStr%
+K/PA
+xK/PA
+Diff
+Vladimir Guerrero
+643
+60.6%
+80.3%
+11.3%
+9.3%
+22.2%
+-12.8%
+A.J. Pierzynski
+503
+56.7%
+86.3%
+7.5%
+7.8%
+16.8%
+-9.0%
+Josh Hamilton
+571
+55.3%
+75.1%
+13.3%
+16.6%
+25.0%
+-8.4%
+Juan Uribe
+575
+54.8%
+76.8%
+12.4%
+16.0%
+23.7%
+-7.7%
+Delmon Young
+613
+59.0%
+82.4%
+10.2%
+13.2%
+20.6%
+-7.4%
+Brandon Phillips
+687
+52.7%
+81.9%
+9.3%
+12.1%
+19.3%
+-7.2%
+Vernon Wells
+646
+50.8%
+81.1%
+9.6%
+13.0%
+19.7%
+-6.7%
+Pablo Sandoval
+616
+57.8%
+82.8%
+9.3%
+13.1%
+19.3%
+-6.2%
+Jeff Francoeur
+503
+60.4%
+80.5%
+11.3%
+16.1%
+22.2%
+-6.1%
+Carlos Quentin
+527
+50.6%
+77.5%
+11.0%
+15.7%
+21.7%
+-6.0%
+And here are the batters who struck out “more” than expected:
+Name
+PA
+Swing%
+Contact%
+SwStr%
+K/PA
+xK/PA
+Diff
+Brett Gardner
+569
+31.0%
+90.6%
+2.9%
+17.8%
+10.2%
++7.6%
+Casey Blake
+571
+41.8%
+80.2%
+8.0%
+24.2%
+17.5%
++6.7%
+Colby Rasmus
+534
+46.7%
+75.7%
+10.9%
+27.7%
+21.6%
++6.1%
+Drew Stubbs
+583
+43.9%
+72.3%
+11.7%
+28.8%
+22.7%
++6.1%
+Bobby Abreu
+667
+32.9%
+83.1%
+5.4%
+19.8%
+13.8%
++6.0%
+Justin Upton
+571
+41.5%
+74.3%
+10.2%
+26.6%
+20.6%
++6.0%
+Adam LaRoche
+615
+45.2%
+74.1%
+11.3%
+28.0%
+22.2%
++5.8%
+Austin Jackson
+675
+47.0%
+79.4%
+9.4%
+25.2%
+19.5%
++5.7%
+Adam Dunn
+648
+45.0%
+68.2%
+13.8%
+30.7%
+25.7%
++5.0%
+Mark Reynolds
+596
+47.0%
+62.2%
+17.1%
+35.4%
+30.4%
++5.0%
+One consequence of homoscedastic data finds itself in the tables above. SwStr% appears to have no bearing on whether the batter struck out more than he was expected to or less than he was expected to. It also should have no bearing on how closely the expected K rate predicted the actual K rate.
+Another trend to note is that the first group of batters swing at pitches a lot more often than the second group of batters. Guys like
+Brett Gardner
+and
+Bobby Abreu
+in the second group swing so rarely that merely an average or slightly below average K rate will place them high on this list (low Swing% leads to low SwStr%, which predicts a low xK/PA via the regression model).
+So what does this all mean? I’m not exactly sure yet. This running commentary demands more work to be done in this department, and there are plenty of interesting studies to continue from this:
+– How do low-swing and high-swing batters distribute swings based on the count?
+– Which batters strike out via swinging strikes the most? Via called strikes?
+– Can swing rate and swinging-strike rate (and others) predict strikeout rate?
+– Is there such a thing as batters who should
+swing more
+in order to avoid strikeouts?
+– Aggressive vs. conservative approach: Which to use based on ability to make contact?
+– And how about
+pitchers
+?
+– Etc. (Any other thoughts?)
+Concerning the third point, you might expect batters who swing a lot tend to also strike out a lot. Turns out that there is
+little correlation between the two
+when you consider how varied Major League hitters are at making contact and putting the ball in play.
+Multicollinearity
+would also play a role in a potential multiple regression model that uses swing rate and swinging strike rate to predict strikeout rate.
+At this point, I suppose the end goal is to find out which batters swing at pitches purposefully and which do so recklessly and how such approaches helped or hurt the batter in terms of strikeout rate. More on this to be continued. Feel free to post your ideas, thoughts, or criticisms below on investigating the relationship between plate discipline statistics and strikeout rate.
+Position Players by WAR: Expansion Era
+Thanks Rob
+Albert Lyu (
+@thinkbluecrew
+,
+LinkedIn
+) is a graduate student at the Georgia Institute of Technology, but will always root for his beloved Northwestern Wildcats. Feel free to
+email him
+with any comments or suggestions.
+23
+Comments
+Oldest
+Newest
+Most Voted
+Inline Feedbacks
+View all comments
+Rick
+15 years ago
+What’s the correlation between P/PA and K/PA?  I imagine it’s quite high.  If you do things that lead to a lot 2 strike counts, you’re likely to strike out.  And the way to get to 2 strikes it to either take a lot of strikes (which generally means taking a lot of pitches) or swinging and missing.
+The guys who exceed expectation do both.  The guys who are below expectation swing a lot but don’t take a lot of pitches.  Seems pretty straight forward.  Strikeout rate and pitch taking both drive striking out.  The homoscedasticity seen here would seem to suggest a very low correlation between the two.  It would be interesting to see the scatterplot of SwStr% and Sw%
+1
+Load Rest of Comments
+Insert
+You are going to send email to
+Send
+Move Comment
+Move
+Updated: Monday, April 13, 2026 11:35 PM ET
+Updated: 4/13/2026 11:35 PM ET
+@fangraphs
+-
+Contact Us
+-
+Advertise
+-
+Terms of Service
+-
+Privacy Policy
+All major league baseball data including pitch type, velocity, batted ball location,
+        and play-by-play data provided by Sports Info Solutions.
+Major League and Minor League Baseball data provided by Major League Baseball.
+Mitchel Lichtman
+All UZR (ultimate zone rating) calculations are provided courtesy of Mitchel Lichtman.
+TangoTiger.com
+All Win Expectancy, Leverage Index, Run Expectancy, and Fans Scouting Report data licenced from TangoTiger.com
+Retrosheet.org
+Play-by-play data prior to 2002 was obtained free of charge from and is copyrighted
+        by Retrosheet.
+<! -- END FOOTER -->

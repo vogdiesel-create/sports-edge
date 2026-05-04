@@ -1,0 +1,54 @@
+{
+  "week": "W18",
+  "dates": "2026-04-27 to 2026-05-03",
+  "total_bets_graded": 131,
+  "starting_state": {
+    "oddstrader_active": {"record": "66W-34L", "pnl": 1766},
+    "game_model": {"record": "26W-25L-2P", "pnl": 109},
+    "k_props": {"record": "43W-27L", "pnl": 1079}
+  },
+  "ending_state": {
+    "oddstrader_active": {"record": "97W-45L", "pnl": 2237, "wr": 68.3, "roi": 15.2},
+    "game_model": {"record": "33W-32L-4P", "pnl": -47, "wr": 50.8},
+    "k_props": {"record": "51W-50L", "pnl": -599, "status": "DEAD"}
+  },
+  "weekly_performance": {
+    "oddstrader_active": {
+      "week_record": "31W-11L",
+      "week_pnl": 471,
+      "week_wr": 73.8,
+      "note": "TB continues dominating. HA added value. Ks and RBI disabled."
+    },
+    "game_model": {
+      "week_record": "7W-7L-4P",
+      "week_pnl": -156,
+      "week_wr": 50.0,
+      "note": "Coin flip. May 2 worst day (-$304). CLV still negative."
+    },
+    "k_props": {
+      "week_record": "11W-19L",
+      "week_pnl": -1072,
+      "week_wr": 36.7,
+      "note": "CATASTROPHIC COLLAPSE. 8 straight losses to end. Model dead."
+    }
+  },
+  "combined_week_pnl": -757,
+  "combined_active_only_pnl": 315,
+  "key_events": [
+    "K-Props PERMANENTLY SHUT DOWN after 8 straight losses (51W-50L overall)",
+    "OT RBI + Strikeouts DISABLED (Apr 30). Forward-only on TB+HA+ER.",
+    "TB Juice Cap -160 IMPLEMENTED (May 1). Within cap: 38W-12L, 76.0% WR.",
+    "HA Line Filter IMPLEMENTED (May 3). u4½ only (73% WR vs 50% on u5½+).",
+    "EV Dead Zone RESOLVED by juice cap. No additional filter needed.",
+    "Game model continues at break-even. Decision pending on whether to keep."
+  ],
+  "tb_within_cap_forward": {
+    "record": "6W-2L",
+    "note": "Since cap implemented May 1. Small sample but tracking."
+  },
+  "significance_update": {
+    "oddstrader_tb": {"record": "78W-33L", "wr": 70.3, "p": 0.00003, "significant": true},
+    "oddstrader_active": {"record": "97W-45L", "wr": 68.3, "p": 0.00001, "significant": true},
+    "game_model": {"record": "33W-32L", "wr": 50.8, "p": 0.50, "significant": false}
+  }
+}

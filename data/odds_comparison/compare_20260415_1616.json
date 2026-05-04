@@ -1,0 +1,46 @@
+{
+  "timestamp": "2026-04-15T16:16:48.219163+00:00",
+  "comparisons": [
+    {
+      "game": "DAL @ BUF",
+      "side": "UNDER",
+      "our_line": 6.0,
+      "our_odds": -105,
+      "model_prob": 0.6471,
+      "our_edge": 0.1579,
+      "best_book": "BetMGM",
+      "best_odds": 100,
+      "best_edge": 0.1471,
+      "books": [
+        {
+          "book": "BetMGM",
+          "line": 6.0,
+          "odds": 100,
+          "implied": 0.5,
+          "edge": 0.1471
+        },
+        {
+          "book": "Caesars",
+          "line": 6.0,
+          "odds": 100,
+          "implied": 0.5,
+          "edge": 0.1471
+        },
+        {
+          "book": "bet365",
+          "line": 6.0,
+          "odds": 100,
+          "implied": 0.5,
+          "edge": 0.1471
+        },
+        {
+          "book": "FanDuel",
+          "line": 6.0,
+          "odds": -102,
+          "implied": 0.505,
+          "edge": 0.1421
+        }
+      ]
+    }
+  ]
+}

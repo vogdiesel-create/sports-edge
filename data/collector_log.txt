@@ -1,0 +1,1856 @@
+  Data collection: every 15 min
+
+  [04:19 UTC] Collecting data...
+    Game lines: 3979 records
+  [FD] 8 games found
+  [FD] 3970 prop lines fetched
+    FD props: 1022 records
+    Duration: 11.2s
+    DB totals: 11775 GL records, 1356 FD records, 36 game results, 3 collections
+
+  [04:34 UTC] Collecting data...
+    Game lines: 3979 records
+  [FD] 8 games found
+  [FD] 4008 prop lines fetched
+    FD props: 1032 records
+    Duration: 44.4s
+    DB totals: 15700 GL records, 2038 FD records, 36 game results, 4 collections
+
+  [04:50 UTC] Collecting data...
+    Game lines: 3991 records
+  [FD] 8 games found
+  [FD] 4008 prop lines fetched
+    FD props: 1032 records
+    Duration: 42.7s
+    DB totals: 19637 GL records, 2720 FD records, 36 game results, 5 collections
+
+  [05:05 UTC] Collecting data...
+    Game lines: 3991 records
+  [FD] 8 games found
+  [FD] 4225 prop lines fetched
+    FD props: 1090 records
+    Duration: 41.9s
+    DB totals: 23574 GL records, 3430 FD records, 36 game results, 6 collections
+
+  [05:21 UTC] Collecting data...
+    Game lines: 3991 records
+  [FD] 8 games found
+  [FD] 4250 prop lines fetched
+    FD props: 1092 records
+    Duration: 40.1s
+    DB totals: 27511 GL records, 4140 FD records, 36 game results, 7 collections
+
+  [05:37 UTC] Collecting data...
+    Game lines: 3991 records
+  [FD] 8 games found
+  [FD] 4262 prop lines fetched
+    FD props: 1092 records
+    Duration: 41.6s
+    DB totals: 31448 GL records, 4850 FD records, 36 game results, 8 collections
+
+  [05:52 UTC] Collecting data...
+    Game lines: 3991 records
+  [FD] 8 games found
+  [FD] 4262 prop lines fetched
+    FD props: 1092 records
+    Duration: 42.9s
+    DB totals: 35385 GL records, 5560 FD records, 36 game results, 9 collections
+
+  [06:08 UTC] Collecting data...
+    Game lines: 4125 records
+  [FD] 8 games found
+  [FD] 4278 prop lines fetched
+    FD props: 1098 records
+    Duration: 40.1s
+    DB totals: 39456 GL records, 6270 FD records, 36 game results, 10 collections
+
+  [06:24 UTC] Collecting data...
+    Game lines: 4163 records
+  [FD] 8 games found
+  [FD] 4305 prop lines fetched
+    FD props: 1102 records
+    Duration: 41.9s
+    DB totals: 43565 GL records, 6980 FD records, 36 game results, 11 collections
+
+  [06:40 UTC] Collecting data...
+    Game lines: 4163 records
+  [FD] 8 games found
+  [FD] 4347 prop lines fetched
+    FD props: 1116 records
+    Duration: 41.3s
+    DB totals: 47674 GL records, 7690 FD records, 36 game results, 12 collections
+
+  [06:55 UTC] Collecting data...
+    Game lines: 4163 records
+  [FD] 8 games found
+  [FD] 4376 prop lines fetched
+    FD props: 1122 records
+    Duration: 41.2s
+    DB totals: 51783 GL records, 8400 FD records, 36 game results, 13 collections
+
+  [07:11 UTC] Collecting data...
+    Game lines: 4163 records
+  [FD] 8 games found
+  [FD] 4406 prop lines fetched
+    FD props: 1130 records
+    Duration: 40.2s
+    DB totals: 55892 GL records, 9110 FD records, 36 game results, 14 collections
+
+  [07:27 UTC] Collecting data...
+    Game lines: 4163 records
+  [FD] 8 games found
+  [FD] 4401 prop lines fetched
+    FD props: 1128 records
+    Duration: 39.6s
+    DB totals: 60001 GL records, 9820 FD records, 36 game results, 15 collections
+
+  [07:42 UTC] Collecting data...
+    Game lines: 4163 records
+  [FD] 8 games found
+  [FD] 4401 prop lines fetched
+    FD props: 1128 records
+    Duration: 42.5s
+    DB totals: 64110 GL records, 10530 FD records, 36 game results, 16 collections
+
+  [07:58 UTC] Collecting data...
+    Game lines: 4163 records
+  [FD] 8 games found
+  [FD] 4396 prop lines fetched
+    FD props: 1128 records
+    Duration: 40.2s
+    DB totals: 68219 GL records, 11240 FD records, 36 game results, 17 collections
+
+  [08:14 UTC] Collecting data...
+    Game lines: 4163 records
+  [FD] 8 games found
+  [FD] 4396 prop lines fetched
+    FD props: 1128 records
+    Duration: 42.8s
+    DB totals: 72328 GL records, 11950 FD records, 36 game results, 18 collections
+
+  [08:29 UTC] Collecting data...
+    Game lines: 4163 records
+  [FD] 8 games found
+  [FD] 4396 prop lines fetched
+    FD props: 1128 records
+    Duration: 42.4s
+    DB totals: 76437 GL records, 12660 FD records, 36 game results, 19 collections
+
+  [08:45 UTC] Collecting data...
+    Game lines: 4163 records
+  [FD] 8 games found
+  [FD] 4392 prop lines fetched
+    FD props: 1124 records
+    Duration: 40.3s
+    DB totals: 80546 GL records, 13366 FD records, 36 game results, 20 collections
+
+  [09:01 UTC] Collecting data...
+    Game lines: 4163 records
+  [FD] 8 games found
+  [FD] 4392 prop lines fetched
+    FD props: 1124 records
+    Duration: 42.1s
+    DB totals: 84655 GL records, 14072 FD records, 36 game results, 21 collections
+
+  [09:16 UTC] Collecting data...
+    Game lines: 4163 records
+  [FD] 8 games found
+  [FD] 4392 prop lines fetched
+    FD props: 1124 records
+    Duration: 41.2s
+    DB totals: 88764 GL records, 14778 FD records, 36 game results, 22 collections
+
+  [09:32 UTC] Collecting data...
+    Game lines: 4163 records
+  [FD] 8 games found
+  [FD] 4397 prop lines fetched
+    FD props: 1124 records
+    Duration: 41.2s
+    DB totals: 92873 GL records, 15484 FD records, 36 game results, 23 collections
+
+  [09:48 UTC] Collecting data...
+    Game lines: 4163 records
+  [FD] 8 games found
+  [FD] 4397 prop lines fetched
+    FD props: 1124 records
+    Duration: 43.4s
+    DB totals: 96982 GL records, 16190 FD records, 36 game results, 24 collections
+
+  [10:03 UTC] Collecting data...
+    Game lines: 4163 records
+  [FD] 8 games found
+  [FD] 4397 prop lines fetched
+    FD props: 1124 records
+    Duration: 45.9s
+    DB totals: 101091 GL records, 16896 FD records, 36 game results, 25 collections
+
+  [10:19 UTC] Collecting data...
+    Game lines: 4163 records
+  [FD] 8 games found
+  [FD] 4397 prop lines fetched
+    FD props: 1124 records
+    Duration: 39.7s
+    DB totals: 105200 GL records, 17602 FD records, 36 game results, 26 collections
+
+  [10:35 UTC] Collecting data...
+    Game lines: 4163 records
+  [FD] 8 games found
+  [FD] 4395 prop lines fetched
+    FD props: 1124 records
+    Duration: 40.0s
+    DB totals: 109309 GL records, 18308 FD records, 36 game results, 27 collections
+
+  [10:51 UTC] Collecting data...
+    Game lines: 4163 records
+  [FD] 8 games found
+  [FD] 4396 prop lines fetched
+    FD props: 1124 records
+    Duration: 44.2s
+    DB totals: 113418 GL records, 19014 FD records, 36 game results, 28 collections
+
+  [11:06 UTC] Collecting data...
+    Game lines: 4163 records
+  [FD] 8 games found
+  [FD] 4396 prop lines fetched
+    FD props: 1124 records
+    Duration: 40.4s
+    DB totals: 117527 GL records, 19720 FD records, 36 game results, 29 collections
+
+  [11:22 UTC] Collecting data...
+    Game lines: 4163 records
+  [FD] 8 games found
+  [FD] 4396 prop lines fetched
+    FD props: 1124 records
+    Duration: 11.0s
+    DB totals: 121636 GL records, 20426 FD records, 36 game results, 30 collections
+
+  [11:37 UTC] Collecting data...
+    Game lines: 4163 records
+  [FD] 8 games found
+  [FD] 4396 prop lines fetched
+    FD props: 1124 records
+    Duration: 42.2s
+    DB totals: 125745 GL records, 21132 FD records, 36 game results, 31 collections
+
+  [11:53 UTC] Collecting data...
+    Game lines: 4163 records
+  [FD] 8 games found
+  [FD] 4396 prop lines fetched
+    FD props: 1124 records
+    Duration: 10.9s
+    DB totals: 129854 GL records, 21838 FD records, 36 game results, 32 collections
+
+  [12:08 UTC] Collecting data...
+    Game lines: 4163 records
+  [FD] 8 games found
+  [FD] 4396 prop lines fetched
+    FD props: 1124 records
+    Duration: 40.4s
+    DB totals: 133963 GL records, 22544 FD records, 36 game results, 33 collections
+
+  [12:24 UTC] Collecting data...
+    Game lines: 4163 records
+  [FD] 8 games found
+  [FD] 4396 prop lines fetched
+    FD props: 1124 records
+    Duration: 42.0s
+    DB totals: 138072 GL records, 23250 FD records, 36 game results, 34 collections
+
+  [12:39 UTC] Collecting data...
+    Game lines: 4163 records
+  [FD] 8 games found
+  [FD] 4396 prop lines fetched
+    FD props: 1124 records
+    Duration: 44.0s
+    DB totals: 142181 GL records, 23956 FD records, 36 game results, 35 collections
+
+  [12:55 UTC] Collecting data...
+    Game lines: 4163 records
+  [FD] 8 games found
+  [FD] 4391 prop lines fetched
+    FD props: 1124 records
+    Duration: 32.3s
+    DB totals: 146290 GL records, 24662 FD records, 36 game results, 36 collections
+
+  [13:11 UTC] Collecting data...
+    Game lines: 4163 records
+  [FD] 8 games found
+  [FD] 4383 prop lines fetched
+    FD props: 1116 records
+    Duration: 42.0s
+    DB totals: 150399 GL records, 25360 FD records, 36 game results, 37 collections
+
+  [13:26 UTC] Collecting data...
+    Game lines: 4169 records
+  [FD] 8 games found
+  [FD] 4384 prop lines fetched
+    FD props: 1116 records
+    Duration: 40.7s
+    DB totals: 154514 GL records, 26058 FD records, 36 game results, 38 collections
+
+  [13:42 UTC] Collecting data...
+    Game lines: 3707 records
+  [FD] 8 games found
+  [FD] 4384 prop lines fetched
+    FD props: 1116 records
+    Duration: 41.4s
+    DB totals: 158167 GL records, 26756 FD records, 36 game results, 39 collections
+
+  [13:58 UTC] Collecting data...
+    Game lines: 3713 records
+  [FD] 8 games found
+  [FD] 4383 prop lines fetched
+    FD props: 1116 records
+    Duration: 41.3s
+    DB totals: 161826 GL records, 27454 FD records, 36 game results, 40 collections
+
+  [14:13 UTC] Collecting data...
+    Game lines: 3587 records
+  [FD] 8 games found
+  [FD] 4386 prop lines fetched
+    FD props: 1116 records
+    Duration: 41.4s
+    DB totals: 165359 GL records, 28152 FD records, 36 game results, 41 collections
+
+  [14:29 UTC] Collecting data...
+    Game lines: 3455 records
+  [FD] 8 games found
+  [FD] 4385 prop lines fetched
+    FD props: 1116 records
+    Duration: 41.2s
+    DB totals: 168760 GL records, 28850 FD records, 36 game results, 42 collections
+
+  [14:45 UTC] Collecting data...
+    Game lines: 3455 records
+  [FD] 8 games found
+  [FD] 4376 prop lines fetched
+    FD props: 1112 records
+    Duration: 39.5s
+    DB totals: 172161 GL records, 29548 FD records, 36 game results, 43 collections
+
+  [15:00 UTC] Collecting data...
+    Game lines: 3411 records
+  [FD] 8 games found
+  [FD] 4376 prop lines fetched
+    FD props: 1112 records
+    Duration: 33.6s
+    DB totals: 175518 GL records, 30246 FD records, 36 game results, 44 collections
+
+  [15:16 UTC] Collecting data...
+    Game lines: 3423 records
+  [FD] 8 games found
+  [FD] 4379 prop lines fetched
+    FD props: 1112 records
+    Duration: 39.6s
+    DB totals: 178887 GL records, 30944 FD records, 36 game results, 45 collections
+
+  [15:32 UTC] Collecting data...
+    Game lines: 3468 records
+  [FD] 8 games found
+  [FD] 4383 prop lines fetched
+    FD props: 1112 records
+    Duration: 41.5s
+    DB totals: 182301 GL records, 31642 FD records, 36 game results, 46 collections
+
+  [15:47 UTC] Collecting data...
+    Game lines: 3468 records
+  [FD] 8 games found
+  [FD] 4375 prop lines fetched
+    FD props: 1114 records
+    Duration: 42.0s
+    DB totals: 185715 GL records, 32340 FD records, 36 game results, 47 collections
+
+  [16:03 UTC] Collecting data...
+    Game lines: 3499 records
+  [FD] 8 games found
+  [FD] 4374 prop lines fetched
+    FD props: 1114 records
+    Duration: 34.7s
+    DB totals: 189160 GL records, 33038 FD records, 36 game results, 48 collections
+
+  [16:19 UTC] Collecting data...
+    Game lines: 3384 records
+  [FD] 8 games found
+  [FD] 4375 prop lines fetched
+    FD props: 1116 records
+    Duration: 41.5s
+    DB totals: 192490 GL records, 33736 FD records, 36 game results, 49 collections
+
+  [16:34 UTC] Collecting data...
+    Game lines: 3384 records
+  [FD] 8 games found
+  [FD] 4375 prop lines fetched
+    FD props: 1116 records
+    Duration: 41.8s
+    DB totals: 195820 GL records, 34434 FD records, 36 game results, 50 collections
+
+  [16:50 UTC] Collecting data...
+    Game lines: 3416 records
+  [FD] 8 games found
+  [FD] 4376 prop lines fetched
+    FD props: 1112 records
+    Duration: 44.2s
+    DB totals: 199170 GL records, 35132 FD records, 36 game results, 51 collections
+
+  [17:06 UTC] Collecting data...
+    Game lines: 3416 records
+  [FD] 8 games found
+  [FD] 4373 prop lines fetched
+    FD props: 1114 records
+    Duration: 13.2s
+    DB totals: 202520 GL records, 35830 FD records, 36 game results, 52 collections
+
+  [17:21 UTC] Collecting data...
+    Game lines: 3416 records
+  [FD] 8 games found
+  [FD] 4379 prop lines fetched
+    FD props: 1112 records
+    Duration: 41.9s
+    DB totals: 205870 GL records, 36528 FD records, 36 game results, 53 collections
+
+  [17:37 UTC] Collecting data...
+    Game lines: 3424 records
+  [FD] 8 games found
+  [FD] 4419 prop lines fetched
+    FD props: 1122 records
+    Duration: 39.3s
+    DB totals: 209224 GL records, 37234 FD records, 36 game results, 54 collections
+
+  [17:52 UTC] Collecting data...
+    Game lines: 3460 records
+  [FD] 8 games found
+  [FD] 4421 prop lines fetched
+    FD props: 1120 records
+    Duration: 42.6s
+    DB totals: 212600 GL records, 37940 FD records, 36 game results, 55 collections
+
+  [18:08 UTC] Collecting data...
+    Game lines: 2921 records
+  [FD] 8 games found
+  [FD] 4462 prop lines fetched
+    FD props: 1132 records
+    Duration: 9.9s
+    DB totals: 215437 GL records, 38654 FD records, 36 game results, 56 collections
+
+  [18:23 UTC] Collecting data...
+    Game lines: 2933 records
+  [FD] 8 games found
+  [FD] 4505 prop lines fetched
+    FD props: 1148 records
+    Duration: 45.9s
+    DB totals: 218280 GL records, 39376 FD records, 36 game results, 57 collections
+
+  [18:39 UTC] Collecting data...
+    Game lines: 2933 records
+  [FD] 8 games found
+  [FD] 4501 prop lines fetched
+    FD props: 1150 records
+    Duration: 42.9s
+    DB totals: 221123 GL records, 40098 FD records, 36 game results, 58 collections
+
+  [18:55 UTC] Collecting data...
+    Game lines: 2933 records
+  [FD] 8 games found
+  [FD] 4501 prop lines fetched
+    FD props: 1148 records
+    Duration: 41.5s
+    DB totals: 223966 GL records, 40820 FD records, 36 game results, 59 collections
+
+  [19:10 UTC] Collecting data...
+    Game lines: 2983 records
+  [FD] 8 games found
+  [FD] 4504 prop lines fetched
+    FD props: 1146 records
+    Duration: 11.7s
+    DB totals: 226815 GL records, 41542 FD records, 36 game results, 60 collections
+
+  [19:26 UTC] Collecting data...
+    Game lines: 2967 records
+  [FD] 8 games found
+  [FD] 4623 prop lines fetched
+    FD props: 1182 records
+    Duration: 42.6s
+    DB totals: 229644 GL records, 42284 FD records, 36 game results, 61 collections
+
+  [19:41 UTC] Collecting data...
+    Game lines: 2967 records
+  [FD] 8 games found
+  [FD] 4623 prop lines fetched
+    FD props: 1184 records
+    Duration: 42.1s
+    DB totals: 232473 GL records, 43026 FD records, 36 game results, 62 collections
+
+  [19:57 UTC] Collecting data...
+    Game lines: 3024 records
+  [FD] 8 games found
+  [FD] 4618 prop lines fetched
+    FD props: 1184 records
+    Duration: 52.1s
+    DB totals: 235359 GL records, 43768 FD records, 36 game results, 63 collections
+
+  [20:13 UTC] Collecting data...
+    Game lines: 2980 records
+  [FD] 8 games found
+  [FD] 4622 prop lines fetched
+    FD props: 1184 records
+    Duration: 24.8s
+    DB totals: 238201 GL records, 44510 FD records, 36 game results, 64 collections
+
+  [20:28 UTC] Collecting data...
+    Game lines: 3028 records
+  [FD] 8 games found
+  [FD] 4628 prop lines fetched
+    FD props: 1184 records
+    Duration: 40.3s
+    DB totals: 241079 GL records, 45252 FD records, 36 game results, 65 collections
+
+  [20:44 UTC] Collecting data...
+    Game lines: 2500 records
+  [FD] 8 games found
+  [FD] 4628 prop lines fetched
+    FD props: 1184 records
+    Duration: 41.3s
+    DB totals: 243495 GL records, 45994 FD records, 36 game results, 66 collections
+
+  [21:00 UTC] Collecting data...
+    Game lines: 2467 records
+  [FD] 8 games found
+  [FD] 4630 prop lines fetched
+    FD props: 1184 records
+    Duration: 48.6s
+    DB totals: 245878 GL records, 46736 FD records, 36 game results, 67 collections
+
+  [21:15 UTC] Collecting data...
+    Game lines: 2467 records
+  [FD] 8 games found
+  [FD] 4630 prop lines fetched
+    FD props: 1184 records
+    Duration: 45.2s
+    DB totals: 248261 GL records, 47478 FD records, 36 game results, 68 collections
+
+  [21:31 UTC] Collecting data...
+    Game lines: 2467 records
+  [FD] 8 games found
+  [FD] 4475 prop lines fetched
+    FD props: 1142 records
+    Duration: 41.5s
+    DB totals: 250644 GL records, 48194 FD records, 36 game results, 69 collections
+
+  [21:47 UTC] Collecting data...
+    Game lines: 2467 records
+  [FD] 8 games found
+  [FD] 4632 prop lines fetched
+    FD props: 1186 records
+    Duration: 42.5s
+    DB totals: 253027 GL records, 48936 FD records, 36 game results, 70 collections
+
+  [22:03 UTC] Collecting data...
+    Game lines: 2467 records
+  [FD] 8 games found
+  [FD] 4642 prop lines fetched
+    FD props: 1186 records
+    Duration: 42.5s
+    DB totals: 255410 GL records, 49678 FD records, 36 game results, 71 collections
+
+  [22:18 UTC] Collecting data...
+    Game lines: 2467 records
+  [FD] 8 games found
+  [FD] 4641 prop lines fetched
+    FD props: 1184 records
+    Duration: 37.7s
+    DB totals: 257793 GL records, 50420 FD records, 36 game results, 72 collections
+
+  [22:34 UTC] Collecting data...
+    Game lines: 2479 records
+  [FD] 8 games found
+  [FD] 4646 prop lines fetched
+    FD props: 1190 records
+    Duration: 43.3s
+    DB totals: 260182 GL records, 51168 FD records, 36 game results, 73 collections
+
+  [22:50 UTC] Collecting data...
+    Game lines: 2479 records
+  [FD] 8 games found
+  [FD] 4672 prop lines fetched
+    FD props: 1200 records
+    Duration: 40.6s
+    DB totals: 262571 GL records, 51924 FD records, 36 game results, 74 collections
+
+  [23:05 UTC] Collecting data...
+    Game lines: 2479 records
+  [FD] 8 games found
+  [FD] 4676 prop lines fetched
+    FD props: 1198 records
+    Duration: 42.3s
+    DB totals: 264960 GL records, 52680 FD records, 36 game results, 75 collections
+
+  [23:21 UTC] Collecting data...
+    Game lines: 2515 records
+  [FD] 8 games found
+  [FD] 4716 prop lines fetched
+    FD props: 1202 records
+    Duration: 38.5s
+    DB totals: 267373 GL records, 53442 FD records, 36 game results, 76 collections
+
+  [23:37 UTC] Collecting data...
+    Game lines: 2515 records
+  [FD] 8 games found
+  [FD] 4711 prop lines fetched
+    FD props: 1200 records
+    Duration: 38.6s
+    DB totals: 269786 GL records, 54204 FD records, 36 game results, 77 collections
+
+  [23:52 UTC] Collecting data...
+    Game lines: 2515 records
+  [FD] 8 games found
+  [FD] 4707 prop lines fetched
+    FD props: 1200 records
+    Duration: 42.2s
+    DB totals: 272199 GL records, 54966 FD records, 36 game results, 78 collections
+
+  [00:08 UTC] Collecting data...
+    Game lines: 2617 records
+  [FD] 8 games found
+  [FD] 4710 prop lines fetched
+    FD props: 1200 records
+    Duration: 43.7s
+    DB totals: 274714 GL records, 55728 FD records, 37 game results, 79 collections
+
+  [00:24 UTC] Collecting data...
+    Game lines: 2667 records
+  [FD] 8 games found
+  [FD] 4711 prop lines fetched
+    FD props: 1200 records
+    Duration: 43.6s
+    DB totals: 277261 GL records, 56490 FD records, 37 game results, 80 collections
+
+  [00:40 UTC] Collecting data...
+    Game lines: 2675 records
+  [FD] 8 games found
+  [FD] 4715 prop lines fetched
+    FD props: 1202 records
+    Duration: 45.0s
+    DB totals: 279816 GL records, 57252 FD records, 37 game results, 81 collections
+
+  [00:55 UTC] Collecting data...
+    Game lines: 2737 records
+  [FD] 8 games found
+  [FD] 4720 prop lines fetched
+    FD props: 1202 records
+    Duration: 43.2s
+    DB totals: 282415 GL records, 58014 FD records, 37 game results, 82 collections
+
+  [01:11 UTC] Collecting data...
+    Game lines: 2737 records
+  [FD] 8 games found
+  [FD] 4722 prop lines fetched
+    FD props: 1200 records
+    Duration: 43.5s
+    DB totals: 285014 GL records, 58776 FD records, 37 game results, 83 collections
+
+  [01:27 UTC] Collecting data...
+    Game lines: 2747 records
+  [FD] 8 games found
+  [FD] 4724 prop lines fetched
+    FD props: 1202 records
+    Duration: 41.6s
+    DB totals: 287617 GL records, 59538 FD records, 38 game results, 84 collections
+
+  [01:42 UTC] Collecting data...
+    Game lines: 2723 records
+  [FD] 8 games found
+  [FD] 4720 prop lines fetched
+    FD props: 1171 records
+    Duration: 345.3s
+    DB totals: 290196 GL records, 60283 FD records, 42 game results, 85 collections
+
+  [02:03 UTC] Collecting data...
+    Game lines: 2769 records
+  [FD] 8 games found
+  [FD] 4723 prop lines fetched
+    FD props: 1204 records
+    Duration: 43.9s
+    DB totals: 292821 GL records, 61045 FD records, 43 game results, 86 collections
+
+  [02:19 UTC] Collecting data...
+    Game lines: 2769 records
+  [FD] 8 games found
+  [FD] 4719 prop lines fetched
+    FD props: 1200 records
+    Duration: 45.6s
+    DB totals: 295446 GL records, 61807 FD records, 46 game results, 87 collections
+
+  [02:35 UTC] Collecting data...
+    Game lines: 2769 records
+  [FD] 8 games found
+  [FD] 4771 prop lines fetched
+    FD props: 1214 records
+    Duration: 45.0s
+    DB totals: 298071 GL records, 62579 FD records, 47 game results, 88 collections
+
+  [02:50 UTC] Collecting data...
+    Game lines: 2881 records
+  [FD] 8 games found
+  [FD] 4783 prop lines fetched
+    FD props: 1220 records
+    Duration: 45.2s
+    DB totals: 300772 GL records, 63357 FD records, 50 game results, 89 collections
+
+  [03:06 UTC] Collecting data...
+    Game lines: 2881 records
+  [FD] 8 games found
+  [FD] 4805 prop lines fetched
+    FD props: 1226 records
+    Duration: 45.2s
+    DB totals: 303473 GL records, 64141 FD records, 51 game results, 90 collections
+
+  [03:22 UTC] Collecting data...
+    Game lines: 2881 records
+  [FD] 8 games found
+  [FD] 4812 prop lines fetched
+    FD props: 1226 records
+    Duration: 45.5s
+    DB totals: 306174 GL records, 64925 FD records, 51 game results, 91 collections
+
+  [03:38 UTC] Collecting data...
+    Game lines: 2909 records
+  [FD] 8 games found
+  [FD] 4811 prop lines fetched
+    FD props: 1226 records
+    Duration: 44.5s
+    DB totals: 308897 GL records, 65709 FD records, 51 game results, 92 collections
+
+  [03:53 UTC] Collecting data...
+    Game lines: 2945 records
+  [FD] 8 games found
+  [FD] 4815 prop lines fetched
+    FD props: 1224 records
+    Duration: 46.8s
+    DB totals: 311644 GL records, 66493 FD records, 51 game results, 93 collections
+
+  [04:09 UTC] Collecting data...
+    Game lines: 2945 records
+  [FD] 8 games found
+  [FD] 4809 prop lines fetched
+    FD props: 1226 records
+    Duration: 44.9s
+    DB totals: 314391 GL records, 67277 FD records, 51 game results, 94 collections
+
+  [04:25 UTC] Collecting data...
+    Game lines: 2982 records
+  [FD] 8 games found
+  [FD] 4809 prop lines fetched
+    FD props: 1226 records
+    Duration: 43.3s
+    DB totals: 317175 GL records, 68061 FD records, 55 game results, 95 collections
+
+  [04:41 UTC] Collecting data...
+    Game lines: 2992 records
+  [FD] 8 games found
+  [FD] 4824 prop lines fetched
+    FD props: 1232 records
+    Duration: 43.5s
+    DB totals: 319969 GL records, 68845 FD records, 55 game results, 96 collections
+
+  [04:56 UTC] Collecting data...
+    Game lines: 2992 records
+  [FD] 8 games found
+  [FD] 4818 prop lines fetched
+    FD props: 1230 records
+    Duration: 42.5s
+    DB totals: 322763 GL records, 69629 FD records, 56 game results, 97 collections
+
+  [05:12 UTC] Collecting data...
+    Game lines: 3023 records
+  [FD] 8 games found
+  [FD] 4824 prop lines fetched
+    FD props: 1230 records
+    Duration: 44.8s
+    DB totals: 325588 GL records, 70413 FD records, 56 game results, 98 collections
+
+  [05:28 UTC] Collecting data...
+    Game lines: 3023 records
+  [FD] 8 games found
+  [FD] 4824 prop lines fetched
+    FD props: 1230 records
+    Duration: 42.3s
+    DB totals: 328413 GL records, 71197 FD records, 56 game results, 99 collections
+
+  [05:44 UTC] Collecting data...
+    Game lines: 3023 records
+  [FD] 8 games found
+  [FD] 4824 prop lines fetched
+    FD props: 1230 records
+    Duration: 44.5s
+    DB totals: 331238 GL records, 71981 FD records, 56 game results, 100 collections
+
+  [05:59 UTC] Collecting data...
+    Game lines: 3023 records
+  [FD] 8 games found
+  [FD] 4824 prop lines fetched
+    FD props: 1230 records
+    Duration: 47.0s
+    DB totals: 334063 GL records, 72765 FD records, 56 game results, 101 collections
+
+  [06:15 UTC] Collecting data...
+    Game lines: 3023 records
+  [FD] 8 games found
+  [FD] 4823 prop lines fetched
+    FD props: 1230 records
+    Duration: 44.9s
+    DB totals: 336888 GL records, 73549 FD records, 56 game results, 102 collections
+
+  [06:31 UTC] Collecting data...
+    Game lines: 3085 records
+  [FD] 8 games found
+  [FD] 4823 prop lines fetched
+    FD props: 1230 records
+    Duration: 45.9s
+    DB totals: 339775 GL records, 74333 FD records, 56 game results, 103 collections
+
+  [06:47 UTC] Collecting data...
+    Game lines: 3085 records
+  [FD] 8 games found
+  [FD] 4823 prop lines fetched
+    FD props: 1230 records
+    Duration: 45.0s
+    DB totals: 342662 GL records, 75117 FD records, 56 game results, 104 collections
+
+  [07:02 UTC] Collecting data...
+    Game lines: 3089 records
+  [FD] 8 games found
+  [FD] 4823 prop lines fetched
+    FD props: 1232 records
+    Duration: 44.2s
+    DB totals: 345553 GL records, 75901 FD records, 56 game results, 105 collections
+
+  [07:18 UTC] Collecting data...
+    Game lines: 3091 records
+  [FD] 8 games found
+  [FD] 4823 prop lines fetched
+    FD props: 1232 records
+    Duration: 43.8s
+    DB totals: 348446 GL records, 76685 FD records, 56 game results, 106 collections
+
+  [07:34 UTC] Collecting data...
+    Game lines: 3105 records
+  [FD] 8 games found
+  [FD] 4823 prop lines fetched
+    FD props: 1232 records
+    Duration: 46.2s
+    DB totals: 351353 GL records, 77469 FD records, 56 game results, 107 collections
+
+  [07:50 UTC] Collecting data...
+    Game lines: 3107 records
+  [FD] 8 games found
+  [FD] 4823 prop lines fetched
+    FD props: 1232 records
+    Duration: 42.6s
+    DB totals: 354262 GL records, 78253 FD records, 56 game results, 108 collections
+
+  [08:05 UTC] Collecting data...
+    Game lines: 3111 records
+  [FD] 8 games found
+  [FD] 4823 prop lines fetched
+    FD props: 1232 records
+    Duration: 44.5s
+    DB totals: 357175 GL records, 79037 FD records, 56 game results, 109 collections
+
+  [08:21 UTC] Collecting data...
+    Game lines: 3127 records
+  [FD] 8 games found
+  [FD] 4823 prop lines fetched
+    FD props: 1232 records
+    Duration: 44.1s
+    DB totals: 360104 GL records, 79821 FD records, 56 game results, 110 collections
+
+  [08:37 UTC] Collecting data...
+    Game lines: 3161 records
+  [FD] 8 games found
+  [FD] 4823 prop lines fetched
+    FD props: 1232 records
+    Duration: 43.7s
+    DB totals: 363067 GL records, 80605 FD records, 56 game results, 111 collections
+
+  [08:53 UTC] Collecting data...
+    Game lines: 3167 records
+  [FD] 8 games found
+  [FD] 4823 prop lines fetched
+    FD props: 1232 records
+    Duration: 40.4s
+    DB totals: 366036 GL records, 81389 FD records, 56 game results, 112 collections
+
+  [09:08 UTC] Collecting data...
+    Game lines: 3171 records
+  [FD] 8 games found
+  [FD] 4823 prop lines fetched
+    FD props: 1232 records
+    Duration: 43.4s
+    DB totals: 369009 GL records, 82173 FD records, 56 game results, 113 collections
+
+  [09:24 UTC] Collecting data...
+    Game lines: 3175 records
+  [FD] 8 games found
+  [FD] 4823 prop lines fetched
+    FD props: 1232 records
+    Duration: 45.8s
+    DB totals: 371986 GL records, 82957 FD records, 56 game results, 114 collections
+
+  [09:40 UTC] Collecting data...
+    Game lines: 3175 records
+  [FD] 8 games found
+  [FD] 4824 prop lines fetched
+    FD props: 1232 records
+    Duration: 44.2s
+    DB totals: 374963 GL records, 83741 FD records, 56 game results, 115 collections
+
+  [09:55 UTC] Collecting data...
+    Game lines: 3175 records
+  [FD] 8 games found
+  [FD] 4824 prop lines fetched
+    FD props: 1232 records
+    Duration: 43.1s
+    DB totals: 377940 GL records, 84525 FD records, 56 game results, 116 collections
+
+  [10:11 UTC] Collecting data...
+    Game lines: 3179 records
+  [FD] 8 games found
+  [FD] 4824 prop lines fetched
+    FD props: 1232 records
+    Duration: 43.3s
+    DB totals: 380921 GL records, 85309 FD records, 56 game results, 117 collections
+
+  [10:27 UTC] Collecting data...
+    Game lines: 3189 records
+  [FD] 8 games found
+  [FD] 4824 prop lines fetched
+    FD props: 1232 records
+    Duration: 44.8s
+    DB totals: 383912 GL records, 86093 FD records, 56 game results, 118 collections
+
+  [10:43 UTC] Collecting data...
+    Game lines: 3189 records
+  [FD] 8 games found
+  [FD] 4825 prop lines fetched
+    FD props: 1232 records
+    Duration: 42.7s
+    DB totals: 386903 GL records, 86877 FD records, 56 game results, 119 collections
+
+  [10:58 UTC] Collecting data...
+    Game lines: 3197 records
+  [FD] 8 games found
+  [FD] 4798 prop lines fetched
+    FD props: 1218 records
+    Duration: 41.3s
+    DB totals: 389902 GL records, 87645 FD records, 56 game results, 120 collections
+
+  [11:14 UTC] Collecting data...
+    Game lines: 3197 records
+  [FD] 8 games found
+  [FD] 4808 prop lines fetched
+    FD props: 1216 records
+    Duration: 44.2s
+    DB totals: 392901 GL records, 88413 FD records, 56 game results, 121 collections
+
+  [11:30 UTC] Collecting data...
+    Game lines: 3197 records
+  [FD] 8 games found
+  [FD] 4806 prop lines fetched
+    FD props: 1214 records
+    Duration: 57.0s
+    DB totals: 395900 GL records, 89181 FD records, 56 game results, 122 collections
+
+  [11:46 UTC] Collecting data...
+    Game lines: 3197 records
+  [FD] 8 games found
+  [FD] 4810 prop lines fetched
+    FD props: 1216 records
+    Duration: 45.6s
+    DB totals: 398899 GL records, 89949 FD records, 56 game results, 123 collections
+
+  [12:01 UTC] Collecting data...
+    Game lines: 3197 records
+  [FD] 8 games found
+  [FD] 4807 prop lines fetched
+    FD props: 1214 records
+    Duration: 41.1s
+    DB totals: 401898 GL records, 90717 FD records, 56 game results, 124 collections
+
+  [12:17 UTC] Collecting data...
+    Game lines: 3201 records
+  [FD] 8 games found
+  [FD] 4804 prop lines fetched
+    FD props: 1216 records
+    Duration: 47.6s
+    DB totals: 404901 GL records, 91485 FD records, 56 game results, 125 collections
+
+  [12:33 UTC] Collecting data...
+    Game lines: 3201 records
+  [FD] 8 games found
+  [FD] 4802 prop lines fetched
+    FD props: 1216 records
+    Duration: 47.7s
+    DB totals: 407904 GL records, 92253 FD records, 56 game results, 126 collections
+
+  [12:49 UTC] Collecting data...
+    Game lines: 3201 records
+  [FD] 8 games found
+  [FD] 4803 prop lines fetched
+    FD props: 1216 records
+    Duration: 44.8s
+    DB totals: 410907 GL records, 93021 FD records, 56 game results, 127 collections
+
+  [13:04 UTC] Collecting data...
+    Game lines: 3235 records
+  [FD] 8 games found
+  [FD] 4808 prop lines fetched
+    FD props: 1214 records
+    Duration: 47.6s
+    DB totals: 413944 GL records, 93789 FD records, 56 game results, 128 collections
+
+  [13:20 UTC] Collecting data...
+    Game lines: 3239 records
+  [FD] 8 games found
+  [FD] 4808 prop lines fetched
+    FD props: 1212 records
+    Duration: 44.9s
+    DB totals: 416985 GL records, 94557 FD records, 56 game results, 129 collections
+
+  [13:36 UTC] Collecting data...
+    Game lines: 3287 records
+  [FD] 8 games found
+  [FD] 4808 prop lines fetched
+    FD props: 1212 records
+    Duration: 48.2s
+    DB totals: 420026 GL records, 95325 FD records, 56 game results, 130 collections
+
+  [13:52 UTC] Collecting data...
+    Game lines: 3293 records
+  [FD] 8 games found
+  [FD] 4809 prop lines fetched
+    FD props: 1214 records
+    Duration: 42.7s
+    DB totals: 423073 GL records, 96093 FD records, 56 game results, 131 collections
+
+  [14:08 UTC] Collecting data...
+    Game lines: 3293 records
+  [FD] 8 games found
+  [FD] 4805 prop lines fetched
+    FD props: 1214 records
+    Duration: 45.6s
+    DB totals: 426120 GL records, 96861 FD records, 56 game results, 132 collections
+
+  [14:23 UTC] Collecting data...
+    Game lines: 3293 records
+  [FD] 8 games found
+  [FD] 4797 prop lines fetched
+    FD props: 1178 records
+    Duration: 220.8s
+    DB totals: 429167 GL records, 97611 FD records, 56 game results, 133 collections
+
+  [14:42 UTC] Collecting data...
+    Game lines: 3305 records
+  [FD] 8 games found
+  [FD] 4797 prop lines fetched
+    FD props: 1212 records
+    Duration: 45.6s
+    DB totals: 432226 GL records, 98379 FD records, 56 game results, 134 collections
+
+  [14:58 UTC] Collecting data...
+    Game lines: 3305 records
+  [FD] 8 games found
+  [FD] 4801 prop lines fetched
+    FD props: 1214 records
+    Duration: 44.1s
+    DB totals: 435285 GL records, 99147 FD records, 56 game results, 135 collections
+
+  [15:13 UTC] Collecting data...
+    Game lines: 3305 records
+  [FD] 8 games found
+  [FD] 4821 prop lines fetched
+    FD props: 1220 records
+    Duration: 45.0s
+    DB totals: 438344 GL records, 99921 FD records, 56 game results, 136 collections
+
+  [15:29 UTC] Collecting data...
+    Game lines: 3305 records
+  [FD] 8 games found
+  [FD] 4819 prop lines fetched
+    FD props: 1220 records
+    Duration: 44.0s
+    DB totals: 441403 GL records, 100695 FD records, 56 game results, 137 collections
+
+  [15:45 UTC] Collecting data...
+    Game lines: 3305 records
+  [FD] 8 games found
+  [FD] 4823 prop lines fetched
+    FD props: 1218 records
+    Duration: 45.2s
+    DB totals: 444462 GL records, 101469 FD records, 56 game results, 138 collections
+
+  [16:01 UTC] Collecting data...
+    Game lines: 3305 records
+  [FD] 8 games found
+  [FD] 4825 prop lines fetched
+    FD props: 1218 records
+    Duration: 44.9s
+    DB totals: 447521 GL records, 102243 FD records, 56 game results, 139 collections
+
+  [16:16 UTC] Collecting data...
+    Game lines: 3239 records
+  [FD] 8 games found
+  [FD] 4824 prop lines fetched
+    FD props: 1222 records
+    Duration: 43.3s
+    DB totals: 450514 GL records, 103017 FD records, 56 game results, 140 collections
+
+  [16:32 UTC] Collecting data...
+    Game lines: 3239 records
+  [FD] 8 games found
+  [FD] 6449 prop lines fetched
+    FD props: 2358 records
+    Duration: 45.8s
+    DB totals: 453507 GL records, 104937 FD records, 56 game results, 141 collections
+
+  [16:48 UTC] Collecting data...
+    Game lines: 3249 records
+  [FD] 8 games found
+  [FD] 6448 prop lines fetched
+    FD props: 2356 records
+    Duration: 47.0s
+    DB totals: 456500 GL records, 106857 FD records, 56 game results, 142 collections
+
+  [17:04 UTC] Collecting data...
+    Game lines: 3267 records
+  [FD] 8 games found
+  [FD] 6448 prop lines fetched
+    FD props: 2356 records
+    Duration: 58.2s
+    DB totals: 459493 GL records, 108777 FD records, 56 game results, 143 collections
+
+  [17:20 UTC] Collecting data...
+    Game lines: 3271 records
+  [FD] 8 games found
+  [FD] 7804 prop lines fetched
+    FD props: 3370 records
+    Duration: 45.4s
+    DB totals: 462486 GL records, 111713 FD records, 56 game results, 144 collections
+
+  [17:35 UTC] Collecting data...
+    Game lines: 3289 records
+  [FD] 8 games found
+  [FD] 7794 prop lines fetched
+    FD props: 3371 records
+    Duration: 46.1s
+    DB totals: 465479 GL records, 114648 FD records, 56 game results, 145 collections
+
+  [17:51 UTC] Collecting data...
+    Game lines: 3293 records
+  [FD] 8 games found
+  [FD] 7777 prop lines fetched
+    FD props: 3362 records
+    Duration: 45.3s
+    DB totals: 468472 GL records, 117572 FD records, 56 game results, 146 collections
+
+  [18:07 UTC] Collecting data...
+    Game lines: 3293 records
+  [FD] 8 games found
+  [FD] 7778 prop lines fetched
+    FD props: 3363 records
+    Duration: 47.2s
+    DB totals: 471465 GL records, 120499 FD records, 56 game results, 147 collections
+
+  [18:23 UTC] Collecting data...
+    Game lines: 3293 records
+  [FD] 8 games found
+  [FD] 7780 prop lines fetched
+    FD props: 3364 records
+    Duration: 45.2s
+    DB totals: 474458 GL records, 123429 FD records, 56 game results, 148 collections
+
+  [18:39 UTC] Collecting data...
+    Game lines: 3293 records
+  [FD] 8 games found
+  [FD] 7763 prop lines fetched
+    FD props: 3354 records
+    Duration: 45.7s
+    DB totals: 477451 GL records, 126349 FD records, 56 game results, 149 collections
+
+  [18:54 UTC] Collecting data...
+    Game lines: 3401 records
+  [FD] 8 games found
+  [FD] 7767 prop lines fetched
+    FD props: 3356 records
+    Duration: 45.0s
+    DB totals: 480618 GL records, 129271 FD records, 56 game results, 150 collections
+
+  [19:10 UTC] Collecting data...
+    Game lines: 3221 records
+  [FD] 8 games found
+  [FD] 7759 prop lines fetched
+    FD props: 3359 records
+    Duration: 46.2s
+    DB totals: 483671 GL records, 132192 FD records, 56 game results, 151 collections
+
+  [19:26 UTC] Collecting data...
+    Game lines: 3215 records
+  [FD] 8 games found
+  [FD] 7833 prop lines fetched
+    FD props: 3416 records
+    Duration: 49.0s
+    DB totals: 486718 GL records, 135172 FD records, 56 game results, 152 collections
+
+  [19:42 UTC] Collecting data...
+    Game lines: 3185 records
+  [FD] 8 games found
+  [FD] 7839 prop lines fetched
+    FD props: 3418 records
+    Duration: 48.5s
+    DB totals: 489735 GL records, 138154 FD records, 56 game results, 153 collections
+
+  [19:57 UTC] Collecting data...
+    Game lines: 3202 records
+  [FD] 8 games found
+  [FD] 7827 prop lines fetched
+    FD props: 3412 records
+    Duration: 48.6s
+    DB totals: 492769 GL records, 141130 FD records, 56 game results, 154 collections
+
+  [20:13 UTC] Collecting data...
+    Game lines: 3138 records
+  [FD] 8 games found
+  [FD] 7837 prop lines fetched
+    FD props: 3416 records
+    Duration: 48.9s
+    DB totals: 495739 GL records, 144110 FD records, 56 game results, 155 collections
+
+  [20:29 UTC] Collecting data...
+    Game lines: 3138 records
+  [FD] 8 games found
+  [FD] 7786 prop lines fetched
+    FD props: 3398 records
+    Duration: 44.3s
+    DB totals: 498709 GL records, 147072 FD records, 56 game results, 156 collections
+
+  [20:45 UTC] Collecting data...
+    Game lines: 3094 records
+  [FD] 8 games found
+  [FD] 7815 prop lines fetched
+    FD props: 3411 records
+    Duration: 44.1s
+    DB totals: 501635 GL records, 150047 FD records, 56 game results, 157 collections
+
+  [21:01 UTC] Collecting data...
+    Game lines: 3102 records
+  [FD] 8 games found
+  [FD] 7807 prop lines fetched
+    FD props: 3406 records
+    Duration: 49.1s
+    DB totals: 504561 GL records, 153017 FD records, 56 game results, 158 collections
+
+  [21:16 UTC] Collecting data...
+    Game lines: 3102 records
+  [FD] 8 games found
+  [FD] 7873 prop lines fetched
+    FD props: 3420 records
+    Duration: 41.6s
+    DB totals: 507487 GL records, 156001 FD records, 56 game results, 159 collections
+
+  [21:32 UTC] Collecting data...
+    Game lines: 3031 records
+  [FD] 8 games found
+  [FD] 7869 prop lines fetched
+    FD props: 3420 records
+    Duration: 46.3s
+    DB totals: 510338 GL records, 158985 FD records, 56 game results, 160 collections
+
+  [21:48 UTC] Collecting data...
+    Game lines: 3031 records
+  [FD] 8 games found
+  [FD] 7861 prop lines fetched
+    FD props: 3418 records
+    Duration: 43.4s
+    DB totals: 513189 GL records, 161967 FD records, 56 game results, 161 collections
+
+  [22:04 UTC] Collecting data...
+    Game lines: 2998 records
+  [FD] 8 games found
+  [FD] 7848 prop lines fetched
+    FD props: 3407 records
+    Duration: 44.7s
+    DB totals: 516007 GL records, 164938 FD records, 56 game results, 162 collections
+
+  [22:19 UTC] Collecting data...
+    Game lines: 2932 records
+  [FD] 8 games found
+  [FD] 7872 prop lines fetched
+    FD props: 3430 records
+    Duration: 44.8s
+    DB totals: 518825 GL records, 167932 FD records, 56 game results, 163 collections
+
+  [22:35 UTC] Collecting data...
+    Game lines: 2938 records
+  [FD] 8 games found
+  [FD] 7880 prop lines fetched
+    FD props: 3434 records
+    Duration: 45.0s
+    DB totals: 521649 GL records, 170926 FD records, 56 game results, 164 collections
+
+  [22:51 UTC] Collecting data...
+    Game lines: 2960 records
+  [FD] 8 games found
+  [FD] 7884 prop lines fetched
+    FD props: 3434 records
+    Duration: 45.7s
+    DB totals: 524495 GL records, 173920 FD records, 56 game results, 165 collections
+
+  [23:07 UTC] Collecting data...
+    Game lines: 2970 records
+  [FD] 8 games found
+  [FD] 8016 prop lines fetched
+    FD props: 3524 records
+    Duration: 40.5s
+    DB totals: 527351 GL records, 177006 FD records, 56 game results, 166 collections
+
+  [23:22 UTC] Collecting data...
+    Game lines: 2994 records
+  [FD] 8 games found
+  [FD] 8019 prop lines fetched
+    FD props: 3521 records
+    Duration: 41.9s
+    DB totals: 530231 GL records, 180087 FD records, 56 game results, 167 collections
+
+  [23:38 UTC] Collecting data...
+    Game lines: 2994 records
+  [FD] 8 games found
+  [FD] 7997 prop lines fetched
+    FD props: 3513 records
+    Duration: 46.9s
+    DB totals: 533111 GL records, 183162 FD records, 56 game results, 168 collections
+
+  [23:54 UTC] Collecting data...
+    Game lines: 2994 records
+  [FD] 8 games found
+  [FD] 5975 prop lines fetched
+    FD props: 2126 records
+    Duration: 43.3s
+    DB totals: 535991 GL records, 184920 FD records, 56 game results, 169 collections
+
+  [00:09 UTC] Collecting data...
+    Game lines: 2682 records
+  [FD] 8 games found
+  [FD] 5946 prop lines fetched
+    FD props: 2124 records
+    Duration: 44.8s
+    DB totals: 538559 GL records, 186676 FD records, 56 game results, 170 collections
+
+  [00:25 UTC] Collecting data...
+    Game lines: 2696 records
+  [FD] 8 games found
+  [FD] 5879 prop lines fetched
+    FD props: 2129 records
+    Duration: 44.6s
+    DB totals: 541127 GL records, 188425 FD records, 56 game results, 171 collections
+
+  [00:41 UTC] Collecting data...
+    Game lines: 2700 records
+  [FD] 8 games found
+  [FD] 5837 prop lines fetched
+    FD props: 2120 records
+    Duration: 42.6s
+    DB totals: 543695 GL records, 190167 FD records, 56 game results, 172 collections
+
+  [00:57 UTC] Collecting data...
+    Game lines: 2726 records
+  [FD] 8 games found
+  [FD] 5834 prop lines fetched
+    FD props: 2129 records
+    Duration: 41.7s
+    DB totals: 546289 GL records, 191918 FD records, 56 game results, 173 collections
+
+  [01:12 UTC] Collecting data...
+    Game lines: 2752 records
+  [FD] 8 games found
+  [FD] 5652 prop lines fetched
+    FD props: 2056 records
+    Duration: 42.4s
+    DB totals: 548907 GL records, 193594 FD records, 58 game results, 174 collections
+
+  [01:28 UTC] Collecting data...
+    Game lines: 2790 records
+  [FD] 8 games found
+  [FD] 5550 prop lines fetched
+    FD props: 2039 records
+    Duration: 44.0s
+    DB totals: 551547 GL records, 195253 FD records, 58 game results, 175 collections
+
+  [01:44 UTC] Collecting data...
+    Game lines: 2802 records
+  [FD] 8 games found
+  [FD] 5559 prop lines fetched
+    FD props: 2087 records
+    Duration: 41.9s
+    DB totals: 554199 GL records, 196968 FD records, 63 game results, 176 collections
+
+  [01:59 UTC] Collecting data...
+    Game lines: 2838 records
+  [FD] 8 games found
+  [FD] 5422 prop lines fetched
+    FD props: 2040 records
+    Duration: 47.6s
+    DB totals: 556887 GL records, 198636 FD records, 65 game results, 177 collections
+
+  [02:15 UTC] Collecting data...
+    Game lines: 2865 records
+  [FD] 8 games found
+  [FD] 3964 prop lines fetched
+    FD props: 982 records
+    Duration: 42.0s
+    DB totals: 559596 GL records, 199280 FD records, 67 game results, 178 collections
+
+  [02:31 UTC] Collecting data...
+    Game lines: 2905 records
+  [FD] 7 games found
+  [FD] 3890 prop lines fetched
+    FD props: 976 records
+    Duration: 40.9s
+    DB totals: 562327 GL records, 199918 FD records, 69 game results, 179 collections
+
+  [02:47 UTC] Collecting data...
+    Game lines: 2905 records
+  [FD] 7 games found
+  [FD] 3856 prop lines fetched
+    FD props: 972 records
+    Duration: 36.6s
+    DB totals: 565058 GL records, 200554 FD records, 72 game results, 180 collections
+
+  [03:02 UTC] Collecting data...
+    Game lines: 2913 records
+  [FD] 7 games found
+  [FD] 3861 prop lines fetched
+    FD props: 988 records
+    Duration: 40.1s
+    DB totals: 567797 GL records, 201198 FD records, 72 game results, 181 collections
+
+  [03:18 UTC] Collecting data...
+    Game lines: 2947 records
+  [FD] 7 games found
+  [FD] 3864 prop lines fetched
+    FD props: 1002 records
+    Duration: 40.2s
+    DB totals: 570570 GL records, 201848 FD records, 74 game results, 182 collections
+
+  [03:34 UTC] Collecting data...
+    Game lines: 2959 records
+  [FD] 7 games found
+  [FD] 3908 prop lines fetched
+    FD props: 1014 records
+    Duration: 40.0s
+    DB totals: 573355 GL records, 202512 FD records, 74 game results, 183 collections
+
+  [03:49 UTC] Collecting data...
+    Game lines: 2959 records
+  [FD] 7 games found
+  [FD] 3816 prop lines fetched
+    FD props: 994 records
+    Duration: 39.4s
+    DB totals: 576140 GL records, 203164 FD records, 76 game results, 184 collections
+
+  [04:05 UTC] Collecting data...
+    Game lines: 2971 records
+  [FD] 7 games found
+  [FD] 3712 prop lines fetched
+    FD props: 970 records
+    Duration: 50.8s
+    DB totals: 578937 GL records, 203802 FD records, 77 game results, 185 collections
+
+  [04:21 UTC] Collecting data...
+    Game lines: 3071 records
+  [FD] 7 games found
+  [FD] 3608 prop lines fetched
+    FD props: 926 records
+    Duration: 39.5s
+    DB totals: 581796 GL records, 204416 FD records, 79 game results, 186 collections
+
+  [04:36 UTC] Collecting data...
+    Game lines: 3095 records
+  [FD] 7 games found
+  [FD] 3488 prop lines fetched
+    FD props: 898 records
+    Duration: 37.2s
+    DB totals: 584663 GL records, 205002 FD records, 80 game results, 187 collections
+
+  [04:52 UTC] Collecting data...
+    Game lines: 3113 records
+  [FD] 7 games found
+  [FD] 3985 prop lines fetched
+    FD props: 1028 records
+    Duration: 40.1s
+    DB totals: 587530 GL records, 205664 FD records, 82 game results, 188 collections
+
+  [05:08 UTC] Collecting data...
+    Game lines: 3121 records
+  [FD] 7 games found
+  [FD] 4035 prop lines fetched
+    FD props: 1040 records
+    Duration: 40.0s
+    DB totals: 590405 GL records, 206326 FD records, 82 game results, 189 collections
+
+  [05:23 UTC] Collecting data...
+    Game lines: 3153 records
+  [FD] 7 games found
+  [FD] 4114 prop lines fetched
+    FD props: 1058 records
+    Duration: 40.7s
+    DB totals: 593312 GL records, 206988 FD records, 82 game results, 190 collections
+
+  [05:39 UTC] Collecting data...
+    Game lines: 3155 records
+  [FD] 7 games found
+  [FD] 4185 prop lines fetched
+    FD props: 1074 records
+    Duration: 38.4s
+    DB totals: 596221 GL records, 207650 FD records, 82 game results, 191 collections
+
+  [05:55 UTC] Collecting data...
+    Game lines: 3173 records
+  [FD] 7 games found
+  [FD] 4185 prop lines fetched
+    FD props: 1076 records
+    Duration: 40.9s
+    DB totals: 599130 GL records, 208312 FD records, 82 game results, 192 collections
+
+  [06:10 UTC] Collecting data...
+    Game lines: 3185 records
+  [FD] 7 games found
+  [FD] 4181 prop lines fetched
+    FD props: 1076 records
+    Duration: 42.2s
+    DB totals: 602051 GL records, 208974 FD records, 82 game results, 193 collections
+
+  [06:26 UTC] Collecting data...
+    Game lines: 3199 records
+  [FD] 7 games found
+  [FD] 4185 prop lines fetched
+    FD props: 1070 records
+    Duration: 41.7s
+    DB totals: 604986 GL records, 209636 FD records, 82 game results, 194 collections
+
+  [06:42 UTC] Collecting data...
+    Game lines: 3205 records
+  [FD] 7 games found
+  [FD] 4191 prop lines fetched
+    FD props: 1070 records
+    Duration: 55.1s
+    DB totals: 607927 GL records, 210298 FD records, 82 game results, 195 collections
+
+  [06:58 UTC] Collecting data...
+    Game lines: 1324 records
+  [FD] 7 games found
+  [FD] 4238 prop lines fetched
+    FD props: 1082 records
+    Duration: 78.9s
+    DB totals: 609251 GL records, 210960 FD records, 82 game results, 196 collections
+
+  [07:14 UTC] Collecting data...
+    Game lines: 3205 records
+  [FD] 7 games found
+  [FD] 4238 prop lines fetched
+    FD props: 1082 records
+    Duration: 42.1s
+    DB totals: 612192 GL records, 211622 FD records, 82 game results, 197 collections
+
+  [07:30 UTC] Collecting data...
+    Game lines: 3205 records
+  [FD] 7 games found
+  [FD] 4285 prop lines fetched
+    FD props: 1100 records
+    Duration: 46.7s
+    DB totals: 615133 GL records, 212294 FD records, 82 game results, 198 collections
+
+  [07:45 UTC] Collecting data...
+    Game lines: 3205 records
+  [FD] 7 games found
+  [FD] 4290 prop lines fetched
+    FD props: 1100 records
+    Duration: 41.4s
+    DB totals: 618074 GL records, 212966 FD records, 82 game results, 199 collections
+
+  [08:01 UTC] Collecting data...
+    Game lines: 3229 records
+  [FD] 7 games found
+  [FD] 4290 prop lines fetched
+    FD props: 1100 records
+    Duration: 37.9s
+    DB totals: 621039 GL records, 213638 FD records, 82 game results, 200 collections
+
+  [08:17 UTC] Collecting data...
+    Game lines: 3241 records
+  [FD] 7 games found
+  [FD] 4290 prop lines fetched
+    FD props: 1100 records
+    Duration: 39.9s
+    DB totals: 624016 GL records, 214310 FD records, 82 game results, 201 collections
+
+  [08:32 UTC] Collecting data...
+    Game lines: 3241 records
+  [FD] 7 games found
+  [FD] 4294 prop lines fetched
+    FD props: 1100 records
+    Duration: 39.7s
+    DB totals: 626993 GL records, 214982 FD records, 82 game results, 202 collections
+
+  [08:48 UTC] Collecting data...
+    Game lines: 3241 records
+  [FD] 7 games found
+  [FD] 4294 prop lines fetched
+    FD props: 1100 records
+    Duration: 40.4s
+    DB totals: 629970 GL records, 215654 FD records, 82 game results, 203 collections
+
+  [09:04 UTC] Collecting data...
+    Game lines: 3241 records
+  [FD] 7 games found
+  [FD] 4294 prop lines fetched
+    FD props: 1100 records
+    Duration: 41.0s
+    DB totals: 632947 GL records, 216326 FD records, 82 game results, 204 collections
+
+  [09:19 UTC] Collecting data...
+    Game lines: 3241 records
+  [FD] 7 games found
+  [FD] 4294 prop lines fetched
+    FD props: 1100 records
+    Duration: 38.8s
+    DB totals: 635924 GL records, 216998 FD records, 82 game results, 205 collections
+
+  [09:35 UTC] Collecting data...
+    Game lines: 3241 records
+  [FD] 7 games found
+  [FD] 4294 prop lines fetched
+    FD props: 1100 records
+    Duration: 41.0s
+    DB totals: 638901 GL records, 217670 FD records, 82 game results, 206 collections
+
+  [09:51 UTC] Collecting data...
+    Game lines: 3241 records
+  [FD] 7 games found
+  [FD] 4294 prop lines fetched
+    FD props: 1100 records
+    Duration: 40.7s
+    DB totals: 641878 GL records, 218342 FD records, 82 game results, 207 collections
+
+  [10:06 UTC] Collecting data...
+    Game lines: 3241 records
+  [FD] 7 games found
+  [FD] 4294 prop lines fetched
+    FD props: 1100 records
+    Duration: 38.0s
+    DB totals: 644855 GL records, 219014 FD records, 82 game results, 208 collections
+
+  [10:22 UTC] Collecting data...
+    Game lines: 3241 records
+  [FD] 7 games found
+  [FD] 4294 prop lines fetched
+    FD props: 1100 records
+    Duration: 41.7s
+    DB totals: 647832 GL records, 219686 FD records, 82 game results, 209 collections
+
+  [10:38 UTC] Collecting data...
+    Game lines: 3243 records
+  [FD] 7 games found
+  [FD] 4294 prop lines fetched
+    FD props: 1100 records
+    Duration: 39.8s
+    DB totals: 650811 GL records, 220358 FD records, 82 game results, 210 collections
+
+  [10:53 UTC] Collecting data...
+    Game lines: 3243 records
+  [FD] 7 games found
+  [FD] 4294 prop lines fetched
+    FD props: 1100 records
+    Duration: 40.3s
+    DB totals: 653790 GL records, 221030 FD records, 82 game results, 211 collections
+
+  [11:09 UTC] Collecting data...
+    Game lines: 3247 records
+  [FD] 7 games found
+  [FD] 4294 prop lines fetched
+    FD props: 1100 records
+    Duration: 38.4s
+    DB totals: 656773 GL records, 221702 FD records, 82 game results, 212 collections
+
+  [11:25 UTC] Collecting data...
+    Game lines: 3247 records
+  [FD] 7 games found
+  [FD] 4296 prop lines fetched
+    FD props: 1100 records
+    Duration: 38.8s
+    DB totals: 659756 GL records, 222374 FD records, 82 game results, 213 collections
+
+  [11:40 UTC] Collecting data...
+    Game lines: 3247 records
+  [FD] 7 games found
+  [FD] 4287 prop lines fetched
+    FD props: 1100 records
+    Duration: 44.9s
+    DB totals: 662739 GL records, 223046 FD records, 82 game results, 214 collections
+
+  [11:56 UTC] Collecting data...
+    Game lines: 3247 records
+  [FD] 7 games found
+  [FD] 4287 prop lines fetched
+    FD props: 1100 records
+    Duration: 37.0s
+    DB totals: 665722 GL records, 223718 FD records, 82 game results, 215 collections
+
+  [12:12 UTC] Collecting data...
+    Game lines: 3253 records
+  [FD] 7 games found
+  [FD] 4287 prop lines fetched
+    FD props: 1100 records
+    Duration: 40.9s
+    DB totals: 668711 GL records, 224390 FD records, 82 game results, 216 collections
+
+  [12:27 UTC] Collecting data...
+    Game lines: 3253 records
+  [FD] 7 games found
+  [FD] 4291 prop lines fetched
+    FD props: 1100 records
+    Duration: 40.7s
+    DB totals: 671700 GL records, 225062 FD records, 82 game results, 217 collections
+
+  [12:43 UTC] Collecting data...
+    Game lines: 3253 records
+  [FD] 7 games found
+  [FD] 4294 prop lines fetched
+    FD props: 1100 records
+    Duration: 39.8s
+    DB totals: 674689 GL records, 225734 FD records, 82 game results, 218 collections
+
+  [12:59 UTC] Collecting data...
+    Game lines: 3263 records
+  [FD] 7 games found
+  [FD] 4287 prop lines fetched
+    FD props: 1098 records
+    Duration: 40.6s
+    DB totals: 677688 GL records, 226404 FD records, 82 game results, 219 collections
+
+  [13:15 UTC] Collecting data...
+    Game lines: 3263 records
+  [FD] 7 games found
+  [FD] 4291 prop lines fetched
+    FD props: 1100 records
+    Duration: 41.3s
+    DB totals: 680687 GL records, 227074 FD records, 82 game results, 220 collections
+
+  [13:30 UTC] Collecting data...
+    Game lines: 3263 records
+  [FD] 7 games found
+  [FD] 4289 prop lines fetched
+    FD props: 1100 records
+    Duration: 39.7s
+    DB totals: 683686 GL records, 227744 FD records, 82 game results, 221 collections
+
+  [13:46 UTC] Collecting data...
+    Game lines: 3263 records
+  [FD] 7 games found
+  [FD] 4286 prop lines fetched
+    FD props: 1100 records
+    Duration: 40.0s
+    DB totals: 686685 GL records, 228414 FD records, 82 game results, 222 collections
+
+  [14:02 UTC] Collecting data...
+    Game lines: 3263 records
+  [FD] 7 games found
+  [FD] 4295 prop lines fetched
+    FD props: 1100 records
+    Duration: 40.0s
+    DB totals: 689684 GL records, 229084 FD records, 82 game results, 223 collections
+
+  [14:17 UTC] Collecting data...
+    Game lines: 3263 records
+  [FD] 7 games found
+  [FD] 4295 prop lines fetched
+    FD props: 1100 records
+    Duration: 41.5s
+    DB totals: 692683 GL records, 229754 FD records, 82 game results, 224 collections
+
+  [14:33 UTC] Collecting data...
+    Game lines: 3281 records
+  [FD] 7 games found
+  [FD] 4294 prop lines fetched
+    FD props: 1100 records
+    Duration: 40.7s
+    DB totals: 695700 GL records, 230424 FD records, 82 game results, 225 collections
+
+  [14:49 UTC] Collecting data...
+    Game lines: 3281 records
+  [FD] 7 games found
+  [FD] 4288 prop lines fetched
+    FD props: 1096 records
+    Duration: 41.9s
+    DB totals: 698717 GL records, 231094 FD records, 82 game results, 226 collections
+
+  [15:04 UTC] Collecting data...
+    Game lines: 3281 records
+  [FD] 7 games found
+  [FD] 4294 prop lines fetched
+    FD props: 1096 records
+    Duration: 41.6s
+    DB totals: 701734 GL records, 231764 FD records, 82 game results, 227 collections
+
+  [15:20 UTC] Collecting data...
+    Game lines: 3281 records
+  [FD] 7 games found
+  [FD] 4289 prop lines fetched
+    FD props: 1096 records
+    Duration: 41.6s
+    DB totals: 704751 GL records, 232434 FD records, 82 game results, 228 collections
+
+  [15:36 UTC] Collecting data...
+    Game lines: 3281 records
+  [FD] 7 games found
+  [FD] 4290 prop lines fetched
+    FD props: 1096 records
+    Duration: 40.1s
+    DB totals: 707768 GL records, 233104 FD records, 82 game results, 229 collections
+
+  [15:51 UTC] Collecting data...
+    Game lines: 3281 records
+  [FD] 7 games found
+  [FD] 4287 prop lines fetched
+    FD props: 1094 records
+    Duration: 41.2s
+    DB totals: 710785 GL records, 233774 FD records, 82 game results, 230 collections
+
+  [16:07 UTC] Collecting data...
+    Game lines: 3281 records
+  [FD] 7 games found
+  [FD] 4287 prop lines fetched
+    FD props: 1096 records
+    Duration: 40.7s
+    DB totals: 713802 GL records, 234444 FD records, 82 game results, 231 collections
+
+  [16:23 UTC] Collecting data...
+    Game lines: 3281 records
+  [FD] 7 games found
+  [FD] 4289 prop lines fetched
+    FD props: 1096 records
+    Duration: 41.7s
+    DB totals: 716819 GL records, 235114 FD records, 82 game results, 232 collections
+
+  [16:38 UTC] Collecting data...
+    Game lines: 3281 records
+  [FD] 7 games found
+  [FD] 4289 prop lines fetched
+    FD props: 1096 records
+    Duration: 42.1s
+    DB totals: 719836 GL records, 235784 FD records, 82 game results, 233 collections
+
+  [16:54 UTC] Collecting data...
+    Game lines: 3281 records
+  [FD] 7 games found
+  [FD] 4294 prop lines fetched
+    FD props: 1096 records
+    Duration: 39.7s

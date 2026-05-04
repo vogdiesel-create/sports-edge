@@ -1,0 +1,8 @@
+{
+  "initial_bankroll": 5000,
+  "current_bankroll": 5000,
+  "unit_size": 100,
+  "sport": "NFL",
+  "started": "2026-05-04",
+  "note": "Completely separate from MLB. Simulation only until edge is proven."
+}

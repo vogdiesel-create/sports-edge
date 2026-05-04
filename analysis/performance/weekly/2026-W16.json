@@ -1,0 +1,74 @@
+{
+  "week": "W16",
+  "dates": "2026-04-13 to 2026-04-19",
+  "summary": {
+    "total_graded": 68,
+    "combined_pnl": 498.02,
+    "combined_roi_pct": 5.5,
+    "progress_toward_200": "34%"
+  },
+  "game_model": {
+    "record": "21W-19L-1P",
+    "pnl": 257.31,
+    "bankroll": 5257.31,
+    "roi_pct": 5.0,
+    "totals_only": {
+      "record": "19W-13L-1P",
+      "pnl": 725.19,
+      "roi_pct": 16.1
+    },
+    "moneyline": {
+      "record": "2W-6L",
+      "pnl": -467.88,
+      "status": "DISABLED 2026-04-18"
+    }
+  },
+  "k_props": {
+    "record": "17W-10L",
+    "pnl": 166.71,
+    "bankroll": 3166.71,
+    "roi_pct": 7.0,
+    "under": {"record": "6W-2L", "pnl": 330.89, "wr_pct": 75.0},
+    "over": {"record": "11W-8L", "pnl": -164.18, "wr_pct": 57.9}
+  },
+  "smart_scanner": {
+    "record": "11W-8L",
+    "pnl": 75.00,
+    "roi_pct": 19.7,
+    "bet_size": "$20 flat"
+  },
+  "by_sport": {
+    "mlb": {"record": "14W-12L-1P", "pnl": 286.61, "roi_pct": 8.4},
+    "nhl": {"record": "7W-7L", "pnl": -29.30, "roi_pct": -1.5}
+  },
+  "clv": {
+    "sample": 33,
+    "avg_pct": -0.42,
+    "positive_rate_pct": 39.4,
+    "positive_clv_wr": 76.9,
+    "negative_clv_wr": 45.0,
+    "positive_clv_pnl": 914.44,
+    "negative_clv_pnl": -189.25
+  },
+  "edge_tiers": {
+    "5_8_pct": {"record": "7W-8L", "pnl": 12.37, "wr_pct": 46.7},
+    "8_10_pct": {"record": "3W-2L-1P", "pnl": 122.17, "wr_pct": 60.0},
+    "10_12_pct": {"record": "6W-2L", "pnl": 521.42, "wr_pct": 75.0},
+    "12_plus_pct": {"record": "5W-7L", "pnl": -398.65, "wr_pct": 41.7}
+  },
+  "daily_breakdown": {
+    "2026-04-13": {"record": "2W-3L", "pnl": -189.03},
+    "2026-04-14": {"record": "7W-3L", "pnl": 496.47},
+    "2026-04-15": {"record": "2W-1L", "pnl": 123.00},
+    "2026-04-16": {"record": "5W-5L", "pnl": 3.91},
+    "2026-04-17": {"record": "1W-4L-1P", "pnl": -335.61},
+    "2026-04-18": {"record": "4W-3L", "pnl": 158.57}
+  },
+  "key_actions_taken": [
+    "Moneyline disabled permanently (2W-6L, -$468)",
+    "MAX_BETS_PER_PITCHER: 2 -> 1 (saved -$91 over 3 double-exposure instances)",
+    "Grading bug fixed: cross-day score matching corrupting results",
+    "Autonomous analyst system deployed (cron-based sessions)"
+  ],
+  "experiments_running": ["EXP-001 (12% edge cap)", "EXP-002 (K-prop split thresholds)", "EXP-003 (ML disabled)", "EXP-004 (1 bet per pitcher)"]
+}

@@ -1,0 +1,87 @@
+# r/algobetting search: Kelly criterion
+# Query: kelly+criterion+OR+bankroll
+# Results: 7
+
+## [34 pts, 20 comments] Culmination of 2 years of developing ML model + Website to Aid in Algo Betting
+Author: Relevant_Horse2066 | URL: /r/algobetting/comments/1l0r0vs/culmination_of_2_years_of_developing_ml_model/
+About two years ago, I casually started building an NBA player points model. Initial results seemed incredible, but a classic bug in my testing was the culprit! Once fixed, live testing showed a modest 54% accuracy and 1-2% ROI (with typical 1.86 odds).
+
+That challenge got me hooked. I dove deeper, and by the second half of that season, my model was hitting a 5-6% ROI across all daily picks. I then used Tableau to manually select about 10 picks a day, which pushed the ROI to around 13% – effecti
+
+---
+
+## [20 pts, 24 comments] Where do I go from here? (tennis betting model)
+Author: Remarkable-Bowler-60 | URL: /r/algobetting/comments/1rqdhz1/where_do_i_go_from_here_tennis_betting_model/
+Hey all - long time reader, first time poster in this sub.
+
+I've built a tennis model and I'm curious your take on my approach, output, and next steps.
+
+Setup
+
+* Backtest period: 2023–2026 (walk-forward, out-of-sample)
+* Stakes: 5% of bankroll
+
+Results
+
+* 4,583 bets over \~3 years (from 2023 to current)
+* 82.1% win rate
+* \+106.3 units (flat 1u per bet)
+* \+2.32% ROI
+* Bankroll: $1,000→$49,434 final (peak \~$51k)
+* Max drawdown: 75% (peak to trough using 5% stakes, much less drawdown using 4% or
+
+---
+
+## [11 pts, 16 comments] Yesterdays Performance
+Author: Relevant_Horse2066 | URL: /r/algobetting/comments/1ancrdw/yesterdays_performance/
+The model I built hit 61% of player props, for the betting site I use the odds are equally 1.85 1.85 with ocasional 1.95 1.7. The model predicts amount of points a player will have and then if it is over or under I assing it over/under and place bets accordinlgy distributed evenly. With a 100$ bankroll I placed around 4.3$ on every prop and got 12$ in profit. I want to increase the profit, if lets say my model predicted a player to score 40 points and his threshold is 23 points would that be a s
+
+---
+
+## [6 pts, 6 comments] European Football League Predictor
+Author: Creative_Cat_4842 | URL: /r/algobetting/comments/18644eh/european_football_league_predictor/
+Hello, everyone!
+
+
+I previously shared my Premier League predictive model on [this Reddit post](https://www.reddit.com/r/algobetting/comments/16pb0cs/englishpremierleaguepredictor/?utm_source=share&amp;utm_medium=web2x&amp;context=3). I've made significant improvements, refactoring the code for better functionality and readability. Now, the model includes top European football leagues such as EnglishPremierLeague, La Liga, Serie A, Bundesliga, Ligue 1.
+
+The project consists of:
+
+- A data collect
+
+---
+
+## [5 pts, 19 comments] Fractional Kelly Criterion approaches?
+Author: simiansays | URL: /r/algobetting/comments/m7lknn/fractional_kelly_criterion_approaches/
+Hi, do folks here use the Kelly Criterion? Just wondering what approaches you use for translating a Kelly number into an actual allocation.
+
+At the moment, I'm just doing a 15% fractional Kelly but wondering if anyone has spent much time tuning Kelly-based allocations. I vacillate between thinking 15% is too agressive or too conservative. Most of my positions end up being around 1-5% of bankroll. I picked this number to minimize drawdown risk but am toying with the idea of increasing it slowly a
+
+---
+
+## [0 pts, 5 comments] Day 3 edge analysis: first drawdown, multi-sport expansion, 49 settled trades, still up 44% all time
+Author: Mountain-Year5215 | URL: /r/algobetting/comments/1rvxif2/day_3_edge_analysis_first_drawdown_multisport/
+Day 3 of validating a sports prediction model on Kalshi with a $10 bankroll. First red day: 8W-10L, -$1.77 (-10.9%). All-time +44.6%.
+
+Today was notable for sport diversification. The model found actionable edges (net of Kalshi's taker fee) in MLB spring training, NBA, NHL, and Brazilian Serie A soccer. 18 trades total.
+
+Edge distribution today:
+
+* 3-5c edges: 10 trades (ATL 94c, GS 90c, MIL 78c, BOS 71c, SD 45c, NJ 44c, WSH 38c, CHW 35c, NYM 34c, PIT 32c)
+* 6c edges: 5 trades (LAL 47c, HOU 56c,
+
+---
+
+## [0 pts, 1 comments] How to Calculate +EV Bets on Bovada
+Author: SnooFloofs427 | URL: /r/algobetting/comments/1kmofho/how_to_calculate_ev_bets_on_bovada/
+**How to Calculate +EV Bets on Bovada**
+
+1. **Fetch the Odds**
+   * Pull the current American-odds lines from Bovada and from other major sportsbooks via an odds API.
+   * Include both two-sided markets (moneylines, spreads) and one-sided props (player points, rebounds, etc.).
+2. **Convert Odds to Implied Probability**
+   * For a positive line:Example: for `+120`p = 100 / (odds + 100)   p = 100 / (120 + 100) = 0.4545   (45.45%)
+   * For a negative line:Example: for `-150`p = abs(odds) / (abs(odd
+
+---
+

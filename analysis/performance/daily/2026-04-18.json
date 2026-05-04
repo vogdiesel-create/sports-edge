@@ -1,0 +1,47 @@
+{
+  "date": "2026-04-18",
+  "game_model": {
+    "record": "4W-3L",
+    "pnl": 158.57,
+    "bets": [
+      {"game": "BAL @ CLE", "market": "total under 8.0", "result": "win", "pnl": 116.35, "total": 6},
+      {"game": "MIL @ MIA", "market": "total under 8.0", "result": "win", "pnl": 87.15, "total": 7},
+      {"game": "CIN @ MIN", "market": "total under 8.5", "result": "loss", "pnl": -94.84, "total": 9},
+      {"game": "LAD @ COL", "market": "total under 9.5", "result": "win", "pnl": 130.74, "total": 7},
+      {"game": "SD @ LAA", "market": "total under 8.0", "result": "win", "pnl": 147.08, "total": 5},
+      {"game": "OTT @ CAR", "market": "moneyline away", "result": "loss", "pnl": -74.95, "note": "ML still disabled going forward"},
+      {"game": "LAD @ COL", "market": "moneyline away", "result": "loss", "pnl": -152.96, "note": "ML still disabled going forward"}
+    ],
+    "totals_only": {"record": "4W-1L", "pnl": 386.48},
+    "ml_only": {"record": "0W-2L", "pnl": -227.91}
+  },
+  "k_props": {
+    "record": "4W-5L",
+    "pnl": -203.03,
+    "bets": [
+      {"pitcher": "Paul Skenes", "pick": "Under 6.5", "result": "win", "pnl": 74.33, "actual": 5},
+      {"pitcher": "Chris Sale", "pick": "Under 7.5", "result": "win", "pnl": 90.26, "actual": 7},
+      {"pitcher": "Tarik Skubal", "pick": "Under 7.5", "result": "loss", "pnl": -101.09, "actual": 10},
+      {"pitcher": "Ryan Feltner", "pick": "6+ Ks", "result": "loss", "pnl": -101.09, "actual": 5},
+      {"pitcher": "Luis Severino", "pick": "7+ Ks", "result": "loss", "pnl": -101.09, "actual": 3},
+      {"pitcher": "Luis Severino", "pick": "8+ Ks", "result": "loss", "pnl": -101.09, "actual": 3},
+      {"pitcher": "Noah Cameron", "pick": "6+ Ks", "result": "loss", "pnl": -101.09, "actual": 3},
+      {"pitcher": "Andre Pallante", "pick": "Over 3.5", "result": "win", "pnl": 129.40, "actual": 5},
+      {"pitcher": "Erick Fedde", "pick": "3+ Ks", "result": "win", "pnl": 8.43, "actual": 3}
+    ]
+  },
+  "combined": {
+    "record": "8W-8L",
+    "pnl": -44.46
+  },
+  "cumulative": {
+    "game_model": {"record": "21W-19L-1P", "pnl": 257.31, "bankroll": 5257.31},
+    "k_props": {"record": "17W-10L", "pnl": 166.71, "bankroll": 3166.71},
+    "combined_pnl": 424.02
+  },
+  "clv": {
+    "avg": -0.0042,
+    "positive_pct": 0.39,
+    "n_bets": 33
+  }
+}

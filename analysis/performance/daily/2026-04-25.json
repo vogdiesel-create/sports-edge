@@ -1,0 +1,34 @@
+{
+  "date": "2026-04-25",
+  "game_model": {
+    "record": "2W-0L",
+    "pnl": 243.65,
+    "bets": [
+      {"matchup": "unknown", "market": "total over", "result": "win", "pnl": 140.46},
+      {"matchup": "unknown", "market": "total over", "result": "win", "pnl": 103.19}
+    ],
+    "note": "Both OVER picks won. Best game model day since Apr 14."
+  },
+  "k_props": {
+    "record": "6W-3L",
+    "pnl": 143.98,
+    "bets": [
+      {"pitcher": "Robbie Ray", "side": "under", "result": "win", "pnl": 112.10, "actual_k": 4},
+      {"pitcher": "Garrett Crochet", "side": "under", "result": "win", "pnl": 86.36, "actual_k": 7},
+      {"pitcher": "Cole Ragans", "side": "under", "result": "loss", "pnl": -95.00, "actual_k": 11, "note": "11 Ks on under 7+ - massive overshoot"},
+      {"pitcher": "Zack Wheeler", "side": "under", "result": "loss", "pnl": -95.00, "actual_k": 6},
+      {"pitcher": "Jacob Misiorowski", "side": "under", "result": "loss", "pnl": -95.00, "actual_k": 9, "note": "Rookie arm, high variance"},
+      {"pitcher": "Bryan Woo", "side": "under", "result": "win", "pnl": 69.85, "actual_k": 1},
+      {"pitcher": "Jack Flaherty", "side": "under", "result": "win", "pnl": 98.80, "actual_k": 4},
+      {"pitcher": "Jake Irvin", "side": "over", "result": "win", "pnl": 41.30, "actual_k": 9},
+      {"pitcher": "Kevin Gausman", "side": "under", "result": "win", "pnl": 20.57, "actual_k": 3}
+    ]
+  },
+  "oddstrader_sim": {
+    "record": "26W-12L",
+    "pnl": 419.31,
+    "note": "Massive day. TB and K markets dominated."
+  },
+  "day_total_pnl": 387.63,
+  "note": "Best combined day in weeks. Game model OVERs validated. K-props continue printing. Apr 25 was a strong day across all models."
+}

@@ -1,0 +1,125 @@
+# r/algobetting search: NBA model
+# Query: NBA+model+OR+basketball
+# Results: 13
+
+## [112 pts, 95 comments] I made a profit of 30000 € algobetting in 2022 - FAQ and AMA
+Author: Hurthaba | URL: /r/algobetting/comments/10dqn0y/i_made_a_profit_of_30000_algobetting_in_2022_faq/
+***Quick edit:*** *Sorry for the gentleman asking for tips to not get limited in DM-chat, I accidentally clicked "ignore". Please contact me again if the answer I give in the comments is not satisfactory.*
+
+&amp;#x200B;
+
+I started my project 2 years ago, of which have been algo-betting with big bucks for almost a year, constantly improving my methods. My total income for betting for 2022 was 30000 euros, and with the recent improvements I have set 50k as my target for the next year. I am obvious
+
+---
+
+## [40 pts, 6 comments] NBA Historical Dataset: Box Scores, Player Stats, and Game Data (1949–Present) 🚀
+
+Author: Low-Assistance-325 | URL: /r/algobetting/comments/1i2gdc9/nba_historical_dataset_box_scores_player_stats/
+Hi everyone, 
+
+I’m excited to share a [dataset](https://www.kaggle.com/datasets/eoinamoore/historical-nba-data-and-player-box-scores/) I’ve been working on for a while, now available for free on Kaggle! This comprehensive [dataset](https://www.kaggle.com/datasets/eoinamoore/historical-nba-data-and-player-box-scores/) includes detailed historical NBA data, meticulously collected and ***updated daily***. Here’s [what it offers](https://www.kaggle.com/datasets/eoinamoore/historical-nba-data-and-pla
+
+---
+
+## [34 pts, 20 comments] Deterministic NBA Props, Spreads, Over-Under, Moneyline Model (2025-26 Season): 950+ Game Sample, 60-65% Win Rate, 10-25% ROI Depending on Market
+Author: Simple-Leading-1393 | URL: /r/algobetting/comments/1rsftm6/deterministic_nba_props_spreads_overunder/
+I’ve been building a purely deterministic NBA framework for the 2025-26 season. I don’t use Monte Carlo simulations, LLMs, or any "black box" neural nets. Curious what people's thoughts are about using models like this one, and about predicting basketball in particular. I've found its momentum-based play in both the game length, the streaks, and shifts in tempo to be very fun to both watch and predict as it provides a little more noise and unpredictability than baseball or even football.  
+
+Here
+
+---
+
+## [17 pts, 23 comments] Making NBA models
+Author: makingstuff237 | URL: /r/algobetting/comments/1e0ptxd/making_nba_models/
+Hi everyone, I've downloaded every box score, quarter box score and even play by plays for every nba game and then I scraped all of the info into an sql database. I've made a few VERY basic models and would like ideas on what to do next.
+
+My most advanced model (still super basic) takes two teams and a date (usually automated by the days schedule so it does it automatically) and spits out predicted stats for each player. I get the prediction by taking a look at stats over the past 5, 10, 20 game
+
+---
+
+## [17 pts, 0 comments] Complete NBA Box Scores Dataset from 1949 to Today
+Author: Low-Assistance-325 | URL: /r/algobetting/comments/1ocrxt1/complete_nba_box_scores_dataset_from_1949_to_today/
+Hi everyone. Last year I created a dataset containing comprehensive player and team box scores for the NBA. It contains all the NBA box scores at team and player level since 1949, **kept up to date daily**.  It was designed to give maximum information to NBA betting enthusiasts. It was pretty popular, so I decided to keep it going for the 25-26 season. You can find it here: [https://www.kaggle.com/datasets/eoinamoore/historical-nba-data-and-player-box-scores](https://www.kaggle.com/datasets/eoin
+
+---
+
+## [14 pts, 9 comments] Tips for a beginner, where to start studying?
+Author: nemseisei | URL: /r/algobetting/comments/1lttiyr/tips_for_a_beginner_where_to_start_studying/
+Hello everyone, I've been a basketball fan for over 15 years. I've never been a professional bettor, except for the occasional time when I've bet on the Phoenix Suns (let's go). 
+
+I've also been a programmer for over 10 years, so I have solid knowledge of Python, for example, which would help me develop whatever is necessary. 
+
+Now, during this off-season, I'd like to study and create a model so that when the season returns in October, I can start betting with some criteria. 
+
+What are the first
+
+---
+
+## [8 pts, 6 comments] Looking for a full stack engineer to partner with to implement a live NBA betting strategy (30–125 projected units rest of this season)
+Author: itscheftrev | URL: /r/algobetting/comments/1qfi76r/looking_for_a_full_stack_engineer_to_partner_with/
+# Tl;dr
+
+I need someone with the right skillset to help finish a custom software implementation to execute a live NBA betting strategy that I’ve developed over the last 2.5 years
+
+There are a projected 30-125 units of profit available in the rest of this NBA season (plus future seasons) in it for the right person. 
+
+If that piques your interest, read on…
+
+# High Level Summary
+
+I’ve spent the last 2.5 years developing a live, in-game NBA betting strategy and system that exploits team tendencies l
+
+---
+
+## [4 pts, 9 comments] Built a fully automated NBA prediction pipeline: Calibrated LogReg (0.602 Log Loss) vs. XGBoost
+Author: HolidayAge2032 | URL: /r/algobetting/comments/1sg7k25/built_a_fully_automated_nba_prediction_pipeline/
+Hi guys! I built an **automated**, **end-to-end** machine learning pipeline that **forecasts NBA game outcomes**. By **daily scraping** NBA games and using a feature engineering pipeline that feeds the results into a *Logistic Regression* model, i managed to get a **68.27%** accuracy on the ongoing 2025-2026 NBA season and a 0.60 log loss. There are definitely some improvements to be made (this algorithm couldn't really be used for real profit), and i would love some feedback from you guys.
+
+You
+
+---
+
+## [5 pts, 12 comments] Why are NBA in-game money-line odds so linear?
+Author: Hot_Career_5382 | URL: /r/algobetting/comments/1rxarau/why_are_nba_ingame_moneyline_odds_so_linear/
+Hey, I am mostly a hobbyist - dabbled a bit before using a decent model that was able to find decent in-game plays for money-line on really niche football games. It was mostly python but nothing complicated
+
+However I was matched betting at the same time and arbing, doing horse-racing eps and 2ups so I was limited pretty much in all major bookies during my time in uni.
+
+I have been looking to get into exchange trading and I love basketball. Currently work with a lot of data for my grad role as w
+
+---
+
+## [5 pts, 20 comments] How many factors for a Profitable Model?
+Author: JJWess | URL: /r/algobetting/comments/1jnp77o/how_many_factors_for_a_profitable_model/
+I just read an intro on a quantitative model for sportsbetting someone linked in this sub. I don’t have much experience with programming or anything alike but have much ambition, and craze for Ai. I’ve built an app with the help of Cursor and am in the backtesting stage now but am curious, do I really need all of these factors and parameters to make a profit? I already have extensive knowledge for NBA basketball since i love it and did a little betting before trying this but I stay around break 
+
+---
+
+## [4 pts, 11 comments] Anyone know the status of MySportsFeeds.com?
+Author: postrema19 | URL: /r/algobetting/comments/105q4et/anyone_know_the_status_of_mysportsfeedscom/
+Hi All.  Long time lurker/first time poster.  I have a background as software developer and am very interested in this space, but am finding it difficult locating a good source of historical data and/or feeds.
+
+I  recently stumbled across what looked to be a promising API provider at [MySportsFeeds.com](https://MySportsFeeds.com), but have found them to be unresponsive.   The API and data modeling seem to be pretty mature and well organized, but I recently found that it is not returning data for
+
+---
+
+## [2 pts, 2 comments] Time/Era Durations
+Author: grammerknewzi | URL: /r/algobetting/comments/1lbofr7/timeera_durations/
+Looking for some pointers, or ideas on how to deal with what duration of match data to train with. For example if modelling the NBA we probably wouldn't use matches from the 1950's as training data, as that era is more irrelevant compared to modern day basketball.
+
+The most clear solution is to use domain knowledge of the sport being modelled - but is there a more concrete method? Especially if our goal is to model the most current era of a certain sport, there's a large discrepancy between opin
+
+---
+
+## [1 pts, 4 comments] How are you approaching March Madness?
+Author: Delicious_Pipe_1326 | URL: /r/algobetting/comments/1rsiapz/how_are_you_approaching_march_madness/
+For those of you running college basketball models (or anyone who might be), I'm curious how your process shifts (if at all) for the NCAA tournament.
+
+A few specific things I'm wondering:
+
+Are you betting game by game on spreads/totals like you would during the regular season, or does the tournament change your approach? Single elimination with neutral sites seems like it could create different dynamics than the regular season grind.
+
+Is anyone working tournament futures or outright winner marke
+
+---
+

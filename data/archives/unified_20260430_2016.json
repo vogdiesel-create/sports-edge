@@ -1,0 +1,228 @@
+{
+  "timestamp": "2026-04-30T20:16:58.885646+00:00",
+  "version": "2.0",
+  "picks": [
+    {
+      "source": "game_line_v2",
+      "sport": "MLB",
+      "game": "Houston Astros @ Baltimore Orioles",
+      "bet": "total over 9.5 @ unibet",
+      "odds": "+110",
+      "edge": "4.8%",
+      "ev": "10.1%",
+      "kelly": "2.3%",
+      "confidence": "HIGH",
+      "tier": "A"
+    },
+    {
+      "source": "game_line_v2",
+      "sport": "MLB",
+      "game": "Arizona Diamondbacks @ Milwaukee Brewers",
+      "bet": "total under 7 @ sportsbetting",
+      "odds": "+100",
+      "edge": "3.4%",
+      "ev": "6.7%",
+      "kelly": "1.7%",
+      "confidence": "HIGH",
+      "tier": "A"
+    },
+    {
+      "source": "game_line_v2",
+      "sport": "MLB",
+      "game": "Arizona Diamondbacks @ Milwaukee Brewers",
+      "bet": "total under 7 @ heritage",
+      "odds": "+101",
+      "edge": "3.6%",
+      "ev": "7.3%",
+      "kelly": "1.8%",
+      "confidence": "MEDIUM",
+      "tier": "B"
+    },
+    {
+      "source": "game_line_v2",
+      "sport": "MLB",
+      "game": "Kansas City Royals @ Athletics Athletics",
+      "bet": "total over 10.5 @ caesars",
+      "odds": "+126",
+      "edge": "5.2%",
+      "ev": "11.8%",
+      "kelly": "2.3%",
+      "confidence": "MEDIUM",
+      "tier": "C"
+    },
+    {
+      "source": "game_line_v2",
+      "sport": "MLB",
+      "game": "Arizona Diamondbacks @ Milwaukee Brewers",
+      "bet": "total under 7 @ draftkings",
+      "odds": "+101",
+      "edge": "3.6%",
+      "ev": "7.3%",
+      "kelly": "1.8%",
+      "confidence": "MEDIUM",
+      "tier": "C"
+    },
+    {
+      "source": "oddstrader_ev",
+      "sport": "MLB",
+      "game": "SF @ PHI",
+      "player": "Brandon Marsh",
+      "bet": "Total Bases -210",
+      "ev": "+21.4%",
+      "edge": "+21.4%",
+      "fair_prob": "89%",
+      "kelly": "3.00%",
+      "confidence": "HIGH",
+      "tier": "A"
+    },
+    {
+      "source": "fd_correlation",
+      "sport": "NBA",
+      "game": "Cleveland Cavaliers @ Toronto Raptors",
+      "player": "Donovan Mitchell Over",
+      "bet": "UNDER_PRA 36.5",
+      "edge": "22.0 pts discrepancy",
+      "confidence": "HIGH"
+    },
+    {
+      "source": "fd_correlation",
+      "sport": "NBA",
+      "game": "Cleveland Cavaliers @ Toronto Raptors",
+      "player": "Donovan Mitchell Under",
+      "bet": "UNDER_PRA 36.5",
+      "edge": "22.0 pts discrepancy",
+      "confidence": "HIGH"
+    },
+    {
+      "source": "fd_correlation",
+      "sport": "NBA",
+      "game": "Cleveland Cavaliers @ Toronto Raptors",
+      "player": "Donovan Mitchell Over",
+      "bet": "UNDER_PR 31.5",
+      "edge": "21.5 pts discrepancy",
+      "confidence": "HIGH"
+    }
+  ],
+  "game_lines": {
+    "raw": 11,
+    "filtered": 6,
+    "rejected": {
+      "edge_too_high_stale": 5
+    },
+    "opportunities": 6,
+    "top_picks": [
+      {
+        "sport": "MLB",
+        "game": "Houston Astros @ Baltimore Orioles",
+        "market": "total",
+        "side": "over",
+        "book": "unibet",
+        "odds": 110,
+        "line": 9.5,
+        "fair_prob": 0.5242,
+        "implied_prob": 0.4762,
+        "edge": 0.048,
+        "ev": 0.1009,
+        "pinnacle_odds": -120,
+        "kelly_pct": 2.29,
+        "tier": "A",
+        "confidence": "HIGH"
+      },
+      {
+        "sport": "MLB",
+        "game": "Arizona Diamondbacks @ Milwaukee Brewers",
+        "market": "total",
+        "side": "under",
+        "book": "sportsbetting",
+        "odds": 100,
+        "line": 7,
+        "fair_prob": 0.5337,
+        "implied_prob": 0.5,
+        "edge": 0.0337,
+        "ev": 0.0674,
+        "pinnacle_odds": -125,
+        "kelly_pct": 1.68,
+        "tier": "A",
+        "confidence": "HIGH"
+      },
+      {
+        "sport": "MLB",
+        "game": "Arizona Diamondbacks @ Milwaukee Brewers",
+        "market": "total",
+        "side": "under",
+        "book": "heritage",
+        "odds": 101,
+        "line": 7,
+        "fair_prob": 0.5337,
+        "implied_prob": 0.4975,
+        "edge": 0.0362,
+        "ev": 0.0727,
+        "pinnacle_odds": -125,
+        "kelly_pct": 1.8,
+        "tier": "B",
+        "confidence": "MEDIUM"
+      },
+      {
+        "sport": "MLB",
+        "game": "Kansas City Royals @ Athletics Athletics",
+        "market": "total",
+        "side": "over",
+        "book": "caesars",
+        "odds": 126,
+        "line": 10.5,
+        "fair_prob": 0.4945,
+        "implied_prob": 0.4425,
+        "edge": 0.052,
+        "ev": 0.1175,
+        "pinnacle_odds": -106,
+        "kelly_pct": 2.33,
+        "tier": "C",
+        "confidence": "MEDIUM"
+      },
+      {
+        "sport": "MLB",
+        "game": "Arizona Diamondbacks @ Milwaukee Brewers",
+        "market": "total",
+        "side": "under",
+        "book": "draftkings",
+        "odds": 101,
+        "line": 7,
+        "fair_prob": 0.5337,
+        "implied_prob": 0.4975,
+        "edge": 0.0362,
+        "ev": 0.0727,
+        "pinnacle_odds": -125,
+        "kelly_pct": 1.8,
+        "tier": "C",
+        "confidence": "MEDIUM"
+      },
+      {
+        "sport": "MLB",
+        "game": "Arizona Diamondbacks @ Milwaukee Brewers",
+        "market": "total",
+        "side": "under",
+        "book": "fanatics",
+        "odds": 100,
+        "line": 7,
+        "fair_prob": 0.5337,
+        "implied_prob": 0.5,
+        "edge": 0.0337,
+        "ev": 0.0674,
+        "pinnacle_odds": -125,
+        "kelly_pct": 1.68,
+        "tier": "C",
+        "confidence": "MEDIUM"
+      }
+    ]
+  },
+  "player_props": {
+    "props_count": 8176,
+    "line_moves": 20,
+    "correlation_alerts": 20
+  },
+  "backtest": null,
+  "oddstrader_props": {
+    "total_scraped": 24,
+    "actionable": 1
+  }
+}

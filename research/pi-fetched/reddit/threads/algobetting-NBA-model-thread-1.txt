@@ -1,0 +1,770 @@
+# I made a profit of 30000 € algobetting in 2022 - FAQ and AMA
+
+[Hurthaba | 112 pts | 95 comments]
+
+***Quick edit:*** *Sorry for the gentleman asking for tips to not get limited in DM-chat, I accidentally clicked "ignore". Please contact me again if the answer I give in the comments is not satisfactory.*
+
+&amp;#x200B;
+
+I started my project 2 years ago, of which have been algo-betting with big bucks for almost a year, constantly improving my methods. My total income for betting for 2022 was 30000 euros, and with the recent improvements I have set 50k as my target for the next year. I am obviously not here to give away my secrets, but I'll gladly answer any practical questions you have. While I don't boast a 7 figure income, I'd still call myself a success since I have pretty much achieved exactly what I set out to do. And keep in mind, this is not my main profession, but a hobby, and my income is not limited to betting.
+
+I don't do any trading or live-betting, I merely calculate pre-match probabilities very accurately and bet on where the odds exceed my calculated probability. But, what really allows me to succeed is a well thought out strategy, and I'd go as far as to say that of my method prediction algorithms are 50% and the rest is determining optimal risk etc.
+
+&amp;#x200B;
+
+I have had quite a few discussions of this in my private life already, as is presumable, so I gathered a lengthy F.A.Q. here already. But, I do wish to continue the discussion with someone else than myself, also, so feel free to ask away or comment. If you are interested to see graphs, I can produce some.
+
+Also keep in mind that when I say "football" it means "soccer" in Freedom Dialect.
+
+**"What have been your biggest wins/losses?"**
+
+The perspective of the question is a bit off. Looking at individual wagers is meaningless, as the expected return is never going to materialize: it can only hit or miss, and not be 20% correct.
+
+Another thing is I pretty much only bet singles, over 99.5% of the time. This is due to odds-shopping, using a number of bookmakers to guarantee the best possible odds for each wager (or, at least I used to, more on this later...). To have a longer bet slip would mean centralizing bets in a single bookmaker, possibly losing on odds.
+
+However, at some rare cases in smaller sports, such as floorball or beach volleyball, there have been cases where my all bets have landed on the same bookmaker, in which case having them as triples etc. has been possible. The biggest wins have come from these, when the odds have multiplied. I'd say the biggest has been a long slip of quadruples in beach volleyball, resulting in 3k profit.
+
+Because this is not wallstreetbets using derivatives, biggest loss can only be the wager placed, and that, again, has been calculated so that my risk is always optimal. It does hurt sometimes to see a 500 € bet miss, but it balanced by other bets winning: there is no point in looking at individual wagers. I don't consider any calculated bet a loss, it just the cost of doing business.
+
+There have been cases of me failing to follow the instructions laid by my calculations, placing incorrect bets, which have caused some losses. Nothing too major in the grand scheme of things, and after each I have learned to be more focused. These are far from numerous, and could be accounted as the "cost-of-doing-business" as well. Biggest was handicap wager, where I put an extra 0 in the end, making a small 30 € bet in to 300 €, which missed, and an over/under where selected the wrong outcome at 150 €. So my losses from my "operational mistakes" have not been too bad overall.
+
+One which does irk, though, is when I had a longish beach volley slip of doubles or triples and I selected one match winner wrong. Had I picked it correctly, I would had won almost 2k more, which would had been a significant amount of money back then when I had just started.
+
+**"How long did it take to be profitable?"**
+
+I did not put a single cent in betting until I knew for certain that what I did was profitable by backtesting and calculating confidence intervals. I'll answer this with the general timeline.
+
+Day 0 of coding was around December 2020 and I made my first deposits in May 2021. The wagers were very low, like 10 cent per wager, just for getting used to the interfaces etc. The unfortunate thing was, that summer is not exactly the season for ball sports, so my volume was very low. As the autumn came I had built the confidence to raise my wagers somewhat, but I still wasn't making any sort of real bank: maybe 200-300 € per month.
+
+All this time the algorithms had been slowly improving, but the pivotal heureka for forecasting accuracy came in March 2022 causing my income to jump substantially, and I put all my cash in. During the summer of 2022 I also perfected the calculations for suitable risk and was able to lower my ROI while increasing the volume, resulting in higher absolute income while being better diversified.
+
+So in short: I was never losing money, but started to actually generate wealth after \~14 months of starting from scratch.
+
+**"Where did you get the inspiration for this?"**
+
+I was in an accident which screwed my studies etc. having broken arms. Whilst healing I watched lots of football and made a few bets after comparing teams earlier performances. I was frustrated by the usual statistics shown before games of "x goals in y matches", when that tells you very little: it is about against who you score, not just the number, so I started to formulate my own ranking system. Once I had healed the situation was that it'd be less of a hassle to continue my studies next year where I left off than try to catch-up anymore, so I devoted my time for personal coding projects (I had done none before). Needless to say, once the monetary potential of this project started to dawn, I ditched the others.
+
+One thing I must say, though, is that despite this being very much an IT-project it was not the focus of my studies: I learned to code while building this, which was the original goal. I'm glad it turned out even better.
+
+**"What is your background and what tools did you use?"**
+
+Before starting the project I had studied natural sciences in university, bundled with introductory statistics. Only the latter has any relevance for this project. I remember John Carmack, the programmer of the original DOOM, saying that all math he used was included in the high school curriculum; I can vouch for that. Relatively basic arithmetic can get you quite far when it is automated. There is no esoteric AI or post-phd-level number theory involved, just clever problem solving.
+
+Everything is coded with Python 3.x, using NumPy and Numba to speed calculations up. Other than those I use Selenium for scraping, everything else is self-made or vanilla Python.
+
+**"Have you been limited by bookmakers?"**
+
+Yes, very much so. I only have 4 active accounts anymore, one of which sees pretty much no action. I have been limited by at least these (hope I remember them all) by the following behaviour:
+
+* **ComeOn** (while I still wagered with mere cents) : everything suddenly limited to 10 cents, when asking I was just given a non-functioning e-mail address to another company
+* **10bet** (even when I was at small overall loss) : everything suddenly limited to 80 cents, "The trading team has decided to limit your account", no further explanation
+* **William Hill** (took only 3 days, I made under 10 bets) : Every bet gives "technical error", when asked I was told I had "abused bonuses"; I asked which bonuses I had used multiple times, no one was able answer. I requested my documents (all hail GDPR), in which reads "Bonuses: 0". I hit back with this information, I was told that the limit was lifted: now every bet I try to place is limited to 0 €, and when asking in chat I am told there is no limit on my account. At which point I gave up.
+* **Betway** (even when I was at small overall loss) : An email explaining "The trading team has decided to limit your account", no further explanation. Again, a bit lackluster, but instead of shadily not taking any bets and having to ask the situation myself, an honest email was a welcome change. Nice!
+* **bet365** (I've heard that they should close winning accounts hastily but this was not the case, even with my ROI at almost +20%) : Same as Betway, got an email. When asked further questions, chat replies with copy-paste answers, even pasting the same answer multiple times.
+* **Partypoker** (took 7 days) : Every bet gives "technical error", when asked it took a very long time for the customer service to find that I had been limited and there actually was no technical error.
+* **Unibet &amp; Paf** (they have outsourced their sportsbook to the same company. They told me that the limit is not eternal, which seems to be the case as I was able to bet on the other with 6 months in between before getting limited again) : Everything suddenly limited to 1 €, had to ask for a reason. The representative of Paf was 100% fucking with me, using emojis and saying that "You can still have fun betting with lower stakes, and there are no limits in the casino :)"
+* **Betvictor** (Great odds, was fun while it lasted) : Sudden limits, had to ask, no explanation
+
+As a sign of sportsmanship I also asked them all if I could get a diploma of beating them at their own game. None offered one :(
+
+**"Why don't you open new accounts in the name your relative/friends?"**
+
+To be honest, most of these limitations have been put to place at such low winnings that it is not worth the hassle. Only bet365 offered substantial income before closing in.
+
+While the odds may be marginally higher here and there, I've calculated the overall effect to be so small, max 3% more income a year, that I don't bother: they'd be shut again anyways. And no, not 3% more ROI, but overall income: that little is down to luck anyways.
+
+**"What is the best/worst sport for this?"**
+
+Handball and basketball are quite on level in absolute income, I have placed 1.5x as many basketball bets, so handball takes the cake. Per bet futsal is surprisingly good, but the volume is, for a small sport, low.
+
+I'd really love for tennis to be profitable due to it's high volume, but I have yet to make it happen. That is probably the most disappointing.
+
+Baseball has been so beaten by other statisticians that it offers no value. And football ("""""soccer""""") has such a sharp market and high effect of chance that it is disappointing taking the volume into account: there are more bettable football-matches than all others combined.
+
+Handball, basketball and volleyball are probably accurate due to how many times teams score in a match: it rarely comes down to luck who wins. Compared to football, where the shots may be 20-1 and scoreline 0-1.
+
+**"What about taxes?"**
+
+In the EU and EEA-countries the tax burden of gambling is on the service provider, so all the tax is already included in the odds. As long as I don't play in Macao or Curacao registered sites, I pay 0% tax, effect of which cannot be overstated: in a pseudo-communist nation such as mine, if the 30k were subjected to income tax, I would amount to 7k. Not to mention, if this was on top of my income from my regular job, the tax-hike is so dramatic that I would had paid 15k of that 30k as taxes.
+
+This somewhat limits my choice of bookmakers.
+
+**"Have you considered implementing x sport?"**
+
+I most likely have. And I have not implemented it, because gathering the required data is too much work compared to the opportunity: as it stands, handball, basketball, football and volleyball make over 70% of my income. Hockey is under 10%, and considering it's size I see little value in adding any more smaller sports.
+
+If it is not a ball-game, but racing etc. I have made some models, and the problem is how few races there are in a calendar year (not enough data) and how big a difference there is in performance from season to another (a change in motor etc.) at larger scale than in other sports. Another thing is that a ball-game is quite standardized around the globe: the performance of the same teams should be close to identical in whatever venue. This is of course not the case in racing. Another thing is that a ball-game has always 2 sides, and you determine which one was better, but in other sports (racing, track and field) when every athlete is competing against all others at the same time, it gets much more complicated.
+
+As for boxing/MMA, the low amount of data per competitor is the problem.
+
+So in short, I have and there is a reason it is not included.
+
+**"Which sports you currently bet on/have tried betting on?"**
+
+I actively bet on basketball, handball, football, hockey, volleyball, rugby, american football, floorball, futsal, bandy, beach-volleyball.
+
+I have tried betting on (but have dropped them due to low gains) baseball, League of Legends, cricket, darts and aussie football. These have so few and low value opportunities that it is not statically viable to ensure winning margin.
+
+I have completed a model that is not good enough for Counter-Strike, Dota, tennis, badminton, field hockey and snooker. The thing is, even these are more accurate than the historical odds, but not accurate enough with the bookmaker margins.
+
+**"Do you often run into stake limits and can't bet as high as you'd like?"**
+
+With almost every bet, unless it's NBA or similar super-high-level-league. That's why it kinda bugs me to get accounts limited. This is reason I will never share my algorithm: there's only room for one sheriff in the market.
+
+While I project my 2023 income to be around 50k, I find it hard to believe it will ever be higher than that. MAYBE in an ideal situation there is enough opportunities that I could bring it closer to 100k, but not more using these methods. Which sure is a nice sum, but it's not like I'll be a millionaire anytime soon. And I'm sure there'll be some legislative thing or similar that will make life harder in the future: I am not counting my future earnings on this.
+
+**"Do you use betting exchanges?"**
+
+No, but I probably should. The thing is, that while they are big in terms of football, pretty much every other sport is neglected, and they are not terribly useful for me. Smarkets seems good but it doesn't accept my nationality.
+
+**"Could this be used for stock market somehow?"**
+
+Yes and no. That is my ongoing new project, but as is, this has little to do with financial market. I have, however, learned a thing or two about time series-analysis along the way, so I do have confidence in myself.
+
+**"Why hasn't anyone used your particular method before?"**
+
+Maybe someone has, but as it is with models that actually generate wealth: they are not telling anyone. Another thing is, that even if all this was done with a mid-tier consumer-level Intel-chip, it is still manyfold more powerful than a product of the same price range 20 years, let alone 40 years ago. I have optimized the hell out of my algorithm, and it still does take almost a week for it to find the optimal functions for football: my unoptimized alpha-version would had taken over a year. While possible, I doubt many people would had had the patience.
+
+Also, while I was a newcomer when I started and a more experienced data scientist would had made it faster, it still took me 3 months of all-day work to get any convincing results, and a year to truly earn something. It's not like what I have done was obvious, even if my initial idea turned out to be correct.
+
+**"What is your ROI?"**
+
+As I can quite accurately calculate the expected value of each bet, I can make it what ever I wish. But, the point is not to have a high ROI, but maximize the absolute income: 1000 worth of bets with ROI of 1.05 is less income than 10000 worth of bets with ROI of 1.01.
+
+I have made quite extensive calculations on this (I'd even go as far as to say it has been more challenging than the actual model itself) and I have settled at a ROI aimed at 1.04. Last year the materialized ROI was 1.035, but there were a few hiccups.
+
+**"How much time do you spend betting?"**
+
+I run the odds-seeker 2 or 3 times a day. It takes around half an hour to place the bets. I usually just listen/watch something while doing it, it is not a huge chore.
+
+Compare this to bet-trading (like Caan Berry), where you'd need to stay alert hours per day... sounds like torture to me. My way is much more chill, and the hourly wage is way better.
+
+**"Have you tried predicting the winner of major tournaments using your algorithms?"**
+
+Yes, I have. Not for the sake of betting, though, as the money would just sit on the bet doing nothing until the tournament is over... but for fun, sure, simulating the whole tournament a million times and seeing who got through. It was very certain of England winning FIFA Women, and ranked Argentina as the second favourite in Qatar 2022 behind Brazil, with a much smaller margin than what it was for women, tho. And it did predict the last 2 Super Bowls correctly.
+
+**"How much do you bet per day?"**
+
+Weekends are way more active due to how the leagues are organized, but the current daily average is around 5000€. The maximum has been 16000€.
+
+**"Are there bookmakers you won't use?"**
+
+As said already, I shouldn't use non-EU or non-EAA-registered bookmakers to avoid taxes, but there are some that I won't use for the sake of my security. The worst offender is probably 1xBet, which is so shady that it has been kicked out of Russia (imagine what a feat) and resides in Cyprus. There have been multiple reports of people being unable to get their money out. While immoral, the ones I use at least do not outright steal deposits.
+
+Other spooky ones include Marathonbet and services that uses cryptocurrencies.
+
+**"Which bookmakers have the best odds?"**
+
+If the question is "which trustworthy bookmaker has the lowest margin, that is probably Coolbet. Pinnacle comes in second, and has the widest range of wagers to choose from (a long list of handicaps etc.) so the majority of my bets are in Pinnacle. Not with the best return, mind you, since they are quite sharp.
+
+If the question is "which bookmaker has the most incorrect odds", leading to best opportunities, that is either Betvictor or bet365. I remember both having odds wildly different from the other bookmakers, while I still had unlimited accounts in both. I reckon you could make a couple of thousand without any algorithms in a year using them by just checking their odds against other bookies.
+
+**"Which bookmaker has the best website?"**
+
+I don't really care about graphic design, but Coolbet and Pinnacle are quite unintrusive and fast. Bet365 is okay, but a bit confusing. No opinion of the others, guess my usage was too short-lived. Betway was cumbersome and slow.
+
+What is important is a working search-function. In that regard I remember Unibet being really good, and Coolbet too: they find the teams even if you search with a synonym, and seem to give the most relevant match right away. Pinnacle is not too great, they list women’s teams and u20 etc. without the suffix and are unable to understand synonyms or spellchecking. Nordicbet is the WORST and won't find a team even if you copypaste the name from their own listing to the search: you are forced to navigate to the correct league yourself.
+
+Pinnacle provides a ready made .csv of the bets which is quite useful, and Coolbet has a toplist which is fun. NordicBet and bet365 provide streams of matches, bet365 being more comprehensive.
+
+**"Do you follow sports outside your project?"**
+
+I am an avid fan of Champions League football, supported by Premier League and La Liga. I also binge Olympics and do enjoy following the progress of my national teams in various sports. But, I never bet on my "hunch" (except for Atletico getting carded), keeping my business separate. For example, I don't follow leagues of handball, basketball or hockey at all, but those make up almost all my bets.
+
+**"I've been thinking of doing something similar, should I?"**
+
+Sure. Actually, I'd say that betting without algorithms in 2023 is idiotic: how do you expect to be profitable against those aided by computers?
+
+It's been the best project I've ever completed, I highly recommend trying.
+
+**"Where do you get your data?"**
+
+I don't wish to be rude, but this is something I am not disclosing. Various sources, and a lot of scraping. I have not paid for anything, that I can tell.
+
+**"What would you had done otherwise earlier now that you know better?"**
+
+Focused more on the big sports in the beginning. That's where the potential lies. It matters little to have a perfect algorithm for floorball if the stakes are limited to 10 €.
+
+Also, taking into account differences inside a sport earlier... for example, women’s and men’s basketball are essentially different sports: the hoop is at the same height, but women players are MUCH shorter -&gt; there scoreline is waaaay lower, because scoring is more difficult, and the whole tactical side mirrors that. It was pure stupidity to try to fit them in the same model.
+
+**"Any tips for those developing their own betting algorithm?"**
+
+The only way to succeed, is to be the best: you are not only trying to beat the market, but the bookmaker margin as well. This means for a ROI of 1.05 you'd need to be consistently at least 10% better at calculating probabilities than the (seemingly) efficient market. The fortunate thing, you can choose what you wish to be the best in. Hence, don't try to copy other people: if something has been already done, you are not going to be the best at it. You could, however, read about pre-existing methods and their limitations and see if you can come up with solution to those limitations: the harder the problem, the bigger they payout, as it is more likely you are the first to solve it.
+
+**"What wagers do you bet on?"**
+
+Mostly handicaps and over/under. Both allow me to pick the optimal risk/return ratio unlike of basic 1X2. On football, Both Teams Score and A Goal During Both Halves are also ok. I have experimented with predicting Correct Score for football and hockey, which the model is wholly capable of doing, but the margins are so wide on lower leagues that it just isn't feasible.
+
+**"What is your accuracy?"**
+
+A little under 60&amp;, and this wholly logical: league-levels exist so that teams of similar calibre would play against each other, hence majority of the wagers are for situation where the probability of each winning each around 50%. Most of the bets are so that the odd is around 2 but probability is over 50%: in fact, my average odd is 1.95, which is understandable taking my ROI into account.
+
+**"Have there been any major surprises along developing the model?"**
+
+I am quite surprised how good the model is for american football. Handball and basketball being the most accurate is to be expected, but american football has so many downside in terms of predicting that I was pleasantly taken back. These downsides are
+
+* short season, low on datapoints
+* the scoreline may change very suddenly
+* the teams may go over drastic changes between seasons
+* effectively only 2 leagues (NFL &amp; NCAA) to bet on, others don't even have wagers
+* very popular, should result in a sharp market
+
+and yet, it is the second most profitable sport per bet according to current accounting. I guess the organization and facilities matter that much? Or is it the "DNA of winning"?
+
+A negative surprise has been the models ability to predict tennis and badminton. Tennis I can understand, but badminton is, in terms of statistics, so similar to volleyball and beach volleyball that it is really weird for me it isn't performing nearly as well. I simply cannot explain what makes it such a difficult sport to predict better than the market compared to others.
+
+**"Do you watch the matches you bet on?"**
+
+I used to have them open on a separate monitor if there was a bet365 e.g. stream available for "fun", but I quickly realized how toxic it is. I already know to what sum my income should converge as I keep betting, and that almost half of my bets are misses: there is simply nothing to be gained from the constant "excitement" over them. So no, I definitely don't. I actively prohibit it from myself.
+
+**"Have you automated placing the bets?"**
+
+No, only the gathering of odds and calculating probabilities and optimal stakes. It does not take that much time from my day and the amounts have gotten so large that I'd rather keep the sanity check of placing them myself.
+
+**"Why this post? Shouldn't you keep this information to yourself?"**
+
+I am not sharing anything that could jeopardize my edge. Instead, I wish to help likeminded people to avoid unnecessary mistakes, of which nobody gains anything but the bookmaker. And besides, it is a lonely hobby; many try, few continue, almost nobody succeeds. I'd be great to find a community.
+
+**"I represent the Company X or Y and I have a business proposal, may I contact you?"**
+
+Absolutely! The thing is, that there is little more to be gained from the market if the algorithms need to beat the bookmakers margins on top of the market: however, if the algorithms were used by a bookmaker, there could be significant potential.
+
+**EDIT: I asked about not getting limited and my opinion on the future of modelling via DM, I figured I'd paste my answer here as well:**
+
+Getting limited is the reality of things, there is nothing that can be. It is not charity after all, and it is the easiest action for a bookie to do to keep more of their earnings. Unfair as fuck, since it is them who make the odds after all, but it is a fruitless endeavour to fight back.
+
+The only solution is non-limiting bookies and betting exchanges. The latter is a bit lacking in terms of other sports than football, but with betting on rise in America I can see some hope in that. As for none limiting bookmakers, at least Pinnacle and Coolbet seem fine with having winning customers: after all, the house always wins, and they don't seem to care if some individuals do better than others.
+
+I am not even trying not to get limited, any "tricks" you could employ seem to be total voodoo and did nothing. I can say this quite confidently, having been limited by many bookies, some of which I was not even profitable in yet.
+
+As for future of modelling, I have feeling that it will be big institutions that will run the show and not individuals like myself. You can get a pretty AI-model at home, it is not about processing power, but the availability of data will be what separates professionals from peasants. You know all those site calculating xG etc.? What you see or can buy is just the tip of the iceberg, the best data goes for bookies and is not even made available to normal folk. The gap is noticeable in football already, but once the technology of automatically gathering detailed event data reaches lower leagues of handball and such, it is pretty much game over.
+
+**EDIT: Another user asked me for general tips regarding modelling, and I gave this concept-level answer:**
+
+Spend time thinking the "philosophical aspect" as well: WHAT is the actual question you are trying to answer and based on what: could those features you give the model even theoretically account for what you are trying to predict? Because, you can find correlation ANYWHERE, but it doesn't not necessarily explain any phenomenon.
+
+Anything regarding the actual programming can be read on the internet, but the actual driving of the project is on you alone, as is defining not only what you are trying achieve but how you measure it as well. One crucial thing is that you'll know pretty soon if your approach has ANY potential: if not, change the approach. Elon Musk has somewhat worded this philosophy by not caring about 5% improvements, but 1000% improvements: the gains of optimizing are dimishing the further you go, and the best way to improve is come up with something completely new. For example, I tried many approaches which got the range of negative 10-5% theoretical ROI against historical odds, but it was only when my initial alpha version was in the -2% ROI range that I started to truly develop that idea.
+
+I am not going to give any advice regarding "which ML to use" or similar, since none of those worked for me and I ended up with something unique. To succeed I'm afraid you'll need to come up with your own shade of unique.
+
+I do stress, however, that I never even tried to build a sport-specific perfect method, but something I could easily translate from one sport to another to maximize my volume of betting, and THEN maybe improve it by sport. IF you wish to focus on a singular sport, your end-product should be wildly different and more accurate in its limited scope.
+
+I hope this is at some form useful, even if not very concrete: I'm just trying to tell you what I'd hope I was told before: practical side of coding is pretty well documented, so I don't feel the need to iterate over that.
+
+---
+## Comments
+
+[[deleted] | 8 pts]
+Can you recommend any books / websites that were especially helpful in building your algorithm? I’m just barely beginning to learn python but would like to have something running in ~2 years.
+
+  [Hurthaba | 9 pts]
+  I did my uni's most basic programming and data science e-courses at beginning, and from that on it has been all Stack Overflow. Not the most professional answer, but you do learn a lot by just doing. I'd say the most important thing is to get a shallow overview of what is possible and learn the vocabulary, so that you can start googling relevant topics yourself.
+
+The programming part is quite secondary, IMO. The math behind has been much more crucial. If you just start noodling around, you'll eventually learn to code by accident, but statistics won't stick unless you really study it, and you only really need like 2 courses worth of basics for 99% of the problems you face.
+
+Sorry for a general answer, but I can't pinpoint any particular resources.
+
+    [IltisGerry | 1 pts]
+    then how did you get to 30K earnings or hours do you plan to get to 50 if all bookies quickly limited you?
+
+      [Hurthaba | 3 pts]
+      ALMOST all bookies have limited me. At least Pinnacle should never do it, and it is where most of  my bets have been anyways. 50k is a reasonable target taking into account the performance I've had for last 3-4 months: the method was not fully capable in the spring of 2022 yet, so I think this year I can do a bit better still.
+
+        [640021 | 2 pts]
+        Hi thanks for sharing. Just wondering if from the start you were placing most your bets on pinnacle or you have only been recently forced to do this because of limitations. The only reason i'm asking is that i'm skeptical of any one person being able to get an edge on Pinnacle simply due to the resource disparity between one individual and a massive operating like pinnacle which is highly incentivised to keep their odds as sharp as possible. In my opinion trying to beat pinnacle at their own game \`(algorithmically) is damn near impossible and the only way to beat them is through an esoteric nuance like for example how people are able to get a jump on them through courtsiding.
+
+        [Hurthaba | 7 pts]
+        I used Pinnacle form the start, and even then it had the most bets, them having a great selection of wagers being the leading reason. The ROI at Pinnacle is slightly worse than at others, cause they sure are the sharpest, but even they won't go against the market: if more people have bet on the Home winning, they must lower those odds and raise Away, and if the public is wrong, I win. Pinnacle is just a middleman. I am not beating Pinnacle, I beat the market.
+
+[boardsteak | 6 pts]
+Can you provide a cash flow for one of your accounts (e.g. bet365) from onset to limitation?
+
+  [Hurthaba | 3 pts]
+  Bet365 only provides history for 6 months back (in a JavaScript-heavy web-view) and I got limited in autumn. I have contacted them and asked for more as a .csv but they just answer that "you can see last 6 months in your account history, that's it". Which is a shame, I would had liked it too.
+
+As for the others I've been limited in, they total amount stakes were so low (like 1 or 2 % of my total turnover) that they are not very interesting and I have not bothered to gather per bet data. It does not seem there is any logic in getting limited. Were you interested in just spotting a trend which gets you limited, or my general betting? Because for the former, I'm afraid there is no answer, and believe me, I've tried to formulate one.
+
+    [boardsteak | 1 pts]
+    So how do we manage to use our models in the long term?
+
+      [Hurthaba | 4 pts]
+      No idea, I am pretty set on the idea that this is not eternal. But at least Pinnacle advertises itself as never limiting accounts, and there are a couple of other bookies that I have no found evidence of limiting, even if they don't pride themselves with it. Maybe betting exchanges will someday be the solution, I don't know. But as it stands, Pinnacle is where I'm at.
+
+[theacorneater | 4 pts]
+Thanks for the self ama. Where do you get data from for football?
+
+  [Hurthaba | 5 pts]
+  Over 10 sources, including Wikipedia, Transfermarkt and so on. I won't give you a list but all the information I use is freely available.
+
+    [theacorneater | 1 pts]
+    Thanks! I signed up for an API called Football-Api but it doesn't have all the data I need. I think I'll have to scrape bet365 or some other site
+
+      [Hurthaba | 6 pts]
+      Are you sure you approach is correct? You can hope for the exact data you need to show up somewhere, but what it doesn't? Are you unable to create your model then? My principle has always been to gather data and see what I can do with it, not the other way around. None of my models use any "fancy" data, since it is only available for highest leagues, in which case the model would be unusable in 95 % of the matches.
+
+I'm not saying you are doing it wrong, the point is to do things differently than others, but I'd be careful if I were you. Besides, if the information is easily attainable from an API, I can guarantee you somebody is already using it as efficiently as is possible, so you got a hell of a race ahead.
+
+        [theacorneater | 1 pts]
+        I'm not sure if my approach is correct but what I can tell is that it's very primitive. I don't bet on the outcome of the game cos I've been burned a lot by it, but rather other stats.   Right now I only do live bets across all leagues-small and big and have to do it manually. I want to automate it somehow. It seems promising but feels kind of like a job having to do it manually. 
+
+You're right that if data were available so easily and for cheap, more people would be doing it.
+
+        [Hurthaba | 1 pts]
+        If you don't mind me sparring, I'd like to ask: how do you know when a bet is good when making it live? I don't do live betting for exact reason of the difficulty of comparing situations to historic matches. Of course I need to do quite a bit of extra/interpolation for pre-match wagers, too, but at least then the scoreline is 0-0 and there is a full game ahead; when betting live, even the time left is a parameter, not to mention all other events, and the amount of dimensions blows up. Granted, it is more difficult to every other party on the market as well, so if your datastream is on point and your model is good, the possible edge over others on the market is potentially much more significant than I could ever imagine with my model.
+
+But, as I was asking, how certain you are that your bets are good when placing them? You say you have been burned before: I hope you have learned from your mistakes and try your methods via simulation before using real money. Because if you don't have unbiased statistics of at least hundreds of wagers and your performance against them, you are gambling and betting not on value. And when gambling, the house always wins.
+
+        [theacorneater | 2 pts]
+        You are correct that it is good that I learn by simulation but I don't feel motivated enough to do it unless it's with real money. Instead I use smaller amounts, but I also have terrible bankroll management. Sometimes I become impatient and go all-in with my weekly/monthly allocation. The pre-match wagers don't work for me because I usually do the big leagues - top 4/5 and odds are difficult for you to win. Not really sure what historical data I should look at - like H2H or position in the table, ..etc. because for my predictions, the odds are either too low or I get it completely wrong. Anyways, my model doesn't work there. You've seemed to figured that out. 
+
+The reason I choose live wagers is because I have an idea of how the game is going. I make all my bets at half time. I have data for the first half and can extrapolate the second half based on the motivation for the teams to win. I have data such as shots, possession, cards, ..etc and the most important one is being the score line. I've been getting 2/3 bets correct for odds between 1.7 and 2.1. But sometimes it's consecutive losses which makes me question my model lol. I have to try it a bit longer to see if it works out.
+
+        [Hurthaba | 3 pts]
+        I don't wish to be offensive, but betting everything sounds like gambling to me. You should at least familiarize yourself with this concept:
+https://en.wikipedia.org/wiki/Kelly_criterion
+
+        [theacorneater | 1 pts]
+        Hahaha no offense taken. It's gambling alright. But my new method doesn't feel like gambling. I've made some decent profit recently
+
+        [theacorneater | 1 pts]
+        Interesting stuff. I'll look more into it.
+
+    [maddogodds | 1 pts]
+    The data for Rugby is one I’m interested in, have been building statistical databases for the last 4 years and one thing I’ve noticed is how difficult it is to find rugby data open to the public, but I assume the rugby you’re referring to is specifically the NRL? And not any of the Union leagues? Even within League there’s no actually databases available for Super League in the UK from what I’ve been able to find
+
+      [Hurthaba | 3 pts]
+      I got both, union and league rugby going on. The algorithm for union has a considerably better edge for some reason. Most of my bets are for European leagues, I guess the Australian variant is so popular that the market is sharp.
+
+The data I have is pretty basic, nothing on the granularity level of individual players or anything like that, very high level events, and I know that even that data is lacking. If more detailed data exists, I'm not aware of it. I just scrape results from x amount of sources.
+
+        [maddogodds | 1 pts]
+        So it’s just result based data as opposed to performance based data?
+
+        [Hurthaba | 2 pts]
+        For rugby, yes. It is better to have certain, simple data for 10000 matches than detailed, error-prone data for a 1000 matches in my experience. Overfitting is the worst thing you could do building models.
+
+        [maddogodds | 1 pts]
+        Interesting, so all your rugby and afl models are more so based around actual scores/results than anything else? Have a club Elo ratings that I use for the lower leagues that has worked surprisingly well at projecting score lines for Union which makes sense with the above logic, just trying to determine the best way to account for hfa
+
+How do you determine probability for your projections? To determine edge?
+
+        [Hurthaba | 3 pts]
+        Correct. There is little else to go by, so I make do with the data I got.
+
+Home advantage is a tricky thing: it sure does exists, but determining how much of an effect it has when the difference in team quality is large vs when they are similar in strength is not as obvious as you'd think. The answer varies between sports.
+
+Determining my edge is more complex than the actual probability model, to be honest. It is not as simple as comparing how much more accurate a model compared to statistical averages, but there is a lot of nuanced confidence level calculations based on the amount of data and other things. If you read my original post (which I know is again marked as spam, but you can find in another sub from my profile) I glance through the timeline of my project. After 4-5 months I'd say my architecture for models was complete, save for one big improvement and lots of small ones still to come, but I wasn't earning real money until I had my edge-determining math ready. An ok-version took almost a year to complete, and the current great version half a year more. And bulk of it was not even coding, but making notes of every detail and things to test that should be weighted in determining what kind of performance I can actually expect. The fortunate thing is that now when it is done, it is pretty much automatic throughout all sports: the models vary, but as long as they spit out a probability the rest can be done with the same code for all.
+
+The modelling could be explained in a page or two, but I could a write book of the edge-determining alone.
+
+        [maddogodds | 1 pts]
+        Do you produce a projected scoreline for the purpose of finding an edge?
+
+        [Hurthaba | 2 pts]
+        I could very easily, but it would make no sense in terms of laying the bets. The wagers are "the teams x wins by y points" or "there are over z points scored in the game", so I of course calculate the probability of those outcomes straight away. What use would knowing the most likely outcome of a match be?
+
+Imagine you had a group of people and you knew their average size. Your task would be to produce clothing of the correct size for each of them, given no further information. While you could say that when comparing the average size to another group that they would generally as a group need larger/smaller clothes, you still would have no idea what actual distribution is, and your task would be impossible to complete correctly. It is the same with the projected scoreline: if match A has a higher projected scoreline than match B, you know that the likelyhood of there being more points scores was higher in match A, but that's it: the information of how good each wager would is not included, and you can't bet without it.
+
+[uuuseful | 3 pts]
+Are you doing anonymous VPN for your scraping or have you been blocked anywhere as a result?
+
+  [Hurthaba | 3 pts]
+  I have been blocked from a couple of sites, but that was when I was just starting and didn't really follow good scraping etiquette: I had no data to begin with, so I just wanted everything fast. Nowadays I wait 2 seconds per site, so that I am less of a strain, now that I just need update my data, not gather it.
+
+When that happened, I just switched to my phones internet or used my university VPN. No big drama there. And when I moved, my IP changed and those blocks were no more.
+
+[GeRRiT1986 | 3 pts]
+Great writing there and always have been interested in this matter! 
+
+If I understand correctly you have a sophisticated model which produces your assessed probabilities for a given sport and outcome by scraping historical data using Python.
+When those probabilities are converted to odds or ofcourse the other way around the bookies odds converted to implied probabilities you look for discrapencies and therefore found value.
+Then using the Kelly criterion as bankroll managenent to take the odds into account for determining your wager.
+And then place this as a single bet.
+
+Is the above a correct assumption?
+
+Some questions I have:
+
+How do you account for the overround? Calculate it and substract as a weighted value?
+
+Do you use a fractional Kelly and what percentage you have seen is the sweet spot? Do you also have a max bet in place as the Kelly criterion can sometimes give advice to place really high bets?
+
+I have some Python experience but not that much. You think some kind of model can also be build in Excel? 
+
+Thanks!
+
+  [Hurthaba | 6 pts]
+  You got a close enough understanding, but there are hundreds of details included that add up.
+
+There is no need to take bookmaker margin into account when calculating the value of bets. If the odds are 3.0 the probability needs to be at least 33.33%, no matter the overround. Don't be confused by that.
+
+Yes, fractional Kelly is a must: it is meant for subsequent bets, and calculates what is the optimal one-time stake. But, when betting I rarely if ever have just one bet going on, so it would very quickly be the case that my account would run out of money before I had laid all my bets. During summer when there are less sports around I have found the fraction can be as high as 0.5, but during high season (which would be around right now until early may) it needs to be dropped to 0.1 even. But, as my capital has increased and I am hitting the stake limits constantly, there would be little difference even if I raised higher.
+
+As for the high bets: well, if your probability calculations were perfect there would be no reason not to go all in on +90% sure bets. The problem is that those kinds of probabilities are most likely a cause of extrapolation from lower values, because in function sports leagues there should not be too many matchups where such overpowered would face off against a foe that weak, and a good model should take that uncertainty into account. When it does, the increase in probability naturally gets a maximum value.
+
+Excel is funny for almost anything could be built with it, but nothing should be. My life has significantly improved after ditching Excel, so while I am not saying it is impossible I am for your sake very much against it. You'll have gone mad before you are ready.
+
+    [GeRRiT1986 | 1 pts]
+    Thanks for your response!
+
+I would like to start building in Python. Do you have some sources from where I can start with the basics?  Which were really helpfull for you when you started from scratch?
+If it only was a tutorial or something like that on how to read a .csv with historical data and getting some output that would get me started and where I can build from.
+
+Also another question: do you have experience or opinion on Forebet.com ? 
+It also produces probabilities using a model they say and have a separate section for highlighting value bets. Does their probabilities look anywhere solid from you point of view?
+
+      [Hurthaba | 1 pts]
+      I did a couple of courses in uni which got me started. I don't think it matters that much, just start doing. Pre-made Jupyter Notebooks are probably quite good at explaining things, now that I think of it. I you just google, there are probably examples for anything you can think of in form of those, even full models from scratch. And towardsdatascience.com will lead you to the right way, even if it is in a professional sense crap and full of errors in details.
+
+I had not heard of Forebet and can't really say much just by looking at it. May be good, may be not: the great thing about my model is I know exactly how good it is. And even if Forebet was good, it is something that is clearly available for everyone, meaning the market would already be using. As I've stated, I don't do football nearly as much as the size of the sport would suggest, because the market is so sharp.
+
+I have no doubt that Forebets predictions would be even significantly better than the statistical average. It is just my experience that in football you'd need to be SO MUCH better that there is little opportunity around. But then again, I have focused on making my model as universal as possible so I can bet on many sports with high volume. Some is bound to do better if they only focus on one sport.
+
+[IltisGerry | 2 pts]
+You don’t really answer the question how you overcome limitations.
+
+  [Hurthaba | 3 pts]
+  If you mean bookie-wide account limitations: they cannot be overcome, unless you create a new account using "borrowed" ID. There is absolutely nothing you can do if the "trading team" decides you cost them money.
+
+If you mean hitting limits on certain bets, there are 2 possibilities:
+
+1. Betting the rest of calculated optimal stake on another bookie (or third), taking the possibly lower odds into account, lowering the stake
+2. Trying if you are allowed to stake the rest on a close-by wager (like handicap +2 when you wanted +1.5)
+
+Sending the bet for "manual approval" almost never works, or the extra amount allowed is like 5 euros. Often the case is, I'd like to bet 300€ but the limit is something like 98.07 and there is no alternative wager or bookie for that particular case: when that happens, there is nothing that can be done. So to answer the question: they cannot be overcome. You just need to move on to the next bet. That is why I know there is a hard limit of how much my method can make.
+
+[MeisterHaft | 2 pts]
+Have you thought about using betting agents? They usually offer access to a lot of different bookmakers that won't limit you and most of them have APIs that provide Pre- and Live Odds with the opportunity to wager
+
+  [Hurthaba | 1 pts]
+  I've made _some_ research, but did not find one that would operate in my country. Guess I'll have to move to Malta at some point.
+
+[[deleted] | 2 pts]
+[deleted]
+
+  [rogueit | 2 pts]
+  There are a ton of projects and videos that show how to build a model, but I can’t find one that shows how to use the model once you have it tuned. What does the input look like when using data where the outcome hasn’t been determined. Are there any videos or articles you’ve come across,or have created yourself that takes real world, undetermined data and shows how to feed that into your model. Is it just as simple as leaving off the outcome column?
+
+  [StandByMe1977 | 2 pts]
+  Great article, thanks for sharing!  I aspire to be like Benter except I'm fine with just creating a model that makes me $500,000 a year on average.  I don't need more than that.
+
+  [Hurthaba | 1 pts]
+  I am familiar with the story, and I have a few gigabytes of horse data scraped. I just haven't gotten around it, kinda forgot about it as my focus has been on ballsports. If something, the volume of horse racing is insane, there is a race going on somewhere every single second of every single day: Australia, Hong Kong, Europe, UK, US filling the whole day.
+
+The challenge is that it is a complete different best compared to ballsports, and I'd need to start from nothing with my model. But hearing of its potential, I might look into it seriously. My only concern is where to bet: after all, I have already been limited from almost all major bookies available to me.
+
+[EsShayuki | 2 pts]
+It's interesting.
+
+The one thing I've learned is that the actual machine learning stuff is very unimportant and more like a minor consideration. I can get the same results with some simple excel calculations as with a fancy machine learning algorithm. 99% of the work is creating the data, and logical thought &gt; machine learning. If machine learning suggests something, it has to make logical sense or it's probably not real. Because of this, I consider being familiar with the sport you're betting in to be very important, unless you have massive amounts of data and can go purely with machine learning. That's why I only bet on hockey at the moment, because it's the only sport I've followed actively for an eternity.
+
+Kelly Criterion ROI % is pretty misleading. Kelly Criterion maximizes absolute returns, and oftentimes the ROI % is quite low. With tiny bets, you can have 10% ROI, but with Kelly Criterion the ROI will probably be around 2-3%. That's why you saying your ROI is 3.5% is not that useful. It really requires a qualifier like "roi of 3.5% using static bet sizes" to really know what the performance is like. Still, around 5% seems like a good benchmark to aim for. 
+
+&amp;#x200B;
+
+What's your avg logloss for basketball?
+
+  [Hurthaba | 1 pts]
+  I disagree greatly with the statement of having to be familiar with the sport you are betting on: that's why I have created universal model-creation so I don't need to. Granted, I have taught myself the basic rules of each sport so that I generally know what each metric means and how it can be used (cricket took the most effort and isn't even profitable), but when it comes to tactical or strategic side of for example handball or basketball, I have no idea what is good or bad.
+
+Problem with human intuition is that it is very difficult quantify it, and the metrics are subject to all kinds of biases. That is the main difference between me and a casual punter: I know exactly how good my predictions are and how much error margin I need to stay profitable.
+
+I don't understand your point about ROI being misleading: what to do you mean the ROI would be smaller than calculated? ROI is not calculated from the total money you have available, but from the amount that was bet: if the probability is small and Kelly tells us to bet a small amount, given infinite bets the achieved ROI should converge to whatever was calculated (given the model is correct).
+
+IF we calculated ROI from my initial investment/available funds and not from the sum of stakes, then oh boy, it would be something like 1000% (because of efficient turnover). But we don't, because that is incorrect.
+
+I agree, tho, that ROI is not a great metric, because the point is not to have a large ROI but large income, which is, as I have described, a whole other challenge of strategy, not modelling. Mathematically, the largest income would be achieved with a ROI of infinitesimal over
+0% with infinite sum of stakes.
+
+I have no idea what is my logloss for any sport, I use other metrics which I have deemed better. I would amount a great deal of my success to this: not taking any measurement or method at face value. There is also the varying weighting of matches and wagers.
+
+
+I hope my tone wasn't too confrontational as we did not agree on lot of things.
+
+    [EsShayuki | 3 pts]
+    "I disagree greatly with the statement of having to be familiar with the sport you are betting on"
+
+But how can you combine stats if you don't know the sport? I mean, a significant part of making my data was in finding logical combinations of different statistics which would be impossible without an understanding of the sport. And if you have hundreds of different raw stats, well trying to combine them in ratios at random just would be so challenging if you don't know much about the sport. I've actually looked at some data sheets for NBA and even League of Legends, but because I don't really know those so intimately, it was very overwhelming trying to combine the statistics in a meaningful way or to understand what they meant, so I've just been sticking with NHL for my model building.
+
+Perhaps it's possible to bet profitably regardless, but surely it's optimal to be intimately familiar with the sport.
+
+&amp;#x200B;
+
+"I don't understand your point about ROI being misleading: what to do you mean the ROI would be smaller than calculated?"
+
+The higher a portion of your bankroll you bet on every bet, the lower your ROI will be. That's because your losses increase geometrically, but your winnings increase linearly. Hence, betting 4 times more makes you win 4 times more but makes you lose 16 times more, for example.
+
+Kelly Criterion maximizes your absolute return(or more specifically, it finds the point where the linear curve of increasing winnings and geometric curve of increasing losses cross paths, which is the point where your returns are maximized), which can make your ROI quite low, and hence the performance of your model difficult to gauge. For example, you could have an amazing model with ROI of +30%, but Kelly Criterion will probably be betting with it so that it has a ROI of +7% or so, because that has a higher absolute return. For model performance, however, +30% is more telling than +7% as far as I'm concerned, since very close to +7% you could achieve with much less edge simply because the Kelly Criterion would be telling you to bet less, keeping your ROI identical but absolute returns far lower.
+
+&amp;#x200B;
+
+"I have no idea what is my logloss for any sport, I use other metrics which I have deemed better."
+
+Log loss is logarithmic loss. Log loss is minimized on guessing the percentages correctly - For example, if an event happens 64 times out of 100, your average log loss(flipped to positive) will be as small as possible if you guess the event to have 64% chance of happening during each of those 100 instances. Also, it heavily punishes predictions that are too far off the mark, and is impossible to inflate by, for example, predicting 100% on something that has a 95% chance of hitting, since whenever you predict 100% and lose, you get an infinitely high loss. That's why log loss is used to measure how accurately you estimate probabilities.
+
+I seriously doubt that you could possibly have found a better metric for probability estimation success than logarithmic loss.
+
+&amp;#x200B;
+
+All good, it's an interesting discussion anyway. Hope you can see where I'm coming from with regards to understanding the sport you're betting on, though. Margins are small and just 0.5% of extra edge coming from an understanding of the sport can double your bankroll over time.
+
+      [Hurthaba | 1 pts]
+      I'll go through these in order; 1, 2, 3. I'm sure you know what point I am referring to.
+
+1.
+As I said, human intuition is crap. I am not placing any faith in my own judgement. Why would I need to label any statistics? That is what the computer is for. Most of the statistics are anyways telling of which team dominated each element of play, from which the success of the other team is bad for another. It does not take much for an algorithm to determine which way is which, and that is all that is needed. The only (and crucial) thing that needs some manual attention and knowledge of the sport is the implementation of statistics that may make matches uncomparable: overtime and length of playing in general (12 min vs 10 for basketball for example). I, for example, have never even watched a game of american football, but it has been quite profitable.
+
+2.
+But what would be this metric then? Because it can be skewed hard by just choosing the best x quantile of bets. And besides, that is all theoretical: at the end of the day, who cares about your model or backtesting? The most important metric is how much money have you actually made.
+
+3.
+I do know what the concept of logloss is, but I don't know what my value for it is. What universal law states that predictions way of the mark should be more heavily punished, or that the ratio for it should be natural logarithm, and not log4 or log1.5 for example? Of course I use this _sort_ of metric to measure my models, but I have come up with even better versions that reflect my goals.
+
+[rogueit | 2 pts]
+There are a ton of projects and videos that show how to build a model, but I can’t find one that shows how to use the model once you have it tuned. What does the input look like when using data where the outcome hasn’t been determined. Are there any videos or articles you’ve come across,or have created yourself that takes real world, undetermined data and shows how to feed that into your model. Is it just as simple as leaving off the outcome column?
+
+  [Hurthaba | 3 pts]
+  I find your question baffling: have you taken the time to actually think this yourself? What you are asking has a very simple answer and I'm afraid you would have hard time building an algosystem yourself, since you cannot just follow instructions when building something of your own but you must come up with solutions yourself.
+
+When testing the model, the procedure is as follows at the simplest sense:
+1. You have a model, input and results
+2. You give the model the inputs and it gives you predicted outputs
+3. You compare the predictions with the actual results
+4. You give the model a score by some metric
++5. You compare different models and and their scores
+
+Once you have a model which you have deemed profitable, the procedure is:
+1. You have a model and inputs
+2. You get the predicted outcomes from the model
+3. You make bets according to those outcomes
+
+Can you tell me what part you have trouble with? If you are able to tune your model, you have everything you need to use for real. If you are asking about how to measure the profitability of your model, that is more complex than model itself, at least in my case, and I'll keep it a secret.
+
+The end goal should probably be some kind of user-interface that tells you what to bet on what, and I've managed it with a Jupyter notebook which has a cell that shows me one matches wagers at a time and when I re-run the cell I get the next match, so not very robust. It works, tho. I also it saving what I've bet on and other little things like that.
+
+    [rogueit | 3 pts]
+    Sorry to baffle you, I’m just getting started. I’ll try to be more careful about what, who and where I ask novice level questions.
+
+      [Hurthaba | 1 pts]
+      What bothered me was how you were asking for a pre-digested answer to question you had all the information required to solve. I mean, a prediction function **literally** outputs predictions based on input, I just don't even understand what there even is to have a tutorial about if you have already successfully trained a model, because by then you must a grasp of how to use a model. I have answered to other people with numerous examples of how I approach strategy (keeping most to myself, of course) which is a whole another topic, but you mentioning "columns" tells me that you are not yet in a stage where that discussion would be fruitful.
+
+I am not trying to push you down and deny you the right to ask questions, but you must understand that sooner or later you'll be faced with a challenge in modelling where there is no blueprint or people to ask anymore, and you are on your own your challenge. I suggest you to get used to it right away: try to solve everything by yourself first, the problem-solving skills you learn will greatly payout in the long run.
+
+        [rogueit | 2 pts]
+        &gt; I mean, a prediction function literally outputs predictions based on inpu
+
+I've been watching a lot of videos trying to see how to get things going. I am currently cleaning my data but its taking a while and I've been walking through [these jupyter notebooks](https://github.com/ethan-eplee/HorseRacePrediction) trying to understand what he did. I was just curious about the actual using instead of inputting old data. I've got a lot to learn but I can do this, I was just hoping for some insight. I'll get it figured out.
+
+[JonLivingston70 | 2 pts]
+I'm yet to read through this all (including the answers) but the facts around the bookmakers blocking and fucking around with you is frankly infuriating.
+
+Is this stuff even legal?
+
+This is stuff that should shoot in the news. As in, "you loose, good for us. You win, you're outta here".
+
+Fuck them.
+
+  [JonLivingston70 | 1 pts]
+  And by the way, fantastic write up. Thanks so much
+
+    [JonLivingston70 | 1 pts]
+    OK just finished reading through this in its entirety. A fantastic write up and also good answers to the various questions asked.
+
+A few questions from me - hoping it's not too late...
+
+
+1. If you were to give advice on what to learn before starting to build models, what would that be? You hinted at statistics and probability. You also mentioned towardsdatascience.com - but that's a messy place to start IMO. Any "learning path" you would recommend?
+
+2.Do you do any backtesting at all with your models? If so, how far back in the past in terms of data? You mentioned for some you go back as far as 2017 and beyond. You do this for all sports you're active in betting?
+
+Thank you
+
+      [Hurthaba | 3 pts]
+      1. Building these models was, and continues to be, my path of learning. Just building something actual will force you to encounter things you must learn and implement. For starters, any university level introductory statistics, programming and data science courses will do great as an introduction for the lingo and perspective.  
+
+
+2. Yes, backtesting the models is pretty much the only viable way of measuring them. I got data from all the way since 90's, but I am constantly experimenting with how to weight it. Obviously, more recent data is more "important" as it is more closely aligned to what the sport is currently (if things like introduction VAR etc. have had an effect), but how much to weight and based on what? That is where my most of my research nowadays goes for. This is true for all the sports.  
+
+
+As for the unfortunate realities of betting businesses... well, that's just how it is. No point in wasting any more thought on it. A company has a right to choose it's customers, so while it is absolutely scummy it is perfectly legal, and as long as there is a market to serve who don't care, the business blooms. If everyone would migrate to Pinnacle that would be absolutely marvellous, but people won't. I, myself, have become quite a strong supporter of Linux over other operating systems for the bad practices Microsoft and Apple demonstrate, but I know that I will not have an effect on the general public which willingly chooses to be taken advantage of. Hence, even with my immeasurable dislike I am an owner of the stock of them both, as it is a great business to be in.
+
+        [JonLivingston70 | 1 pts]
+        Thanks for taking the time to answer!
+
+Re point 1, I think my next step then will be to focus on what I have already lined up for myself in terms of personal learning roadmap, which is everything that has to do with probability, statistics (as you mention) and data science.
+
+Programming I have got it covered as I have &gt;13YoE in the software engineering and infrastructure space, which is a huge help and value-add skill as it allows me to build stuff "with my eyes closed" as I know exactly how to deal with all that jazz.
+
+And I agree entirely with what you say in your last piece (Linux, MS, the crowds and the like)
+
+[Hurthaba | 1 pts]
+I got a DM asking about tips for not getting limited, and to that I must answer: I have no idea. I have not done arbitrage and I only stake in integers (or the maximum allowed), but still I have gotten limited even with accounts at a slight loss. I guess for some companies if it even remotely seems you know what you are doing, you get limited.
+
+  [Ok-Seaworthiness3874 | 3 pts]
+  Do you use bovada? I'm usually able to make around 3k or more per account I create before I get limited. And there limits aren't even that bad. If I can bet 500 per line I'll get limited to 125, but that's still not awful like a $10 limit or something. Also, you can create an account without and ID, and 90% of the accounts I've create and cashed out, even limited ones, don't ask for ID to withdraw. It maybe due to the sports your betting though since I stick with e-sports only.
+
+    [Hurthaba | 1 pts]
+    "Sorry, Bovada hasn’t come to your region yet."
+That's too bad. Maybe in the future.
+
+      [Ok-Seaworthiness3874 | 1 pts]
+      Try Bodog, I think that is the foreign equivalent (it's the exact same sight with the same UI basically). I'm imagine it's the same providers and people running it. Apparently these are the sister sites:  Bodog, Bovada, Bodog88, BodogEurope, and BodogUK.
+
+[BlakeAlms | 1 pts]
+Do you also predict and place bets on individual player props? There’s more factors/noise involved that influence team performance, so I’m curious if you’ve had more success with player props.
+
+[Calm-Initiative-8625 | 1 pts]
+any updates? still beating the market? ;)
+
+[Advanced_You3953 | 1 pts]
+Have you ever used stake . Is it possible to lose to 1.01 odds . Betting happens before the match and not when the match is half over. Also by possible I mean that has it ever happened and how rare it is ?
+
+[[deleted] | 1 pts]
+[deleted]
+
+  [Hurthaba | 1 pts]
+  Are those not the same thing? If my probabilities are more accurate, am I not correct more often too?
+
+What must be understood that I am not even trying to hit 100%: the only thing that matters is the large enought discrepancy between the odds and the probability. If I have calculated the probability to 25 %, but the odds are over 4.0, that is a value bet.
+
+Of course, the risk/return relationship is not wholly linear, as you'd need more of those low probability bets to statistically guarantee ROI of over 1.0, as described here:
+https://en.wikipedia.org/wiki/Kelly_criterion
+
+Another thing is that once we move away from 50/50 wagers there is a lot less historical examples, so the margin of error increases. My method takes all this into account, and those differences are not small: I did not have a profitable model before I took all kinds of detail such as this into account.
+
+    [[deleted] | 1 pts]
+    [deleted]
+
+      [Hurthaba | 1 pts]
+      These percentages are meaningless without odds. And I am not saying this to be difficult, but I mean it: they are ABSOLUTELY meaningless alone. That is why my accuracy sits at "mere" 50-60%: that seems to be the area, where the odds are most often too high. It is not that I have "chosen" it, that is just how it seems to be.
+
+[JimmyRazzo75 | 1 pts]
+Great post. Congratulations on your success.  Well done 👏
+
+  [Hurthaba | 3 pts]
+  I hope that my message is clear: do risk-averse business, do not gamble. Calculate your bets so that you won't go bust beforehand, and don't hope for miracles. It's a slow game, and it is supposed to be.
+
+[zahaha | 1 pts]
+Thank you for sharing! I wish there was more of this out there. Curious to hear your thoughts on Tennis, as that is my focus right now. Why is it so hard to model?
+
+  [Hurthaba | 1 pts]
+  I'm afraid still in the process of even figuring out why it is so hard make profitable. My model is pretty good with a high accuracy, but it just isn't enough for substantial gains as that the predicted ROI is much lower than in other sports. It certainly isn't because there is not enough data: tennis has the second most bettable matches out of any sport, after football.
+
+Maybe there is some underlying rock-paper-scissors effect going on, where certain players are better against another type of players, and defining who is outright best is impossible? I have not done any research on this, I'm just brainstorming.
+
+I have even gotten floating point errors when simulating because the probability of Djokovic winning has been too certain :D so my model is definitely not too conservative either.
+
+    [burner_account6 | 1 pts]
+    Just my 2 cents, but AFAIK tennis is one of the more notorious sport when it comes to match fixing :) Especially if you stoop as low as the ITF tours (or even worse, UTR), more often that not only 4 people knew what was happening on the field: the 2 players, the chair and the live feed data collector. God knows if they ever decide to fix a ML, not even a set or a correct score. I once lost a 1.11 bet 0-6 1-6, it was so absurd that I had to actually look up for a video of that game and boy oh boy, the Mexican lady was playing as if she's a 10 yrs old kid who just picked up the racquet first time, I can just laugh and move on.
+
+Also it's nice to see that you have such a nice edge with handball, it is one of the only two sport out of a 20+ sized-portfolio that I always feel like I have been fleeced by the books  (the other being darts which I have dropped completely) :) Nevertheless the volume is decent so I guess I'll just have to keep refining my model.
+
+All in all, good read!
+
+      [Hurthaba | 1 pts]
+      You make a valid point about matchfixing. I have no perspective how widespread it is, but if it were, it would certainly explain certain behaviour of the model. What I've ran into is that when simulating the realized value of bets with the calculated value the former does not always increase with the mathematical assumption but actually takes a dip in the far end of the spectrum. I am not expecting a linear relationship and it is normal to have it halt at some point (it is often in other sports logarithmic) but for the performance to weaken as the expectation increases tells that there is something clearly wrong with the model. The usual suspect is low of partially duplicated data, but the amount is not a concern and I have cleaned my material with piety: your explanation would explain so much, as the players exhibit opposite performance than expected.
+
+There was just news of a brigade of Chinese snooker professionals being suspected of matchfixing (with heavy evidence), and they were almost all in the world top 100, even momentarily top 10. So I wouldn't put it past tennis professionals either.
+
+EDIT: Cleaned up my writing a bit, I don't know what I was on while typing.
+
+        [burner_account6 | 1 pts]
+        Also another 2 things you might want to factor in about tennis (and badminton) is the (inevitable) order-of-play delay and the settlement rules for wagers. I'm not sure if delaying in start time affect you by any mean, but for me at least it can increase the (possibly significant) amount of time where the market is open to begin with, and lines will be moved. Settlement rules for tennis is also never nice either - usually all bet will stand if it is played within the corresponding tournament, no matter if it was delayed by 1 week, or the court surface are changed. That surely puts you in a bad spot, together with data distortion if unnoticed.
+
+        [Hurthaba | 1 pts]
+        I think that at least Pinnacle automatically voids wagers that are delayed over 24 hours. I, of course, can no longer use Bet365 but they are big in tennis and had quite reasonable cash outs, almost always at 100% if the match had not started. But at least when using exchanges your point very much stands.
+
+I did run into similar problems with baseball when I still had in my portfolio: every other bet than money line or already won overs are voided if the match is forfeit. This meant that when I had wagered team A to win by at least 1.5 runs and were leading like 7-0 my stake was returned to me when the opposing team decided not to use their last inning. I contacted the customer service but that was how the cookie crumbled. So there are numerous sport specific "special rules" you need to be aware of which need to be taken into account when calculating the actual profitability.
+
+[danfercfbo | 2 pts]
+Thanks for sharing this information, it's very interesting, I have one question, it's about the statistics data, which is your range for your collected data? Currently I'm collecting data from a bookmaker using its ws connection and I was starting from 2021 data
+
+  [Hurthaba | 3 pts]
+  I'm afraid that is way too little, mine usually starts in early 2000's or even late 90's. There is some variability between sports, and I have not found good data for women's leagues for as long, but everything can be backtracked at least to 2017.
+
+    [danfercfbo | 1 pts]
+    Thank you sir, currently I'm scraping around 10k of matches per hit to the bookie's websocket, I started on 2021 but I will backtracked to 2000's, I made some research about machine learning and Poison models for soccer predictions, what do you think about it?
+
+      [Hurthaba | 4 pts]
+      I cannot overstate how important basic statistics and probability arithmetic is: that's the foundation of machine learning anyway. Or at least I prefer to construct models where I understand everything that's going as opposed to neural networks etc.
+
+Don't get me wrong, I too started with state-of-the-art complex modelling but I quickly realized that I can get better results with less work by constructing my own use-case based methods from scratch rather than trying to fit a pre-existing universal model. Sure, I have borrowed things, but only essentials. Not is included "just because": the simpler, the better.
+
+        [danfercfbo | 1 pts]
+        Thank you, I appreciate that
+
+[AlwaysTails | 1 pts]
+&gt;  I remember John Carmack, the programmer of the original DOOM, saying that all math he used was included in the high school curriculum; I can vouch for that. 
+
+This might have been true for doom [but not for quake](https://en.wikipedia.org/wiki/Fast_inverse_square_root). Anyway, interesting stuff, thanks for posting.
+
+  [Hurthaba | 1 pts]
+  Yeah, I meant DOOM, sorry about my wording. I think it was in the Lex Friedman podcast where he said it. Quake is another beast, I am familiar with that spicy function.
+
+[sauravshenoy | 1 pts]
+How do professional sports bettors make their money? 
+
+It seems “scalpers” are frowned down upon (which I still don’t fully agree with/understand that logic), and if you have a good enough model you eventually get limited by every sports book, so where does their revenue come from?
+
+  [Hurthaba | 1 pts]
+  I can't answer to that with anything concrete, I'm afraid: I'm such a small fish still. Maybe limiting hasn't been such a phenomenon in the past, or maybe exchanges are where the business is at. There is no problem with size of market if the leagues you bet are EPL, La Liga, NFL, NBA, NHL and so on.
+
+Edit: I'll continue a bit:
+
+My approach focuses mostly on lower leagues and diversifying as much as possible, but I am not taking care timing my bets in any way: I've calculated the effect to be too small or too difficult to quantify. But, were you betting big on big leagues the market may be sharper but there's lots of detailed data around and your model may be more accurate as well. So I'd guess 1) big leagues 2) complex models 3) huge bets
+
+[BaineLogic | 1 pts]
+First I just wanted to say thanks for taking the time to write this post, and also congrats on the achievement. It’s really awesome you were able to do this and you should be proud of that IMO. 
+
+&gt;If the question is "which bookmaker has the most incorrect odds", leading to best opportunities, that is either Betvictor or bet365. I remember both having odds wildly different from the other bookmakers, while I still had unlimited accounts in both. I reckon you could make a couple of thousand without any algorithms in a year using them by just checking their odds against other bookies.
+
+I wanted to reply to this little blurb because this has been my exact experience, so if anyone else was interesting in doing this very simple tactic I can corroborate that it’s useful. Wide spread legal (not grey market) sportsbook betting only came to my jurisdiction in April of 2022. I decided to sign up for a handful of books for mainly the initial sign up promos and to see how it goes from there. I was fascinated by the fact we had all these different prices for the same outcome across a bunch of books. So, in lieu of any supreme modelling aptitude, I decided to make a simple thesis that these sports books were so good at their job that I could turn that against them by finding bets where one book was wildly off from the rough consensus of the others. Basically what you described. I don’t do this manually of course but instead use most of the common line shopping sites most people know. 
+
+Anyway, in doing that method Bet365 has been an absolute gold mine for me. I only ever deposited $10 with them (sign up promo was to deposit $10 and you receive $250 in free bets) and my total profit on my Bet365 is closing in on $4,000 in about 10 months. A few others have been solid too but bet365 I’d say is my bread and butter. I’m actually surprised I haven’t been limited yet, as all my bets on their platform are exploiting their prices. I was limited on pointsbet and draftkings after only a couple weeks. Betvictor is another one you mention and I only signed up for them about a month ago, but they’ve had a lot of great misprices too from what I’ve seen so far. 
+
+So yeah you’re 100% spot on that you can make some solid money just by exploiting bad lines with those books. Just depends when you get limited I suppose. 
+
+On that note OP I wanted to ask you a question out of curiosity. You mention you’re down to 4 books, are there any major books you haven’t opened an account with? Like maybe ones that aren’t in your jurisdiction that you’re hoping come over so you can squeeze some action out of them? And, what do you plan to do once you’re really cut off from all your remaining accounts? Follow along your model for fun and track the results? Coolbet and Pinnacle might never cut you out which is nice atleast. 
+
+Anyway thanks again for the post and best of luck
+
+  [Hurthaba | 1 pts]
+  I'd hope for exchanges to get larger in terms of different sports and lower leagues, so I could be my "own" bookie, creating wagers for others to match there. Bookies, by large, are a scam and people should move to exchange services.
+
+I am mostly sure I have opened an account on every bookie I can use tax-free and who allow me to register. I have made quite extensive research on this, as my income is directly dependent on having accounts. IF I am ever cut off from Pinnacle I'll go work for them as a Data Scientist, and they are going to take me: their whole thing has been repeating how they limit no one for all these years, so if I am the first I'll carry it with honor. I do not follow the model any more than what I make, it working was already proven before I started to bet big: that's how you are supposed to use models.
+
+Opening accounts offshore is risky as if you are found to breach any law your winnings might be taken away, and you'd be not just limited. I am not taking risks with that as there is too much to lose. Moneylaundering is quite serious to be accused of.
+
+Congrats on your side, too. Bet365 confused me as well as google tells that people get limited quick there, but I too made many thousand and they even gave me free bets constantly, until cutting me off. Very strange.
+
+[matheusccouto | 1 pts]
+How is your bankroll management?
+
+  [Hurthaba | 2 pts]
+  Confidence intervals, Kelly criterion, pessimistic simulations; it is very complex, but that's why it is automated. I have programmed a method and now I just bet what it tells me. There is nothing in sorts of "okay I've lost 4 bets, now I must reduce my bets", but it is linked to my current net worth at all times.
+
+If I were to write everything I have done, this part would be 80% of the story. Modelling is "easy", there are only correct and incorrect answers, but "how much to bet on what based on what" is open for opinions.
+
+[lackofhydrogen | 1 pts]
+Thank you for this very informative post. I'm late to the party but I'll shoot anyway: I have been working on my own betting model with moderate success, but most of the good bets I find are underdogs with average odds close to 5.00 (moneyline bets). Do you think it's worth looking into the asian markets and placing bets at around 2.00 odds instead to give the underdogs a decent chance of winning? 
+ 
+I am currently using a fractioned kelly to calculate the bet amounts and so far I've had a positive ROI.
+
+  [Hurthaba | 1 pts]
+  Even if the bookie does not have a huge selection of handicaps, they usually still offer some at the range of 50% chance, so by utilizing those you'd be able to enlarge your volume at least (which is the most important thing when it comes to the absolute amount of buck you are making). So you should definitely look into, there is certainly way more to choose from than with inbalanced match-ups where the odds are as high as 5 (by design sports leagues would want to not have those kinds of matches but be as even as possible).
+
+[penguin8717 | 1 pts]
+Great writeup! All I wanna know is where you bet volleyball and beach. It's really hard to find in the states' popular books
+
+  [Hurthaba | 2 pts]
+  Coolbet is great for those. No idea what to use in murica.
+
+[[deleted] | 1 pts]
+[deleted]
+
+  [Hurthaba | 1 pts]
+  That would be what I would bet, on but I don't have a model for it yet, as the whole format of racing, track and field, swimming etc. is completely different than all these games where one team/competitor faces another. In case of traditional ball-sports the reward/punishment in terms of rating can be modeled as a zero-sum-game, where however much the other team gains rating, the other loses: this is not possible for competitions where each competitors success is not immediately linked to their opponents performance. Even if your opposition had really slow day, you would still lose if DNF. Not to mention the complexity of taking into account how tracks are not identical (so you cannot compare lap times from race to another) and that the zero-sum-notion goes out of the window when many drivers my have good day and they all need to be rewarded, and the sum of individual ratings after a race does not need to be same as it was before.
+
+&amp;#x200B;
+
+While it is difficult, so was my current algo, so I am not saying the reason is that it would be inherently easier/harder: I have solutions and ideas, but not a model yet, hence I cannot bet using one. And reusing my current one would be impossible, for the given reasons. If you abstract, let's say, tennis and hockey, enough, they are quite similar: two sides trying to score more points than the other. There are big differences, but at least they have that in common, so I can reuse my code/model from that level upwards. But, in the case of for example hockey and F1, at what level are they similar? I can think of that they both are (usually) competed during a season and the one with the most points at the end wins. Other than that they differ in every possible way, starting with the amount of competitors in an event, so I have to start from scratch.

@@ -1,0 +1,20 @@
+=== Sports Edge Analyst Session: weekly ===
+=== 2026-04-19 14:00 UTC ===
+
+Research integration complete. Here's what the research added to the weekly analysis:
+
+---
+
+**Research Findings Integrated (3 immediate actions):**
+
+1. **Overdispersion is wrong** - Our `MLB_OVERDISPERSION = 1.8` should be `2.1`. Empirical data shows variance/mean of 2.1-2.2 for MLB runs. Our tails are too thin. Quick config change, needs backtest validation.
+
+2. **SwStr% is the K-prop breakthrough** - Swinging strike rate has R2=0.892 for predicting K% vs our K/9-based model at ~0.70. If we build a Statcast pipeline for SwStr% data, K-prop accuracy jumps massively. This is the single highest-impact model improvement available.
+
+3. **Correlated bet sizing** - When we bet both totals and K-props on the same game, each bet should be reduced to 60-70% of individual Kelly to account for correlation. We're currently sizing them independently.
+
+**Full research report:** `research/2026-04-19-model-optimization-research.md`
+
+All state files updated: hypotheses (12 active, added H015 overdispersion + H016 SwStr%), experiments, next-actions (reprioritized with research findings), insights, dead-ends.
+
+=== Session Complete: 2026-04-19 14:09 UTC ===

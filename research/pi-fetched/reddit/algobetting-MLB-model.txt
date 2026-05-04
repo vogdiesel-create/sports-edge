@@ -1,0 +1,187 @@
+# r/algobetting search: MLB model
+# Query: MLB+model+OR+totals+model
+# Results: 15
+
+## [47 pts, 24 comments] I Compared 6 MLB Models (PECOTA, FanGraphs, ESPN, etc.) and Built My Own to Beat Vegas Win Totals
+Author: ProjectingPotential | URL: /r/algobetting/comments/1m2hac3/i_compared_6_mlb_models_pecota_fangraphs_espn_etc/
+Sharing a side project while we wait for baseball to return!
+
+I ran a multi-season evaluation (2022–2024) of six MLB projection models for season wins — FanGraphs, ESPN, Baseball Prospectus (PECOTA), The Athletic (Keith Law), Clay Davenport, and my own system, **HOBIE** (Holistic Outcomes Baseball Insight Engine).
+
+I tested each model on:
+
+* MAE and RMSE vs actual wins (precision)
+* Correlation with actual wins (pattern)
+* Betting performance vs Vegas win totals
+
+Then, having identified the best
+
+---
+
+## [25 pts, 53 comments] Can Large Language Models Discover Profitable Sports Betting Strategies?
+Author: Muted_Original | URL: /r/algobetting/comments/1ktxben/can_large_language_models_discover_profitable/
+I am a current university student with an interest in betting markets, statistics, and machine learning. A few months ago, I had the question: How profitable could a large language model be in sports betting, assuming proper tuning, access to data, and a clear workflow?
+
+I wanted to model bettor behavior at scale. The goal was to simulate how humans make betting decisions, analyze emergent patterns, and identify strategies that consistently outperform or underperform. Over the past few months, I
+
+---
+
+## [11 pts, 11 comments] Sharing my Monte Carlo MLB prop model architecture + 2024 backtest calibration results (12,847 predictions)
+Author: gmoneycinco | URL: /r/algobetting/comments/1s2550e/sharing_my_monte_carlo_mlb_prop_model/
+Been lurking here for a while and saw the great discussion on PA-level K calibration recently. Figured I'd share what I've been building since it's directly relevant to this community.
+
+
+
+\*\*The model\*\*
+
+
+
+I built a Monte Carlo simulation engine for MLB player props. The core idea: simulate every plate appearance of every game 5,000 times using a LightGBM probability model trained on \~1M plate appearances. 8 outcome classes per PA (single, double, triple, HR, walk, HBP, strikeout, other out)
+
+---
+
+## [7 pts, 40 comments] Is my testing rigorous enough to start betting?
+Author: Legitimate-Song-186 | URL: /r/algobetting/comments/1ln8ei5/is_my_testing_rigorous_enough_to_start_betting/
+Context: markets are money line, spread, total score for MLB
+
+I have a model trained on ~4500 games.
+I have a test set of ~1200 games. These game all occurred after the games in the training set.
+
+On the test set my model simulated its bets using the Kelly criterion.
+
+Let’s say after ~1000 bets, I wagered $12000 in total and made $400 in profit.
+
+Then i checked my models calibration which was just as good if not slightly better than the calibration of the book makers odds.
+
+Then I ran a Monte Ca
+
+---
+
+## [5 pts, 0 comments] SportRadar MLB API Library and Data Handling Advice
+Author: pinoyparlay | URL: /r/algobetting/comments/1jes0fb/sportradar_mlb_api_library_and_data_handling/
+Hey all! First time writer here, long time lurker. I'm currently building out a model for MLB that I'm trying to get deployable by start of season so that I can back test it and run it on current season data in ML models i'm developing. I'm deciding on using SportsRadar as data provider and I'm in a trial right now, (I know expensive but very reliable and comprehensive). I was wondering if anyone here that works on MLB models has an API suite for handling SportRadar MLB API built out already and
+
+---
+
+## [5 pts, 9 comments] A Simple IF/THEN/ELSE "Betting Algorithm".
+Author: VeritasXNY | URL: /r/algobetting/comments/gacocj/a_simple_ifthenelse_betting_algorithm/
+Here's a simple IF/THEN/ELSE "betting algorithm":
+
+1. \[IF\] your win rate prediction is higher than the books implied odds, \[THEN\] place a wager. \[ELSE\], do not place a wager.
+
+... or even simpler...
+
+1. \[IF\] a wager with +EV can be placed, \[THEN\] place it, \[ELSE\] do not place it.
+
+\* \* \*
+
+So are we really talking about "algorithmic betting"? Isn't what we're really interested in the building of algorithmic models that make predictions about a particular sport (e.g. NBA, NFL, MLB)?
+
+
+---
+
+## [4 pts, 7 comments] [feedback Request] 866 MLB Games Tracked- Looking to Test &amp; Evolve My Betting System
+Author: Lanky-Pepper-8108 | URL: /r/algobetting/comments/1l1pg7k/feedback_request_866_mlb_games_tracked_looking_to/
+Hey everyone- I’ve been manually tracking MLB game odds and results for the 2025 season and currently have 866 games in a spreadsheet.
+
+I’m recording: 
+- full moneyline, spread, and total odds (30 mins before first pitch)
+- exact game outcomes (spread result, total points, etc.)
+- line movement (I track and filter games with -/+ 10 or more shifts)
+
+So far, I’ve been filtering for certain patterns (like odds shifts) and calculating hit rates manually to find value spots. What I want now is to tak
+
+---
+
+## [3 pts, 10 comments] Any sources on imbalanced datasets?
+Author: logan08516 | URL: /r/algobetting/comments/1f5fdqs/any_sources_on_imbalanced_datasets/
+I’m trying to improve a HR model for MLB, and I would like to start a TD model for the NFL season. The datasets are obviously imbalanced. 
+
+Are there any resources out there that were eye opening to any of you on imbalanced datasets?
+
+Edit: let me edit this a bit further. I worded my post poorly. I’m trying to predict if a player will hit a home run in a given game or if a player will score a touchdown in a given game. 
+
+Not predicting HR and TD totals for the season
+
+
+
+---
+
+## [3 pts, 2 comments] I’m trying to build a player prop odds and line tracker for NBA, NFL, NHL, UFC, and MLB, focused on non-US sportsbooks, especially Asian and international books. The main goal is to compare player prop lines and odds across different books to identify value and pricing differences.
+Author: Acidpoxxx | URL: /r/algobetting/comments/1qda6z6/im_trying_to_build_a_player_prop_odds_and_line/
+What I want to track:
+Player props (NBA/NHL: points, rebounds, assists, shots;
+NFL: yards, receptions, TDs;
+MLB: hits, HRs, strikeouts;
+UFC: round props, method, fighter totals)
+Multiple Asian / international sportsbooks (not US-only books)
+Line differences + odds differences for the same player/market
+Line movement over time
+What I’m looking for help with:
+Best way to pull live or near-live player prop data from non-US sportsbooks
+API vs scraping approaches that work well with Asian books
+Handl
+
+---
+
+## [3 pts, 3 comments] Model Results (Looking for metric benchmark) 
+Author: Mr_2Sharp | URL: /r/algobetting/comments/1fps303/model_results_looking_for_metric_benchmark/
+This is 3000 random MLB games of training data for my model (R and Python) with a binary variable of &gt;4.5 runs in the game. This set is randomly selected from the past 5 seasons. 1240 true positives and 832 true negatives gave average overall accuracy of ~69% with an estimated error of 2%. Coefficients were -1.873 and 3.769 for the intercept and model input variable respectively. Both p values were significant at 2e-16 ie effectively 0 with T scores of -21 and 21 respectively. Null deviance w
+
+---
+
+## [3 pts, 5 comments] Built a real-time MLB Grand Salami tracker using the MLB Stats API - Looking for feedback on my projection logic.
+Author: Beachjustice22 | URL: /r/algobetting/comments/1skf5rq/built_a_realtime_mlb_grand_salami_tracker_using/
+Hey r/algobetting,
+
+I’ve been working on a side project to solve a specific data-tracking headache for MLB bettors: the Grand Salami (Total Runs for the day). Most books and apps don't provide a live, aggregated total, so I built a dashboard that does it automatically.
+
+  
+**The Tech Stack:**
+
+* **Frontend:** React + TypeScript + Tailwind.
+* **Data Source:** Direct integration with the MLB Stats API (statsapi.mlb.com).
+* **Backend:** Firebase for wager persistence and user profiles.
+
+**The Proje
+
+---
+
+## [2 pts, 4 comments] What's the best method to build a model if all you have are a bunch of hist data?
+Author: Apprehensive_Toe_924 | URL: /r/algobetting/comments/1lkqprw/whats_the_best_method_to_build_a_model_if_all_you/
+XGBoost, neural network, etc? Dont even know how this stuff works, have been in the past school of thought of isolating variables one by one and seeing regression relationship. But I get so confused when adding more complexity. For instance, you can take the avg run total of a bunch of past mlb games and see what the regression line would be between total runs and temperature. Probably will find the hotter it is the higher the total. But what about at Wrigleyfield? What if it's a hot day but win
+
+---
+
+## [1 pts, 7 comments] 2 Questions
+Author: Perfect_Mouse_5254 | URL: /r/algobetting/comments/1qtuqrg/2_questions/
+1. Just getting into this world and have built a few basic programs that follow and fade steam on line movements on CBB totals, with that being I said, I see alot of people are trying to predict scores or totals with their models. In my mind the information books have is superior and you'll never be able to out predict them. Just my thought.
+
+  
+2. I want to start working on an MLB model just to mess around and test during off season. What are some key stats you guys are using to model? Just as 
+
+---
+
+## [1 pts, 6 comments] MLB weather scraping (Current)
+Author: Lostnspace859 | URL: /r/algobetting/comments/1kti58v/mlb_weather_scraping_current/
+I’m having trouble finding a way to scrape the weather to add to my MLB model.
+
+I’m doing mlb F5 totals and it is up and running however I have columns that out put high risk HR pitchers, park factors (hitter/neutral/pitcher) and weather. I can’t figure out where to get current weather scraped.
+
+I know weather actually doesn’t have that much of an affect unless it’s very strong wind or specific barometric pressure BUT I’d like to flag games that have a HR pitchers + hitters park + ideal weather 
+
+---
+
+## [0 pts, 5 comments] Day 3 edge analysis: first drawdown, multi-sport expansion, 49 settled trades, still up 44% all time
+Author: Mountain-Year5215 | URL: /r/algobetting/comments/1rvxif2/day_3_edge_analysis_first_drawdown_multisport/
+Day 3 of validating a sports prediction model on Kalshi with a $10 bankroll. First red day: 8W-10L, -$1.77 (-10.9%). All-time +44.6%.
+
+Today was notable for sport diversification. The model found actionable edges (net of Kalshi's taker fee) in MLB spring training, NBA, NHL, and Brazilian Serie A soccer. 18 trades total.
+
+Edge distribution today:
+
+* 3-5c edges: 10 trades (ATL 94c, GS 90c, MIL 78c, BOS 71c, SD 45c, NJ 44c, WSH 38c, CHW 35c, NYM 34c, PIT 32c)
+* 6c edges: 5 trades (LAL 47c, HOU 56c,
+
+---
+

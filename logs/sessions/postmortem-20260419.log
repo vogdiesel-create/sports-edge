@@ -1,0 +1,24 @@
+=== Sports Edge Analyst Session: postmortem ===
+=== 2026-04-19 05:00 UTC ===
+
+Post-game review complete. Here's the summary:
+
+**Apr 18 Results: 8W-8L, -$44.46**
+
+**Game Model Totals (4W-1L, +$386.48):** Strong night. BAL@CLE, MIL@MIA, LAD@COL, SD@LAA all cashed under. Only CIN@MIN went over.
+
+**Moneyline (0W-2L, -$227.91):** Both lost. Already disabled, good riddance.
+
+**K Props (4W-5L, -$203.03):** First losing day. Skubal threw 10K against an Under 7.5 pick. Double-bet on Severino (7+ and 8+, actual 3K) amplified losses. Unknown pitcher Noah Cameron hurt too.
+
+**Cumulative: 38W-29L-1P, +$424.02 combined PnL**
+
+Totals model remains strong at 16.1% ROI. K props dropped from 12.3% to 7.0% ROI after the bad night but still profitable.
+
+**Data fixes applied:**
+- K prop bankroll corrected ($3,369.74 -> $3,166.71)
+- 4 missing date fields fixed in paper ledger
+
+**4 game model bets still pending** for today (Apr 19) - games haven't been played yet. Will grade in next session.
+
+=== Session Complete: 2026-04-19 05:05 UTC ===

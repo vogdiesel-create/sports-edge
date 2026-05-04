@@ -1,0 +1,43 @@
+{
+  "date": "2026-04-30",
+  "graded_at": "2026-05-01T05:00:00Z",
+  "game_model": {
+    "record": "3W-1L-0P",
+    "pnl": 195.99,
+    "cumulative_record": "30W-28L-4P",
+    "cumulative_pnl": 192.94,
+    "note": "Strong day. 3 wins on overs."
+  },
+  "k_props": {
+    "record": "0W-1L",
+    "pnl": -94.69,
+    "cumulative_record": "51W-42L",
+    "cumulative_pnl": 61.52,
+    "note": "Peter Lambert K under loss. Only 1 bet generated."
+  },
+  "oddstrader_sim": {
+    "record_today": "7W-4L",
+    "pnl_today": -50.01,
+    "cumulative_record": "113W-82L",
+    "cumulative_pnl": 513.46,
+    "active_markets_only": {
+      "cumulative_record": "91W-41L",
+      "cumulative_pnl": 1840.50,
+      "cumulative_roi": 14.2
+    },
+    "tb_signal": {
+      "record": "73W-31L",
+      "win_rate": 70.2,
+      "pnl": 1483.84,
+      "note": "Core alpha. 70.2% WR sustained."
+    }
+  },
+  "bugs_fixed": [
+    "9 graded bets had wager=0 and pnl=0 (Apr 29-30). Fixed with $100 flat wager and recalculated PnL.",
+    "3 bets still ungraded (2 from Apr 25, 1 from Apr 29) - API could not find player stats."
+  ],
+  "combined_pnl": {
+    "all_models": 663.23,
+    "active_markets_only": 2094.96
+  }
+}

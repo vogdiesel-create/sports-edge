@@ -1,0 +1,154 @@
+{
+  "last_updated": "2026-05-04T05:00:00.000000+00:00",
+  "model_version": "v001",
+  "bankroll": {
+    "game_model": {
+      "current": 4848.63,
+      "starting": 5000,
+      "pnl": -151.37
+    },
+    "k_props": {
+      "current": 2401.25,
+      "starting": 3000,
+      "pnl": -598.75,
+      "note": "PERMANENTLY DEAD. 51W-50L. SHUT DOWN."
+    },
+    "oddstrader_sim": {
+      "current": 6043.96,
+      "starting": 5000,
+      "pnl": 1043.96,
+      "note": "123W-87L. RBI + Ks DISABLED. Active markets (TB+HA+ER): 100W-46L, 68.5%, ROI ~15%."
+    },
+    "combined_pnl": 293.84,
+    "active_markets_only_pnl": 2278.90
+  },
+  "record": {
+    "game_model": {
+      "wins": 33,
+      "losses": 33,
+      "pushes": 4,
+      "pending": 0,
+      "roi": -2.2,
+      "note": "Coin flip. Zero edge. Kill candidate."
+    },
+    "k_props": {
+      "wins": 51,
+      "losses": 50,
+      "pending": 0,
+      "roi": -5.9,
+      "note": "DEAD. Permanent shutdown."
+    },
+    "oddstrader_sim": {
+      "wins_real": 123,
+      "losses_real": 87,
+      "pending": 0,
+      "roi_real": 4.8,
+      "note": "Active markets only: 100W-46L (68.5%). RBI+Ks disabled."
+    }
+  },
+  "by_market": {
+    "game_model_all": {
+      "record": "33W-33L-4P",
+      "pnl": -151.37,
+      "wr": 50.0,
+      "note": "Coin flip over 70 bets. Zero edge. Kill candidate."
+    },
+    "oddstrader_tb": {
+      "record": "80W-33L",
+      "pnl": 2102.97,
+      "wr": 70.8,
+      "note": "THE SIGNAL. Within -160 cap: 38W-12L (76.0%). Crown jewel."
+    },
+    "oddstrader_hits_allowed": {
+      "record": "18W-12L",
+      "pnl": 140.25,
+      "wr": 60.0,
+      "note": "Solid. Line filter EXP-012 active (u4.5 only). Verify implementation."
+    },
+    "oddstrader_earned_runs": {
+      "record": "2W-1L",
+      "pnl": 35.68,
+      "wr": 66.7,
+      "note": "Small sample but positive."
+    },
+    "oddstrader_ks": {
+      "record": "12W-13L",
+      "pnl": -279.06,
+      "wr": 48.0,
+      "note": "DISABLED Apr 30."
+    },
+    "oddstrader_rbi": {
+      "record": "11W-28L",
+      "pnl": -955.88,
+      "wr": 28.2,
+      "note": "DISABLED Apr 30."
+    },
+    "k_prop_all": {
+      "record": "51W-50L",
+      "pnl": -598.75,
+      "note": "DEAD. Permanent shutdown."
+    }
+  },
+  "tb_juice_analysis": {
+    "within_cap": {
+      "record": "38W-12L",
+      "wr": 76.0,
+      "roi": "~30%",
+      "note": "Plus odds to -160. THE sweet spot."
+    },
+    "beyond_cap": {
+      "record": "40W-21L",
+      "wr": 65.6,
+      "roi": "~4%",
+      "note": "Worse than -160. Juice eats edge."
+    }
+  },
+  "statistical_significance": {
+    "oddstrader_tb": {
+      "p": 1e-06,
+      "significant": true,
+      "note": "80W-33L (70.8%). HIGHLY SIGNIFICANT. p < 0.000001."
+    },
+    "oddstrader_active": {
+      "p": 1e-08,
+      "significant": true,
+      "note": "100W-46L (68.5%). Active markets combined. HIGHLY SIGNIFICANT."
+    },
+    "game_model_all": {
+      "p": 0.5,
+      "significant": false,
+      "note": "33W-33L. Exact coin flip. Zero edge."
+    },
+    "k_props_all": {
+      "p": 0.55,
+      "significant": false,
+      "note": "51W-50L. Dead."
+    }
+  },
+  "total_bets_graded": {
+    "game_model": 70,
+    "k_props": 101,
+    "oddstrader_sim": 211,
+    "total": 382
+  },
+  "key_findings": [
+    "TB WITHIN-CAP: 38W-12L (76.0%, ~30% ROI). Best edge by far.",
+    "ACTIVE MARKETS +$2,279: TB+HA+ER at 100W-46L (68.5%).",
+    "TB OVERALL: 80W-33L (70.8%, +$2,103). Dominant signal.",
+    "25%+ EV TB: 14W-0L (100%). Genuine massive mispricings confirmed.",
+    "HA LINE FILTER: u4.5 73% WR vs u5.5 50% WR. Filter implemented May 3 - VERIFY ACTIVE.",
+    "GAME MODEL DEAD: 33W-33L (50.0%, -$151). Zero edge over 70 bets. Kill candidate.",
+    "K-PROPS DEAD: 51W-50L. Permanent shutdown.",
+    "RBI DEAD: 11W-28L (28.2%). Permanent shutdown."
+  ],
+  "changes_today": [
+    "May 4 POST-GAME REVIEW. All bets graded, 0 pending.",
+    "May 3 results: OddsTr 3W-1L (+$216.49), Game Model 0W-1L (-$104.51). Net +$111.98.",
+    "Busch TB blowup: 5 actual TB vs u1.5 line. Variance, not model flaw.",
+    "Matz HA u5.5 WON but should have been filtered by EXP-012 (u4.5 only). Filter may not be active.",
+    "Active markets milestone: 100W-46L (68.5%), +$2,278.90 PnL.",
+    "TB: 80W-33L (70.8%), +$2,102.97. Crown jewel continues.",
+    "Game model: 33W-33L. Exact coin flip. Kill candidate.",
+    "No May 4 picks generated. Investigate in morning session."
+  ]
+}

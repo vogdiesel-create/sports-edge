@@ -1,0 +1,130 @@
+{
+  "timestamp": "2026-04-13T04:08:34.106464+00:00",
+  "game_dates": [
+    "2026-04-12",
+    "2026-04-13"
+  ],
+  "total_games": 36,
+  "strategies": {
+    "v1_all": {
+      "name": "V1: All sports, 2%+ edge, all books",
+      "bets": 5,
+      "wins": 2,
+      "win_rate": 40.0,
+      "pnl": 16.33,
+      "roi": 21.98,
+      "bankroll": 1016.33,
+      "staked": 74.28,
+      "daily": [
+        {
+          "date": "2026-04-12",
+          "bets": 2,
+          "wins": 1,
+          "pnl": 1.2
+        },
+        {
+          "date": "2026-04-13",
+          "bets": 3,
+          "wins": 1,
+          "pnl": 15.13
+        }
+      ]
+    },
+    "v2a_edge_filter": {
+      "name": "V2a: All sports, 3-6% edge, all books",
+      "bets": 4,
+      "wins": 2,
+      "win_rate": 50.0,
+      "pnl": 25.21,
+      "roi": 38.55,
+      "bankroll": 1025.21,
+      "staked": 65.4,
+      "daily": [
+        {
+          "date": "2026-04-12",
+          "bets": 2,
+          "wins": 1,
+          "pnl": 1.2
+        },
+        {
+          "date": "2026-04-13",
+          "bets": 2,
+          "wins": 1,
+          "pnl": 24.01
+        }
+      ]
+    },
+    "v2b_book_filter": {
+      "name": "V2b: All sports, 3-6% edge, no bodog",
+      "bets": 1,
+      "wins": 1,
+      "win_rate": 100.0,
+      "pnl": 37.06,
+      "roi": 300.08,
+      "bankroll": 1037.06,
+      "staked": 12.35,
+      "daily": [
+        {
+          "date": "2026-04-13",
+          "bets": 1,
+          "wins": 1,
+          "pnl": 37.06
+        }
+      ]
+    },
+    "v2c_nhl_only": {
+      "name": "V2c: NHL only, 3-6% edge",
+      "bets": 2,
+      "wins": 1,
+      "win_rate": 50.0,
+      "pnl": 1.2,
+      "roi": 3.0,
+      "bankroll": 1001.2,
+      "staked": 40.0,
+      "daily": [
+        {
+          "date": "2026-04-12",
+          "bets": 2,
+          "wins": 1,
+          "pnl": 1.2
+        }
+      ]
+    },
+    "v2d_selective": {
+      "name": "V2d: All sports, 3-5% edge, select books",
+      "bets": 1,
+      "wins": 1,
+      "win_rate": 100.0,
+      "pnl": 37.06,
+      "roi": 300.08,
+      "bankroll": 1037.06,
+      "staked": 12.35,
+      "daily": [
+        {
+          "date": "2026-04-13",
+          "bets": 1,
+          "wins": 1,
+          "pnl": 37.06
+        }
+      ]
+    },
+    "v2e_wider": {
+      "name": "V2e: All sports, 2.5-5% edge, no bodog",
+      "bets": 1,
+      "wins": 1,
+      "win_rate": 100.0,
+      "pnl": 37.06,
+      "roi": 300.08,
+      "bankroll": 1037.06,
+      "staked": 12.35,
+      "daily": [
+        {
+          "date": "2026-04-13",
+          "bets": 1,
+          "wins": 1,
+          "pnl": 37.06
+        }
+      ]
+    }
+  }
+}

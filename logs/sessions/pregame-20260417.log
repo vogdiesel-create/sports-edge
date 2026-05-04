@@ -1,0 +1,33 @@
+=== Sports Edge Analyst Session: pregame ===
+=== 2026-04-17 18:00 UTC ===
+
+Good - 3 pending matches core.json. BAL @ CLE won but the ledger result field shows `win` while earlier it showed `result=win`. The core.json pending count is correct. But the total_bets_graded says 38 (includes k_props) while game model alone is 29 graded + 3 pending = 32 total.
+
+Pre-game review complete. Here's the summary:
+
+---
+
+**Pre-Game Review: Apr 17, 2026**
+
+**System State**: 17W-12L, +$531.90 PnL (+10.6% ROI), 32 game-model bets logged
+
+**Today's Slate**: 4 MLB picks, all B-tier, $404.90 total exposure (7.7% of bankroll)
+
+| Pick | Wager | Edge | Confidence | Status |
+|------|-------|------|------------|--------|
+| BAL @ CLE U8.0 | $107.30 | 7.7% | -- | WON |
+| TOR @ ARI U9.0 | $119.46 | 8.6% | Medium-Low | Pending |
+| TB @ PIT Away ML +127 | $83.52 | 7.1% | Medium | Pending |
+| MIL @ MIA U8.5 | $94.62 | 6.8% | Low | Pending |
+
+**Key Flags**:
+- XGBoost and Poisson models disagree by 0.5-1.5 runs on every totals pick. XGBoost consistently projects higher. This systematic divergence needs investigation.
+- TOR @ ARI: Level1 says OVER while we say UNDER on the same line. Side conflict.
+- MIL @ MIA: Away pitcher listed as "Unknown" - model can't properly project without starter info.
+- All edges in the proven 5-12% sweet spot. MLB-only slate plays to our strength.
+
+**Verdict**: Lean day. One already cashed. Three marginal B-tier plays remaining with $297.60 active exposure. No changes recommended - let them ride and investigate the XGBoost/Poisson divergence pattern post-game.
+
+Journal written to `analysis/journal/2026-04-17-pregame.md`.
+
+=== Session Complete: 2026-04-17 18:02 UTC ===

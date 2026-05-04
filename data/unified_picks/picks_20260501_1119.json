@@ -1,0 +1,63 @@
+{
+  "timestamp": "2026-05-01T11:19:03.663771+00:00",
+  "bankroll": 5192.939999999998,
+  "total_picks": 2,
+  "tier_counts": {
+    "S": 0,
+    "A": 0,
+    "B": 2
+  },
+  "total_exposure": 241.99,
+  "picks": [
+    {
+      "source": "mlb_model",
+      "sport": "MLB",
+      "market_type": "totals",
+      "game": "BAL @ NYY",
+      "side": "OVER",
+      "market_line": 8.5,
+      "odds": -110,
+      "model_total": 9.55,
+      "our_prob": 0.6199,
+      "edge": 0.0961,
+      "poisson_total": 10.4,
+      "xgboost_total": 9.71,
+      "market_total_implied": 8.5,
+      "weather_impact": "-0.1 runs (51F, wind out 7mph)",
+      "home_pitcher": "Will Warren",
+      "away_pitcher": "Unknown",
+      "model_confidence": 0.6199,
+      "tier": "B",
+      "level1_confirms": false,
+      "level1_detail": null,
+      "side_penalty": false,
+      "kelly_pct": 2.52,
+      "wager": 130.86
+    },
+    {
+      "source": "mlb_model",
+      "sport": "MLB",
+      "market_type": "totals",
+      "game": "ATL @ COL",
+      "side": "OVER",
+      "market_line": 11.0,
+      "odds": -110,
+      "model_total": 12.0,
+      "our_prob": 0.6053,
+      "edge": 0.0815,
+      "poisson_total": 13.49,
+      "xgboost_total": 11.64,
+      "market_total_implied": 11.0,
+      "weather_impact": "-0.2 runs (45F, wind out 4mph)",
+      "home_pitcher": "Jose Quintana",
+      "away_pitcher": "Grant Holmes",
+      "model_confidence": 0.6053,
+      "tier": "B",
+      "level1_confirms": false,
+      "level1_detail": null,
+      "side_penalty": false,
+      "kelly_pct": 2.14,
+      "wager": 111.13
+    }
+  ]
+}

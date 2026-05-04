@@ -1,0 +1,252 @@
+# Looking for Sports Betting Data Scientists for Research &amp; Development
+
+[2Point2Media | 15 pts | 56 comments]
+
+We’re a professional sports betting group with over five years of pro experience. We’ve built a strong network and have the ability to place large sums on games across various markets. Now, we’re looking to expand our team by hiring talented data scientists with expertise in modeling major sports, especially college football (CFB) and college basketball (CBB).
+
+**What we’re looking for:**
+
+* Proven track record in developing sports models.
+* Ability to demonstrate and discuss past model performance and results.
+* Experience with advanced statistical modeling and data analysis.
+
+This is an exciting opportunity for someone with a passion for numbers and sports. You’ll have access to our extensive betting network, where we place wagers based on the models you develop. **If your model wins, you win,** we offer a profit-sharing arrangement where you can earn from the wagers we place using your model, with no financial risk on your part (just the time spent refining and updating the model).
+
+**Why work with us?**
+
+* We’ve built strong relationships with some of the most successful betting groups in the space and have long lists of past plays from these top groups. If you don’t already have a model built, we can reverse engineer past models to give you a foundation to work from.
+* We focus on **market agreement and closing line value (CLV)**, so you’ll have the opportunity to fine-tune your model to find edges where market consensus exists.
+* We’ve been featured in various news articles and podcasts, building a reputation as a high-stakes betting group.
+* You’ll be able to leverage our resources and network to turn your skills into serious earnings.
+* **No risk, all upside**: If your model is successful, you’ll profit alongside us.
+
+If you’re a data scientist with a proven track record in sports modeling or the ability to reverse-engineer models, we’d love to hear from you. This is your chance to get in on a freeroll with an established team, work with industry leaders, and take your skills to the next level.
+
+**Let’s win together.**
+
+---
+## Comments
+
+[[deleted] | 7 pts]
+[deleted]
+
+  [2Point2Media | 3 pts]
+  1. ) Profit sharing
+2. ) You
+3. ) MT Trading
+
+    [[deleted] | 2 pts]
+    [deleted]
+
+      [2Point2Media | 1 pts]
+      If your model produced 1000 plays a season it would be paid out based off that.
+
+[[deleted] | 2 pts]
+Can I look you guys up? What's the company called?
+
+  [2Point2Media | 0 pts]
+  MT Trading. 
+
+If you listen to sports betting podcasts or go to sports betting events you have probably heard of us.
+
+[https://mttradinginc.com/](https://mttradinginc.com/)
+
+[https://www.youtube.com/watch?v=A69nbKtjnmM](https://www.youtube.com/watch?v=A69nbKtjnmM)
+
+[https://www.youtube.com/watch?v=tGWiOg6Ke0Q](https://www.youtube.com/watch?v=tGWiOg6Ke0Q)
+
+[https://www.barrietoday.com/local-news/igaming-business-owner-bet-on-himself-lives-fantasy-sports-dream-6059650](https://www.barrietoday.com/local-news/igaming-business-owner-bet-on-himself-lives-fantasy-sports-dream-6059650)
+
+[Mindful_Markets | 2 pts]
+Nice
+
+[Low_Performance826 | 2 pts]
+Congrats on the exciting news of expanding your team, and thank you for sharing the post!
+
+On my side, I work closely with several syndicates, providing API solutions for 200+ bookmakers. While I'm not applying for the position, I’d be happy to jump on a call to discuss how we might collaborate further.
+
+  [Emergency_Rich5123 | 2 pts]
+  Hey man, been through your profile and odds scraping stuff. Won't let me dm you but wanted to reach out to see if you have a route for an issue I am having. TIA
+
+  [2Point2Media | 1 pts]
+  Sure, I'll dm you
+
+[FIRE_Enthusiast_7 | 2 pts]
+I have models for soccer prop betting that I believe to be profitable - in several markets at around 2%-5% ROI based on extensive back testing (Betfair closing odds). It’s been an on/off personal project for 4 years. I’m working intensively on it right now to further improve that and expand in to other markets.
+
+I’m curious as to what it would take for you to be convinced that a model is actually profitable. Based on how easy it was to fool myself that my earlier models were profitable, the only way I would believe someone else’s model works is to be handed the entire thing, examine the methods, and then properly backtest it on my own. I would never risk my own money before doing that.
+
+I’d be potentially interested but rather than a financial agreement, I would be interested in access to soccer data such as historical Opta or Statsbomb second by second match event data. Does your group have access to that or similar? If so then I’d be interested and happy to talk you through my models and how I’ve tested them.
+
+My background is that I used to be a profitable poker player in the early days of the online poker boom. I have a maths degree, PhD from an engineering maths department and work at a UK university doing data analysis on increasingly large datasets from biological systems.
+
+  [2Point2Media | 2 pts]
+  That's the risk we take in other people's models we have followed some people who have said they win and lost us money over a huge sample. We have worked with others who said they win and we have built long lasting relationships with them and won money. So it's just part of the process really.
+
+  [nightwolfomar | 0 pts]
+  You've 2-5% edge on props at Betfair without exploiting event data?
+
+    [FIRE_Enthusiast_7 | 1 pts]
+    Where do I say that? The models already use event data - I want additional historic data to improve the training. Most publicly available datasets are inadequate and I have scraped or bought everything I can already. But the data I really want is too expensive for me to afford.
+
+      [nightwolfomar | 1 pts]
+      Whoscored?
+
+[charles101993 | 2 pts]
+I run a site that does bespoke ML for mlb and nfl player props called scrutML.com. I believe I have the time, energy, and expertise to provide value to your project if you'd like.
+
+[ValueBetting7589 | 2 pts]
+Hey, I’m open to potential partnerships for staking my models in regions where I’m currently not active. My models have shown consistent performance, with a 10%+ ROI in football and 12%+ in basketball over the past four years (over 10k bets). I’m specifically looking for opportunities in off-market staking—no interest in platforms connected to Asia or 365. If this aligns with what you guys search dm me and we can make a call!
+
+[Governmentmoney | 1 pts]
+What range of amounts are you looking to be placing per bet or you are able to place? Are you using PPH or funded accounts?
+
+Not interested in working for you, but I have a few models I planned to release on a rev share basis in the near future. Very robust, high market disagreement, high value, high volume - effectively authorities in their markets
+
+  [Opposite-Snow-5771 | 2 pts]
+  Would be interested in learning more about your setup. If you're an originator, I can get down at some off market books. Sent you a PM.
+
+[MLBets | 1 pts]
+Hi, 
+Are you in the soccer market ?
+
+  [2Point2Media | 1 pts]
+  Yeah, all sports really
+
+    [MLBets | 1 pts]
+    I have models for soccer and built a website to track my results and future predictions you can check it at www.footixify.com
+
+[TacitusJones | 1 pts]
+You have any use for a data scientist who thinks the sports betting space is cooked?
+
+  [ValuableNumber3615 | 1 pts]
+  Why do you think that?
+
+    [TacitusJones | 1 pts]
+    I've been working on something investigating if positive expected value is even theoretically possible in the sports betting space.
+
+      [2Point2Media | 2 pts]
+      what do you mean by this, 'possible' ? If you have bet a game at a 60% implied prob and the true or market implied prob is 70% in an efficient market at close, would be hard to argue you don't have an edge there.
+
+        [TacitusJones | 2 pts]
+        I mean, that's true in a purely mathematical sense. That part I'm not disputing.
+
+The question is if that's an accurate picture of what's happening when you place a bet.
+
+Which is a long way of being like I question the premise of being able to know the true odds
+
+      [yessirba10 | 1 pts]
+      and what came up?
+
+        [TacitusJones | 1 pts]
+        Shits cooked. But not a hundred percent convinced my proof of it is scientifically rigorous
+
+        [TacitusJones | 1 pts]
+        Yet. Still working the problem.
+
+      [[deleted] | 1 pts]
+      [deleted]
+
+        [TacitusJones | 1 pts]
+        "many" strikes me as something of an imprecise number.
+
+Maybe the simpler way to put it is in my home state books brought in around a billion with a b dollars. That cash has to come from somewhere.
+
+        [IWillTeller | 1 pts]
+        I mean, even one would be sufficient to disprove your theory, but I am one and I’ve met dozens of others.Yeah, many more are losing gamblers than winning. Most people who gamble are not approaching it in a professional way, and have no idea if they’re making or losing money in the long run, and have a job as their source of funds. 
+
+The idea that you can’t find positive expected value is just simply wrong, unless you think all of the bookmakers and other participants on betting exchanges are infallible or unbeatable.
+
+You can’t have anything approaching a mathematical proof, because you are trying to prove something which is not true.
+
+[Academic_Mechanic470 | 1 pts]
+We've built solvedsports dot com. Look at our work in building software and sports modeling. Our software allows people to build completely customizable machine learning sports betting models. Let us know if this is the type of work you are looking for.
+
+  [2Point2Media | 1 pts]
+  Cool site. Have you back tested any combination of filters to test for past results ?
+
+[[deleted] | 1 pts]
+What kind of models? I work in real estate finance so deal with excel modeling heavily. I’ve made my own smaller models, but interested in learning more.
+
+  [2Point2Media | 3 pts]
+  Models that gain effective edges in the sports markets. For example if a game has a total lined at over/under 52 and your model made the game 49 and the closing line ( market ) is closer to your models number and that happens over a large sample I would say you are on to something.
+
+[AltezaHumilde | 1 pts]
+Quick question, why anyone needs you? Because to place bets? I mean, anyone can do it manually and a lot of bookis allow this automated... fot a Data Scientist with proper python knowledge auto-bet is quite easy... (even multiply the bet in hundres of sites at the same time...)
+
+  
+.... So what do you give in exchange of the working models and the skill and expertise with it... ?
+
+  [2Point2Media | 3 pts]
+  Liquidity mainly. Once you get to a certain level in sports betting everyone can win but its hard to do that at scale keeping the number intact. You cant just go blast Pinnacle and Cris or your market is going to get ruined.
+
+    [AltezaHumilde | 0 pts]
+    You know nothing, John Snow.
+
+Not like I am director of data on a huge online sportbetting and casino site, but also I oversee every data scientist in the company.
+
+When you have a good model, you don't need liquidity, you just need time.
+
+By the way, I pay my DSs...
+
+  [2Point2Media | 1 pts]
+  And if someone had a winning model but didn't have the means to get down to capitalize on it while they still had an edge.
+
+    [AltezaHumilde | 1 pts]
+    Like noone has 100 bucks to start with and automate it, right?
+
+      [FIRE_Enthusiast_7 | 2 pts]
+      It would take a LONG time to make any decent money starting with a $100 bankroll. With a 5% edge and 1% unit bet you need 2000 bets just to double your bankroll i.e make $100.
+
+        [AltezaHumilde | 1 pts]
+        That is not how compounding interest works, and since you can replicate bets, the time isn't at much
+
+        [FIRE_Enthusiast_7 | 2 pts]
+        Compounding interest has nothing to do with it. Betting 1 unit stake at 5% ROI needs 2000 bets to make 100 units. Even if you scale your bet size as bank roll increases that means 1000-2000 bets to achieve this (with significant increased risk). And it’s not going to be possible to bet every match so in reality thats 5k-10k matches. It’s going to take many years to make decent money starting at $100, by which time the model may have stopped working.
+
+        [AltezaHumilde | 1 pts]
+        I see, so you don't get more money if you have a constant 5% edge per every bet and your bankroll is being incremented each time, right?
+
+I am not new to this bud
+
+        [FIRE_Enthusiast_7 | 0 pts]
+        Your comments suggest you are pretty new to this (or just bad). You don't have realistic expectations of the number of bets or amount of time needed to grow a $100 bankroll into anything significant while practising proper bankroll management.
+
+        [AltezaHumilde | 1 pts]
+        Read my other comment where I answered the PO to understand how dumb you are looking right now
+
+        [FIRE_Enthusiast_7 | 0 pts]
+        I have no real interest in carrying on this discussion. Hope you do well with your future betting.
+
+[alexnyc86 | 1 pts]
+I am a data scientist but would like to see your platform first
+
+  [2Point2Media | 1 pts]
+  what do you mean platform
+
+[KolvictusBOT | 1 pts]
+Question out of curiosity, why do you optimize purely for CLV? Do you have a belief that the closing line is unbeatable and includes all possible information at an optimal interpretation?
+
+  [liproqq | 1 pts]
+  Because in a perfect market the clv is the market proven probability
+
+    [KolvictusBOT | 1 pts]
+    Right, we all know that in perfect market no price is beatable and any form of trading is just losing transaction costs. These guys obviously don't believe that, as they have hard evidence of all the money they made that market is not perfect.
+
+      [liproqq | 2 pts]
+      But sportsbooks don't have perfect prices all the time. That's where you can make money as a bettor
+
+  [2Point2Media | 1 pts]
+  On efficient markets, yes. 
+
+Efficient market hypothesis, we believe in it and we've seen indisputable evidence over the long haul you will earn. A market like NFL were they're taking 100k on sides on game day its hard to dispute that market isn't efficient. If you have under 44 points scored here and it closes 43 or lower I'd guarantee you're a long term winner. Smaller markets like prop markets, some small league soccer and things like that though I don't believe the market is very efficient and wouldn't put too much weight in CLV. Also MLB has been weird the past few years. Another market could be the live market as the time the market is open doesn't really give the bookmakers time to gain an efficient market. 
+
+You can usually tell if a market is efficient or not and how much they trust their number based on how much they're willing to take as a max bet size.
+
+[Oddsdata | 1 pts]
+Sounds like a bucket shop
+
+[2Point2Media | 1 pts]
+I have now responded to everyone who reached out via dm. 
+
+Thanks for all the interest.

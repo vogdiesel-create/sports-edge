@@ -1,0 +1,822 @@
+{
+  "bets": [
+    {
+      "timestamp": "2026-04-13T04:11:20.743072+00:00",
+      "pick": {
+        "source": "game_line_v2",
+        "sport": "MLB",
+        "game": "N.Y. Mets @ L.A. Dodgers",
+        "bet": "total over 9 @ sportsbetting",
+        "odds": "+100",
+        "edge": "4.9%",
+        "ev": "9.7%",
+        "kelly": "2.4%",
+        "confidence": "HIGH",
+        "tier": "A"
+      },
+      "result": {
+        "won": false,
+        "pnl": -20,
+        "actual_total": 1,
+        "line": 9.0,
+        "direction": "over",
+        "book": "sportsbetting",
+        "score": "1-0"
+      }
+    },
+    {
+      "timestamp": "2026-04-13T04:11:20.743072+00:00",
+      "pick": {
+        "source": "game_line_v2",
+        "sport": "MLB",
+        "game": "L.A. Angels @ N.Y. Yankees",
+        "bet": "total over 9.5 @ unibet",
+        "odds": "+110",
+        "edge": "3.4%",
+        "ev": "7.1%",
+        "kelly": "1.6%",
+        "confidence": "HIGH",
+        "tier": "A"
+      },
+      "result": {
+        "won": true,
+        "pnl": 22.0,
+        "actual_total": 15,
+        "line": 9.5,
+        "direction": "over",
+        "book": "unibet",
+        "score": "9-6"
+      }
+    },
+    {
+      "timestamp": "2026-04-13T20:10:49.319743+00:00",
+      "pick": {
+        "source": "game_line_v2",
+        "sport": "NHL",
+        "game": "Winnipeg @ Utah",
+        "bet": "total under 5.5 @ sportsbetting",
+        "odds": "+115",
+        "edge": "3.5%",
+        "ev": "7.5%",
+        "kelly": "1.6%",
+        "confidence": "HIGH",
+        "tier": "A"
+      },
+      "result": {
+        "won": true,
+        "pnl": 23.0,
+        "actual_total": 4,
+        "line": 5.5,
+        "direction": "under",
+        "book": "sportsbetting",
+        "score": "0-4"
+      }
+    },
+    {
+      "timestamp": "2026-04-14T04:26:54.658082+00:00",
+      "pick": {
+        "source": "game_line_v2",
+        "sport": "MLB",
+        "game": "Seattle Mariners @ San Diego Padres",
+        "bet": "total over 7.5 @ unibet",
+        "odds": "+110",
+        "edge": "4.3%",
+        "ev": "9.0%",
+        "kelly": "2.0%",
+        "confidence": "HIGH",
+        "tier": "A"
+      },
+      "result": {
+        "won": false,
+        "pnl": -20,
+        "actual_total": 5,
+        "line": 7.5,
+        "direction": "over",
+        "book": "unibet",
+        "score": "1-4"
+      }
+    },
+    {
+      "timestamp": "2026-04-14T04:26:54.658082+00:00",
+      "pick": {
+        "source": "game_line_v2",
+        "sport": "MLB",
+        "game": "Toronto Blue Jays @ Milwaukee Brewers",
+        "bet": "total over 7.5 @ unibet",
+        "odds": "+110",
+        "edge": "3.8%",
+        "ev": "8.0%",
+        "kelly": "1.8%",
+        "confidence": "HIGH",
+        "tier": "A"
+      },
+      "result": {
+        "won": true,
+        "pnl": 22.0,
+        "actual_total": 16,
+        "line": 7.5,
+        "direction": "over",
+        "book": "unibet",
+        "score": "9-7"
+      }
+    },
+    {
+      "timestamp": "2026-04-14T04:26:54.658082+00:00",
+      "pick": {
+        "source": "game_line_v2",
+        "sport": "NHL",
+        "game": "Winnipeg @ Vegas",
+        "bet": "total under 5.5 @ unibet",
+        "odds": "+110",
+        "edge": "3.5%",
+        "ev": "7.3%",
+        "kelly": "1.6%",
+        "confidence": "HIGH",
+        "tier": "A"
+      },
+      "result": {
+        "won": true,
+        "pnl": 22.0,
+        "actual_total": 3,
+        "line": 5.5,
+        "direction": "under",
+        "book": "unibet",
+        "score": "3-0"
+      }
+    },
+    {
+      "timestamp": "2026-04-17T20:16:00.536563+00:00",
+      "pick": {
+        "source": "game_line_v2",
+        "sport": "MLB",
+        "game": "Kansas City @ N.Y. Yankees",
+        "bet": "total under 7.5 @ unibet",
+        "odds": "+100",
+        "edge": "4.4%",
+        "ev": "8.8%",
+        "kelly": "2.2%",
+        "confidence": "HIGH",
+        "tier": "A"
+      },
+      "result": {
+        "won": true,
+        "pnl": 20.0,
+        "actual_total": 6,
+        "line": 7.5,
+        "direction": "under",
+        "book": "unibet",
+        "score": "2-4"
+      }
+    },
+    {
+      "timestamp": "2026-04-17T20:16:00.536563+00:00",
+      "pick": {
+        "source": "game_line_v2",
+        "sport": "NHL",
+        "game": "Minnesota @ Dallas",
+        "bet": "total over 6 @ sportsbetting",
+        "odds": "+102",
+        "edge": "3.7%",
+        "ev": "7.6%",
+        "kelly": "1.9%",
+        "confidence": "HIGH",
+        "tier": "A"
+      },
+      "result": {
+        "won": false,
+        "pnl": -20,
+        "actual_total": 3,
+        "line": 6.0,
+        "direction": "over",
+        "book": "sportsbetting",
+        "score": "2-1"
+      }
+    },
+    {
+      "timestamp": "2026-04-17T20:16:00.536563+00:00",
+      "pick": {
+        "source": "game_line_v2",
+        "sport": "NHL",
+        "game": "Philadelphia @ Pittsburgh",
+        "bet": "total over 6.5 @ unibet",
+        "odds": "+110",
+        "edge": "3.5%",
+        "ev": "7.3%",
+        "kelly": "1.6%",
+        "confidence": "HIGH",
+        "tier": "A"
+      },
+      "result": {
+        "won": false,
+        "pnl": -20,
+        "actual_total": 6,
+        "line": 6.5,
+        "direction": "over",
+        "book": "unibet",
+        "score": "1-5"
+      }
+    },
+    {
+      "timestamp": "2026-04-17T20:16:00.536563+00:00",
+      "pick": {
+        "source": "game_line_v2",
+        "sport": "NHL",
+        "game": "Los Angeles @ Colorado",
+        "bet": "total under 5.5 @ unibet",
+        "odds": "+110",
+        "edge": "3.5%",
+        "ev": "7.3%",
+        "kelly": "1.6%",
+        "confidence": "HIGH",
+        "tier": "A"
+      },
+      "result": {
+        "won": false,
+        "pnl": -20,
+        "actual_total": 8,
+        "line": 5.5,
+        "direction": "under",
+        "book": "unibet",
+        "score": "7-1"
+      }
+    },
+    {
+      "timestamp": "2026-04-18T20:17:12.327137+00:00",
+      "pick": {
+        "source": "game_line_v2",
+        "sport": "MLB",
+        "game": "Detroit Tigers @ Boston Red Sox",
+        "bet": "total under 6.5 @ sportsbetting",
+        "odds": "+100",
+        "edge": "3.8%",
+        "ev": "7.6%",
+        "kelly": "1.9%",
+        "confidence": "HIGH",
+        "tier": "A"
+      },
+      "result": {
+        "won": true,
+        "pnl": 20.0,
+        "actual_total": 5,
+        "line": 6.5,
+        "direction": "under",
+        "book": "sportsbetting",
+        "score": "4-1"
+      }
+    },
+    {
+      "timestamp": "2026-04-18T20:17:12.327137+00:00",
+      "pick": {
+        "source": "game_line_v2",
+        "sport": "MLB",
+        "game": "Detroit Tigers @ Boston Red Sox",
+        "bet": "total under 6.5 @ unibet",
+        "odds": "+100",
+        "edge": "3.8%",
+        "ev": "7.6%",
+        "kelly": "1.9%",
+        "confidence": "HIGH",
+        "tier": "A"
+      },
+      "result": {
+        "won": true,
+        "pnl": 20.0,
+        "actual_total": 5,
+        "line": 6.5,
+        "direction": "under",
+        "book": "unibet",
+        "score": "4-1"
+      }
+    },
+    {
+      "timestamp": "2026-04-18T20:17:12.327137+00:00",
+      "pick": {
+        "source": "game_line_v2",
+        "sport": "MLB",
+        "game": "Baltimore Orioles @ Cleveland Guardians",
+        "bet": "total under 7 @ sportsbetting",
+        "odds": "+100",
+        "edge": "3.4%",
+        "ev": "6.7%",
+        "kelly": "1.7%",
+        "confidence": "HIGH",
+        "tier": "A"
+      },
+      "result": {
+        "won": true,
+        "pnl": 20.0,
+        "actual_total": 6,
+        "line": 7.0,
+        "direction": "under",
+        "book": "sportsbetting",
+        "score": "2-4"
+      }
+    },
+    {
+      "timestamp": "2026-04-19T20:18:22.936434+00:00",
+      "pick": {
+        "source": "game_line_v2",
+        "sport": "MLB",
+        "game": "Texas Rangers @ Seattle Mariners",
+        "bet": "total over 7.5 @ sportsbetting",
+        "odds": "+105",
+        "edge": "5.0%",
+        "ev": "10.2%",
+        "kelly": "2.4%",
+        "confidence": "HIGH",
+        "tier": "A"
+      },
+      "result": {
+        "won": false,
+        "pnl": -20,
+        "actual_total": 7,
+        "line": 7.5,
+        "direction": "over",
+        "book": "sportsbetting",
+        "score": "5-2"
+      }
+    },
+    {
+      "timestamp": "2026-04-19T20:18:22.936434+00:00",
+      "pick": {
+        "source": "game_line_v2",
+        "sport": "MLB",
+        "game": "San Diego Padres @ Los Angeles Angels",
+        "bet": "total over 9.5 @ sportsbetting",
+        "odds": "+100",
+        "edge": "4.9%",
+        "ev": "9.7%",
+        "kelly": "2.4%",
+        "confidence": "HIGH",
+        "tier": "A"
+      },
+      "result": {
+        "won": false,
+        "pnl": -20,
+        "actual_total": 1,
+        "line": 9.5,
+        "direction": "over",
+        "book": "sportsbetting",
+        "score": "1-0"
+      }
+    },
+    {
+      "timestamp": "2026-04-19T20:18:22.936434+00:00",
+      "pick": {
+        "source": "game_line_v2",
+        "sport": "MLB",
+        "game": "San Diego Padres @ Los Angeles Angels",
+        "bet": "total over 9.5 @ unibet",
+        "odds": "+100",
+        "edge": "4.9%",
+        "ev": "9.7%",
+        "kelly": "2.4%",
+        "confidence": "HIGH",
+        "tier": "A"
+      },
+      "result": {
+        "won": false,
+        "pnl": -20,
+        "actual_total": 1,
+        "line": 9.5,
+        "direction": "over",
+        "book": "unibet",
+        "score": "1-0"
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:13:24.183810+00:00",
+      "pick": {
+        "source": "game_line_v2",
+        "sport": "NHL",
+        "game": "Vegas @ Utah",
+        "bet": "total over 6 @ sportsbetting",
+        "odds": "-105",
+        "edge": "4.2%",
+        "ev": "8.3%",
+        "kelly": "2.2%",
+        "confidence": "HIGH",
+        "tier": "A"
+      },
+      "result": {
+        "won": false,
+        "pnl": -20,
+        "actual_total": 0,
+        "line": 6.0,
+        "direction": "over",
+        "book": "sportsbetting",
+        "score": "0-0"
+      }
+    },
+    {
+      "timestamp": "2026-04-22T19:13:24.183810+00:00",
+      "pick": {
+        "source": "game_line_v2",
+        "sport": "NHL",
+        "game": "Vegas @ Utah",
+        "bet": "total over 6 @ heritage",
+        "odds": "-101",
+        "edge": "5.2%",
+        "ev": "10.3%",
+        "kelly": "2.6%",
+        "confidence": "HIGH",
+        "tier": "B"
+      },
+      "result": {
+        "won": false,
+        "pnl": -20,
+        "actual_total": 0,
+        "line": 6.0,
+        "direction": "over",
+        "book": "heritage",
+        "score": "0-0"
+      }
+    },
+    {
+      "timestamp": "2026-04-22T21:33:00.283167+00:00",
+      "pick": {
+        "source": "game_line_v2",
+        "sport": "NHL",
+        "game": "Carolina @ Ottawa",
+        "bet": "total over 6 @ sportsbetting",
+        "odds": "+102",
+        "edge": "4.0%",
+        "ev": "8.0%",
+        "kelly": "2.0%",
+        "confidence": "HIGH",
+        "tier": "A"
+      },
+      "result": {
+        "won": false,
+        "pnl": -20,
+        "actual_total": 3,
+        "line": 6.0,
+        "direction": "over",
+        "book": "sportsbetting",
+        "score": "2-1"
+      }
+    },
+    {
+      "timestamp": "2026-04-24T11:18:03.902491+00:00",
+      "pick": {
+        "source": "game_line_v2",
+        "sport": "NHL",
+        "game": "Dallas @ Minnesota",
+        "bet": "total over 6 @ sportsbetting",
+        "odds": "-105",
+        "edge": "4.2%",
+        "ev": "8.3%",
+        "kelly": "2.2%",
+        "confidence": "HIGH",
+        "tier": "A"
+      },
+      "result": {
+        "won": true,
+        "pnl": 19.05,
+        "actual_total": 209,
+        "line": 6.0,
+        "direction": "over",
+        "book": "sportsbetting",
+        "score": "96-113"
+      }
+    },
+    {
+      "timestamp": "2026-04-24T20:16:04.255176+00:00",
+      "pick": {
+        "source": "game_line_v2",
+        "sport": "MLB",
+        "game": "N.Y. Yankees @ Houston",
+        "bet": "total over 9.5 @ unibet",
+        "odds": "+110",
+        "edge": "3.4%",
+        "ev": "7.1%",
+        "kelly": "1.6%",
+        "confidence": "HIGH",
+        "tier": "A"
+      },
+      "result": {
+        "won": true,
+        "pnl": 22.0,
+        "actual_total": 16,
+        "line": 9.5,
+        "direction": "over",
+        "book": "unibet",
+        "score": "12-4"
+      }
+    },
+    {
+      "timestamp": "2026-04-25T20:16:08.043996+00:00",
+      "pick": {
+        "source": "game_line_v2",
+        "sport": "NHL",
+        "game": "Buffalo @ Boston",
+        "bet": "total under 5.5 @ unibet",
+        "odds": "+110",
+        "edge": "5.5%",
+        "ev": "11.6%",
+        "kelly": "2.6%",
+        "confidence": "HIGH",
+        "tier": "A"
+      },
+      "result": {
+        "won": false,
+        "pnl": -20,
+        "actual_total": 18,
+        "line": 5.5,
+        "direction": "under",
+        "book": "unibet",
+        "score": "17-1"
+      }
+    },
+    {
+      "timestamp": "2026-04-25T20:16:08.043996+00:00",
+      "pick": {
+        "source": "game_line_v2",
+        "sport": "MLB",
+        "game": "Cleveland Guardians @ Toronto Blue Jays",
+        "bet": "total over 7.5 @ unibet",
+        "odds": "+110",
+        "edge": "5.2%",
+        "ev": "11.0%",
+        "kelly": "2.5%",
+        "confidence": "HIGH",
+        "tier": "A"
+      },
+      "result": {
+        "won": true,
+        "pnl": 22.0,
+        "actual_total": 8,
+        "line": 7.5,
+        "direction": "over",
+        "book": "unibet",
+        "score": "3-5"
+      }
+    },
+    {
+      "timestamp": "2026-04-25T20:16:08.043996+00:00",
+      "pick": {
+        "source": "game_line_v2",
+        "sport": "MLB",
+        "game": "Los Angeles Angels @ Kansas City Royals",
+        "bet": "total over 9 @ sportsbetting",
+        "odds": "+100",
+        "edge": "3.4%",
+        "ev": "6.7%",
+        "kelly": "1.7%",
+        "confidence": "HIGH",
+        "tier": "A"
+      },
+      "result": {
+        "won": true,
+        "pnl": 20.0,
+        "actual_total": 13,
+        "line": 9.0,
+        "direction": "over",
+        "book": "sportsbetting",
+        "score": "1-12"
+      }
+    },
+    {
+      "timestamp": "2026-04-26T20:17:17.853356+00:00",
+      "pick": {
+        "source": "game_line_v2",
+        "sport": "MLB",
+        "game": "Colorado @ N.Y. Mets",
+        "bet": "total under 7 @ sportsbetting",
+        "odds": "+100",
+        "edge": "3.4%",
+        "ev": "6.7%",
+        "kelly": "1.7%",
+        "confidence": "HIGH",
+        "tier": "A"
+      },
+      "result": {
+        "won": true,
+        "pnl": 20.0,
+        "actual_total": 3,
+        "line": 7.0,
+        "direction": "under",
+        "book": "sportsbetting",
+        "score": "3-0"
+      }
+    },
+    {
+      "timestamp": "2026-04-26T20:17:17.853356+00:00",
+      "pick": {
+        "source": "game_line_v2",
+        "sport": "NHL",
+        "game": "Philadelphia @ Pittsburgh",
+        "bet": "total over 6 @ heritage",
+        "odds": "+104",
+        "edge": "4.4%",
+        "ev": "9.0%",
+        "kelly": "2.2%",
+        "confidence": "HIGH",
+        "tier": "B"
+      },
+      "result": {
+        "won": true,
+        "pnl": 20.8,
+        "actual_total": 224,
+        "line": 6.0,
+        "direction": "over",
+        "book": "heritage",
+        "score": "128-96"
+      }
+    },
+    {
+      "timestamp": "2026-04-28T20:17:29.420670+00:00",
+      "pick": {
+        "source": "game_line_v2",
+        "sport": "MLB",
+        "game": "L.A. Angels @ CH White Sox",
+        "bet": "total over 9 @ betonline",
+        "odds": "+110",
+        "edge": "3.8%",
+        "ev": "8.0%",
+        "kelly": "1.8%",
+        "confidence": "MEDIUM",
+        "tier": "C"
+      },
+      "result": {
+        "won": false,
+        "pnl": -20,
+        "actual_total": 7,
+        "line": 9.0,
+        "direction": "over",
+        "book": "betonline",
+        "score": "2-5"
+      }
+    },
+    {
+      "timestamp": "2026-04-29T20:17:19.769547+00:00",
+      "pick": {
+        "source": "game_line_v2",
+        "sport": "NHL",
+        "game": "Dallas @ Minnesota",
+        "bet": "total over 6 @ heritage",
+        "odds": "+105",
+        "edge": "3.4%",
+        "ev": "7.0%",
+        "kelly": "1.7%",
+        "confidence": "MEDIUM",
+        "tier": "B"
+      },
+      "result": {
+        "won": true,
+        "pnl": 21.0,
+        "actual_total": 8,
+        "line": 6.0,
+        "direction": "over",
+        "book": "heritage",
+        "score": "5-3"
+      }
+    },
+    {
+      "timestamp": "2026-04-29T20:17:19.769547+00:00",
+      "pick": {
+        "source": "game_line_v2",
+        "sport": "MLB",
+        "game": "Washington @ N.Y. Mets",
+        "bet": "total over 7.5 @ heritage",
+        "odds": "+101",
+        "edge": "3.1%",
+        "ev": "6.2%",
+        "kelly": "1.5%",
+        "confidence": "MEDIUM",
+        "tier": "B"
+      },
+      "result": {
+        "won": true,
+        "pnl": 20.2,
+        "actual_total": 16,
+        "line": 7.5,
+        "direction": "over",
+        "book": "heritage",
+        "score": "14-2"
+      }
+    },
+    {
+      "timestamp": "2026-05-01T20:17:23.498623+00:00",
+      "pick": {
+        "source": "game_line_v2",
+        "sport": "NHL",
+        "game": "Philadelphia @ Carolina",
+        "bet": "total under 5.5 @ betonline",
+        "odds": "+109",
+        "edge": "4.0%",
+        "ev": "8.3%",
+        "kelly": "1.9%",
+        "confidence": "MEDIUM",
+        "tier": "C"
+      },
+      "result": {
+        "won": false,
+        "pnl": -20,
+        "actual_total": 11,
+        "line": 5.5,
+        "direction": "under",
+        "book": "betonline",
+        "score": "6-5"
+      }
+    },
+    {
+      "timestamp": "2026-05-02T20:17:23.716315+00:00",
+      "pick": {
+        "source": "game_line_v2",
+        "sport": "MLB",
+        "game": "Los Angeles Dodgers @ St. Louis Cardinals",
+        "bet": "total over 9 @ sportsbetting",
+        "odds": "+100",
+        "edge": "5.1%",
+        "ev": "10.1%",
+        "kelly": "2.5%",
+        "confidence": "HIGH",
+        "tier": "A"
+      },
+      "result": {
+        "won": false,
+        "pnl": -20,
+        "actual_total": 5,
+        "line": 9.0,
+        "direction": "over",
+        "book": "sportsbetting",
+        "score": "2-3"
+      }
+    },
+    {
+      "timestamp": "2026-05-02T20:17:23.716315+00:00",
+      "pick": {
+        "source": "game_line_v2",
+        "sport": "MLB",
+        "game": "Arizona @ CH Cubs",
+        "bet": "total under 7 @ sportsbetting",
+        "odds": "+105",
+        "edge": "3.6%",
+        "ev": "7.5%",
+        "kelly": "1.8%",
+        "confidence": "HIGH",
+        "tier": "A"
+      },
+      "result": {
+        "won": true,
+        "pnl": 21.0,
+        "actual_total": 2,
+        "line": 7.0,
+        "direction": "under",
+        "book": "sportsbetting",
+        "score": "0-2"
+      }
+    },
+    {
+      "timestamp": "2026-05-02T20:17:23.716315+00:00",
+      "pick": {
+        "source": "game_line_v2",
+        "sport": "NHL",
+        "game": "Minnesota @ Colorado",
+        "bet": "total over 6 @ sportsbetting",
+        "odds": "+100",
+        "edge": "3.2%",
+        "ev": "6.5%",
+        "kelly": "1.6%",
+        "confidence": "HIGH",
+        "tier": "A"
+      },
+      "result": {
+        "won": true,
+        "pnl": 20.0,
+        "actual_total": 15,
+        "line": 6.0,
+        "direction": "over",
+        "book": "sportsbetting",
+        "score": "11-4"
+      }
+    },
+    {
+      "timestamp": "2026-05-02T20:17:23.716315+00:00",
+      "pick": {
+        "source": "game_line_v2",
+        "sport": "MLB",
+        "game": "Los Angeles Dodgers @ St. Louis Cardinals",
+        "bet": "total over 9 @ heritage",
+        "odds": "+101",
+        "edge": "5.3%",
+        "ev": "10.7%",
+        "kelly": "2.6%",
+        "confidence": "HIGH",
+        "tier": "B"
+      },
+      "result": {
+        "won": false,
+        "pnl": -20,
+        "actual_total": 5,
+        "line": 9.0,
+        "direction": "over",
+        "book": "heritage",
+        "score": "2-3"
+      }
+    }
+  ],
+  "bankroll": 1055.05,
+  "started": "2026-04-13T04:14:55.503157+00:00"
+}

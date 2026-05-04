@@ -1,0 +1,46 @@
+{
+  "date": "2026-04-26",
+  "graded_at": "2026-04-27T05:00:00Z",
+  "game_model": {
+    "record": "3W-1L",
+    "pnl": 183.25,
+    "bets": [
+      {"game": "DET @ CIN", "side": "UNDER", "line": 9.5, "result": "loss", "actual": 11, "edge": 0.088, "clv": -0.004, "pnl": -115.76},
+      {"game": "LAA @ KC", "side": "OVER", "line": 9.0, "result": "win", "actual": 20, "edge": 0.088, "clv": 0.051, "pnl": 107.21},
+      {"game": "MIN @ TB", "side": "UNDER", "line": 8.5, "result": "win", "actual": 6, "edge": 0.086, "clv": 0.000, "pnl": 100.26},
+      {"game": "PHI @ ATL", "side": "UNDER", "line": 9.0, "result": "win", "actual": 8, "edge": 0.083, "clv": -0.074, "pnl": 91.54}
+    ],
+    "notes": "OVER continues dominant: LAA@KC 20 runs on 9.0 line. Two UNDERs won but CLV negative on both. DET@CIN 11 runs blew through 9.5."
+  },
+  "k_props": {
+    "record": "0W-0L",
+    "pnl": 0,
+    "notes": "No K-prop bets graded on Apr 26."
+  },
+  "oddstrader_sim": {
+    "record": "12W-8L",
+    "pnl": 16.47,
+    "notes": "Mixed day. TB continues strong (Mlodzinski u4.5K WIN). Many zero-wager bets (tracking only). Wager-weighted results much better."
+  },
+  "combined_pnl": 199.72,
+  "cumulative": {
+    "game_model": {"record": "26W-25L-1P", "pnl": 109.06, "bankroll": 5109.06},
+    "k_props": {"record": "38W-25L", "pnl": 910.63, "bankroll": 3910.63},
+    "oddstrader_sim": {"record": "63W-54L", "pnl": 263.01, "bankroll": 5263.01},
+    "combined_pnl": 1282.70,
+    "total_graded": 232,
+    "progress_to_300": 77.3
+  },
+  "clv_update": {
+    "overall_avg": -0.0046,
+    "over_avg": 0.0116,
+    "under_avg": -0.0086,
+    "over_positive_rate": 0.71,
+    "under_positive_rate": 0.36
+  },
+  "edge_buckets": {
+    "5_8pct": {"record": "7W-11L", "pnl": -265.01, "wr": 0.39},
+    "8_12pct": {"record": "14W-7L-1P", "pnl": 772.72, "wr": 0.64},
+    "12plus": {"record": "5W-7L", "pnl": -398.65, "wr": 0.42}
+  }
+}

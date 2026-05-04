@@ -1,0 +1,123 @@
+Case Study: Spanky & Top-Down Betting
+top of page
+Search
+You can have perfect models and still lose. If you’re not watching how the market moves, you’re flying blind. Every sharp book’s line shift carries information. Top-down bettors like Gadoon “Spanky” Kyrollos make a living reading it before everyone else does.
+TLDR:
+Top-down betting means studying the market, not building predictive models.
+Watch how sportsbooks move after limit changes.
+Use odds screens to identify slower-moving books.
+Focus on college sports - there are so many games that bookmakers can't keep up
+Get the free
+Top-Down Betting Cheat Sheet
+to improve fast.
+Why Most Bettors Miss Market Signals
+Most bettors focus on predicting outcomes—who will win, how many points, or what props might hit. But sharp bettors like
+Gadoon “Spanky” Kyrollos
+think differently. They study the
+betting
+market
+itself.
+Instead of asking, “Who’s going to win?” they ask, “Which sportsbook’s price is wrong?”
+Top-down betting flips the process. It’s not about handicapping teams. It’s about handicapping the market.
+When a sharp book like Pinnacle or Circa moves a line, it’s usually because sharp money hit it. That information is gold. If you can identify
+which books reach the
+closing line
+first
+and
+which ones lag
+, you can find short-lived opportunities to bet before the rest of the market catches up.
+Tracking
+which sportsbook reaches the closing line first
+is critical because it helps you separate signal from noise. Any book can move first—but that move only means something if it aligns with the books that typically
+set
+the market. A sharp book is one that consistently ends up closest to the closing line across many events. To identify them, monitor several sportsbooks on an
+odds screen
+over time. Record who moves earliest, who others follow, and who finishes nearest to the final consensus line. Books that repeatedly lead the market to its final price are the true indicators of sharp action.
+Get the free Top-Down Betting Cheat Sheet
+What Is Top-Down Betting?
+Top-down betting starts from the “top” of the market—where the sharpest money moves—and works “down” to slower books.
+You’re essentially following informed money through data. Instead of handicapping, you’re observing
+line movements
+,
+timing
+, and
+price discrepancies
+across sportsbooks.
+Let’s say you notice that Circa moves the total from 143.5 to 145.5 in a college basketball game after limits rise. Within minutes, DraftKings and BetMGM move the same way. If a smaller book like PointsBet hasn’t yet adjusted, you can bet over 143.5 there with an instant edge (depending on price).
+That’s a
+top-down play
+—you’re not guessing outcomes, you’re reading the market.
+How Spanky Applies It
+Gadoon “Spanky” Kyrollos is one of the best-known top-down bettors in the U.S. His team uses a
+custom odds screen
+to track line movement across dozens of sportsbooks in real time.
+He focuses heavily on
+college sports
+because of the sheer number of games. That creates
+inefficiencies
+. As Spanky puts it:
+“The bookmaker can’t keep up.”
+When a few sharp bettors hit a soft number, he spots the ripple effect on his odds screen and jumps on slower books before they react.
+It’s a low-margin game—maybe 1–3% ROI—but when done at scale, that edge compounds.
+Tools That Make It Work
+The foundation of this approach is data. Without a live feed of sportsbook odds, you can’t spot the market moves in time.
+Spanky built his own odds screen, but public tools like the Bettor Ed
+Odds Screen
+, Don Best, or Unabated let you see line moves in real time.
+A few rules for using odds screens effectively:
+Identify who moves first.
+Some sportsbooks react instantly; others lag minutes behind.
+Watch timing around limit changes.
+Sharp money floods in right when books increase limits.
+Mark key indicators.
+When multiple sharp books move together, that’s signal—not noise.
+The Challenges of Top-Down Betting
+Since the legalization of sports betting in the U.S., sharp bettors have faced major resistance. Many books profile winners and
+limit
+their accounts
+, sometimes down to a few dollars per bet.
+Spanky calls it a “cat-and-mouse game.” To stay active, he uses “beards”—people who place bets for him. Offshore books, on the other hand, often
+welcome sharp action
+because they learn from it. They adjust their lines using data from those bets, improving their models and profitability.
+Circa Sports is the exception among legal U.S. operators. They post public limits and take action from anyone. It’s proof that a "fair", transparent model can work—even in the U.S.
+For most bettors, though, you’ll have to find creative ways to scale while staying under the radar. That starts with understanding the principles that separate pros from the public. The book
+Secrets of Sports Betting
+breaks down these exact systems—how sharp bettors think, measure, and adjust—so you can build the same habits that make top-down strategies work.
+What To Do Next
+If you want to apply top-down principles:
+Start tracking line movement daily.
+Even if you’re not betting, watch how lines shift across books.
+Focus on one sport.
+College basketball and mid-major football can offer the most inefficiencies.
+Bet small and collect data.
+The edge is thin but measurable.
+Automate your record-keeping.
+Use
+SlipSync
+to track every bet you make, automatically.
+Review results weekly.
+Look at which sportsbooks and markets give you the best closing line value.
+Top-down betting isn’t about gambling instincts—it’s about pattern recognition and discipline.
+And if you want to shorten the learning curve, download the
+Top-Down Betting Cheat Sheet
+here
+.
+Learn More
+If you’re interested in modeling-based strategies instead, see the
+Simulators
+section for projection tools.
+For a primer on sharp concepts like
+closing line value
+, check our
+Glossary
+.
+FAQ:
+Q: What’s the difference between top-down and bottom-up betting?
+A: Bottom-up betting relies on handicapping and models. Top-down betting starts from market data and looks for pricing errors created by slower sportsbooks.
+Q: Can recreational bettors use top-down strategies?
+A: Yes. Even without a custom odds screen, you can monitor public ones and learn which sportsbooks lag behind.
+Q: Is this approach profitable long-term?
+A: It can be if you execute efficiently and manage accounts well. The key is speed, volume, and discipline.
+Q: What’s the best sport for top-down betting?
+A: College sports, because the volume of games spreads bookmaker attention thin, creating more inefficiencies.
+bottom of page

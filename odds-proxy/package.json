@@ -1,0 +1,16 @@
+{
+  "name": "odds-proxy",
+  "version": "1.0.0",
+  "description": "Netlify serverless proxy for sportsbook odds fetching",
+  "private": true,
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  },
+  "scripts": {
+    "dev": "netlify dev",
+    "deploy": "netlify deploy --prod"
+  }
+}

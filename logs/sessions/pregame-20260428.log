@@ -1,0 +1,31 @@
+=== Sports Edge Analyst Session: pregame ===
+=== 2026-04-28 18:00 UTC ===
+
+## Pre-Game Review Complete
+
+**34 picks live for April 28.** Here's the summary:
+
+### Game Model (1 pick)
+**MIA @ LAD OVER 8.5 (-104) -- $127 wager. HIGH confidence.**
+- CLV already +3.97% (line moved to -122). Market is moving our way.
+- OVER-only strategy is 6W-2L, stat significant (p=0.017). This is our best signal.
+- One concern: home pitcher listed as "Unknown" -- need to verify it's not an ace.
+
+### K-Props (9 picks, $824 total exposure)
+- **2 legacy bets above the new 20% edge cap** (Ohtani 32.3%, Bibee 23.1%) -- these are tracked but would NOT be generated today. Best test cases for whether the cap works.
+- **deGrom U 7.5** is another elite pitcher the model likely underestimates. Low confidence.
+- **Best bets in this batch**: Tolle, Yesavage, Cabrera, Mize -- sub-20% edge on mid-tier arms where the model is calibrated well.
+- **Mize U 4.5** is the highest confidence pick (smallest edge = least model overconfidence).
+
+### OddsTrader Sim (24 picks, ~$2,500 estimated)
+TB unders remain the strongest signal in the system (38W-18L, 68%, p=0.005).
+
+### Key Watchlist
+1. **Ohtani actual Ks** -- model says 4.16, market says ~7-8. Direct test of the elite pitcher regression flaw.
+2. **Bibee and deGrom Ks** -- same test pattern.
+3. **MIA @ LAD final** -- validate CLV and OVER thesis.
+
+### Risk Note
+~$3,450 total exposure is our heaviest day. MIA @ LAD has 4-5 overlapping bets across models -- that's our biggest correlation risk spot.
+
+=== Session Complete: 2026-04-28 18:02 UTC ===

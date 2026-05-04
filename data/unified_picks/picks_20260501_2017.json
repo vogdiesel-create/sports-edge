@@ -1,0 +1,63 @@
+{
+  "timestamp": "2026-05-01T20:17:22.667156+00:00",
+  "bankroll": 5192.939999999998,
+  "total_picks": 2,
+  "tier_counts": {
+    "S": 0,
+    "A": 1,
+    "B": 1
+  },
+  "total_exposure": 291.33,
+  "picks": [
+    {
+      "source": "mlb_model",
+      "sport": "MLB",
+      "market_type": "totals",
+      "game": "MIL @ WSH",
+      "side": "OVER",
+      "market_line": 8.0,
+      "odds": -102,
+      "model_total": 10.27,
+      "our_prob": 0.586,
+      "edge": 0.1004,
+      "poisson_total": 9.99,
+      "xgboost_total": 12.18,
+      "market_total_implied": 8.0,
+      "weather_impact": "-0.1 runs (60F, wind out 10mph)",
+      "home_pitcher": "Jake Irvin",
+      "away_pitcher": "Jacob Misiorowski",
+      "model_confidence": 0.586,
+      "tier": "A",
+      "level1_confirms": false,
+      "level1_detail": null,
+      "side_penalty": false,
+      "kelly_pct": 3.0,
+      "wager": 155.79
+    },
+    {
+      "source": "mlb_model",
+      "sport": "MLB",
+      "market_type": "totals",
+      "game": "BAL @ NYY",
+      "side": "OVER",
+      "market_line": 8.5,
+      "odds": -110,
+      "model_total": 9.57,
+      "our_prob": 0.6232,
+      "edge": 0.0994,
+      "poisson_total": 10.44,
+      "xgboost_total": 9.71,
+      "market_total_implied": 8.5,
+      "weather_impact": "-0.0 runs (52F, wind out 7mph)",
+      "home_pitcher": "Will Warren",
+      "away_pitcher": "Unknown",
+      "model_confidence": 0.6232,
+      "tier": "B",
+      "level1_confirms": false,
+      "level1_detail": null,
+      "side_penalty": false,
+      "kelly_pct": 2.61,
+      "wager": 135.54
+    }
+  ]
+}

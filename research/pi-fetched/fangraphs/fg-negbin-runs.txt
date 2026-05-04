@@ -1,0 +1,137 @@
+Run Distribution Using the Negative Binomial Distribution | Community Blog
+<
+! -- END HEAD -->
+<! -- END HEADER -->
+Run Distribution Using the Negative Binomial Distribution
+by
+Sean Dolinar
+September 9, 2014
+In this post I use the negative binomial distribution to better model the how MLB teams score runs in an inning or in a game. I wrote a
+primer
+on the math of the different distributions mentioned in the post for reference, and this post is divided to a baseball-centric section and a math-centric section.
+The Baseball Side
+A team in the American League will average .4830 runs per inning, but does this mean they will score a run every two innings? This seems intuitive if you apply math from Algebra I [1 run / 2 innings ~ .4830 runs/inning]. However, if you attend a baseball game, the vast majority of innings you’ll watch will be scoreless. This large number of scoreless innings can be described by discrete probability distributions that account for teams scoring none, one, or multiple runs in one inning.
+Runs in baseball are considered rare events and count data, so they will follow a discrete probability distribution if they are random. The overall goal of this post is to describe the random process that arises with scoring runs in baseball. Previously, I’ve used the
+Poisson distribution
+(PD) to describe the probability of getting a certain number of runs within an inning. The Poisson distribution describes count data like car crashes or earthquakes over a given period of time and defined space. This worked reasonably well to get the general shape of the distribution, but it didn’t capture all the variance that the real data set contained. It predicted fewer scoreless innings and many more 1-run innings than what really occured. The PD makes an assumption that the mean and variance are equal. In both runs per inning and runs per game, the variance is about twice as much as the mean, so the real data will ‘spread out’ more than a PD predicts.
+The graph above shows an example of the application of count data distributions. The actual data is in gray and the Poisson distribution is in yellow. It’s not a terrible way to approximate the data or to conceptually understand the randomness behind baseball scoring, but the negative binomial distribution (NBD) works much better. The NBD is also a discrete probability distribution, but it finds the probability of a certain number of failures occurring before a certain number of successes. It would answer the question, what’s the probability that I get 3 TAILS before I get 5 HEADS when I continue to flip a coin. This doesn’t at first intuitively seem like it relates to a baseball game or an inning, but that will be explained later.
+From a conceptual stand point, the two distributions are closely related. So if you are trying to describe why 73% of all MLB innings are scoreless to a friend over a beer, either will work. I’ve plotted both distributions for comparison throughout the post. The second section of the post will discuss the specific equations and their application to baseball.
+Runs per Inning
+Because of the difference in rules regarding the designated hitter between the two different leagues there will be a different expected value [average] and variance of runs/inning for each league. I separated the two leagues to get a better fit for the data. Using data from 2011-2013, the American League had an expected value of 0.4830 runs/inning with a 1.0136 variance, while the National League had 0.4468 runs/innings as the expected value with a .9037 variance. [So NL games are shorter and more boring to watch.] Using only the expected value and the variance, the negative binomial distribution [the red line in the graph] approximates the distribution of runs per inning more accurately than the Poisson distribution.
+It’s clear that there are a lot of scoreless innings, and very few innings having multiple runs scored. The NBD allows someone to calculate the probability of the likelihood of an MLB team scoring more than 7 runs in an inning or the probability that the home team forces extra innings down by a run in the bottom of the 9th. Using a pitcher’s expected runs/inning, the NBD could be used to approximate the pitcher’s chances of throwing a no-hitter assuming he will pitch for all 9 innings.
+Runs Per Game
+The NBD and PD can be used to describe the runs scored in a game by a team as well. Once again, I separated the AL and NL, because the AL had an expected run value of 4.4995 runs/game and a 9.9989 variance, and the NL had 4.2577 runs/game expected value and 9.1394 variance. This data is taken from 2008-2013. I used a larger span of years to increase the total number of games.
+Even though MLB teams average more than 4 runs in a game, the single most likely run total for one team in a game is actually 3 runs. The negative binomial distribution once again modeled the empirical distribution well, but the PD had a terrible fit when compared to the previous graph. Both models, however, underestimate the shut-out rate. A remedy for this is to adjust for
+zero-inflation
+. This would increase the likelihood of getting a shut out in the model and adjust the rest of the probabilities accordingly. An inference of needing zero-inflation is that baseball scoring isn’t completely random. A manager is more likely to use his best pitchers to continue a shut out rather than randomly assign pitchers from the bullpen.
+Hits Per Inning
+It turns out the NBD/PD are useful with many other baseball statistics like hits per inning.
+The distribution for hits per inning are slightly similar to runs per inning, except the expected value is higher and the variance is lower. [AL: .9769 hits/inning, 1.2847 variance | NL: .9677 hits/inning, 1.2579 variance (2011-2013)] Since the variance is much closer to the expected value, hits per inning has more values in the middle and fewer at the extremes than the runs per inning distribution.
+I could spend all day finding more applications of the NBD and PD, because there are really a lot of examples within baseball. Understanding these discrete probability distributions will help you understand how the game works, and they could be used to model outcomes within baseball.
+The Math Side
+Hopefully, you skipped down to this section right away if you are curious about the math behind this. I’ve compiled
+the numbers
+used in the graphs for the American League for those curious enough to look at examples of the actual values.
+The Poisson distribution is given by the equation:
+There are two parameters for this equation: expected value [λ] and the number of runs you are looking to calculate [x]. To determine the probability of a team scoring exactly three runs in a game, you would set x = 3 and using the AL expected runs per game you’d calculate:
+This is repeated for the entire set of x = {0, 1, 2, 3, 4, 5, 6, … } to get the Poisson distribution used through out the post.
+One of the assumption the PD makes is that mean and the variance are equal. For these examples, this assumption doesn’t hold true, so the empirical data from actual baseball results doesn’t quite fit the PD and is overdispersed. The NBD accounts for the variance by including it in the parameters.
+The negative binomial distribution is usually symbolized by the following equation:
+where r is the number of successes, k is the number of failures, and p is the probability of success. A key restriction is that a success has to be the last event in the series of successes and failures.
+Unfortunately, we don’t have a clear value for p or a clear concept on what will be measured, because the NBD measures the probability of binary, Bernoulli trials. It’s helpful to view this problem from the vantage point of the fielding team or pitcher, because a SUCCESS will be defined as getting out of the inning or game, and a FAILURE will be allowing 1 run to score. This will conform to the restriction by having a success [getting out of the inning/game] being the ultimate event of the series.
+In order to make this work the NBD needs to be parameterized differently for mean, variance, and number of runs allowed [failures]. The NBD can be written as
+where
+So using the same example as the PD distribution, this would yield:
+The above equations are adapted from this blog about
+negative binomials
+and this one about
+applying the distribution to baseball
+. The Γ function used in the equation instead of a combination operator because the combination operator can’t handle the non-whole numbers we are using to describe the number of successes.
+Conclusion
+The negative binomial distribution is really useful in modeling the distribution of discrete count data from baseball for a given inning or game. The most interesting aspect of the NBD is that a success is considered getting out of the inning/game, while a failure would be letting a run score. This is a little counterintuitive if you approach modeling the distribution from the perspective of the batting team. While the NBD has a better fit, the Poisson distribution has a simpler concept to explain: the count of discrete events over a given period of time, which might make it better to discuss over beers with your friends.
+The fit of the NBD suggests that run scoring is a negative binomial process, but inconsistencies especially with shut outs indicate elements of the game aren’t completely random. I’m explaining the underestimation of the number of shut outs as the increase use of the best relievers in shut out games over other games increasing the total number of shut outs and subsequently decreasing the frequency of other run-total games.
+All MLB data is from
+retrosheet.org
+. It’s available free of charge from there. So please check it out, because it’s a great data set. If there are any errors or if you have questions, comments, or want to grab a beer to talk about the Poisson distribution please feel free to tweet me
+@seandolinar
+.
+Pitch Win Values for Starting Pitchers — August 2014
+Kevin Gausman’s One-Dimensional Attack
+I build things here.
+6
+Comments
+Oldest
+Newest
+Most Voted
+Inline Feedbacks
+View all comments
+Andy
+11 years ago
+It seems to me that this approach could be very useful in illuminating the nature of batting streaks and slumps. There are at least two major aspects of these slumps. The first is BABIP. It’s assumed that every hitter has a characteristic BABIP, as determined from a large sample size, and that short-term deviations from this may account to some extent for periods in which he is more or less successful as a hitter than his overall average indicates. Changes in BABIP seem to be somewhat random, and if that was all that was going on during streak or slumps–random chance whether balls are hit to fielders or in gaps–would probably follow a PD.
+But when hitters get hot or go cold, it’s not all about BABIP. Their strike out rate usually goes down or up, respectively, as well. When they streak, they make better contact, which will result in more BIP, and probably also a greater BABIP (because the ball is hit more squarely, and thus more likely to be a LD, and harder, so more likely to travel a great distance), and conversely, a slump is associated with poorer contact, fewer BIP, and probably a lower BABIP.
+So I think to get at the root of this problem, we need to look at contact rates. Though these will themselves depend on multiple factors–how often the batter is swinging at balls in the zone vs. out of it, his bat speed, and just how well he’s contacting any given pitch at a particular location–I would think they would have a random distribution, which might be used to predict how often and for how long batters are likely to go into streaks or slumps (suitably defined).
+0
+Sean Dolinar
+11 years ago
+Reply to
+Andy
+hmmmmm….I really like this idea.  Simplify the at bat to a Bernoulli trial.  Basically if there was no streakiness…everything is random, the empirical distribution would follow the NBD.  If there were streaks, it would bunch up.
+success: get on base/put the ball in play/strike out
+failure: get out/don’t put the ball in play/not a strike out
+0
+tz
+11 years ago
+What would happen if you did this?
+1. Use the NBR directly to calculate the probability of getting k baserunners before you get 3 outs, for all values of k.
+2. Take actual MLB data and develop conditional probability distriubtions for the number of runs scored given k baserunners reaching safely.
+3. Use Bayes’ theorem to convert steps 1 and 2 into a distribution of runs per inning.
+I think this might be a rough measure of expected runs if at-bat outcomes were independent, which would be an interesting comparison to the distributions you developed directly from the data on runs per inning.
+1
+Sean Dolinar
+11 years ago
+Reply to
+tz
+I actually thought of something similar, but I haven’t wrapped my head completely around the math for it using the distribution for runs/inning and obtaining the runs/game.  I don’t see why this wouldn’t be any different mathematically, which would be cool.
+I think you could empirically determine an expected value for base runners per inning and variance for it.  Now would who use total base runners  (H + BB + HBP + ROE) or something like (RUNS + LOB) to determine base runners. <- this would account for CS, GIDP, etc.
+0
+studes
+11 years ago
+I don’t know if you’ve linked to it already, but Patriot had a nice four-part series on this subject a couple of years ago.  Here is his article on negative binomials:
+http://walksaber.blogspot.com/2012/06/on-run-distributions-pt-2.html
+The best approach I know of is the Tango distribution, which is describes in Patriot’s fourth part:
+http://walksaber.blogspot.com/2012/06/on-run-distributions-pt-4.html
+The entire series may be of value to people interested in this subject.
+0
+Sean Dolinar
+11 years ago
+Reply to
+studes
+Yeah, I actually used the 2nd part of his entry to get the negative binomial distribution to work.  It was really useful.  I didn’t want to dive into the zero modification or Tango distribution, just time/and post length.  I’d like to understand what the Tango distribution actually means besides being able to model the empirical distribution well.  I also like more formal math symbolism; it makes it easier for me to understand what happens.
+0
+Insert
+You are going to send email to
+Send
+Move Comment
+Move
+Updated: Monday, April 13, 2026 11:35 PM ET
+Updated: 4/13/2026 11:35 PM ET
+@fangraphs
+-
+Contact Us
+-
+Advertise
+-
+Terms of Service
+-
+Privacy Policy
+All major league baseball data including pitch type, velocity, batted ball location,
+        and play-by-play data provided by Sports Info Solutions.
+Major League and Minor League Baseball data provided by Major League Baseball.
+Mitchel Lichtman
+All UZR (ultimate zone rating) calculations are provided courtesy of Mitchel Lichtman.
+TangoTiger.com
+All Win Expectancy, Leverage Index, Run Expectancy, and Fans Scouting Report data licenced from TangoTiger.com
+Retrosheet.org
+Play-by-play data prior to 2002 was obtained free of charge from and is copyrighted
+        by Retrosheet.
+<! -- END FOOTER -->

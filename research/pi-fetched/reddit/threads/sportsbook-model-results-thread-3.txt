@@ -1,0 +1,456 @@
+# Simple Model Guide (Excel)
+
+[derekjohn | 112 pts | 74 comments]
+
+To make any kind of data model for simple analysis, we are going to need the following sections:
+
+* 1. A way to get our data of the sport we want to play
+* 2. A way to update our data with every passing game in the sport so our analysis can be more and more accurate as the season goes on (This is really important because doing it manually can take a lot of time, we want this automated)
+* 3. We need to format our data to be readable and neat
+* 4. We need some kind of formula or basis for our analysis of the data and our predictions
+* 5. We need to keep track of our system's picks and how accurate they were, and we need to adjust our system if it isn't profitable
+
+**Section 1:**
+
+The best / easiest ways to get data in Excel are through the 'Data' tab on the menu bar in Excel. For the purpose of this model, I'm going to use the NBA as the sport I'm focusing on. [Imgur](http://i.imgur.com/ePkn1Sz.png)
+
+Now, first we need to find a webpage that is always kept up to date and that holds tables of data on the NBA.
+The link that I'll use is:       http://www.nbaminer.com/four-factors/
+
+This link contains the current data of the four factors statistics for the NBA. The four factors is a concept created by Dean Oliver and they create a formula for NBA success, looking at shooting, turnovers, rebounds, and free throws.
+
+So, after we have selected 'From Web' on the 'Data' tab, it will show something like this: [Imgur](http://i.imgur.com/Zv2vMQE.png)
+
+Then, we navigate to our website url we chose for our data (http://www.nbaminer.com/four-factors/) in the explorer window and we click the yellow arrow next to the table and then click the import button [Imgur](http://i.imgur.com/gxCHWF8.jpg). This will bring up a small window asking where you want to put the data in Excel, just put it in A1 for now. 
+
+Now, you should have something like this: [Imgur](http://i.imgur.com/c2ue99J.png), obviously the data is all correct, but the team names didn't import for whatever reason, you'll have to manually input those later when we get to section 3.
+
+**Section 2:** 
+
+This section is easy! Since we pulled the data from a website instead of manually inputting it into our spreadsheet, all we have to do is click the 'Refresh All' button! We can also set a setting in Excel to automatically refresh our data when the spreadsheet is opened. So, whenever you need to update your data just click the 'Refresh All' button and the data you pulled will be pulled again. Keep in mind that the data will only update if our site we are pulling from updated.
+
+**Section 3:** 
+
+Here's where I get a little picky. Our data doesn't look nice yet. The team names aren't there either. I will generally just move (cut/paste) all of my data way over in the right side of the spreadsheet, with the top left cell being in Z1. Then I will go back to column A and input all of the team names (they're in alphabetical order for this data) and just go to B2 and put in "=AA2", then click and drag the contents down, then highlight that whole column and drag it over to M2 to have all of my data. It should look like this after you make it look pretty in your own way: [Imgur](http://i.imgur.com/bvQ0eRW.png)
+
+Then you can fill columns with color or whatever. As you can see I like to bold column/row names and input borders to make it neat. You can see the raw data on the right side, that's our data that will refresh when we click 'Refresh All' and when that data refreshes our neat table on the left will too because we set their cells to equal the values of the ones on the right. 
+
+My beautified table looks like this: [Imgur](http://i.imgur.com/GMxYC0u.png)
+
+**Section 4:** 
+
+We need a formula! Now, here is where I think we should decide to do only spread betting and I think I'm going to make a formula that will output a rating of a team based on the four factors. Then I'll assume that the higher rated team should win (don't know by how much) and if my pick to win is the underdog on the spread and there aren't any major injuries on the team, then I'll play that game. This is a simple system that should only have me playing a few games a week, but it should win a lot theoretically. 
+
+The formulas I am using are:
+
+* Offense Rating =.4(team EFg%)+.25(1-team TO rate)+.2(team off reb %)+.15(team FT rate)
+
+* Defense Rating =.4(1-opp team EFg%)+.25(opp team TO rate)+.2(1-opp off reb %)+.15(1-opp team FT rate)
+
+* Total Rating = Offense Rating + Defense Rating
+
+This is a simple system which weights different aspects. Here is the results with conditional formatting applied: [Imgur](http://i.imgur.com/2DTPHwr.png)
+
+**Section 5:** 
+
+Now, we need to keep track of the picks our system makes. For my system, I'm only going to play a game if there are no major injuries and the underdog has a higher 'Total Rating' on my spreadsheet than the favored team. This should allow me to take the better team and a positive spread, giving me a high chance to win.
+
+This part is important. You need to keep track of how well your system is doing and you might want to adjust it if it isn't winning over 60% of the time or so. For instance, tonight the Heat played the Celtics. My ratings say the Heat have a slightly higher total score (.9917) over Boston (.9905) and therefore the Heat should win. Now, the spread is Boston -3. Therefore we will take the Heat and the points (theoretically) and we would win the bet as the Heat won by 8 tonight. This system is very simple, but it should work in the long run.
+
+Now, make sure that before you start putting money on your system, you run it for a few weeks or so and make sure it is profitable in the long run. Sure you may have bad days, but overall you should be winning.
+
+**Notes:**
+
+* Some things you will find useful are the FORECAST() function in Excel and some other things such as standard deviation. The forecast function is very useful to forecast how accurate your next prediction should be. It also really helps to be knowledgeable in the basic use of Excel and formulas in Excel. You might want to read up on that.
+
+* You might want to adjust for home/away advantage and for fatigue on back to back games.
+
+* I know this guide is very simple, it is intended for those that are new to data analysis and data gathering.
+
+* I kept adding to the example NBA model, here it is with the area where my predictions are and outcomes: [Imgur](http://i.imgur.com/noCu67p.png)
+
+/u/Matty-P brought up some good Excel knowledge that is super useful:
+
+* VLOOKUP - learn how to use this function. This is a huge step for automatically finding the numbers you need out of tables.
+* IF, AND, OR - these are essential for determining logic. Learn these as well.
+* Using the "$" symbol. You can set cells to reference a single cell in your spreadsheet (also key for VLOOKUP). For example, I have one of my decision points to make bets in the top of my spreadsheet in cell Z1. If I set up a formula like =IF( AND(Q719=K719, ABS(R719)-ABS(M719)&gt;=$Z$1), "FAV", "") then I can change the value in Z1 and see how it affects my results. I can auto-drag this formula down through every row and not have to change the reference to Z1, while all of the references to row 719 will continue to the next rows. (There are a bunch more IF formulas in there as well)
+
+
+Let me know if you have any suggestions to add to this guide or have any questions!
+
+---
+## Comments
+
+[igoshelf | 6 pts]
+For those of you using Mac - when importing the data into Excel:
+
+1. On http://www.nbaminer.com/four-factors/ - click Export - then export to excel
+
+2. Create a plain text file, and enter the URL generated into the body of text, followed by 2 spaces.
+
+3. Save this file under Microsoft Office -&gt; Office -&gt; Queries
+
+4. Open excel and on the top bar (not the Excel toolbar) click Data -&gt; Get external data -&gt; Run saved query
+
+This should import everything smoothly
+
+  [[deleted] | 1 pts]
+  [deleted]
+
+    [igoshelf | 1 pts]
+    Sorry this wasn't clearer - enter the url generated as the body of the txt file followed by 2 spaces, you can name the file what ever you want.
+
+Also, my Text Edit was defaulted to saving as rich text file which didn't work when I went to use it as the query - you have to change the default format to plain text.
+
+      [aznhobo1 | 1 pts]
+      I was able to get this to work on Mac Excel 2011 but I had to add the additional lines for formatting below:
+
+WEB  
+1  
+http://www.nbaminer.com/nbaminer_nbaminer/four_factors.php?operation=eexcel&amp;partitionpage=&amp;partition2page=    
+
+Selection=EntirePage  
+Formatting=All  
+PreFormattedTextToColumns=True  
+ConsecutiveDelimitersAsOne=True  
+SingleBlockTextImport=False  
+  
+
+  [m25l | 1 pts]
+  i think i completed step 1 pretty easily. once i have the url with the data, I'm not sure how to create the plain text file or how to save the file "under Microsoft Office -&gt; Office -&gt; Queries"
+
+I am using mac and and Excel for mac 2011
+
+Edit: Nevermind I figured it out. This video helped me if anyone else is having trouble on mac
+
+https://www.youtube.com/watch?v=iMO4Shnj1kI
+
+[Matty-P | 6 pts]
+A couple of things that might be handy for the excel noobs:
+
+* VLOOKUP - learn how to use this function.  This is a huge step for automatically finding the numbers you need out of tables.
+* IF, AND, OR - these are essential for determining logic.  Learn these as well.
+* using the "$" symbol.  You can set cells to reference a single cell in your spreadsheet (also key for VLOOKUP).  For example, I have one of my decision points to make bets in the top of my spreadsheet in cell Z1.  If I set up a formula like =IF( AND(Q719=K719, ABS(R719)-ABS(M719)&gt;=$Z$1), "FAV", "")  then
+I can change the value in Z1 and see how it affects my results.  I can auto-drag this formula down through every row and not have to change the reference to Z1, while all of the references to row 719 will continue to the next rows.  (There are a bunch more IF formulas in there as well)
+
+Hopefully this makes some sort of sense.
+
+  [derekjohn | 1 pts]
+  I use a ton of IF statements and I have also used V and HLOOKUP quite a bit. I agree these are very essential. The $ symbol is really useful too and knowing how to use it can really save you some time in allowing you to click drag some formulas.
+
+I'll add these to OP.
+
+[[deleted] | 4 pts]
+Wow man pretty impressive definitely blows my spreadsheets out of the water.
+
+  [derekjohn | 3 pts]
+  Well, this should help you then. The real thing that is super useful is the automatic data pulling.
+
+[Final21 | 3 pts]
+If you hit the export to excel button before you import it on your website it will create a table that includes team names.
+
+[tigerw00ds | 3 pts]
+this is awesome, [kudos](http://i.imgur.com/KCFSNzT.jpg)
+
+[smorgleboard | 3 pts]
+Awesome stuff man. Where would you recommend someone looks to next to further develop an understanding of models and how to make them more advanced?
+
+  [TheeSage | 4 pts]
+  Learn R.  The future is datasets too big for   .xls
+
+    [BigDaddyNYJ | 2 pts]
+    How hard is it to learn R? I have very little previous experience in coding. 
+
+Also, how did you use it? Code Academy? Thanks
+
+      [derekjohn | 2 pts]
+      I mean R is very useful, but shouldn't be necessary unless your sport has a TON of teams in it. It's when you try to gather data for all of CFB or NCAAM that you need databasing and coding. I would also suggest you look into Matlab and maybe databases. With large data sets you're really getting into an area where coding is necessary.
+
+  [derekjohn | 1 pts]
+  Statistics and Excel functionality. There are so many useful built in functions in Excel and having a basic understanding of what they do and how to use them is very useful. Google is your friend. Math knowledge helps too. Coming up with a formula that wins is the most important part. You could also incorporate VBA coding and databasing into your spreadsheet, taking out the need for the raw data thrown over on the right side of your sheet.
+
+[igoshelf | 2 pts]
+Awesome stuff man!
+
+How has this model been performing for you?
+
+  [derekjohn | 1 pts]
+  I literally made it last night as I typed this out. It has only been run on the Heat and Lakers games last night 1-1 record.
+
+    [[deleted] | 1 pts]
+    [deleted]
+
+      [derekjohn | 1 pts]
+      I didn't keep it going as I started a new job
+
+[BigDaddyNYJ | 2 pts]
+Hey DerekJohn, 
+
+Loved this. A lot of what you said is what I already knew, but I wish I had this blueprint when I started to make a spreadsheet. 
+
+Some questions if you have some free time: 
+
+1. The 60% number, at least in my mind is ambitious. Maybe I have bought in to much into the "no way you will hit 60% consistently. Currently I'm hitting 57% in my season long data and 69% in my Last 10 games data (I just started this two weeks ago so this is obviously a small sample size). 
+
+2. Do you feel like there should be more factors added into the system rather than Oliver's four factors? If so, what?
+
+3. How do you account for injuries? 
+
+4. Do you account for HCA? You mentioned you account for fatigue. How I use [this](http://killersports.com/nba/query) to account for fatigue and HCA. 
+
+Thanks again, looking forward to your reply. 
+
+  [Matty-P | 3 pts]
+  I'll answer for mine
+
+1. I am over 60% for all of my models.  Over 60% is my goal; I typically will not use a system if it's &lt;60%.  So personally I think it may be a myth.  I have systems tracked for 2 years; so it's conceivable that over 5 years they may not be &gt;60%.  Time will tell.
+
+2. Do what works for you - you will need to experiment.  What I did was run R-Square analysis on factors versus points, and I took the top results.  Go read about R-square if you're not familiar with it.
+
+3. This is the most difficult part of my system.  Typically I won't bet on a team that lost it's all-star level player for 5 games or so.  But I don't have any hard/fast rules... this is the only part where I have to use my gut.
+
+4.  I do not factor in HCA at all.  Not saying that's correct; it's what has worked for me though.
+
+    [BigDaddyNYJ | 2 pts]
+    Thanks for your reply
+
+What is the benefit of a R-Square analysis?
+
+      [Matty-P | 2 pts]
+      It helps find what variables correlate with each other.  1 = perfect correlation (you will never find this with real-world examples).
+
+For example, ORtg/DRtg correlate highly with pts scored / pts allowed (Rsquare values around 0.8 for 12-13-14 if I recall).
+
+Now, there is some inherent problems with using it.  One of the highest correlations with points is FGM.   Well of course it does!  But this is not useful as a predictor - the correlation is because the points results from made field goals.  This is where stats like ORtg/DRtg come into play.
+
+In excel you can use RSQ() as a function and excel does it all for you.
+
+        [[deleted] | 1 pts]
+        Good ol' causation vs. correlation. Good input.
+
+
+  [derekjohn | 1 pts]
+  Well, I mean I know that 57% can be profitable, but over 60% is ideal for me. For instance, in the NHL, I'm currently hitting somewhere between 65-73% over about 150 games. It really depends on your lines though. For NBA 54% or so should be profitable, but if you're doing ML bets on NHL you need to be more accurate because the lines are higher.
+
+Yes, I would definitely add more factors to the formula, this was mostly a for instance and I made the spreadsheet as I was typing this up. I am going to keep working on it and adding to it. I would adjust for home/away and probably fatigue and maybe change the weights.
+
+The best way to account for injuries is to first off ask if they really matter that much. For NBA, injuries are much more important to a team than say NFL because individual players have a much bigger impact. I would really just look at the teams your system says are a play and check for injuries on the team it picked.
+
+Well, in all honesty, this is more of an approximation. You can google to find out what percent advantage the home team has on average for the sport you are playing or you can just try a percent between 0 and 10% and back check to see if it makes your model more accurate, if not then try the next percentage. It should definitely be between 0-10% unless it is a college sport. For the NHL I have found that I should adjust by only 2% for home teams.
+
+
+
+
+
+    [BigDaddyNYJ | 2 pts]
+    How would you go about determining the change to your weights? Just a feel? 
+
+With my adding factors into it, I wasn't specific enough. I should have said it like this: are there other statistics out there that aren't involved in the four factors that we should think about adding into our system?
+
+      [derekjohn | 1 pts]
+      You know, the weights thing is really just adjust until you get a good predictive outcome, but the ones I used are the original ones proposed by the Four Factors creator.
+
+I would actually probably throw in a Pythagorean ratio in there too. It is a concept initially developed for MLB to predict how many wins a team should have based on their points for and against. The formula goes GF^2/(GF^2+GA^2), which will give you a decimal number which you can turn into a percent for a decent Pythagorean ratio. You might want to use different exponents though. (I use 2.1 for NHL). Games where you can score more than one point at a time definitely need a different exponent for the ratio.
+
+I might use the total ratings from the four factors with the pythagorean to come to a total rating.
+
+This is just me personally though, you can honestly just ask yourself what things affect a basketball game's outcome? You can make a formula based on what you deem important and weight the factors yourself.
+
+[[deleted] | 2 pts]
+/u/bucknewman or one of the other mods should make this side bar material.
+
+  [murrayyyyy | 2 pts]
+  We kind of did [2 months ago](http://www.reddit.com/r/sportsbookextra/comments/2lh2af/so_you_want_to_build_a_nba_model_or_one_in_general/) or [2 XMAS ago](https://docs.google.com/document/d/1mN4zhW5-i2GAzL56dSfrTR8bSRFEDIXfZZdyJpeQ0lc/edit)
+
+We do have tools in the [wiki](http://www.reddit.com/r/sportsbook/wiki/index) hwere that doesn't get a lot of attention.
+
+I swore I was going to stay out of this convo since I didn't want to take away from the post.
+
+    [derekjohn | 2 pts]
+    I think mines a bit different than those posts in that it's more geared toward data gathering, updating data, and general basics. I did use the Four Factors, but it was just to show that you need a basis for your picks and a solid formula. The NBA aspect of this was just a for instance, I could have picked another sport, but I wanted to make a model for the NBA for myself. I would point to your post and say that is where people should go if they really want to go more in depth into formula breakdowns.
+
+      [murrayyyyy | 2 pts]
+      Like I said, don't want to step on toes here as you did more visuals towards excel versus teh formula.
+
+Just wanted to call out that wiki page since we have it for other sports in general.
+
+  [BuckNewman | 2 pts]
+  Yes, murrayyyyy has already added it to the wiki page.  
+
+[ubermonch | 2 pts]
+Phenomenal stuff. Thanks!
+
+[bAsebAll1332 | 2 pts]
+Any other website that has these stats, but not for the entire season, say for the last 10 games?
+
+  [BuckNewman | 2 pts]
+  dougstats for last 10, nbastuffer for last 5.  or just build them out yourself for more customization.    
+
+  [derekjohn | 1 pts]
+  There are a bunch, but some won't be able to have the table on them accessed by Excel. For instance, the NBA website is much harder to pull data from in the way described in the OP because the data isn't pullable via the yellow arrow import method. 
+
+/u/murrayyyyy uses http://www.basketball-reference.com/leagues/NBA_2015.html for instance. Just google around until you find the data you want to get and then try importing it and see if you can. Some sites can't be pulled from in the method described in OP. This is where you need VBA or API knowledge.
+
+
+
+    [murrayyyyy | 2 pts]
+    dougstats.com is great for 10 day stats but you must compute your own four factors.
+
+      [Matty-P | 4 pts]
+      Note on dougstats: his stats aren't exactly the same as NBA.com or basketball-reference because he pulls from boxscores and scorer's corrections are added later.
+
+I found this while trying to compute some stats and finding Doug under-reporting turnovers.
+
+      [BennAlmighty | 1 pts]
+      Whenever I input the data from 'Last 10 games All Team Raw Data' on Dougstats it puts it into excel as a single cell - is there any way around this ? I wish for it to be displayed as OP has done for NBA Miner 
+
+        [murrayyyyy | 2 pts]
+        Text to columns button
+
+        [BennAlmighty | 1 pts]
+        Thankyou. How do you avoid excel putting all the data back into the same cell when you refresh ? 
+
+        [murrayyyyy | 1 pts]
+        I tell myself having to hit three buttons is a million times better than typing in all this info or becoming a data scraper
+
+        [[deleted] | 1 pts]
+        Build a macro to auto do it for you. I think you can even record macros and turn them into buttons. 1 click vs 3.
+
+
+
+[[deleted] | 2 pts]
+[deleted]
+
+  [derekjohn | 2 pts]
+  You might be able to. The 'Data' tab might be something you need to enable. 
+
+[yallwantsomepancakes | 2 pts]
+Hey this is great.  Any suggestions for any updated feeds for NFL data?
+
+  [derekjohn | 1 pts]
+  I'm not sure on this really and you wouldn't be able to tell until next year when the games start. 
+
+[gochasecory | 2 pts]
+Thanks for posting this! I have a question about this part: 
+
+https://i.imgur.com/noCu67p.png 
+
+What formulas are you using in the 'Away - Home' column? 
+
+Also, are you just updating the scores manually or importing those results from another site?
+
+  [derekjohn | 1 pts]
+  I'm just taking the total rating of the away team - the total rating of home team and then formatting it as a percentage. A positive percent means the away team should be favored, a negative means the home team should be favored.
+
+Right now the scores are put in manually, but I could get them automatically if I wanted, it would probably take some VBA coding though.
+
+[rainman4 | 2 pts]
+Do you have a site where you can pull lines into excel neatly? SBROdds comes in in a single column, not useful at all
+
+  [derekjohn | 1 pts]
+  It all depends on the game you want to bet on. Give me a sport and I'll get you a good site.
+
+    [rainman4 | 1 pts]
+    college basketball, mainly. nfl and ncaaf would be nice too come august
+
+      [derekjohn | 1 pts]
+      I'm not sure on CFB and NFL and I won't be until they start up, but the best way to do college basketball is probably with a database since there are soooooooo many teams. Here's the best data I can find on NCAAM, you will have to download the table as an Excel spreadsheet daily though, you can't pull this table. http://www.sports-reference.com/cbb/seasons/2015-school-stats.html I would recommend just downloading it daily and then copy pasting the info from the downloaded file into another spreadsheet with your formulas in there. Otherwise, you'll probably need to do some VBA coding or API scraping.
+
+        [rainman4 | 1 pts]
+        Thanks. That reference site (or something very similar) has NFL and NCAAF stats, too. I was more interested in lines for games - so pulling all this data in, making your own model, then comparing that to lines offered. Do you do that? 
+
+&gt; Otherwise, you'll probably need to do some VBA coding or API scraping.
+
+That's what I'm worried about...
+
+        [derekjohn | 1 pts]
+        No, I don't do that for NCAAM. The only models I'm actively working on are NHL (Google Spreadsheet), the AHL (Excel), and the NBA (Excel). I haven't touched NCAAM because of the amount of data you need. First you need a way to get over 300 teams worth of data and update it automatically daily. The way I would do this is with Google Spreadsheets and their Google Scripts functionality (basically you create your own formulas using Javascript). I would go to that page I showed you and scrape data from their CSV formatted table and then put it into my spreadsheet. I once did this for Fantasy League of Legends. The lines would be another thing you want to automatically get and update, but you need to get the lines your book offers and that makes it much more complicated. I'm not sure how I would go about doing this part. The rest is just formulas and stuff. 
+
+I might even just make a program that does all this and just asks what teams are playing and then spits out a bet/no bet answer and which side to bet on.
+
+The problem with such a big sport is the complexity sky rockets. For a problem of this magnitude, you really need a database and some coding knowledge. 
+
+  [jexmex | 1 pts]
+  I know I am late to the party, but you could try lines.com.
+
+[Crossfire154 | 2 pts]
+Kind of an excel noob here... My bad if this is dumb, but for some reason when I use the sum function for my offensive and defensive ratings, I'm getting values in the .3ish range for both. What am I doing wrong here?
+
+  [Crossfire154 | 3 pts]
+  nvm i'm stupid and realized I wasn't subtracting one
+
+    [hoodiee | 1 pts]
+    Wow I feel like an idiot now too, I wasn't subtracting one either.
+
+  [hoodiee | 1 pts]
+  I'm having the same issue, I just can't seem to get the correct formula input into excel. The closest I come to trying to replicate the data shown in Step 4 with the picture is I get an offensive rating for the Hawks of .5755
+
+  [Crossfire154 | 1 pts]
+  In general, how often do you think these overall ratings substantially change? Do you think it takes about a week to see a possible significant change? Or could there be substantial change within a few days or even simply just a day?
+
+Just wondering because I'm super late on this, and there's only about 12 games left in the season so I'm trying to back test as many results as possible.  
+
+  [derekjohn | 1 pts]
+  I'm not sure you're making any mistakes. Is the team maybe just a poor team? Maybe you made a mistake with the formulas and made a typo.
+
+[Sir-bobby | 1 pts]
+In the four factor Category with offense,defense and total. Is there a way to update those everyday instead of manually entering the numbers to each one?
+
+  [derekjohn | 1 pts]
+  If they are formulas, they should update with the data updating.
+
+  [derekjohn | 1 pts]
+  I think you worded this poorly because I read it again. Do you mean is there a way to do this without clicking on the away teams score and the home teams score to get the prediction? Or are you actually talking about the offense, defense, and total scores because those should auto update if you used a formula for them all.
+
+    [Sir-bobby | 1 pts]
+    Correct they are not auto updating when i refresh the following day they offense defense and total just stay the same but the everything else updates?
+
+      [derekjohn | 1 pts]
+      Well, did the team you're looking at play last night? If not their score shouldn't change. Also, did you enable the data connection? Sometimes it'll have a thing on the toolbar that says data connection was disabled. Another thing may be that the team you are looking at could have been exactly average with their season stats and thus it wouldn't change. The changes should also be very small. It could have updated when you opened the book too.
+
+Here's what I'd try: go check that the total games won and loss for the teams that played last night are correct. If they are, then your data is right most likely, you just didn't notice the update.
+
+[totes_meta_bot | 1 pts]
+This thread has been linked to from elsewhere on reddit.
+
+
+ - [/r/mistyfront] [Simple Model Guide (Excel) (/r/sportsbook)](http://np.reddit.com/r/mistyfront/comments/2uqdi9/simple_model_guide_excel_rsportsbook/)
+
+
+*^If ^you ^follow ^any ^of ^the ^above ^links, ^respect ^the ^rules ^of ^reddit ^and ^don't ^vote ^or ^comment. ^Questions? ^Abuse? [^Message ^me ^here.](http://www.reddit.com/message/compose?to=%2Fr%2Fmeta_bot_mailbag)*
+
+
+
+[q_17 | 1 pts]
+This is really helpful. I am coming from a statistics background and have two generally comments about the modeling you propose. As a warning, I'm new to sports modeling, but see these two things come up a lot:
+
+(1) Absolutely getting new data as more games are played is a good thing, but how do you prevent your models from being "stuck?" For example, after the 10th game of the season, the most recent game would account for 10% of the team's average, but after 60 games, the most recent game would account for only 1.7%. Later in the season, the model will be slow to react to changes in the team's performance. An easy solution to this is to take only the most recent, say, 30 games of data (this is called a moving window). A more advanced solution would be to allow the newest data to "worth" a certain amount of the average, and more distant data worth less (this would come from Bayesian methods).
+
+(2) The weights you give in Section 4 are based on theory right? My question is, if we have all this data, why not let the data pick the weights? Given a data set with the four factors and the game outcomes, we could find the weights for the four factors that best predict game outcomes. This is called regression and the output is the optimal weights we are interested in.
+
+I've only been thinking about this, but I'll try to follow your post to get data and answer my own questions. But I thought I would ask in the mean time. Thanks again for the great post!
+
+  [derekjohn | 1 pts]
+  1. Yup, if I were going more in-depth I would look at recent games played by the teams. This was meant to be a starting point for those that don't know how to start a model. I would definitely pull more data on the last 10-20 games and weight it about 70% with the total game data being the other 30%.
+
+2. I'm aware that I could change the weights to be more accurate and I probably would if these give poor results, but it is too early to tell with this model. The FORECAST function does regression for you and gives you a prediction based on your data, if you want to use it.
+
+[JohnMaddenSoccer | 1 pts]
+What kind of data can you use to predict soccer bets ? 
+
+  [derekjohn | 1 pts]
+  I'd use heavy Pythagorean Ratios (GF^2 / (GF^2 + GA^2 )) this should give you a good rating, then I would adjust for home field advantage. The problem I have with soccer is that they can end in ties. It really is one of the hardest to pick. I wouldn't personally touch it.
+
+[JustBlewMyLoad | 1 pts]
+Well done!
+
+[aznhobo1 | 1 pts]
+How does the Favorite and Spread columns factor into whatever formula you're using for the "Bet?" column?
+
+  [derekjohn | 1 pts]
+  IIRC, if the team that my data thought should win was not the favorite, then I would bet them on the + value spread.
+
+EX: If my model picked out a team to win and they were +4 on the spread, I'd play the +4 spread. This would give me 4 pts even if they lost (but my model said they should win)
+
+[Mental_Reporter5502 | 1 pts]
+How did you come up with the numbers for this formula? I would like to build a model for the NFL and want a better understanding from this thread

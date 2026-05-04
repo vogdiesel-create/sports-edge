@@ -1,0 +1,544 @@
+{
+  "timestamp": "2026-04-13T04:05:35.114958+00:00",
+  "days": 14,
+  "strategies": {
+    "v2_refined": {
+      "name": "V2 Refined (NHL + edge 3-6% + book filter)",
+      "bets": 0,
+      "wins": 0,
+      "win_rate": 0,
+      "pnl": 0.0,
+      "roi": 0,
+      "bankroll": 1000.0,
+      "daily": []
+    },
+    "v2_nhl_all_books": {
+      "name": "V2 NHL All Books (edge 3-6%)",
+      "bets": 41,
+      "wins": 27,
+      "win_rate": 65.85365853658537,
+      "pnl": 264.45,
+      "roi": 32.25,
+      "bankroll": 1264.45,
+      "daily": [
+        {
+          "date": "2026-03-30",
+          "bets": 3,
+          "pnl": 20.25
+        },
+        {
+          "date": "2026-03-31",
+          "bets": 3,
+          "pnl": 20.25
+        },
+        {
+          "date": "2026-04-01",
+          "bets": 3,
+          "pnl": 20.25
+        },
+        {
+          "date": "2026-04-02",
+          "bets": 3,
+          "pnl": 20.25
+        },
+        {
+          "date": "2026-04-03",
+          "bets": 3,
+          "pnl": 20.25
+        },
+        {
+          "date": "2026-04-04",
+          "bets": 3,
+          "pnl": 20.25
+        },
+        {
+          "date": "2026-04-05",
+          "bets": 3,
+          "pnl": 20.25
+        },
+        {
+          "date": "2026-04-06",
+          "bets": 3,
+          "pnl": 20.25
+        },
+        {
+          "date": "2026-04-07",
+          "bets": 3,
+          "pnl": 20.25
+        },
+        {
+          "date": "2026-04-08",
+          "bets": 3,
+          "pnl": 20.25
+        },
+        {
+          "date": "2026-04-09",
+          "bets": 3,
+          "pnl": 20.25
+        },
+        {
+          "date": "2026-04-10",
+          "bets": 3,
+          "pnl": 20.25
+        },
+        {
+          "date": "2026-04-11",
+          "bets": 3,
+          "pnl": 20.25
+        },
+        {
+          "date": "2026-04-12",
+          "bets": 2,
+          "pnl": 1.2
+        }
+      ]
+    },
+    "v2_multi_sport": {
+      "name": "V2 Multi-Sport (edge 3-6%, no bodog)",
+      "bets": 17,
+      "wins": 15,
+      "win_rate": 88.23529411764706,
+      "pnl": 518.51,
+      "roi": 251.76,
+      "bankroll": 1518.51,
+      "daily": [
+        {
+          "date": "2026-03-30",
+          "bets": 1,
+          "pnl": 37.06
+        },
+        {
+          "date": "2026-03-31",
+          "bets": 1,
+          "pnl": 37.06
+        },
+        {
+          "date": "2026-04-01",
+          "bets": 1,
+          "pnl": 37.06
+        },
+        {
+          "date": "2026-04-02",
+          "bets": 2,
+          "pnl": 57.43
+        },
+        {
+          "date": "2026-04-03",
+          "bets": 1,
+          "pnl": 37.06
+        },
+        {
+          "date": "2026-04-04",
+          "bets": 1,
+          "pnl": 37.06
+        },
+        {
+          "date": "2026-04-05",
+          "bets": 1,
+          "pnl": 37.06
+        },
+        {
+          "date": "2026-04-06",
+          "bets": 3,
+          "pnl": 16.36
+        },
+        {
+          "date": "2026-04-07",
+          "bets": 1,
+          "pnl": 37.06
+        },
+        {
+          "date": "2026-04-08",
+          "bets": 1,
+          "pnl": 37.06
+        },
+        {
+          "date": "2026-04-09",
+          "bets": 1,
+          "pnl": 37.06
+        },
+        {
+          "date": "2026-04-10",
+          "bets": 1,
+          "pnl": 37.06
+        },
+        {
+          "date": "2026-04-11",
+          "bets": 1,
+          "pnl": 37.06
+        },
+        {
+          "date": "2026-04-12",
+          "bets": 1,
+          "pnl": 37.06
+        }
+      ]
+    },
+    "v1_original": {
+      "name": "V1 Original (all sports, edge 2%+, all books)",
+      "bets": 202,
+      "wins": 78,
+      "win_rate": 38.613861386138616,
+      "pnl": -303.68,
+      "roi": -10.56,
+      "bankroll": 696.32,
+      "daily": [
+        {
+          "date": "2026-03-30",
+          "bets": 19,
+          "pnl": -48.08
+        },
+        {
+          "date": "2026-03-31",
+          "bets": 20,
+          "pnl": -58.95
+        },
+        {
+          "date": "2026-04-01",
+          "bets": 19,
+          "pnl": -48.08
+        },
+        {
+          "date": "2026-04-02",
+          "bets": 20,
+          "pnl": -26.16
+        },
+        {
+          "date": "2026-04-03",
+          "bets": 18,
+          "pnl": -36.14
+        },
+        {
+          "date": "2026-04-04",
+          "bets": 17,
+          "pnl": -29.28
+        },
+        {
+          "date": "2026-04-05",
+          "bets": 17,
+          "pnl": -53.64
+        },
+        {
+          "date": "2026-04-06",
+          "bets": 16,
+          "pnl": -49.38
+        },
+        {
+          "date": "2026-04-07",
+          "bets": 12,
+          "pnl": -15.94
+        },
+        {
+          "date": "2026-04-08",
+          "bets": 10,
+          "pnl": 14.31
+        },
+        {
+          "date": "2026-04-09",
+          "bets": 10,
+          "pnl": -6.53
+        },
+        {
+          "date": "2026-04-10",
+          "bets": 9,
+          "pnl": 17.93
+        },
+        {
+          "date": "2026-04-11",
+          "bets": 8,
+          "pnl": 31.41
+        },
+        {
+          "date": "2026-04-12",
+          "bets": 7,
+          "pnl": 4.85
+        }
+      ]
+    },
+    "v2_totals_only": {
+      "name": "V2 Totals Only (all sports, edge 3-5%)",
+      "bets": 0,
+      "wins": 0,
+      "win_rate": 0,
+      "pnl": 0.0,
+      "roi": 0,
+      "bankroll": 1000.0,
+      "daily": []
+    }
+  },
+  "best_strategy": "v2_multi_sport",
+  "best_bets": [
+    {
+      "sport": "NBA",
+      "game": "Phoenix @ Oklahoma City",
+      "market": "moneyline",
+      "side": "away",
+      "book": "unibet",
+      "odds": 300,
+      "edge": 0.0371,
+      "ev": 0.1482,
+      "won": true,
+      "stake": 12.35,
+      "pnl": 37.06,
+      "fair": 0.2871,
+      "date": "2026-03-30",
+      "bankroll": 1037.06
+    },
+    {
+      "sport": "NBA",
+      "game": "Phoenix @ Oklahoma City",
+      "market": "moneyline",
+      "side": "away",
+      "book": "unibet",
+      "odds": 300,
+      "edge": 0.0371,
+      "ev": 0.1482,
+      "won": true,
+      "stake": 12.35,
+      "pnl": 37.06,
+      "fair": 0.2871,
+      "date": "2026-03-31",
+      "bankroll": 1074.12
+    },
+    {
+      "sport": "NBA",
+      "game": "Phoenix @ Oklahoma City",
+      "market": "moneyline",
+      "side": "away",
+      "book": "unibet",
+      "odds": 300,
+      "edge": 0.0371,
+      "ev": 0.1482,
+      "won": true,
+      "stake": 12.35,
+      "pnl": 37.06,
+      "fair": 0.2871,
+      "date": "2026-04-01",
+      "bankroll": 1111.18
+    },
+    {
+      "sport": "NBA",
+      "game": "Phoenix @ Oklahoma City",
+      "market": "moneyline",
+      "side": "away",
+      "book": "unibet",
+      "odds": 300,
+      "edge": 0.0371,
+      "ev": 0.1482,
+      "won": true,
+      "stake": 12.35,
+      "pnl": 37.06,
+      "fair": 0.2871,
+      "date": "2026-04-02",
+      "bankroll": 1148.24
+    },
+    {
+      "sport": "MLB",
+      "game": "Minnesota Twins @ Kansas City Royals",
+      "market": "moneyline",
+      "side": "away",
+      "book": "bet365",
+      "odds": 165,
+      "edge": 0.0308,
+      "ev": 0.0815,
+      "won": true,
+      "stake": 12.35,
+      "pnl": 20.37,
+      "fair": 0.4081,
+      "date": "2026-04-02",
+      "bankroll": 1168.61
+    },
+    {
+      "sport": "NBA",
+      "game": "Phoenix @ Oklahoma City",
+      "market": "moneyline",
+      "side": "away",
+      "book": "unibet",
+      "odds": 300,
+      "edge": 0.0371,
+      "ev": 0.1482,
+      "won": true,
+      "stake": 12.35,
+      "pnl": 37.06,
+      "fair": 0.2871,
+      "date": "2026-04-03",
+      "bankroll": 1205.67
+    },
+    {
+      "sport": "NBA",
+      "game": "Phoenix @ Oklahoma City",
+      "market": "moneyline",
+      "side": "away",
+      "book": "unibet",
+      "odds": 300,
+      "edge": 0.0371,
+      "ev": 0.1482,
+      "won": true,
+      "stake": 12.35,
+      "pnl": 37.06,
+      "fair": 0.2871,
+      "date": "2026-04-04",
+      "bankroll": 1242.73
+    },
+    {
+      "sport": "NBA",
+      "game": "Phoenix @ Oklahoma City",
+      "market": "moneyline",
+      "side": "away",
+      "book": "unibet",
+      "odds": 300,
+      "edge": 0.0371,
+      "ev": 0.1482,
+      "won": true,
+      "stake": 12.35,
+      "pnl": 37.06,
+      "fair": 0.2871,
+      "date": "2026-04-05",
+      "bankroll": 1279.79
+    },
+    {
+      "sport": "NBA",
+      "game": "Portland Trail Blazers @ Denver Nuggets",
+      "market": "moneyline",
+      "side": "away",
+      "book": "caesars",
+      "odds": 270,
+      "edge": 0.0302,
+      "ev": 0.1118,
+      "won": false,
+      "stake": 10.35,
+      "pnl": -10.35,
+      "fair": 0.3005,
+      "date": "2026-04-06",
+      "bankroll": 1269.44
+    },
+    {
+      "sport": "NBA",
+      "game": "Portland Trail Blazers @ Denver Nuggets",
+      "market": "moneyline",
+      "side": "away",
+      "book": "draftkings",
+      "odds": 270,
+      "edge": 0.0302,
+      "ev": 0.1118,
+      "won": false,
+      "stake": 10.35,
+      "pnl": -10.35,
+      "fair": 0.3005,
+      "date": "2026-04-06",
+      "bankroll": 1259.09
+    },
+    {
+      "sport": "NBA",
+      "game": "Phoenix @ Oklahoma City",
+      "market": "moneyline",
+      "side": "away",
+      "book": "unibet",
+      "odds": 300,
+      "edge": 0.0371,
+      "ev": 0.1482,
+      "won": true,
+      "stake": 12.35,
+      "pnl": 37.06,
+      "fair": 0.2871,
+      "date": "2026-04-06",
+      "bankroll": 1296.15
+    },
+    {
+      "sport": "NBA",
+      "game": "Phoenix @ Oklahoma City",
+      "market": "moneyline",
+      "side": "away",
+      "book": "unibet",
+      "odds": 300,
+      "edge": 0.0371,
+      "ev": 0.1482,
+      "won": true,
+      "stake": 12.35,
+      "pnl": 37.06,
+      "fair": 0.2871,
+      "date": "2026-04-07",
+      "bankroll": 1333.21
+    },
+    {
+      "sport": "NBA",
+      "game": "Phoenix @ Oklahoma City",
+      "market": "moneyline",
+      "side": "away",
+      "book": "unibet",
+      "odds": 300,
+      "edge": 0.0371,
+      "ev": 0.1482,
+      "won": true,
+      "stake": 12.35,
+      "pnl": 37.06,
+      "fair": 0.2871,
+      "date": "2026-04-08",
+      "bankroll": 1370.27
+    },
+    {
+      "sport": "NBA",
+      "game": "Phoenix @ Oklahoma City",
+      "market": "moneyline",
+      "side": "away",
+      "book": "unibet",
+      "odds": 300,
+      "edge": 0.0371,
+      "ev": 0.1482,
+      "won": true,
+      "stake": 12.35,
+      "pnl": 37.06,
+      "fair": 0.2871,
+      "date": "2026-04-09",
+      "bankroll": 1407.33
+    },
+    {
+      "sport": "NBA",
+      "game": "Phoenix @ Oklahoma City",
+      "market": "moneyline",
+      "side": "away",
+      "book": "unibet",
+      "odds": 300,
+      "edge": 0.0371,
+      "ev": 0.1482,
+      "won": true,
+      "stake": 12.35,
+      "pnl": 37.06,
+      "fair": 0.2871,
+      "date": "2026-04-10",
+      "bankroll": 1444.39
+    },
+    {
+      "sport": "NBA",
+      "game": "Phoenix @ Oklahoma City",
+      "market": "moneyline",
+      "side": "away",
+      "book": "unibet",
+      "odds": 300,
+      "edge": 0.0371,
+      "ev": 0.1482,
+      "won": true,
+      "stake": 12.35,
+      "pnl": 37.06,
+      "fair": 0.2871,
+      "date": "2026-04-11",
+      "bankroll": 1481.45
+    },
+    {
+      "sport": "NBA",
+      "game": "Phoenix Suns @ Oklahoma City Thunder",
+      "market": "moneyline",
+      "side": "away",
+      "book": "unibet",
+      "odds": 300,
+      "edge": 0.0371,
+      "ev": 0.1482,
+      "won": true,
+      "stake": 12.35,
+      "pnl": 37.06,
+      "fair": 0.2871,
+      "date": "2026-04-12",
+      "bankroll": 1518.51
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "timestamp": "2026-05-03T20:17:06.890326+00:00",
+  "version": "2.0",
+  "picks": [
+    {
+      "source": "game_line_v2",
+      "sport": "NHL",
+      "game": "Minnesota Wild @ Colorado Avalanche",
+      "bet": "total over 6 @ sportsbetting",
+      "odds": "+100",
+      "edge": "4.9%",
+      "ev": "9.7%",
+      "kelly": "2.4%",
+      "confidence": "HIGH",
+      "tier": "A"
+    },
+    {
+      "source": "game_line_v2",
+      "sport": "MLB",
+      "game": "Arizona @ CH Cubs",
+      "bet": "total over 12 @ sportsbetting",
+      "odds": "-105",
+      "edge": "3.2%",
+      "ev": "6.2%",
+      "kelly": "1.6%",
+      "confidence": "HIGH",
+      "tier": "A"
+    },
+    {
+      "source": "game_line_v2",
+      "sport": "NHL",
+      "game": "Minnesota Wild @ Colorado Avalanche",
+      "bet": "total over 6 @ heritage",
+      "odds": "-102",
+      "edge": "4.4%",
+      "ev": "8.7%",
+      "kelly": "2.2%",
+      "confidence": "HIGH",
+      "tier": "B"
+    },
+    {
+      "source": "game_line_v2",
+      "sport": "MLB",
+      "game": "Atlanta Braves @ Colorado Rockies",
+      "bet": "total over 11 @ caesars",
+      "odds": "+133",
+      "edge": "5.6%",
+      "ev": "13.2%",
+      "kelly": "2.5%",
+      "confidence": "MEDIUM",
+      "tier": "C"
+    },
+    {
+      "source": "game_line_v2",
+      "sport": "NHL",
+      "game": "Minnesota Wild @ Colorado Avalanche",
+      "bet": "total over 6 @ fanduel",
+      "odds": "+100",
+      "edge": "4.9%",
+      "ev": "9.7%",
+      "kelly": "2.4%",
+      "confidence": "MEDIUM",
+      "tier": "C"
+    },
+    {
+      "source": "fd_correlation",
+      "sport": "NBA",
+      "game": "Toronto Raptors @ Cleveland Cavaliers",
+      "player": "RJ Barrett Over",
+      "bet": "UNDER_PA 27.5",
+      "edge": "19.5 pts discrepancy",
+      "confidence": "HIGH"
+    },
+    {
+      "source": "fd_correlation",
+      "sport": "NBA",
+      "game": "Toronto Raptors @ Cleveland Cavaliers",
+      "player": "RJ Barrett Under",
+      "bet": "UNDER_PA 27.5",
+      "edge": "19.5 pts discrepancy",
+      "confidence": "HIGH"
+    },
+    {
+      "source": "fd_correlation",
+      "sport": "NBA",
+      "game": "Toronto Raptors @ Cleveland Cavaliers",
+      "player": "RJ Barrett Over",
+      "bet": "UNDER_PRA 33.5",
+      "edge": "19.0 pts discrepancy",
+      "confidence": "HIGH"
+    }
+  ],
+  "game_lines": {
+    "raw": 31,
+    "filtered": 6,
+    "rejected": {
+      "edge_too_high_stale": 3,
+      "unprofitable_book": 1,
+      "edge_too_low": 21
+    },
+    "opportunities": 6,
+    "top_picks": [
+      {
+        "sport": "NHL",
+        "game": "Minnesota Wild @ Colorado Avalanche",
+        "market": "total",
+        "side": "over",
+        "book": "sportsbetting",
+        "odds": 100,
+        "line": 6,
+        "fair_prob": 0.5487,
+        "implied_prob": 0.5,
+        "edge": 0.0487,
+        "ev": 0.0974,
+        "pinnacle_odds": -133,
+        "kelly_pct": 2.44,
+        "tier": "A",
+        "confidence": "HIGH"
+      },
+      {
+        "sport": "MLB",
+        "game": "Arizona @ CH Cubs",
+        "market": "total",
+        "side": "over",
+        "book": "sportsbetting",
+        "odds": -105,
+        "line": 12,
+        "fair_prob": 0.5439,
+        "implied_prob": 0.5122,
+        "edge": 0.0317,
+        "ev": 0.0619,
+        "pinnacle_odds": -130,
+        "kelly_pct": 1.63,
+        "tier": "A",
+        "confidence": "HIGH"
+      },
+      {
+        "sport": "NHL",
+        "game": "Minnesota Wild @ Colorado Avalanche",
+        "market": "total",
+        "side": "over",
+        "book": "heritage",
+        "odds": -102,
+        "line": 6,
+        "fair_prob": 0.5487,
+        "implied_prob": 0.505,
+        "edge": 0.0438,
+        "ev": 0.0866,
+        "pinnacle_odds": -133,
+        "kelly_pct": 2.21,
+        "tier": "B",
+        "confidence": "HIGH"
+      },
+      {
+        "sport": "MLB",
+        "game": "Atlanta Braves @ Colorado Rockies",
+        "market": "total",
+        "side": "over",
+        "book": "caesars",
+        "odds": 133,
+        "line": 11,
+        "fair_prob": 0.4856,
+        "implied_prob": 0.4292,
+        "edge": 0.0564,
+        "ev": 0.1315,
+        "pinnacle_odds": -102,
+        "kelly_pct": 2.47,
+        "tier": "C",
+        "confidence": "MEDIUM"
+      },
+      {
+        "sport": "NHL",
+        "game": "Minnesota Wild @ Colorado Avalanche",
+        "market": "total",
+        "side": "over",
+        "book": "fanduel",
+        "odds": 100,
+        "line": 6,
+        "fair_prob": 0.5487,
+        "implied_prob": 0.5,
+        "edge": 0.0487,
+        "ev": 0.0974,
+        "pinnacle_odds": -133,
+        "kelly_pct": 2.44,
+        "tier": "C",
+        "confidence": "MEDIUM"
+      },
+      {
+        "sport": "NHL",
+        "game": "Minnesota Wild @ Colorado Avalanche",
+        "market": "total",
+        "side": "over",
+        "book": "betmgm",
+        "odds": -105,
+        "line": 6,
+        "fair_prob": 0.5487,
+        "implied_prob": 0.5122,
+        "edge": 0.0365,
+        "ev": 0.0713,
+        "pinnacle_odds": -133,
+        "kelly_pct": 1.87,
+        "tier": "C",
+        "confidence": "MEDIUM"
+      }
+    ]
+  },
+  "player_props": {
+    "props_count": 4258,
+    "line_moves": 20,
+    "correlation_alerts": 20
+  },
+  "backtest": null,
+  "oddstrader_props": {
+    "total_scraped": 0,
+    "actionable": 0
+  }
+}

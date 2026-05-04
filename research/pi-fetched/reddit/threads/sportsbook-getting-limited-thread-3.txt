@@ -1,0 +1,738 @@
+# Limiting wager size due to too much winning
+
+[pargofan | 78 pts | 166 comments]
+
+I'm curious what people think of apps limiting wager sizes.  The state of New York is proposing a law to restrict apps from doing this:
+
+&gt;In sports betting, winning too often can quietly shrink your wager limits to cents; a new bill would make that illegal in New York and could force the country’s biggest betting market to book bets it doesn’t want.
+
+&gt;The Fair Play Act, introduced this week by Assemblymember Alex Bores, would bar licensed sportsbooks from banning or limiting wager sizes unless it is tied to responsible gambling or sports integrity concerns.
+
+&gt;If enacted, New York would be the first US jurisdiction to have a law of its kind. It is the largest US sports betting market where operators begrudgingly play by rules they would elsewhere reject.
+
+&gt;New York’s legislature does not reconvene until January, giving stakeholders time to shape the bill.
+
+&gt;Bores has been examining the industry for over a year, looking at ways to make sure the market serves New Yorkers fairly, he told LSR. That work started with protections for people losing money, but quickly shifted when he learned how fast sportsbooks cut off those who win.
+
+&gt;“It just seemed like a fundamentally unfair proposition that these companies would advertise the idea that you could win a lot of money … and then on top of that, these books are regularly banning the people who are winning,” Bores said. “Winners keep the books honest. Without them, it’s like having a stock market where you could only buy, not sell — you need both sides of the market for there to be a fair field.”
+
+&gt;Sportsbooks often argue limits are necessary when bettors gain too much of an edge. It is an industry-wide practice nearly every major operator uses to protect their margins from sharp players who hunt for pricing mistakes. Casinos have long reserved the same right at the tables, quietly backing off or showing the door to gamblers who beat them too often.
+
+&gt;"People who are doing this for profit are not the players we want,” a message DraftKings CEO Jason Robins has reiterated over the years to investors.
+
+&gt;Both DraftKings and Penn Entertainment note in their annual reports that changing how customers can be limited is a risk factor to their businesses.
+
+&gt;The proposal is a lock to draw heavy opposition from the gambling lobby, which maintains limiting is essential for managing risk. Bores said he is open to good-faith conversations with the sportsbooks but expects heavy opposition.
+
+&gt;“Whether or not it is the best policy, they may come extremely loudly against anything threatening profitability,” he said. “Their most effective tactic has often been mobilizing their users against restrictions, sometimes by outright lying about what a policy does.
+
+&gt;“I think this case is different. It’s clearly a very pro-user policy.”
+
+&gt;The tension is familiar. Operators fought hard against New York’s nation-high 51% tax rate, with Robins calling the market an “unstable foundation” and warning it was “unsustainable.” He testified the company might have to offer worse odds in New York if the tax remained in place. Caesars CEO Tom Reeg went further, calling the tax “ridiculous” and saying it “doesn’t benefit anyone.”
+
+&gt;Yet, the companies stayed. New York handled a US-record $22.7 billion in wagers last year, resulting in more than $1 billion in taxes to fund education.
+
+&gt;Not every threat has been empty, though. In Illinois, DraftKings and FanDuel responded to a new per-bet tax by charging their customers 50 cents per wager, effectively making odds worse. Other sportsbooks subject to a lower tax responded with higher minimum-bet amounts.
+
+&gt;New York isn’t alone in scrutinizing the practice. The Massachusetts Gaming Commission is studying how often bettors are being limited and whether consumers should have recourse when it happens.
+
+&gt;Wyoming regulators, meanwhile, have downplayed concerns, saying fewer than 1% of accounts were limited in that state and that most cases involved suspected cheating or bonus abuse rather than simply winning too often.
+
+&gt;As written, the measure does not specify a minimum-bet threshold or codify other restrictions, leaving the door open for amendments around advertising and additional carveouts. Enforcement would likely fall to the New York State Gaming Commission, which helped draft the bill.
+
+&gt;Bores acknowledged the proposal will evolve and could potentially be folded into a larger gambling package.
+
+&gt;“It’s intentionally not putting a hard limit in … this is the place to start,” Bores said. “There has been a big interest in taking some holistic actions around this industry and I think this will be part of the conversation of bills that we’re looking to do this year.”
+
+&gt;The bill’s first stop is the Assembly’s Racing and Wagering Committee. Bores, meanwhile, is seeking a Senate co-sponsor.
+
+https://www.legalsportsreport.com/243039/new-york-weighs-proposal-to-end-limiting-sports-bettors/
+
+---
+## Comments
+
+[Jeremiah_Vicious | 35 pts]
+If they limit winning bettors, fine. But also limit losing bettors. If some dude is down 2-3k, limit him to 1.37 on all props or other bets. Fair is fair.
+
+  [pargofan | 2 pts]
+  Hence the expression, "ban or bankrupt"
+
+  [Browncowdown2 | 1 pts]
+  Love it
+
+[RandomGuy622170 | 29 pts]
+I think it's complete and utter bullshit. These scummy books have zero problems taking thousands upon thousands from people who consistently lose, or who might have a gambling addiction, but will limit and promo ban consistent winners to oblivion under the facade of "business." It should be flagrantly illegal. I absolutely support what NY is attempting and I hope more states get onboard.
+
+  [KotzubueSailingClub | 2 pts]
+  These books obsess about the vig, so they are getting take every bet. If the vig is not there, fix the data, algorithms, or whatever magic eightball is being used. I'm sure it is a small percentage of bettors getting capped, so it's not like a book is going to steal a massive amount of play by advertising 'no selective capping,' but I worry what else books are doing to squeeze players. If anything should be regulated better, it's those damn 'no sweat bets,' bonuses and 'forgiveness' bets that are completely in opposition to the concept of responsible gambling that these books are required to advertise.
+
+[The_Ghost_of_BRoy | 21 pts]
+“Mrs. Simpson, what did you and your husband do after you were ejected from the sportsbook?”
+
+“We…pretty much went straight home.”
+
+“Mrs. Simpson. You are under oath”
+
+“…we drove around until 3:00 AM looking for another all you can gamble sportsbook”
+
+“And when you couldn’t find one?”
+
+“We started a game of dice in the alleyway by our apartment *(sobs)*”
+
+“Do these sound like the actions of someone who had…ALL they could gamble?
+
+r/sportsbook: “that could’ve been me!”
+
+  [ascherbozley | 2 pts]
+  My worlds are colliding in the best way with this.
+
+[youdidwell | 17 pts]
+Limits are fine as long as they’re universal for a bet. 
+
+I can bet $5 while you can bet $200 is crap
+
+  [rshacklef0rd | 6 pts]
+  same with the promos -some people getting boosts but limited to $5 while others get the same boost but can bet up to $50 isn't fair.
+
+    [[deleted] | 1 pts]
+    These are generally tied to your deposit and average wager amounts. It doesn't make sense to give a $500 promo to someone who bets $5 games and a $500 promo to someone who bets $250 a game. I am okay with varying promotional sizes based on deposit or bet size but overall limits should be public and the same for everyone.
+
+  [pargofan | 4 pts]
+  That's what we're talking about.  Player specific limits after a player wins too much.
+
+    [youdidwell | 1 pts]
+    Cool. I didn’t read the article. People in the comments seem to be talking any limits at all. 
+
+I am fine with a book putting up a bet at a specified limit. I think the way Circa does it is fine.
+
+Are they doing anything about one sided bets? That’s the another trend I’ve seen from DK and FD that bugs me.
+
+    [huntcamp | 1 pts]
+    Amazing. This would be unreal for arbitrage.
+
+[derek61718 | 14 pts]
+Wow NY is trying to pass fair play acts for its customers and here in Illinois we’re getting taxed per wager, with another city of chicago extra tax on the table… SMH
+
+  [nau5 | 5 pts]
+  Yeah the tax per wager is total bs.  I think it's understandable for any state to tax books at a higher rate since they essentially suck economic growth out of the state, but the per wager tax is on the players.  At best it was extremely naïve to think the books wouldn't pass it on to the players.  At worst it was purposefully punitive out of a demonization of gamblers.
+
+[FreshLemon69 | 14 pts]
+Crazy how many sports book industry stans and shills are in this thread commenting and down voting comments
+
+  [scatterdbrain | 8 pts]
+  Most of the people aren't shills.  They're just explaining how the real world (plus decades of business law) works.
+
+Acknowledging the existence/reality of something doesn't automatically make somebody a shill, boot-licker, whatever.
+
+    [filthylimericks | 5 pts]
+    They’re just parroting the same shit everyone says in this context. 
+
+Yes you should read the rules, and understand sports books. 
+
+Doesn’t mean the policy isn’t shady and worth a discussion.
+
+      [scatterdbrain | 2 pts]
+      &gt;Doesn’t mean the policy isn’t shady and worth a discussion.
+
+Agreed about the discussion.  In my poker/sports group, I've probably told 25 people about the practice of limits.  I usually have to show them examples on my phone, because they don't believe me.
+
+I think the Massachusetts committee is asking the right questions.  Unfortunately, I just don’t think it will lead anywhere.  Maybe a token agreement where the books allow everybody a minimum of $50 or $100.  Hooray.
+
+      [plAythEmann0ttHePuck | 1 pts]
+      It's not worth a discussion. No amount of mulling over "how can we make these books lose..." is gonna change a damn thing. If you're bad for business you're getting limited.
+
+Utilize your exchange options, whatever they may be in your part of the world.
+
+[Milkman219 | 11 pts]
+https://preview.redd.it/r4cj8r29oktf1.jpeg?width=1179&amp;format=pjpg&amp;auto=webp&amp;s=0b4a0659f354dee4ffa24c0f0a5658a8c8900708
+
+[[deleted] | 11 pts]
+[deleted]
+
+  [pargofan | 2 pts]
+  Thanks. That X (tweet) link mentioned a catchphrase describing what sportsbooks are doing with customers: "ban or bankrupt".
+
+&gt;Commissioner Eileen O’Brien pointed to similar sentiments Wednesday, telling operators that **there is a phrase that comes up often at the conferences she attends around the country — “ban or bankrupt,”** the perception among some bettors that they will either be enticed with glitzy ads and promos to wager until they run out of money or have their ability to bet at all significantly curtailed as soon as they start to win.
+
+https://www.wwlp.com/news/massachusetts/regulators-grapple-with-company-set-limits-on-sports-betting/
+
+  [VotingRightsLawyer | 0 pts]
+  &gt; One of the suggestions from a MA politician was to set limits as a ratio. Like if a book will take a 25k max bet from a random, they could only limit sharp betters to 1k (for a arbitrarily picked ratio of 25:1)
+
+FanDuel does this.
+
+    [scatterdbrain | 4 pts]
+    Yes, and I think they have a bottom ratio of 1%.  Which means many people are stuck with $20 limits on some events.
+
+[EightFortyDaysOf | 11 pts]
+If they really wanted to limit bookies scummiest practices, they should look into forcing bookies to offer both sides of a bet. That is they can’t offer just the over &amp; juice the fuck out of it bc they’re not offering the under so no one knows what the real odds are. This a good step in the right direction though
+
+  [VotingRightsLawyer | 3 pts]
+  Books will also limit if you if you bet too much on "No" sides of one-sided bets like Home Runs and Touchdowns. MGM and ESPN both offer a lot of these types of bets and both will nuke your account for actually betting on them.
+
+    [DeskChair112233 | 3 pts]
+    Can confirm. Nuked multiple espn and mgm accounts lol.
+
+  [Electronic-Chef-5487 | 2 pts]
+  oh yeah I like that idea a lot.
+
+[No_Leader_7866 | 11 pts]
+Yeah this is wild. They talk about responsible gambling but the moment someone actually wins consistently they call it a ‘problem’. Imagine being too good at betting for the books to handle.
+
+[EverySingleMinute | 9 pts]
+It is total BS. These companies have no problem when we lose, but limit us when we win.
+
+  [nau5 | 5 pts]
+  Yup limits should be illegal everywhere in the US.
+
+Either it's a fair competition or it's a rigged game.  Limits make it the later.
+
+  [plAythEmann0ttHePuck | -2 pts]
+  You won't need to worry about it
+
+[iaco56 | 8 pts]
+I’ve found plenty of exploits on books if they didn’t limit me I would’ve won so much. So it’s understandable they limited me. 
+
+However, they’re a business as well. I do think they should let you know prior that winning a certain amount net profits like $5k,$10k,20k worth of winnings you’ll be limited. The indiscriminate limiting now yes is totally unfair to players.
+
+  [timmah1529 | 9 pts]
+  they should simply not have exploits lol
+
+    [guinness_blaine | 1 pts]
+    Yeah, but limiting winners is easier on their part.
+
+  [superman24742 | 6 pts]
+  It’s not even a dollar amount.  They collect so much data that you can lose and they will still limit you.  Betting straights and hitting good CLV is enough on soft books to get limited.
+
+    [iaco56 | 1 pts]
+    You sound pretty knowledgeable on the topic. Curious if you know any ways to keep from getting limited more slowly?
+
+ I’ve heard the DONT withdrawal method, place occasional losers, I cleaned up this weekend on 1 book. Account is old and healthy but worried I may be getting close to limiting. 
+
+Is it worth trying to arb or low hold and hope for a loss on the winning book to help balance out PNL? Seems like everything I do I ultimately get limited. ^ also worried attempting this could trigger the limiting faster if I place fairly large wagers on main lines?
+
+      [superman24742 | 1 pts]
+      I mean the best way to stave off limits is bet SGPs.  I’ve also read that some books are more forgiving to local bettors.  Like I live in Cincinnati and I bet a lot on the reds, bengals, FC Cincinnati, etc….parlays, SGPs, poor CLV lines also will help stave it off.  
+
+I too have been limited on most of the soft books even doing this.  
+
+Fanatics I’m completely promo banned and most lines im limited to $10 wins.
+
+Bet365 I’m lucky to get $5 down
+
+MGM I’ve been promo banned for years 
+
+BetRivers limits by sport so some sports I’m ok but most of the big ones I’m pretty limited.  
+
+I’m surprised ESPN hasn’t limited me but whenever I bet HRs there I make it an SGP because they let you bet HR, Run, Bases, hit, and RBi together.  
+
+If you open a new account on any book spend the first month betting SGPs and parlays and dumb bets.  Bet the premade boosts, and dumb shit like that to prime the account before you start hitting.  
+
+I’m a low unit bettor, ~$15ish, and it still doesn’t matter.  I will say I’ve profited each of the last 3 years, nothing major, but still play it smart.
+
+  [equityorasset | 2 pts]
+  Could you give me an example of an exploit, please?
+
+[[deleted] | 9 pts]
+Limiting winners should not be allowed and if you want to take it a step further (I do), books should be required to publicly post the limit for each available wager on the board alongside the bet number and that limit should be accessible to anyone who can wager. Account profiling is one of the most predatory things sportsbooks do and there is no justified reason for it to happen.
+
+  [Rough-Second-4485 | 0 pts]
+  a business owner should be allowed to do whatever is legal to make money with their business, remember you can always open your own business, show them how it done, nobody said you have to do business with a book like that, you can't blame your problems on someone else
+
+    [heydudeimnick | 2 pts]
+    impressive how well certain talking heads have created such bootlicking
+
+      [EnvironmentalPie4506 | 1 pts]
+      It’s shameful. Your average American defending the predatory acts of multibillion dollar corporations.
+
+[Any-Maize-6951 | 6 pts]
+Issue is sharps could decimate sportsbooks. Sportsbooks couldn’t offer a million props if they let anyone bet unlimited amounts. Too much surface area or attack area for sharps. 
+I would be down with like a guaranteed minimum wager. It’s dumb when my accounts get $1.47 max wager limits. it’s $0.00 on betrovers now. Or, show the max allowable wager before submitting a bet would be a step in the right direction as well.
+
+  [o_mh_c | 3 pts]
+  Pinnacle manages to do it.  The domestic books are just lazy.
+
+[bretsaberhagen | 7 pts]
+Sportsbooks should only offer bets they want customers to make. If they do that, they would never want to limit bettors. If they don’t that, they’re hurting their profits and should start doing it.
+
+The problem is that they are so desperate to hurt their investors, customers, employees, and communities, so it’s something they continue to do, even when it leaves them worse off.
+
+  [scatterdbrain | -2 pts]
+  Books are desperate to hurt their investors?  Huh?
+
+    [bretsaberhagen | -1 pts]
+    Offering bets they don’t want customers to make hurts the investors. What other possible reasons would they have for doing that?
+
+      [scatterdbrain | 1 pts]
+      Just because a business isn't good at something, that doesn't mean they're desperate to hurt the investors.  Most (all?) businesses &amp; executives would prefer to make some money.
+
+Unless you think Hard Rock is purposely trying to screw the investors?  Why?  Some sort of conspiracy revenge plot?
+
+        [bretsaberhagen | 0 pts]
+        Sportsbooks have the choice to either offer bets they want customers to make or offer bets they don’t want customers to make. If they make the choice to offer bets they don’t want customers to make, they are hurting investors.
+
+        [scatterdbrain | 1 pts]
+        You do understand people &amp; companies make mistakes, right?  They don't knowingly "make a choice" to offer bad bets, products, etc.
+
+"So I'm thinking, this Pontiac Aztek.  What a clunker!  But let's build 125,000 of them, and doom the entire company.  Let's choose to do this!  Even better, it will reduce our taxable income, and then we can screw the community.  Huzzah!"
+
+        [bretsaberhagen | 1 pts]
+        When a sportsbook makes the choice to offer bets they don’t want customers to make multiple times every single day, it’s intentional.
+
+        [scatterdbrain | 1 pts]
+        To what end?  What is their goal?
+
+        [bretsaberhagen | 1 pts]
+        To screw over customers, workers, and communities. If they had a different goal, they would only offer bets they want customers to make, which is more profitable for the sportsbook, better for the customer, creates higher wages and tax revenue.
+
+        [scatterdbrain | 1 pts]
+        Got it.  So the sportsbook is purposely choosing to lose money.  Makes sense.
+
+Edit: sigh, maybe I'm dealing with a bot.
+
+https://www.reddit.com/r/gambling/s/8cOrT9FEUg
+
+[tyrannomachy | 8 pts]
+Just as a point of clarity, they don't limit people for winning. They limit people for consistently showing significant CLV (closing line value). The assumption being that the line at game start is the most accurate, at least over a big enough sample. You can be in the red with a book and still be limited if you're consistently sharper than they are, regardless of actual outcomes.
+
+  [AdamSmithsApple | 9 pts]
+  They will also limit you sometimes if you win over a decent sample size in niche markets regardless of CLV.
+
+  [Ok_Rest_5421 | 7 pts]
+  They *usually* don’t limit people just for winning
+
+    [scatterdbrain | 7 pts]
+    Ha, this is so true.
+
+Most books try to determine *why* you're winning.  Do you constantly beat CLV?  Are you exploiting the small markets?
+
+But some books (Fanatics?  Hard Rock?) just see a hot-streak, and they panic.  They'll cut-off people who have been lifetime losers.
+
+      [Noswad983 | 3 pts]
+      Can confirm. My fanatics lost $500 on sign up and got limited. Was beating CLV on most bets
+
+        [nmay-dev | 1 pts]
+        Im in Missouri and got limited on fanatics in five days. Nba props is the only thing I did or have tried to bet, limited to 10 now, i bet 20. I had made 44 bets and was down 40 dollars and juice real says negative -2% clv. I guess it was how many bets I placed, they couldn't handle the action, lol.
+
+        [Noswad983 | 2 pts]
+        So fanatics is an interesting case. You cannot show them anything that could show an edge. I’m currently priming a fanatics account and following Trent on twitter and just inversing his plays for the first 10 days. Then every other day I will make a live $200 bet on NBA or NFL and once I finish the 10 days I’ll ramp up until I’m limited. This is the first time I’ve made it past 3 days and still have full access.
+
+[an_actual_lawyer | 7 pts]
+The books will just find "rule violations" or "AI prompted limits" or some other method to get around any law.
+
+[Its_lit_in_here_huh | 7 pts]
+I’ve been limited on 10+ books/dfs apps it’s fucking bullshit
+
+[Grymninja | 6 pts]
+Hell yeah brother
+
+[scatterdbrain | 6 pts]
+Buc-ee's sells ice for $1.99 (16 pounds).  They also have signs, they reserve the right to limit.
+
+As somebody who made a nice run in 2021/2022, I can't stand the chicken-shit gambling limits.  But you can't force a business to accept $5k wagers on CUSA football games.
+
+  [SergDerpz | 12 pts]
+  Why not! They're happy to accept those 5k wagers when you lose.
+
+The only problem is when you win.
+
+  [pargofan | 8 pts]
+  This is limits WHEN someone starts to win.
+
+So to use your example, there's a $2k wager limit on CUSA football. But then you're really good. So your limit is now $0.50.
+
+    [[deleted] | 6 pts]
+    [removed]
+
+      [Noswad983 | 6 pts]
+      They’ll close your account before you even sign up
+
+  [telly69 | 6 pts]
+  The difference is in most state's there is a limited number of sportsbook licenses, which means it's not truly a free market. Possessing a license is a privilege and the state can absolutely force you not to limit customers or to give all customers the same limits.
+
+  [t1gerteeth | 4 pts]
+  The difference is this bill allows sportsbooks to limit based on customer. At Buc-ee’s, everyone has the same limit on how much ice they can buy. But at sportsbooks, this bill aims to not have the same listed limit for everyone. And instead increase limits on losing bettors while limiting winners.
+
+    [scatterdbrain | 0 pts]
+    &gt;At Buc-ee’s, everyone has the same limit on how much ice they can buy.
+
+They don't.
+
+If the manager believes you're buying 35 bags for a family reunion, they'll likely let it go.
+
+If the manager believes you're hustling ice every weekend, maybe they say nope.
+
+In other words, there really isn't a standard limit.  It is entirely up to company/manager discretion.  We reserve the right to limit.
+
+https://imgur.com/a/AQK7Nc0
+
+    [[deleted] | -1 pts]
+    [removed]
+
+  [nau5 | 3 pts]
+  Well then they should ban all players from the 5k wager.  Not just players they rate as too good.
+
+Either it's a fair and open market where the business they are providing is the vig.  Or it's a rigged market to drain the wallets of loser whales.
+
+  [[deleted] | 2 pts]
+  You can force a business to accept the same maximum wager from every customer. The United States does have price controls on some things. 
+
+Selling ice is not restricted to an artificial limit of license holders. 
+
+Also, purchasing a physical product at retail is not the same as placing a wager. One does not guarantee a tangible return. Apples // Oranges
+
+[sleepystork | 4 pts]
+That law will be found unconstitutional if it ever passes. There is so much precedence that casinos have the right to turn any customer away. Instead of limiting, they will just close your account.
+
+  [pargofan | 7 pts]
+  What's unconstitutional about it?
+
+There's precedence that casinos have the right to turn away any customer they want, just like any private business can (assuming it's not because of race, religion, creed, national origin, or other protected class).  
+
+But that's because no state legislature has tried to force casinos to do anything else.  No state legislature has said, "if you open a casino, you have to let everyone gamble."  There's nothing unconstitutional about the legislature doing  that. 
+
+And that's because there's no constitutional right to open a casino.  You have to get a state license to do it in the first place. And they can change requirements if they want.  Force you to have higher cash reserves, etc.  Or to limit who is restricted from gambling.
+
+    [nau5 | 2 pts]
+    Exactly on point.  Also legalized gambling is a VERY new business to the majority of the US.  Nevada let the casinos do what they wanted because the casinos were a cornerstone in driving tourism to the state.  On top of that the majority of losers were not their residents so who cares.
+
+With legalized gambling in a large portion of the US, you now have state residents who are being affected by the state laws.
+
+The more people who participate in sports gambling the more realistic it is that states will look to protect them as a whole.
+
+Limits are a bad look for sportsbooks because it furthers the concept that they are rigged against the player.  This is especially true when public favor is very much against them at the moment.
+
+    [RandomGuy622170 | 1 pts]
+    Nothing. He's just pulling shit out of thin air. States can easily make licenses contingent on books offering fair and consistent odds and limits for all players.
+
+  [huntcamp | 1 pts]
+  Yeah the solution is use friends books to place bets
+
+  [Muted-Woodpecker-469 | -2 pts]
+  Yep. In my state, we don’t have online sports gambling, just in person.  These in person tribal casinos can’t just take any ol bet. Bets over $600 have to be approved. They likely need to look at the total amount of bets for that game and see if they’d make money for taking that bet.  Some events they won’t take over $25 on. Some they’re okay with a $1500 wager
+
+What’s the saying? Businesses have a right to refuse service to anyone for pretty much any reason (save for discrimination). 
+
+I’d like to see the state run a betting platform where they take any and all bets. They’d be out of business within a weekend 
+
+[bettingsharp | 5 pts]
+Can you bet in cash in NYC yet? Or is it only online bookmakers at this stage 
+
+  [pargofan | 1 pts]
+  Just online.  I haven't found any sports gambling booths.
+
+[chibears_99 | 4 pts]
+You mean you guys win???!?
+
+[jimmyre10 | 3 pts]
+The issue with limits, as someone else mentioned, is that without limits, the books would absolutely bleed. Anybody who knows how to arb or EV bet would destroy them. 
+
+As much as I would like for limits to be illegal, an unintended consequence would probably result in books removing most of their markets and only offering mainline or very few player props, and probably more uniform odds across the market, minimizing the opportunities for arb or EV.
+
+  [Noswad983 | 9 pts]
+  This is like saying card counters would bankrupt casinos. The number of positive players will not hurt the billions these books make every year
+
+    [jimmyre10 | 5 pts]
+    They would not put the books out of business, but it would most certainly hurt like hell. Imagine any of the 1-2% arbs that are available at every book every day, and anyone being able to slam it for a thousand dollars profit.
+
+      [Noswad983 | 6 pts]
+      Anyone could do that but the vast majority of people are not betting arbs.
+
+        [jimmyre10 | 5 pts]
+        Yes because maxing niche markets will certainly get your account limited to pennies. Without limits, arbing would be everywhere, which goes back to my initial point that they would likely just remove all niche markets and we’d see way more uniform odds across the market.
+
+        [Noswad983 | 3 pts]
+        Niche markets already don’t have high limits
+
+        [scatterdbrain | 3 pts]
+        They do if you're not limited.
+
+2021/2022, I could get thousands on live international hoops.  All of those Euro leagues.  Not going to name the book, but they're a top 5 USA legal book.
+
+Now I can get $10 or $50 on those leagues.
+
+        [DeskChair112233 | 3 pts]
+        So mad NC didn’t get sportsbooks until 2024.
+
+    [scatterdbrain | 3 pts]
+    &gt;This is like saying card counters would bankrupt casinos.
+
+Without limits (and flat-out trespassing people), card counters would bankrupt casinos.  They'd find a billionaire to fund the crew, and play $1M blackjack hands.
+
+  [bretsaberhagen | 6 pts]
+  Anytime someone makes a bet, the sportsbook is the one who chooses what the EV is. They are always allowed to make it so that it benefits them.
+
+    [jimmyre10 | 1 pts]
+    Lmao what are you even saying? If I hammer a line that is 40 cents off from the rest of the market, how is that beneficial to them?
+
+      [bretsaberhagen | 3 pts]
+      Why is a sportsbook offering bets that aren’t beneficial to them? They are perfectly free to only offer bets that are beneficial to them.
+
+        [jimmyre10 | 4 pts]
+        So when I max Justin Turner props on DK right this moment because they haven’t adjusted to him being announced in the lineup, and in about an hour when all of those props have dropped massively in price to match FD, how is that beneficial to DK? I just robbed them on price.
+
+        [filthylimericks | 2 pts]
+        Yeah and if they’re really worried about the money they lose they’ll just say they “made an error” and void your bet. You’re not fleecing the books by grabbing a line early.
+
+Genuinely confused about the concept of your Justin Turner question though… lines for a player who isn’t starting are generally unavailable. Sometimes DK will throw them in for the potential of a pinch hit but not sure I’ve ever seen that.
+
+        [bretsaberhagen | 0 pts]
+        If it isn’t beneficial to them, they are perfectly free to only offer bets that are beneficial. Why would DK choose not to do that?
+
+        [gameboicarti1 | 1 pts]
+        He's saying that DK is showing a "bad" line in this example. They don't do it on purpose.
+
+  [DizzyDrift | 1 pts]
+  🎯 This right here
+
+Something legislators could focus on instead is the practice of books cancelling bets that they deemed a 'mispricing' after they already accepted the wager, and said bet would've won
+
+  [[deleted] | 1 pts]
+  You have created the false premise that the only thing besides variable limits are no limits, when in fact you can publicly flat limit. If you don't want to expose yourself to +EV or arbitrage bets in a public flat limit environment, do the competitive free market work of not posting bad numbers. It is a very precious idea that somehow sportsbooks should be freed from the burden of even having to strain a little to make money. 
+
+And books should remove most of their markets. Most of the markets are extremely predatory. The best thing for 95% of the gamblers on Reddit would be if they could not stack 9-leg player prop parlays and if a sportsbook cannot turn a profit offering standard sides, moneylines and totals -- which they were able to do for literal decades before now -- that's their problem.
+
+Most people here don't seem old enough to remember what the sports betting landscape was before about 2018 but in fact offshore books, Vegas sportbooks and local bookies all did just fine offering very basic markets and originators still did their thing on the other side.
+
+  [DeskChair112233 | 0 pts]
+  Lol yep. If I had no limits I’d make millions. A simple 1% arb a day would kill them.
+
+[Slight_Swimming_7879 | 4 pts]
+This has never been my problem 😅
+
+[ezbetting | 3 pts]
+They act like it’s not possible when it is in fact very possible.
+
+Bunch of greedy idiots
+
+[bledblu | 3 pts]
+Will this law cover the delays that every sharp will inevitably get if the books can’t limit/ban?
+
+  [Rdw72777 | 1 pts]
+  They’ll just change the lines every 0.4 milliseconds to create the delay too.
+
+Unrelated, one of my favorite (for amusement) things DraftKings does is offer a profit boost for a 3 leg live tennis parlay.  It’s impossible to even play because the odds change every .001 milliseconds.
+
+[Goberry1 | 2 pts]
+OK, I’m not going to read all that. But here in Massachusetts, whenever an app wants to limit a winner it claims it is due to the bettor depositing too much and the Gaming Commission goes along with it because DraftKings is based here and they are petrified that it will leave if they pass rules that protect bettors.
+
+[iaco56 | 3 pts]
+Currently on an overall majority bet volume losing streak probs 70% losses 30% wins on 1 book. However, on that same book up 10x profits from deposit this week at the same time due to hitting + odds bets.
+
+Worried I’m approaching limiting territory. (Been limited 4 times before and this winning feeling is starting to feel like when I got limited on my other books lol) 
+
+Anyone have tips or tricks on how to prolong the betting before the limiting? 
+
+- haven’t withdrew yet
+- 90% of bets were on live secondary game prop lines not main lines
+- not arbing or anything just eyeballing what looks to have value in the moment. And betting around 5-25% per wager compared to bankroll. 
+
+- thinking of potentially low holding and hoping for my winning book to lose to help balance out pnl. Also worried this could trigger something in the system and expedite my limiting.
+
+  [Apprehensive-Clock-8 | 3 pts]
+  Do some stupid parlays, idk if its true or not but it helps not being labeled a sharp in theory.
+
+    [iaco56 | 1 pts]
+    Was thinking of doing that
+
+      [Apprehensive-Clock-8 | 2 pts]
+      You never know you might hit one too lol.
+
+[Capable_Ad_6820 | 3 pts]
+It’s what they deserve fuck them
+
+  [zarthustra | 2 pts]
+  A little aggressive, sir. I would say this is exactly what government is supposed to do. Put the clamps on abusive business practices despite how much money they make. It's a free market, if you give
+A moose a muffin he's going to f****** stab you in the back and steal your wallet . You got to have something that stops him from doing that 
+
+[Obvious_Royal238 | 3 pts]
+No one here has to worry about this. They'll allow you to lose as much money as you desire, don't worry.
+
+  [pargofan | 7 pts]
+  These threads says otherwise:
+
+https://www.reddit.com/r/sportsbook/comments/1hbfptk/have_any_successful_bettors_been_limitedbanned/
+
+https://www.reddit.com/r/sportsbook/comments/191e2od/what_do_you_do_when_a_book_starts_limiting_you/
+
+https://www.reddit.com/r/sportsbook/comments/1ffcco9/sportsbooks_defend_practice_of_limiting/
+
+    [[deleted] | 1 pts]
+    It's on Reddit so it must be true.
+
+    [Obvious_Royal238 | -8 pts]
+    I'll bet most of them are BS and most of the remaining that aren't BS were limited either for abusing promos or some other form of cheating. This is the internet.
+
+      [[deleted] | 13 pts]
+      [deleted]
+
+        [Obvious_Royal238 | 1 pts]
+        The tiny percentage of the people who do win aren't actively on reddit posting their wHiCh oNe LoSeS? of their 10 leg parlay ticket
+
+Or another one: sHoUlD i cAsH oR RiDe? With some legs already won of their 10 leg parlay ticket
+
+Or another one: WoW tHiS tEaM iS A BiG FaVoRiTe! tHaT MeAnS tHeY cAnT LoSe UnLeSs tHe gAmE iS RigGeD!
+
+        [makeawishcumdumpster | 3 pts]
+        i mean i hang out here to see how regular people think about things like this. i will tell you what, 99% bettors would rather do what is fun than put in the market study to actually be profitable. Everyone wants it spoonfed, look at the comments. I am not teaching lazy anti-learners the edge on an internet forum, it was a ton of work and serial failure initially.
+
+      [pargofan | 2 pts]
+      Let's say you're right: this is a nothingburger.
+
+Then why do sportsbooks care so much? Why are they fighting this so vigorously?
+
+And, why would a state legislator *care* if it weren't a real issue?
+
+        [jjw1998 | 2 pts]
+        I don’t think they’re saying that it doesn’t happen, just that the people getting restricted for winning are probably not those on Reddit
+
+        [Obvious_Royal238 | 2 pts]
+        Exactly, it's a very small percentage of the betting population. That's why whenever the books do this nothing comes of it.
+
+I think BetMGM is on record saying they limit approximately 1% of accounts to give an idea.
+
+        [pargofan | 2 pts]
+        &gt;I think BetMGM is on record saying they limit approximately 1% of accounts to give an idea.
+
+"On record".  They could claim whatever they want. They're not giving legal testimony.  It's not as if anyone will hold them accountable if they're lying.
+
+        [Obvious_Royal238 | 1 pts]
+        That comment was made to the gaming control board when the subject came up at a meeting with them. They would definitely be held accountable if caught lying.
+
+        [pargofan | 2 pts]
+        Meh. If it were something blatant like cheating bettors, yes, they'd be in deep trouble. Something like cutting off accounts? No.  Let's say the number was higher and so they were wrong?  They could claim mistake and a bunch of other things.  
+
+Again, if it's only 0.64% why are they fighting this so hard?
+
+        [Rdw72777 | 1 pts]
+        The gaming control board has everything to lose and nothing to gain by claiming what you think they’re doing.
+
+        [Obvious_Royal238 | 1 pts]
+        I mean, the point of a casino is to maximize profit. You maximize profit by keeping losing players and eliminating winning players. Regardless of what the percentage is eliminating winning players maximizes profit.
+
+        [[deleted] | 1 pts]
+        &gt; Then why do sportsbooks care so much? Why are they fighting this so vigorously?
+
+Why would businesses in a predatory industry vigorously fight a primary source of their predation?
+
+You need to get a little more serious if you actually want to have this discussion.
+
+        [pargofan | 1 pts]
+        Because it's not a primary source. The primary source of their predation as you call it, are degenerate gamblers that ruin their lives giving all their money away.  
+
+If the number is truly 0.64% then all their gambling at the usual limits will have 0.64% effect.  Fighting so hard to limit them isn't worth the squeeze.  There's only so much profit that would matter and it's not worth the tarnish on the industry that it's a scam.
+
+[pocketpeace | 3 pts]
+Charlie Sheen’s drug dealer limited him for too much “winning”
+
+  [queenw_hipstur | 2 pts]
+  He’s got one speed-“GO!”
+
+[bmanley620 | 2 pts]
+Even though it seems messed up it’s their business so they can pretty much do whatever they want as long as it’s legal
+
+  [99OBJ | 5 pts]
+  I think there is a compelling case that says that limiting winners is false advertising
+
+  [[deleted] | 3 pts]
+  Wouldn't you know it but the whole point of this thread is about how they are trying to change the laws so certain things aren't legal.
+
+  [Jack_Shitlord | 2 pts]
+  If I were you, I would inspect this line of thought, and consider how beaten down by the system you might be to reflexively cape for a dirtbag company with bad business ethics. No, they can't do whatever they want—there used to be a thing called industry regulation that oversaw how businesses operated so they didn't defraud and abuse customers. Although republicans have largely been successful in deregulating almost everything, we do have still regulations here and there, and, like the legislation under discussion, it's good that such things still exist.
+
+What FD, DK and these companies do is highly unethical, and it should not be allowed.
+
+[Routine-Dig-3247 | 2 pts]
+Wild how winning is treated like a red flag, meanwhile Bet105 out here showing limits upfront and not punishing you for being sharp.
+
+[Suspicious_Site7856 | 2 pts]
+It’s wild how winning too much is treated like a liability. This is exactly why I shifted to Bet 105 no limits for winners, just clean lines and you don’t get punished for being sharp.
+
+[BostonBaggins | 2 pts]
+I'm using fanduel 
+
+I won $50k + on player props in NBA in two weeks
+
+I used to be able to bet above 3-5k per over unders 
+
+They started limiting me to 600 max
+
+Just y'day I was only able to bet 300 max
+
+Unbelievably true how house always wins
+
+[s7v7nsilver | -4 pts]
+I think there's nothing wrong with limiting bettors that win. However, bookies should also limit square bettors that bleed their hard-earned money, instead of incentivizing them to bet more.
+
+  [Rough-Second-4485 | 2 pts]
+  the most logical thing i ever heard a gambler say, there should be a limit bet posted period and that limit should be a low number say $100 or so
+
+    [s7v7nsilver | 1 pts]
+    Exactly. I don’t know why some people downvoted me.
+
+[Vast-Gate8866 | -5 pts]
+They can do what they want.  You are using a service.  You don’t have to bet and they don’t have to take your action.  Books are not in the business to have you win consistently. They are here to make money, not lose it.
+
+  [bretsaberhagen | 0 pts]
+  Is it more profitable for a sportsbook when customers make bets or when they don’t make bets? If it’s more profitable for them to have customers make bets instead of not make bets, then not allowing customers to bet hurts tax revenue and worker wages, which hurts the entire community.
+
+    [scatterdbrain | 2 pts]
+    &gt;Is it more profitable for a sportsbook when customers make bets or when they don’t make bets?
+
+You're asking the wrong question.  If the "smart" customers are making bets, then it isn't more profitable for the book.
+
+      [bretsaberhagen | 0 pts]
+      Offering bets that hurt profits also hurt tax revenues and worker wages, hurting the entire community.
+
+customer intelligence shouldn’t matter. If a smart customer and a dumb customer both bet the Falcons +5, why would one of those bets be profitable, but the other isn’t? They’re the same bet?
+
+        [Badger511 | 1 pts]
+        Because the smart customer is betting Falcons +5 before the line moves to +2.5 and they are doing it consistently.
+
+The dumb customer is essentially flipping a coin.
+
+  [pargofan | -1 pts]
+  Of course. Except then there's false advertisement issues.
+
+If you advertise that people can "WIN BIG!!" without disclosing the limiting concept, that's false advertising.
+
+Casinos don't advertise that for table games. They do it for slots. But they're not limiting anyone over slots.
+
+[DigitalLiahona | -5 pts]
+Alcohol and tobacco companies are heavily regulated, and rightfully so, because they conduct business in sectors that cause substantial societal harm.
+
+Let's say, by some miraculous reasons, roughly 0.5% of tobacco customers are immune to the carcinogenic effects of tobacco and they are able to somehow legally gain some +ROI on every pack of cigarettes they purchase.
+
+Shills say Big Tobacco as private businesses have the right to ban/limit these customers. However, the correct argument is, in the sector they are in causing societal harm to 99.5% of their customers, the right thing to do is they have to take the business of those 0.5% miracle customers as well.
+
+  
+Sportsbooks are completely analogous to what is described above.
+
+  [pargofan | 1 pts]
+  Do tobacco glamourize how you can be filthy rich by smoking? 
+
+Or, do they tell people upfront if you're +ROI we'll cut you off?
+
+    [Bulky-Scheme-9450 | 6 pts]
+    Before stricter regulation smoking was DEFINITELY touted as something that would increase your status, desirability, yes even your health once upon a time.
+
+    [[deleted] | 1 pts]
+    Before regulation tobacco absolutely glamorized its product as improving your life.
+
+Alcohol and Fast food also do this. That's why Kate Upton and her 36 DDDD bazongas were on Carl's Jr. commercials for a thousand years; it wasn't because she just really loved mid cheeseburgers it's because they implicitly wanted you to associate eating their food with fucking super models.
+
+We could not have worse media literacy in this country if we were actually trying to.
+
+  [[deleted] | -4 pts]
+  [removed]
+
+    [AdamSmithsApple | 4 pts]
+    Yes but I think it should be required to be the same limit for every customer personally. Every sportsbook should handle limits like Circa.
+
+    [[deleted] | 1 pts]
+    When you place a wager, you are not guaranteed anything in return. It is not the same thing as buying a product. This is literally a primary example of why there is stricter regulation in things like futures contracts and traditional stocks. You are not buying a tangible thing. People have got to learn the difference on here apparently.
+
+    [DigitalLiahona | -1 pts]
+    &gt;Do stores have the right to limit the amount of items a customer can buy?
+
+Disingenuous and brain dead argument - alcohol, tobacco, and sports betting are fundamentally in a very different sector and regulated as such, as stated in my original comment, when compared to a regular store such as a grocery store

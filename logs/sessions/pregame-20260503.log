@@ -1,0 +1,25 @@
+=== Sports Edge Analyst Session: pregame ===
+=== 2026-05-03 18:00 UTC ===
+
+Pre-game review complete. Here's the summary:
+
+**Today's Slate: 5 picks**
+
+| Pick | Confidence | Why |
+|------|-----------|-----|
+| Busch TB u1.5 (-135, 20.5% EV) | HIGH | Within cap, great juice, bread and butter |
+| Rengifo TB u1.5 (-160, 11.5% EV) | MED-HIGH | At cap edge, workhorse EV band |
+| Harris TB u1.5 (-105, 10.5% EV) | MEDIUM | Best odds, but **Coors Field** is a concern |
+| Matz HA u5.5 (-160, 20.3% EV) | LOW | Would be filtered by new rule. Natural test case for EXP-012. |
+| KC @ SEA Over 8.0 (+100) | LOW | Game model is coin-flipping. Low wager. |
+
+**Key watch items tonight:**
+1. Harris at Coors — if TB model doesn't account for elevation-boosted offense, this is a systematic weakness
+2. Matz HA — win or loss validates the u4.5 line filter thesis (u5.5 is historically 50/50)
+3. Rengifo at exact -160 boundary — data point for whether cap should tighten to -155
+
+**Expected**: 2-3 TB wins, coin flips on Matz and game model. Net positive day if TB performs to historical 68-76% WR.
+
+Journal written to `analysis/journal/2026-05-03-pregame.md`.
+
+=== Session Complete: 2026-05-03 18:01 UTC ===

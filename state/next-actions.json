@@ -1,0 +1,34 @@
+{
+  "immediate": [
+    "Verify HA line filter (EXP-012) is active in oddstrader_scraper.py — Matz u5.5 should have been filtered May 3",
+    "Investigate why no May 4 picks were generated (no scan run, or no qualifying picks?)",
+    "Game model kill assessment: now 33W-33L, -$151 PnL. Zero edge confirmed over 66 bets."
+  ],
+  "this_week": [
+    "PRIORITY 1: Profile ALL 12 within-cap TB losses. What player/pitcher/park/time traits do they share? (H044)",
+    "PRIORITY 2: Track HA line filter forward (EXP-012). Need 20 bets at u4.5 only.",
+    "PRIORITY 3: Track juice-capped TB ROI forward (EXP-011). Need 22 more within-cap bets.",
+    "PRIORITY 4: Game model kill decision. Already at 33W-33L. Disable or require 55% WR threshold.",
+    "PRIORITY 5: Explore ER market. Only 3 bets total. Can we lower threshold or actively scan?"
+  ],
+  "research_queue": [
+    "HIGH: Implement barrel rate filter (>8% = skip). See research/tb_under_advanced_methods.md",
+    "HIGH: Add platoon filter (skip TB unders on opposite-hand matchups with known advantage)",
+    "HIGH: Handedness-specific park factors (NYY +28% LHB, CIN +42% LHB vs generic average)",
+    "HIGH: What generates 25%+ EV TB bets? Common player profile, park, matchup characteristics?",
+    "MEDIUM: Post-lineup timing - only bet after lineup confirmed, boost 7th/8th order batters",
+    "MEDIUM: HA OVER exploration - under what conditions do pitchers give up many hits? (H045)",
+    "MEDIUM: Conway-Maxwell-Poisson for game model run scoring (if game model survives)",
+    "LOWER: Multi-book line shopping for TB (which books have loosest TB lines?)",
+    "LOWER: Hard Rock Bet market verification - do they offer TB u1.5 at decent prices?",
+    "LOWER: Bayesian log5 matchup model for specific BvP predictions"
+  ],
+  "pre_live_checklist": [
+    "30 forward TB bets within -160 cap at 65%+ WR (currently 8/30)",
+    "Verify Hard Rock Bet offers TB under markets on MLB",
+    "Understand HRB max bet limits on player props",
+    "Determine if HRB odds match OddsTrader's sourced books",
+    "Build bankroll management plan (Kelly criterion with fractional sizing)",
+    "Set up alerting system for picks (Telegram notification when bet found)"
+  ]
+}

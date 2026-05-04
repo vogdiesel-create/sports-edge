@@ -1,0 +1,37 @@
+=== Sports Edge Analyst Session: postmortem ===
+=== 2026-04-26 05:00 UTC ===
+
+Post-game review complete. Here's the summary:
+
+## Apr 25 Results: +$387.63 (Best day since Apr 14)
+
+| Model | Record | PnL |
+|-------|--------|-----|
+| Game Model | 2W-0L | +$243.65 |
+| K-Props | 6W-3L | +$143.98 |
+| OddsTrader Sim | 26W-12L | +$419.31 |
+
+## All-Time Running Totals (199 graded bets)
+
+| Model | Record | PnL | ROI |
+|-------|--------|-----|-----|
+| Game Model | 23W-24L-1P | -$74 | -1.5% |
+| K-Props | 33W-21L | **+$647** | **12.6%** |
+| OT Sim (TB) | 27W-10L | **+$616** | **84%** |
+| **Combined** | | **+$573** | |
+
+## Critical Issue Found
+
+**No picks were generated for Apr 26.** The grading cron runs nightly but there's no pick generation cron. We're grading old bets but not making new ones -- losing potential alpha every day this isn't fixed. This is Priority 1 for the morning session.
+
+## Key Takeaways
+
+- K-props at 54 bets are statistically meaningful. 61% WR with 12.6% ROI = real signal.
+- OddsTrader TB market (73% WR) is the single strongest market. 
+- Game model OVERs (5W-2L) validated. UNDERs (18W-18L) show no edge.
+- One more graded bet hits the 200-bet target for the first statistical significance report.
+- Cole Ragans (11 Ks on under 7+) flagged for pitcher-specific misrate analysis.
+
+All files updated: `state/core.json`, `state/next-actions.json`, daily performance, postmortem journal.
+
+=== Session Complete: 2026-04-26 05:05 UTC ===

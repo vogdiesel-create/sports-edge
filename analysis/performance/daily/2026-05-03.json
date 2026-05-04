@@ -1,0 +1,35 @@
+{
+  "date": "2026-05-03",
+  "oddstrader": {
+    "picks": 4,
+    "wins": 3,
+    "losses": 1,
+    "pnl": 216.49,
+    "details": [
+      {"player": "Michael Busch", "market": "TB", "line": "u1.5", "odds": -135, "result": "loss", "pnl": -180.05, "actual": 5, "note": "5 TB massive blowup. AZ@CHC."},
+      {"player": "Luis Rengifo", "market": "TB", "line": "u1.5", "odds": -160, "result": "win", "pnl": 112.53, "actual": 0},
+      {"player": "Michael Harris", "market": "TB", "line": "u1.5", "odds": -105, "result": "win", "pnl": 171.48, "actual": 0},
+      {"player": "Steven Matz", "market": "HA", "line": "u5.5", "odds": -160, "result": "win", "pnl": 112.53, "actual": 4, "note": "HA u5.5 SHOULD HAVE BEEN FILTERED by new line filter (skip u5.5+). Won anyway but violates EXP-012."}
+    ]
+  },
+  "game_model": {
+    "picks": 1,
+    "wins": 0,
+    "losses": 1,
+    "pnl": -104.51,
+    "details": [
+      {"game": "KC @ SEA", "side": "OVER", "result": "loss", "pnl": -104.51}
+    ]
+  },
+  "combined_pnl": 111.98,
+  "cumulative": {
+    "oddstrader_active": {"record": "100W-46L", "wr": 68.5, "pnl": 2278.90},
+    "oddstrader_tb": {"record": "80W-33L", "wr": 70.8, "pnl": 2102.97},
+    "game_model": {"record": "33W-33L", "pnl": -151.37}
+  },
+  "flags": [
+    "Busch 5 TB is extreme outlier — model had 78% prob under. Game context needed.",
+    "Matz HA u5.5 won but should have been skipped per new line filter EXP-012. Filter may not be implemented in scraper yet.",
+    "No May 4 picks generated — check if morning scan ran."
+  ]
+}

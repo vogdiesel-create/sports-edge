@@ -1,0 +1,332 @@
+Weighted Elo rating for tennis match predictions - ScienceDirect
+JavaScript is disabled on your browser.
+      Please enable JavaScript to use all the features on this page.
+Skip to main content
+Skip to article
+Access through
+your organization
+Purchase PDF
+Search ScienceDirect
+Article preview
+Abstract
+Introduction
+Section snippets
+References (30)
+Cited by (28)
+European Journal of Operational Research
+Volume 297, Issue 1
+,
+16 February 2022
+, Pages 120-132
+Stochastics and Statistics
+Weighted Elo rating for tennis match predictions
+☆
+Author links open overlay panel
+Giovanni
+Angelini
+a
+,
+Vincenzo
+Candila
+b
+,
+Luca
+De Angelis
+c
+Show more
+Add to Mendeley
+Share
+Cite
+https://doi.org/10.1016/j.ejor.2021.04.011
+Get rights and content
+Highlights
+•
+We propose an extension of the Elo rating system labelled Weighted Elo (WElo).
+•
+WElo includes the “hot hand” phenomenon in the weighting function.
+•
+WElo approach outperforms the most popular forecasting methods in tennis.
+•
+According to a simple betting strategy WElo provides profitable opportunities.
+•
+We provide a R package called ‘welo’ to estimate Elo and WElo rating systems.
+Abstract
+Originally applied to tennis by the data journalists of FiveThirtyEight.com, the Elo rating method estimates the strength of each player based on her/his career as well as the outcome of the last match played. Together with the regression-based, point-based and paired-comparison approaches, the Elo rating is a popular method to predict the probability of winning tennis matches. Notwithstanding its widely recognized merits in terms of ease of reproducibility and good performance, the Elo method does not completely take into account the current form of each player and their recent performances. This paper proposes a new version of the Elo rating method, labelled Weighted Elo (WElo), where the standard Elo updating is additionally weighted according to the scoreline of the players’ last match. The proposed method considers not only if a player has won (lost) a match, but also how the victory (defeat) was achieved. In the empirical application, the forecasting performance of the WElo method is evaluated and compared against the most popular forecasting methods in tennis, using a sample of over 60,000 men’s and women’s professional matches. Overall, the WElo method outperforms all these competing methods. Moreover, it provides meaningfully profitable opportunities, according to a simple betting strategy.
+Introduction
+In recent years, the academic interest on sports forecasting models has grown significantly. In particular, the number of contributions on the model-based prediction of the outcome of sport events has enormously increased. One of the main purposes of forecasting sport outcomes is to detect and exploit the (informational) inefficiency of sports betting markets which allows better informed bettors to gain at the expense of the less well informed. However, the debate on the possibility of achieving positive returns by using a single or combination of sports forecasting models is still open. Most of the papers in the literature are focused on the forecasting of football match outcomes (e.g., Angelini & De Angelis, 2017 and Koopman & Lit, 2015). However, despite its popularity among the betting community, the number of academic contributions on tennis forecasting is rather limited. A survey of these contributions is provided by Kovalchik (2016), where three categories of methods are reviewed and evaluated, namely the regression-based, point-based and paired comparison approaches. Some examples of regression-based contributions are (Del Corral & Prieto-Rodriguez, 2010), (Klaassen & Magnus, 2003), (Clarke & Dyte, 2000) and (Boulier & Stekler, 1999), among others. Generally, these contributions make use of the probit or logit estimators. For instance, (Klaassen & Magnus, 2003) propose a logit regression based on the Association of Tennis Professionals (ATP) rankings of two players to predict the winner of the match. Using a probit model, (Del Corral & Prieto-Rodriguez, 2010) find that the recent performances of a player are the most important factors to forecast match outcomes. Contributions belonging to the point-based approach focus on the prediction of winning a single point. Some examples are (Knottenbelt, Spanias, & Madurska, 2012), (Barnett, Brown, & Clarke, 2006) and (Barnett & Clarke, 2005), among others. Finally, the paired-comparison approach estimates the probability of winning on the basis of the direct evaluation of the latent abilities of the two players. Examples of this approach are the Bradley-Terry (BT) type model (McHale & Morton, 2011), its time-varying version proposed by Gorgi, Koopman, and Lit (2019), the dynamic paired comparisons model proposed by Baker and McHale (2014) and Baker and McHale (2017), and the Elo rating system. A recent implementation of many of these approaches into the neural network framework to forecast the tennis winning player is provided by Candila and Palazzo (2020).
+The Elo rating method recursively estimates the strength of each contender on the basis of the last match, as well as her/his whole career, in order to predict the probability of winning for the upcoming match. Originally proposed by the Physics Professor Arpad Elo in 1978 (Elo, 1978) for the rating of chess players, the Elo method has been applied in different sports, such as soccer (Hvattum, Arntzen, 2010, Leitner, Zeileis, Hornik, 2010), American football (Ryall & Bedford, 2010), rugby (Carbone, Corke, & Moisiadis, 2016), and tennis (Kovalchik, Reid, 2019, Kovalchik, 2016). Notwithstanding its widely recognized merits in terms of ease of reproducibility and good performance, the traditional Elo method does not take into account how the last match outcome of one player (or team) has been achieved, but only if the player (team) has won or lost the match. Operatively, the standard Elo increases (decreases) the Elo rating of a player/team by the same amount, independently of how the player/team has won (lost) the match. In this paper we generalize the Elo rating system in tennis by weighting the matches on the basis of the number of games (or sets) won by each player. The aim of such a generalization is to include the informative content provided by the most recent performance, i.e.
+momentum
+in financial lingo, of players/teams, which is generally recognized as crucial in sports forecasting. The use of data on recent results has been proved to significantly improve the forecasting performance of a statistical model in many sports; see, for instance, Angelini and De Angelis (2017) for football, and Del Corral and Prieto-Rodriguez (2010) for tennis. In line with this literature, we investigate to what extent this “hot hand” phenomenon - as well as its opposite - can significantly enrich the available information set on which the forecast is based, by comparing the forecasting performance of the standard Elo rating system and the one of a weighted version, which incorporate information from the latest performance of the players. In particular, we consider the number of games (or sets) won and lost by each player in the last matches as proxies for the recent condition and form of the two opponents. Our approach can be easily generalised to many other individual and team sports, in which the point difference can be considered as proxies for the player/team’s recent condition. A similar idea was applied by Hvattum and Arntzen (2010) to association football, where a weighted function for the Elo update based on the difference of the goals scored by the two teams is considered.
+From a statistical point of view, we demonstrate that the proposed variant of the Elo, labeled Weighted Elo (WElo), is a symmetric rating system, even when the number of games of the opponents are taken into account. Moreover, the WElo confidence intervals are derived using an
+ad hoc
+bootstrap-based technique. In a very interesting recent paper, Kovalchik (2020) introduces a general framework where the Elo system is extended to account for the margin of victory (MOV) in tennis, measured by either the number of sets won or other within-set statistics, namely the number of games, the break points, the total points, and the serve percentage. Despite our approach can be considered as a special case of her multiplicative model for Elo updating where the number of games won defines the MOV, the WElo system can be computed and updated straightforwardly, hence gaining in terms of reproducibility, as there is no need to estimate or arbitrarily set tuning parameters and, according to our formulation of the MOV, the chance that the update from a single event can be unrealistically large is ruled out. Moreover, with respect to Kovalchik (2020), who compares the predictive performance of the MOV-based approaches against the standard Elo, we extend such comparison to other popular approaches in tennis. In particular, in the empirical analysis, the WElo forecasting performance is extensively evaluated over a sample of over 60,000 men’s and women’s matches and compared against the performance of four competing models, namely the standard Elo and the BT model for the paired-based approach, and the logit and probit regressions of Klaassen and Magnus (2003) and Del Corral and Prieto-Rodriguez (2010), respectively, for the regression-based approach.
+Our results show that the WElo approach allows more accurate predictions, both in terms of minimization of the loss functions considered, namely the Brier score (Brier, 1950) and log-loss function, and maximization of the returns-on-investment (ROI) achieved on the betting markets. In particular, the proposed approach significantly outperforms all the four competing models, independently of the out-of-sample period considered. In terms of ROI, the WElo yields approximately 3.56% (2.93%) of the investment from betting on the men’s (women’s) matches in the period 2012-2020, if the best odds avaiable on the market are considered. These results are significantly better than what is obtained using the standard Elo or a random betting strategy.
+The remainder of the paper is organized as follows. Section 2 outlines the proposed WElo rating system and its properties. Section 3 shows the results of the out-of-sample forecasting performance. Section 4 describes the betting strategy and its performance based on the Elo and WElo methods. Section 5 concludes. Finally, in Appendixes A and B we report results from robustness checks and further analyses. In particular, Appendix A reports the evaluation of the WElo based on sets (instead of games) for the men’s matches while Appendix B is devoted to the analysis concerning the data set on women’s (WTA) professional matches.
+Access through your organization
+Check access to the full text by signing in through your organization.
+Access through
+your organization
+Section snippets
+Weighted Elo
+Let
+i
+and
+j
+be two opponents in a tennis match and
+E
+i
+(
+t
+)
+and
+E
+j
+(
+t
+)
+their Elo ratings for the match at time
+t
+. According to the Elo rating system, once
+E
+i
+(
+t
+)
+and
+E
+j
+(
+t
+)
+are estimated, the probability that player
+i
+wins against player
+j
+in match
+t
+is defined as:
+p
+^
+i
+,
+j
+(
+t
+)
+=
+1
+1
++
+10
+(
+E
+j
+(
+t
+)
+−
+E
+i
+(
+t
+)
+)
+/
+400
+.
+For the ease of notation, from now on we will only refer to player
+i
+. This means that we always refer to the same player
+i
+,
+irrespectively of the match,
+t
+,
+while the opponent player,
+j
+,
+will be (usually)
+Empirical analysis
+All the empirical analysis presented in this section considers the data set on men’s professional matches. In Appendix B we report the same analysis applied to women’s matches. The dataset used in the empirical analysis is taken from the historical archive of the website
+www.tennis-data.co.uk
+. This archive includes the match results of all the most important tennis tournaments of the ATP Tour (Masters 250, 500 and 1000, and ATP Finals) and Grand Slams, closing betting odds of different
+Betting strategy
+As a further analysis of the out-of-sample forecasting performance, we evaluate the monetary benefits of using the WElo ratings with respect to the standard Elo system through a simple betting framework.
+Let
+o
+i
+,
+j
+,
+h
+(
+t
+)
+and
+o
+j
+,
+i
+,
+h
+(
+t
+)
+be the odds provided by bookmaker
+h
+,
+with
+h
+=
+1
+,
+…
+,
+H
+,
+for the two opponents, players
+i
+and
+j
+,
+respectively, of match
+t
+. Then, let us define the implied winning probabilities for players
+i
+and
+j
+as
+q
+i
+,
+j
+,
+h
+(
+t
+)
+and
+q
+j
+,
+i
+,
+h
+(
+t
+)
+,
+respectively, obtained as the reciprocal of the
+Conclusions
+Recently, the academic interest in modelling and forecasting sport outcomes has enormously increased. Among a variety of forecasting approaches to predict the probability of winning in tennis matches, the Elo method plays a prominent role. The Elo method recursively estimates the rating of each player based on the outcome of the last match played. Afterwards, the probability of winning for the upcoming match is calculated by comparing the Elo ratings for the two players. Despite its popularity
+Recommended articles
+R.D.
+Baker
+et al.
+A dynamic paired comparisons model: Who is the greatest tennis player?
+European Journal of Operational Research
+(2014)
+R.D.
+Baker
+et al.
+An empirical bayes model for time-varying paired comparisons ratings: Who is the greatest womens tennis player?
+European Journal of Operational Research
+(2017)
+B.L.
+Boulier
+et al.
+Are sports seedings good predictors?: an evaluation
+International Journal of Forecasting
+(1999)
+S.R.
+Clarke
+et al.
+Using official ratings to simulate major tennis tournaments
+International transactions in operational research
+(2000)
+J.
+Del Corral
+et al.
+Are differences in ranks good predictors for Grand Slam tennis matches?
+International Journal of Forecasting
+(2010)
+L.M.
+Hvattum
+et al.
+Using ELO ratings for match result prediction in association football
+International Journal of Forecasting
+(2010)
+F.J.
+Klaassen
+et al.
+Forecasting the winner of a tennis match
+European Journal of Operational Research
+(2003)
+W.J.
+Knottenbelt
+et al.
+A common-opponent stochastic model for predicting the outcome of professional tennis matches
+Computers & Mathematics with Applications
+(2012)
+S.
+Kovalchik
+Extension of the elo rating system to margin of victory
+International Journal of Forecasting
+(2020)
+S.
+Kovalchik
+et al.
+A calibration method with dynamic updates for within-match forecasting of wins in tennis
+International Journal of Forecasting
+(2019)
+C.
+Leitner
+et al.
+Forecasting sports tournaments by ratings of (prob) abilities: A comparison for the EURO 2008
+International Journal of Forecasting
+(2010)
+I.
+McHale
+et al.
+A Bradley-Terry type model for forecasting tennis match results
+International Journal of Forecasting
+(2011)
+R.
+Ryall
+et al.
+An optimized ratings-based model for forecasting Australian Rules football
+International Journal of Forecasting
+(2010)
+E.
+Štrumbelj
+On determining probability forecasts from betting odds
+International Journal of Forecasting
+(2014)
+G.
+Angelini
+et al.
+PARX model for football match predictions
+Journal of Forecasting
+(2017)
+View more references
+Betting on a buzz: Mispricing and inefficiency in online sportsbooks
+2023, International Journal of Forecasting
+Citation Excerpt :
+This model would also have led to substantial amounts of betting activity and absolute losses over the sample period, because of the frequency and magnitude of differences between the simple Elo-predicted probabilities of match outcomes and what bookmaker odds imply, particularly leading to over-betting on longshots.12 As a further comparison, column (VI) shows betting results using W-Elo, which is a more sophisticated Elo forecasting model of tennis match results that reflects contributions by Kovalchik (2016) and Angelini et al. (2021a). This model gives greater weight to past match wins at prestigious tournaments and takes into account the margins of victory that players achieved.13
+Show abstract
+Bookmakers sell claims to bettors that depend on the outcomes of professional sports events. Like other financial assets, the wisdom of crowds could help sellers to price these claims more efficiently. We use the Wikipedia profile page views of professional tennis players involved in over 10,000 singles matches to construct a buzz factor. This measures the difference between players in their pre-match page views relative to the usual number of views they received over the previous year. The buzz factor significantly predicts mispricing by bookmakers. Using this fact to forecast match outcomes, we demonstrate that a strategy of betting on players who received more pre-match buzz than their opponents can generate substantial profits. These results imply that sportsbooks could price outcomes more efficiently by listening to the buzz.
+A comparative evaluation of Elo ratings- and machine learning-based methods for tennis match result prediction
+2024, Proceedings of the Institution of Mechanical Engineers Part P Journal of Sports Engineering and Technology
+Home advantage and mispricing in indoor sports’ ghost games: the case of European basketball
+2023, Annals of Operations Research
+A new model for predicting the winner in tennis based on the eigenvector centrality
+2023, Annals of Operations Research
+Winning one-day international cricket matches: a cross-team perspective
+2023, Journal of Business Analytics
+Predictive modeling of tennis matches: a review
+2022, 2022 45th Jubilee International Convention on Information Communication and Electronic Technology Mipro 2022 Proceedings
+View all citing articles on Scopus
+☆
+We are grateful to the Editor, Ruud Teunter, and three anonymous referees for their helpful comments on the earlier version of this paper. We also thank the participants at the 12th International Conference of the ERCIM on Computational and Methodological Statistics (CMStatistics) in London (December 2019) for their useful comments.
+View full text
+© 2021 Elsevier B.V. All rights reserved.

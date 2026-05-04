@@ -1,0 +1,585 @@
+# Why 95% of bettors lose money
+
+[comfycouch21 | 233 pts | 142 comments]
+
+All credit to /u/Mugen8YT for this post
+
+
+Basically, let's do a deep dive on...
+
+**WHY 95% OF SPORTS BETTORS LOSE MONEY**
+
+Note: as far as I'm aware there's no general consensus on what the exact figure is, but most sources indicate 90 to 95% of bettors lose money if they bet *long term*; that is, if they place enough bets that variance has a negligible impact compared to how they're actually betting.
+
+**INTRO**
+
+It's the classic sports bettor story. You're watching your favourite sports channel on YouTube, and the content creator is doing a sponsored ad read for a sportsbook. Hey, you just turned 18 yesterday (or whatever the age requirement is where you are)! You know the sport very well, and these apps look like fun. You've got a spare bit of cash around; you can afford to risk a fiver, and if you're a little lucky you might get a 3 or 4 figure payout.
+
+Congratulations, random character I've created; you're exactly the kind of person that sportsbooks love, and that their systems are designed to extract money out of, for a few different reasons. Let's look into them, so you can potentially avoid falling into this trap (or get out of it).
+
+**THE VIG(orosh): the sportsbook's commission.**
+
+Have you ever noticed on a market that should be even on both sides - like a coin flip market, or odds/evens in a basketball game - the odds are -110 / 1.91? If you bet $1 on both sides, you'd lose 9c. Doesn't seem fair! That's the sportsbook's commission - the vig (short for vigorosh). For every market they offer, each side has the odds cut by a certain amount in order to create a commission for the sportsbook.
+
+When an experienced bettor looks at a market, they'll often calculate its expected value. Expected value is the amount of money the bettor would expect to make on that market, if they bet it enough times that variance wasn't a factor. The equation is: EV (expected value, as a percentage) = O (decimal odds) \* P (probability) - 1. If it's positive, the market is expected to make you money. If it's negative, the market is expected to lose you money. Knowing this equation, we can see precisely what the vig is for a given market.
+
+Let's take our genuine 50/50 market. We know the probability is 50%, but the decimal odds are 1.91. If we plug those into our equation, we get 1.91 \* 0.5 - 1, or -0.045 (-4.5%). If we were to bet the market a thousand times, we'd expect to lose 4.5% of the total stake we used. (so if we bet a dollar each time, it'd be 4.5% of $1000).
+
+What if it's not a 50/50 market though, and we don't know the probability? We can at least see what the vig is for the market, even if we can't say for sure that their predicted probabilities are accurate. I'm looking at a tennis game now, and the odds are 1.62 for the fave and 2.30 for the underdog. If we divide 1 by these numbers, we get the implied probability of each outcome. 1 / 1.62 = 0.617, 1/2.3 = 0.435. This implied probability isn't accurate though, as it still has the vig included. To remove the vig, we determine what portion each market is of the total probability. For the fave, it's 0.617 / (0.617+0.435), for 0.587 (58.7%). For the underdog, we get 0.435 / (0.617+0.435), or 0.413 (41.3%). As expected, these two vig-removed probabilities total 100%.
+
+Now that we have the probabilities the sportsbook expects to be fairly accurate, we can see what their vig is for this market. The fave is 1.62 \* 0.587 - 1, or -4.9%. The underdog is 2.30 \* 0.413 - 1, or -5%. Not surprising; while bookies will usually do 4.5% on the most popular markets, anything less than that will very often see a much larger cut.
+
+So why have I lead you through all this just to prove that the vig is real, and how large it is? Because the maths supports the cold, hard truth: **in order to be a profitable bettor long-term, you need to predict winning markets at least 5% more accurately than the books do, and generally more to actually make worthwhile profits.** And let's be real. Most recreational bettors overestimate their ability to pick positive value markets. Compare this to the books, that could hire people that are that good at intuitively picking markets, and invest in algorithms and models that are quite accurate. After all, **it's their business to be pretty accurate in the long-term about their sport market predictions**.
+
+So in order to be a profitable long-term bettor, you have to be more successful at picking markets than the sportsbooks... who have a financial interest in having their predictions be as accurate as possible. Youch!
+
+Now, do note that their predictions aren't perfect - successful bettors do find edges, and take advantage of them as much as possible. But edges aren't something you'll definitely find, and not something you can necessarily brute force. They're especially difficult to find for very popular markets. Above all, most people that find an edge do so via an algorithm or predictive model. Very few people find an edge based off of intuitively picking winners alone.
+
+Generally, without good reason to think otherwise (such as a large collection of positive results), you should assume that every line you pick is negative value - not because it'll necessarily lose, but because it'll lose often enough in the long run that the odds aren't worth it.
+
+**PARLAYS: compounding your misery.**
+
+Parlays are a billion dollar part of the sportsbook industry... for the sportsbooks. For the recreational gambler, they're a source of pain that people don't realise without doing the maths. **The cold hard truth is that if you're not picking positive value lines - and we've established that most people don't - then every extra line you add to a parlay decreases your expected value even further**.
+
+There's no wonder they're so popular - they offer a bigger payout for the same amount of money. And given how people overestimate their ability to pick winners, it seems a lot easier than something purely probability based like the lottery. But that's the thing - sports betting is probability based. There's no such thing as a lock; there's always a slim chance that an unbackable favourite will lose.
+
+But anyway, let's get the maths out and prove this. We established earlier that for a genuine 50/50 market like a coin flip, with odds of -110 or 1.91, that the expected value is -4.5%. Not including stuff like promos/boosts - which can turn value in your favour, but that's a story for another post - typically, when you're doing a non-same game parlay, the decimal odds are multiplied. In this case, if we look at two coin flips for two different games, we'd get 1.91 \* 1.91, or 3.65 / +265. The probability of independent events also get multiplied - so 0.5 \* 0.5 = 25%. If we plug these new figures into our expected value formula, we get 3.65 \* 0.25 - 1, or -8.75%. That's almost twice as bad! If your unit size were, say, $5, it is technically better to do 1 unit on the parlay rather than 1 unit on each of the coin flips - but the optimal strategy out of these would be to do 1 unit on a single one of the coin flips (well, the true optimal strategy is to not bet on a negative value market at all!).
+
+And for every additional negative value line that you add to the parlay, the expected value gets worse and worse.
+
+So when you see a person in a thread talking about how parlays are bad - this is why.
+
+Now, I wouldn't be doing my due dilligence if I didn't mention that parlays do have a place with experienced bettors - if you're only using positive value lines, they can actually lead to higher yield/expected value (though you increase your volatility) - but I definitely suggest you put that out of mind until you've established that you're a long-term +value bettor in the first place.
+
+**And that's it.**
+
+While there are definitely psychological factors at play, really the entire reason why the books beat 95% of long-term bettors is the vig, and their profits are jacked up majorly from how popular parlays are. It's essentially similar to a casino - even if you took out all the psychological factors, the vig or house edge would be enough for the business to likely still be profitable.
+
+There are genuinely ways to make money off of them - but I'll look at some of the ideas behind those in a future post. However, rather than leave on a pessimistic note, I will say to pay attention to promos they give out. A \~5% vig is very hard to overcome if you're betting straight-up, but can often be overcome easily with the right promo boosting your expected returns. I won't go into full detail in this one about how to do so, but I will say to pay attention to them. One example I'll give is when PrizePicks do their 'free square' promos (#notsponsored). That kind of thing will usually turn a bet into positive value, and to such an extent that if you were to hedge all the other options you include in it, you should be able to guarantee profit.
+
+---
+## Comments
+
+[mackey_ | 105 pts]
+Anyone got a lock parlay for tonight? Looking for minimum +1250 odds
+
+  [fisted___sister | 35 pts]
+  Someone give me that sweet 4 leg HR parlay, I don’t have a lighter for my money.
+
+  [[deleted] | 2 pts]
+  fd kyle tucker 2 homers and semien 2 hrs  +102372
+
+[Acrophobic_Pilot | 91 pts]
+TLDR: be 5% better
+
+[SiMitchell | 83 pts]
+TLDR: Around 90 to 95% of sports bettors lose money in the long term. This is mainly due to the sportsbook's commission, known as the vig, which cuts into potential winnings. To be profitable, bettors need to predict winning markets at least 5% more accurately than the sportsbooks, which is challenging. Additionally, parlays, though popular for higher payouts, compound the bettor's losses when combining negative value lines. While some experienced bettors may find edges and profit, most recreational bettors overestimate their ability to pick winning bets. The sportsbooks' profits are boosted by the vig and the popularity of parlays. However, paying attention to promotional offers can improve a bettor's chances of overcoming the vig and turning a profit.
+
+  [Mugen8YT | 2 pts]
+  Really nice summary. 🙌
+
+  [[deleted] | 1 pts]
+  what's the source?
+
+  [MisterGoodrench | 1 pts]
+  Parlays make a higher percent of profit per dollar bet. I'd heard forever to never parlay sports bets. Then I learned that parlaying money line bets on (theoretically, before the events begin) strong to can't-lose favorites is actually a mathematically-correct strategy.
+
+[lifestrashTTD | 53 pts]
+Well I enjoyed that read on the toilet, back to betting!
+
+  [Interesting_Leg4191 | 5 pts]
+  Mine was on the bus good info though!
+
+  [Independent_Idea_794 | 1 pts]
+  You probably can’t even afford toilet paper by now
+
+[jomboy_ | 44 pts]
+Good post for most people here. But this idea that sportsbooks run sophisticated, high-tech operations that allow them to get to the best numbers is a total and complete misconception. The business model of a book relies on paying as little as possible to get to the most efficient price. Investing in internal trading talent and resources to do the work themselves is not profitable. Instead, they spend the bare minimum to get to a reasonable enough opening price and then allow the market of bettors to tell them where their numbers should be corrected. It is far more important for a book to know how to book action than originate lines.
+
+This is an important distinction. The majority of sports bettors think the enterprise is all about the public versus the sportsbooks. For the most part, this isn’t incorrect; after all, only one side loses money in every wagering situation. But if you think beating numbers and finding +EV bets involves only beating the sportsbooks, think again. In order to win in the long-term, you must be able to beat other sophisticated bettors in the market, bc the market moves on their opinions. It’s not you versus some minimum wage monkey in Costa Rica or Gibraltar or, in rare instances, Las Vegas. It’s you versus groups of professionals who do this daily and can bend the markets to their will. I’ve posted about this in the past: https://www.reddit.com/r/sportsbook/comments/qxnsr3/a_look_into_professional_sports_betting_part_i
+
+One last point…knowing all of this now, do you still think anyone with a clue about how to win is posting any actionable information in the public realm for others to “learn”? No. This is a zero-sum game. There is only so much money to go around. If you win, then there’s less for me to win. As a friendly person, I want you to win what you can. As a professional sports bettor, I don’t want you to win. It does me no good at all. Food for thought
+
+  [Mugen8YT | 8 pts]
+  I made the original post; their lines are definitely not perfect - but they're *accurate enough*. That's essentially the point I was trying to get across, and I believe I mentioned during the post that there are edges to find amongst them. Your cost-effiency comment has a good point to it; it's cost-benefit when it comes to accuracy - there's a level of accuracy you need to successfully operate, but after that it's a matter of whether or not further investment will generate enough extra profit to be worthwhile (and, after all, if the book gets the ideal situation of both sides of a market being balanced against each other, the accuracy of their odds is far less important - betting marketplaces like BetFair basically operate entirely on that principle).
+
+Also on the free information front - also true. Had a discussion with someone yesterday who refused to listen to any information I was giving unless I could show I was a bettor by posting some slips - and they didn't seem to grasp the concept that when someone finds an edge, they typically protect that edge in order to not dilute it. That's why I do things like this sort of analysis, or basic guides like EV, Kelly Criterion, the flaws of Martingale, things like that. I'm happy to help with the core mechanics of some successful betting strategies, even to suggest how someone might go about investigating a potential edge - but there's no way in hell I'll actually divulge specifics about an edge I'm working with.
+
+    [jomboy_ | 18 pts]
+    Another misconception: books don’t try to balance action on both sides. That puny percentage isn’t how risk management works. They try to be on the sharp side. There isn’t enough action on the vast vast majority of individual markets for a sustainable business model of “balanced action.” Any current or former oddsmaker on social media can confirm this.
+
+      [[deleted] | 4 pts]
+      &gt;Another misconception: books don’t try to balance action on both sides.
+
+This needs to be pinned in every sports subreddit. I have been in so many arguments with people about this. I don't know how the 50.50 action rumour ever got started but it is pervasive.
+
+      [Mugen8YT | 1 pts]
+      Interesting. Definitely wasn't aware of that. Pretty sure I got the idea of balancing both sides from popular media, so interesting that it's off the mark (but then again, popular media does that all the time).
+
+        [jomboy_ | 4 pts]
+        Yeah popular media the best source for how businesses work lol. They don’t have a clue
+
+        [echOSC | 5 pts]
+        LVRJ literally asked this to the books and they said lol no, and people still don't believe it.
+
+      [dataisthenewdata | 1 pts]
+      I am curious, why does the line move if they don't care about balancing the action on both sides? Is it because the early sharp bettors help them determine what the sharp side is and they want to encourage people to take the other side?
+
+        [jomboy_ | 1 pts]
+        If you have sharp information that a game’s most likely outcome is -3/54, why would you continue hanging a line that is -4/56? That would make every subsequent wager on the dog or under a +EV bet. That is not good. A sportsbook wants to hang the line at the most efficient (i.e., most probabilistic) line, so that every subsequent wager on either side is a -EV bet after paying juice. This is what people conflate as “equal action on both sides,” which is incorrect. They don’t care if there’s 80% action on the underdog and 20% on the favorite in any one game. As long as the price being dealt is the best 50/50 coin flip price, the book is in good shape, because all of those bets are -EV. The next game, there might be 80% favorites and 20% underdogs. They make money all the same.
+
+        [dataisthenewdata | 1 pts]
+        
+&gt;A sportsbook wants to hang the line at the most efficient (i.e., most probabilistic) line, so that every subsequent wager on either side is a -EV bet after paying juice. This is what people conflate as “equal action on both sides,” which is incorrect.
+
+Oh wow, that is what I was missing. Thanks for that.
+
+        [O_My_G | 1 pts]
+        Based on this ,do you think there any truth to Books setting a line because they want "people to bet a certain side"? I hear this a lot but the premise you outlined makes it seem like goal of the line is a 50/50 prop and "where the books want you to bet" is just a public misconception based on their own impression of the line.
+
+        [jomboy_ | 1 pts]
+        It’s a retarded way of thinking about how a prediction or forecasting market works and you should ignore anyone who spews such retardedness
+
+  [Late-Following472 | 1 pts]
+  Your wrong buddy. It doesn’t have to be intricate to be effective. Are they hiring Google Engineers to build sophisticated algorithms 🤷🏽‍♂️ probably not. Do they have years of books to reference and leverage for simple algorithms to leverage historical data. Most definitely. Moral of this story is the house vig is the business. The consumer bet is the house money.
+
+  [ArcticRhombus | 1 pts]
+  Ooh, I remember, I followed your George Mason bet! 😂
+
+  [LiveForMeow | 1 pts]
+  You're exactly right, no one is going to share any profitable betting methods. If they do then there's some other motive. I'm tired of seeing all the snake oil salesmen out there promising easy money, any time you see that you should run away.
+
+  [Shapeofmyhair | 1 pts]
+  It all depends on the source of the price. In a lot of cases, it's your price against the one trader who puts the first price up at that sportsbook.
+
+  [uplay2winthegame | -1 pts]
+  Sort of. Or, you can watch the market and bet \*with\* the sophisticated bettors, instead of trying to beat them.
+
+    [jomboy_ | 5 pts]
+    You can’t chase steam properly without a technically advanced set up.
+
+    [SoftwareSelect3507 | 3 pts]
+    I'd add to what he said that not all line movements are indicative of sophisticated bettors - a lot of lines initially move one direction then reverse the other direction.  Chances are if you're tailing a line movement on a side with heavy public action (as opposed to truly being a sharp side) you're probably going to get hosed. So you have to be able to properly read the market too.
+
+      [Epabst | 1 pts]
+      And because it’s betting, sometimes the public gets it right
+
+[[deleted] | 43 pts]
+the cold hard truth that 99% of people here think doesnt apply to them.
+
+  [nineteennaughty3 | 6 pts]
+  Everyone thinks they’re special, until they’re proven that they’re not
+
+[notfromsoftemployee | 37 pts]
+Seems like solid advice but I gotta get this 5 leg Ghanaian table tennis parlay in before it starts so...
+
+  [Careful_Temperature4 | 1 pts]
+  😂😂💯💯
+
+[Wowsabig | 27 pts]
+shorter version: betting on baseball
+
+  [rocketboi10 | 8 pts]
+  Sharps have had a nice year in baseball
+
+  [Vegeta19850109 | -11 pts]
+  Lmfao💯💯💯🤣🤣🤣 Mothafucking preach my friend! Shit is ridiculous bruh! Like I loved Padres today with Musgrove on the mound with his impressive record of I think either 9-1 or 11-1 &amp; rn they're losing 3-0 to the damn Tigers bcuz their overpriced &amp; super overrated batting lineups is acting like some bums smh! Starting to hate baseball lol. Can't wait for the 27th of August so bad friend bcuz the king of sports 🏈 to watch &amp; bet will be on. Can't wait!!!
+
+    [chuckart9 | 1 pts]
+    Sounds like me with the Astros and Phillies yesterday.
+
+[[deleted] | 24 pts]
+Wrong sub buddy, degen life or gtfo
+
+[kshucker | 17 pts]
+I’m still going to throw money at +2000 parleys.
+
+[Pale_Strain_188 | 14 pts]
+Had a seizure thank you
+
+  [Akatsuki_Obito | 1 pts]
+  This.
+
+[jrhooper | 12 pts]
+Thought you were just gonna say because they quit right about they’re about to hit it big
+
+[yerrabam | 10 pts]
+TLDR; So in order to be a profitable long-term bettor, you have to be more successful at picking markets than the sportsbooks
+
+&amp;#x200B;
+
+Makes a lot of sense.
+
+  [ownmyholesdaddy | 2 pts]
+  Actually no. If you’re 4% more accurate, you’re still losing money.
+
+[DoubleSuccessor | 9 pts]
+&gt; and to such an extent that if you were to hedge all the other options you include in it
+
+Note for anyone trying to make money on promos, in the long term hedging will just hurt your returns. This applies to future betting too if you happen to be sharp at that (IMO it's a lot easier to line shop and be sharp with futures than it is with normal lines, the composite markets for futures might often have even less than the common 4% vig.)
+
+Your promo bet is +EV and your hedge bets are -EV. In general the only time you should hedge is if the hedge itself is +EV somehow, or if you at least judge it as something that would be a good bet *entirely on its own*.
+
+  [jomboy_ | 4 pts]
+  “You can’t make a good bet a better bet by making a bad bet”
+
+  [Mugen8YT | 2 pts]
+  Yep, this is true. I actually use a tonne of promos myself, and hedge/arb them - and I readily admit that it's more a psychological decision than a strategic one.
+
+At some point I'll go back through my results, backtest with the hedges removed and see what my total would have been - likely crying at the lost money - but gaining enough cold hard maths to work past the psychological weakness.
+
+  [[deleted] | 1 pts]
+  [deleted]
+
+    [Mugen8YT | 1 pts]
+    This is quite interesting, given that you'd expect for a +100 market you'd likely win one and lose one, resulting in a 50% conversion. Ditto for longer odds; with a +400 you'd expect to win about 1 out of 5 for a $200 profit from the winner, resulting in... ok, 80% conversion.
+
+Ok, I'm seeing it now. The higher the odds you go, the better your throughput will be once you finally realise the expected value. That said, 110% implies that you're also doing it with an edge, which would help (unless I'm mistaken, if you're not picking better than the books, you might approach 100% as you choose markets with longer and longer odds, but you won't reach it). :P
+
+There is a case to be made of "speed of return", and having access to the funds within a day in order to do stuff with it, given that it'll likely take you quite a few hits of the long-odds markets before you finally get the value realised. That's pretty much the only counterpoint I can offer; otherwise no-hedge-and-longshots does indeed look superior due to increased returns.
+
+      [[deleted] | 1 pts]
+      [deleted]
+
+        [Mugen8YT | 1 pts]
+        It's more volatility than variance - if you do 1000 bonus bets variance will be pretty negligible, but the higher the odds you use the more volatility there'll be regarding when you actually hit your wins.
+
+[Salt-Free-Soup | 7 pts]
+I don’t understand this obsession with EV formulas… sure you can do them and see what the books expect to be the win probabilities for each team (the line itself already gives that away, your just transforming the numbers into another way of saying the exact same thing as the original ML) 
+
+You still don’t have the other half of the equation for what the *actual* win probability is. It make literally no sense to say somethings +EV when you just decide arbitrarily that the underdog has a 50% chance of winning instead of the 42% chance the book calculated. 
+
+Drives me nuts when people say dumb shit like ‘if everyone only bet +EV bets, the books would be out of business’ no shit, if everyone knew what the outcomes to games will be there would be no one losing. 
+
++EV is just saying ‘I think the books have this line too high, I like the underdog on this one’ which is what I hope to god anyone betting with half a brain cell already does, are you trying to win or are you all out here trying to lose?
+
+  [acltear00 | 7 pts]
+  The way I look at it, there always has to be a baseline knowledge set to determine +EV.
+
+For some bettors, it’s their knowledge of markets that allows them to determine which bets are +EV. Obviously, the amount of bettors that can do this is low. Like very low. Like I’m not even sure there 1,000 people nationwide that can do that in the major markets consistently.
+
+But there are other base lines to determine +EV. For instance, Pinnacle is good enough at most markets for us to say that they are as close to true probability as anything. If Pinny is the base line, then it’s fairly accurate to determine which lines are + or -EV at other books.
+
+  [National-Watch-3883 | 1 pts]
+  This has already been figured out already. If you have 1 million people guess an outcome of a certain event. The most accurate result will be in the median of all guesses. Now in this day and age we have billion dollar models with machine learning to give us an opening line by being able to simulate each game thousands times over. The Sharp bettors will move the line accordingly before game time. This is no different than hurricane models tracking future hurricane paths.
+
+  [KazJL | 1 pts]
+  Ev betting is about finding outliers amongst the marketplace. It is not a model thus does not have some magic formula. So yes, you do have the probability of an event occurring if the market has a consensus price for a line
+
+  [snewt09 | 0 pts]
+  EV is not saying 'i think the books have this line too high'. It's saying, 'this is clearly a significant outlier, and has value".
+
+Base ALL of your bets on +EV theory for a couple years and tell me if you still feel this way. My bets are 100% +EV. I use zero analysis outside EV formula. I am profitable. Can't say the same for the other 90-95%. 
+
+BTW, on the other side of the coin, you don't drive me nuts. I hope everyone thinks like you do, so that I can continue profiting.
+
+[CdzNtz516 | 7 pts]
+Lack of value in plays,  parlays, and a lack of betting dogs
+
+[gpguy25 | 5 pts]
+I am #1 in the 95%.
+
+  [ConflictRound2305 | 1 pts]
+  Bs
+
+[maverickk44 | 6 pts]
+Great read but in some (rare) cases, it's good not to over complicate things.
+
+The people I know who are in the green and make a living off of sports betting, don't even know some of the things that subs like these speak about (i.e +EV betting etc).
+
+I know this will be downvoted to hell but anyways, there is no be-all and end-all method to sports betting
+
+  [KazJL | 10 pts]
+  The people who make an actual living off sports betting absolutely know what +ev betting is. If they didn’t they wouldn’t be betting “professionally” for very long
+
+  [offconstantly | 6 pts]
+  &gt; The people I know who are in the green and make a living off of sports betting, don't even know some of the things that subs like these speak about (i.e +EV betting etc).
+
+They might not know the term but what the hell do they think they're betting if they don't know what +EV betting is?
+
+    [maverickk44 | -1 pts]
+    Maybe it's the term they don't know since I've asked them if they use +EV betting to make their money, to which they replied with they don't know what it is.
+
+They bet on what's most likely to happen as long as the odds aren't lower than 1.3 odds or so.
+
+They only bet on soccer and only focus on a few leagues as awell as a few teams so they don't bet every single day.
+
+      [offconstantly | 6 pts]
+      If they make money long-term they're using +EV betting whether they know it or not. They're betting things that have a higher expected value than the price
+
+I think it's just a terminology thing. People on this board use "EV" because others overuse stuff like "good value" and "lock" to the point it has no meaning
+
+        [maverickk44 | 3 pts]
+        As I look more into it now, it's probably a terminology thing as you say.
+
+I appreciate your comment, it helped clear things a little bit.
+
+[andhow27 | 7 pts]
+95% is from reddit bettor
+
+[stefsthoughts | 4 pts]
+Pretty sure it's 99
+
+  [Mugen8YT | 7 pts]
+  Wouldn't be surprised - there's just not much of a consensus between studies. That said, I believe at least some of those studies were done prior to the legalisation of sportsbettting in most states a few years ago; it becoming accessible to so many more people that don't know the pitfalls and how the odds are stacked against them means that the figure is likely worse now than when those studies were done.
+
+    [DoubleSuccessor | 5 pts]
+    Then again promos now are technically much more exploitable than they were in the pre-legal era. So there's a population that will make money on those (while shying away from betting more unsupported by promos) and wouldn't have been sharp enough in the past.
+
+      [Mugen8YT | 2 pts]
+      While true, I'm skeptical that it would do much compared to the masses that don't get close to maximising the potential of promos. I have nothing to go on but the impression I get from regular people as well as the degens on the Reddit betting subs, but if you showed me a group of 10 bettors, I think you'd be lucky to get 1 that really tries to squeeze true value out of promos (don't get me wrong, at least a few of the others would use promos, but they'd do so in an inefficient manner).
+
+  [scotsman3288 | 1 pts]
+  This is more true then anything else in thread...maybe even 99.9
+
+[kinG_naR | 4 pts]
+What's considered long term? I haven't lost money in well over 1 year.
+
+  [acltear00 | 2 pts]
+  At least 500 bets, but really more like 1,000. And even then, you really should have 500-1000 bets for each market because you might have an edge in baseball but you might lose long term at every other sport.
+
+  [ConflictRound2305 | 1 pts]
+  You are full of bs
+
+[smithdogg22 | 2 pts]
+![gif](giphy|4JVTF9zR9BicshFAb7|downsized)
+
+[Just-Mess8363 | 3 pts]
+It’s just a simple as parlays in my opinion.
+
+[LimpZookeepergame123 | 2 pts]
+Glad to be in the top 5% 😎. Time to throw a parlay together 💪
+
+[yarrowy | 3 pts]
+The bookmakers combined edge on the market is 4.5% but you do not need to be 4.5% better to beat -110 lines, you just need to be 2.4% better since you're only taking 1 side.
+
+  [DoubleSuccessor | 1 pts]
+  Less than that if you lineshop, since books aren't a monolith and a composite market must have equal or lesser vig as any of its components separately.
+
+    [yarrowy | 1 pts]
+    Yes and if you shop at reduced juice books, you can be profitable if you're beating them by 1.2%
+
+[[deleted] | 4 pts]
+Its no more different to trading stocks. You can earn a lot of money if you know what you're doing. Sadly a lot people fail at that.
+
+[Ok-Sentence4876 | 3 pts]
+Over 95 out of 100 sports betters loses money over time. Its actually closer to 97 out of 100. And if u think your one of the three who make money, im willing to bet your not
+
+  [National-Watch-3883 | 1 pts]
+  How much? Cuz it’s really easy to make money sports betting. There’s a reason why books will limit you.
+
+    [Jon66238 | 1 pts]
+    Oh just wait
+
+  [TheReallLD | 1 pts]
+  I got up 16k and quit lol
+
+[OpenMindedShithead | 2 pts]
+Didn’t understand this, understand why I’m negative tho!
+
+But seriously I took a screenshot of ur paragraphs around calculating expected value. Gonna have a nice long chat with GOOGLE BARD later 😊
+
+![gif](giphy|LqOy6eaY5w8IEgdzem)
+
+[[deleted] | 2 pts]
+[deleted]
+
+  [External-Extension59 | 2 pts]
+  That's not long term then
+
+  [Jack_Bogul | 2 pts]
+  so sharp!
+
+[WaffleStompLOL | 2 pts]
+95% don’t bet on the wheel. The wheel is hella up
+
+[AngryKhakis | 2 pts]
+Whenever I see EV these days I just think of those BS touts who sell services that track lines across multiple books and all they do is find the outlier and hope the outlier was wrong. Then they tout their like 4% ROI, just invest in index funds it’s way less risk for about the same return.
+
+sports bettors don’t think about EV in this way and people who have models who bet based on the probability of their backtested model showing profit based on the book line are finding EV but they’ll never say it like that cause that term has been ruined by hustlers selling discord server subscriptions and services who tell you to dumb shit like bet 5 team parlays on prize picks that only pay 5-1 cause underdog says these 5 lines are a point higher than PrizePicks, but hey if you got 5 figures in an account you can sell BS to anyone desperate enough.
+
+  [National-Watch-3883 | 1 pts]
+  I can’t believe you got every single point wrong. When you get a line at -110/-110 it’s implied that there’s is a 50% chance of either event happening.  Fanduel and draftkings updated their odds to -145/+115 by game time. boom, you now have an edge of around 5-6% (I’m guessing here). You replay that same game 10000 times you will find to have a 5% increase in profits.
+
+If I make 2000 bets in a year with a 1% unit size of my total bankroll, I would be up on average of 150% on the year with a 5-6% edge. Just cause you suck and don’t understand data and statistics, doesn’t mean it’s a flawed market.
+
+    [AngryKhakis | 1 pts]
+    First of all -110 isn’t an implied probability of 50% so if you can’t even get the basics right you have no business pretending you know more about stats and data than someone else, cause if you’re trying to show applied knowledge you wouldn’t give the wrong number. 
+
+What you described also isn’t an edge, that’s positive closing line value and you don’t even know why it occurred so it’s not an edge. An edge is what I was talking about where your backtested model shows a better probability the given event occurs than the books listed it for.
+
+Learn what you’re talking about before spouting off on a year old post like you know something.
+
+  [bradcoorsss | 1 pts]
+  Its not 4% roi of your bankroll...its 4% roi on all the money you've bet.
+Its like a 40%+ return on your bankroll
+
+[Apprehensive_Pea7182 | 2 pts]
+More like 98%-100% lose money long term.
+
+[Dick-Fitzwell-2000 | 3 pts]
+My formula is losing my ass when I thought it was real competition and up $4500 lifetime now since I figured out its fixed
+
+  [stewwwwart | 2 pts]
+  Explain further sensei
+
+    [Dick-Fitzwell-2000 | 1 pts]
+    https://www.theatlantic.com/entertainment/archive/2013/02/when-its-legal-to-rig-a-sports-game-and-why-it-shouldnt-be/273152/#
+
+    [Dick-Fitzwell-2000 | -4 pts]
+    https://preview.redd.it/jmwlxmey4sdb1.jpeg?width=828&amp;format=pjpg&amp;auto=webp&amp;s=6fdb1f2ff37844e00c0225943a3dae3ae5ce88f3
+
+    [Dick-Fitzwell-2000 | -6 pts]
+    Shit didnt realize they started charging to read it. Basically there is no law preventing a sports league from manipulating their outcomes. Same rules as wrestling. The sportsbooks and the leagues are on the same team. Its them vs us
+
+      [AccomplishedMemory16 | 2 pts]
+      But how do you know which games are fixed and what side to bet? I just think there are so many eyes on major sports that match fixing seems like it would be nearly impossible to continuously do it. I’m happy to learn more if you care to explain your thoughts and process.
+
+        [[deleted] | 6 pts]
+        Brother the games aren't fixed. You are listening to the town crazy person.
+
+        [Dick-Fitzwell-2000 | -1 pts]
+        Well there is no way to know that everytime. You can bet on WWE matches on offshore books. Royal rumbles take millions in bets every year. Just because we know its rigged doesnt mean that we know who will win every match. Its not like they send us an email of the script in advance. 
+
+As far as football and basketball tho, sometimes the media will really push a certain side before the game and then you can pick up a few hints from the sportsbooks tweeting propaganda. Hard to explain but after 20 years of betting, I can sometimes tell who they want you to bet before the game
+
+        [[deleted] | 5 pts]
+        This is parody right. I can guarantee the royal rumble does not take in millions in bets every year lol.
+
+        [Dick-Fitzwell-2000 | 0 pts]
+        Guarantee huh? All offshore books and all other countries in the world besides America take them. A Million is not a large number for a  pay per view event.
+
+        [[deleted] | 1 pts]
+        [deleted]
+
+        [Dick-Fitzwell-2000 | 1 pts]
+        I dont do baseball so holla at me in about a month
+
+  [kinG_naR | 1 pts]
+  This dude is right 💯 everyone will over think outcomes cuz they listen to the media.
+
+[Glum_Significance_45 | 1 pts]
+Reason sports bettors lose money? 
+1) they don’t bet enough money to make the favorites they do bet into profitable enough
+2) they worry too much about +EV when ACTUAL +EV is contingent on the probability you think your bet will win, when it’s impossible to know that. Thus you don’t truly know if you’re ACTUALLY getting +EV when you bet into something, it’s only relative to some other sports book you use as a baseline and the odds they’re giving. 
+
+You can bet into +EV bets and still not become profitable if your ACTUAL win to loss % (your actual success rate as a bettor) is not greater than the odds (converted to a probability %) that you’ve been betting into.
+
+  [tyraellucifer | 1 pts]
+  I think alot of them is trying to smoke screen the actual way to win
+
+[Lazy-Ad-8607 | 1 pts]
+Sports betting odds
+
+[Dartherizer59 | 1 pts]
+Great write up here. 
+I think I did the right thing with sports betting.
+DraftKings had a promo to give $200 in bonus bets with just a $10 bet.
+Obviously this is a great way to get someone addicted to gambling; the age-old drug dealer trick, “the first one’s free!”. 
+I figured I’d use the $200 in bonus bets, and if I did really well I’d keep going. If not I’d take what I got and leave. I ended up netting just $120 with those $200 in bonus bets, which would’ve been a pretty significant loss if I was using my own money. Took the $120 profit and ran. Not planning on ever betting again except with a similar promo.
+
+  [Easy_Moose2702 | 1 pts]
+  Dont forget… if you win $2k + they will send to IRS so you will get taxed on that.
+
+Screw the sportsbook 5% rake, there goes 30%-65% to Uncle Sam.
+
+    [Easy_Moose2702 | 1 pts]
+    You also are supposed to claim bonus bets as monetary gifts anytime you accept one.
+
+[Queasy_Neck720 | 1 pts]
+Trust me save your money and stop betting I know a lot of people that lost thousands on FanDuel, they love robbing people
+
+[Loose-Wash9811 | 1 pts]
+I’m stopping cold turkey sports gambling
+
+[Ok-Appearance7585 | 1 pts]
+Yeah I loose $25 to $50 regularly but also make 1-2k regularly…You too can be the 1%
+
+[[deleted] | 1 pts]
+How can I flip a coin and never ever get such crazy streaks as I can lose picking one side or the other on sports betting? Is there something more going on behind sports betting and does anyone have a story of when you absolutely knew it was rigged? Try this one out. When Mac Jones was new I had 3k on the pats to score first and win. 10 and goal touchless rush fumble. You'd think the guy who dropped it would throw his body on it but he legit turns his back to the ball and looks at me in the camera. Other team recovers, kick a FG and then get destroyed.
+
+
+I was probably the biggest bet on that one side bet and it was so blatant they robbed me
+
+[LimitFar | 1 pts]
+Depends on how you’re betting and how much you’re betting. If you regular Tom betting like $20 every other day. But you may end up losing or making back like $20-$60. Sure whatever. But when you gamble more bigger bets with larger amounts of deposits then there’s the issue… even if you win a couple you still want to go and do it again. It’s not rigged it’s just systematically incentivizing you to keep betting without telling you to. They know a chance of a 10 pick parlay of hitting is low. Why bet on player to get a certain stat that they been hitting all season when you can go for gold. That’s why they go for it. The odd payout are higher for less likely to win bets. As far as players projections odds its all ran by an analytical master in player trends habits match ups and averages combined.
+
+[Odd-Weather-6195 | 1 pts]
+Betting on every ice hockey game
+
+[Lanky_Caterpillar152 | 0 pts]
+I like to put $500 on one sure thing bet like the over on Ohtani K’s
+There’s a few times it didn’t hit but I hit this past Friday
+
+  [offconstantly | 14 pts]
+  &gt; sure thing
+
+...
+
+&gt;There’s a few times it didn’t hit
+
+[MisterBear22 | 1 pts]
+How to be profitable?  Only bet boosts/promos/free bet returns etc.  Have as much fun as you want while using statistical advantage.   Any time you are taking the house lines you are losing 5-10%.
+
+[MeatballsGoodEye | 1 pts]
+Doesn’t account that each bet can vary in amount
+
+[Big_Butterfly5576 | 1 pts]
+I think those who lose on bets do it because they're not betting on 96br
+
+[[deleted] | 1 pts]
+I need to know this man’s credentials before I read something this long.
+
+But yes I am apart of the 95
+
+[urabeach | -6 pts]
+TIL I’m in the 5%
+
+[greasy999 | -7 pts]
+Bla bla bla read lines, follow the money, find great set up spots, bet bigger if u like the spot. It is definitely possible to be profitable betting on big events that are prob rigged, but you probably should be crunching numbers if you are tryna grind smt like reg season mlb.
+
+  [[deleted] | 2 pts]
+  [deleted]
+
+    [SoftwareSelect3507 | 2 pts]
+    Floyd Mayweather is in his 40s and significantly smaller than Logan - there's a reason why boxing has weight classes. Plus it being essentially an exhibition fight he's probably not going to go all out anyway. No KO is a very unsurprising outcome in that fight (not being rigged)
+
+    [Epabst | 1 pts]
+    Mayweather tried really hard in like 2-3 rounds and it made me feel like those rounds he had money on a knockout. Cause once it passed in round 6 I think, he coasted
+
+      [Ok-Seaworthiness3874 | 2 pts]
+      He definitely landed a few vicious looking strikes. He could’ve KO’d I think. moments like ur saying where it seemed like they were really going at it, level of at least hard sparring. 
+
+Maybe wasn’t the best example but I really feel they didn’t want Logan to get KO’d. All the people who didn’t know dick about boxing, myself included, would see it and go ah he’s a pussy, case closed, no reason to pay for next years fight. Half the audience being his “haters l are going to continue to pay UNTIL he gets KO’d. I wonder if for instance mayweather was wearing the correct type of glove and it wasn’t like padded differently to help reduce the impact. 
+
+That sort of thing. And like most things **involving influencers attracting an audience of not avid boxing fans** - just follow the money.
+
+[Natethegreat13 | -18 pts]
+Still blows my mind that people can’t just bet the better team every time and take their pennies, build the bank brick by brick and don’t get sidetracked by dogs and parlays. Why wouldn’t that work in the long run? 
+
+$10 to win $19 on the -110 for long enough must get you somewhere, right?
+
+  [able2sv | 12 pts]
+  Because teams with -110 odds lose 50% of the time, you will just slowly lose that 5% vig over time. 
+
+In order to make any notable amount of money by repeatedly betting-110 odds, you would need to winning at least 60% of your bets, and nobody can predict coin flips with 60% accuracy.
+
+If there actually is a favorite team with &gt;50% chances of winning, you won’t be able to find them at -110 odds.
+
+    [MJDiAmore | 2 pts]
+    &gt; In order to make any notable amount of money by repeatedly betting-110 odds, you would need to winning at least 60% of your bets, and nobody can predict coin flips with 60% accuracy.
+
+This simply isn't true.  If you're &gt; 52.4% at -110 picks, you will be making money.  You only need to be hitting 60% to be winning RAPIDLY.
+
+      [able2sv | 2 pts]
+      True. If U is unit size, here is how much you profit off of 100 bets at -110 odds with various win rates.
+
+53% = 1.23U
+
+55% = 5.05U
+
+57% = 8.87U
+
+60% = 14.6U
+
+Even at 55%, you're only profiting 5% per wager. IF your system was extremely tight and you compounded well you could grow exponentially, but it's still quite tough for your casual/low-stakes gambler to find 5% profit worthwhile given how hard it is to find that edge.

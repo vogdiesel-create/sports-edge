@@ -1,0 +1,37 @@
+=== Sports Edge Analyst Session: postmortem ===
+=== 2026-04-30 05:00 UTC ===
+
+Post-game review complete. Here's the summary:
+
+## Apr 29 Results
+
+| Model | Record | PnL | Note |
+|-------|--------|-----|------|
+| Game Model | 1W-1L-2P | +$15.11 | Quiet day, BOS@TOR OVER hit |
+| K-Props | **2W-7L** | **-$574.41** | Second catastrophic day in a row |
+| OddsTrader | 17W-8L | +$304.83 | TB carried it (13W-6L) |
+| **Combined** | | **-$254.47** | |
+
+## Critical Action Taken: K-Prop UNDERs Disabled
+
+The data is now undeniable:
+- **OVERs**: 20W-12L (62.5%), **+$486** 
+- **UNDERs**: 31W-29L (51.7%), **-$330**
+
+UNDERs don't cover the vig. Added `DISABLE_UNDER_BETS = True` in `prop_model.py` at both filter locations (line ~61, ~667, ~1222).
+
+The 2-day K-prop meltdown (6W-14L, -$1,003) was almost entirely UNDER losses where pitchers threw 6-10 Ks through the under line. Asymmetric risk -- one hot pitcher day wipes multiple small wins.
+
+## Updated Portfolio
+- Combined PnL: **+$793** (down from $1,138 peak)
+- 330 total graded bets (300-bet milestone reached)
+- K-prop bankroll: $3,156 (was $3,731)
+- OT bankroll: $5,639 (strongest performer)
+
+## Morning Priorities
+1. Verify prop_model runs correctly with UNDER filter
+2. Run OVER-only edge bucket analysis 
+3. Consider increasing OT TB sizing
+4. Write 300-bet significance report
+
+=== Session Complete: 2026-04-30 05:06 UTC ===

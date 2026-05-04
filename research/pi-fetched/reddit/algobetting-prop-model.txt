@@ -1,0 +1,237 @@
+# r/algobetting search: prop model
+# Query: prop+model+OR+player+prop
+# Results: 25
+
+## [60 pts, 10 comments] Lessons From Building a Winning Prop Prediction System
+Author: nexaodds | URL: /r/algobetting/comments/1hw38vo/lessons_from_building_a_winning_prop_prediction/
+Hey all, I've spent the last few months building player prop prediction models for the NBA and NFL. I have many years of developing experience, and its truly been a journey of mistakes and figuring out what works/doesn't work. At the end, I built systems that have had really good records in production. I've compiled some of my lessons below to help some future modelers.   
+  
+**#1. YOUR DATA IS GOLD**  
+  
+While this seem obvious, I want to emphasize that the majority of the struggles I’ve had w
+
+---
+
+## [61 pts, 40 comments] How do you actually build a betting strategy that works?
+Author: Low_Succotash_8903 | URL: /r/algobetting/comments/1pbh4ch/how_do_you_actually_build_a_betting_strategy_that/
+Not talking pro level models just like, how did you get past the “betting vibes” stage? Here's what kinda helped me figure mine out:
+
+• Track everything – Wins, losses, types of bets, sports, units even the dumb parlays. Patterns pop up real quick when it’s all in front of you.  
+• Stick to what you know – Once I stopped betting random MAC games I don’t even watch, my win rate actually improved.  
+• Test different styles – Tried spreads, props, live bets, etc. Turns out I’m way better at picking
+
+---
+
+## [39 pts, 26 comments] I just can’t find an edge. 
+Author: knavishly_vibrant38 | URL: /r/algobetting/comments/1hufdq4/i_just_cant_find_an_edge/
+This area is my speciality, passion, and entire life — using data science and concepts of expected value to succeed in a given market (options, futures, player prop bets).
+
+Not long ago, I got additional financing that I wanted to use to “go for it” — I would come up with a few sound methodologies, rigorously backtest them, and then finally deploy some sizable capital. I would learn more along the way, and after some time compounding returns, I would open up a proprietary shop with offices and b
+
+---
+
+## [36 pts, 20 comments] Deterministic NBA Props, Spreads, Over-Under, Moneyline Model (2025-26 Season): 950+ Game Sample, 60-65% Win Rate, 10-25% ROI Depending on Market
+Author: Simple-Leading-1393 | URL: /r/algobetting/comments/1rsftm6/deterministic_nba_props_spreads_overunder/
+I’ve been building a purely deterministic NBA framework for the 2025-26 season. I don’t use Monte Carlo simulations, LLMs, or any "black box" neural nets. Curious what people's thoughts are about using models like this one, and about predicting basketball in particular. I've found its momentum-based play in both the game length, the streaks, and shifts in tempo to be very fun to both watch and predict as it provides a little more noise and unpredictability than baseball or even football.  
+
+Here
+
+---
+
+## [34 pts, 14 comments] Pinnacle mogs ESPN, DK, BetMGM on 12k Player Props
+Author: splurrrsc | URL: /r/algobetting/comments/1i4n7t7/pinnacle_mogs_espn_dk_betmgm_on_12k_player_props/
+Since no one had a solid answer for the [guy skeptical about Pinnacle being the sharpest](https://www.reddit.com/r/algobetting/comments/1i4drzy/still_not_convinced_pinnacle_is_truly_sharper/), I wanted to share an old writeup I did that touches on this. Would love to hear thoughts + feedback 
+
+[Measuring Sportsbook Accuracy: Analysis of NFL Player Props Using Line Deviations](https://shaanchanchani.github.io/articles/sportsbook-props)
+
+https://preview.redd.it/jjdgm4bavude1.png?width=1038&amp;for
+
+---
+
+## [29 pts, 10 comments] NBA Betting Prediction Model
+Author: ZealousidealGuest276 | URL: /r/algobetting/comments/1hhc0x2/nba_betting_prediction_model/
+**Hello! �**�
+
+I've been working on a script to help me analyze NBA stats for sports bets and research. My goal is to build a strong foundation using **Python** and tools like the `nba_api` library. For context, I use data apps like **Hall of Fame Bets** and **Outlier Pro**, but I wanted to create something of my own to start learning scripting and stat analysis.
+
+The script fetches player game logs, projects key averages (Points, Rebounds, Assists, etc.), and exports the results to a CSV file. 
+
+---
+
+## [18 pts, 2 comments] Options trader looking to level up in +EV betting
+Author: BostonDota2 | URL: /r/algobetting/comments/1hmzhcc/options_trader_looking_to_level_up_in_ev_betting/
+Hi everybody, 
+
+  
+I'm just an average guy who got into the exciting world of sports betting by way of Polymarket and seeing the promotional bonuses ads on the bus way home. I took naturally to the sports gambling as like I've traded the options market profitably for 10+ years, as both are a zero-sum game; and both have inefficiencies due to supply and demand of punting market participants - that one can exploit with  calculating and playing to the theoretical true values of the implied odds of 
+
+---
+
+## [11 pts, 11 comments] Sharing my Monte Carlo MLB prop model architecture + 2024 backtest calibration results (12,847 predictions)
+Author: gmoneycinco | URL: /r/algobetting/comments/1s2550e/sharing_my_monte_carlo_mlb_prop_model/
+Been lurking here for a while and saw the great discussion on PA-level K calibration recently. Figured I'd share what I've been building since it's directly relevant to this community.
+
+
+
+\*\*The model\*\*
+
+
+
+I built a Monte Carlo simulation engine for MLB player props. The core idea: simulate every plate appearance of every game 5,000 times using a LightGBM probability model trained on \~1M plate appearances. 8 outcome classes per PA (single, double, triple, HR, walk, HBP, strikeout, other out)
+
+---
+
+## [12 pts, 16 comments] Yesterdays Performance
+Author: Relevant_Horse2066 | URL: /r/algobetting/comments/1ancrdw/yesterdays_performance/
+The model I built hit 61% of player props, for the betting site I use the odds are equally 1.85 1.85 with ocasional 1.95 1.7. The model predicts amount of points a player will have and then if it is over or under I assing it over/under and place bets accordinlgy distributed evenly. With a 100$ bankroll I placed around 4.3$ on every prop and got 12$ in profit. I want to increase the profit, if lets say my model predicted a player to score 40 points and his threshold is 23 points would that be a s
+
+---
+
+## [9 pts, 17 comments] Built a conviction scoring system on top of an NBA rebounds model
+Author: TargetLatter | URL: /r/algobetting/comments/1s0rhu5/built_a_conviction_scoring_system_on_top_of_an/
+**Built a conviction scoring system on top of an NBA rebounds model — looking for feedback on the methodology**
+
+Been working on a rebounds prop model using a Negative Binomial distribution (minutes model × RPM model, fused uncertainty). Recently overhauled it to strip rolling outcome averages from the mean model entirely, replacing them with structural and tracking features — court distance, touches, passing involvement, rebound opportunity rates from play-by-play data. The idea being that roll
+
+---
+
+## [9 pts, 5 comments] Pitcher K Props, results
+Author: Bits_Bytes_Bucks | URL: /r/algobetting/comments/1702odw/pitcher_k_props_results/
+I just finished archiving off the results of the 2023 MLB season "pitcher K props" bets. I'm sharing some of my approach and the outcomes in the interests of the algo community, in case anyone feels like building off of this for next season.
+
+I used Random Forest regression to predict a target variable instead of using binary classification to predict the probability of winning the O/U bet. I'll very likely use a binary classification model next year, but I realized too late that I hadn't been t
+
+---
+
+## [6 pts, 2 comments] Programmer looking to get started
+Author: racerx1036 | URL: /r/algobetting/comments/1gaitzp/programmer_looking_to_get_started/
+I am a programmer by profession but want to get into algo betting. I work with PHP by way of trade, but have dabbled in python before would definitely need to learn some stuff there as I go though. Whats the best way to get started building an algo im thinking of starting with NBA stats since they seem to be relatively predictable and reliable. I figure doing Overall game stats would be easier to start than including player props like ppg etc but I do want those down the line. I want to as I lea
+
+---
+
+## [7 pts, 12 comments] How to bet large amounts in Vegas on Basketball Props
+Author: Zestyclose-Total383 | URL: /r/algobetting/comments/1h71zkd/how_to_bet_large_amounts_in_vegas_on_basketball/
+I've built a basketball model that has edge over Vegas lines, and wanted to go to Vegas to try and get as much money down as possible. As someone who has never actually been to Vegas, how exactly do the mechanics of this work? Seems like a lot of the casinos are owned by the same company, and read typically that max limits on player-props are \~$500. The MGM Grand / Bellagio seem like they're both owned by BetMGM - can I simply just go to these two different casinos in person and bet $500 on an 
+
+---
+
+## [8 pts, 18 comments] Help with correcting Model Bias towards predicting Unders
+Author: gnez1 | URL: /r/algobetting/comments/1af4c2e/help_with_correcting_model_bias_towards/
+I have been working on an NBA player props model, which so far appears to have some predictive power. However, my model has a considerable bias towards predicting unders (\~83%)  than overs. My underlying dataset has only a small relative bias (\~53%) towards unders. Has anyone else dealt with a situation like this when modeling or has any suggestions for trying to improve my models balance? Thanks
+
+Edit: Sorry I should have added the type of model. I am building Monte Carlo simulations. From th
+
+---
+
+## [5 pts, 2 comments] NFL Player Prop Odds on Sheets. 
+Author: Shaggydk | URL: /r/algobetting/comments/1eqf0pe/nfl_player_prop_odds_on_sheets/
+Hello everyone, currently working on writing my NFL prop and game score projection model for this season. i’m in the middle of it, but i’m thinking ahead for implementation of odds. I really have 0 experience with web scraping and am definitely a below average programmer when it comes to raw code. theodds.api has been working for game odds but i really want to be able to see the player prop lines right in my google sheets. I can get a stat projection for most of the main betting props for QB/RN/
+
+---
+
+## [7 pts, 6 comments] Predictive model approach
+Author: BigRonG49 | URL: /r/algobetting/comments/1ktcnq9/predictive_model_approach/
+First off I’m relatively new to sports betting(November). 
+
+My background is primarily financial accounting as well as financial and employee benefit plan auditing with supplementary skills in: data analysis and some programming.
+
+Very happy that I found this sub because my initial approach to sports betting similar to you know stock market technical analysis trying to find a way to have an age performed like a sharp.
+
+My predictive model is focused on evaluating players and teams for a defined 
+
+---
+
+## [6 pts, 8 comments] Beta Testers Wanted for Odds API WebSocket
+Author: SportGameOddsAPI | URL: /r/algobetting/comments/1llxicd/beta_testers_wanted_for_odds_api_websocket/
+Admin, delete if this is not appropriate. 
+
+We’re looking for a small group of new users to help us beta test our WebSocket for fast odds data, starting early July — part of our established Odds API platform.
+
+**About the Product:**
+
+Our core REST API is an established product, powering sportsbook models, platforms, and betting tools. We’ve now added a WebSocket option for low-latency odds updates and want fresh eyes to help test stability, format, and integration ease. We already have some curr
+
+---
+
+## [7 pts, 7 comments] Starting to use a model to make bets and wondering if there’s anything I should be doing differently?
+Author: Consistent_Buy625 | URL: /r/algobetting/comments/1ot5ckm/starting_to_use_a_model_to_make_bets_and/
+Last year I made a model to predict NBA player props after coming to the realization that there’s no massive black-box statistical model in Vegas. I scraped by hand on websites that had props from previous days using things like the wayback machine to avoid paywalls (don’t have money to spend on datasets, hope that will change with this)
+
+I collected around 1400 lines over the past few years and tested my model on them. All of them were correctly able to predict the O/U line for props more than 
+
+---
+
+## [5 pts, 6 comments] Model Changes
+Author: No_Orchid4067 | URL: /r/algobetting/comments/1qe1w1v/model_changes/
+Hello, I built an Ai prediction model using Monte Carlo sims for NBA player props and in the month of November and December the player prop model went up 19 U and was doing really good, however, recently it dropped 12 Units in a month and I do not know why. I switched to building a ridge regression model And been trying that out this month but again it is not profitable. Is it too far into the season now where Vegas just knows the lines and has the edge? or are my models just cooked? im thinking
+
+---
+
+## [4 pts, 15 comments] Arb Betting, Books limited, solutions ? :)
+Author: L3z0 | URL: /r/algobetting/comments/1bnudw5/arb_betting_books_limited_solutions/
+Hey yall, been a lurker, ive learned a lot from you all! Thanks!   
+
+
+Ive gone through the trials of trying lots of different EV/ Arb solutions, and none with any real success mostly due to my location, Texas, as far as ARb success. Ive written my own arb finding solution, that encompasses at about 5 of the allowed books, however I find it hard to capitalize on the results in live play especially. But in general it is just quite a cumbersome solution. Im curious if anyoneis working on project si
+
+---
+
+## [3 pts, 2 comments] I’m trying to build a player prop odds and line tracker for NBA, NFL, NHL, UFC, and MLB, focused on non-US sportsbooks, especially Asian and international books. The main goal is to compare player prop lines and odds across different books to identify value and pricing differences.
+Author: Acidpoxxx | URL: /r/algobetting/comments/1qda6z6/im_trying_to_build_a_player_prop_odds_and_line/
+What I want to track:
+Player props (NBA/NHL: points, rebounds, assists, shots;
+NFL: yards, receptions, TDs;
+MLB: hits, HRs, strikeouts;
+UFC: round props, method, fighter totals)
+Multiple Asian / international sportsbooks (not US-only books)
+Line differences + odds differences for the same player/market
+Line movement over time
+What I’m looking for help with:
+Best way to pull live or near-live player prop data from non-US sportsbooks
+API vs scraping approaches that work well with Asian books
+Handl
+
+---
+
+## [4 pts, 6 comments] Built a pitcher K and hits allowed prop model — looking for feedback on the approach
+Author: jakelasala2 | URL: /r/algobetting/comments/1s2qyzb/built_a_pitcher_k_and_hits_allowed_prop_model/
+I've been working on an MLB pitcher prop projection tool and wanted to get some eyes on the methodology from people who are more experienced.
+
+The core of the model takes the pitcher's K/BF rate (weighted across seasons with sample size regression), the opposing team's players K%, and combines them with a log5 adjustment. It also take into account an estimated batters faced number.
+
+On top of the base model I'm layering in:
+
+\- Rolling 5-start K-rate blended at more weight for recent form
+
+\- Pi
+
+---
+
+## [2 pts, 15 comments] Betting model not working as expected
+Author: Stock_Note9718 | URL: /r/algobetting/comments/1p6g1pl/betting_model_not_working_as_expected/
+Last year, I made an NBA betting model to predict player props and performances. I tested it on all of the publicly available data I could find for previously available bets (around 1400 over the past few years, random dates &amp; players), and it came back with an accuracy rate of around 57%. I started trying it this year on DraftKings, and consistently made money and hovered around that success rate for about 3 weeks. However, I upped my unit size since I felt more confident with it and IMMEDI
+
+---
+
+## [2 pts, 2 comments] 🚀 Player Prop &amp; DFS API – Now Open for Early Testers
+Author: Apprehensive_Ice8314 | URL: /r/algobetting/comments/1nyxerv/player_prop_dfs_api_now_open_for_early_testers/
+Hey everyone,
+
+I’ve built a **normalized API** for player props and DFS data — clean, fast, and finally consistent across books. It now includes **scores, stats, and 10+ sportsbooks** (Underdog, PrizePicks, Rebet, Bovada, Novig, Fliff, etc.).
+
+Covers **NBA, NFL, MLB, WNBA, UFC, tennis, college football, and major esports**.
+
+If you’re a **bettor, model builder, or data dev**, you can start testing instantly — just **send me your email** and you’ll get access right away.
+
+---
+
+## [2 pts, 5 comments] MLB Daily Fantasy CSVs
+Author: zippster77 | URL: /r/algobetting/comments/1r6djnf/mlb_daily_fantasy_csvs/
+I’m working on a model targeted at player props and DFS performance for MLB. Does anyone know where I can find the CSVs for DraftKings or a similar DFS site that show player salaries for each slate? 
+
+I know I can get a CSV for each slate once the season starts, but there are none available right now since MLB is not in season. 
+
+Ideally, I’d like to get them for the whole 2025 season so I can backtest, but even just a couple sample slates would be awesome so I can align the salaries with my pla
+
+---
+

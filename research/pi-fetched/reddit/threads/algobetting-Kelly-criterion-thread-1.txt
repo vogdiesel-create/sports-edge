@@ -1,0 +1,145 @@
+# Culmination of 2 years of developing ML model + Website to Aid in Algo Betting
+
+[Relevant_Horse2066 | 34 pts | 20 comments]
+
+About two years ago, I casually started building an NBA player points model. Initial results seemed incredible, but a classic bug in my testing was the culprit! Once fixed, live testing showed a modest 54% accuracy and 1-2% ROI (with typical 1.86 odds).
+
+That challenge got me hooked. I dove deeper, and by the second half of that season, my model was hitting a 5-6% ROI across all daily picks. I then used Tableau to manually select about 10 picks a day, which pushed the ROI to around 13% – effective, but very time-consuming. Since I couldn't find a website with all the features I wanted (like granular injury impacts – e.g., Player A scoring +2 points if Player B is out – or detailed defensive stats), I decided to build my own.
+
+The site helped, but filtering through many players was still tough. My first crack at a 'confidence score' (Classification) for picks actually just highlighted bookie line inconsistencies rather than true prediction confidence , which was a learning moment! With some research and a friend's help, I developed a proper regression-based confidence model (By outputting distribution). I've also added smarter filtering (like avoiding 'under' bets if a key teammate's absence would likely boost my player's score). This approach started showing real promise: last season, my high-confidence rebound model hit 63% accuracy, and my overall Top Picks achieved an 11% ROI.
+
+Still, sometimes the volume of good picks was overwhelming. That brings us to about a week ago.
+
+I've now combined all these learnings into a new strategy: it takes the ML model's confidence, uses algorithms to filter out riskier situations, and even employs an LLM for text summaries (which also aids filtering). I then map the model's confidence to its historical accuracy to calculate our 'edge' against bookie lines (using Kelly Criterion) and select the top 5 picks daily.
+
+How did it test? An NBA simulation from December 1st (when my site and predictions went live) to April 16th (season's end), starting with a $1000 bankroll, finished at $4000 – a 300% ROI! (This used a conservative estimate of historical accuracy and capped bets at 10% of bankroll for safety). This is not an ideal method since it uses information from the future to estimate the past, but it has a good sample size, and I also lowered the accuracies to it's lower confidence interval to be on the safe side. 
+
+Naturally, I wanted to try this on the WNBA. With limited WNBA data (only about 5 games per team so far), I read an [article ](http://varianceexplained.org/r/empirical_bayes_baseball/)and used Bayesian inference: my NBA historical accuracy serves as the 'prior,' which gets updated by new WNBA game data to form a 'posterior.' It's early, but this approach was profitable for the past 4 days, including a 4/4 run yesterday!
+
+Also made a tool that let' me input different odds and thresholds for a pick and get confidence/historical accuracy and edge from my model.  Hopefully someone finds this interesting, wanted to come full circle since in the beginnings I spend some time on this sub and learned a couple of things!  
+  
+  
+Here's a peek at how it all looks:
+
+https://preview.redd.it/vmo3wudovb4f1.png?width=1368&amp;format=png&amp;auto=webp&amp;s=9a7f1b7d9f47dbfe35789e05406a4cdf22ca0dab
+
+https://preview.redd.it/1yxn12itvb4f1.png?width=956&amp;format=png&amp;auto=webp&amp;s=f185e4eb08a64ee48ae47a31ca11929b97847831
+
+Also made a tool that lets me adjust threshold/line to get prediction and edge from my model in case the lines shift by the time I look at them.  
+
+
+---
+## Comments
+
+[[deleted] | 2 pts]
+[deleted]
+
+  [Relevant_Horse2066 | 1 pts]
+  No, I didn't have the lines for historical data so all my model optimizations were done as a regression. 
+
+And then when the season started and lines started coming in I was only doing simulations for accuracy and ROI since that's what matters the most to me. 
+
+You could probably calculate the brier's fairly easily.
+
+Honestly most of the modelling work was done prior to the season start and I was mostly focusing on after prediction stuff. Like filtering out injuries from my top picks etc. And making the website, now that everything is automized I plan on diving back into modelling and see if I can optimize something there, I don't like accuracy of pts for me this season, it tanks pts+ast, pts+reb pts+ast+reb so main priority will be in getting pts up
+
+    [[deleted] | 1 pts]
+    [deleted]
+
+      [Relevant_Horse2066 | 1 pts]
+      I did that for regression, but I only have lines for 2025. This is the results for the season for picks with confidence &gt; 70%. Although playoffs lowered it a bit, since minutes changed and lines changed a lot the model was overconfident for bad picks
+
+https://preview.redd.it/3qec2m5ebc4f1.png?width=1737&amp;format=png&amp;auto=webp&amp;s=9ee432dc0e2f37054dcbfdfb9d3a28a1ede9a5b4
+
+        [Relevant_Horse2066 | 1 pts]
+        For confidence &gt; 60%. Less accuracy but bigger sample size 
+
+https://preview.redd.it/qy213q4qbc4f1.png?width=1694&amp;format=png&amp;auto=webp&amp;s=9f7a2fc2b83059981f6802c54f019c8e2623676e
+
+        [[deleted] | 1 pts]
+        [deleted]
+
+        [Relevant_Horse2066 | 1 pts]
+        Yeah, honestly not sure if I remember correctly but I think my r2 was 0.57 for points and rmse like 5. But I did this a year ago maybe since I started collecting lines I only did ROI simulations. Training on up to 2025 season and then predicting on it. As well as training each day and predicting for next (like in production)
+
+[Educational_Cost3607 | 2 pts]
+Where did you get your dataset?
+
+[Moogooshu | 1 pts]
+Amazing stuff! Do you plan on going commercial with it?
+
+  [Relevant_Horse2066 | 1 pts]
+  Thank you! The website is live at the moment!
+
+    [Superjohna07 | 2 pts]
+    whats the website URL?
+
+[Relevant_Horse2066 | 1 pts]
+Cheers! Yeah, this season was our beta season with webste and model, next season will hopefully be full release. Hopefully it goes well so I can do other sports
+
+[Computatrum_ | 1 pts]
+Really cool stuff. Do you mind sharing what the bug was that was causing your initial great results?
+
+  [Relevant_Horse2066 | 2 pts]
+  There were a couple along the road,I think the first one was that I messed up something with time temporality. 
+
+I was using a feature like points vs position (or something similar) and didn't shift it properly in time so it caused leakage
+
+    [Computatrum_ | 1 pts]
+    Great insight. Thank you. I am currently working on a qb props model as we speak so i was curious. Both bugs you mentioned i have run into myself and now fixed. Hoping for good metrics!
+
+      [Relevant_Horse2066 | 1 pts]
+      Yeah it's always annoying to make those mistakes, but good learning opportunities!
+
+[--Clintoris-- | 1 pts]
+Nice! 
+
+I’m interested in this space too but distracted. I’ve thought this was a great idea but it is in a space with a lot of voices claiming to have an edge. 
+
+I’m not special but I’ll give you what my idea to monetize the page was since you have half built, I’m surprised this doesn’t exist:
+
+- pull in odds from DraftKings api connecting odds to the bet url
+- have the user run a browser emulator that makes bets automatically since the bets are basically a url
+
+So they’d log on to your site with all these deep stats and grades, log in to DraftKings; then leave the site open on the background. It would take a lot of math and backend to get bet amounts but doable
+
+  [Relevant_Horse2066 | 1 pts]
+  Yeah that's definitely a challenge we are facing. How to compete with guys that claim to have 90% accuracy etc. We try to be transperent as possible and have automated results for each day and historical results. So users can see when model is performing good/bad
+
+That's an interesting idea! I'm not from the US so not sure if I can get a DraftKings api key or even create an account. I know one of our users automazied betting using our model with Flip(can't remember the name but it was like stocks) I believe and had some success
+
+[jamesrav_uk | 1 pts]
+Certainly you'll find out next season, but it does beg the question: why didn't you use real money starting Dec 1st?  You'd been developing a model going on 2 years, the season starts late October, you have a full month to get everything ready, and then .... simulation testing.  You couldn't raise $300 from friends, or is gambling not permitted in your state, or are you too young?  There is nothing like using real money, even $10 bets.  Real betting points out all the foibles:  bets not able to be made, line changes just prior to betting, etc.  I've done plenty of after-the-fact analysis and concluded that "had I bet my current system starting on \[such and such\] I'd now be up 60 units three months later".  And then I start betting with real money and things don't go so well.  If you were in fact monitoring success real-time starting Dec 1st and it showed good results by Jan 1st, how could you keep just simulation testing?  Even experimental pharma drug testing that shows good results often gets accelerated approval.
+
+The expression "the courage of your convictions"  comes to mind.  Hopefully you'll get the chance again in 6 months, or even better things happen in your life and this will be a "I'll return to this at some point again, guaranteed".
+
+  [Relevant_Horse2066 | 1 pts]
+  What makes you think I am not using real money? I'm aware of the changes prior to betting hence why I made the tool to use my model to recalculate the confidence and edge. I started making the model 2 years ago, I did not finish making the model 2 year ago. By the time I started being confident in the model enough to put a bit more money all star break and trades came, then I wasn't sure if it was going to keep performing, I didn't bet playoffs that much since the model was performing worse. But I did bet real money and it was profitable, just not life changing profitable. I am not waiting 6 months, I'm going to bet on WNB A with the new system I built.
+
+As for getting money from friends I don't know what kind of results I would need to have to do that... 
+
+BET365 Last month (although majority of it is in last 5 days): 
+
+https://preview.redd.it/2xuca08xpg4f1.png?width=525&amp;format=png&amp;auto=webp&amp;s=7b322f0595a72b99f1baf8f0c369bf8397da3b86
+
+    [Relevant_Horse2066 | 1 pts]
+    The point of mentioning the simulations and ROI is to emphasize that algo betting is a long game, if you actually have an edge (that is &lt; 10%) in order to make money you need to do it over longer period of time with proper bankroll management, but yeah I agree it's different when you actually start getting your hands dirty,  it's still a decent approximation
+
+    [jamesrav_uk | 1 pts]
+    ok, I got the impression it was strictly a simulation from Dec 1st to April, no real money.  As for asking friends, if they are impressed with your effort and feel it has a better chance than them just picking at random, you might get some takers for small 'investments' (that you completely explain could be lost entirely).  If the bankroll shows growth after a statistically significant number of bets, then you move to the next step.  
+
+As for WNBA, is the womens game similar enough to the men for the model to hold up?  With all the foreign mens leagues still underway, it seems like that's a potential option.
+
+      [Relevant_Horse2066 | 1 pts]
+      The simulation for the specific method was purely a simulation since I have developed that around a week ago.. I have been betting with researching picks with my website and model before, but now hopefully I'll just blindly follow what top 5 edge picks are so I don't have to waste time researching. 
+
+I had friends offer but it just feels weird to borrow money from friends to gamble.. I had a couple of friends that wanted to tail but profit was theirs. 
+
+
+Thing with WNBA is that the api endpoint is the same so it tooks 2 days to adapt my database/website model for WNBA. No idea how it will be in practice, but so far with the top edge method I got around 50% ROI in last 4 days, although it is small sample size and will go down. 
+
+Early results are promising, and as I mentioned above I am using men's as a prior distribution then updating it with WNBA games, the more WNBA games the less NBA games become relevant.
+
+Also the model learns about patterns regardless of league I'm not using NBA model to predict WNBA games, I built one for WNBA. One could argue that WNBA lines are less optimal and prone to shifts since the demand is lower. 
+
+Issue with foreign leagues is data gathering, I wanted to do Euroleague at first but then realized NBA had so much more data (more games more teams) and it was easier to get

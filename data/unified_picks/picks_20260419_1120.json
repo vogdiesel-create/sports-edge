@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-04-19T11:20:27.409787+00:00",
+  "bankroll": 5257.3099999999995,
+  "total_picks": 1,
+  "tier_counts": {
+    "S": 0,
+    "A": 1,
+    "B": 0
+  },
+  "total_exposure": 157.72,
+  "picks": [
+    {
+      "source": "mlb_model",
+      "sport": "MLB",
+      "market_type": "totals",
+      "game": "CIN @ MIN",
+      "side": "UNDER",
+      "market_line": 8.0,
+      "odds": -102,
+      "model_total": 8.62,
+      "our_prob": 0.5935,
+      "edge": 0.1079,
+      "poisson_total": 8.03,
+      "xgboost_total": 9.53,
+      "market_total_implied": 8.0,
+      "weather_impact": "-0.3 runs (46F, wind in 13mph)",
+      "home_pitcher": "Bailey Ober",
+      "away_pitcher": "Brady Singer",
+      "model_confidence": 0.5935,
+      "tier": "A",
+      "level1_confirms": false,
+      "level1_detail": null,
+      "side_penalty": false,
+      "kelly_pct": 3.0,
+      "wager": 157.72
+    }
+  ]
+}

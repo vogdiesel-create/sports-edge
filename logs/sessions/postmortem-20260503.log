@@ -1,0 +1,31 @@
+=== Sports Edge Analyst Session: postmortem ===
+=== 2026-05-03 05:00 UTC ===
+
+## May 2 Post-Game Review Complete
+
+### Day: 4W-7L, -$339.87
+
+**Game Model (1W-3L, -$304):**
+- BAL @ NYY over 8.5 hit again (+$143) but LAD @ STL, ATL @ COL, and MIL @ WSH all lost
+- MIL @ WSH over 8.0 lost two days in a row -- same-series leak identified
+- Cumulative now **33W-32L, -$47** -- model is break-even to negative. Not contributing.
+
+**OddsTr Sim (3W-1L, +$200):**
+- TB unders continue printing (Kwan, Tatis both easy covers)
+- Chris Sale HA under 5.5 crushed it (only 3 HA)
+- Cecconi blowup: 10 HA on u6.5 line -- need pitcher quality filter
+- Active markets: **97W-45L (68.3%), +$2,237, 15.2% ROI**
+- TB within-cap: **38W-12L (76.0%)**. Still absurd.
+
+**K-Props (0W-3L, -$236):**
+- **8 straight losses.** 51W-50L, -$599. Model is dead. Recommending permanent shutdown.
+- Bradish (4 Ks on 9+ pick), Cecconi (3 Ks on 5+ pick), Cease (5 Ks on 8+ pick) -- systematic overestimation.
+
+### Morning Priorities
+1. Grade 1 pending bet (McLean HA)
+2. Permanently disable K-Props
+3. Research pitcher quality filter for HA
+4. Research same-series filter for game model
+5. Generate May 3 picks
+
+=== Session Complete: 2026-05-03 05:04 UTC ===

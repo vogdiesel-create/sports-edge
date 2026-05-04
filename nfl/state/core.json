@@ -1,0 +1,11 @@
+{
+  "sport": "NFL",
+  "status": "RESEARCH",
+  "season_start": "2026-09-10",
+  "model_version": "0.1",
+  "target_markets": [],
+  "data_sources": [],
+  "hypotheses": [],
+  "experiments": [],
+  "last_updated": "2026-05-04"
+}

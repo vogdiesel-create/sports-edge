@@ -105,6 +105,8 @@ def grade_bet(bet, player_stats):
 
     # Total Bases (batter)
     if "total bases" in market_lower or "total base" in market_lower:
+        if stats.get("at_bats", 0) == 0:
+            return None  # Player didn't bat (DNP/bench) - can't grade
         actual = stats["total_bases"]
         if direction and line is not None:
             if direction == "under":

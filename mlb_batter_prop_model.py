@@ -784,8 +784,11 @@ def backtest():
         print(f"{lo:.0%}-{hi:.0%}    {mask.sum():>7,} {avg_pred:>9.1%} {avg_act:>9.1%} "
               f"{avg_act - avg_pred:>+9.1%}")
 
-    # Simulated ROI: if we bet on top-edge picks vs efficient market
-    print(f"\n--- Simulated ROI (top edge vs efficient market) ---")
+    # Discrimination test: can the model sort batters above/below population mean?
+    # NOTE: This is NOT ROI. "Market price" = population avg rate (no vig, no individual pricing).
+    # A positive number means the model identifies above-mean batters, not that it beats sportsbooks.
+    # Real ROI requires real historical lines, which this project doesn't have for props.
+    print(f"\n--- Discrimination Test (model vs population mean, NOT ROI) ---")
     for key in ["hr_1", "hit_1", "tb_2", "rbi_1", "runs_1"]:
         data = results[key]
         if not data["actual"]:
@@ -794,7 +797,6 @@ def backtest():
         prob = np.array(data["prob"])
         avg_rate = actual.mean()
 
-        # Edge = model prob - market prob (assume market = actual avg rate)
         edges = prob - avg_rate
         for edge_thresh in [0.03, 0.05, 0.10]:
             mask = edges >= edge_thresh
@@ -802,12 +804,12 @@ def backtest():
                 continue
             bet_actual = actual[mask].mean()
             bet_prob = prob[mask].mean()
-            # ROI = (actual win rate * payout - 1) where payout = 1/market_prob
-            # If market is efficient at avg_rate, payout = 1/avg_rate for YES bets
+            # Discrimination = (actual win rate * fair payout - 1) where fair payout = 1/avg_rate
+            # Positive = model picks above-mean batters. NOT profitability against real lines.
             payout = 1.0 / avg_rate if avg_rate > 0 else 0
-            roi = (bet_actual * payout - 1) * 100
+            disc = (bet_actual * payout - 1) * 100
             print(f"  {data['label']:<12} edge>={edge_thresh:.0%}: "
-                  f"{mask.sum():>5} bets, actual={bet_actual:.1%}, ROI={roi:+.1f}%")
+                  f"{mask.sum():>5} bets, actual={bet_actual:.1%}, disc={disc:+.1f}% (n={mask.sum()})")
 
     print(f"\nBacktest complete.")
 

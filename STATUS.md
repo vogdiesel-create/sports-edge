@@ -1,106 +1,64 @@
-# Sports Edge - Status Report
+# Sports Edge - Status (Single Source of Truth)
 
-## Dashboard
-**Live**: https://sports-edge-dashboard.netlify.app
+Last verified: 2026-05-04
 
-## Architecture (V3)
+## Active Markets (MLB only)
 
-### Data Pipeline
-```
-OddsTrader (Playwright scrape) -> 400+ props with model EV%
-SBR Scrape (requests) ----------> 10+ books game lines with Pinnacle
-Bovada API (free) --------------> 800+ prop O/U lines for devigging
-FanDuel API (free) -------------> Player props + correlation alerts
-                                      |
-                              smart_scanner.py (unified pipeline)
-                                      |
-                              data/unified_scan.json -> dashboard
-                                      |
-                  prop_grader.py + auto_grader.py (verify picks)
-                                      |
-                              data/prop_ledger.json (P&L tracking)
-```
+| Market | Status | Record | ROI | Sample | Methodology |
+|--------|--------|--------|-----|--------|-------------|
+| Total Bases (UNDER) | ACTIVE | 68W-34L (66.7%) | +11.9% | n=102 | OddsTrader EV% >= 10%, Pinnacle no-vig benchmark, graded vs MLB Stats API box scores. 15/15 spot-checks passed May 4. |
+| Pitching Hits Allowed | ACTIVE (filtered) | 18W-12L (60.0%) | +4.5% | n=30 | u4.5 or tighter only. Needs more data. |
+| Total Earned Runs | ACTIVE | 2W-1L (66.7%) | +11.9% | n=3 | Too small to evaluate. |
 
-### Proven Edge: Game Lines
-- **Source**: SBR scrape -> Pinnacle devig -> find soft book mispricing
-- **CLV**: +2.5% average, 62% positive rate (8 checked picks)
-- **Graded bets**: 2W/2L, +$4 P&L (small sample)
-- **Filter**: 3-6% edge, exclude bodog, tier by book profitability
-- **Status**: RUNNING in background every 60 min
+## Disabled Markets
 
-### Unverified: OddsTrader Prop Picks
-- **Source**: OddsTrader page scrape (Playwright)
-- **What we get**: 200+ "plus EV" props with cover probability and best odds
-- **CRITICAL FINDING**: OddsTrader's EV% = cover_prob - implied_prob (probability edge, NOT monetary EV)
-- **CRITICAL FINDING**: Cover probabilities appear inflated (39% for a defenseman to score = 2x historical rate)
-- **CRITICAL FINDING**: No Pinnacle prop data on OddsTrader (only DraftKings)
-- **Status**: Logging all picks, will grade after games complete tonight
+| Market | Record | Why Disabled | Re-enable Criteria |
+|--------|--------|-------------|-------------------|
+| Total Strikeouts | 12W-13L (48.0%) | -11.4% ROI (n=25) | Positive ROI at n>=50 |
+| Player to hit a RBI | 11W-28L (28.2%) | -26.0% ROI (n=39) | Never - structural disadvantage |
+| NHL (all) | N/A | Braxton directive Apr 29 | Braxton decision only |
 
-### Cross-Validation Engine (NEW)
-- **Source**: Bovada O/U lines -> power method devig -> cross-ref OddsTrader
-- **CRITICAL FINDING**: Only 3 of 209 OddsTrader picks confirmed by Bovada devig
-- **103 DISAGREED**: Bovada fair odds say these OT picks are NOT +EV
-- **Confirmed picks**: Ohtani hits (+20.4% edge), Hoerner RBI (+7.5%), Turner RBI (+2.1%)
-- **Implication**: OddsTrader's model is likely unreliable for most picks
+## Measurement Infrastructure
 
-### Pinnacle Prop Data (PENDING)
-- **OddsPapi.io**: Free tier, 250 req/month, includes Pinnacle props
-- **Status**: Client built (`oddspapi_client.py`), needs API key signup
-- **Action**: Sign up at oddspapi.io/en/sign-up (free, no credit card)
-- **Impact**: Would give us REAL Pinnacle prop devigging (game-line quality for props)
+- **Ledger**: `data/oddstrader_sim_ledger.json` (216 bets, unified schema with side/line/odds)
+- **Grader**: `grade_oddstrader.py` (AB=0 DNP check added May 4)
+- **CLV capture**: `clv_capture.py` (cron at 17:25 + 22:55 UTC, collecting from May 5)
+- **Spot-check**: 15/15 passed on May 4 (10 TB + 5 non-TB, verified vs MLB Stats API)
 
-## Key Learnings
+## Known Issues
 
-### Game Lines (PROVEN)
-1. Edge 2-3% = noise (-25.8% ROI). Need 3%+ minimum.
-2. Edge >6% = stale/incorrect line. Cap at 6%.
-3. Bodog is net negative. Exclude.
-4. NHL most profitable sport for game lines.
-5. +2.5% CLV avg (8 picks), 62% positive. Real edge confirmed.
+1. MLB totals backtest (`mlb_model.py`) has look-ahead leak in feature pipeline. +7.83% ROI is uninterpretable. Fix: thread as_of_date through mlb_data_pipeline.py.
+2. Batter prop backtest "ROI" was a discrimination test, not real ROI. Renamed May 4.
+3. CLV not yet collecting - starts May 5. Need n>=30 with positive median CLV to confirm edge.
+4. No real-money bets placed yet. Paper only.
 
-### Props (UNVERIFIED - GRADING IN PROGRESS)
-1. OddsTrader EV% is NOT true monetary EV. It's probability edge.
-2. No Pinnacle prop data available on OddsTrader - model-based only.
-3. Cover probabilities look inflated vs historical rates.
-4. Need 30+ graded bets to judge model accuracy.
-5. Will know after tonight's games complete.
+## Cron Schedule (all times UTC)
 
-### Data Sources
-| Source | Status | Data |
-|--------|--------|------|
-| SBR scrape | ACTIVE | 10+ books, game lines, Pinnacle included |
-| OddsTrader scrape | ACTIVE | 200+ props, model-based EV (unverified) |
-| Bovada API | ACTIVE | 800+ prop O/U lines, free |
-| FanDuel API | INTERMITTENT | Player props, correlation alerts |
-| NHL API | ACTIVE | Free boxscores for grading |
-| MLB Stats API | ACTIVE | Free boxscores for grading |
-| the-odds-api | EXHAUSTED | 0/20K remaining |
-| OddsPapi.io | PENDING SIGNUP | 350+ books incl Pinnacle, free 250 req/mo |
+| Time | Script | What |
+|------|--------|------|
+| 11:00 | refresh_2026_logs.py | Refresh season data |
+| 16:00 | oddstrader_scraper.py | Morning scrape + bet logging |
+| 17:25 | clv_capture.py | Closing lines before afternoon games |
+| 19:00 | oddstrader_scraper.py | Pre-evening scrape |
+| 22:00 | oddstrader_scraper.py | Evening scrape |
+| 22:55 | clv_capture.py | Closing lines before night games |
+| 04:30 | grade_and_log.sh | Grade yesterday's bets |
 
-## Files
+## Legacy (Archived to disabled/)
+
+- `prop_grader.py` - old grader, no side/line fields
+- `prop_ledger.json` - 1,126 entries, unverifiable OVER/UNDER P&L
+- `STRATEGIC-MEMO.md` - stale, contradicts code
+- `AUDIT-RESULTS.md` - claimed fixes that weren't deployed
+
+## Key Files
 
 | File | Purpose |
 |------|---------|
-| `smart_scanner.py` | Unified pipeline (game lines + OT props + FD + grading + CLV) |
-| `oddstrader_scraper.py` | OddsTrader Playwright scraper for +EV props |
-| `prop_grader.py` | Grade prop picks against actual results (NHL/MLB APIs) |
-| `devig_engine.py` | Independent devigging from Bovada O/U lines |
-| `auto_grader.py` | Grade game line picks against actual results |
-| `clv_tracker.py` | Closing line value tracking |
-| `data_collector.py` | Historical data accumulation (SQLite) |
-| `multi_book_props.py` | Cross-book prop comparison (Bovada vs FanDuel) |
-| `grade_all.py` | Combined grading runner (props + game lines) |
-| `dashboard.html` | Web dashboard (Netlify) |
-| `game_line_scanner.py` | SBR-based cross-book scanner |
-
-## Background Processes
-- Smart Scanner: Every 60 min, 8 cycles (PID in process)
-- Data Collector: Every 15 min (if running)
-
-## Next Steps (Priority Order)
-1. **Grade tonight's props** - Run grade_all.py after MLB games complete (~midnight ET)
-2. **Accumulate grading data** - Need 30+ graded OT props to judge model accuracy
-3. **Fix Bovada market matching** - Match Bovada devigged lines to correct OT markets
-4. **If OT model works** -> Scale up, add more sports
-5. **If OT model fails** -> Build own devigging from Bovada + FanDuel consensus
-6. **NHL SOG/assists/points** - These markets missing from OddsTrader scrape (dropdown issue)
+| `oddstrader_scraper.py` | Scrapes OddsTrader +EV props, logs to sim ledger |
+| `grade_oddstrader.py` | Grades bets against MLB Stats API box scores |
+| `clv_capture.py` | Captures closing lines for CLV measurement |
+| `mlb_batter_prop_model.py` | Walk-forward batter projection model (NegBin) |
+| `mlb_model.py` | DC + Poisson + XGBoost game totals (leak in backtest) |
+| `mlb_data_pipeline.py` | Feature pipeline (needs as_of_date fix) |
+| `data/oddstrader_sim_ledger.json` | Single source of truth for all bets |

@@ -120,8 +120,8 @@ def daily_summary():
         pnl = sum(p.get("pnl", 0) for p in graded)
         log(f"  Model props: {len(picks)} total, {len(graded)} graded, {len(won)}W-{len(graded)-len(won)}L, P&L: ${pnl:.2f}")
 
-    # OddsTrader
-    ot_path = os.path.join(DATA_DIR, "prop_ledger.json")
+    # OddsTrader (unified ledger - oddstrader_sim_ledger.json)
+    ot_path = os.path.join(DATA_DIR, "oddstrader_sim_ledger.json")
     if os.path.exists(ot_path):
         with open(ot_path) as f:
             ot = json.load(f)
@@ -129,7 +129,7 @@ def daily_summary():
         ot_graded = [b for b in ot_bets if b.get("graded")]
         ot_won = [b for b in ot_graded if b.get("won")]
         ot_pnl = sum(b.get("pnl", 0) for b in ot_graded)
-        log(f"  OddsTrader: {len(ot_bets)} total, {len(ot_graded)} graded, {len(ot_won)}W-{len(ot_graded)-len(ot_won)}L, P&L: ${ot_pnl:.2f}")
+        log(f"  OddsTrader: {len(ot_bets)} total, {len(ot_graded)} graded, {len(ot_won)}W-{len(ot_graded)-len(ot_won)}L, P&L: ${ot_pnl:.2f} (n={len(ot_graded)})")
 
 
 def run_full_pipeline():
